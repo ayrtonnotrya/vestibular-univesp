@@ -6,55 +6,58 @@ pipeline antes de escalar para os 4 vestibulares.
 
 **Princípios**
 - Pipelines Python puro + SQLite. Nada de framework web na ingesta.
-- `data/` não versionada; código versionado.
-- IA via **function calling** para classificar / pontuar / dar feedback.
+- `data/` e `tmp/` não versionadas; código, docs e `tools/` versionados.
+- IA via **function calling** para classificar / pontuar / dar feedback — e
+  via **Gemini multimodal** para a extração (validado).
 - Validar cada fase com dados reais antes de avançar.
 
 ---
 
 ## Fase 1 — Prova de Conceito (pipeline de ingesta)
 
-**Meta:** ingerir 1 prova real (UNIVESP) + 1 FUVEST no SQLite e validar
-acurácia de parse/OCR/classificação.
+**Meta:** extrair e ingerir provas reais (UNIVESP primeiro) e validar
+acurácia de extração/classificação.
 
 ### 1.1 Esqueleto do projeto
-- [ ] `pyproject.toml` (Python 3.11+, deps: pymupdf, sqlite3 stdlib, click,
-      httpx, bs4; futuro: paddleocr, langchain/llm client)
-- [ ] Criar `src/` com módulos: `downloader`, `extractor`, `parser`, `db`,
-      `ia/` (subpastas `classificar`, `dificuldade`, `feedback`), `estudo`
-- [ ] CLI em `scripts/` (click) com comandos vazios: `ingest`, `classify`,
-      `score`
-- [ ] Docker: `Dockerfile` e `docker-compose.yml` (já criados) passam a
-      buildar quando `src/` e `app/` existirem; duplicar `.env` a partir de
-      `.env.example`
+- [x] `pyproject.toml` + `src/` + `scripts/` (click) + `app/` (esqueleto)
+- [x] `tools/gemini/`: toolkit de extração via IA (Dockerfile, scripts)
+- [x] `.env.example` documentando `API_KEY`; `.env` local não versionado
 
 ### 1.2 downloader
-- [ ] Scraper determinístico das páginas oficiais (UNIVESP primeiro — alvo)
+- [ ] Scraper determinístico das páginas oficiais (UNIVESP primeiro; hoje os
+      PDFs são colocados manualmente em `data/`)
 - [ ] Fallback: agente de IA para descobrir URL quando o padrão mudar
-- [ ] Salvar em `data/<vestibular>_<ano>_<caderno>.pdf`
+- [ ] Salvar em `data/univesp_<label>_<caderno>.pdf`
 
-### 1.3 extractor (PDF → texto + imagens)
-- [ ] PyMuPDF: extrair texto por página e imagens embutidas por página
-- [ ] Detectar PDF escaneado (pouco/nenhum texto) → acionar OCR (PaddleOCR)
-- [ ] Salvar imagens em `data/imagens/` e mapear página→imagem
+### 1.3 extração (PDF → questões) — ✅ VALIDADO via Gemini
+- [x] Leitura nativa dos PDFs pelo modelo (`client.files.upload` +
+      `generateContent`, `responseMimeType=application/json`)
+- [x] Transcrição integral: enunciado, textos de apoio, alternativas a–e,
+      gabarito (do PDF oficial), redação como `tipo: "redacao"`
+- [x] Classificação prévia (áreas canônicas + assuntos do catálogo)
+- [x] Coordenadas (`bbox`) de figuras/gráficos/tabelas → `*_imagens.json`
+- [x] Saída: `data/json/univesp_<label>_questoes.json`
+- [x] **Resultado:** UNIVESP 2017–2024 — 9 exames, 525 questões (516
+      objetivas + 9 redações)
 
-### 1.4 parser (texto → questões)
-- [ ] Detectar numeração/enunciado e alternativas a–e
-- [ ] Vincular figuras da página à questão correspondente
-- [ ] Extrair gabarito quando presente no mesmo/caderno de gabarito
-- [ ] Escrever JSON intermediário em `data/json/` para inspeção manual
-- [ ] **Critério de aceite:** ≥80% das questões de um caderno corretamente
-      particionadas (verificação manual de amostra)
+### 1.4 validação e reparo — ✅ VALIDADO
+- [x] `validate.py`: gabarito vs PDF oficial (100% conferido), cobertura
+      sequencial, schema, strings de área/assunto vs `data/assuntos.json`
+- [x] `repair.py`: casamento fuzzy de assuntos divergentes com a string
+      EXATA do catálogo
+- [x] Tratamento de anulações/retificações (2019_2 Q26 `ANULADA`; 2024 Q4
+      `Retificada`)
 
 ### 1.5 db (SQLite)
 - [ ] Aplicar schema da seção 5 do doc de base (tabelas: vestibulares,
       questoes, classificacoes, dificuldades, niveis_usuarios, tentativas)
-- [ ] `import` das questões no banco a partir dos JSONs do parser
+- [ ] `import` das questões no banco a partir dos JSONs em `data/json/`
 - [ ] Seed da taxonomia de temas/áreas (fechada)
 
 ### 1.6 ia/classificar (function calling)
 - [ ] Chamada estruturada: enunciado+alternativas → `{area, tema, confianca}`
-- [ ] Validação contra taxonomia fechada
+- [ ] Validação contra taxonomia fechada (reaproveitar `areas/assuntos` já
+      presentes nos JSONs)
 - [ ] Gravar em `classificacoes`
 - [ ] **Critério de aceite:** acurácia de área ≥90%; tema revisado manualmente
 
@@ -65,8 +68,8 @@ acurácia de parse/OCR/classificação.
 
 ### 1.8 Validação da Fase 1
 - [ ] Rodar pipeline de ponta a ponta em 1 prova UNIVESP + 1 FUVEST
-- [ ] Relatório: nº questões ingeridas, acurácia parse, OCR (se houve),
-      acurácia classificação, distribuição de scores
+- [ ] Relatório: nº questões ingeridas, acurácia de extração, acurácia de
+      classificação, distribuição de scores
 - [ ] **Decisão de go/no-go** para escalar
 
 ---
@@ -110,8 +113,9 @@ acurácia de parse/OCR/classificação.
 - [ ] Controle de idempotência (não re-baixar o que já existe em `data/`)
 
 ### 3.2 Ingesta em lote
-- [ ] Script de varredura: para cada PDF em `data/`, extract→parse→import
-- [ ] Rastreabilidade: rodar classificação e score em lote com retries/rate-limit
+- [ ] Script de varredura: para cada PDF em `data/`, extract→validate→import
+- [ ] Rastreabilidade: rodar classificação e score em lote com
+      retries/rate-limit (respeitar cotas, ex.: ~15 RPM / 250 TPM)
 - [ ] Tratar redação separadamente (não é questão objetiva)
 
 ### 3.3 Qualidade
@@ -135,7 +139,8 @@ acurácia de parse/OCR/classificação.
 
 | Fase | Go/no-go | Critério |
 | --- | --- | --- |
-| 1 | Go | parse ≥80%, classificação área ≥90% no piloto |
+| 1 | Go (extração) | extração UNIVESP validada: gabaritos 100%, cobertura completa |
+| 1 | Go (restante) | SQLite + classificação área ≥90% no piloto |
 | 2 | Go | uso funciona de ponta a ponta com questões da F1 |
 | 3 | Go | piloto validado; custo/rate-limit de IA aceitável |
 | 4 | Go | desejo real de multi-usuário/product |
@@ -144,17 +149,23 @@ acurácia de parse/OCR/classificação.
 
 ## Riscos a vigiar (detalhados na seção 9 do doc de base)
 
-1. OCR de gráficos degrada a questão → sempre exibir figura junto ao texto.
-2. Gabarito UNIVESP pode vir ausente/inesperado → fonte extra/validação IA.
-3. Score low-thinking ≠ dificuldade humana → calibrar com tentativas reais.
-4. Custo/rate-limit de IA → começar pequeno, medir.
-5. Sites mudam estrutura → scraper determinístico + agente fallback.
+1. OCR/degradar figuras → IA multimodal lê PDF; `bbox` guardado p/ recorte.
+2. `pdftotext` quebra layout dos cadernos → extração via Gemini; poppler só
+   para gabaritos.
+3. Modelo de CLI não aceita anexo PDF → Gemini via API (upload), nunca
+   depender do anexo nativo do agente.
+4. Rate-limit de IA (3.7-flash bateu em ~15 RPM/250 TPM) → usar
+   `gemini-3.5-flash-lite`, 1 chamada por exame, retry/backoff.
+5. Modelo abrevia strings do catálogo → `repair.py` + `validate.py`.
+6. Gabarito anulado/retificado → tratar `anulada` e gabarito final.
+7. Sites mudam estrutura → scraper determinístico + agente fallback.
 
 ---
 
 ## Próximos passos imediatos
 
-1. Criar `pyproject.toml` e esqueleto `src/` + `scripts/` (1.1).
-2. Obter um PDF real da UNIVESP em `data/`.
-3. Implementar `extract` + `parse` (1.3–1.4) e validar com esse PDF.
-4. Aplicar schema e importar (1.5).
+1. Importar os JSONs de `data/json/` para o SQLite (seção 1.5).
+2. Adicionar FUVEST ao acervo e rodar a extração (1.3–1.4).
+3. Classificação final via function calling (1.6) reaproveitando
+   `areas/assuntos` dos JSONs.
+4. Começar o app Streamlit mínimo (2.1) com as imagens recortadas via `bbox`.

@@ -11,7 +11,7 @@ adaptativo de questões dos vestibulares **USP (FUVEST)**, **UNESP**,
 Construir um pipeline que:
 
 1. Baixa os PDFs oficiais das provas.
-2. Extrai o texto e as imagens importantes de cada questão (OCR quando
+2. Extrai o texto e as imagens importantes de cada questão (IA quando
    necessário).
 3. Quebra cada prova em questões individuais e as armazena em um banco de
    dados.
@@ -33,9 +33,12 @@ Construir um pipeline que:
 - **Interface de estudo em Streamlit** (Python puro, renderiza imagens com
   alta qualidade no navegador). Migrar para Django só se virar multi-usuário /
   produto web.
-- **OCR**: PyMuPDF para PDFs textuais; PaddleOCR/EasyOCR para PDFs escaneados.
-- **Classificação e score via IA com function calling** (ver §6 e §7).
-- **SQLite** como banco inicial.
+- **Extração (VALIDADO):** IA multimodal (Gemini) lê os PDFs nativamente e
+  retorna o JSON das questões estruturado (substitui OCR/PyMuPDF-parser na
+  prática atual — ver §6). `PyMuPDF`/`PaddleOCR` ficam como plano B para
+  PDFs que a IA não consiga ler.
+- **Classificação e score via IA com function calling** (ver §6.4 e §7).
+- **SQLite** como banco inicial (ainda não implementado).
 
 ---
 
@@ -43,6 +46,8 @@ Construir um pipeline que:
 
 - **Piloto (fase de prova de conceito):** UNIVESP + 1 prova da FUVEST.
   Validar acurácia de parse/OCR/classificação antes de escalar.
+- **Estado atual:** extração **UNIVESP 2017–2024 completa e validada**
+  (9 exames, 525 questões: 516 objetivas + 9 redações).
 - **Meta final:** as 4 instituições, todas as edições.
 
 ---
@@ -61,22 +66,12 @@ fica direto em `data/` (que é **não versionada**), e a identificação vai emb
 no **nome do arquivo**:
 
 ```
-data/
-  <vestibular>_<ano>_<caderno>.pdf
+data/univesp_<label>_questoes.pdf
+data/univesp_<label>_gabarito.pdf
 ```
 
-Exemplos:
-
-```
-data/univesp_2026_questoes.pdf
-data/univesp_2026_gabarito.pdf
-data/fuvest_2026_questoes.pdf
-data/fuvest_2026_redacao.pdf
-```
-
-Padrão de nome: `<vestibular>_<ano>_<caderno>.pdf` onde `<caderno>` é
-`questoes`, `redacao`, `gabarito` etc. As **imagens extraídas** e os **JSONs do
-parser** também ficam em `data/` (subpastas simples, não versionadas).
+Exemplos reais de `label` no acervo UNIVESP: `2017_2s`, `2018_1s`, `2018_2s`,
+`2019_2`, `2020`, `2021`, `2022`, `2023`, `2024`.
 
 ### 4.2. Estrutura geral do repositório
 
@@ -85,7 +80,7 @@ vestibular-univesp/
   docs/                    # documentação (este arquivo)
   src/
     downloader/            # baixa PDFs (scraper determinístico + fallback IA)
-    extractor/             # PDF -> texto + imagens (PyMuPDF / OCR)
+    extractor/             # PDF -> texto + imagens (PyMuPDF / OCR) — plano B
     parser/                # texto -> questões individuais (JSON estruturado)
     db/                    # schema, conexão, queries (SQLite)
     ia/
@@ -93,18 +88,21 @@ vestibular-univesp/
       dificuldade/         # score empírico via low-thinking
       feedback/            # explicação ao errar
     estudo/                # seleção adaptativa + progresso do usuário
+  tools/
+    gemini/                # VALIDADO: extração via Gemini (Dockerfile, extract/run_all/validate/repair)
   app/                     # Streamlit (interface de estudo)
   data/                    # NÃO VERSIONADA: conteúdo bruto e intermediário
-    *.pdf                  # PDFs brutos, nome <vestibular>_<ano>_<caderno>.pdf
-    json/                  # saída intermediária do parser
-    imagens/               # figuras extraídas por questão
-    vestibular.db          # banco SQLite
-  scripts/                 # CLI (click): ingere, classifica, pontua
+    *.pdf                  # PDFs brutos, nome univesp_<label>_(questoes|gabarito).pdf
+    json/                  # SAÍDA da extração (questoes + imagens por exame)
+    imagens/               # (a gerar) figuras recortadas por questão
+    vestibular.db          # banco SQLite (a criar)
+  scripts/                 # CLI (click): ingere, classifica, pontua (esqueleto)
+  tmp/                     # NÃO VERSIONADA: scratch, txt de conferência
 ```
 
 ---
 
-## 5. Modelo de dados (SQLite)
+## 5. Modelo de dados (SQLite — planejado)
 
 ```sql
 vestibulares(id, nome)                    -- univesp, fuvest, unesp, unicamp
@@ -114,7 +112,7 @@ questoes(
   vestibular_id FK,
   ano,
   materia,                -- derivada da classificação (área)
-  enunciado,              -- texto (após OCR)
+  enunciado,              -- texto (após extração)
   alternativas,           -- JSON: {a,b,c,d,e}
   gabarito,               -- letra | null (se não houver oficial)
   fonte_pdf,              -- nome do PDF bruto em data/ (ex.: univesp_2026_questoes.pdf)
@@ -162,39 +160,118 @@ tentativas(
 )
 ```
 
+Não implementado ainda — o acervo vive nos JSONs de `data/json/`.
+
 ---
 
 ## 6. Pipeline de ingesta
 
-Sequência por PDF:
+### 6.1. O QUE FUNCIONA HOJE (validado — UNIVESP 2017–2024)
 
-1. **download**: salvar em `data/` com nome `<vestibular>_<ano>_<caderno>.pdf`. `data/` não é versionada.
-2. **extract**: PyMuPDF extrai texto + imagens embutidas. Se sem texto
-   (escaneado), rodar PaddleOCR. Figuras importantes são salvas e vinculadas
-   à questão (link pelo número da página/posição).
-3. **parse**: quebrar o texto em questões (detectar numeração/enunciado,
-   alternativas a–e, gabarito quando presente). Saída JSON intermediária em
-   `data/json/` para inspeção manual.
-4. **import**: gravar no SQLite (`questoes`).
-5. **classificar**: para cada questão, IA via function calling retorna
-   `{area, tema, confianca}` a partir de uma **taxonomia fechada** de temas.
-6. **pontuar**: IA low-thinking tenta resolver a questão N vezes (N≈3–5);
+A extração é feita por **IA multimodal (Gemini)** lendo os PDFs nativamente.
+O modelo recebe o caderno de questões + o gabarito oficial (upload via
+`client.files.upload`) e transcreve/estrutura tudo em uma chamada por exame,
+com saída JSON forçada (`responseMimeType: application/json`).
+
+Fluxo (scripts em `tools/gemini/`, executados via Docker):
+
+1. **extract** (`extract.py <label>`): prompt com regras de transcrição +
+   catálogo (`data/assuntos.json`) + schema; uma chamada
+   `models/<modelo>:generateContent` por exame (~1–2,5 min), com
+   retry/backoff em 429/500/503.
+2. **saídas:**
+   - `data/json/univesp_<label>_questoes.json` (schema §6.2);
+   - `data/json/univesp_<label>_imagens.json` (coordenadas §6.3).
+3. **validate** (`validate.py`): confere gabarito vs PDF oficial, cobertura
+   sequencial, schema e strings de área/assunto vs catálogo.
+4. **repair** (`repair.py`): casa assuntos divergentes com a string EXATA do
+   catálogo (necessário porque o modelo abrevia strings).
+
+**Resultado:** 9 exames, 525 questões, gabaritos 100% conferidos.
+
+### 6.2. Schema do JSON de questões (`data/json/univesp_<label>_questoes.json`)
+
+```json
+{
+  "exame": "univesp_2021_questoes",
+  "ano": 2021,
+  "semestre": 2,
+  "fonte_questoes": "data/univesp_2021_questoes.pdf",
+  "fonte_gabarito": "data/univesp_2021_gabarito.pdf",
+  "total_questoes": 57,
+  "questoes": [
+    {
+      "numero": 1,
+      "tipo": "objetiva",
+      "enunciado": "Transcrição integral do enunciado, fórmulas em unicode.",
+      "textos_de_apoio": ["Texto de apoio/motivador, se houver."],
+      "midia": ["Página N: descrição objetiva de figura/gráfico/tabela, se houver."],
+      "alternativas": {"a": "...", "b": "...", "c": "...", "d": "...", "e": "..."},
+      "gabarito": "c",
+      "areas": [
+        {"area": "Física", "assuntos": ["...", "..."]},
+        {"area": "Matemática", "assuntos": ["..."]}
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    }
+  ]
+}
+```
+
+Regras de transcrição (rigorosas):
+- Enunciado fiel, sem resumir/corrigir. Fórmulas em unicode (`x²`, `√2`, `π`,
+  `Δ`, `10⁻³`, frações `a/b`).
+- Textos de apoio/citações/coletâneas **íntegros** em `textos_de_apoio`.
+- Figuras/gráficos/tabelas/cartuns descritos objetivamente em `midia`
+  (precedidos de "Página N:").
+- Alternativas na ordem com a letra; letra ilegível → `[ilegivel]` em
+  `extraida_parcialmente: true`.
+- Redação → `tipo: "redacao"`, `gabarito: null`, `alternativas: null`.
+- Anulação oficial → `anulada: true` com `gabarito: null` (ex.: 2019_2 Q26);
+  questão retificada mantém o gabarito final (ex.: 2024 Q4 "D - Retificada").
+
+### 6.3. Coordenadas de imagens (`data/json/univesp_<label>_imagens.json`)
+
+O modelo também informa onde cada figura/gráfico/tabela/cartum aparece, para
+futuro recorte e exibição no app:
+
+```json
+{
+  "exame": "univesp_2021",
+  "figuras_coordenadas": {
+    "4": [
+      {"pagina": 6, "tipo": "grafico", "elemento": "descrição curta",
+       "bbox": [x0, y0, x1, y1]}
+    ]
+  }
+}
+```
+
+`bbox` em **percentual** da largura/altura da página (0–100), origem no canto
+superior esquerdo. Acervo atual: 159 figuras mapeadas nos 9 exames.
+
+### 6.4. Próximos passos (a implementar)
+
+1. **import**: gravar os JSONs no SQLite (`questoes`).
+2. **classificar**: IA via function calling retorna `{area, tema, confianca}`
+   a partir da taxonomia fechada (a classificação já vem prévia nos JSONs via
+   `areas`/`assuntos` — reaproveitar/validar).
+3. **pontuar**: IA low-thinking tenta resolver a questão N vezes (N≈3–5);
    `score = acertos / tentativas`. Marca questões com gabarito ambíguo.
 
 ---
 
-## 7. Uso de IA (function calling)
+## 7. Uso de IA
 
-Todos os passos de IA usam **function calling** (chamadas estruturadas), e não
-texto livre, para produzir dados consistentes e graváveis.
-
+- **Extração (validado):** Gemini multimodal lê PDFs e devolve JSON estruturado
+  (`responseMimeType=application/json`). Modelo usado: `gemini-3.5-flash-lite`
+  (`gemini-3.7-flash` caiu em rate-limit ~15 RPM/250 TPM nesta conta).
 - **classificar**: entrada = enunciado + alternativas; saída JSON
   `{area, tema, confianca}`. Taxonomia fechada evita temas inconsistentes.
-- **dificuldade**: entrada = questão completa; o modelo resolve "low
-  thinking" e retorna a alternativa escolhida; comparada ao gabarito.
-  Repetido N vezes para robustez.
-- **feedback**: ao usuário errar, entrada = enunciado + resposta do usuário +
-  gabarito; retorna explicação didática (texto).
+- **dificuldade**: o modelo resolve "low thinking" e retorna a alternativa
+  escolhida; comparada ao gabarito. Repetido N vezes para robustez.
+- **feedback**: ao usuário errar, gera explicação didática (texto).
 
 > **Cuidado:** o score da IA é uma *estimativa* de dificuldade, não verdade
 > absoluta. Deve ser calibrado com tentativas reais do usuário ao longo do
@@ -217,18 +294,24 @@ texto livre, para produzir dados consistentes e graváveis.
 
 | Risco | Mitigação |
 | --- | --- |
-| OCR de gráficos/imagens degrada a questão | Guardar e exibir sempre a figura junto ao texto; validar piloto |
-| Gabarito ausente/inesperado (ex.: UNIVESP) | Fonte extra ou validação cruzada da IA |
+| OCR/extração de gráficos degrada a questão | IA multimodal lê PDF nativamente; guardar `bbox` das figuras (`imagens.json`) para recorte/exibição |
+| `pdftotext` quebra o layout dos cadernos | Não usar; extrair via Gemini. `pdftotext -layout` só nos gabaritos (conferência) |
+| Modelo de CLI/agente não aceita PDF | Usar Gemini via API (upload de arquivo); jamais depender do anexo nativo do agente |
+| Rate-limit/cota de IA (ex.: ~15 RPM / 250 TPM) | Retry/backoff; modelo leve `gemini-3.5-flash-lite`; 1 chamada por exame |
+| Modelo abrevia/adapta strings do catálogo | `repair.py` (fuzzy) + `validate.py` contra `data/assuntos.json` |
+| Gabarito ausente/inesperado (ex.: ANULADA/Retificada) | Ler gabarito oficial junto na chamada; tratar `anulada`/retificação |
 | Score low-thinking ≠ dificuldade humana | Usar como estimativa; calibrar com tentativas reais |
-| Custo/rate-limit de IA em larga escala | Rodar piloto pequeno antes de escalar |
+| Custo de IA em larga escala | Rodar piloto pequeno antes de escalar |
 | Sites mudam estrutura | Scraper determinístico + agente IA como fallback |
 
 ---
 
-## 10. Fases
+## 10. Fases e status
 
-- **Fase 1 — Prova de conceito:** pipeline Python + SQLite, ingesta de 1 prova
-  real (UNIVESP) + 1 FUVEST, validar parse/OCR/classificação.
+- **Fase 1 — Prova de conceito:**
+  - [x] Extração IA UNIVESP 2017–2024 (9 exames, 525 questões; gabaritos
+        100% conferidos; validação e reparo de catálogo automatizados).
+  - [ ] Import para SQLite; classificações/score (function calling).
 - **Fase 2 — Estudo:** app Streamlit lendo o SQLite (visualizar/responder/
   feedback).
 - **Fase 3 — Escala:** 4 vestibulares, todas as edições, classificação e score
