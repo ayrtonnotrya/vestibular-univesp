@@ -1,0 +1,29 @@
+services:
+  vestibular-app:
+    build: .
+    image: vestibular-app:latest
+    container_name: vestibular-app
+    command: ["streamlit", "run", "app/app.py", "--server.address", "0.0.0.0", "--server.port", "8501", "--server.headless", "true"]
+    volumes:
+      - ./data:/app/data
+      - ./app:/app/app
+    env_file:
+      - .env
+    networks:
+      - web
+
+  vestibular-pipeline:
+    build: .
+    image: vestibular-pipeline:latest
+    container_name: vestibular-pipeline
+    volumes:
+      - ./data:/app/data
+    env_file:
+      - .env
+    networks:
+      - web
+    profiles: ["ingest"] # use: docker compose --profile ingest run vestibular-pipeline ...
+
+networks:
+  web:
+    external: true
