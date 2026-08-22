@@ -78,11 +78,12 @@ acurácia de extração/classificação.
 
 **Meta:** visualizar, responder e receber feedback de questões via navegador.
 
-### 2.1 App mínimo
-- [ ] `app/app.py` (Streamlit)
-- [ ] Seleção por área/tema
-- [ ] Renderizar enunciado + imagens (`st.image`) + alternativas clicáveis
-- [ ] Registrar resposta em `tentativas`
+### 2.1 App mínimo — ✅ PARCIAL
+- [x] `app/study.py` (Streamlit): questão em cima + página (pan/zoom) embaixo
+- [x] Seleção por exame e questão
+- [x] Mostrar enunciado, textos de apoio, alternativas + gabarito
+- [x] Viewer **pan/zoom** da página original (enquadrada no `bbox` quando há)
+- [ ] Registrar resposta em `tentativas` (SQLite)
 
 ### 2.2 Seleção adaptativa
 - [ ] Pegar questão com dificuldade (~score em `dificuldades`) próxima ao
@@ -168,4 +169,10 @@ acurácia de extração/classificação.
 2. Adicionar FUVEST ao acervo e rodar a extração (1.3–1.4).
 3. Classificação final via function calling (1.6) reaproveitando
    `areas/assuntos` dos JSONs.
-4. Começar o app Streamlit mínimo (2.1) com as imagens recortadas via `bbox`.
+4. Evoluir o app (2.1 já funcional) para seleção adaptativa (2.2) e
+   feedback da IA (2.3).
+
+> **Nota (sessão atual):** a exibição de figuras foi trocada de auto-recorte
+> para **viewer pan/zoom da página inteira** (ver `docs/base-do-projeto.md`
+> §6.5). O app mostra a página enquadrada no `bbox` da figura; questões sem
+> mídia mostram a página localizada por `question_page()`.

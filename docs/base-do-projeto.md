@@ -234,7 +234,7 @@ Regras de transcrição (rigorosas):
 ### 6.3. Coordenadas de imagens (`data/json/univesp_<label>_imagens.json`)
 
 O modelo também informa onde cada figura/gráfico/tabela/cartum aparece, para
-futuro recorte e exibição no app:
+recorte/exibição e o app de estudo (ver §6.5):
 
 ```json
 {
@@ -242,14 +242,27 @@ futuro recorte e exibição no app:
   "figuras_coordenadas": {
     "4": [
       {"pagina": 6, "tipo": "grafico", "elemento": "descrição curta",
-       "bbox": [x0, y0, x1, y1]}
+       "bbox": [210, 260, 440, 780]}
     ]
   }
 }
 ```
 
-`bbox` em **percentual** da largura/altura da página (0–100), origem no canto
-superior esquerdo. Acervo atual: 159 figuras mapeadas nos 9 exames.
+> **Atenção (descoberta nesta sessão):** o `bbox` **não** é `[x0,y0,x1,y1]`
+> em percentual 0–100 como o prompt original pediu. O modelo gravou na prática
+> `[y0, x0, y1, x1]` em **escala 0–1000** (permil da dimensão da página).
+> Ou seja:
+>   `x0 = bbox[1]/1000 * W ; y0 = bbox[0]/1000 * H ; x1 = bbox[3]/1000 * W ; y1 = bbox[2]/1000 * H`
+>
+> Origem no canto superior esquerdo. Ex.: `bbox=[210,260,440,780]` em página
+> 581×751pt → região x≈151–453, y≈158–330 (o gráfico Q1 da 2024).
+>
+> Esse formato é o consumido por `app/panzoom.py` e
+> `tools/gemini/extract_images.py`. Não converter como 0–100.
+
+Acervo atual: 159 figuras mapeadas nos 9 exames (~1 a 20 por exame). As
+paginas de cada questão SEM mídia são localizadas pelo texto do enunciado via
+`question_page()` (§6.5).
 
 ### 6.4. Próximos passos (a implementar)
 
@@ -259,6 +272,47 @@ superior esquerdo. Acervo atual: 159 figuras mapeadas nos 9 exames.
    `areas`/`assuntos` — reaproveitar/validar).
 3. **pontuar**: IA low-thinking tenta resolver a questão N vezes (N≈3–5);
    `score = acertos / tentativas`. Marca questões com gabarito ambíguo.
+
+### 6.5. App de estudo e viewer pan/zoom (implementado)
+
+**Decisão desta sessão:** trocar o auto-recorte das figuras por **exibição da
+página inteira em pan/zoom**, com a figura já enquadrada quando há `bbox`. É
+mais robusto (não depende de recorte preciso) e permite ao usuário enquadrar/se
+aproximar como quiser.
+
+- `app/panzoom.py` — viewer pan/zoom da página:
+  - Renderiza a página **na hora do PDF** (PyMuPDF, `get_pixmap`), com o
+    resultado em base64 embutido num `<div>` HTML (`st.iframe`), usando
+    `transform: translate+scale`. Sem PNG pré-renderizado.
+  - **Arrastar** para mover (listeners de mouse no `window`; `<img draggable="false">`
+    impede o drag nativo que antes travava).
+  - **Zoom** pela roda do mouse, duplo-clique e botões `+`/`−`.
+  - Botões "**Página inteira**" (fit) e "**Enquadrar questão**" (volta ao bbox).
+  - Helpers com cache (`@st.cache_data`):
+    - `_page_texts(label)` — textos normalizados das páginas (uma vez/exame).
+    - `question_page(label, enunciado)` — localiza a página da questão buscando
+      o **texto do enunciado** (normalizado) nas páginas; funciona para
+      qualquer exame, mesmo quando o layout do número da questão varia.
+    - `total_pages(label)` — nº de páginas do exame.
+- `app/study.py` — interface de estudo, em um **layout único** para todas as
+  questões:
+  1. **Questão** (em cima): enunciado, textos de apoio, alternativas
+     (`st.radio` + botão Responder) com gabarito.
+  2. **Página** (embaixo): viewer pan/zoom; enquadrado no `bbox` se houver,
+     página inteira caso contrário.
+  - Página resolvida por: `figs[0]["pagina"]` (se houver `bbox`) **ou**
+    `question_page(label, enunciado)` (questões sem mídia).
+
+**Como rodar:** `docker compose up vestibular-app` (porta 8501; já na rede
+`web` do nginx-proxy-manager). O serviço usa `app/study.py` como comando.
+
+### 6.6. Auto-recorte (utilitário opcional)
+
+`tools/gemini/extract_images.py` recorta as figuras (raster via
+`get_image_info`, vetorial via cluster de `get_drawings`, expandindo com texto
+vizinho para não cortar títulos/rótulos). Saída em `data/imagens/`. **Não é
+usado pelo app** (que usa pan/zoom), mas serve para gerar os PNGs recortados em
+lote quando necessário.
 
 ---
 
@@ -281,12 +335,16 @@ superior esquerdo. Acervo atual: 159 figuras mapeadas nos 9 exames.
 
 ## 8. Interface de estudo (Streamlit)
 
-- Selecionar **tema/área**.
-- O sistema pega questão com dificuldade próxima ao **nível do usuário** no
-  tema (via `score` de `dificuldades` + `niveis_usuarios`).
-- Renderiza **enunciado + imagens** (`st.image`) + alternativas clicáveis.
-- Usuário responde → registra em `tentativas`.
-- Se errou → **feedback** da IA e atualização do `niveis_usuarios`.
+- **Estado atual (implementado):** visualização e resposta de questões a partir
+  dos JSONs, com a **página original em viewer pan/zoom** (ver §6.5). O app
+  não depende de SQLite nem de recorte de figuras.
+- **Próximo passo (adaptativo):**
+  - Selecionar **tema/área**.
+  - Pegar questão com dificuldade próxima ao **nível do usuário** no tema (via
+    `score` de `dificuldades` + `niveis_usuarios`).
+  - Renderizar **enunciado + página pan/zoom** + alternativas clicáveis.
+  - Usuário responde → registra em `tentativas`.
+  - Se errou → **feedback** da IA e atualização do `niveis_usuarios`.
 
 ---
 
@@ -312,8 +370,9 @@ superior esquerdo. Acervo atual: 159 figuras mapeadas nos 9 exames.
   - [x] Extração IA UNIVESP 2017–2024 (9 exames, 525 questões; gabaritos
         100% conferidos; validação e reparo de catálogo automatizados).
   - [ ] Import para SQLite; classificações/score (function calling).
-- **Fase 2 — Estudo:** app Streamlit lendo o SQLite (visualizar/responder/
-  feedback).
+- **Fase 2 — Estudo (parcial):**
+  - [x] App Streamlit que mostra a questão + página em **pan/zoom** (ver §6.5).
+  - [ ] Seleção adaptativa por tema/nível + feedback da IA + `tentativas`.
 - **Fase 3 — Escala:** 4 vestibulares, todas as edições, classificação e score
   em lote.
 - **Fase 4 (opcional):** multi-usuário / Django somente se virar produto.

@@ -50,14 +50,34 @@ Fluxo implementado em `tools/gemini/` (Python, roda via `gemini-runner`):
    - `data/json/univesp_<label>_questoes.json` — schema completo (ver
      `docs/base-do-projeto.md` §6).
    - `data/json/univesp_<label>_imagens.json` — bbox das figuras/grandes
-     imagens (`pagina`, `tipo`, `elemento`, `bbox` em % da página).
+     imagens (`pagina`, `tipo`, `elemento`, `bbox`).
 4. **validate**: `validate.py` confere gabarito contra o PDF oficial, cobertura
    sequencial, schema e strings de área/assunto contra o catálogo.
 5. **repair**: `repair.py` casa assuntos divergentes com a string EXATA do
    catálogo (usar quando `validate.py` acusar "assunto fora do catálogo").
 
+> **O `bbox` NÃO é `[x0,y0,x1,y1]` 0–100.** O modelo gravou `[y0,x0,y1,x1]`
+> em escala **0–1000** (permil). Converter com:
+> `x0=bbox[1]/1000*W ; y0=bbox[0]/1000*H ; x1=bbox[3]/1000*W ; y1=bbox[2]/1000*H`
+> (origem canto sup. esquerdo). Detalhes em `docs/base-do-projeto.md` §6.3.
+
 Resultado já extraído e validado: 9 exames, 525 questões (516 objetivas +
 9 redações), gabaritos 100% conferidos. Atualizar a validade ao adicionar exames.
+
+## App de estudo (Streamlit — parcialmente funcional)
+
+- `app/study.py`: interface — para cada questão, mostra **questão em cima**
+  (enunciado, textos de apoio, alternativas + gabarito) e **página embaixo** no
+  viewer pan/zoom.
+- `app/panzoom.py`:
+  - Renderiza a página na hora do PDF (PyMuPDF, `get_pixmap`) e exibe via
+    `st.iframe` num `<div>` com `transform: translate+scale`.
+  - Arrastar (pan) + zoom (roda, duplo-clique, botões `+`/`−`); botões
+    "Página inteira" e "Enquadrar questão".
+  - Helpers com cache: `question_page(label, enunciado)` (localiza a página da
+    questão pelo texto normalizado do PDF), `total_pages`, `_page_texts`.
+- **Como rodar:** `docker compose up vestibular-app` → porta `8501` (na rede
+  `web` do nginx-proxy-manager). O serviço usa `app/study.py` como comando.
 
 ## Regras do ambiente
 
@@ -78,7 +98,7 @@ Resultado já extraído e validado: 9 exames, 525 questões (516 objetivas +
 ```
 docs/              # base do projeto + plano de ação
 src/               # pipeline Python puro (download, extract, parse, db, ia/, estudo)
-app/               # Streamlit (interface de estudo — Fase 2)
+app/               # Streamlit (interface de estudo) — study.py + panzoom.py
 tools/gemini/      # toolkit validado: extração via Gemini (Dockerfile, extract/validate/repair/run_all)
 data/              # NÃO VERSIONADA: pdfs, json/, imagens/, gabaritos, vestibular.db
 tmp/               # NÃO VERSIONADA: rascunhos/scratch (gabaritos extraídos p/ conferência)
@@ -96,7 +116,9 @@ Tabelas previstas: `vestibulares`, `questoes`, `classificacoes`, `dificuldades`,
   `tools/gemini/run_all.py <labels...>`
 - Validação dos JSONs: `tools/gemini/validate.py`
 - Reparo dos assuntos: `tools/gemini/repair.py`
-- App de estudo (Fase 2): `streamlit run app/app.py` (esqueleto).
+- App de estudo (Fase 2 parcial): `docker compose up vestibular-app` → porta 8501.
+- Auto-recorte de figuras (opcional): `tools/gemini/extract_images.py <labels...>`
+  → `data/imagens/` (não é usado pelo app).
 - Lint/format (quando adicionado): `ruff check .` e `ruff format .`.
 
 ## Convenções
