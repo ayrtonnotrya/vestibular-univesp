@@ -14,6 +14,17 @@ services:
     networks:
       - web
 
+  vestibular-mcp:
+    build: .
+    image: vestibular-mcp:latest
+    container_name: vestibular-mcp
+    command: ["python", "-m", "vestibular.mcp.server"]
+    volumes:
+      - ./data:/app/data
+    networks:
+      - web
+    # sem ports: só rede interna; NÃO expor no host
+
   vestibular-pipeline:
     build: .
     image: vestibular-pipeline:latest

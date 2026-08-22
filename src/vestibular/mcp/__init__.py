@@ -1,0 +1,1 @@
+"""Servidor MCP do motor de estudo (tutor + acervo) para o AnythingLLM."""

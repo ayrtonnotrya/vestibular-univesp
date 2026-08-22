@@ -107,6 +107,29 @@ Resultado extraído e validado (gabaritos 100% conferidos):
 - **Como rodar:** `docker compose up vestibular-app` → porta `8501` (na rede
   `web` do nginx-proxy-manager). O serviço usa `app/study.py` como comando.
 
+## Servidor MCP (tutor + acervo para o AnythingLLM)
+
+- `src/vestibular/mcp/server.py` expõe o motor de estudo e o acervo como
+  ferramentas MCP via **SSE** (`FastMCP`): famílias **tutor**
+  (`proxima_questao`, `responder`, `progresso`, `niveis_por_tema`, todas com
+  parâmetro `usuario`, default `"eu"`) e **acervo** (read-only:
+  `listar_exames`, `buscar_questoes`, `gabarito_exame`).
+- **Como rodar:** `docker compose up -d vestibular-mcp` → serviço interno na
+  rede `web`, URL `http://vestibular-mcp:8891/sse`, **sem porta publicada no
+  host** (AnythingLLM alcança só pela rede).
+- **AnythingLLM:** Workspace → MCP servers → stream/SSE URL acima; provider do
+  agente configurado no próprio AnythingLLM. O sistema usa o mesmo
+  `data/vestibular.db` (volume `./data` compartilhado com o app).
+- **Regra do gabarito:** as tools devolvem o gabarito sempre (decisão do
+  usuário). O system prompt do agente no workspace deve instruir: "não revelar
+  o gabarito antes de o aluno responder"; a descrição de `proxima_questao`
+  repete o aviso.
+- Instalação do pacote `mcp`: extra opcional `.[mcp]` no pyproject; o
+  `Dockerfile` já instala `pip install -e ".[mcp]"`.
+- Para testar clientes MCP sem expor o serviço: `docker run --network web ...`
+  com a imagem base + `pip install mcp`, apontando para
+  `http://vestibular-mcp:8891/sse` (usar cópia do DB em `tmp/`, nunca o real).
+
 ## Regras do ambiente
 
 - Rodar comandos com `docker run`. Exemplo de extração completa:
@@ -148,6 +171,8 @@ contagem por `(usuario, tema)`) e `tentativas`. Pendente do plano original:
 - Validação dos JSONs: `tools/gemini/validate.py`
 - Reparo dos assuntos: `tools/gemini/repair.py`
 - App de estudo (Fase 2 parcial): `docker compose up vestibular-app` → porta 8501.
+- MCP (AnythingLLM): `docker compose up -d vestibular-mcp` →
+  `http://vestibular-mcp:8891/sse` (só rede interna `web`).
 - Auto-recorte de figuras (opcional): `tools/gemini/extract_images.py <labels...>`
   → `data/imagens/` (não é usado pelo app).
 - Lint/format (quando adicionado): `ruff check .` e `ruff format .`.
