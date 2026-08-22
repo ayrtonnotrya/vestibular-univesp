@@ -37,7 +37,7 @@ Documentação de referência:
   (`response_mime_type=application/json`). Única exceção: `pdftotext -layout`
   é útil apenas para **conferir gabaritos oficiais** (arquivos de texto).
 
-## Pipeline de extração IA (validado — UNIVESP 2017–2024)
+## Pipeline de extração IA (validado — UNIVESP 2017–2024 e FUVEST 1ª fase 2010–2026)
 
 Fluxo implementado em `tools/gemini/` (Python, roda via `gemini-runner`):
 
@@ -47,22 +47,50 @@ Fluxo implementado em `tools/gemini/` (Python, roda via `gemini-runner`):
    `models/<modelo>:generateContent` com `file_data.file_uri`. Uma chamada por
    exame (~1–2,5 min), com retry/backoff em 429/500/503.
 3. **saídas**:
-   - `data/json/univesp_<label>_questoes.json` — schema completo (ver
+   - `data/json/<label>_questoes.json` — schema completo (ver
      `docs/base-do-projeto.md` §6).
-   - `data/json/univesp_<label>_imagens.json` — bbox das figuras/grandes
+   - `data/json/<label>_imagens.json` — bbox das figuras/grandes
      imagens (`pagina`, `tipo`, `elemento`, `bbox`).
 4. **validate**: `validate.py` confere gabarito contra o PDF oficial, cobertura
    sequencial, schema e strings de área/assunto contra o catálogo.
 5. **repair**: `repair.py` casa assuntos divergentes com a string EXATA do
    catálogo (usar quando `validate.py` acusar "assunto fora do catálogo").
+6. **gabfix** (SÓ FUVEST): `gabfix.py [labels...]` sobrescreve `gabarito`/`anulada`
+   dos JSONs a partir do **texto oficial** do gabarito (`tmp/gabaritos/<label>_gabarito.txt`,
+   gerado com `pdftotext -layout`), imprimindo as divergências para conferência.
+   Usar depois do `extract` e antes/junto do `repair`.
+
+### Particularidades FUVEST (1ª fase — 90 questões, 5 alternativas)
+
+- **Labels**: `fuvest_<ano>` (2010–2026), sem semestre (caderno é anual).
+- **Gabarito multi-versão**: o PDF de gabarito traz as respostas de TODAS as
+  versões em colunas separadas (`PROVA V/K/Q/X/Z` até 2024; `PROVA V1/V2/V3/V4`
+  em 2025–26). O caderno anexado é a versão **V** (2010–2024) / **V1** (2025–26);
+  o prompt instrui o modelo a usar SOMENTE essa coluna. Conferência: o
+  `validate.py` cruza com o texto oficial (`tmp/gabaritos/*.txt`).
+- **Anuladas**: marcadas com `*` ou a palavra `ANULADA` na coluna → `gabarito:
+  null`, `anulada: true` (ex.: FUVEST 2014 Q51, 2016 Q43, 2022 Q54/Q81, 2026 Q3).
+- **PDFs antigos (2 colunas, ex.: 2010)**: o modelo perde questões no meio da
+  página em chamadas por faixa; usar **1 chamada p/ todo o PDF** (`STEP=<total>`)
+  para esses anos — foi o que tornou o 2010 íntegro (90/90).
+- **Erro comum de gabarito**: o modelo às vezes lê errado algumas células da
+  coluna ou devolve letras em MAIÚSCULA. O `gabfix.py` corrige a partir do texto
+  oficial; MAIÚSCULAS são normalizadas a minúsculas.
+- **Área inválida**: `Estatística`→`Matemática` e `Geologia`→`Geografia` já foram
+  mapeados; o catálogo usa áreas top-level sem esses nomes.
+- **Enunciado curto**: questões de figura têm enunciado enxuto (ex.: "A charge",
+  "As curvas", "Os gráficos revelam") — não são erro; o validador só acusa se for
+  curto E sem `midia`.
 
 > **O `bbox` NÃO é `[x0,y0,x1,y1]` 0–100.** O modelo gravou `[y0,x0,y1,x1]`
 > em escala **0–1000** (permil). Converter com:
 > `x0=bbox[1]/1000*W ; y0=bbox[0]/1000*H ; x1=bbox[3]/1000*W ; y1=bbox[2]/1000*H`
 > (origem canto sup. esquerdo). Detalhes em `docs/base-do-projeto.md` §6.3.
 
-Resultado já extraído e validado: 9 exames, 525 questões (516 objetivas +
-9 redações), gabaritos 100% conferidos. Atualizar a validade ao adicionar exames.
+Resultado extraído e validado (gabaritos 100% conferidos):
+- **UNIVESP**: 9 exames, 525 questões (516 objetivas + 9 redações).
+- **FUVEST 1ª fase**: 17 exames (2010–2026), 90 questões cada → **1530 questões**.
+- Total: 26 exames, **2055 questões**. Atualizar a validade ao adicionar exames.
 
 ## App de estudo (Streamlit — parcialmente funcional)
 

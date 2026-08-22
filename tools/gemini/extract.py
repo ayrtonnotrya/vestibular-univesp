@@ -20,6 +20,42 @@ PAGE_COUNTS = {
     "univesp_2022": 20, "univesp_2023": 20, "univesp_2024": 24,
 }
 
+FUVEST_PAGES = {
+    "fuvest_2010": 22, "fuvest_2011": 24, "fuvest_2012": 24, "fuvest_2013": 26,
+    "fuvest_2014": 26, "fuvest_2015": 28, "fuvest_2016": 30, "fuvest_2017": 28,
+    "fuvest_2018": 28, "fuvest_2019": 25, "fuvest_2020": 26, "fuvest_2021": 28,
+    "fuvest_2022": 26, "fuvest_2023": 28, "fuvest_2024": 36, "fuvest_2025": 34,
+    "fuvest_2026": 38,
+}
+
+
+def vestibular_context(label):
+    if label.startswith("fuvest"):
+        ano = int(re.search(r"(\d{4})", label).group(1))
+        versao = "V1" if ano >= 2025 else "V"
+        colunas = ("PROVA V1/PROVA V2/PROVA V3/PROVA V4" if ano >= 2025
+                   else "PROVA V/PROVA K/PROVA Q/PROVA X/PROVA Z")
+        return {
+            "banca": "da FUVEST (USP) — Prova de Conhecimentos Gerais (1ª fase)",
+            "n_questoes": "o caderno contém exatamente 90 questões objetivas, cada uma com 5 alternativas (a–e)",
+            "redacao": "A redação é aplicada apenas na 2ª fase; nesta prova todas as questões são objetivas (não transcreva nenhuma 'redação').",
+            "versao": versao,
+            "colunas_gabarito": colunas,
+        }
+    return {
+        "banca": "da UNIVESP (banca VUNESP)",
+        "n_questoes": "",
+        "redacao": "A redação (se o tema/coletânea aparecer nas páginas do intervalo) também deve ser transcrita, com \"tipo\": \"redacao\".",
+        "versao": None,
+        "colunas_gabarito": None,
+    }
+
+
+def page_count(label):
+    if label.startswith("fuvest"):
+        return FUVEST_PAGES.get(label, 24)
+    return PAGE_COUNTS.get(label, 24)
+
 
 def catalog_text():
     with open(CATALOG, encoding="utf-8") as f:
@@ -81,11 +117,18 @@ def call_with_fallback(parts, label):
     raise RuntimeError(f"[{label}] todas as tentativas falharam: {errs}")
 
 
-def build_instruction(label, catalog, lo, hi, total):
+def build_instruction(label, catalog, lo, hi, total, ctx):
+    if ctx["versao"]:
+        gab_rule = (f'Gabarito: o PDF de gabarito anexo contém as respostas das várias versões da prova em colunas separadas '
+                    f'({ctx["colunas_gabarito"]}). USE SOMENTE a coluna correspondente à versão do caderno anexo: {ctx["versao"]}. '
+                    f'Para cada questão objetiva, registre a letra (A–E) dessa coluna. A marca "*" na coluna indica questão ANULADA '
+                    f'→ "gabarito": null e "anulada": true.')
+    else:
+        gab_rule = 'Gabarito: use o PDF de gabarito anexo para definir a alternativa correta (A–E) de cada questão objetiva por número. Questões anuladas: "gabarito": null e "anulada": true.'
     return f"""
-Você é um engenheiro de dados especializado em provas UNIVESP (banca VUNESP). Leia os DOIS PDFs anexos: caderno de questões ("{label}_questoes.pdf", {total} páginas) e gabarito oficial ("{label}_gabarito.pdf").
+Você é um engenheiro de dados especializado em provas {ctx['banca']}. Leia os DOIS PDFs anexos: caderno de questões ("{label}_questoes.pdf", {total} páginas) e gabarito oficial ("{label}_gabarito.pdf").
 
-SCOPE: transcreva as questões do caderno localizadas nas PÁGINAS {lo} a {hi} do PDF de questões (contagem de páginas do arquivo, 1 = capa). Inclua integralmente toda questão que OCORRA nessas páginas, mesmo que continue na página seguinte. Não pegue questões que só aparecem em páginas fora desse intervalo. A redação (se o tema/coletânea aparecer nessas páginas) também deve ser transcrita.
+SCOPE: transcreva as questões do caderno localizadas nas PÁGINAS {lo} a {hi} do PDF de questões (contagem de páginas do arquivo, 1 = capa). Inclua integralmente toda questão que OCORRA nessas páginas, mesmo que continue na página seguinte. Não pegue questões que só aparecem em páginas fora desse intervalo. {ctx['redacao']}
 
 REGRAS DE TRANSCRIÇÃO (rigorosas — NUNCA invente conteúdo):
 - Transcrição INTEGRAL e fiel dos enunciados, sem resumir, corrigir ou adaptar. Fórmulas em unicode (x², √2, π, Δ, 10⁻³, frações a/b).
@@ -93,11 +136,10 @@ REGRAS DE TRANSCRIÇÃO (rigorosas — NUNCA invente conteúdo):
 - Figuras/gráficos/tabelas/imagens/cartuns: registre em "midia" uma lista com descrição objetiva do que está representado (inclua dados extraíveis), cada item precedido de "Página N: ...", onde N é a página do PDF.
 - Alternativas transcritas na ordem (a, b, c, d, e), sem alterar texto.
 - Trecho ilegível → "[ilegivel]" no lugar exato e "extraida_parcialmente": true.
-- Redação: "tipo": "redacao", "gabarito": null, "alternativas": null, coletânea em "textos_de_apoio".
-- Gabarito: use o PDF de gabarito anexo para definir a alternativa correta (A–E) de cada questão objetiva por número. Questões anuladas: "gabarito": null e "anulada": true.
+- {gab_rule}
 
 CLASSIFICAÇÃO:
-- Áreas: nomes canônicos do catálogo. Liste TODAS as áreas efetivamente cobradas para RESOLVER a questão (interdisciplinaridade), não áreas só citadas. Padrão: interpretação de texto sem outra área → "Língua Portuguesa e Literaturas"; redação → "Redação".
+- Áreas: nomes canônicos do catálogo. Liste TODAS as áreas efetivamente cobradas para RESOLVER a questão (interdisciplinaridade), não áreas só citadas. Padrão: interpretação de texto sem outra área → "Língua Portuguesa e Literaturas"; questão de língua estrangeira → "Língua Inglesa".
 - Assuntos: 1–3 por área, por proximidade SEMÂNTICA/temática, copiando o string EXATAMENTE do catálogo.
 
 COORDENADAS DE FIGURAS:
@@ -123,10 +165,10 @@ SCHEMA (responda SOMENTE com JSON válido, sem markdown):
       "figuras_coordenadas": []
     }}
   ],
-  "semestre_no_cabecalho": 1
+  "semestre_no_cabecalho": null
 }}
 - Não omita nenhuma questão do intervalo de páginas. Não duplique questões.
-- "semestre_no_cabecalho": extraia do cabeçalho do caderno ou gabarito (1/2) se explícito, senão null.
+- "semestre_no_cabecalho": extraia do cabeçalho do caderno ou gabarito (1/2) se explícito para provas semestrais, senão null.
 """
 
 
@@ -169,15 +211,17 @@ def main():
     gu, _ = upload(f"{DATA}/{label}_gabarito.pdf")
     print(f"[{label}] uploaded.", flush=True)
 
-    total_pages = PAGE_COUNTS.get(label, 24)
-    step = int(os.environ.get("STEP", total_pages))
-    print(f"[{label}] modos: step={step} (1 call) modelo={MODELFALL[0]}", flush=True)
+    total_pages = page_count(label)
+    default_step = max(1, (total_pages + 1) // 2) if label.startswith("fuvest") else total_pages
+    step = int(os.environ.get("STEP", default_step))
+    ctx = vestibular_context(label)
+    print(f"[{label}] modos: step={step} modelo={MODELFALL[0]} versao={ctx['versao']}", flush=True)
     chunks = []
     sem_node = None
     for lo in range(1, total_pages + 1, step):
         hi = min(lo + step - 1, total_pages)
         parts = [
-            {"text": build_instruction(label, cat, lo, hi, total_pages)},
+            {"text": build_instruction(label, cat, lo, hi, total_pages, ctx)},
             {"file_data": {"file_uri": qu, "mime_type": "application/pdf"}},
             {"file_data": {"file_uri": gu, "mime_type": "application/pdf"}},
         ]

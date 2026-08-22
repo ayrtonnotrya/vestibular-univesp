@@ -1,4 +1,4 @@
-"""App de estudo: responde questões UNIVESP com a página em pan/zoom.
+"""App de estudo: responde questões (UNIVESP e FUVEST) com a página em pan/zoom.
 
 Para cada questão que tem figura, mostra a página (renderizada na hora a partir
 do PDF via PyMuPDF) num viewer pan/zoom (arrastar + zoom in/out) já enquadrada
@@ -16,9 +16,12 @@ from panzoom import question_page, view_page
 DATA = Path("/app/data")
 JSON_DIR = DATA / "json"
 
-LABELS = ["univesp_2024", "univesp_2023", "univesp_2022", "univesp_2021",
-          "univesp_2020", "univesp_2019_2", "univesp_2018_2s", "univesp_2018_1s",
-          "univesp_2017_2s"]
+LABELS = [
+    *[f"fuvest_{ano}" for ano in range(2026, 2009, -1)],
+    "univesp_2024", "univesp_2023", "univesp_2022", "univesp_2021",
+    "univesp_2020", "univesp_2019_2", "univesp_2018_2s", "univesp_2018_1s",
+    "univesp_2017_2s",
+]
 
 st.set_page_config(page_title="Estudo UNIVESP", page_icon="🎓", layout="wide")
 
@@ -36,7 +39,7 @@ def load_imagens(path):
 
 
 def main():
-    st.title("🎓 Estudo UNIVESP")
+    st.title("🎓 Estudo Vestibular")
 
     sidebar = st.sidebar
     label = sidebar.selectbox("Exame", LABELS)

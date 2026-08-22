@@ -1,6 +1,7 @@
 import json
 import os
 import re
+import sys
 
 DATA = "/work/data"
 GAB = "/work/tmp/gabaritos"
@@ -9,6 +10,10 @@ CATALOG = "/work/data/assuntos.json"
 
 LABELS = ["univesp_2017_2s", "univesp_2018_1s", "univesp_2018_2s", "univesp_2019_2",
           "univesp_2020", "univesp_2021", "univesp_2022", "univesp_2023", "univesp_2024"]
+
+FUVEST_LABELS = [f"fuvest_{ano}" for ano in range(2010, 2027)]
+
+ALL = LABELS + FUVEST_LABELS
 
 
 def load_catalog():
@@ -58,10 +63,58 @@ def parse_gabarito_md(label):
     return g
 
 
+def parse_fuvest_gabarito(label):
+    """Gabarito oficial FUVEST 1ª fase (prova versão V / V1).
+
+    Formatos conhecidos:
+    2010          tabela RESPOSTA+GRUPO: letras em ordem = gabarito do grupo V;
+    2011–2017     tokens "V 01‐B  V 46‐A  ...";
+    2018–2026     pares "01-B 46-A" ou "1 B 46 C" por coluna de versão (V/V1 = 1ª coluna).
+    "*" = questão anulada (None).
+    """
+    path = f"{GAB}/{label}_gabarito.txt"
+    text = open(path, encoding="utf-8").read()
+
+    # 1) tokens por versão: "V 01-B ... V 46-A" (anulada pode vir como '*' ou 'ANULADA')
+    toks = re.findall(r"\bV\s+(\d{1,2})\s*[-‐]\s*(?:([A-E*])|(Anulada|ANULADA))\b", text)
+    if len(toks) >= 80:
+        g = {}
+        for n, let, word in toks:
+            g[int(n)] = None if (word or let == "*") else let.lower()
+        return g
+
+    # 2) tabela RESPOSTA+GRUPO (2010): cada linha tem 2 letras — a 1ª = Q(n) do grupo V,
+    #    a 2ª = Q(n+45); bloco esquerdo cobre Q1-45, direito Q46-90
+    if "GRUPO" in text:
+        left, right = [], []
+        for line in text.splitlines():
+            ls = re.findall(r"\b[A-E]\b", line)
+            if len(ls) >= 2:
+                left.append(ls[0])
+                right.append(ls[1])
+        if len(left) >= 40:
+            g = {}
+            for i, l in enumerate(left[:45]):
+                g[i + 1] = l.lower()
+            for i, l in enumerate(right[:45]):
+                g[46 + i] = l.lower()
+            return g
+
+    # 3) colunas por versão: a primeira coluna é V (ou V1); cada linha tem 2 pares (n e n+45)
+    g = {}
+    for line in text.splitlines():
+        pairs = re.findall(r"(\d{1,3})\s*[-‐–]?\s*(?:([A-E*])|(Anulada|ANULADA))", line)
+        if len(pairs) >= 4:
+            for n, let, word in pairs[0:2]:
+                g[int(n)] = None if (word or let == "*") else let.lower()
+    return g
+
+
 def main():
     areas, assuntos = load_catalog()
+    labels = sys.argv[1:] or ALL
     ok = True
-    for label in LABELS:
+    for label in labels:
         path = f"{JK}/{label}_questoes.json"
         j = json.load(open(path, encoding="utf-8"))
         qs = j["questoes"]
@@ -108,17 +161,22 @@ def main():
                     errs.append(f"Q{n}: redacao sem area Redação")
             else:
                 errs.append(f"Q{n}: tipo invalido '{q['tipo']}'")
-            if not q.get("enunciado") or len(q["enunciado"]) < 10:
+            if not q.get("extraida_parcialmente") and (not q.get("enunciado") or (len(q.get("enunciado", "")) < 10 and not q.get("midia"))):
                 errs.append(f"Q{n}: enunciado curto/ausente")
         # gabarito cross-check
-        g = parse_gabarito_md(label)
+        g = parse_fuvest_gabarito(label) if label.startswith("fuvest") else parse_gabarito_md(label)
         if g:
             for n, letter in g.items():
                 q = next((q for q in qs if q["numero"] == n), None)
                 if q is None:
                     errs.append(f"gabarito Q{n}: nao encontrada no json")
                     continue
+                if letter is None:
+                    if not q.get("anulada") or q.get("gabarito") is not None:
+                        errs.append(f"gabarito Q{n}: oficial ANULADA; json anulada={q.get('anulada')} gabarito={q.get('gabarito')}")
+                    continue
                 if q.get("anulada"):
+                    errs.append(f"gabarito Q{n}: json anulada mas oficial={letter}")
                     continue
                 if q["tipo"] == "objetiva" and q.get("gabarito") != letter:
                     errs.append(f"gabarito Q{n}: json={q.get('gabarito')} oficial={letter}")

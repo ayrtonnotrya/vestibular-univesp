@@ -9,7 +9,8 @@ JK = "/work/data/json"
 CATALOG = "/work/data/assuntos.json"
 
 LABELS = ["univesp_2017_2s", "univesp_2018_1s", "univesp_2018_2s", "univesp_2019_2",
-          "univesp_2020", "univesp_2021", "univesp_2022", "univesp_2023", "univesp_2024"]
+          "univesp_2020", "univesp_2021", "univesp_2022", "univesp_2023", "univesp_2024"] + \
+         [f"fuvest_{ano}" for ano in range(2010, 2027)]
 
 
 def norm(s):
@@ -57,6 +58,12 @@ EXPLICIT = {
         "Arcos e ângulos: medidas (graus e radianos) e relações entre arcos",
     "Arranjos, permutações e combinações simples":
         "Arranjos, permutações e combinações simples",
+    "Literatura Brasileira: Modernismo Brasileiro: 1ª Fase (1922)":
+        "Modernismo Brasileiro: 1ª Fase (1922), 2ª Fase (Geração de 30 - romance regionalista e poesia de 30) e 3ª Fase (Geração de 45/Pós-Modernismo)",
+    "Literatura Brasileira: Modernismo Brasileiro: 2ª Fase (Geração de 30 - romance regionalista e poesia de 30)":
+        "Modernismo Brasileiro: 1ª Fase (1922), 2ª Fase (Geração de 30 - romance regionalista e poesia de 30) e 3ª Fase (Geração de 45/Pós-Modernismo)",
+    "Literatura Brasileira: Modernismo Brasileiro: 3ª Fase (Geração de 45/Pós-Modernismo)":
+        "Modernismo Brasileiro: 1ª Fase (1922), 2ª Fase (Geração de 30 - romance regionalista e poesia de 30) e 3ª Fase (Geração de 45/Pós-Modernismo)",
 }
 
 
@@ -81,6 +88,9 @@ def main():
     total_unmatched = []
     for label in LABELS:
         path = f"{JK}/{label}_questoes.json"
+        if not os.path.exists(path):
+            print(f"[{label}] sem arquivo, pulado", flush=True)
+            continue
         j = json.load(open(path, encoding="utf-8"))
         fixed = 0
         for q in j["questoes"]:
