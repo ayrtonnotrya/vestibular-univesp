@@ -1,0 +1,1 @@
+"""Motor de estudo adaptativo: FSRS por tema + seleção Rasch 1PL."""

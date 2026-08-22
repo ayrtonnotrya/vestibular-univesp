@@ -9,7 +9,6 @@ num <div> HTML com transform CSS, permitindo:
 Caminho do PDF: /app/data/<label>_questoes.pdf (montado pelo docker-compose).
 """
 import base64
-import json
 import re
 from pathlib import Path
 
