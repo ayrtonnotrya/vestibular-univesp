@@ -7,6 +7,7 @@ Dois modos:
 
 Roda no docker-compose:  docker compose up vestibular-app (porta 8501).
 """
+
 import json
 from pathlib import Path
 
@@ -21,8 +22,14 @@ JSON_DIR = DATA / "json"
 
 LABELS = [
     *[f"fuvest_{ano}" for ano in range(2026, 2009, -1)],
-    "univesp_2024", "univesp_2023", "univesp_2022", "univesp_2021",
-    "univesp_2020", "univesp_2019_2", "univesp_2018_2s", "univesp_2018_1s",
+    "univesp_2024",
+    "univesp_2023",
+    "univesp_2022",
+    "univesp_2021",
+    "univesp_2020",
+    "univesp_2019_2",
+    "univesp_2018_2s",
+    "univesp_2018_1s",
     "univesp_2017_2s",
 ]
 
@@ -46,7 +53,9 @@ def _page_info(label: str, numero: int, enunciado: str):
     ji = JSON_DIR / f"{label}_imagens.json"
     imagens = load_imagens(str(ji))["figuras_coordenadas"] if ji.exists() else {}
     figs = imagens.get(str(numero), [])
-    bbox = figs[0].get("bbox") if figs and isinstance(figs[0].get("bbox"), list) else None
+    bbox = (
+        figs[0].get("bbox") if figs and isinstance(figs[0].get("bbox"), list) else None
+    )
     pagina = figs[0]["pagina"] if bbox is not None else question_page(label, enunciado)
     return pagina, bbox
 
@@ -57,8 +66,10 @@ def _render_questao(q: dict, label: str, key_suffix: str, on_responder=None):
     has_midia = bool(q.get("midia") or q.get("_midia"))
     midia = q.get("_midia", [])
     textos = q.get("_textos_de_apoio", [])
-    st.caption(f"Questão {numero} · {q['tipo']}"
-               + (f" · {len(midia)} figura(s)" if has_midia else " · sem mídia"))
+    st.caption(
+        f"Questão {numero} · {q['tipo']}"
+        + (f" · {len(midia)} figura(s)" if has_midia else " · sem mídia")
+    )
 
     with st.container(border=True):
         st.markdown(f"**{enunciado}**")
@@ -70,7 +81,9 @@ def _render_questao(q: dict, label: str, key_suffix: str, on_responder=None):
             if key not in st.session_state:
                 st.session_state[key] = None
             opcoes = {f"{k.upper()}) {v}": k for k, v in alt.items()}
-            picked = st.radio("Responda:", list(opcoes), index=None, key=f"radio_{key_suffix}")
+            picked = st.radio(
+                "Responda:", list(opcoes), index=None, key=f"radio_{key_suffix}"
+            )
             if st.button("Responder", key=f"btn_{key_suffix}"):
                 if picked is None:
                     st.warning("Escolha uma alternativa.")
@@ -82,19 +95,30 @@ def _render_questao(q: dict, label: str, key_suffix: str, on_responder=None):
                     on_responder(numero, resp)
                 else:
                     gab = q.get("gabarito")
-                    st.success(f"Você marcou {resp.upper()}." + (f" Gabarito: {gab.upper()}." if gab else ""))
+                    st.success(
+                        f"Você marcou {resp.upper()}."
+                        + (f" Gabarito: {gab.upper()}." if gab else "")
+                    )
         else:
-            st.info("Redação — dissertação." if q["tipo"] == "redacao" else "Sem alternativas.")
+            st.info(
+                "Redação — dissertação."
+                if q["tipo"] == "redacao"
+                else "Sem alternativas."
+            )
 
     pagina, bbox = _page_info(label, numero, enunciado)
     with st.container(border=True):
         st.subheader(f"📄 Página {pagina}")
         if bbox is not None:
-            st.caption("Enquadrado na figura · arraste para mover · roda ou 2 cliques para zoom · "
-                       "botões: página inteira / enquadrar questão")
+            st.caption(
+                "Enquadrado na figura · arraste para mover · roda ou 2 cliques para zoom · "
+                "botões: página inteira / enquadrar questão"
+            )
             view_page(label, pagina, bbox, height=680)
         else:
-            st.caption("Caso o texto/alternativas estejam com problema, confira a página original.")
+            st.caption(
+                "Caso o texto/alternativas estejam com problema, confira a página original."
+            )
             view_page(label, pagina, [0, 0, 1000, 1000], height=680)
 
 
@@ -124,8 +148,13 @@ def modo_explorar():
     q["_midia"] = q.get("midia", [])
     q["_textos_de_apoio"] = q.get("textos_de_apoio", [])
     with st.expander("Ver informações"):
-        st.json({"gabarito": q.get("gabarito"), "anulada": q.get("anulada"),
-                 "areas": q.get("areas")})
+        st.json(
+            {
+                "gabarito": q.get("gabarito"),
+                "anulada": q.get("anulada"),
+                "areas": q.get("areas"),
+            }
+        )
     _render_questao(q, label, f"explo_{label}_{cur}")
 
 
@@ -138,7 +167,9 @@ def modo_estudar():
         st.session_state["estudar_q"] = q
         st.session_state["estudar_aviso"] = None
         if q is None:
-            st.session_state["estudar_aviso"] = "Nada vencido para estudar. Responda antes de pedir outra."
+            st.session_state["estudar_aviso"] = (
+                "Nada vencido para estudar. Responda antes de pedir outra."
+            )
 
     aviso = st.session_state.get("estudar_aviso")
     if aviso:
@@ -148,7 +179,15 @@ def modo_estudar():
     if q is None:
         st.write("Clique em **Próxima questão** para começar a sessão adaptativa.")
     else:
-        st.caption(f"Tema: **{q['tema_nome']}**")
+        if q.get("nivel_base") == "tema":
+            st.caption(
+                f"Tema: **{q['tema_nome']}** · nível por tema {round(q['nivel_tema'], 2)} "
+                f"({q['nivel_contagem']} tentativas)"
+            )
+        else:
+            st.caption(
+                f"Tema: **{q['tema_nome']}** · θ da área {round(q.get('theta', 0.0), 2)}"
+            )
         extra = _questao_json(q["exame_label"], q["numero"]) or {}
         full = {
             "numero": q["numero"],
@@ -164,14 +203,23 @@ def modo_estudar():
         def on_responder(numero, resp):
             with connect() as con:
                 r = motiva.responder(con, usuario, q["questao_id"], resp)
-            fb = {None: "⚠️ Anulada/sem gabarito oficial", True: "✅ Correta!", False: "❌ Errada."}[r["correta"]]
+            fb = {
+                None: "⚠️ Anulada/sem gabarito oficial",
+                True: "✅ Correta!",
+                False: "❌ Errada.",
+            }[r["correta"]]
             st.session_state["estudar_fb"] = (fb, r)
             for t in r["temas"]:
                 st.session_state.setdefault("estudar_fsrs", []).append(
                     f"{q['tema_nome']} → vencimento {t['vencimento'].isoformat()} ({t['estado']})"
                 )
 
-        _render_questao(full, q["exame_label"], f"estudar_{q['questao_id']}", on_responder=on_responder)
+        _render_questao(
+            full,
+            q["exame_label"],
+            f"estudar_{q['questao_id']}",
+            on_responder=on_responder,
+        )
 
         fb = st.session_state.get("estudar_fb")
         if fb:
@@ -198,6 +246,21 @@ def modo_estudar():
             for r in rows
         ]
         st.dataframe(dados, hide_index=True, use_container_width=True)
+        with connect() as con:
+            nts = motiva.niveis_por_tema(con, usuario)
+        if nts:
+            st.markdown("#### Nível por tema")
+            dados_temas = [
+                {
+                    "Área": r["area"],
+                    "Tema": r["tema"],
+                    "Score": round(r["score"], 2),
+                    "Racha": r["racha"],
+                    "Tentativas": r["contagem"],
+                }
+                for r in nts
+            ]
+            st.dataframe(dados_temas, hide_index=True, use_container_width=True)
 
 
 def main():

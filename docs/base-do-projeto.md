@@ -143,10 +143,11 @@ dificuldades(
 niveis_usuarios(
   id PK,
   usuario,                -- nome/identificador
-  tema,                   -- ex.: progressao geometrica
-  score,                  -- média ponderada de acertos
-  racha,                  -- recente acertos / tentativas
-  qtd_tentativas
+  tema_id FK temas,
+  score,                  -- média ponderada de acertos (0..1)
+  racha,                  -- sequência atual de acertos
+  contagem,               -- qtd_tentativas
+  ultima_data
 )
 
 tentativas(
@@ -160,7 +161,11 @@ tentativas(
 )
 ```
 
-Não implementado ainda — o acervo vive nos JSONs de `data/json/`.
+Implementação parcial — o acervo vive nos JSONs de `data/json/` (importado para
+SQLite) e o motor de estudo em `src/vestibular/estudo/` já cria/usa
+`vestibulares`, `questoes`, `classificacoes`, `niveis_usuarios`, `tentativas`,
+`habilidades`, `item_params` e `fsrs_estados`. Pendente: `ia/classificar`,
+`ia/dificuldade` (score) e `ia/feedback` (Fase 1).
 
 ---
 
@@ -335,16 +340,16 @@ lote quando necessário.
 
 ## 8. Interface de estudo (Streamlit)
 
-- **Estado atual (implementado):** visualização e resposta de questões a partir
-  dos JSONs, com a **página original em viewer pan/zoom** (ver §6.5). O app
-  não depende de SQLite nem de recorte de figuras.
-- **Próximo passo (adaptativo):**
-  - Selecionar **tema/área**.
-  - Pegar questão com dificuldade próxima ao **nível do usuário** no tema (via
-    `score` de `dificuldades` + `niveis_usuarios`).
-  - Renderizar **enunciado + página pan/zoom** + alternativas clicáveis.
-  - Usuário responde → registra em `tentativas`.
-  - Se errou → **feedback** da IA e atualização do `niveis_usuarios`.
+- **Estado atual (implementado):** dois modos no app (Streamlit): *Explorar*
+  (visualização a partir dos JSONs, com página em viewer pan/zoom) e *Estudar*
+  (adaptativo via `src/vestibular/estudo/` no SQLite: FSRS agenda temas, seletor
+  Rasch escolhe a questão pelo nível do usuário — por tema quando há dados,
+  senão por área — e a resposta recalibra FSRS/θ/b/nível por tema).
+- **Próximo passo:**
+  - `ia/dificuldade` (score low-thinking) para semear `item_params.b` dos itens
+    ainda sem `b` da IA.
+  - **feedback** da IA ao errar, gravado em `tentativas.detalhe`.
+  - Expor o motor via **MCP** para tutoria em assistente (AnythingLLM).
 
 ---
 

@@ -133,10 +133,13 @@ tmp/               # NÃO VERSIONADA: rascunhos/scratch (gabaritos extraídos p/
 scripts/           # CLI (click): ingest, classify, score (esqueleto)
 ```
 
-## Schema (SQLite — planejado em docs/base-do-projeto.md)
+## Schema (SQLite — motor de estudo em `src/vestibular/estudo/`)
 
-Tabelas previstas: `vestibulares`, `questoes`, `classificacoes`, `dificuldades`,
-`niveis_usuarios`, `tentativas` (ainda não implementadas).
+Tabelas implementadas no motor: `vestibulares`, `questoes`, `classificacoes`,
+`dificuldades` (score IA — ainda sem seed), `item_params` (b Rasch),
+`fsrs_estados`, `habilidades` (θ MAP por área), `niveis_usuarios` (score/racha/
+contagem por `(usuario, tema)`) e `tentativas`. Pendente do plano original:
+`ia/dificuldade` (score), `ia/classificar`, `ia/feedback`.
 
 ## Como rodar / verificar
 

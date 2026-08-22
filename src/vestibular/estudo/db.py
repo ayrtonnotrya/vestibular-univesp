@@ -5,6 +5,7 @@ Banco único (SQLite, por padrão `data/vestibular.db`, configurável via
 dificuldades, itens (parâmetros Rasch), estados FSRS por tema, habilidades
 por área e tentativas.
 """
+
 import os
 import sqlite3
 from pathlib import Path
@@ -89,6 +90,17 @@ CREATE TABLE IF NOT EXISTS habilidades (
     var_theta REAL NOT NULL DEFAULT 2.0,
     n_obs    INTEGER NOT NULL DEFAULT 0,
     UNIQUE (usuario, area_id)
+);
+
+CREATE TABLE IF NOT EXISTS niveis_usuarios (
+    id          INTEGER PRIMARY KEY,
+    usuario     TEXT NOT NULL,
+    tema_id     INTEGER NOT NULL REFERENCES temas(id),
+    score       REAL NOT NULL DEFAULT 0.5,        -- média ponderada de acertos (0..1)
+    racha       INTEGER NOT NULL DEFAULT 0,       -- sequência atual de acertos
+    contagem    INTEGER NOT NULL DEFAULT 0,       -- qtd_tentativas
+    ultima_data TEXT,
+    UNIQUE (usuario, tema_id)
 );
 
 CREATE TABLE IF NOT EXISTS tentativas (

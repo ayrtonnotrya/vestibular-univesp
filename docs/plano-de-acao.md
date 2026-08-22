@@ -53,6 +53,9 @@ acurácia de extração/classificação.
       questoes, classificacoes, dificuldades, niveis_usuarios, tentativas)
 - [ ] `import` das questões no banco a partir dos JSONs em `data/json/`
 - [ ] Seed da taxonomia de temas/áreas (fechada)
+- [x] Motor de estudo (`src/vestibular/estudo/`): schema aplicado (à exceção de
+      `dificuldades`/score IA), `import_questoes.py`, tabelas `habilidades`,
+      `item_params`, `fsrs_estados`, `niveis_usuarios` e `tentativas`
 
 ### 1.6 ia/classificar (function calling)
 - [ ] Chamada estruturada: enunciado+alternativas → `{area, tema, confianca}`
@@ -86,17 +89,19 @@ acurácia de extração/classificação.
 - [ ] Registrar resposta em `tentativas` (SQLite)
 
 ### 2.2 Seleção adaptativa
-- [ ] Pegar questão com dificuldade (~score em `dificuldades`) próxima ao
-      nível do usuário no tema (`niveis_usuarios`)
-- [ ] Evitar questões já respondidas (ou circular)
+- [x] Pegar questão com dificuldade (b em `item_params`, logit do score IA
+      suavizado com tentativas reais) próxima ao nível do usuário no tema:
+      nível por tema (`niveis_usuarios`) quando há ≥2 tentativas, senão θ da
+      área (Rasch MAP)
+- [x] Evitar questões já respondidas (ou circular)
 
 ### 2.3 Feedback ao errar
 - [ ] Chamada IA (function calling/texto) gerando explicação didática
 - [ ] Registrar detalhe em `tentativas.detalhe`
 
 ### 2.4 Progresso do usuário
-- [ ] Atualizar `niveis_usuarios` (score, racha, contagem) por tema
-- [ ] Tela de progresso por área/tema
+- [x] Atualizar `niveis_usuarios` (score, racha, contagem) por tema
+- [x] Tela de progresso por área/tema (θ por área + nível por tema)
 
 ### 2.5 Validação da Fase 2
 - [ ] Usar de ponta a ponta com as questões da Fase 1

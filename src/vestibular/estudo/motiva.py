@@ -2,22 +2,27 @@
 
 Fluxo:
 1. FSRS responde "o que está vencido" (temas com revisão vencida ou novos);
-2. seletor escolhe a questão dentro do tema vencido;
-3. resposta => grava tentativa, atualiza FSRS do(s) tema(s), θ da(s) área(s)
-   e o `b` da questão (calibração com respostas reais).
+2. seletor escolhe a questão dentro do tema vencido — habilidade = nível por
+   tema (`niveis_usuarios`) se houver dados, senão θ da área (Rasch);
+3. resposta => grava tentativa, atualiza FSRS do(s) tema(s), θ da(s) área(s),
+   nível por tema (score/racha/contagem) e o `b` da questão (calibração).
 """
+
 import datetime as dt
 import json
 import random
 import sqlite3
 
 from . import fsrs as fsrs_mod
+from . import niveis as niveis_mod
 from . import rasch as rasch_mod
 from . import seletor as seletor_mod
 
 
 def _area_do_tema(con: sqlite3.Connection, tema_id: int) -> int:
-    return con.execute("SELECT area_id FROM temas WHERE id = ?", (tema_id,)).fetchone()["area_id"]
+    return con.execute("SELECT area_id FROM temas WHERE id = ?", (tema_id,)).fetchone()[
+        "area_id"
+    ]
 
 
 def _temas_da_questao(con: sqlite3.Connection, questao_id: int) -> list[dict]:
@@ -39,7 +44,8 @@ def proxima_questao(
     """Devolve a próxima questão (objetiva) ou None se não há nada para estudar.
 
     Retorna dict com chaves: questao_id, exame_label, numero, enunciado,
-    alternativas (dict), gabarito, tema_id, tema_nome, area_id.
+    alternativas (dict), gabarito, tema_id, tema_nome, area_id, theta,
+    nivel_base ("tema"|"area"), nivel_tema (score por tema ou None).
     """
     agora = agora or dt.datetime.now(dt.UTC)
     rng = random.Random(seed)
@@ -50,18 +56,28 @@ def proxima_questao(
     # a questão precisa ter pelo menos 1 tema vencido; tenta em ordem de R
     for t in vencidos:
         theta = rasch_mod.theta_area(con, usuario, t["area_id"])
-        q = seletor_mod.escolher(con, usuario, t["tema_id"], theta, rng, excluir_ids)
+        nivel = niveis_mod.habilidade_tema(con, usuario, t["tema_id"])
+        habilidade = nivel["valor"] if nivel["base"] == "tema" else theta
+        q = seletor_mod.escolher(
+            con, usuario, t["tema_id"], habilidade, rng, excluir_ids
+        )
         if q:
             return {
                 "questao_id": q["id"],
                 "exame_label": q["exame_label"],
                 "numero": q["numero"],
                 "enunciado": q["enunciado"],
-                "alternativas": json.loads(q["alternativas"]) if q["alternativas"] else None,
+                "alternativas": json.loads(q["alternativas"])
+                if q["alternativas"]
+                else None,
                 "gabarito": q["gabarito"],
                 "tema_id": t["tema_id"],
                 "tema_nome": t["nome"],
                 "area_id": t["area_id"],
+                "theta": theta,
+                "nivel_base": nivel["base"],
+                "nivel_tema": nivel["score"],
+                "nivel_contagem": nivel["contagem"],
             }
     return None
 
@@ -93,7 +109,7 @@ def responder(
     )
     con.commit()
 
-    # FSRS por tema + Rasch por área + b do item
+    # FSRS por tema + nível por tema + Rasch por área + b do item
     temas = _temas_da_questao(con, questao_id)
     areas = {t["area_id"] for t in temas}
     atualizacoes_fsrs = []
@@ -103,6 +119,11 @@ def responder(
         atualizacoes_fsrs.append(
             fsrs_mod.revisar(con, usuario, t["tema_id"], bool(correta), agora)
         )
+    atuais_niveis = (
+        niveis_mod.atualiza(con, usuario, questao_id, correta, agora)
+        if correta is not None
+        else []
+    )
     for area_id in areas:
         if correta is None:
             continue
@@ -116,11 +137,22 @@ def responder(
         "gabarito": q["gabarito"],
         "correta": correta,
         "temas": atualizacoes_fsrs,
+        "niveis": atuais_niveis,
     }
 
 
+def niveis_por_tema(con: sqlite3.Connection, usuario: str) -> list[dict]:
+    """Níveis por tema do usuário (score, racha, contagem) com nomes de área/tema."""
+    return niveis_mod.niveis_usuario(con, usuario)
+
+
 def progresso(con: sqlite3.Connection, usuario: str) -> list[dict]:
-    """Resumo por área: theta, variância, nº de tentativas e temas vencidos."""
+    """Resumo por área: theta, variância, nº de tentativas, temas vencidos e os
+    níveis por tema da área."""
+    niveis = niveis_mod.niveis_usuario(con, usuario)
+    por_area: dict[int, list[dict]] = {}
+    for n in niveis:
+        por_area.setdefault(n["area_id"], []).append(n)
     rows = con.execute(
         """SELECT a.id AS area_id, a.nome AS area,
                   h.theta, h.var_theta, h.n_obs,
@@ -137,4 +169,9 @@ def progresso(con: sqlite3.Connection, usuario: str) -> list[dict]:
             usuario,
         ),
     ).fetchall()
-    return [dict(r) for r in rows]
+    out = []
+    for r in rows:
+        item = dict(r)
+        item["temas"] = por_area.get(item["area_id"], [])
+        out.append(item)
+    return out
