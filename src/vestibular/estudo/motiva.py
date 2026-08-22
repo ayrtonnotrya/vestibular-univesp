@@ -53,7 +53,11 @@ def proxima_questao(
     if not vencidos:
         return None
 
-    # a questão precisa ter pelo menos 1 tema vencido; tenta em ordem de R
+    # candidatos: temas vencidos com questão disponível. Revisões atrasadas
+    # (r não-None) têm prioridade, mas o desempate aleatório entre os mais
+    # urgentes + amostra de temas novos faz o estudo alternar de assunto em vez
+    # de prender sempre no mesmo tema (desempate alfabético do vencidos).
+    candidatos = []
     for t in vencidos:
         theta = rasch_mod.theta_area(con, usuario, t["area_id"])
         nivel = niveis_mod.habilidade_tema(con, usuario, t["tema_id"])
@@ -62,24 +66,37 @@ def proxima_questao(
             con, usuario, t["tema_id"], habilidade, rng, excluir_ids
         )
         if q:
-            return {
-                "questao_id": q["id"],
-                "exame_label": q["exame_label"],
-                "numero": q["numero"],
-                "enunciado": q["enunciado"],
-                "alternativas": json.loads(q["alternativas"])
-                if q["alternativas"]
-                else None,
-                "gabarito": q["gabarito"],
-                "tema_id": t["tema_id"],
-                "tema_nome": t["nome"],
-                "area_id": t["area_id"],
-                "theta": theta,
-                "nivel_base": nivel["base"],
-                "nivel_tema": nivel["score"],
-                "nivel_contagem": nivel["contagem"],
-            }
-    return None
+            candidatos.append((t, q, theta, nivel))
+    if not candidatos:
+        return None
+
+    def chave(c):
+        t = c[0]
+        return (
+            0 if t["r"] is not None else 1,
+            t["r"] if t["r"] is not None else 0.0,
+            rng.random(),
+        )
+
+    candidatos.sort(key=chave)
+    t, q, theta, nivel = rng.choice(candidatos[: min(6, len(candidatos))])
+    return {
+        "questao_id": q["id"],
+        "exame_label": q["exame_label"],
+        "numero": q["numero"],
+        "enunciado": q["enunciado"],
+        "alternativas": json.loads(q["alternativas"])
+        if q["alternativas"]
+        else None,
+        "gabarito": q["gabarito"],
+        "tema_id": t["tema_id"],
+        "tema_nome": t["nome"],
+        "area_id": t["area_id"],
+        "theta": theta,
+        "nivel_base": nivel["base"],
+        "nivel_tema": nivel["score"],
+        "nivel_contagem": nivel["contagem"],
+    }
 
 
 def responder(
