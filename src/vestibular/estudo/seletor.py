@@ -14,8 +14,8 @@ import sqlite3
 
 def _questoes_tema(con: sqlite3.Connection, tema_id: int) -> list[dict]:
     return con.execute(
-        """SELECT q.id, q.numero, q.exame_label, q.enunciado, q.alternativas,
-                  q.gabarito, q.tipo
+        """SELECT q.id, q.numero, q.exame_label, q.enunciado, q.textos_de_apoio,
+                  q.midia, q.alternativas, q.gabarito, q.tipo
            FROM questoes q
            JOIN classificacoes c ON c.questao_id = q.id
            WHERE c.tema_id = ? AND q.tipo = 'objetiva' AND q.anulada = 0

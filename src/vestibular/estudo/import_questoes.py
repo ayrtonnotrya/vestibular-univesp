@@ -48,8 +48,9 @@ def import_questoes_json(
         con.execute(
             """INSERT OR IGNORE INTO questoes
                  (vestibular_id, exame_label, ano, numero, tipo, enunciado,
-                  alternativas, gabarito, fonte_pdf, anulada, extraida_parcialmente)
-               VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+                  textos_de_apoio, midia, alternativas, gabarito, fonte_pdf,
+                  anulada, extraida_parcialmente)
+               VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
             (
                 vid,
                 label,
@@ -57,6 +58,8 @@ def import_questoes_json(
                 numero,
                 tipo,
                 q.get("enunciado"),
+                json.dumps(q.get("textos_de_apoio", []), ensure_ascii=False),
+                json.dumps(q.get("midia", []), ensure_ascii=False),
                 json.dumps(q.get("alternativas"), ensure_ascii=False) if q.get("alternativas") else None,
                 gab if gab and not q.get("anulada") else None,
                 j.get("fonte_questoes"),
@@ -68,6 +71,15 @@ def import_questoes_json(
             "SELECT id FROM questoes WHERE exame_label = ? AND numero = ?",
             (label, numero),
         ).fetchone()["id"]
+        con.execute(
+            """UPDATE questoes SET textos_de_apoio = ?, midia = ?
+               WHERE id = ?""",
+            (
+                json.dumps(q.get("textos_de_apoio", []), ensure_ascii=False),
+                json.dumps(q.get("midia", []), ensure_ascii=False),
+                qid,
+            ),
+        )
 
         # classificações (área/assunto conforme o catálogo fechado)
         for a in q.get("areas", []):

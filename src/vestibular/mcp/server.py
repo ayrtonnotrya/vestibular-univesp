@@ -36,10 +36,22 @@ def _alternativas(texto: str | None) -> dict | None:
     return json.loads(texto)
 
 
+def _json_lista(texto: str | None) -> list:
+    if not texto:
+        return []
+    try:
+        lst = json.loads(texto)
+        return lst if isinstance(lst, list) else []
+    except json.JSONDecodeError:
+        return []
+
+
 @mcp.tool()
 def proxima_questao(usuario: str = "eu") -> str:
     """Próxima questão do ZPD (FSRS + Rasch + nível por tema). Retorna JSON com
-    enunciado (completo), alternativas, tema, área, nível base e gabarito.
+    enunciado, textos_de_apoio e midia (texto da questão COMPLETO — o enunciado
+    curto é complementado por esses campos), alternativas, tema, área, nível
+    base e gabarito.
 
     IMPORTANTE: não revelar o gabarito ao aluno antes de ele responder; use o
     campo só para conferir a resposta em `responder`."""
@@ -108,8 +120,9 @@ def buscar_questoes(
     limite: int = 20,
 ) -> str:
     """Busca questões no acervo por exame (ex.: 'fuvest_2024'), número, área ou
-    assunto (tema do catálogo). Retorna JSON (array) com enunciado (completo),
-    alternativas, gabarito, temas e áreas; `limite` vai até 100."""
+    assunto (tema do catálogo). Retorna JSON (array) com enunciado, textos_de_apoio
+    e midia (texto da questão COMPLETO — o enunciado curto é complementado por
+    esses campos), alternativas, gabarito, temas e áreas; `limite` vai até 100."""
     limite = max(1, min(int(limite), 100))
     condicoes = []
     params: list = []
@@ -138,7 +151,7 @@ def buscar_questoes(
     with connect() as con:
         rows = con.execute(
             f"""SELECT q.id, q.exame_label, q.ano, q.numero, q.tipo, q.enunciado,
-                       q.alternativas, q.gabarito, q.anulada,
+                       q.textos_de_apoio, q.midia, q.alternativas, q.gabarito, q.anulada,
                        (SELECT GROUP_CONCAT(DISTINCT a.nome) FROM classificacoes c
                           JOIN temas t ON t.id = c.tema_id
                           JOIN areas a ON a.id = t.area_id
@@ -155,6 +168,8 @@ def buscar_questoes(
     out = []
     for r in rows:
         d = dict(r)
+        d["textos_de_apoio"] = _json_lista(d.pop("textos_de_apoio"))
+        d["midia"] = _json_lista(d.pop("midia"))
         d["alternativas"] = _alternativas(d.pop("alternativas"))
         out.append(d)
     return _json(out)

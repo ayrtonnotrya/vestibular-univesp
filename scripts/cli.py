@@ -51,6 +51,9 @@ def proxima(usuario: str) -> None:
         click.echo("Nada vencido para estudar.")
         return
     click.echo(f"[{q['tema_nome']}] #{q['numero']} ({q['exame_label']})")
+    for apoio in q.get("textos_de_apoio", []):
+        click.echo(apoio)
+        click.echo()
     click.echo(q["enunciado"])
     for letra, txt in (q["alternativas"] or {}).items():
         click.echo(f"  {letra}) {txt}")

@@ -60,21 +60,50 @@ def _page_info(label: str, numero: int, enunciado: str):
     return pagina, bbox
 
 
+_OBS_PREFIXOS = (
+    "note e adote",
+    "nota e adote",
+    "obs.:",
+    "obs:",
+    "observação",
+    "glossário",
+    "dados:",
+    "dado:",
+)
+
+
+def _separar_observacoes(apoios: list[str]) -> tuple[list[str], list[str]]:
+    """Separa parágrafos de leitura (contexto do enunciado) de blocos de
+    observação (Note e adote, Dados:, Glossário: etc.)."""
+    leituras, obs = [], []
+    for a in apoios:
+        inicio = a.strip().lower()
+        if inicio.startswith(_OBS_PREFIXOS):
+            obs.append(a)
+        else:
+            leituras.append(a)
+    return leituras, obs
+
+
 def _render_questao(q: dict, label: str, key_suffix: str, on_responder=None):
     """Renderiza questão (em cima) + página pan/zoom (embaixo)."""
     numero, enunciado = q["numero"], q["enunciado"]
     has_midia = bool(q.get("midia") or q.get("_midia"))
     midia = q.get("_midia", [])
-    textos = q.get("_textos_de_apoio", [])
+    leituras, obs = _separar_observacoes(q.get("_textos_de_apoio", []))
     st.caption(
         f"Questão {numero} · {q['tipo']}"
         + (f" · {len(midia)} figura(s)" if has_midia else " · sem mídia")
     )
 
     with st.container(border=True):
+        for apoio in leituras:
+            st.markdown(apoio)
         st.markdown(f"**{enunciado}**")
-        for apoio in textos:
-            st.markdown(f"> {apoio}")
+        if obs:
+            st.markdown("---")
+            for a in obs:
+                st.markdown(f"> {a}")
         alt = q.get("alternativas")
         if alt:
             key = f"resp_{key_suffix}"

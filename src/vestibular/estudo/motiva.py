@@ -34,6 +34,16 @@ def _temas_da_questao(con: sqlite3.Connection, questao_id: int) -> list[dict]:
     ).fetchall()
 
 
+def _json_lista(texto: str | None) -> list:
+    if not texto:
+        return []
+    try:
+        lst = json.loads(texto)
+        return lst if isinstance(lst, list) else []
+    except json.JSONDecodeError:
+        return []
+
+
 def proxima_questao(
     con: sqlite3.Connection,
     usuario: str,
@@ -44,8 +54,9 @@ def proxima_questao(
     """Devolve a próxima questão (objetiva) ou None se não há nada para estudar.
 
     Retorna dict com chaves: questao_id, exame_label, numero, enunciado,
-    alternativas (dict), gabarito, tema_id, tema_nome, area_id, theta,
-    nivel_base ("tema"|"area"), nivel_tema (score por tema ou None).
+    textos_de_apoio, midia, alternativas (dict), gabarito, tema_id, tema_nome,
+    area_id, theta, nivel_base ("tema"|"area"), nivel_tema (score por tema ou
+    None).
     """
     agora = agora or dt.datetime.now(dt.UTC)
     rng = random.Random(seed)
@@ -85,6 +96,8 @@ def proxima_questao(
         "exame_label": q["exame_label"],
         "numero": q["numero"],
         "enunciado": q["enunciado"],
+        "textos_de_apoio": _json_lista(q["textos_de_apoio"]),
+        "midia": _json_lista(q["midia"]),
         "alternativas": json.loads(q["alternativas"])
         if q["alternativas"]
         else None,

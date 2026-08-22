@@ -38,6 +38,8 @@ CREATE TABLE IF NOT EXISTS questoes (
     numero               INTEGER NOT NULL,
     tipo                 TEXT NOT NULL,           -- objetiva | redacao
     enunciado            TEXT,
+    textos_de_apoio      TEXT,                    -- JSON (array de parágrafos de contexto)
+    midia                TEXT,                    -- JSON (array de descrições de figuras)
     alternativas         TEXT,                    -- JSON {a..e}
     gabarito             TEXT,                    -- a-e | null (redacao/anulada)
     fonte_pdf            TEXT,
@@ -115,11 +117,19 @@ CREATE TABLE IF NOT EXISTS tentativas (
 """
 
 
+def _migrar_questoes(con: sqlite3.Connection) -> None:
+    cols = {r[1] for r in con.execute("PRAGMA table_info(questoes)")}
+    for nome in ("textos_de_apoio", "midia"):
+        if nome not in cols:
+            con.execute(f"ALTER TABLE questoes ADD COLUMN {nome} TEXT")
+
+
 def connect(db_path: str | Path | None = None) -> sqlite3.Connection:
     path = Path(db_path) if db_path else DB_PATH
     path.parent.mkdir(parents=True, exist_ok=True)
     con = sqlite3.connect(str(path))
     con.row_factory = sqlite3.Row
     con.executescript(SCHEMA)
+    _migrar_questoes(con)
     con.commit()
     return con
