@@ -144,8 +144,10 @@ Resultado extraído e validado (gabaritos 100% conferidos):
     -v "$PWD":/work gemini-runner \
     python run_all.py univesp_2025
   ```
-- Nunca commitar segredos, PDFs ou dados (`.env`, `data/`, `tmp/` são
-  ignorados). Nada é versionado exceto código, docs e `tools/`.
+- Nunca commitar segredos, PDFs ou dados brutos (`.env`, `tmp/` e quase todo
+  `data/` são ignorados). Exceções versionadas: `data/assuntos.json` (catálogo
+  curado) e `data/json/*_questoes.json` + `*_imagens.json` (dados extraídos e
+  validados). De resto, só código, docs e `tools/` são versionados.
 - Não commitar a chave de API nem expor `figuras` de provas fora do repo.
 
 ## Estrutura
@@ -155,7 +157,8 @@ docs/              # base do projeto + plano de ação
 src/               # pipeline Python puro (download, extract, parse, db, ia/, estudo)
 app/               # Streamlit (interface de estudo) — study.py + panzoom.py
 tools/gemini/      # toolkit validado: extração via Gemini (Dockerfile, extract/validate/repair/run_all)
-data/              # NÃO VERSIONADA: pdfs, json/, imagens/, gabaritos, vestibular.db
+data/              # QUASE NÃO VERSIONADA: pdfs, json/ (exceção: assuntos.json e
+                   # data/json/*_questoes.json + *_imagens.json versionados), imagens/, vestibular.db
 tmp/               # NÃO VERSIONADA: rascunhos/scratch (gabaritos extraídos p/ conferência)
 scripts/           # CLI (click): ingest, classify, score (esqueleto)
 ```
