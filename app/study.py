@@ -340,6 +340,7 @@ def modo_estudar():
             )
         st.session_state["estudar_q"] = q
         st.session_state["estudar_aviso"] = None
+        st.session_state.pop("estudar_fb", None)
         if q is None:
             filtrado = area_id is not None or tema_id is not None
             st.session_state["estudar_aviso"] = (
