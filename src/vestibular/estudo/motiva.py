@@ -133,6 +133,50 @@ def proxima_questao(
     }
 
 
+def questao_por_id(
+    con: sqlite3.Connection,
+    usuario: str,
+    questao_id: int,
+) -> dict | None:
+    """Reconstrói o dict (mesma forma de `proxima_questao`) de uma questão
+    específica — usado para restaurar a questão após reload/refresh."""
+    q = con.execute(
+        """SELECT id, exame_label, numero, enunciado, textos_de_apoio, midia,
+                  alternativas, gabarito
+           FROM questoes
+           WHERE id = ? AND tipo = 'objetiva' AND anulada = 0
+                 AND gabarito IS NOT NULL""",
+        (questao_id,),
+    ).fetchone()
+    if q is None:
+        return None
+    temas = _temas_da_questao(con, questao_id)
+    if not temas:
+        return None
+    t = temas[0]
+    theta = rasch_mod.theta_area(con, usuario, t["area_id"])
+    nivel = niveis_mod.habilidade_tema(con, usuario, t["tema_id"])
+    return {
+        "questao_id": q["id"],
+        "exame_label": q["exame_label"],
+        "numero": q["numero"],
+        "enunciado": q["enunciado"],
+        "textos_de_apoio": _json_lista(q["textos_de_apoio"]),
+        "midia": _json_lista(q["midia"]),
+        "alternativas": json.loads(q["alternativas"])
+        if q["alternativas"]
+        else None,
+        "gabarito": q["gabarito"],
+        "tema_id": t["tema_id"],
+        "tema_nome": t["nome"],
+        "area_id": t["area_id"],
+        "theta": theta,
+        "nivel_base": nivel["base"],
+        "nivel_tema": nivel["score"],
+        "nivel_contagem": nivel["contagem"],
+    }
+
+
 def responder(
     con: sqlite3.Connection,
     usuario: str,

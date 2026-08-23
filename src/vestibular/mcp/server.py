@@ -98,6 +98,24 @@ def niveis_por_tema(usuario: str = "eu") -> str:
 
 
 @mcp.tool()
+def questoes_respondidas(usuario: str = "eu") -> str:
+    """Histórico de respostas do usuário: cada tentativa com exame, número,
+    resposta dada, se o gabarito é null (anulada) e o acerto (0/1 | null se
+    anulada), data e detalhe (JSON). Retorna JSON (array por tentativa)."""
+    with connect() as con:
+        rows = con.execute(
+            """SELECT t.id, t.questao_id, q.exame_label, q.numero, q.enunciado,
+                      t.resposta, q.gabarito, q.anulada, t.correta, t.data, t.detalhe
+               FROM tentativas t
+               JOIN questoes q ON q.id = t.questao_id
+               WHERE t.usuario = ?
+               ORDER BY t.data, t.id""",
+            (usuario,),
+        ).fetchall()
+    return _json([dict(r) for r in rows])
+
+
+@mcp.tool()
 def relatorio_provas(
     vestibular: str = "univesp", nivel: str = "todos", limite: int = 0
 ) -> str:
