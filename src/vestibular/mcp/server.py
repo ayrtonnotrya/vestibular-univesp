@@ -14,7 +14,7 @@ import json
 
 from mcp.server.fastmcp import FastMCP
 
-from vestibular.estudo import motiva
+from vestibular.estudo import frequencia, motiva
 from vestibular.estudo.db import connect
 
 mcp = FastMCP("vestibular", host="0.0.0.0", port=8891)
@@ -95,6 +95,23 @@ def niveis_por_tema(usuario: str = "eu") -> str:
     com nomes de área/tema. Retorna JSON (array por tema)."""
     with connect() as con:
         return _json(motiva.niveis_por_tema(con, usuario))
+
+
+@mcp.tool()
+def relatorio_provas(
+    vestibular: str = "univesp", nivel: str = "todos", limite: int = 0
+) -> str:
+    """Relatório de frequência das provas (padrão UNIVESP): contagens reais de
+    questões por área, tema e exame, com a proporção do total de classificações.
+    Escopo em `vestibular`: 'univesp' | 'fuvest' | 'todos'. Granularidade em
+    `nivel`: 'todos' (resumo + área + tema + por exame), 'area', 'tema' ou
+    'exame'; `limite` > 0 corta os rankings área/tema nos top-N (0 = todos).
+    Inclui redação (área 'Redação'); uma questão pode contar em mais de um
+    tema. Útil para escolher as áreas mais cobradas. Retorna JSON (documento
+    único)."""
+    limite = max(0, min(int(limite or 0), frequencia.LIMITE_MAX))
+    with connect() as con:
+        return _json(frequencia.relatorio(con, vestibular, nivel, limite))
 
 
 @mcp.tool()

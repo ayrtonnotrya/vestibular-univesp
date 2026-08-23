@@ -113,7 +113,11 @@ Resultado extraído e validado (gabaritos 100% conferidos):
   ferramentas MCP via **SSE** (`FastMCP`): famílias **tutor**
   (`proxima_questao`, `responder`, `progresso`, `niveis_por_tema`, todas com
   parâmetro `usuario`, default `"eu"`) e **acervo** (read-only:
-  `listar_exames`, `buscar_questoes`, `gabarito_exame`).
+  `listar_exames`, `relatorio_provas`, `buscar_questoes`, `gabarito_exame`).
+  `relatorio_provas(vestibular='univesp', nivel='todos', limite=0)` devolve o
+  relatório de frequência real (contagens de `classificacoes`, inclui redação;
+  uma questão pode contar em mais de um tema) com scoring por área/tema e por
+  exame — usar para escolher as áreas mais cobradas.
 - **Como rodar:** `docker compose up -d vestibular-mcp` → serviço interno na
   rede `web`, URL `http://vestibular-mcp:8891/sse`, **sem porta publicada no
   host** (AnythingLLM alcança só pela rede).
