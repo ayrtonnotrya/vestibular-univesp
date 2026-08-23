@@ -85,8 +85,13 @@ def _separar_observacoes(apoios: list[str]) -> tuple[list[str], list[str]]:
     return leituras, obs
 
 
-def _render_questao(q: dict, label: str, key_suffix: str, on_responder=None):
-    """Renderiza questão (em cima) + página pan/zoom (embaixo)."""
+def _render_questao(
+    q: dict, label: str, key_suffix: str, on_responder=None, feedback=None
+):
+    """Renderiza questão (em cima) + página pan/zoom (embaixo).
+
+    `feedback` (callable ou None) renderiza o resultado da resposta entre a
+    questão e a página, se fornecido."""
     numero, enunciado = q["numero"], q["enunciado"]
     has_midia = bool(q.get("midia") or q.get("_midia"))
     midia = q.get("_midia", [])
@@ -118,22 +123,24 @@ def _render_questao(q: dict, label: str, key_suffix: str, on_responder=None):
                     st.warning("Escolha uma alternativa.")
                 else:
                     st.session_state[key] = opcoes[picked]
+                    if on_responder is not None:
+                        on_responder(numero, opcoes[picked])
             resp = st.session_state.get(key)
-            if resp is not None:
-                if on_responder is not None:
-                    on_responder(numero, resp)
-                else:
-                    gab = q.get("gabarito")
-                    st.success(
-                        f"Você marcou {resp.upper()}."
-                        + (f" Gabarito: {gab.upper()}." if gab else "")
-                    )
+            if resp is not None and on_responder is None:
+                gab = q.get("gabarito")
+                st.success(
+                    f"Você marcou {resp.upper()}."
+                    + (f" Gabarito: {gab.upper()}." if gab else "")
+                )
         else:
             st.info(
                 "Redação — dissertação."
                 if q["tipo"] == "redacao"
                 else "Sem alternativas."
             )
+
+    if feedback is not None:
+        feedback()
 
     pagina, bbox = _page_info(label, numero, enunciado)
     with st.container(border=True):
@@ -159,8 +166,18 @@ def _questao_json(label: str, numero: int) -> dict | None:
     return next((x for x in questoes if x["numero"] == numero), None)
 
 
+def _questao_db_id(label: str, numero: int) -> int | None:
+    with connect() as con:
+        row = con.execute(
+            "SELECT id FROM questoes WHERE exame_label = ? AND numero = ?",
+            (label, numero),
+        ).fetchone()
+    return row["id"] if row else None
+
+
 def modo_explorar():
     sidebar = st.sidebar
+    usuario = sidebar.text_input("Usuário", value="eu") or "eu"
     label = sidebar.selectbox("Exame", LABELS)
     jq = JSON_DIR / f"{label}_questoes.json"
     if not jq.exists():
@@ -184,7 +201,50 @@ def modo_explorar():
                 "areas": q.get("areas"),
             }
         )
-    _render_questao(q, label, f"explo_{label}_{cur}")
+
+    questao_id = _questao_db_id(label, q["numero"])
+    if questao_id is None:
+        st.caption(
+            "Questão ainda não importada no banco — resposta não é computada nos índices."
+        )
+    fb_key = f"explo_fb_{label}_{cur}"
+
+    def on_responder(numero, resp):
+        if questao_id is not None:
+            with connect() as con:
+                r = motiva.responder(con, usuario, questao_id, resp)
+            correta, gabarito = r["correta"], r["gabarito"]
+        else:
+            gabarito = q.get("gabarito")
+            correta = (
+                None
+                if not gabarito
+                else resp.strip().lower() == gabarito.strip().lower()
+            )
+        fb = {
+            None: "⚠️ Anulada/sem gabarito oficial",
+            True: "✅ Correta!",
+            False: "❌ Errada.",
+        }[correta]
+        st.session_state[fb_key] = (fb, gabarito)
+
+    def render_feedback():
+        fb = st.session_state.get(fb_key)
+        if fb:
+            texto, gabarito = fb
+            st.markdown(f"### {texto}")
+            if gabarito:
+                st.caption(f"Gabarito oficial: {gabarito.upper()}")
+
+    _render_questao(
+        q,
+        label,
+        f"explo_{label}_{cur}",
+        on_responder=on_responder,
+        feedback=render_feedback,
+    )
+
+    _mostrar_progresso(usuario)
 
 
 @st.cache_data(ttl=300, show_spinner=False)
@@ -210,6 +270,41 @@ def _reset_filtro():
 def _muda_area():
     st.session_state["filtro_tema"] = 0
     _reset_filtro()
+
+
+def _mostrar_progresso(usuario: str):
+    """Resumo de progresso por área e nível por tema (comum aos dois modos)."""
+    with st.expander("📊 Progresso por área"):
+        with connect() as con:
+            rows = motiva.progresso(con, usuario)
+        if not rows:
+            st.write("Sem dados ainda. Responda algumas questões.")
+            return
+        dados = [
+            {
+                "Área": r["area"],
+                "θ (habilidade)": round(r["theta"], 2) if r["n_obs"] else None,
+                "n_obs": r["n_obs"] or 0,
+                "Temas vencidos": r["temas_vencidos"] or 0,
+            }
+            for r in rows
+        ]
+        st.dataframe(dados, hide_index=True, use_container_width=True)
+        with connect() as con:
+            nts = motiva.niveis_por_tema(con, usuario)
+        if nts:
+            st.markdown("#### Nível por tema")
+            dados_temas = [
+                {
+                    "Área": r["area"],
+                    "Tema": r["tema"],
+                    "Score": round(r["score"], 2),
+                    "Racha": r["racha"],
+                    "Tentativas": r["contagem"],
+                }
+                for r in nts
+            ]
+            st.dataframe(dados_temas, hide_index=True, use_container_width=True)
 
 
 def modo_estudar():
@@ -296,53 +391,28 @@ def modo_estudar():
                     f"{q['tema_nome']} → vencimento {t['vencimento'].isoformat()} ({t['estado']})"
                 )
 
+        def render_feedback():
+            fb = st.session_state.get("estudar_fb")
+            if fb:
+                texto, r = fb
+                st.markdown(f"### {texto}")
+                st.caption(
+                    f"Gabarito oficial: {r['gabarito']}" if r["gabarito"] else ""
+                )
+
         _render_questao(
             full,
             q["exame_label"],
             f"estudar_{q['questao_id']}",
             on_responder=on_responder,
+            feedback=render_feedback,
         )
 
-        fb = st.session_state.get("estudar_fb")
-        if fb:
-            texto, r = fb
-            st.markdown(f"### {texto}")
-            st.caption(f"Gabarito oficial: {r['gabarito']}" if r["gabarito"] else "")
         with st.expander("Próximos vencimentos"):
             for linha in st.session_state.get("estudar_fsrs", [])[-20:]:
                 st.write(linha)
 
-    with st.expander("📊 Progresso por área"):
-        with connect() as con:
-            rows = motiva.progresso(con, usuario)
-        if not rows:
-            st.write("Sem dados ainda. Responda algumas questões.")
-            return
-        dados = [
-            {
-                "Área": r["area"],
-                "θ (habilidade)": round(r["theta"], 2) if r["n_obs"] else None,
-                "n_obs": r["n_obs"] or 0,
-                "Temas vencidos": r["temas_vencidos"] or 0,
-            }
-            for r in rows
-        ]
-        st.dataframe(dados, hide_index=True, use_container_width=True)
-        with connect() as con:
-            nts = motiva.niveis_por_tema(con, usuario)
-        if nts:
-            st.markdown("#### Nível por tema")
-            dados_temas = [
-                {
-                    "Área": r["area"],
-                    "Tema": r["tema"],
-                    "Score": round(r["score"], 2),
-                    "Racha": r["racha"],
-                    "Tentativas": r["contagem"],
-                }
-                for r in nts
-            ]
-            st.dataframe(dados_temas, hide_index=True, use_container_width=True)
+    _mostrar_progresso(usuario)
 
 
 def main():
