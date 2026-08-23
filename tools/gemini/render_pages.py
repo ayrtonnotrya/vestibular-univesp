@@ -1,24 +1,32 @@
-"""Renderiza cada página (inteira) das provas UNIVESP em PNG de alta resolução.
+"""Renderiza cada página (inteira) das provas em JPEG colorido (qualidade alta).
 
-Saída: data/paginas/<label>_p<NNN>.png
+Saída: data/paginas/<label>/p<NNN>.jpg
 
-Usar como base do app de curadoria manual (ver app/curator.py): em vez de
-depender de auto-crop, o humano vê a página e enquadra a figura.
+As imagens são usadas pelo app de estudo (app/panzoom.py) no lugar da
+renderização realtime do PDF. JPEG manter a cor (gráficos dependem dela).
+
+Como rodar (imagem do app tem PyMuPDF):
+  docker run --rm -v "$PWD/data:/app/data" -w /app vestibular-app:latest \
+    python tools/gemini/render_pages.py [labels...]
 """
-import argparse
+import glob
 import os
 
 import pymupdf
 
-DATA = "/work/data"
+DATA = "/app/data"
 PAGES_DIR = os.path.join(DATA, "paginas")
+MAX_SIDE = 1400
 DPI = 200
-
-LABELS = ["univesp_2017_2s", "univesp_2018_1s", "univesp_2018_2s", "univesp_2019_2",
-          "univesp_2020", "univesp_2021", "univesp_2022", "univesp_2023", "univesp_2024"]
+QUALITY = 75
 
 
-def render(label, dpi):
+def labels_disponiveis():
+    pdfs = sorted(glob.glob(os.path.join(DATA, "*_questoes.pdf")))
+    return [os.path.basename(p)[: -len("_questoes.pdf")] for p in pdfs]
+
+
+def render(label, quality=QUALITY):
     pdf = os.path.join(DATA, f"{label}_questoes.pdf")
     if not os.path.exists(pdf):
         print(f"[{label}] sem {pdf}", flush=True)
@@ -26,24 +34,25 @@ def render(label, dpi):
     doc = pymupdf.open(pdf)
     out_dir = os.path.join(PAGES_DIR, label)
     os.makedirs(out_dir, exist_ok=True)
-    matrix = pymupdf.Matrix(dpi / 72, dpi / 72)
     for i, page in enumerate(doc, start=1):
-        pix = page.get_pixmap(matrix=matrix)
-        path = os.path.join(out_dir, f"p{i:03d}.png")
-        pix.save(path)
+        rect = page.rect
+        scale = min(MAX_SIDE / rect.width, MAX_SIDE / rect.height, DPI / 72)
+        pix = page.get_pixmap(matrix=pymupdf.Matrix(scale, scale))
+        path = os.path.join(out_dir, f"p{i:03d}.jpg")
+        pix.save(path, jpg_quality=quality)
     print(f"[{label}] {len(doc)} páginas -> {out_dir}", flush=True)
     return len(doc)
 
 
 def main():
+    import argparse
+
     ap = argparse.ArgumentParser()
-    ap.add_argument("labels", nargs="*", default=LABELS)
-    ap.add_argument("--dpi", type=int, default=DPI)
+    ap.add_argument("labels", nargs="*", default=labels_disponiveis())
+    ap.add_argument("--quality", type=int, default=QUALITY)
     args = ap.parse_args()
-    total = 0
-    for label in args.labels or LABELS:
-        total += render(label, args.dpi)
-    print(f"total de páginas renderizadas: {total}", flush=True)
+    for label in args.labels:
+        render(label, args.quality)
 
 
 if __name__ == "__main__":

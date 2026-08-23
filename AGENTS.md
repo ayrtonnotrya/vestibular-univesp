@@ -98,8 +98,11 @@ Resultado extraído e validado (gabaritos 100% conferidos):
   (enunciado, textos de apoio, alternativas + gabarito) e **página embaixo** no
   viewer pan/zoom.
 - `app/panzoom.py`:
-  - Renderiza a página na hora do PDF (PyMuPDF, `get_pixmap`) e exibe via
-    `st.iframe` num `<div>` com `transform: translate+scale`.
+  - Exibe a página via JPEG pré-renderizado
+    (`data/paginas/<label>/p<NNN>.jpg`, gerado por
+    `tools/gemini/render_pages.py` — max 1400px, qualidade 75, **JPEG colorido**)
+    num `st.iframe` `<div>` com `transform: translate+scale`. Se o JPEG faltar,
+    cai para renderização na hora do PDF (PyMuPDF, `get_pixmap`).
   - Arrastar (pan) + zoom (roda, duplo-clique, botões `+`/`−`); botões
     "Página inteira" e "Enquadrar questão".
   - Helpers com cache: `question_page(label, enunciado)` (localiza a página da
@@ -146,9 +149,12 @@ Resultado extraído e validado (gabaritos 100% conferidos):
   ```
 - Nunca commitar segredos, PDFs ou dados brutos (`.env`, `tmp/` e quase todo
   `data/` são ignorados). Exceções versionadas: `data/assuntos.json` (catálogo
-  curado) e `data/json/*_questoes.json` + `*_imagens.json` (dados extraídos e
-  validados). De resto, só código, docs e `tools/` são versionados.
-- Não commitar a chave de API nem expor `figuras` de provas fora do repo.
+  curado), `data/json/*_questoes.json` + `*_imagens.json` (dados extraídos e
+  validados) e `data/paginas/*/*.jpg` (páginas renderizadas p/ o app). De
+  resto, só código, docs e `tools/` são versionados.
+- Não commitar a chave de API nem expor `figuras` recortadas de provas
+  (`data/imagens/`) fora do repo; páginas completas em `data/paginas/` são
+  versionadas.
 
 ## Estrutura
 
@@ -157,8 +163,9 @@ docs/              # base do projeto + plano de ação
 src/               # pipeline Python puro (download, extract, parse, db, ia/, estudo)
 app/               # Streamlit (interface de estudo) — study.py + panzoom.py
 tools/gemini/      # toolkit validado: extração via Gemini (Dockerfile, extract/validate/repair/run_all)
-data/              # QUASE NÃO VERSIONADA: pdfs, json/ (exceção: assuntos.json e
-                   # data/json/*_questoes.json + *_imagens.json versionados), imagens/, vestibular.db
+data/              # QUASE NÃO VERSIONADA: pdfs, json/ e paginas/ (exceção:
+                   # assuntos.json, data/json/*_questoes.json + *_imagens.json e
+                   # data/paginas/*/*.jpg versionados), imagens/, vestibular.db
 tmp/               # NÃO VERSIONADA: rascunhos/scratch (gabaritos extraídos p/ conferência)
 scripts/           # CLI (click): ingest, classify, score (esqueleto)
 ```
@@ -177,6 +184,9 @@ contagem por `(usuario, tema)`) e `tentativas`. Pendente do plano original:
   `tools/gemini/run_all.py <labels...>`
 - Validação dos JSONs: `tools/gemini/validate.py`
 - Reparo dos assuntos: `tools/gemini/repair.py`
+- Páginas JPEG do app (re-gerar ao adicionar exame):
+  `docker run --rm -v "$PWD/data:/app/data" -w /app vestibular-app:latest \
+  python tools/gemini/render_pages.py`
 - App de estudo (Fase 2 parcial): `docker compose up vestibular-app` → porta 8501.
 - MCP (AnythingLLM): `docker compose up -d vestibular-mcp` →
   `http://vestibular-mcp:8891/sse` (só rede interna `web`).
