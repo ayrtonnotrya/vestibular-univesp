@@ -1,0 +1,1508 @@
+{
+  "exame": "univesp_2020_questoes",
+  "ano": 2020,
+  "semestre": null,
+  "fonte_questoes": "data/univesp_2020_questoes.pdf",
+  "fonte_gabarito": "data/univesp_2020_gabarito.pdf",
+  "total_questoes": 57,
+  "questoes": [
+    {
+      "numero": 1,
+      "tipo": "objetiva",
+      "enunciado": "Os discípulos de Pitágoras denominavam de “números triangulares” a sequência de números obtida pela somatória dos “n” primeiros números naturais não-nulos (com n ≥ 2), ou seja, N = 1 + 2 + 3 + ... + n. Desta forma, são números triangulares 3, 6, 10, 15, ... . Eles também denominavam de “números oblongos” a sequência dos números que correspondem ao dobro dos números triangulares. Assinale a alternativa correta que indica a fórmula para o cálculo do n-ésimo número oblongo.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "n · (n – 1)",
+        "b": "2n · (n + 1)",
+        "c": "n² · (n – 1)",
+        "d": "n² · (n + 1)",
+        "e": "n · (n + 1)"
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Noção de sequência e lei de formação/recorrência",
+            "Produtos notáveis e fatoração algébrica básica"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 2,
+      "tipo": "objetiva",
+      "enunciado": "Embora pareça algo natural, a notação de valores numéricos no sistema de base 10 (sistema decimal) é, na verdade, uma convenção, como outras notações que foram utilizadas no passado. Um número no sistema decimal representa uma somatória de potências de 10: por exemplo, o número 2367 (dois mil, trezentos e sessenta e sete) equivale a 2 · 10³ + 3 · 10² + 6 · 10¹ + 7 · 10⁰. Caso fosse utilizado um sistema de base 6, o número 2543 neste sistema equivaleria, no sistema decimal, a:",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "639",
+        "b": "442",
+        "c": "417",
+        "d": "319",
+        "e": "213"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Sistemas de contagem: base decimal, binária e sexagesimal",
+            "Potenciação e radiciação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 3,
+      "tipo": "objetiva",
+      "enunciado": "Francisco realizou um financiamento para comprar um veículo em 84 parcelas mensais. Já tendo pagado parte das parcelas, ele se viu obrigado a contrair um empréstimo devido a um imprevisto. Este empréstimo será pago em 36 parcelas mensais, e a primeira será paga no mesmo mês em que ele pagará a 16ª parcela do financiamento. O gráfico abaixo ilustra a evolução dos pagamentos. Supondo que ele pague corretamente as parcelas, sem nenhum tipo de atraso, assinale a alternativa correta que apresenta em que momento o financiamento e o empréstimo estarão com o mesmo percentual de parcelas pagas.",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 3: Gráfico de linhas intitulado 'Evolução dos pagamentos em função dos meses.', mostrando duas curvas: 'FINANCIAMENTO' (de 0 a 84 meses, eixo y de 0 a 100%) e 'EMPRÉSTIMO'."
+      ],
+      "alternativas": {
+        "a": "Entre os meses 22 e 23",
+        "b": "Entre os meses 24 e 25",
+        "c": "Entre os meses 26 e 27",
+        "d": "Entre os meses 34 e 35",
+        "e": "Entre os meses 38 e 39"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Interpretação de gráficos (barras, setores, histogramas, box-plot, ramos e folhas)",
+            "Razões e proporções diretas e inversas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 4,
+      "tipo": "objetiva",
+      "enunciado": "Em matemática, denomina-se interpolação o método que permite construir uma nova função a partir de um conjunto discreto de pontos previamente conhecidos, de tal forma que estes pontos estejam contidos na nova função. Quando a função resultante deste processo é um polinômio, este recebe o nome de interpolação polinomial. Considere três pontos, definidos por (x, sen x), onde os valores de x são 0, π/2 e π (valores em radianos). Quanto à função polinomial resultante deste processo, assinale a alternativa correta.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "f(x) = (4/π) · (- (1/π) · x² - 4x)",
+        "b": "f(x) = (4/π) · (- (1/π) · x² + 4x)",
+        "c": "f(x) = (4/π) · (- (1/π) · x² - x)",
+        "d": "f(x) = (4/π) · (- (1/π) · x² + x)",
+        "e": "f(x) = (4/π) · ((1/π) · x² + x)"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Função quadrática: raízes, gráfico da parábola e pontos de máximo/mínimo",
+            "Círculo trigonométrico e funções periódicas (seno e cosseno)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 5,
+      "tipo": "objetiva",
+      "enunciado": "Em um determinado jogo de computador, conforme o jogador vai evoluindo, novos personagens vão sendo desbloqueados para o jogador. Estes personagens são classificados em três tipos: atacantes, defensores e curandeiros. Um jogador possui desbloqueados 9 atacantes, 7 defensores e 5 curandeiros, e precisa montar duas equipes, com cinco personagens cada, para duas missões do jogo. Os critérios são os seguintes:\nMissão 1: Cinco personagens quaisquer.\nMissão 2: Dois atacantes, dois defensores e um curandeiro.\nConsidere que a ordem dos personagens em uma equipe não importa, e que um mesmo personagem pode fazer parte das duas equipes. Assinale a alternativa correta que apresenta quantas formas diferentes ele pode montar as equipes para cada uma das duas missões.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "Missão 1: 20.349 formas; Missão 2: 3.360 formas",
+        "b": "Missão 1: 20.349 formas; Missão 2: 3.780 formas",
+        "c": "Missão 1: 15.504 formas; Missão 2: 3.360 formas",
+        "d": "Missão 1: 15.504 formas; Missão 2: 3.780 formas",
+        "e": "Missão 1: 26.334 formas; Missão 2: 3.036 formas"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Arranjos, permutações e combinações simples",
+            "Princípios multiplicativo e aditivo da contagem"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 6,
+      "tipo": "objetiva",
+      "enunciado": "Brincando em um programa de computador para desenho, Maria desenhou um triângulo retângulo isósceles; um quadrado dentro deste triângulo, com um dos vértices tangenciando a hipotenusa; e um círculo dentro deste quadrado. O desenho é o mostrado na figura abaixo. Sabendo que o diâmetro do círculo é metade do lado do quadrado, assinale a alternativa correta sobre qual a relação entre a área do triângulo e a área do círculo desenhados por Maria.",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 4: Figura esquemática mostrando um triângulo retângulo isósceles com um quadrado inscrito/tangente e um círculo inscrito no quadrado."
+      ],
+      "alternativas": {
+        "a": "A área do triângulo é 16/π vezes a área do círculo",
+        "b": "A área do triângulo é 32/π vezes a área do círculo",
+        "c": "A área do triângulo é 24/π vezes a área do círculo",
+        "d": "A área do triângulo é 20/π vezes a área do círculo",
+        "e": "A área do triângulo é 18/π vezes a área do círculo"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Cálculo de áreas (polígonos, círculos, coroas e setores circulares)",
+            "Congruência de figuras planas e semelhança de triângulos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 7,
+      "tipo": "objetiva",
+      "enunciado": "Em uma eleição para presidente de uma cooperativa com dois candidatos (candidato A e candidato B), 120 membros votaram; o resultado é mostrado no gráfico abaixo. Sabendo que 12 pessoas votaram nulo, e que a “fatia” no gráfico dos votos do candidato B é 3,5 vezes menor que a “fatia” do candidato A, assinale a alternativa correta que apresenta quantos membros da cooperativa votaram no candidato A.",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 4: Gráfico de setores (pizza) divididos em A, B e Nulos."
+      ],
+      "alternativas": {
+        "a": "72 pessoas",
+        "b": "80 pessoas",
+        "c": "84 pessoas",
+        "d": "90 pessoas",
+        "e": "96 pessoas"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Razões e proporções diretas e inversas",
+            "Interpretação de gráficos (barras, setores, histogramas, box-plot, ramos e folhas)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 8,
+      "tipo": "objetiva",
+      "enunciado": "A índole de Rubião pode estar mais ligada à de Freitas. Quanto ao fato que justificaria essa possibilidade, assinale a alternativa correta.",
+      "textos_de_apoio": [
+        "RUBIÃO passou o resto da manhã alegremente. Era domingo; dois amigos vieram almoçar com ele, um rapaz de vinte e quatro anos, que roía as primeiras aparas dos bens da mãe, e um homem de quarenta e quatro ou quarenta e seis, que não tinha que roer.\nCarlos Maria chamava-se o primeiro, Freitas o segundo. Rubião gostava de ambos, mas diferentemente; não era só a idade que o ligava mais ao Freitas, era também a índole deste homem. Freitas elogiava tudo, saudava cada prato e cada vinho com uma frase particular, delicada, e saía de lá com as algibeiras cheias de charutos, provando assim que os preferia a quaisquer outros. Tinha-lhe sido apresentado em certo armazém da Rua Municipal, onde jantaram uma vez juntos. Contaram-lhe ali a história do homem, a sua boa e má fortuna, mas não entraram em particularidades. Rubião torceu o nariz; era naturalmente algum náufrago, cuja convivência não lhe traria nenhum prazer pessoal nem consideração pública. Mas o Freitas atenuou logo essa primeira impressão; era vivo, interessante, anedótico, alegre como um homem que tivesse cinqüenta contos de renda."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "Ambos possuem uma história de enriquecimento ilícito ligado ao aproveitamento de certos relacionamentos políticos da época.",
+        "b": "Os dois desprezavam o convívio social desinteressado, construindo apenas relações pessoais que trouxessem vantagens financeiras.",
+        "c": "Tanto Rubião como Freitas calculavam as vantagens, de ordem social ou financeira, que as relações poderiam oferecer-lhes.",
+        "d": "O bom gosto por charutos, comidas e bebidas, enfim, pela boa vida, aproximava Rubião a Freitas mais do que a Carlos Maria.",
+        "e": "A alegria dos dois homens, que, mesmo em momentos de crise financeira, demonstravam atitudes alegres e desembaraçadas, principalmente com as mulheres."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação",
+            "Literatura Brasileira: Quinhentismo, Barroco (Gregório de Matos), Arcadismo, Romantismo, Realismo/Naturalismo (Machado de Assis), Parnasianismo e Simbolismo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 9,
+      "tipo": "objetiva",
+      "enunciado": "Considere as características centrais do Realismo. É possível afirmar que o trecho se aproxima da estética realista. Nesse sentido, assinale a alternativa correta.",
+      "textos_de_apoio": [
+        "RUBIÃO passou o resto da manhã alegremente..."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "Valoriza a frugalidade do almoço dominical entre amigos e a celebração da vida com vinhos charutos e boas comidas.",
+        "b": "Ressalta análise cientificista da sociedade, utilizando a ficção com a finalidade de comprovar a tese do determinismo social presente na história das personagens.",
+        "c": "Enfoca o hedonismo das personagens, que, ao se reunirem em um farto banquete, alienadas dos problemas sociais e cotidianos, tornam-se exemplo dos privilégios sociais da elite brasileira.",
+        "d": "Utiliza com sutileza e requinte estilístico o texto literário para desnudar a psicologia da burguesia, que, entre outros pontos, equipara a condição emocional da personagem a um valor monetário.",
+        "e": "Evidencia a preocupação central com a crítica positivista e evolucionista, em que a luta de classes assume papel decisivo, de acordo com algumas teorias sociológicas e cientificistas da época."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Literatura Brasileira: Quinhentismo, Barroco (Gregório de Matos), Arcadismo, Romantismo, Realismo/Naturalismo (Machado de Assis), Parnasianismo e Simbolismo",
+            "Significação explícita e implícita, denotação e conotação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 10,
+      "tipo": "objetiva",
+      "enunciado": "Assinale a alternativa que não apresenta nenhuma expressão utilizada no sentido figurado.",
+      "textos_de_apoio": [
+        "RUBIÃO passou o resto da manhã alegremente..."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "“Tinha-lhe sido apresentado em certo armazém da Rua Municipal”.",
+        "b": "“Freitas elogiava tudo, saudava cada prato e cada vinho”.",
+        "c": "“que roía as primeiras aparas dos bens da mãe”.",
+        "d": "“Rubião torceu o nariz”.",
+        "e": "“era naturalmente algum náufrago”."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação",
+            "Figuras de linguagem (metáfora, metonímia, antítese, paradoxo, hipérbole, ironia)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 11,
+      "tipo": "objetiva",
+      "enunciado": "A respeito dos dois trechos a seguir “Tinha-lhe sido apresentado em certo armazém” e “Contaram-lhe ali a história do homem”, assinale a alternativa correta.",
+      "textos_de_apoio": [
+        "RUBIÃO passou o resto da manhã alegremente..."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "Os verbos de ambos os trechos estão na voz ativa.",
+        "b": "O sujeito do verbo “ter” é oculto, enquanto que o sujeito do verbo “contar” é indeterminado.",
+        "c": "A partícula “lhe” no trecho “Tinha-lhe” funciona como objeto indireto, enquanto que, no trecho “contaram-lhe”, essa partícula tem função sintática de adjunto adnominal.",
+        "d": "A palavra “certo” define o substantivo “armazém”, atribuindo-lhe o sentido de certeza.",
+        "e": "A expressão “do homem”, ao utilizar o artigo definido contraído com a preposição “de”, valoriza o substantivo “homem”, que faz referência, no caso, ao capitalista Rubião."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Sintaxe do período simples (termos essenciais, integrantes e acessórios da oração)",
+            "Flexão nominal e flexão verbal (tempos, modos, vozes e correlação verbal)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 12,
+      "tipo": "objetiva",
+      "enunciado": "Leia o poema “Erro de Português”, de Oswald de Andrade, e assinale a alternativa correta.\n\nErro de português\nQuando o português chegou\nDebaixo de uma bruta chuva\nVestiu o índio\nQue pena!\nFosse uma manhã de sol\nO índio tinha despido\nO português.",
+      "textos_de_apoio": [
+        "Erro de português\nQuando o português chegou\nDebaixo de uma bruta chuva\nVestiu o índio\nQue pena!\nFosse uma manhã de sol\nO índio tinha despido\nO português."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "O título do poema “Erro de Português” faz alusão tanto a questões linguísticas como socioculturais, preocupações típicas da segunda fase modernista, também conhecida como regionalista, de que esse poema é um importante representante.",
+        "b": "O texto é um exemplo modernista do “poema piada”, caracterizado pela brevidade formal e pelo conteúdo crítico mordaz, cuja intenção, por meio do humor anedótico, era dissociar a literatura das questões sociais, aproximando-a do entretenimento.",
+        "c": "O poema é um exemplo da fase heroica do Modernismo brasileiro, uma estética ligada à construção identitária nacional e bastante apegada aos procedimentos poéticos do Classicismo.",
+        "d": "A imagem do índio despindo o português liga-se ao canibalismo, um tema recorrente na literatura de informação, que, durante o século XVI, foi muito praticada no Brasil.",
+        "e": "Há ironia na forma como o eu-lírico atribui a colonização do português a uma questão circunstancial atmosférica, sugerindo que esse fator natural foi determinante para a construção da história brasileira."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Modernismo Brasileiro: 1ª Fase (1922), 2ª Fase (Geração de 30 - romance regionalista e poesia de 30) e 3ª Fase (Geração de 45/Pós-Modernismo)",
+            "Intertextualidade, interdiscursividade e análise de textos verbais e não verbais (charges, cartuns)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 13,
+      "tipo": "objetiva",
+      "enunciado": "De acordo com a tirinha assinale a alternativa correta.",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 6: Tirinha da cartunista Laerte mostrando um diálogo com termos como 'PRECOSO REORIENTAR MINHA VIDA', 'VOCÊS TÊM FILOSOFIA BARATA?' e 'MINHA ALMA É UMA CASINHA, MEUS OLHOS SÃO A JANELA, SE QUISER ABRIR A PORTA SEJA GENTIL COM A TRAMELA'."
+      ],
+      "alternativas": {
+        "a": "A personagem da tira apresenta uma crise existencial característica do sujeito contemporâneo, que, entre outros fatores, é motivada pela crise financeira, o que pode ser comprovado linguisticamente pelo uso do adjetivo “barata”, empregado no primeiro quadrinho.",
+        "b": "A tirinha ressalta o poder da leitura em abordar de forma profunda e meditativa questões que transcendem a banalidade e superficialidade dos assuntos cotidianos, ajudando, assim, os leitores a operarem significativas transformações em suas vidas.",
+        "c": "As aspas utilizadas no segundo quadrinho são usadas para indicar a citação de um trecho do texto lido pela personagem, que, formalmente, se aproxima do texto poético devido à métrica, já que os versos são escritos em redondilhas, além da utilização da rima já referida na tira.",
+        "d": "As palavras “casinha”, “janela”, “porta” e “tramela” pertencem ao mesmo campo semântico, estabelecendo relações de sinonímia e hiponímia entre si, o que aproxima o trecho do tipo textual poético.",
+        "e": "No segundo quadrinho da tira, a satisfação do cliente com o texto lido constitui uma crítica ao procedimento poético, que, ao ser aplicado ao texto filosófico, diminui-lhe o alcance crítico, ao subordinar a metodologia científica da filosofia à estética da poesia."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Intertextualidade, interdiscursividade e análise de textos verbais e não verbais (charges, cartuns)",
+            "Tipologias textuais (narração, descrição, dissertação) e gêneros textuais variados"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 14,
+      "tipo": "objetiva",
+      "enunciado": "De acordo com o texto e com a norma padrão da Língua Portuguesa assinale a alternativa correta.",
+      "textos_de_apoio": [
+        "Semana Mundial do Brincar (Adaptado)\nO que é?\nÉ uma mobilização que reúne diferentes atores, como pais, educadores, médicos, comunicadores, instituições privadas, representantes de instituições governamentais, entre outros. Juntos, realizamos um conjunto de ações com o objetivo de ressaltar a importância do Brincar na sociedade.\nO foco é lembrar os adultos sobre a necessidade de preservação e o respeito do tempo das crianças brincarem. Cada vez mais vemos famílias que, por não poderem ter um tempo de qualidade com seus filhos, compram vídeos, jogos eletrônicos entre outras coisas e passam menos tempo ao lado deles.\nChamamos de tempo de qualidade aquele que os adultos passam com as crianças, quando eles estão presentes com atenção e com amorosidade. Trata-se da presença atenta à intermediação, quando necessária, quando solicitada. Nada mais."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "A função do texto é informar às famílias contemporâneas a respeito dos males que a tecnologia pode causar no desenvolvimento cognitivo, afetivo e emocional das crianças.",
+        "b": "Por ser predominantemente injuntivo, o texto deixa clara a sua intenção de aconselhar e instruir pais e educadores de quais são os elementos essenciais e necessários para que estes passem um tempo de qualidade com as crianças.",
+        "c": "O que o texto defende como “tempo de qualidade” é uma presença atenta e amorosa que preza por intermediar a relação da criança com o mundo ludicamente sempre que o adulto quiser.",
+        "d": "De acordo com o texto é possível depreender que existe um tempo da criança que é distinto do tempo do adulto e que estes tempos distintos só poderão se equalizar por meio de brincadeiras até que a criança amadureça.",
+        "e": "Ao informar o leitor sobre a existência de uma mobilização mundial a respeito da importância do brincar, o texto também indica o decréscimo da qualidade do tempo utilizado pelas famílias para brincar com os filhos."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação",
+            "Mecanismos de coesão textual (lexical, referencial, anafórica) e coerência"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 15,
+      "tipo": "objetiva",
+      "enunciado": "De acordo com o texto, assinale a alternativa incorreta na oposição de adjetivos.",
+      "textos_de_apoio": [
+        "NO DIFFERENCE\nSmall as a peanut,\nBig as a giant,\nWe’re all the same size\nWhen we turn off the light.\nRich as a sultan,\nPoor as a mite,\nWe’re all worth the same\nWhen we turn off the light.\nRed, black or orange,\nYellow or white,\nWe all look the same\nWhen we turn off the light\nSo maybe the way\nTo make everything right\nIs for God just reach out\nAnd turn off the light!"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "sultan – mite",
+        "b": "small – big",
+        "c": "rich – poor",
+        "d": "same – difference",
+        "e": "right – wrong"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos",
+            "Identificação do gênero textual, propósito comunicativo e público-alvo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 16,
+      "tipo": "objetiva",
+      "enunciado": "De acordo com o texto, assinale a alternativa correta.",
+      "textos_de_apoio": [
+        "NO DIFFERENCE..."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "As diferenças entre as pessoas são acentuadas com a escuridão",
+        "b": "A possível solução para acabar com as desigualdades é pedir a ajuda divina para que não haja luz",
+        "c": "Sem luz pode haver igualdade social",
+        "d": "As desigualdades sociais sempre existirão, de dia ou de noite",
+        "e": "As pessoas não ficam do mesmo tamanho"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 17,
+      "tipo": "objetiva",
+      "enunciado": "Sobre a ideia principal do texto, assinale a alternativa correta.",
+      "textos_de_apoio": [
+        "The End of Poverty\nEquality is a very big idea, connected to freedom, but an idea doesn’t come for free..."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "to increase public awareness of the different social problems in the whole world",
+        "b": "to focus on donations for the campaign against poverty in the world",
+        "c": "to promote Bono as a rock-star",
+        "d": "to put pressures on political leaders of the world’s richest countries into doing much more to fight poverty and disease, especially in Africa",
+        "e": "to raise money for charity"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Identificação do gênero textual, propósito comunicativo e público-alvo",
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 18,
+      "tipo": "objetiva",
+      "enunciado": "Assinale a alternativa correta para o verbo em destaque na frase abaixo.\n\nAfrica is not the front line in the war against terror, but it soon \"could\" be.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "capacity",
+        "b": "permission",
+        "c": "possibility",
+        "d": "prohibition",
+        "e": "advice"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Verbos modais e seus valores semânticos (can, could, should, must, may, might)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 19,
+      "tipo": "objetiva",
+      "enunciado": "Assinale a alternativa correta para o verbo em destaque na frase abaixo.\n\n— The first generation that \"can\" end a corrupt relationship between the powerful and the weaker parts of the world....",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "capacity",
+        "b": "probability",
+        "c": "permission",
+        "d": "obligation",
+        "e": "advice"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Verbos modais e seus valores semânticos (can, could, should, must, may, might)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 20,
+      "tipo": "objetiva",
+      "enunciado": "Leia o excerto a seguir.\nSome artists were imprisoned during the dictatorship in Brazil. _____, some of them were exiled.\nAssinale a alternativa que preencha corretamente a lacuna.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "Despite",
+        "b": "So",
+        "c": "As a result",
+        "d": "However",
+        "e": "Afterwards"
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Marcadores discursivos e conectivos (conjunções de adição, contraste, causa, consequência e condição)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 21,
+      "tipo": "objetiva",
+      "enunciado": "Leia o excerto a seguir.\nMy sister is married _____ she lives in London.\nAssinale a alternativa que preencha corretamente a lacuna.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "or",
+        "b": "and",
+        "c": "for",
+        "d": "because",
+        "e": "still"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Marcadores discursivos e conectivos (conjunções de adição, contraste, causa, consequência e condição)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 22,
+      "tipo": "objetiva",
+      "enunciado": "A respeito da Grécia Antiga, leia as afirmativas abaixo e assinale a alternativa correta.\nI. A Grécia era chamada pelos antigos gregos de Hélade, que queria dizer “terra dos helenos”, referência a um lendário personagem, Heleno, cujos filhos teriam povoado a região.\nII. O período compreendido entre a ascensão de Alexandre ao poder, em 336 a.C, e o domínio da Grécia pelos romanos, em 146 a.C., é comumente denominado Período Helenístico (séculos IV a II a.C.).\nIII. Educado pelo filósofo grego Aristóteles (384-322 a.C.), Alexandre admirava a cultura grega e queria vê-la difundida pelo mundo.\nIV. Conforme expandia seu império, Alexandre criava centros de irradiação cultural que promoviam a divulgação do saber científico e das formas artísticas e literárias da Grécia.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "Apenas as afirmativas II e III estão corretas",
+        "b": "Apenas as afirmativas I e III estão corretas",
+        "c": "As afirmativas I, II, III e IV estão corretas",
+        "d": "Apenas as afirmativas I, II e IV estão corretas",
+        "e": "Apenas as afirmativas III e IV estão corretas"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Antiguidade Clássica: democracia ateniense, República/Império Romano e escravismo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 23,
+      "tipo": "objetiva",
+      "enunciado": "“Temporal na Grécia deixa rastro de destruição e morte” (Fonte: El País).\nA Grécia é um país mediterrâneo localizado na península Balcânica, território, um pouco menor do que o estado do Ceará. É formado por duas regiões: a continental e a insular, composta de mais de 2 (duas) mil ilhas espalhadas pelos mares Egeu, Mediterrâneo e Jônico. A respeito da Grécia Antiga, assinale a alternativa incorreta.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "A civilização grega tem suas origens na miscigenação étnica e cultural entre diferentes povos que habitaram esse território, como os indo-europeus",
+        "b": "Os aqueus, eólios, jônios, dórios e os arianos eram povos de origem indo-europeia que, a partir de 3000 a.C., se estabeleceram na península Balcânica",
+        "c": "Pouco se sabe sobre as origens da civilização que se desenvolveu em torno da ilha de Creta (denominada cretense ou minoica), mas o fato é que, por volta de 2500 a.C., já podiam ser encontradas em Creta importantes cidades, com residências de pedra e tijolos, e artesãos hábeis no fabrico de joias e de outros artefatos de metal",
+        "d": "Durante os primeiros séculos de sua consolidação, a sociedade cretense dividiu-se em vários principados independentes. Por volta de 1450 a.C., os príncipes locais passaram a se submeter ao controle do rei de Cnossos",
+        "e": "A localização da ilha de Creta não facilitou em nada a atividade mercantil, com isso, os cretenses permaneceram no comércio local"
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Antiguidade Clássica: democracia ateniense, República/Império Romano e escravismo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 24,
+      "tipo": "objetiva",
+      "enunciado": "Construído com concreto e areia, o Coliseu é o maior anfiteatro já construído e está situado a leste do Fórum Romano. A respeito do Império Romano, leia as afirmativas abaixo e dê valores Verdadeiro (V) ou Falso (F).\n( ) Com a morte de Nero, sobreveio um ano de guerras civis, após o qual assumiu Vespasiano, general da família dos Flávios. Teve início, então, o período de maior esplendor do Império Romano.\n( ) Com Vespasiano, novas cidades surgiram e o modo de vida romano passou a ser adotado nas mais distantes províncias.\n( ) O Império em sua fase de esplendor enfrentaria, sobretudo, problemas de outras naturezas, como epidemias, incêndios e até a destruição da cidade de Pompeia em 79 d.C.\n( ) As lutas de gladiadores, iniciadas durante a República, tornaram-se um evento extremamente popular. Diversos anfiteatros, como o Coliseu, em Roma, foram construídos em todo o Império para a realização desses espetáculos.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "V, V, V, V",
+        "b": "F, V, F, V",
+        "c": "V, V, V, F",
+        "d": "F, F, V, V",
+        "e": "V, F, F, V"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Antiguidade Clássica: democracia ateniense, República/Império Romano e escravismo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 25,
+      "tipo": "objetiva",
+      "enunciado": "A cidade Carcassonne, localizada em Aude, na França, é um exemplo de cidade medieval fortificada, com suas muralhas que a protegiam de invasões e ataques inimigos. Praticamente abandonada, foi redescoberta no final do século XIX por turistas e atualmente é reconhecida como patrimônio mundial pela Organização das Nações Unidas para a Educação, a Ciência e a Cultura (Unesco).\n\nA respeito da sociedade medieval da Europa ocidental, assinale a alternativa incorreta.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "Na Europa medieval, as pessoas da nobreza encaravam o casamento como uma forma de fortalecer alianças entre famílias poderosas",
+        "b": "O liberalismo econômico foi a forma de organização política, social e econômica dominante na Europa ocidental durante a Idade Média",
+        "c": "O poder político estava fragmentado entre os senhores feudais e o rei",
+        "d": "Baseava-se em uma sociedade rigidamente hierarquizada, na qual os indivíduos encontravam-se subordinados uns aos outros por laços de dependência pessoal",
+        "e": "Tinha na agricultura, de uma maneira geral, sua principal atividade produtiva"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Período Medieval: feudalismo, diversidade religiosa (cristianismo, islamismo, judaísmo) e vida cultural no Medievo europeu e africano"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 26,
+      "tipo": "objetiva",
+      "enunciado": "As três primeiras copas do mundo foram realizadas em 1930, 1934 e 1938. A quarta edição estava prevista para 1942, porém, só foi realizada em 1950, no Brasil. O fato é que, entre 1939 e 1945, países dos cinco continentes estiveram envolvidos em uma sangrenta guerra, que provocou a morte de 50 milhões de pessoas: a Segunda Guerra Mundial. A respeito do período entre guerras, assinale a alternativa incorreta.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "Apesar dos esforços para promover a reconstrução da Europa, os efeitos da Primeira Guerra Mundial deixaram muitos europeus desiludidos com a sociedade democrática",
+        "b": "Nesse período, surgiram alguns movimentos que propunham a substituição do regime democrático por um Estado forte que organizasse a economia e restaurasse a ordem. Além de se opor à democracia, tais movimentos eram violentamente anticomunistas e antissocialistas",
+        "c": "Os regimes totalitários que surgem nesse período são, portanto, movimentos libertários, pois valorizavam mais o poder do povo do que a escolha de um líder",
+        "d": "A característica desse período é a concentração do poder nas mãos de um pequeno grupo de pessoas, organizadas em um partido único",
+        "e": "Cresce, portanto, a repressão sem limites, que estabelecia um rígido controle sobre a vida pública e privada das pessoas"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Revolução Russa, Crise de 1929 e ascensão do Nazifascismo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 27,
+      "tipo": "objetiva",
+      "enunciado": "Com o fim do governo de Getúlio Vargas, que era conhecido como Estado Novo, em 1945, o Brasil passou por um período democrático que se estendeu até 1964. O processo de industrialização assumiu grandes proporções nessa época, ainda mais com o Plano de Metas que foi instituído no mandato de Juscelino Kubitschek, também chamado de JK (1956-1961). A respeito do Plano de Metas, leia as afirmativas abaixo e dê valores Verdadeiro (V) ou Falso (F).\n( ) Com o plano de Metas, várias grandes empresas estrangeiras, chamadas de multinacionais, estabeleceram-se no Brasil.\n( ) Foi a partir deste plano que a modernização ganhou um ritmo ainda mais rápido do que no período anterior.\n( ) Em poucos anos, foram construídas usinas hidrelétricas, como a de Furnas e a de Três Marias, e a siderúrgica Usiminas, todas em Minas Gerais.\n( ) Mas, nesse mesmo período, o Produto Interno Bruto (PIB) caiu a uma taxa média de 10% ao ano. Dessa forma, durante o governo JK (1956-1961), o país registrou péssimos índices na produção industrial.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "F, F, F, F",
+        "b": "V, V, F, F",
+        "c": "V, V, V, V",
+        "d": "F, V, F, V",
+        "e": "V, V, V, F"
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Brasil República: República Velha (oligarquias), Era Vargas (1930-1945), Período Democrático (1945-1964) e Ditadura Civil-Militar (1964-1985)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 28,
+      "tipo": "objetiva",
+      "enunciado": "A música do cantor e compositor Adoniran Barbosa faz referência a um processo vivido em muitas cidades brasileiras entre 1930 e 1960. O samba “Saudosa Maloca” foi escrito em 1951. Nesse período o país passava por diversas transformações. A respeito desse período, assinale a alternativa incorreta.",
+      "textos_de_apoio": [
+        "Saudosa Maloca\nSi o senhor não está lembrado\nDa licença de conta\nQue aqui onde agora está\nEsse adifício alto\nEra uma casa velha um palacete assobradado\nFoi aqui seu moço\nQue eu, Mato Grosso e o Joca\nConstruímos nossa maloca\nMais um dia nem quero lembrar\nVeio os homens com as ferramentas o dono mando derruba\nPeguemo todas nossas coisas\nE fumos pro meio da rua\nApreciar a demolição\nQue tristeza que eu sentia\nCada táuba que caia\nDoía no coração\nMato Grosso quis grita\nMas em cima eu falei\nOs homes está 'cá razão\nNós arranja outro lugar\n(BARBOSA, A. Saudosa Maloca. In: Meus momentos. EDM, 2004.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "Nesse período, a produção de eletrodomésticos, como geladeiras, máquinas de lavar roupa, liquidificadores, batedeiras, fogões a gás etc., cresceu muito no país",
+        "b": "A urbanização e a modernização modificaram a paisagem das grandes cidades brasileiras",
+        "c": "Os bondes elétricos cederam lugar aos ônibus, as quitandas foram substituídas pelos supermercados, e muitas casas antigas foram derrubadas para que, no lugar, fossem erguidos prédios de apartamentos",
+        "d": "São Paulo foi o centro urbano que mais retrocedeu em crescimento nesse período, a crise do café acabou por espantar um número de migrantes vindos, principalmente, do Nordeste e de Minas Gerais",
+        "e": "A expansão industrial fez com que muitas pessoas deixassem o campo e migrassem para as grandes cidades em busca de emprego, pois era ali que estavam instaladas as fábricas"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Brasil República: República Velha (oligarquias), Era Vargas (1930-1945), Período Democrático (1945-1964) e Ditadura Civil-Militar (1964-1985)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 29,
+      "tipo": "objetiva",
+      "enunciado": "A mundialização da economia capitalista gerou a segmentação do espaço econômico mundial. Esta característica geográfica se expressa no final do século XX na formação de blocos econômicos em todo o mundo (OLIVEIRA, 2011). Nesse contexto, leia o excerto abaixo e assinale a alternativa que preencha corretamente a lacuna.\n\nUm exemplo de bloco econômico é o _____, criado a partir do Tratado de Assunção e assinado em 1991 entre Paraguai, Argentina, Uruguai e Brasil. O tratado estabeleceu a livre circulação de bens, serviços e fatores produtivos entre os países, através da eliminação das barreiras tarifárias e não tarifárias, e do estabelecimento de uma tarifa comum em relação aos países fora do bloco.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "Mercado Comum do Sul (MERCOSUL)",
+        "b": "Mercado Comum da América Latina (MERCOAL)",
+        "c": "Acordo de Livre Comércio da América do Norte (NAFTA)",
+        "d": "Organização das Nações Unidas (ONU)",
+        "e": "Grupo dos 8 (G-8)"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Globalização, comércio internacional, blocos econômicos e a posição do Brasil no comércio global"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 30,
+      "tipo": "objetiva",
+      "enunciado": "A ampliação das relações capitalistas no campo, desestruturando as antigas relações tradicionais de trabalho (a parceria, o arrendamento etc.), a mecanização da agricultura, a substituição da lavoura por pastos e a grande especulação imobiliária foram causas que estimularam a fuga da população do campo para as cidades. Ao mesmo tempo em que o campo expulsava, a cidade atraía (SCARLATO, 2011). A respeito do nome do fenômeno caracterizado no enunciado, assinale a alternativa correta.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "Migração pendular",
+        "b": "Migração sazonal",
+        "c": "Diáspora",
+        "d": "Êxodo urbano",
+        "e": "Êxodo rural"
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Demografia: conceitos populacionais, transição demográfica, pirâmides etárias e fluxos migratórios",
+            "Espaço Rural: sistemas agrícolas, modernização do campo e estrutura agrária brasileira"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 31,
+      "tipo": "objetiva",
+      "enunciado": "Um fato marcante da urbanização brasileira nos últimos anos é o contínuo crescimento das regiões metropolitanas [...]. Antes de qualquer análise da metropolização no Brasil, é importante uma reflexão a respeito do termo metrópole, em virtude do que ela representa (SCARLATO, 2011). A respeito das características de uma metrópole, analise as afirmativas abaixo e dê valores Verdadeiro (V) ou Falso (F).\n( ) Um crescimento expande a cidade, prolongando-a para fora de seu perímetro, e absorve aglomerados rurais e outras cidades.\n( ) Com a expansão e a integração, desaparecem os limites físicos entre os diferentes núcleos urbanos, fenômeno chamado de cidades gêmeas.\n( ) O termo região metropolitana pode ser usado quando há fluxo pendular de população entre as cidades vizinhas, que devem obrigatoriamente somar pelo menos 10 milhões de habitantes.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "F, F, F",
+        "b": "V, F, F",
+        "c": "V, V, F",
+        "d": "F, V, V",
+        "e": "V, F, V"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Geografia Urbana: industrialização, urbanização, metropolização, conurbação, megalópoles e segregação socioespacial"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 32,
+      "tipo": "objetiva",
+      "enunciado": "No último censo demográfico, realizado em 2010, a população brasileira era composta por 190.755.799 habitantes. Estima-se que, no ano de 2019, a população brasileira tenha 210.147.125 habitantes (IBGE, 2019). Em relação às características da população brasileira atual, assinale a alternativa incorreta.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "A população brasileira é predominantemente urbana",
+        "b": "A população feminina é maior que a masculina",
+        "c": "A taxa de fecundidade é de menos de 2 filhos por mulher",
+        "d": "A taxa de crescimento populacional é mais alta que em 1970",
+        "e": "A taxa de mortalidade infantil é menor que em 2000"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Demografia: conceitos populacionais, transição demográfica, pirâmides etárias e fluxos migratórios"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 33,
+      "tipo": "objetiva",
+      "enunciado": "A expansão geográfica das multinacionais é um dos fatos mais importantes da economia capitalista depois da Segunda Guerra Mundial [...]. Com isto, criaram-se novas formas de dependência econômica nesses países mais jovens. Em função da nova divisão internacional do trabalho, o processo de mundialização da indústria expande essa atividade para vários países do chamado terceiro mundo [...] (OLIVEIRA, 2011). Em relação às multinacionais, analise as afirmativas abaixo.\nI. A indústria multinacional pode ser implantada nos mercados dos países através de filiais, fusões, associações e franquias.\nII. A instalação de filiais em outros países ocorre, muitas vezes, incentivada por benefícios concedidos pelos governos, como a isenção de impostos.\nIII. O principal intuito das empresas multinacionais é cooperar com o crescimento dos países em desenvolvimento, levando tecnologia e gerando empregos.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "Apenas a afirmativa I está correta",
+        "b": "Apenas as afirmativas II e III estão corretas",
+        "c": "Apenas as afirmativas I e II estão corretas",
+        "d": "Apenas a afirmativa III está correta",
+        "e": "As afirmativas I, II e III estão corretas"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Globalização, comércio internacional, blocos econômicos e a posição do Brasil no comércio global"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 34,
+      "tipo": "objetiva",
+      "enunciado": "“Os incêndios florestais no Brasil atingiram o seu pico desde pelo menos 2013, tendo aumentado 84% neste ano até 23 de agosto, comparado com o mesmo período do ano passado, de acordo com o Instituto Nacional de Pesquisas Espaciais (INPE). Cientistas temem que a contínua destruição da Amazônia possa chegar a um ponto de não retorno [...]” (EXAME, 2019). O aumento das queimadas e dos desmatamentos na Amazônia pode levar a graves consequências à região e, de acordo com cientistas, também ao planeta Terra. No que se refere a estas consequências, assinale a alternativa incorreta.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "Redução da biodiversidade de espécies",
+        "b": "Exposição dos solos aos processos erosivos",
+        "c": "Potencialização do assoreamento de cursos d’água",
+        "d": "Redução das emissões de dióxido de carbono na atmosfera",
+        "e": "Alteração do microclima na região"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Impactos ambientais: mudanças climáticas, efeito estufa, desmatamento, degradação de solos e conferências internacionais do clima"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 35,
+      "tipo": "objetiva",
+      "enunciado": "Interprete a charge, de autoria do cartunista Luiz Fernando Cazo, e assinale a alternativa correta que pode ser associada a ela.",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 11: Charge com o diálogo 'ESTÃO TÃO BONITAS, NEM SEI QUAL ESCOLHER' e 'PODE ESCOLHER QUALQUER UMA, HOJE EM DIA TODAS ESTÃO ENVENENADAS!' (Fonte: Clic Folha)."
+      ],
+      "alternativas": {
+        "a": "A transição verde estimulou o crescimento da agricultura orgânica, visto que o uso de agrotóxicos tem sido cada vez mais intenso",
+        "b": "A revolução verde representou um conjunto de esforços para aumentar a produção agrícola, empregando insumos químicos, como os agrotóxicos e os fertilizantes",
+        "c": "A agricultura verde teve como intuito acabar com a fome no planeta, eliminando os insetos benéficos às plantações através de insumos naturais",
+        "d": "A tecnificação verde esteve relacionada com a mecanização das lavouras e o uso da agricultura extensiva, a fim de elevar a produção agrícola",
+        "e": "A modernização verde levou ao surgimento de alimentos transgênicos, que, embora sejam mais resistentes às pragas, são proibidos no Brasil"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Espaço Rural: sistemas agrícolas, modernização do campo e estrutura agrária brasileira"
+          ]
+        },
+        {
+          "area": "Química",
+          "assuntos": [
+            "Química Ambiental: parâmetros de qualidade ambiental, poluição de ar/água/solo e ciclos biogeoquímicos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 36,
+      "tipo": "objetiva",
+      "enunciado": "As substâncias químicas diariamente utilizadas são compostas por átomos. Estos átomos podem estar ligados entre si através de ligações químicas. Considere os três tipos de ligação química: iônica, covalente e metálica e assinale a alternativa correta.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "A ligação iônica ocorre entre dois átomos de ametais, onde há a transferência de elétrons de um átomo para outro, tornando a molécula polar",
+        "b": "A ligação covalente ocorre entre átomos de ametais através do compartilhamento de elétrons. Se um átomo é mais eletronegativo, este átomo atrai este(s) elétron(s) compartilhado(s) com uma força menor e assim, a molécula é polar",
+        "c": "A ligação metálica ocorre entre os átomos de metais. Estes átomos se unem através da transferência de elétrons de um átomo para o outro, chamados de cátion e ânion",
+        "d": "A ligação iônica ocorre entre átomos de metais e átomos de ametais. Os cátions apresentam carga positiva enquanto os ânions apresentam carga negativa. Na ligação iônica, o cátion doa seu(s) elétron(s) para o ânion, formando assim um composto iônico estável com carga elétrica neutra",
+        "e": "Na ligação covalente entre os átomos, o átomo de maior eletronegatividade doa seu elétron para o átomo com menor eletronegatividade, obtendo-se assim, uma molécula apolar"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Ligação iônica e características dos compostos iônicos",
+            "Ligação covalente, estruturas de Lewis, regra do octeto e geometria molecular",
+            "Ligação metálica e ligas metálicas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 37,
+      "tipo": "objetiva",
+      "enunciado": "No dicionário, matéria é tudo aquilo que tem massa e ocupa lugar no espaço, ou qualquer substância que compõe um corpo sólido, líquido ou gasoso. O estado físico da matéria está relacionado com as forças que atuam em seu interior. A matéria pode apresentar-se em qualquer estado físico, conforme a pressão e temperatura. Um esquema das mudanças de fase de uma substância é mostrado na Figura abaixo.\n\nConsidere os pontos I, II, III, IV, V e VI mostrados na Figura e assinale a alternativa correta em relação ao processo de mudança de fase da matéria.",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 11: Esquema de mudanças de fase com caixas 'Sólido', 'Líquido' e 'Gasoso' conectadas por setas numeradas de I a VI."
+      ],
+      "alternativas": {
+        "a": "O ponto indicado por I é chamado de fusão. Neste processo, há a adição de calor ao sistema e se a substância considerada for pura, a fusão do sólido ocorre à temperatura constante (ponto de fusão)",
+        "b": "A sublimação de uma substância pode ser representada pelo ponto VI. Este processo é dado pela passagem da substância da fase gasosa para a fase líquida e calor é retirado do sistema para que a sublimação ocorra",
+        "c": "O ponto II representa o processo de vaporização, onde a substância passa do seu estado físico líquido para o estado gasoso. Este processo pode ser classificado em ebulição, evaporação e calefação. No processo de calefação, a vaporização ocorre de maneira lenta e natural, enquanto na ebulição e na evaporação a substância rapidamente muda de fase",
+        "d": "A solidificação de uma substância é dada pela passagem da matéria em seu estado líquido para o estado sólido. Este processo é representado pelo ponto III e para que ele ocorra há a necessidade de adicionar calor ao sistema",
+        "e": "Quando a matéria passa do estado líquido para o gasoso, processo chamado de vaporização (ponto II), as partículas no interior desta substância ficam mais próximas umas das outras, devido ao calor adicionado"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Estados físicos da matéria e diagramas de aquecimento/resfriamento"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 38,
+      "tipo": "objetiva",
+      "enunciado": "As aminas são substâncias químicas orgânicas que possuem um amplo uso na área industrial. Estas substâncias podem ser utilizadas na produção de sabões, na vulcanização da borracha e, também, na produção de sais de amônio que podem ser adicionados aos condicionadores de cabelo. Considere as duas moléculas orgânicas mostradas abaixo na Figura e assinale a alternativa que apresenta a correta nomenclatura para as substâncias (1) e (2), respectivamente, conforme a International Union of Pure and Applied Chemistry (IUPAC):",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 12: Figura contendo duas estruturas químicas orgânicas identificadas por (1) ciclo-hexano com NH2 e (2) cadeia insaturada com grupo amina."
+      ],
+      "alternativas": {
+        "a": "4-ciclo-hexenamina e 5-hepten-2-amina",
+        "b": "3-ciclo-hexenamina e 6-hepten-2-amina",
+        "c": "4-ciclo-benzeno-hexenamina e 6-hepten-3-amina",
+        "d": "3-ciclo-hexenamina e 6-metil-hepten-3-amina",
+        "e": "3-ciclo-benzeno-hexenamina e 6-hepten-2-amina"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Principais funções orgânicas: hidrocarbonetos, álcoois, fenóis, éteres, ésteres, aldeídos, cetonas, ácidos carboxílicos, aminas e amidas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 39,
+      "tipo": "objetiva",
+      "enunciado": "As funções inorgânicas são classificadas em óxidos, ácidos, bases e sais. Os sais são comumente utilizados no nosso dia-a-dia, como o sal de cozinha (NaCl), o bicarbonato de sódio (NaHCO3) e o sulfato de sódio (Na2SO4). Na indústria química, os sais também possuem um papel importante, por exemplo, o NaCl é utilizado na fabricação de soda cáustica. A reação química entre um ácido e uma base de Arrhenius produz um sal.\n\nConsidere a reação entre o ácido ortofosfórico e o hidróxido de cálcio abaixo e assinale a alternativa correta que apresenta o composto X formado e o valor de n conforme a estequiometria da reação balanceada.\n\n2H₃PO₄ + nCa(OH)₂ → X + 6H₂O",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "X = Ca₂(OH)₃ e n = 2",
+        "b": "X = Ca₂(PO₄)₃ e n = 2",
+        "c": "X = Ca₂(OH)₃ e n = 3",
+        "d": "X = Ca(OH)₃ e n = 2",
+        "e": "X = Ca₃(PO₄)₂ e n = 3"
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Funções inorgânicas: ácidos, bases, sais e óxidos",
+            "Equações químicas e métodos de balanceamento"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 40,
+      "tipo": "objetiva",
+      "enunciado": "A queima de uma substância se dá pela reação de combustão entre um comburente e um combustível. Diversos produtos podem ser formados nesta reação, como H₂O, CO₂, CO, H₂ e CH₄. Alguns destes componentes podem causar a chuva ácida que prejudica o meio ambiente com danos aos ciclos biogeoquímicos do planeta e o agravamento do efeito estufa. A combustão completa de uma substância produz gás carbônico e água como produtos. Considere a reação de combustão completa do etileno mostrada abaixo.\n\nC₂H₄ + 3O₂ → 2CO₂ + 2H₂O\n\nConsidere as massas molares de C₂H₄, O₂ e CO₂ iguais a 28 g/mol, 32 g/mol e 44 g/mol, respectivamente e assinale a alternativa correta que apresenta quantos gramas de CO₂ serão formados com uma massa inicial de C₂H₄ igual a 2g e de O₂ igual a 6g e se a reação é endotérmica ou exotérmica.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "mCO2 = 5,50g e a reação é exotérmica",
+        "b": "mCO2 = 6,25g e a reação é exotérmica",
+        "c": "mCO2 = 5,43g e a reação é endotérmica",
+        "d": "mCO2 = 6,25g e a reação é endotérmica",
+        "e": "mCO2 = 4,20 g e a reação é exotérmica"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Cálculos estequiométricos: relações de massa, volume, mols e pureza/rendimento",
+            "Termoquímica: reações exotérmicas e endotérmicas, entalpia e equações termoquímicas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 41,
+      "tipo": "objetiva",
+      "enunciado": "O preparo de soluções é uma prática muito utilizada em laboratórios químicos. Soluções são as misturas resultantes da junção de duas ou mais substâncias químicas em que apresentam apenas uma fase (mistura homogênea). Para obter uma solução de molaridade igual a 0,1M e volume igual a 500mL, deseja-se encontrar a massa do NaCl que deve ser pesada no laboratório. Considere a massa molar do sal igual a 58,5 g/mol e assinale a alternativa correta que contém essa quantidade.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "mNaCl = 3,82g",
+        "b": "mNaCl = 2,93g",
+        "c": "mNaCl = 1,54g",
+        "d": "mNaCl = 8,75g",
+        "e": "mNaCl = 0,86g"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Água e soluções aquosas: solubilidade, tipos de concentração (g/L, mol/L, ppm) e diluição"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 42,
+      "tipo": "objetiva",
+      "enunciado": "Um gás ideal pode ser representado por um conjunto de moléculas ou átomos que estão em movimento constante e aleatório, onde as velocidades médias estão relacionadas com a temperatura. A equação de Clapeyron representa satisfatoriamente o comportamento de um gás ideal e é bastante utilizada pelos cientistas. Esta equação é o melhor caminho para se transformar massa em volume gasoso. Considere a equação de Clapeyron e assinale a alternativa correta com o volume ocupado por 10 g de N₂ a 25ºC e 1 atm.\n\nConsidere os dados constantes dos gases ideais:\nR = 0,082 atm.L/mol.K\nMassa molar N₂: 28 g/mol",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "VN2 = 22,4 L",
+        "b": "VN2 = 7,5 L",
+        "c": "VN2 = 8,7 L",
+        "d": "VN2 = 8,0 L",
+        "e": "VN2 = 2,5 L"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Estudo dos gases: teoria cinética, leis dos gases e Equação de Clapeyron"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 43,
+      "tipo": "objetiva",
+      "enunciado": "A unidade fundamental da vida é a célula, pois está presente em quase todos os organismos vivos do nosso planeta. A respeito dos organismos vivos que são acelulares, assinale a alternativa correta.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "Bactérias",
+        "b": "Vírus",
+        "c": "Fungos",
+        "d": "Parasitas",
+        "e": "Protozoários"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Vírus: estrutura, replicação e principais viroses humanas",
+            "Organização celular: diferenças entre procariontes e eucariontes (animal e vegetal)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 44,
+      "tipo": "objetiva",
+      "enunciado": "Os vegetais são classificados quanto a presença ou ausência de flores. As plantas que não possuem flores são chamadas de criptógamas, já as plantas com flores são chamadas de fanerógamas. As plantas também podem ser classificadas em traqueófitas ou atraqueófitas, ou seja, que apresentam ductos de condução da seiva e as que não apresentam, respectivamente. A respeito das plantas traqueófitas, assinale a alternativa incorreta.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "Samambaias",
+        "b": "Pinheiros",
+        "c": "Gincobilobas",
+        "d": "Cavalinha",
+        "e": "Musgos"
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Reino Plantae: características e ciclos de vida de briófitas, pteridófitas, gimnospermas e angiospermas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 45,
+      "tipo": "objetiva",
+      "enunciado": "Todos os seres vivos que compõem o reino Animalia são formados por células animais. Já os representantes do reino Plantae são formados por células vegetais. Basicamente, o que difere uma estrutura celular da outra é o seu constituinte interno, como as organelas, sua membrana protetora e seu metabolismo energético. A respeito dos aspectos que diferem as células animais das células vegetais, assinale a alternativa correta.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "Na célula animal a parede celular é mais espessa em comparação à membrana da célula vegetal, e uma das suas principais funções é a proteção do conteúdo interno",
+        "b": "Os cloroplastos são as organelas responsáveis pela produção de energia das células animais, por meio da respiração",
+        "c": "A produção de energia da célula animal ocorre na mitocôndria, por meio da respiração celular. A matriz mitocondrial apresenta sua maior semelhança com os cloroplastos, o DNA circular",
+        "d": "A parede celular está presente somente na célula vegetal, não fazendo parte das células animais",
+        "e": "A produção de energia da célula animal ocorre na mitocôndria, por meio da respiração celular. Na matriz mitocondrial apresenta sua maior semelhança com as bactérias, o DNA em forma de hélice"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Organização celular: diferenças entre procariontes e eucariontes (animal e vegetal)",
+            "Organelas citoplasmáticas e suas funções"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 46,
+      "tipo": "objetiva",
+      "enunciado": "As plantas _____ dependem de uma grande quantidade de água para sua existência e geralmente, crescem parcialmente ou completamente _____ em água. Já as plantas _____ se adaptam a ambientes com longas carências de água, o que leva a mudanças em suas estruturas internas, com células reduzidas e cutículas e paredes celulares mais espessas. Sobre a quantidade de água que as plantas dependem, assinale a alternativa que preencha correta e respectivamente as lacunas.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "hidrófitas/submersas/xerófitas",
+        "b": "xerófitas/submersas/hidrófitas",
+        "c": "aquáticas/a cima/terrestres",
+        "d": "terrestres/a cima/aquáticas",
+        "e": "hidrófitas/a cima/xerófitas"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Anatomia e fisiologia vegetal: tecidos, condução de seivas, transpiração e fitormônios/tropismos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 47,
+      "tipo": "objetiva",
+      "enunciado": "Os seres vivos se interagem de diversas maneiras na natureza. Em relação as interações ecológicas, estas podem ser divididas em dois tipos, as relações intraespecíficas, ou seja, dentro da mesma espécie, ou relações interespecíficas, entre espécies diferentes. Em ambas as relações, temos as interações harmônicas e desarmônicas. A respeito das interações ecológicas, analise as afirmativas abaixo e dê valores de Verdadeiro (V) ou Falso (F).\n( ) Exemplos de interação intraespecífica harmônica são as formigas e as abelhas.\n( ) Canibalismo e competição são exemplos de interação intraespecífica desarmônica.\n( ) Exemplos de interação interespecíficas harmônicas são os liquens (fungos + cianobactérias), onde ambos se beneficiam da relação.\n( ) O parasitismo é um exemplo de interação interespecífica desarmônica, onde o parasita retira do hospedeiro os nutrientes para sua sobrevivência.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "V, F, F, F",
+        "b": "F, V, V, V",
+        "c": "V, V, V, V",
+        "d": "F, F, F, F",
+        "e": "V, F, F, V"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Dinâmica de populações e relações ecológicas (intraespecíficas e interespecíficas)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 48,
+      "tipo": "objetiva",
+      "enunciado": "A função do Ácido Desoxirribonucleico (DNA) está ligada ao armazenamento da nossa herança genética. O DNA é formado por nucleotídeos e apresenta, geralmente, a forma de dupla hélice. A respeito da composição dos nucleotídeos que formam o DNA, assinale a alternativa correta.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "Uma pentose, uma base nitrogenada e um ou mais grupos fosfato",
+        "b": "Uma hexose, uma base oxigenada e um ou mais grupos folato",
+        "c": "Uma pentose, quatro bases nitrogenadas e um ou mais grupos fosfato",
+        "d": "Uma hexose, quatro bases nitrogenadas e um ou mais grupos folato",
+        "e": "Uma pentose, duas bases nitrogenadas e nenhum grupo fosfato"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Estrutura molecular do DNA e RNA, transcrição gênica e síntese proteica (código genético)",
+            "Componentes químicos celulares: água, sais minerais, carboidratos, lipídios, proteínas e vitaminas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 49,
+      "tipo": "objetiva",
+      "enunciado": "Para descrever a diversidade dos seres vivos foi criada a Taxonomia. Os seres vivos são classificados de acordo com grupos específicos, que determinam suas características em comum dentro de cada nível. Em relação às unidades mais comuns utilizadas para a classificação dos seres vivos e sua ordem decrescente, assinale a alternativa correta.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "Reino, Filo, Classe, Ordem, Família, Espécie e Gênero",
+        "b": "Reino, Filo, Ordem, Família, Classe, Espécie e Gênero",
+        "c": "Reino, Ordem, Filo, Família, Classe, Gênero e Espécie",
+        "d": "Reino, Filo, Classe, Ordem, Família, Gênero e Espécie",
+        "e": "Reino, Filo, Classe, Família, Ordem, Gênero e Espécie"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Níveis de organização da vida, taxonomia de Lineu e cladogramas modernos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 50,
+      "tipo": "objetiva",
+      "enunciado": "A partir de testes cognitivos se obtém que o tempo de reação dos seres humanos em média é de cerca de 0,2 s = 200 ms (milissegundos). Trata-se do tempo entre a percepção de um movimento e a realização de uma resposta motora. Considere que uma pessoa, cuja resposta motora/mecânica siga a média populacional descrita e esteja submetida às circunstâncias listadas.\nI. Medir com um cronômetro o tempo de queda de um objeto, a partir do repouso e bem descrito pelo modelo de queda livre, de uma altura de 20 cm (considere g = 10 m/s²).\nII. Frear um carro que se desloca a 54 km/h (20 m/s) após surgimento repentino de um obstáculo 2 m à frente evitando a colisão (considere que o movimento do carro modelado por movimento desacelerado em taxa constante).\nIII. Desviar de uma bola que se desloca horizontalmente a 20 m/s com velocidade constante que partiu de uma distância de 5 m.\n\nConsiderando que resposta mecânica em tempos menores ou iguais a 200 ms é considerada “improvável”, e em tempos maiores que 200 ms é considerada “possível”. Assinale a alternativa que classifica corretamente as situações de I a III.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "I - possível; II - possível; III - possível",
+        "b": "I - improvável; II - possível; III - improvável",
+        "c": "I - possível; II - improvável; III - possível",
+        "d": "I - improvável; II - improvável; III - possível",
+        "e": "I - improvável; II - improvável; III - improvável"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Cinemática escalar: velocidade e aceleração escalar média e instantânea",
+            "Movimento Uniforme (MU) e Movimento Uniformemente Variado (MUV)",
+            "Queda livre e lançamento vertical"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 51,
+      "tipo": "objetiva",
+      "enunciado": "“Cabo de guerra” além de ser expressão popular que identifica tanto a disputa entre entidades antagônicas, também caracteriza um antigo esporte que já participou das olimpíadas entre 1900 e 1920. Sua origem não é precisa mas há documentação de ter sido praticada desde o século 8 a.C na China Imperial para treinamento militar. Considere que duas pessoas A e B irão disputar cabo de guerra. A tem massa 80 kg e consegue com o movimento de recolhimento dos braços fazer força de 1000 N; B tem massa 100 kg que consegue fazer força de 800 N. Ambos os competidores devem manter os corpos posicionados de maneira vertical durante a disputa, e podem, então, serem modelados como pontos materiais. Perde a disputa aquele que cruzar primeiro uma linha posta a alguns metros adiante de cada competidor.\n\nConsidere que ambos competidores dispõem do coeficiente de atrito de 1,0 entre a sola do sapato o chão, e, se necessário, admita que a aceleração da gravidade é de 10 m/s². Assinale a alternativa correta que apresenta um fato verdadeiro.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "A ficará em equilíbrio assim como B e a disputa ficará empatada",
+        "b": "B estará submetido à uma força resultante de 800N e vencerá",
+        "c": "A estará submetido à uma força resultante de 1000N e vencerá",
+        "d": "B estará submetido à uma aceleração de 12,5 m/s² e A de 10 m/s², ganha A",
+        "e": "A, B e a corda serão todos submetidos à uma força de 200N"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "As 3 Leis de Newton e conceito de força resultante",
+            "Massa, peso e forças de atrito (estático e cinético)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 52,
+      "tipo": "objetiva",
+      "enunciado": "“A temperatura dos oceanos está aumentando em ritmo mais rápido do que anteriormente estimado, ameaçando uma grande quantidade de espécies marinhas e podendo resultar na elevação do nível do mar, revelou um estudo de cientistas americanos e chineses divulgado nesta quinta-feira [10/01/2019]. As conclusões, divulgadas na revista Science, contrariam pesquisas anteriores que apontavam uma estagnação do aquecimento global nos últimos anos. (...) 'O aquecimento dos oceanos é um indicador importante das mudanças climáticas, e temos provas robustas de que ocorre de modo mais rápido do que pensávamos (...) Em torno de 93% do excesso de calor – preso na atmosfera pelos gases causadores do efeito estufa provenientes de combustíveis fósseis – se acumulam nos oceanos. (...) O aquecimento global existe e já tem grandes consequências.', enfatizaram em comunicado os autores do estudo, acrescentando que, se nada for feito para reduzir as emissões de gases causadores do efeito estufa, a temperatura nos primeiros 2 mil metros de profundidade nos oceanos aumentará 0,78 ºC até o fim do século.” (Fonte: Deutsche Welle.)\n\nUm aumento de 1 ºC na temperatura dos oceanos levaria à um grande aumento da quantidade da energia térmica na biosfera. Considere o volume total de água nos oceanos como sendo 1,5 × 10⁹ km³, e que a densidade da água é de 1 × 10¹² kg/km³ com calor específico de 4 kJ/kgºC.\n\nComo comparação: a bomba atômica Little Boy foi lançada na cidade japonesa de Hiroshima em 6 de agosto de 1945 que matou diretamente 70 mil pessoas em uma explosão de cerca de 15 ktons = 60 × 10⁹ kJ.\n\nCaso o aumento de 1ºC de temperatura ocorra durante o período de transição de 100 anos, teremos uma acréscimos anual expressivo de energia térmica no planeta. Para dimensionar essa quantidade é interessante comparar com a energia emitida pela explosão de bombas atômicas. Assinale a alternativa que corretamente apresenta o número de bombas atômicas como a Little Boy que corresponderiam à energia extra a cada ano acumulada na terra durante esse período de transição de 100 anos.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "1 mil bombas atômicas",
+        "b": "1 milhão de bombas atômicas",
+        "c": "100 milhões de bombas atômicas",
+        "d": "1 bilhão de bombas atômicas",
+        "e": "10 bilhões de bombas atômicas"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Calorimetria: calor sensível, capacidade térmica, calor latente e trocas de calor",
+            "Potência mecânica e rendimento"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 53,
+      "tipo": "objetiva",
+      "enunciado": "A astronomia observacional, além de fornecer dados para análise científica da evolução do universo, também permitiu o desenvolvimento de tecnologia. Observar o céu permitiu o desenvolvimento de sistemas de navegação em terra, orientados pelas estrelas no céu e a observação de estrelas e planetas que levou ao desenvolvimento de bens tecnológicos modernos como a Câmera Digital (câmera CCD), muito presente no cotidiano na atualidade. Invenção esta de 1969, de Willard S. Boyle e George E. Smith e laureada com o prêmio Nobel há 10 anos. Neste ano de 2019, o prêmio Nobel foi dado aos cientistas suíços Michel Mayor e Didier Queloz, que em 1995 obtiveram a primeira descoberta conclusiva de um planeta fora do sistema solar. O exoplaneta tem massa de cerca da metade da massa de Júpiter e orbita a estrela 51 Pegasi da constelação de Pégaso - que tem aproximadamente a mesma massa que o Sol. A observação foi realizada a partir das “variações periódicas na velocidade radial da estrela”. Os cientistas determinaram que a órbita desse planeta, em torno da 51 Pegasi, tem pouca excentricidade e pode ser considerada circular, com apenas 8 milhões de quilômetros de raio.\n\nMassa de Júpiter = 320 Massa da Terra\n1 Massa do Sol = 330 000 Massa da Terra\nDistância (média) Sol - Terra = 150 × 10⁶ km\n\nAssinale a alternativa que corretamente identifica, a partir dos valores obtidos pelos cientistas, a magnitude da força gravitacional entre 51 Pegasi e o planeta, em relação à força existente entre o Sol e a Terra.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "160 vezes maior",
+        "b": "3000 vezes maior",
+        "c": "5625 vezes maior",
+        "d": "16000 vezes maior",
+        "e": "56250 vezes maior"
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Leis de Kepler e Lei da Gravitação Universal de Newton"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 54,
+      "tipo": "objetiva",
+      "enunciado": "Base de lançamento de foguetes de Alcântara no Brasil é mais próxima do equador que existe no mundo, o que a torna estratégica para o lançamento de satélites geoestacionários. Lançado da estação de Alcântara, um satélite precisa de menor consumo de combustível para correção em sua órbita, estando já muito próximo do plano da órbita que desenvolverá. Os satélites posicionados na órbita geoestacionária mantêm movimento estacionário (fixo) com respeito à superfície da Terra, acompanhando-a em seu giro, e são fundamentais para o sistema de telecomunicações, para calibração e orientação do Sistema de Posicionamento Global (GPS) e para o mapeamento atmosférico, climático e ambiental. A igualdade entre a força centrípeta e a força gravitacional entre o satélite e a Terra leva ao raio da órbita geoestacionária de cerca de 4 × 10⁴ km. Considere que o raio terrestre no equador é de cerca de 6 × 10³ km, e lembre-se que o período de rotação da terra em relação a seu eixo é de 24h. Considerando um referencial fixo no centro da Terra, assinale a alternativa que indica corretamente os valores respectivos da velocidade do satélite, ainda na base, antes de ser lançado e o módulo da diferença entre essa velocidade e de quando ele for posto em órbita geoestacionária. Considere π = 3.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "1.500 km/h e 2.800 km/h",
+        "b": "6.000 km/h e 4.250 km/h",
+        "c": "1.500 km/h e 8.500 km/h",
+        "d": "1.500 km/h e 34.000 km/h",
+        "e": "6.000 km/h e 60.000 km/h"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Movimento Circular Uniforme (MCU): velocidade angular, aceleração centrípeta e acoplamento de engrenagens",
+            "Força centrípeta em trajetórias curvilíneas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 55,
+      "tipo": "objetiva",
+      "enunciado": "O Brasil está desenvolvendo um dos laboratórios mais avançados de ótica no mundo, o laboratório Sirius - em Campinas/SP, com tecnologia nacional que é produto dos esforços dos cientistas e engenheiros brasileiros envolvidos no projeto. “As seis primeiras estações experimentais de pesquisa do Sirius – nanoscopia de raios X, espalhamento coerente de raios X, micro e nano cristalografia macromolecular, por exemplo –, acessíveis a partir do próximo ano [2019], foram selecionadas para atender tanto à demanda “da nova ciência e da tecnologia avançada” e às tecnologias mais utilizadas pelo usuário, como para permitir o avanço de investigações em áreas estratégicas como óleo e gás, saúde, entre outras, ressalta Antônio José Roque da Silva [diretor-geral do CNPEM e responsável pelo projeto Sirius desde 2009]. (Fonte: O Estado de São Paulo.)\n\nA luz, ou radiação, síncrotron é um tipo de radiação eletromagnética de alto fluxo e alto brilho que se estende por uma ampla faixa do espectro eletromagnético desde a luz infravermelha, passando pela radiação ultravioleta e chegando aos raios X. A luz síncrotron é capaz de penetrar a matéria e revelar características da estrutura molecular e atômica. O amplo espectro dessa radiação permite aos pesquisadores utilizar os comprimentos de onda mais adequados para o experimento que desejam executar (Fonte: Revista Fapesp/ 2018).\n\nTabela: Espectro eletromagnético.\nRaio X: 0,01 nm - 10 nm\nUltravioleta: 10 nm - 400 nm\nLuz visível: 400 nm - 750 nm\nInfravermelho: 750 nm - 1 mm\n\nConsidere que se deseja estudar as propriedades dos materiais por meio da radiação síncrotron cujos comprimentos de onda envolvidos estão na escala molecular (nanômetro), 1nm = 10⁻⁹ m. Assinale a alternativa que apresenta corretamente, a frequência em Hz da radiação que tem comprimento de onda nesta escala e o tipo de radiação a que corresponde. Adote para a velocidade da luz o valor de 3 × 10⁸ m/s.",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 15: Tabela do espectro eletromagnético com faixas para Raio X, Ultravioleta, Luz visível e Infravermelho."
+      ],
+      "alternativas": {
+        "a": "1 × 10⁻⁹ Hz, Ultravioleta",
+        "b": "3 × 10¹⁷ Hz, Raio X",
+        "c": "1 × 10¹⁹ Hz, Luz visível",
+        "d": "1 × 10⁹ Hz, Raio X",
+        "e": "3 × 10² Hz, Infravermelho"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Ondulatória: características das ondas e Equação Fundamental da Ondulatória (v = λ * f)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 56,
+      "tipo": "objetiva",
+      "enunciado": "Em linhas gerais todo dispositivo constitui uma cadeia de transformação de energia. O desempenho de dispositivos em geral é dado por parâmetros de operação como potência e eficiência. A eficiência é dada pela proporção entre potência útil (que contabiliza a energia presente após a realização da cadeia de transformação do dispositivo) e potência retirada da fonte de energia que alimenta o dispositivo (no caso de dispositivos elétricos, a energia retirada da rede elétrica comercial - que consta das “contas de luz”).\n\nEm um carregador de celular temos a conversão da energia elétrica disponibilizada na rede elétrica para uma tensão constante mais baixa (também energia elétrica). Esta tensão na saída atua para recarregar a bateria do celular (revertendo as reações químicas que armazenam energia para uso pelo celular), o valor de corrente é determinado pelo celular a que se destina o seu emprego. Em um determinado carregador se vê as inscrições abaixo.\n\nEntrada (AC): 120V - 0,5A\nSaída (DC): 5V - 2A\n\n*Considere que o valor AC é um valor efetivo escolhido de modo a não influenciar o cálculo da potência em relação ao que se faz com valores fixos de tensão e corrente.\n\nQuanto às afirmações verdadeiras sobre este dispositivo, assinale a alternativa correta.",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 16: Caixa com inscrições 'Entrada (AC): 120V - 0,5A' e 'Saída (DC): 5V - 2A'."
+      ],
+      "alternativas": {
+        "a": "A eficiência do carregador é de cerca de 17%",
+        "b": "A energia gasta pelo carregador ao operar por 1h é de 0,5 kWh",
+        "c": "A eficiência do carregador é de 80%",
+        "d": "A resistência do circuito de entrada é de 60 ohm",
+        "e": "A resistência elétrica do circuito de saída é de 0,4 ohm"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Eletrodinâmica: corrente elétrica, ddp, Leis de Ohm, resistividade e potência elétrica (kWh)",
+            "Potência mecânica e rendimento"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 57,
+      "tipo": "redacao",
+      "enunciado": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija um texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema “Meio ambiente e sustentabilidade: a participação do cidadão comum na preservação do planeta”. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para a defesa de seu ponto de vista.",
+      "textos_de_apoio": [
+        "TEXTO I: “São cada vez mais evidentes os impactos negativos que o homem provoca na natureza. A poluição, a destruição de habitats, o acúmulo de resíduos sólidos e a diminuição rápida da biodiversidade são apenas alguns dos exemplos dos problemas ambientais gerados pela ação do homem na atualidade. Uma das palavras mais utilizadas atualmente para falar de meio ambiente e dos impactos negativos causados pelo homem é sustentabilidade, termo que possui os mais variados significados” (Sustentabilidade: a sustentabilidade é uma preocupação crescente, uma vez que os recursos naturais estão cada vez mais ameaçados em consequência da ação humana - Mundo Educação).",
+        "TEXTO II: “[...]. “Atualmente, o crescimento acelerado da população mundial vem demandando cada vez mais recursos naturais para atender a todas as suas necessidades. Neste processo, os resíduos são gerados e os recursos tornam-se limitados diante de tanta voracidade. Evidenciam-se, assim, os problemas da poluição e contaminação ambiental e a escassez de recursos naturais. O conceito “Bumerangue ecológico”, talvez melhor represente o que está ocorrendo com a Terra, onde a ação do homem sobre o planeta está recaindo sobre ele mesmo, num processo de causa e efeito. Hoje, alguns problemas ambientais fazem parte do cotidiano da sociedade mundial, como: aquecimento global, chuva ácida, buraco na camada de ozônio, dentre outros. Mas seus efeitos ainda serão sentidos por muitos anos” [...] (A responsabilidade de cada um na preservação do meio ambiente - Prof. Celso Bandeira de Melo Ribeiro da Faculdade de Engenharia – UFJF/Departamento de Engenharia Sanitária e Ambiental – ESA Universidade Federal de Juiz de Fora | Arquivo de Notícias – Junho/2009).",
+        "TEXTO III: “Desde o decorrer dos primeiros períodos da história a preocupação com a preservação ambiental já era nítida, e desta forma o conflito entre crescimento econômico e proteção ambiental esteve presente ao longo dos séculos. O aumento de bem-estar social proporcionado pelo vigoroso crescimento, bem como desenvolvimento econômico mundial ocorrido no século XX, é ameaçado pelas transformações ambientais ocorridas, em sua maioria, pela consequência das práticas deliberadas das ações humanas” (Meio ambiente e sustentabilidade. Ismael Bruno Silva França- Revista Jus Navegandi/ Publicado em: ago.2018)."
+      ],
+      "midia": [],
+      "alternativas": null,
+      "gabarito": null,
+      "areas": [
+        {
+          "area": "Redação",
+          "assuntos": [
+            "Eixo Temático 2: Meio ambiente, sustentabilidade e crises ecológicas",
+            "Gênero dissertativo-argumentativo: impessoalidade (3ª pessoa) e defesa de ponto de vista claro"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    }
+  ]
+}

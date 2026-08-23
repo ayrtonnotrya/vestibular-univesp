@@ -1,0 +1,1515 @@
+{
+  "exame": "univesp_2021_questoes",
+  "ano": 2021,
+  "semestre": 2,
+  "fonte_questoes": "data/univesp_2021_questoes.pdf",
+  "fonte_gabarito": "data/univesp_2021_gabarito.pdf",
+  "total_questoes": 57,
+  "questoes": [
+    {
+      "numero": 1,
+      "tipo": "objetiva",
+      "enunciado": "Em uma papelaria, os valores de uma caixa de lápis, de um caderno, de um fichário e de uma agenda, nesta ordem, formam uma progressão aritmética cuja soma dos termos é R$ 72,00. Se a razão dessa progressão é um quarto do valor do caderno, o valor do fichário é",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "R$ 16,00.",
+        "b": "R$ 18,00.",
+        "c": "R$ 20,00.",
+        "d": "R$ 22,00.",
+        "e": "R$ 24,00."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Progressão Aritmética (PA) - termo geral e soma dos termos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 2,
+      "tipo": "objetiva",
+      "enunciado": "As funções f(x) = log₂(x + k) e g(x) = 2^(bx–1), com k e b números reais, se intersectam em dois pontos, sendo um deles o ponto (1, 2), conforme mostra o gráfico. O valor de g é igual a",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 3: Gráfico cartesiano mostrando as curvas das funções f(x) e g(x) intersectando-se nos pontos (-2, 0) aprox. e (1, 2)."
+      ],
+      "alternativas": {
+        "a": "5.",
+        "b": "4.",
+        "c": "3.",
+        "d": "2.",
+        "e": "1."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Conceito de função e relações entre grandezas",
+            "Teoria dos logaritmos, propriedades e função logarítmica",
+            "Função exponencial e propriedades"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 3,
+      "tipo": "objetiva",
+      "enunciado": "Em uma caixa há 7 canetas azuis, 5 vermelhas e 3 verdes. Retirando-se aleatoriamente duas canetas dessa caixa, uma após a outra e sem reposição, a probabilidade de que pelo menos uma delas seja verde é",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "8 / 35",
+        "b": "2 / 7",
+        "c": "13 / 35",
+        "d": "2 / 5",
+        "e": "3 / 7"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Princípios multiplicativo e aditivo da contagem",
+            "Espaço amostral (discreto e contínuo) e conceito de probabilidade"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 4,
+      "tipo": "objetiva",
+      "enunciado": "A área total de um cubo de aresta 4 cm é igual à área lateral de um prisma reto de base quadrada, com 8 cm de altura, conforme mostram as figuras. O volume do prisma que tem 8 cm de altura é igual a",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 3: Desenhos esquemáticos de um cubo de aresta 4 cm e de um prisma reto de base quadrada de altura 8 cm."
+      ],
+      "alternativas": {
+        "a": "96 cm³.",
+        "b": "88 cm³.",
+        "c": "80 cm³.",
+        "d": "72 cm³.",
+        "e": "64 cm³."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Geometria Espacial: vistas ortogonais e planificação",
+            "Poliedros, corpos redondos, prismas, pirâmides e troncos (área e volume)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 5,
+      "tipo": "objetiva",
+      "enunciado": "Em uma residência, a escada da sala forma com a parede um vão livre, no qual foram colocadas 3 prateleiras (P₁, P₂ e P₃) paralelas ao chão e equidistantes entre si, conforme mostra a figura. A soma dos comprimentos das 3 prateleiras é igual a",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 4: Desenho esquemático de uma escada encostada em uma parede com 3 prateleiras equidistantes, indicando 4 m de base no chão."
+      ],
+      "alternativas": {
+        "a": "5 m.",
+        "b": "6 m.",
+        "c": "7 m.",
+        "d": "8 m.",
+        "e": "9 m."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Congruência de figuras planas e semelhança de triângulos",
+            "Relações métricas no triângulo retângulo, polígonos regulares e círculos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 6,
+      "tipo": "objetiva",
+      "enunciado": "Um estudante dispõe de folhas de papel sulfite nas cores azul e amarelo, no total de 200 folhas. Após utilizar 50 folhas azuis e 10 folhas amarelas, o número restante de folhas das duas cores ficou o mesmo. O número de folhas restantes da cor amarela é",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "110.",
+        "b": "100.",
+        "c": "90.",
+        "d": "80.",
+        "e": "70."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Operações fundamentais com números inteiros e decimais",
+            "Sistemas lineares: métodos de resolução algébrica"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 7,
+      "tipo": "objetiva",
+      "enunciado": "A tabela mostra algumas informações sobre o número de pontos feitos por um atleta nas seis primeiras partidas de basquete realizadas pelo seu time. Considerando o número de pontos nessas seis partidas e sabendo que a moda é 34, o valor da média e da mediana são, respectivamente, iguais a",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 4: Tabela com Partidas (1ª a 6ª) e Pontuação (30, 24, 34, 36, 28, ?)."
+      ],
+      "alternativas": {
+        "a": "34 e 32.",
+        "b": "32 e 34.",
+        "c": "31 e 35.",
+        "d": "31 e 32.",
+        "e": "31 e 34."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Estatística: medidas de tendência central (média, moda e mediana)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 8,
+      "tipo": "objetiva",
+      "enunciado": "Contribui para o efeito de humor da tirinha o recurso",
+      "textos_de_apoio": [
+        "Para responder às questões de números 08 e 09, examine a tirinha de Pietro Soldi, publicada em sua conta do Instagram em 10.07.2020."
+      ],
+      "midia": [
+        "Página 4: Tirinha em quadrinhos de Pietro Soldi (10.07.2020) mostrando cenas domésticas durante a quarentena."
+      ],
+      "alternativas": {
+        "a": "à antítese: a oposição, em uma mesma expressão ou frase, de duas palavras de sentido contrário.",
+        "b": "ao eufemismo: a atenuação do sentido desagradável de uma palavra ou de uma expressão.",
+        "c": "à personificação: a atribuição de características humanas a seres inanimados ou irracionais.",
+        "d": "ao pleonasmo: a repetição desnecessária de palavras ou expressões para enunciar uma ideia.",
+        "e": "à hipérbole: a ênfase resultante do exagero na expressão ou comunicação de uma ideia."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Figuras de linguagem (metáfora, metonímia, antítese, paradoxo, hipérbole, ironia)",
+            "Intertextualidade, interdiscursividade e análise de textos verbais e não verbais (charges, cartuns)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 9,
+      "tipo": "objetiva",
+      "enunciado": "Observa-se o emprego de verbo no modo imperativo",
+      "textos_de_apoio": [
+        "Para responder às questões de números 08 e 09, examine a tirinha de Pietro Soldi, publicada em sua conta do Instagram em 10.07.2020."
+      ],
+      "midia": [
+        "Página 4: Tirinha em quadrinhos de Pietro Soldi (10.07.2020)."
+      ],
+      "alternativas": {
+        "a": "no primeiro quadrinho, apenas.",
+        "b": "no segundo quadrinho, apenas.",
+        "c": "no terceiro quadrinho, apenas.",
+        "d": "no quarto quadrinho, apenas.",
+        "e": "no terceiro e no quarto quadrinhos."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Flexão nominal e flexão verbal (tempos, modos, vozes e correlação verbal)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 10,
+      "tipo": "objetiva",
+      "enunciado": "De acordo com o autor,",
+      "textos_de_apoio": [
+        "Leia o trecho do livro Big Tech: a ascensão dos dados e a morte da política, de Evgeny Morozov, para responder às questões de 10 a 13.\n\nJá é quase um clichê afirmar que “dados são o petróleo do século XXI”. Há muito a criticar nessa definição. Para começar, a forma como produzimos dados é muito diferente daquela como a natureza produz seus recursos. Mas esse chavão, por mais desgastado que esteja, acerta em um ponto, ao levar em conta a escala da transformação digital que se encontra à nossa frente.\nNão surpreende o surgimento de um nicho de consultorias digitais e de gurus tecnológicos, os quais insistem na ideia de que uma sociedade detentora de tantos dados vai acabar solucionando todas as contradições que o sistema capitalista global não consegue resolver por conta própria: ao nos proporcionar trabalhos flexíveis e bem remunerados; ao punir os participantes deletérios do mercado por meio de mecanismos de autocorreção instantâneos; ao introduzir eficiência e sustentabilidade onde antes não havia – e tudo isso graças a aparatos inteligentes.\nTodas essas previsões podem ter seu fundo de verdade, mas certamente essa não é a única lição a extrair da comparação entre dados e petróleo. Cabe lembrar que a história do petróleo no século XX também se caracteriza pela violência, por pressões corporativas, guerras incessantes e desnecessárias, derrubada de regimes democráticos na expectativa de assegurar o controle de recursos estratégicos, aumento da poluição e alterações climáticas. Se os dados são o petróleo do século XXI, quem vai ser o Saddam Hussein deste século?\nConsiderar essa questão nos dias de hoje pode parecer não só excessivamente sarcástico, como também ridículo. Mas não precisaria ser assim: deveria ser óbvio o fato de que os dados — e os serviços de inteligência artificial que eles ajudam a estabelecer — vão se constituir em um dos terrenos cruciais dos embates geopolíticos deste século. Até agora, os principais competidores são bem conhecidos — os Estados Unidos e a China, os dois países com setores tecnológicos mais avançados —, mas é bem provável que outros, como a Rússia e a Índia, vão buscar um lugar no pelotão de frente, no mínimo movidos pelo temor de uma dependência excessiva de serviços digitais estrangeiros.\n(Big Tech: a ascensão dos dados e a morte da política, 2018.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "o avanço social das comunidades produtoras de dados do século XXI dependerá do abandono completo de uma economia ainda baseada na exploração do petróleo.",
+        "b": "a ideia de que dados são o petróleo do século XXI mostra-se falha por desconsiderar as origens bastante distintas desses dois recursos.",
+        "c": "a produção e a acumulação ininterruptas de dados acabarão por solucionar as contradições inerentes à sociedade capitalista global.",
+        "d": "a ideia de que dados são o petróleo do século XXI mostra-se falha por ignorar as perspectivas de mudanças sociais decorrentes da revolução digital.",
+        "e": "o petróleo, a despeito da acumulação frenética de dados, continuará desempenhando um papel central nos embates geopolíticos do século XXI."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 11,
+      "tipo": "objetiva",
+      "enunciado": "O autor inclui-se em seu texto, ou seja, trata a si mesmo também como objeto de seu texto, no seguinte trecho:",
+      "textos_de_apoio": [
+        "Trechos do livro Big Tech: a ascensão dos dados e a morte da política, de Evgeny Morozov (conforme texto base das questões 10 a 13)."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "“Já é quase um clichê afirmar que ‘dados são o petróleo do século XXI’.” (1º parágrafo)",
+        "b": "“Há muito a criticar nessa definição.” (1º parágrafo)",
+        "c": "“Para começar, a forma como produzimos dados é muito diferente daquela como a natureza produz seus recursos.” (1º parágrafo)",
+        "d": "“Todas essas previsões podem ter seu fundo de verdade, mas certamente essa não é a única lição a extrair da comparação entre dados e petróleo.” (3º parágrafo)",
+        "e": "“Se os dados são o petróleo do século XXI, quem vai ser o Saddam Hussein deste século?” (3º parágrafo)"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Mecanismos de coesão textual (lexical, referencial, anafórica) e coerência"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 12,
+      "tipo": "objetiva",
+      "enunciado": "Em “Não surpreende o surgimento de um nicho de consultorias digitais e de gurus tecnológicos, os quais insistem na ideia de que uma sociedade detentora de tantos dados vai acabar solucionando todas as contradições que o sistema capitalista global não consegue resolver por conta própria” (2º parágrafo), o termo sublinhado refere-se a:",
+      "textos_de_apoio": [
+        "Trechos do livro Big Tech: a ascensão dos dados e a morte da política, de Evgeny Morozov (conforme texto base das questões 10 a 13)."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "contradições.",
+        "b": "ideia.",
+        "c": "sociedade.",
+        "d": "dados.",
+        "e": "sistema."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Mecanismos de coesão textual (lexical, referencial, anafórica) e coerência"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 13,
+      "tipo": "objetiva",
+      "enunciado": "“Considerar essa questão nos dias de hoje pode parecer não só excessivamente sarcástico, como também ridículo.” (4º parágrafo)\nNo contexto em que se encontra, a expressão sublinhada expressa ideia de",
+      "textos_de_apoio": [
+        "Trechos do livro Big Tech: a ascensão dos dados e a morte da política, de Evgeny Morozov (conforme texto base das questões 10 a 13)."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "consequência.",
+        "b": "proporção.",
+        "c": "comparação.",
+        "d": "causa.",
+        "e": "adição."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Classes gramaticais: substantivo, adjetivo, artigo, numeral, pronome, verbo, advérbio, preposição, conjunção e interjeição",
+            "Mecanismos de coesão textual (lexical, referencial, anafórica) e coerência"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 14,
+      "tipo": "objetiva",
+      "enunciado": "Esse movimento procurou a naturalidade racional, através da simplicidade estilística e da clareza das ideias. O ideal de seus autores foi realizar a integração entre a literatura, a sociedade e a Natureza. O bucolismo ajustou-se a essa perspectiva de integração, com as imagens tranquilas da contemplação pastoril. Esse ideal de serenidade seria espontâneo e natural. Para esse movimento, segundo o crítico Antonio Candido, “o verdadeiro é o natural, o natural é o racional”.\n(Benjamin Abdala Junior e Samira Y. Campedelli. Tempos da literatura brasileira, 1997. Adaptado.)\nO texto refere-se ao movimento",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "barroco.",
+        "b": "árcade.",
+        "c": "romântico.",
+        "d": "naturalista.",
+        "e": "simbolista."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Literatura Brasileira: Quinhentismo, Barroco (Gregório de Matos), Arcadismo, Romantismo, Realismo/Naturalismo (Machado de Assis), Parnasianismo e Simbolismo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 15,
+      "tipo": "objetiva",
+      "enunciado": "According to the text,",
+      "textos_de_apoio": [
+        "Leia o texto para responder às questões de 15 a 19.\nBelieve it or not, the sequins (small plates of shining metal or plastic used for ornamentation, especially on clothing) on this dress are made from 100% bioplastic. Now you might be thinking, what is bioplastic? In this case, bioplastic might be the answer to one of fashion’s most prevalent plastic waste sins: sequins.\nIn a wider context, instead of relying on petroleum based fossil fuels as its key component (like traditional plastic), bioplastic is created from renewable materials. Like all trees and plants, algae sequesters carbon from the atmosphere. Creating bioplastic from this carbon reservoir results in a product that is carbon neutral. Heat is used to bind the algae together to form the bioplastic. This is then poured into moulds which become sheets. Once cooled, the sheets of bioplastic are finally cut into sequins.\nThere are many advantages to bioplastic. Perhaps the most obvious is algae, which unlike fossil fuels, is not a scarce resource. Bioplastics also degrade far more quickly, taking 3 to 6 months to decompose fully compared to the hundreds of years regular plastic requires. The carbon released by bioplastic as it decomposes is also equal to the carbon absorbed by the organic material it was made from, so the overall impact on the environment is close to zero.\nThere are some downsides to bioplastic, however. If not disposed of properly, bioplastic can end up in landfill, where deprived of oxygen, the substance could produce methane as it breaks down – a far more formidable greenhouse gas than CO₂.\nAs promising and forward thinking as these fashion initiatives are, it will take an adjustment of infrastructure to make sure the environment feels the full benefit of bioplastic. With the bioplastic market set to be worth $44 billion by 2022, perhaps that change isn’t a pie in the sky.\n(www.globalcitizen.org, 11.03.2021. Adaptado.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "fashion industry can improve on inclusivity.",
+        "b": "fashion should embrace second hand market.",
+        "c": "eco-friendly fashion always damages the environment.",
+        "d": "fashion industry can act to reduce its greenhouse gas emissions.",
+        "e": "sustainable fashion should be more affordable."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 16,
+      "tipo": "objetiva",
+      "enunciado": "In the excerpt from the second paragraph “Once cooled, the sheets of bioplastic are finally cut into sequins”, the underlined word means",
+      "textos_de_apoio": [
+        "Texto base sobre bioplástico (questões 15 a 19)."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "since.",
+        "b": "while.",
+        "c": "after.",
+        "d": "then.",
+        "e": "also."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Marcadores discursivos e conectivos (conjunções de adição, contraste, causa, consequência e condição)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 17,
+      "tipo": "objetiva",
+      "enunciado": "No trecho do terceiro parágrafo “is not a scarce resource”, a expressão sublinhada refere-se a",
+      "textos_de_apoio": [
+        "Texto base sobre bioplástico (questões 15 a 19)."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "algae.",
+        "b": "carbon.",
+        "c": "fossil fuels.",
+        "d": "bioplastic.",
+        "e": "regular plastic."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Coesão textual em inglês: referência pronominal e elipses"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 18,
+      "tipo": "objetiva",
+      "enunciado": "O trecho do quarto parágrafo “There are some downsides to bioplastic, however”, estabelece, em relação ao parágrafo anterior, uma relação de",
+      "textos_de_apoio": [
+        "Texto base sobre bioplástico (questões 15 a 19)."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "adição.",
+        "b": "explicação.",
+        "c": "oposição.",
+        "d": "conclusão.",
+        "e": "alternância."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Marcadores discursivos e conectivos (conjunções de adição, contraste, causa, consequência e condição)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 19,
+      "tipo": "objetiva",
+      "enunciado": "The expression “pie in the sky”, in the excerpt from the fifth paragraph “perhaps that change isn’t a pie in the sky”, indicates that the change isn’t",
+      "textos_de_apoio": [
+        "Texto base sobre bioplástico (questões 15 a 19)."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "a good idea.",
+        "b": "an unreal thing.",
+        "c": "a total surprise.",
+        "d": "a side effect.",
+        "e": "a cause for alarm."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 20,
+      "tipo": "objetiva",
+      "enunciado": "Examine a tirinha. The excerpt from the last panel “I’d better close the drapes” can be replaced, without change in meaning, by",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 7: Tirinha de Garfield (www.gocomics.com)."
+      ],
+      "alternativas": {
+        "a": "I’m able to close the drapes.",
+        "b": "I could close the drapes.",
+        "c": "It would be wise to close the drapes.",
+        "d": "I must close the drapes.",
+        "e": "It would be a mistake to close the drapes."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Verbos modais e seus valores semânticos (can, could, should, must, may, might)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 21,
+      "tipo": "objetiva",
+      "enunciado": "Analise as imagens da campanha publicitária criada para a marca de roupas Everlane. The aim of the ad campaign is to",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 7: Imagem da campanha publicitária da marca Everlane com os dizeres 'Warming the planet.' e 'Warming you.'."
+      ],
+      "alternativas": {
+        "a": "encourage people to recycle plastic bottles.",
+        "b": "raise awareness about eco-friendly fashion.",
+        "c": "highlight the importance of drinking water.",
+        "d": "bring awareness to body image issues.",
+        "e": "take a stand against sustainability issues."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Identificação do gênero textual, propósito comunicativo e público-alvo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 22,
+      "tipo": "objetiva",
+      "enunciado": "Os séculos II e I a.C. são tidos como o período de crise da República romana. O modelo político centrado na supremacia do Senado, instrumento de poder da elite patrícia, sofreu uma forte contestação, fruto da ação de diferentes setores da sociedade: uma camada de comerciantes enriquecidos com a expansão de Roma; a massa de plebeus miseráveis e descontentes e o enorme contingente de escravos. Além disso, não podem ser descartadas as pretensões políticas dos generais, fortalecidos pela crescente importância do Exército na vida romana.\n(Flávia Maria Schlee Eyler. História antiga: Grécia e Roma, 2014. Adaptado.)\nA crise à qual a historiadora se refere decorreu",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "da expansão do cristianismo, que questionou a hierarquia social e a autoridade política.",
+        "b": "das guerras civis entre patrícios, plebeus e escravos, que deram origem a leis escritas.",
+        "c": "da extensão da cidadania aos povos dominados, que tirou os privilégios dos romanos.",
+        "d": "das conquistas na bacia do Mar Mediterrâneo, que alteraram a estrutura socioeconômica.",
+        "e": "da disputa pelo poder entre os generais, que pôs fim à economia centrada no escravismo."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Antiguidade Clássica: democracia ateniense, República/Império Romano e escravismo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 23,
+      "tipo": "objetiva",
+      "enunciado": "As cidades, para nascer, precisaram de um meio rural favorável, mas, à medida que se desenvolviam, exerciam uma atração cada vez maior sobre um entorno agrário dilatado na medida de suas exigências. [...] A emigração do campo para a cidade entre os séculos X e XIV é um dos fenômenos principais da Cristandade. Dos diversos elementos humanos que recebe, a cidade faz uma nova sociedade.\n(Jacques Le Goff. A civilização do Ocidente medieval, 2017.)\nNo excerto, ao tratar das cidades medievais, o historiador",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "estabelece vínculos com o campo, de onde provinham os alimentos e a mão de obra que sustentavam a vida urbana.",
+        "b": "minimiza a importância da nobreza feudal, cujo poder ficou restrito às áreas rurais e aos camponeses.",
+        "c": "explica o motivo do surgimento de uma nova classe social, a burguesia, a partir da acumulação monetária.",
+        "d": "separa a zona urbana da periferia rural, destacando o desenvolvimento de novas atividades econômicas.",
+        "e": "destaca as relações político-administrativas como a base da vida urbana, ao contrário da função econômica do campo."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Período Medieval: feudalismo, diversidade religiosa (cristianismo, islamismo, judaísmo) e vida cultural no Medievo europeu e africano"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 24,
+      "tipo": "objetiva",
+      "enunciado": "Analise o gráfico. Estimativas de entradas decenais de escravos no Porto de Salvador da Bahia e do Rio de Janeiro: 1700 a 1780. Os dados do gráfico revelam",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 8: Gráfico de linhas mostrando as estimativas de entradas decenais de escravos em Salvador e Rio de Janeiro de 1700 a 1780."
+      ],
+      "alternativas": {
+        "a": "o aumento das alforrias dos escravos urbanos na colônia e o auge dos engenhos de açúcar no Nordeste.",
+        "b": "a mudança na mão de obra na América Portuguesa e o esgotamento das minas de ouro no interior.",
+        "c": "o fluxo estável de escravos africanos e o deslocamento do eixo econômico do Sul para o Nordeste da colônia.",
+        "d": "o crescimento da população devido à riqueza do ouro e o encarecimento das mercadorias nos portos coloniais.",
+        "e": "a ampliação do tráfico de escravos no Atlântico e a progressiva importância comercial do porto do Rio de Janeiro."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Brasil Colônia: primeiros habitantes indígenas, ocupação territorial, ciclos econômicos (açúcar e ouro) e escravidão"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 25,
+      "tipo": "objetiva",
+      "enunciado": "E, enquanto as partes da América Inglesa e Espanhola tornaram-se politicamente independentes através de guerras sangrentas contra as respectivas metrópoles, com a instauração de regimes republicanos, na América Portuguesa a direção e o movimento desse processo eram bem diversos.\n(Maria de Lourdes Viana Lyra. O Império em construção: Primeiro Reinado e Regências, 2000.)\nO processo de independência do Brasil teve como diferencial",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "a continuidade da monarquia sob comando do herdeiro da Coroa portuguesa.",
+        "b": "o papel decisivo das camadas populares na elevação a Reino Unido.",
+        "c": "a participação destacada dos escravos nas lutas de libertação da colônia.",
+        "d": "o caráter liberal com a manutenção do federalismo e dos privilégios sociais.",
+        "e": "a fragmentação do território em vários países integrados pelo lusitanismo."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Processos de Independência nas Américas: EUA, Revolução Haitiana e América Espanhola",
+            "Brasil Imperial: Independência, Primeiro Reinado, Período Regencial e Segundo Reinado"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 26,
+      "tipo": "objetiva",
+      "enunciado": "Todavia, o que aproximava franceses, ingleses e outros colonizadores, e dava-lhes consciência de pertencerem à Europa, era aquela convicção de que encarnavam a ciência e a técnica, e de que este saber permitia às sociedades por eles subjugadas progredir. Civilizar-se.\n(Marc Ferro. Histórias das Colonizações: das conquistas às independências, 1996.)\nDe acordo com o historiador, no final do século XIX,",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "a evolução das diferentes sociedades dependia da fusão entre os saberes dos povos nativos e dos europeus.",
+        "b": "o domínio de conhecimentos técnico-científicos embasava a crença na superioridade dos europeus.",
+        "c": "a concepção de progresso social baseava-se no rompimento dos laços entre colonizados e colonizadores.",
+        "d": "o ideal de pertencimento à civilização europeia envolvia questões religiosas desconhecidas por outras sociedades.",
+        "e": "a diferença entre povo atrasado e povo desenvolvido foi superada pela missão civilizadora do homem branco."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Imperialismo e neocolonialismo na África e na Ásia no século XIX"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 27,
+      "tipo": "objetiva",
+      "enunciado": "O centro de sustentação do Estado Novo estava corporificado funcional e pessoalmente na figura de [Getúlio] Vargas – o único civil a comandar uma ditadura no Brasil, garantida pelas Forças Armadas, em especial pelo Exército, e apoiada numa política de massas.\n(Lilia M. Schwarcz e Heloisa M. Starling. Brasil: uma biografia, 2015.)\nCaracterizam esse regime",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "a concentração dos poderes no presidente legitimamente eleito e o alinhamento aos países fascistas.",
+        "b": "a censura dos meios de comunicação e a ampliação da autonomia dos sindicatos operários.",
+        "c": "a instituição de um partido único no governo e o intervencionismo estatal nas atividades econômicas.",
+        "d": "a organização de um aparato policial repressivo e a mobilização dos trabalhadores urbanos.",
+        "e": "a adoção de medidas liberais de incentivo à industrialização e o nacionalismo exacerbado."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Brasil República: República Velha (oligarquias), Era Vargas (1930-1945), Período Democrático (1945-1964) e Ditadura Civil-Militar (1964-1985)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 28,
+      "tipo": "objetiva",
+      "enunciado": "Observe a charge publicada no jornal O Estado de S.Paulo em outubro de 1962, que mostra o presidente norte-americano John F. Kennedy, o dirigente soviético Nikita Kruschev e o líder cubano Fidel Castro. A charge refere-se",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 9: Charge retratando Kennedy, Kruschev e Fidel Castro em outubro de 1962."
+      ],
+      "alternativas": {
+        "a": "ao auge do intervencionismo norte-americano na América Latina.",
+        "b": "ao conflito bélico entre EUA e URSS após a Revolução Cubana.",
+        "c": "ao momento mais tenso da bipolarização entre as superpotências.",
+        "d": "ao fim da Guerra Fria entre os países capitalistas e os socialistas.",
+        "e": "à consolidação do modelo socialista soviético na América Latina."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Guerra Fria, corrida armamentista e descolonização da África e Ásia"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 29,
+      "tipo": "objetiva",
+      "enunciado": "A estratégia de desenvolvimento dos Tigres Asiáticos pode ser considerada um caso de sucesso na conquista de melhores condições econômicas e sociais para o conjunto da população e para a soberania nacional. Ao contrário da América Latina e Caribe, que adotaram uma estratégia de “substituição de importações”, o modelo implementado por Hong Kong, Singapura, Taiwan e Coreia do Sul se mostrou mais efetivo e mais vitorioso na conquista de alto padrão de vida para seus habitantes.\n(https://www.ecodebate.com.br, 27.02.2019. Adaptado.)\nPara estimular a industrialização, uma das medidas adotadas pelos Tigres Asiáticos em seu planejamento estratégico foi o",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "incentivo às exportações com a redução de impostos.",
+        "b": "cancelamento das medidas protecionistas aos concorrentes estrangeiros.",
+        "c": "estímulo à sindicalização dos funcionários nas indústrias.",
+        "d": "veto às políticas de atração para empresas transnacionais.",
+        "e": "estabelecimento de leis rígidas de proteção ambiental."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Globalização, comércio internacional, blocos econômicos e a posição do Brasil no comércio global"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 30,
+      "tipo": "objetiva",
+      "enunciado": "Sabe-se que as cidades são espaços de congregação demográfica que reúnem condições de instalação concentrada de múltiplas atividades necessárias à produção e reprodução da vida contemporânea. Esses espaços mostram-se dinâmicos e também contraditórios. O acesso à terra na cidade, mais precisamente ao solo urbano, é a chave explicativa das grandes questões urbanas. Na cidade, a terra muda constantemente de dono ou de donos e se ajusta aos interesses de uma minoria que aposta nos ganhos pautados na acumulação.\n(José B. Silva. “Mudar a vida, mudar a metrópole”. In: Anita L. Oliveira e Catia A. Silva (orgs.). Metrópole e crise societária, 2019. Adaptado.)\nA análise sobre a cidade e o urbano apresentada no excerto revela",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "a produção da cidade como traço cultural, segregadora daqueles que se opõem à lógica capitalista de acumulação.",
+        "b": "o cooperativismo como estratégia de mercado, oferecendo às famílias opções mais acessíveis para a compra de imóveis.",
+        "c": "a insustentabilidade das ocupações urbanas, espaços que são desestruturados com a ação de políticas de retorno da população ao campo.",
+        "d": "o solo urbano enquanto mercadoria, sujeito à especulação imobiliária que reforça diferenças socioeconômicas.",
+        "e": "a desvalorização da propriedade privada, resultado de uma população alienada aos instrumentos oficiais que normatizam os espaços urbanos."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Geografia Urbana: industrialização, urbanização, metropolização, conurbação, megalópoles e segregação socioespacial"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 31,
+      "tipo": "objetiva",
+      "enunciado": "Examine o mapa. O mapa apresenta dados sobre a comercialização de",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 10: Mapa do Brasil indicando a comercialização (em toneladas) com destaque para regiões produtoras agrícolas."
+      ],
+      "alternativas": {
+        "a": "cana-de-açúcar, utilizada nas usinas de etanol da região do Seridó.",
+        "b": "carvão, utilizado na produção de energia elétrica da região Sudeste.",
+        "c": "minérios, utilizados na siderurgia da Zona Franca de Manaus.",
+        "d": "trigo, utilizado nas indústrias alimentícias da região Sul.",
+        "e": "agrotóxicos, utilizados nas agroindústrias da região do Matopiba."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Leitura e interpretação de mapas temáticos, cartas e anamorfoses",
+            "Espaço Rural: sistemas agrícolas, modernização do campo e estrutura agrária brasileira"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 32,
+      "tipo": "objetiva",
+      "enunciado": "Analise a imagem. A vegetação representada na imagem corresponde ao domínio morfoclimático denominado",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 10: Imagem ilustrando perfis de vegetação de igapó, várzea e terra firme junto a um rio."
+      ],
+      "alternativas": {
+        "a": "Mares de Morros.",
+        "b": "Amazônico.",
+        "c": "Pradarias.",
+        "d": "Cerrado.",
+        "e": "Araucárias."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Domínios morfoclimáticos e biomas mundiais e brasileiros"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 33,
+      "tipo": "objetiva",
+      "enunciado": "Atualmente, entre os principais riscos para essas áreas estão a proposta de reabertura da Estrada do Colono, que passa dentro do Parque Nacional do Iguaçu, a redução do status de proteção do Parque Nacional Campos Gerais, da Estação Ecológica de Tamoios e as propostas de redelimitação dos parques nacionais Serra da Bodoquena e Lençóis Maranhenses. Ainda, há a proposta de revisão de todos os seus limites e categorias. Nos últimos cinco anos (entre 2013 e 2018), o orçamento do Ministério do Meio Ambiente caiu R$ 1,3 bilhão, passando de R$ 5 bilhões para R$ 3,7 bilhões. De 2017 para 2018, o ICMBio, responsável pela sua manutenção, teve redução de 44% em seu orçamento.\n(https://wwfbr.awsassets.panda.org, 2020. Adaptado.)\nO excerto expõe os riscos",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "aos cinturões agrícolas.",
+        "b": "à reforma agrária.",
+        "c": "às unidades de conservação.",
+        "d": "à prática de biopirataria.",
+        "e": "aos divisores de águas."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Impactos ambientais: mudanças climáticas, efeito estufa, desmatamento, degradação de solos e conferências internacionais do clima"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 34,
+      "tipo": "objetiva",
+      "enunciado": "Examine o mapa. Considerando a distribuição espacial do fenômeno e conhecimentos sobre o meio ambiente, é correto afirmar que o mapa apresenta",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 11: Mapa global indicando concentrações e correntes oceânicas."
+      ],
+      "alternativas": {
+        "a": "a convergência de efluentes industriais para baixas latitudes.",
+        "b": "o aumento de atividades extrativistas junto às cadeias mesoatlânticas.",
+        "c": "a multiplicidade de emissários submarinos distantes de áreas costeiras.",
+        "d": "o acúmulo de geleiras no encontro de correntes marítimas frias.",
+        "e": "a concentração de plásticos em giros oceânicos."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Impactos ambientais: mudanças climáticas, efeito estufa, desmatamento, degradação de solos e conferências internacionais do clima"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 35,
+      "tipo": "objetiva",
+      "enunciado": "O fim da Segunda Guerra Mundial e a criação da Organização das Nações Unidas impulsionaram a independência de países africanos e asiáticos, promovendo",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "a formação de enclaves relacionados à luta étnica, que conferiram soberania para as nacionalidades minoritárias.",
+        "b": "novas possessões administradas por ex-metrópoles, que buscaram a manutenção do poder autoritário nos continentes.",
+        "c": "disputas entre superpotências por zonas de influência, que marcaram o início de guerras nas ex-colônias.",
+        "d": "acordos econômicos internacionais, que cumpriram o desejo humanitário de industrializar as ex-colônias.",
+        "e": "grupos terroristas organizados em rede, que responderam à formação de governos teocráticos."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Guerra Fria, corrida armamentista e descolonização da África e Ásia"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 36,
+      "tipo": "objetiva",
+      "enunciado": "Analise as informações de um produto químico.\nO contato de vapores de propeno com a pele pode causar queimaduras por congelamento.\nPonto de fusão (PF) = –185 ºC.\nPonto de ebulição (PE) = –48 ºC.\nA fórmula molecular e o estado físico a –156 ºC e a –35 ºC do produto químico mencionado são, respectivamente,",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "C₃H₆, sólido e gasoso.",
+        "b": "C₃H₈, líquido e gasoso.",
+        "c": "C₃H₆, líquido e líquido.",
+        "d": "C₃H₈, líquido e sólido.",
+        "e": "C₃H₆, líquido e gasoso."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Estados físicos da matéria e diagramas de aquecimento/resfriamento",
+            "Principais funções orgânicas: hidrocarbonetos, álcoois, fenóis, éteres, ésteres, aldeídos, cetonas, ácidos carboxílicos, aminas e amidas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 37,
+      "tipo": "objetiva",
+      "enunciado": "Considere o íon do elemento químico hipotético A:\n⁵²ₛ₂ A²⁺\nAs quantidades de prótons, nêutrons e elétrons do íon apresentado são, respectivamente,",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "52, 82 e 54.",
+        "b": "52, 82 e 50.",
+        "c": "52, 134 e 50.",
+        "d": "54, 84 e 134.",
+        "e": "54, 84 e 54."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Número atômico, número de massa, isótopos, isóbaros e isótonos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 38,
+      "tipo": "objetiva",
+      "enunciado": "O dióxido de enxofre (SO₂) é um gás produzido pela combustão do enxofre. Sua oxidação produz o trióxido de enxofre (SO₃), que, em contato com água, forma o ácido sulfúrico (H₂SO₄).\nCom relação aos compostos e às estruturas moleculares mencionadas, pode-se afirmar que:",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "na estrutura do SO₂, o enxofre possui dois pares de elétrons não compartilhados.",
+        "b": "na estrutura do H₂SO₄ há apenas um hidrogênio ionizável.",
+        "c": "o composto SO₃ é classificado como um óxido básico.",
+        "d": "o composto H₂SO₄ é classificado como um hidrácido.",
+        "e": "a molécula do SO₃ é apolar, apresentando momento dipolar igual a zero."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Ligação covalente, estruturas de Lewis, regra do octeto e geometria molecular",
+            "Polaridade de ligações e de moléculas (uso da eletronegatividade)",
+            "Funções inorgânicas: ácidos, bases, sais e óxidos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 39,
+      "tipo": "objetiva",
+      "enunciado": "A reação de síntese mais utilizada para a formação do metanol (CH₃OH), um biocombustível muito utilizado nas indústrias químicas como solvente, ocorre a partir da reação entre os gases monóxido de carbono (CO) e hidrogênio (H₂). A equação não balanceada que representa a reação é:\nCO (g) + H₂ (g) → CH₃OH (ℓ)\nEm uma reação de síntese do metanol, com 100% de rendimento, foi empregado 25 g de hidrogênio gasoso e quantidade suficiente de monóxido de carbono.\nA quantidade máxima de metanol produzida nessa síntese é igual a",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "50 g.",
+        "b": "100 g.",
+        "c": "200 g.",
+        "d": "400 g.",
+        "e": "800 g."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Equações químicas e métodos de balanceamento",
+            "Cálculos estequiométricos: relações de massa, volume, mols e pureza/rendimento"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 40,
+      "tipo": "objetiva",
+      "enunciado": "Analise o equilíbrio químico que envolve a formação do gás cloreto de hidrogênio (HCl).\n2Cl₂ (g) + 2H₂O (g) + 113 kJ ⇄ 4HCl (g) + O₂ (g)\nConsiderando o equilíbrio químico mencionado, para aumentar o rendimento do gás cloreto de hidrogênio nesse sistema é preciso",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "reduzir a quantidade de gás cloro no sistema.",
+        "b": "aumentar a temperatura do sistema.",
+        "c": "adicionar uma maior quantidade de gás oxigênio no sistema.",
+        "d": "adicionar um catalisador no sistema.",
+        "e": "aumentar a pressão sobre o sistema."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Equilíbrio Químico: constante Kc e Kp, Princípio de Le Chatelier"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 41,
+      "tipo": "objetiva",
+      "enunciado": "Os antialérgicos, também conhecidos como anti-histamínicos, são substâncias que atuam no bloqueio da substância histamina, que atua em processos alérgicos.\nA fórmula estrutural da molécula de um anti-histamínico está representada a seguir.\nNessa estrutura, podem-se identificar as funções orgânicas",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 12: Fórmula estrutural de um anti-histamínico."
+      ],
+      "alternativas": {
+        "a": "amina e éter.",
+        "b": "aldeído e éter.",
+        "c": "amina e cetona.",
+        "d": "aldeído e amida.",
+        "e": "amina e éster."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Principais funções orgânicas: hidrocarbonetos, álcoois, fenóis, éteres, ésteres, aldeídos, cetonas, ácidos carboxílicos, aminas e amidas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 42,
+      "tipo": "objetiva",
+      "enunciado": "Considere a equação da transformação geral dos gases:\n(P₁ × V₁) / T₁ = (P₂ × V₂) / T₂\nÀ temperatura de 300 K, uma amostra de gás hidrogênio ocupa um volume de 0,15 L à pressão de 0,5 atm.\nO volume aproximado ocupado por essa amostra a 293 K em uma transformação isobárica é",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "107 mL.",
+        "b": "146 mL.",
+        "c": "153 mL.",
+        "d": "500 mL.",
+        "e": "586 mL."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Estudo dos gases: teoria cinética, leis dos gases e Equação de Clapeyron"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 43,
+      "tipo": "objetiva",
+      "enunciado": "A figura ilustra quatro níveis de organização em ecologia.\nNa ecologia, os níveis superiores agregam os níveis inferiores a novos componentes. Essa organização está conceituada na formação",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 13: Ilustração dos níveis de organização em ecologia (População, Comunidade, Ecossistema, Biosfera)."
+      ],
+      "alternativas": {
+        "a": "de uma população, que é composta por diferentes espécies de uma comunidade.",
+        "b": "de uma comunidade, que é o conjunto de todos os seres vivos de um ecossistema.",
+        "c": "de um ecossistema, que é definido pelos fatores abióticos ambientais.",
+        "d": "da biosfera, que consiste na atmosfera do planeta Terra.",
+        "e": "dos fatores bióticos, que correspondem aos fatores químicos e físicos do ecossistema."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Conceitos ecológicos fundamentais (habitat, nicho ecológico, população, comunidade e ecossistema)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 44,
+      "tipo": "objetiva",
+      "enunciado": "O gráfico representa uma reação metabólica que ocorre na presença (curva azul) e na ausência (curva vermelha) de uma determinada molécula orgânica X presente nos seres vivos.\nA interpretação do gráfico permite afirmar que a molécula orgânica X é",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 13: Gráfico de energia de ativação em função do tempo para reação com e sem a molécula X."
+      ],
+      "alternativas": {
+        "a": "um colesterol de alta densidade.",
+        "b": "um carboidrato com ação digestiva.",
+        "c": "um polinucleotídeo com ação replicante.",
+        "d": "um peptídeo com ação catalisadora.",
+        "e": "um hormônio esteroide."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Componentes químicos celulares: água, sais minerais, carboidratos, lipídios, proteínas e vitaminas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 45,
+      "tipo": "objetiva",
+      "enunciado": "As plantas superiores absorvem água e nutrientes minerais através dos pelos radiculares localizadas no tecido epidérmico.\nPara que exista o fluxo de água do solo para os tecidos internos da raiz vegetal é preciso",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "diferentes concentrações osmóticas entre o solo e os tecidos da raiz.",
+        "b": "gasto de energia, na forma de ATP, para o bombeamento do solvente.",
+        "c": "concentrações osmóticas idênticas entre os meios intracelular e extracelular.",
+        "d": "a presença de proteínas com canais internos nas células dos pelos radiculares.",
+        "e": "que os estômatos localizados nos pelos radiculares estejam abertos."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Membrana plasmática e mecanismos de transporte (passivo, ativo, endocitose)",
+            "Anatomia e fisiologia vegetal: tecidos, condução de seivas, transpiração e fitormônios/tropismos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 46,
+      "tipo": "objetiva",
+      "enunciado": "A figura ilustra o esquema referente ao dogma central da biologia molecular.\nOs conceitos ilustrados no esquema permitem afirmar corretamente que, a partir",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 13: Esquema do Dogma Central da Biologia Molecular (DNA, RNA, Proteína)."
+      ],
+      "alternativas": {
+        "a": "de uma molécula de proteína, é possível determinar exatamente a molécula de DNA que a codificou.",
+        "b": "de uma molécula de RNA, uma molécula DNA é produzida diretamente, pelo processo de replicação.",
+        "c": "de uma molécula de DNA, uma molécula de proteína é produzida diretamente, pelo processo de tradução.",
+        "d": "de uma das fitas da molécula de DNA, uma molécula de RNA é produzida, pelo processo de transcrição.",
+        "e": "de uma molécula de proteína, moléculas de aminoácidos são produzidas, pelo processo de tradução."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Estrutura molecular do DNA e RNA, transcrição gênica e síntese proteica (código genético)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 47,
+      "tipo": "objetiva",
+      "enunciado": "Excreção pode ser compreendida como a eliminação pelo organismo de substâncias tóxicas geradas pelo metabolismo. Dessa forma, a eliminação de gás carbônico é um modo de excreção realizado pelo sistema respiratório humano, por meio dos pulmões.\nPorém, o sistema excretor humano relaciona-se mais diretamente",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "à eliminação das fezes após a absorção de nutrientes.",
+        "b": "à quebra de toxinas realizada pelo fígado.",
+        "c": "à ação dos leucócitos no combate aos microrganismos invasores.",
+        "d": "à produção do suor para regulação térmica do organismo.",
+        "e": "à filtração do sangue realizada pelos néfrons renais."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Fisiologia dos sistemas humanos: digestório, cardiovascular, respiratório, excretor, nervoso, endócrino, locomotor e reprodutor"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 48,
+      "tipo": "objetiva",
+      "enunciado": "As condições genéticas relacionadas ao par de alelos responsável para que uma criança apresente eritroblastose são: a mãe apresentar genótipo recessivo; o pai e a criança apresentarem genótipo dominante.\nUma outra condição necessária, não relacionada à genética, para a manifestação dessa doença é a sensibilização imunológica",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "da criança durante a gestação.",
+        "b": "do pai e da mãe, anteriormente à gestação da criança.",
+        "c": "da mãe, anteriormente à gestação da criança.",
+        "d": "da criança, posteriormente ao parto.",
+        "e": "da mãe, posteriormente ao parto e durante a amamentação."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Alelos múltiplos, herança de grupos sanguíneos (sistemas ABO e Rh / eritroblastose fetal)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 49,
+      "tipo": "objetiva",
+      "enunciado": "As figuras I e II representam as relações de parentesco evolutivo entre três grupos de organismos: X, Y e Z.\nA interpretação correta das figuras I e II permite afirmar que, do ponto de vista evolutivo,",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 14: Cladogramas I e II mostrando relações entre X, Y e Z."
+      ],
+      "alternativas": {
+        "a": "ambas representam os mesmos níveis de parentesco entre os grupos.",
+        "b": "em ambas, os grupos X, Y e Z têm entre si o mesmo nível de parentesco.",
+        "c": "em I, o grupo Y tem com X o mesmo nível de parentesco que tem com Z.",
+        "d": "em II, Z é ancestral de X e Y e tem com estes o mesmo nível de parentesco.",
+        "e": "em I, o grupo Y tem maior parentesco com Z do que com X, mas em II o parentesco entre X e Z é maior."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Níveis de organização da vida, taxonomia de Lineu e cladogramas modernos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 50,
+      "tipo": "objetiva",
+      "enunciado": "A busca por automóveis blindados está cada vez maior. A blindagem mais procurada é a do tipo III-A, que acrescenta cerca de 200 kg à massa final do carro, uma quantia pequena para um carro médio, mas o bastante para que um carro com motor 1.0 ou 1.4 sofra um pouco mais nas acelerações.\n(www.notíciasautomotivas.com.br. Adaptado.)\nConsidere que o motor, de um automóvel de massa 1000 kg, produza originalmente uma aceleração máxima de 2,4 m/s². Após o automóvel ter sua massa aumentada por receber uma blindagem do tipo III-A, o motor produzirá no automóvel, sob as mesmas condições anteriores, uma aceleração máxima de",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "1,2 m/s².",
+        "b": "1,4 m/s².",
+        "c": "1,6 m/s².",
+        "d": "2,0 m/s².",
+        "e": "2,9 m/s²."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "As 3 Leis de Newton e conceito de força resultante"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 51,
+      "tipo": "objetiva",
+      "enunciado": "Durante um jogo de futebol, o goleiro faz uma defesa desviando a trajetória da bola de um ângulo de 90º em relação à direção inicial do movimento.\nDesprezando a ação da gravidade e considerando que a massa da bola era 450 g, que o módulo da velocidade da bola antes de atingir a mão do goleiro era de 16 m/s e que depois da defesa era de 12 m/s, a intensidade do impulso recebido pela bola durante o contato com a mão do goleiro foi de",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 14: Esquema vetorial representando a bola antes e após a defesa do goleiro."
+      ],
+      "alternativas": {
+        "a": "1,5 N·s.",
+        "b": "4,5 N·s.",
+        "c": "6,3 N·s.",
+        "d": "9,0 N·s.",
+        "e": "12,6 N·s."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Grandezas escalares e vetoriais (operações com vetores e decomposição)",
+            "Impulso, quantidade de movimento e conservação da quantidade de movimento (colisões)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 52,
+      "tipo": "objetiva",
+      "enunciado": "Por volta do dia 21 de março, para um observador na superfície da Terra, o Sol descreve um movimento circular uniforme sobre a linha do Equador. Considere que nesse dia, num determinado instante, o Sol se encontre verticalmente posicionado sobre a cidade de Macapá. Sabendo que a cidade de São Gabriel da Cachoeira, assim como a de Macapá, está localizada sobre a linha do Equador, porém, 15º a oeste da cidade de Macapá, o Sol estará posicionado verticalmente sobre ela após",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "15 minutos.",
+        "b": "20 minutos.",
+        "c": "30 minutos.",
+        "d": "40 minutos.",
+        "e": "60 minutos."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Movimento Circular Uniforme (MCU): velocidade angular, aceleração centrípeta e acoplamento de engrenagens"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 53,
+      "tipo": "objetiva",
+      "enunciado": "Uma grande equipe de cientistas de diversas organizações realizou pesquisas para avaliar as mudanças na massa das placas de gelo da Groenlândia e da Antártica entre 1992 e 2018. A equipe calculou que as duas regiões juntas perderam aproximadamente 80 bilhões de toneladas de gelo por ano na década de 1990 e aproximadamente 470 bilhões de toneladas de gelo por ano na década de 2010.\n(www.ecodebate.com.br. Adaptado.)\nConsiderando o calor latente de fusão do gelo igual a 80 cal/g, a quantidade de calor necessária para produzir a diferença de gelo fundido por ano nas duas regiões juntas entre as décadas de 1990 e 2010 foi, aproximadamente, de",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "6,4 × 10¹⁸ cal.",
+        "b": "9,6 × 10¹⁸ cal.",
+        "c": "3,1 × 10¹⁹ cal.",
+        "d": "3,8 × 10¹⁹ cal.",
+        "e": "4,4 × 10¹⁹ cal."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Calorimetria: calor sensível, capacidade térmica, calor latente e trocas de calor"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 54,
+      "tipo": "objetiva",
+      "enunciado": "Quando imersa no ar, uma lente biconvexa de vidro é convergente e tem distância focal igual a f. Sabendo que os índices de refração absolutos do ar, do vidro e da água são, respectivamente, n_ar = 1,00, n_vidro = 1,62 e n_água = 1,34, se essa lente for imersa em água, ela se comportará como uma lente",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "convergente e de distância focal maior que f.",
+        "b": "convergente e de distância focal menor que f.",
+        "c": "convergente e de distância focal igual a f.",
+        "d": "divergente e de distância focal igual a –f.",
+        "e": "divergente e de distância focal menor que –f."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Refração luminosa: Lei de Snell-Descartes, ângulo limite, reflexão total e dioptro plano",
+            "Lentes esféricas delgadas: vergência e equações dos pontos conjugados"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 55,
+      "tipo": "objetiva",
+      "enunciado": "As emissoras de rádio transmitem suas programações por meio de ondas eletromagnéticas, sendo que cada emissora transmite seu sinal com uma frequência específica. As emissoras AM operam em frequências na faixa entre 535 kHz e 1705 kHz enquanto o intervalo de frequências das emissoras FM se encontra entre 88 MHz e 108 MHz.\nQuando se propagam no ar, as ondas eletromagnéticas emitidas pelas emissoras AM, em comparação com as emitidas pelas emissoras FM, têm",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "comprimentos de onda e períodos maiores.",
+        "b": "comprimentos de onda e períodos menores.",
+        "c": "maiores comprimentos de onda e menores períodos.",
+        "d": "maiores comprimentos de onda e períodos iguais.",
+        "e": "menores comprimentos de onda e maiores períodos."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Ondulatória: características das ondas e Equação Fundamental da Ondulatória (v = λ * f)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 56,
+      "tipo": "objetiva",
+      "enunciado": "O gráfico representa a variação da resistência elétrica de um resistor dependente da luz (LDR) em função da luminosidade que incide sobre ele.\nEm um LDR submetido a uma diferença de potencial constante, quando a luminosidade incidente sobre ele é acrescida dentro da mesma faixa apresentada no gráfico, a intensidade da corrente que o atravessa e a potência por ele dissipada",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 15: Gráfico de resistência elétrica em função da luminosidade de um LDR."
+      ],
+      "alternativas": {
+        "a": "diminuem.",
+        "b": "aumentam.",
+        "c": "aumenta e permanece constante, respectivamente.",
+        "d": "aumenta e diminui, respectivamente.",
+        "e": "diminui e aumenta, respectivamente."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Eletrodinâmica: corrente elétrica, ddp, Leis de Ohm, resistividade e potência elétrica (kWh)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 57,
+      "tipo": "redacao",
+      "enunciado": "Com base nos textos apresentados e em seus próprios conhecimentos, escreva um texto dissertativo-argumentativo, empregando a norma-padrão da língua portuguesa, sobre o tema:\n\nTransformação Digital no Ensino Básico Brasileiro:\nentre a Modernização e as Desigualdades Sociais",
+      "textos_de_apoio": [
+        "Texto 1: A tecnologia impacta os mais diversos setores há anos e, cada vez mais, acompanhamos grandes avanços impulsionados pela transformação digital. O segmento de Educação experimentou essa evolução, especialmente, durante a pandemia de covid-19, que acelerou o processo de digitalização do método de ensino para muitas instituições. Muitas delas, que ainda não estavam digitalmente preparadas, tiveram que se adaptar rapidamente. É fato que, durante esse processo, todos tentaram, mas é preciso ir além. A educação remota não se limita à adaptação das aulas presenciais para outras plataformas, transmitindo o conhecimento dos professores de forma online, com computadores, tablets e smartphones. É preciso repensar todo o modelo de educação, idealizando o ensino desde o minuto zero para esse padrão. É certo que as aulas não serão 100% online, mas é clara a tendência de um modelo híbrido, capaz de combinar o online e offline, para potencializar o aprendizado. O ensino remoto pode proporcionar muitos benefícios, tanto para alunos, como para pais e estudantes. Ele permite flexibilizar a grade horária, evitando deslocamentos para as escolas todos os dias, por exemplo, além de estimular as crianças e os adolescentes, com o uso da tecnologia para estudos. (Carolina Siequeroli. “Educação on e off: o futuro está no caminho do meio”. https://politica.estadao.com.br/, 28.03.2021. Adaptado.)",
+        "Texto 2: Contexto Brasileiro - Professores e a Tecnologia. Professores indicam necessidade de formação para trabalho com tecnologias educacionais. • 76% buscaram recentemente formas para desenvolver ou aprimorar seus conhecimentos; • 42% cursaram alguma disciplina sobre o uso de tecnologias durante a graduação; • 22% participaram de algum curso de formação continuada sobre o tema; • 67% alegaram ter necessidade de aperfeiçoamento profissional para o uso pedagógico. (Todos pela Educação. “Nota Técnica: ensino à distância na educação básica frente à pandemia da covid-19”, 2020.)",
+        "Texto 3: A pandemia do coronavírus (covid-19) acentuou as desigualdades na educação e tornou mais comuns, pelo Brasil inteiro, as dificuldades de conectividade enfrentadas por estudantes. Enquanto redes e alunos com mais estrutura avançaram — mesmo que com percalços — no ensino remoto, uma parcela dos alunos e de locais mais carentes não conseguiu se manter conectada e foi perdendo tanto conteúdo quanto entusiasmo pelos estudos. Uma pesquisa do Datafolha apontou que a falta de motivação dos jovens com as atividades remotas passou de 46% em maio para 51% em julho. O déficit tecnológico vem de antes da pandemia. A pesquisa TIC Domicílios de 2019 apontava que, naquela época, 43% dos domicílios urbanos brasileiros e apenas 18% dos rurais tinham computador em casa. No que diz respeito à conexão com a internet em casa, os percentuais subiam para 75% em lares urbanos e 51% em rurais. Embora esses números estejam desatualizados por conta da pandemia — já que parte dos alunos ganhou pacotes de dados e dispositivos eletrônicos, de redes públicas ou doadores particulares, para continuar estudando —, eles exemplificam a desigualdade de acesso à tecnologia, à conectividade e à informação no país. Segundo Ítalo Dutra, chefe de educação do Unicef (braço da Organização das Nações Unidas para a infância) no Brasil, “a falta de conectividade implica deixar as crianças mais vulneráveis para trás”, já que o grupo de alunos mais desconectados coincide com o grupo que tem renda per capita menor, mais incidência de pobreza e mais chance de abandonar a escola antes de concluir os estudos. (Paula Adamo Idoeta. “'Sem wi-fi': pandemia cria novo símbolo de desigualdade na educação”. https://www.bbc.com, 03.10.2020. Adaptado.)"
+      ],
+      "midia": [
+        "Página 16: Infográfico do 'Contexto Brasileiro - Professores e a Tecnologia' com percentuais de formação docente."
+      ],
+      "alternativas": null,
+      "gabarito": null,
+      "areas": [
+        {
+          "area": "Redação",
+          "assuntos": [
+            "Gênero dissertativo-argumentativo: impessoalidade (3ª pessoa) e defesa de ponto de vista claro",
+            "Macroestrutura padrão em 4 parágrafos (Introdução com tese, D1, D2 e Conclusão reflexiva)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    }
+  ]
+}

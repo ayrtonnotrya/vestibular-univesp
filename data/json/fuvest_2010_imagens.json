@@ -1,0 +1,369 @@
+{
+  "exame": "fuvest_2010",
+  "figuras_coordenadas": {
+    "3": [
+      {
+        "pagina": 2,
+        "tipo": "gravura",
+        "elemento": "Fragmento de Metamorfosis II, de M. C. Escher",
+        "bbox": [
+          510,
+          68,
+          970,
+          310
+        ]
+      }
+    ],
+    "6": [
+      {
+        "pagina": 3,
+        "tipo": "cartum",
+        "elemento": "Tira da Mafalda, Quino. Martins Fontes, 1999.",
+        "bbox": [
+          88,
+          142,
+          235,
+          495
+        ]
+      }
+    ],
+    "19": [
+      {
+        "pagina": 5,
+        "tipo": "cartum",
+        "elemento": "Cartaz de 1994 da campanha de Nelson Mandela à presidência da África do Sul",
+        "bbox": [
+          435,
+          608,
+          672,
+          786
+        ]
+      }
+    ],
+    "36": [
+      {
+        "pagina": 9,
+        "tipo": "imagem",
+        "elemento": "Ilustração da manchete 'Briefing Unemployment'",
+        "bbox": [
+          92,
+          107,
+          281,
+          747
+        ]
+      }
+    ],
+    "41": [
+      {
+        "pagina": 10,
+        "tipo": "cartum",
+        "elemento": "Charge de Bill Watterson, Universal Press/Best News, 1996",
+        "bbox": [
+          92,
+          114,
+          252,
+          881
+        ]
+      }
+    ],
+    "43": [
+      {
+        "pagina": 10,
+        "tipo": "tabela",
+        "elemento": "Tabela comparativa África e Ásia",
+        "bbox": [
+          504,
+          508,
+          936,
+          915
+        ]
+      }
+    ],
+    "44": [
+      {
+        "pagina": 11,
+        "tipo": "mapa",
+        "elemento": "Anamorfoses representando a Pegada Ecológica mundial (opções a a e)",
+        "bbox": [
+          287,
+          105,
+          960,
+          936
+        ]
+      }
+    ],
+    "46": [
+      {
+        "pagina": 11,
+        "tipo": "grafico",
+        "elemento": "Gráficos de deficit habitacional e PIB por região, IBGE, 2006/2007",
+        "bbox": [
+          363,
+          566,
+          480,
+          831
+        ]
+      }
+    ],
+    "47": [
+      {
+        "pagina": 12,
+        "tipo": "mapa",
+        "elemento": "Mapas do Estado de São Paulo - Cultivo da Cana-de-açúcar (2003-2004 e 2008-2009)",
+        "bbox": [
+          98,
+          200,
+          235,
+          480
+        ]
+      }
+    ],
+    "48": [
+      {
+        "pagina": 12,
+        "tipo": "esquema",
+        "elemento": "Figura 1 e Figura 2 - Inversão térmica",
+        "bbox": [
+          435,
+          107,
+          608,
+          382
+        ]
+      }
+    ],
+    "49": [
+      {
+        "pagina": 12,
+        "tipo": "tabela",
+        "elemento": "Tabela de minérios e localização geográfica",
+        "bbox": [
+          288,
+          513,
+          380,
+          819
+        ]
+      }
+    ],
+    "50": [
+      {
+        "pagina": 12,
+        "tipo": "grafico",
+        "elemento": "Gráficos de setores da Estrutura Fundiária Brasileira, INCRA, 2003",
+        "bbox": [
+          419,
+          532,
+          575,
+          874
+        ]
+      }
+    ],
+    "51": [
+      {
+        "pagina": 13,
+        "tipo": "cartum",
+        "elemento": "Cartum Níquel Náusea, Fernando Gonsales",
+        "bbox": [
+          92,
+          203,
+          155,
+          786
+        ]
+      }
+    ],
+    "57": [
+      {
+        "pagina": 14,
+        "tipo": "esquema",
+        "elemento": "Esquema de trocas e transferências de energia/matéria entre Ambiente, Produtores e Consumidores",
+        "bbox": [
+          458,
+          114,
+          600,
+          411
+        ]
+      }
+    ],
+    "61": [
+      {
+        "pagina": 15,
+        "tipo": "esquema",
+        "elemento": "Esquema da Tabela Periódica com elementos w, x, y, z",
+        "bbox": [
+          190,
+          114,
+          321,
+          411
+        ]
+      }
+    ],
+    "63": [
+      {
+        "pagina": 15,
+        "tipo": "esquema",
+        "elemento": "Representação simplificada das soluções aquosas dos ácidos HA, HB e HC",
+        "bbox": [
+          155,
+          513,
+          276,
+          881
+        ]
+      }
+    ],
+    "64": [
+      {
+        "pagina": 15,
+        "tipo": "tabela",
+        "elemento": "Tabela de experimentos com soluções aquosas de sais inorgânicos",
+        "bbox": [
+          605,
+          513,
+          763,
+          881
+        ]
+      }
+    ],
+    "65": [
+      {
+        "pagina": 16,
+        "tipo": "tabela",
+        "elemento": "Tabela de dados dos experimentos de cinética química",
+        "bbox": [
+          200,
+          107,
+          332,
+          492
+        ]
+      }
+    ],
+    "67": [
+      {
+        "pagina": 16,
+        "tipo": "imagem",
+        "elemento": "Fórmulas estruturais de ésteres (banana, abacaxi, pera, maçã, pepino)",
+        "bbox": [
+          92,
+          513,
+          235,
+          874
+        ]
+      }
+    ],
+    "68": [
+      {
+        "pagina": 16,
+        "tipo": "esquema",
+        "elemento": "Equações químicas das reações I, II e III",
+        "bbox": [
+          530,
+          513,
+          720,
+          819
+        ]
+      }
+    ],
+    "72": [
+      {
+        "pagina": 17,
+        "tipo": "figura",
+        "elemento": "Triângulo retângulo ABC com paralelogramo DECF",
+        "bbox": [
+          363,
+          715,
+          495,
+          836
+        ]
+      }
+    ],
+    "75": [
+      {
+        "pagina": 18,
+        "tipo": "figura",
+        "elemento": "Circunferência com triângulo ABC inscrito e centro O",
+        "bbox": [
+          155,
+          303,
+          303,
+          442
+        ]
+      }
+    ],
+    "76": [
+      {
+        "pagina": 18,
+        "tipo": "figura",
+        "elemento": "Quadrado ABCD com divisões geométricas",
+        "bbox": [
+          458,
+          290,
+          608,
+          442
+        ]
+      }
+    ],
+    "82": [
+      {
+        "pagina": 19,
+        "tipo": "grafico",
+        "elemento": "Esquema da pista e gráficos de posição e velocidade (I, II, III, IV)",
+        "bbox": [
+          535,
+          107,
+          725,
+          492
+        ]
+      }
+    ],
+    "85": [
+      {
+        "pagina": 19,
+        "tipo": "esquema",
+        "elemento": "Diagramas de vetores de velocidade (a, b, c, d, e)",
+        "bbox": [
+          773,
+          508,
+          915,
+          786
+        ]
+      }
+    ],
+    "87": [
+      {
+        "pagina": 20,
+        "tipo": "grafico",
+        "elemento": "Gráfico de ondas sonoras e tabela de frequências de notas musicais",
+        "bbox": [
+          410,
+          107,
+          545,
+          492
+        ]
+      }
+    ],
+    "88": [
+      {
+        "pagina": 20,
+        "tipo": "figura",
+        "elemento": "Ímã aproximando-se de um anel metálico em suporte",
+        "bbox": [
+          672,
+          281,
+          786,
+          442
+        ]
+      }
+    ],
+    "89": [
+      {
+        "pagina": 20,
+        "tipo": "esquema",
+        "elemento": "Esquema da montagem óptica e anteparos (a, b, c, d, e)",
+        "bbox": [
+          155,
+          513,
+          495,
+          874
+        ]
+      }
+    ]
+  }
+}

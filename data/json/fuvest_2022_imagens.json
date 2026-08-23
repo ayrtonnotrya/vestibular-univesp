@@ -1,0 +1,595 @@
+{
+  "exame": "fuvest_2022",
+  "figuras_coordenadas": {
+    "1": [
+      {
+        "pagina": 2,
+        "tipo": "imagem",
+        "elemento": "Mapa de prevalência de G6PD no Brasil",
+        "bbox": [
+          198,
+          201,
+          485,
+          489
+        ]
+      }
+    ],
+    "4": [
+      {
+        "pagina": 3,
+        "tipo": "cartum",
+        "elemento": "Tirinha de Malvados sobre transporte e impunidade",
+        "bbox": [
+          98,
+          107,
+          245,
+          484
+        ]
+      }
+    ],
+    "5": [
+      {
+        "pagina": 3,
+        "tipo": "grafico",
+        "elemento": "Gráfico de energia sísmica vs fração de pessoas que saíram de casa",
+        "bbox": [
+          638,
+          107,
+          856,
+          489
+        ]
+      }
+    ],
+    "6": [
+      {
+        "pagina": 3,
+        "tipo": "mapa",
+        "elemento": "Mapas temáticos de São Paulo (vacinação, mortalidade, IDH)",
+        "bbox": [
+          396,
+          524,
+          693,
+          915
+        ]
+      }
+    ],
+    "8": [
+      {
+        "pagina": 4,
+        "tipo": "grafico",
+        "elemento": "Gráficos de número de espécies vs tempo após desmatamento",
+        "bbox": [
+          611,
+          107,
+          860,
+          489
+        ]
+      }
+    ],
+    "9": [
+      {
+        "pagina": 4,
+        "tipo": "grafico",
+        "elemento": "Gráfico de volume celular vs salinidade",
+        "bbox": [
+          396,
+          127,
+          513,
+          417
+        ]
+      }
+    ],
+    "10": [
+      {
+        "pagina": 5,
+        "tipo": "grafico",
+        "elemento": "Gráfico de parâmetros da água na eutrofização",
+        "bbox": [
+          201,
+          107,
+          396,
+          489
+        ]
+      }
+    ],
+    "11": [
+      {
+        "pagina": 5,
+        "tipo": "grafico",
+        "elemento": "Gráfico de proporção de células no ciclo celular por tecido",
+        "bbox": [
+          676,
+          127,
+          825,
+          489
+        ]
+      }
+    ],
+    "12": [
+      {
+        "pagina": 5,
+        "tipo": "imagem",
+        "elemento": "Esquema da planta e estruturas celulares/teciduais",
+        "bbox": [
+          107,
+          524,
+          335,
+          915
+        ]
+      }
+    ],
+    "13": [
+      {
+        "pagina": 5,
+        "tipo": "imagem",
+        "elemento": "Esquema de mutações em bactérias e condições de cultura",
+        "bbox": [
+          638,
+          524,
+          856,
+          915
+        ]
+      }
+    ],
+    "14": [
+      {
+        "pagina": 6,
+        "tipo": "cartum",
+        "elemento": "Charge parodiando descobertas científicas de Mendeleev, Watson/Crick e Thomson",
+        "bbox": [
+          232,
+          107,
+          489,
+          484
+        ]
+      }
+    ],
+    "16": [
+      {
+        "pagina": 6,
+        "tipo": "grafico",
+        "elemento": "Gráfico de pressão, velocidade e área em vasos sanguíneos",
+        "bbox": [
+          396,
+          524,
+          584,
+          915
+        ]
+      }
+    ],
+    "30": [
+      {
+        "pagina": 9,
+        "tipo": "imagem",
+        "elemento": "Esquema das placas de automóveis (Mercosul e Sistema Anterior)",
+        "bbox": [
+          676,
+          524,
+          856,
+          915
+        ]
+      }
+    ],
+    "31": [
+      {
+        "pagina": 10,
+        "tipo": "tabela",
+        "elemento": "Símbolos do sistema chinês em barras",
+        "bbox": [
+          211,
+          107,
+          342,
+          449
+        ]
+      },
+      {
+        "pagina": 10,
+        "tipo": "imagem",
+        "elemento": "Alternativas com representações em barras",
+        "bbox": [
+          376,
+          107,
+          683,
+          484
+        ]
+      }
+    ],
+    "33": [
+      {
+        "pagina": 10,
+        "tipo": "tabela",
+        "elemento": "Tabela de produção por modelo e cor",
+        "bbox": [
+          158,
+          667,
+          201,
+          796
+        ]
+      },
+      {
+        "pagina": 10,
+        "tipo": "tabela",
+        "elemento": "Tabelas das alternativas (D e B por cor)",
+        "bbox": [
+          314,
+          524,
+          574,
+          915
+        ]
+      }
+    ],
+    "37": [
+      {
+        "pagina": 11,
+        "tipo": "figura",
+        "elemento": "Quadrado, círculo e pontos A e B",
+        "bbox": [
+          595,
+          107,
+          786,
+          489
+        ]
+      }
+    ],
+    "39": [
+      {
+        "pagina": 11,
+        "tipo": "figura",
+        "elemento": "Planta baixa de quatro tanques cilíndricos e fita",
+        "bbox": [
+          396,
+          524,
+          726,
+          915
+        ]
+      }
+    ],
+    "41": [
+      {
+        "pagina": 12,
+        "tipo": "grafico",
+        "elemento": "Gráfico de log₁₀ x vs tempo t",
+        "bbox": [
+          595,
+          127,
+          786,
+          489
+        ]
+      }
+    ],
+    "42": [
+      {
+        "pagina": 12,
+        "tipo": "imagem",
+        "elemento": "Ilustração do Fatberg com os dizeres 'BEWARE THE FATBERG'",
+        "bbox": [
+          107,
+          524,
+          255,
+          915
+        ]
+      }
+    ],
+    "49": [
+      {
+        "pagina": 14,
+        "tipo": "cartum",
+        "elemento": "Charge de Bizarro Comics com dois personagens.",
+        "bbox": [
+          110,
+          50,
+          890,
+          330
+        ]
+      }
+    ],
+    "52": [
+      {
+        "pagina": 14,
+        "tipo": "figura",
+        "elemento": "Esquema da mesa de bilhar com posições das bolas antes e depois.",
+        "bbox": [
+          560,
+          280,
+          970,
+          345
+        ]
+      }
+    ],
+    "53": [
+      {
+        "pagina": 14,
+        "tipo": "figura",
+        "elemento": "Esquema de sistema de polias elevando uma caixa.",
+        "bbox": [
+          570,
+          750,
+          970,
+          830
+        ]
+      }
+    ],
+    "54": [
+      {
+        "pagina": 15,
+        "tipo": "figura",
+        "elemento": "Esquema dos dois fios e a carga em um sistema de coordenadas cartesiano.",
+        "bbox": [
+          180,
+          150,
+          300,
+          275
+        ]
+      }
+    ],
+    "55": [
+      {
+        "pagina": 15,
+        "tipo": "grafico",
+        "elemento": "Curva característica ddp versus corrente.",
+        "bbox": [
+          585,
+          135,
+          710,
+          270
+        ]
+      }
+    ],
+    "56": [
+      {
+        "pagina": 15,
+        "tipo": "figura",
+        "elemento": "Ilustração do canhão de Newton e trajetórias orbitais ao redor da Terra.",
+        "bbox": [
+          210,
+          640,
+          395,
+          760
+        ]
+      }
+    ],
+    "60": [
+      {
+        "pagina": 16,
+        "tipo": "fotografia",
+        "elemento": "Área urbana de Schuld antes e depois da inundação.",
+        "bbox": [
+          165,
+          515,
+          275,
+          915
+        ]
+      }
+    ],
+    "61": [
+      {
+        "pagina": 17,
+        "tipo": "figura",
+        "elemento": "Mapa topográfico com vegetação e relevo.",
+        "bbox": [
+          140,
+          50,
+          410,
+          490
+        ]
+      },
+      {
+        "pagina": 17,
+        "tipo": "figura",
+        "elemento": "Opções de imagens da paisagem (A, B, C, D, E).",
+        "bbox": [
+          560,
+          45,
+          830,
+          495
+        ]
+      }
+    ],
+    "62": [
+      {
+        "pagina": 17,
+        "tipo": "grafico",
+        "elemento": "Gráfico de alturas máximas de maré e mapas de pressão atmosférica.",
+        "bbox": [
+          180,
+          535,
+          670,
+          965
+        ]
+      }
+    ],
+    "63": [
+      {
+        "pagina": 18,
+        "tipo": "fotografia",
+        "elemento": "Efeitos visuais de uma queimada controlada no Cerrado.",
+        "bbox": [
+          175,
+          120,
+          260,
+          475
+        ]
+      }
+    ],
+    "64": [
+      {
+        "pagina": 18,
+        "tipo": "grafico",
+        "elemento": "Gráfico de barras sobre o tempo diário dedicado ao trabalho de cuidado.",
+        "bbox": [
+          650,
+          120,
+          830,
+          485
+        ]
+      }
+    ],
+    "66": [
+      {
+        "pagina": 19,
+        "tipo": "mapa",
+        "elemento": "Mapas temáticos de doenças tropicais e PIB per capita.",
+        "bbox": [
+          210,
+          120,
+          500,
+          500
+        ]
+      }
+    ],
+    "68": [
+      {
+        "pagina": 19,
+        "tipo": "tabela",
+        "elemento": "Tabela Periódica ilustrativa.",
+        "bbox": [
+          460,
+          515,
+          570,
+          965
+        ]
+      }
+    ],
+    "69": [
+      {
+        "pagina": 20,
+        "tipo": "figura",
+        "elemento": "Esquema reacional e estruturas moleculares das alternativas.",
+        "bbox": [
+          180,
+          65,
+          865,
+          495
+        ]
+      }
+    ],
+    "70": [
+      {
+        "pagina": 20,
+        "tipo": "tabela",
+        "elemento": "Tabela de reações termoquímicas do oxigênio e ozônio.",
+        "bbox": [
+          135,
+          515,
+          225,
+          965
+        ]
+      }
+    ],
+    "71": [
+      {
+        "pagina": 20,
+        "tipo": "tabela",
+        "elemento": "Tabela de reações termoquímicas do oxigênio e ozônio.",
+        "bbox": [
+          135,
+          515,
+          225,
+          965
+        ]
+      }
+    ],
+    "73": [
+      {
+        "pagina": 21,
+        "tipo": "figura",
+        "elemento": "Esquema da reação de hidrólise de ésteres e gráficos de quantidade versus tempo.",
+        "bbox": [
+          110,
+          60,
+          490,
+          495
+        ]
+      }
+    ],
+    "75": [
+      {
+        "pagina": 21,
+        "tipo": "figura",
+        "elemento": "Esquema do cano e gráfico de radioatividade.",
+        "bbox": [
+          410,
+          515,
+          670,
+          965
+        ]
+      }
+    ],
+    "76": [
+      {
+        "pagina": 22,
+        "tipo": "grafico",
+        "elemento": "Diagramas de espécies químicas em função do pH.",
+        "bbox": [
+          245,
+          65,
+          550,
+          490
+        ]
+      }
+    ],
+    "78": [
+      {
+        "pagina": 22,
+        "tipo": "tabela",
+        "elemento": "Resultados dos testes de solubilidade dos frascos.",
+        "bbox": [
+          215,
+          515,
+          335,
+          970
+        ]
+      }
+    ],
+    "80": [
+      {
+        "pagina": 23,
+        "tipo": "pintura",
+        "elemento": "Obra 'Os retirantes' de Cândido Portinari.",
+        "bbox": [
+          110,
+          245,
+          220,
+          745
+        ]
+      }
+    ],
+    "85": [
+      {
+        "pagina": 24,
+        "tipo": "desenho",
+        "elemento": "Homem Vitruviano de Leonardo da Vinci.",
+        "bbox": [
+          455,
+          245,
+          610,
+          415
+        ]
+      }
+    ],
+    "88": [
+      {
+        "pagina": 25,
+        "tipo": "fotografia",
+        "elemento": "Foto Omaha Beach de Robert Capa.",
+        "bbox": [
+          110,
+          245,
+          230,
+          500
+        ]
+      },
+      {
+        "pagina": 25,
+        "tipo": "fotografia",
+        "elemento": "Foto Berlim de Yevgeny Khaldei.",
+        "bbox": [
+          250,
+          245,
+          380,
+          500
+        ]
+      }
+    ]
+  }
+}

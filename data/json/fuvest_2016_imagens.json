@@ -1,0 +1,367 @@
+{
+  "exame": "fuvest_2016",
+  "figuras_coordenadas": {
+    "12": [
+      {
+        "pagina": 3,
+        "tipo": "figura",
+        "elemento": "Esquema geométrico Terra-Lua-Sol",
+        "bbox": [
+          570,
+          582,
+          853,
+          915
+        ]
+      }
+    ],
+    "16": [
+      {
+        "pagina": 4,
+        "tipo": "figura",
+        "elemento": "Esquema de reações e estruturas orgânicas",
+        "bbox": [
+          471,
+          552,
+          792,
+          893
+        ]
+      }
+    ],
+    "19": [
+      {
+        "pagina": 5,
+        "tipo": "figura",
+        "elemento": "Estruturas de bases nitrogenadas e ligações de hidrogênio",
+        "bbox": [
+          188,
+          513,
+          936,
+          892
+        ]
+      }
+    ],
+    "21": [
+      {
+        "pagina": 6,
+        "tipo": "figura",
+        "elemento": "Esquemas de polimerização e fórmulas de A e B",
+        "bbox": [
+          178,
+          513,
+          898,
+          935
+        ]
+      }
+    ],
+    "22": [
+      {
+        "pagina": 7,
+        "tipo": "figura",
+        "elemento": "Trecho da Tabela Periódica",
+        "bbox": [
+          198,
+          550,
+          370,
+          831
+        ]
+      }
+    ],
+    "23": [
+      {
+        "pagina": 7,
+        "tipo": "tabela",
+        "elemento": "Tabela de composição nutricional",
+        "bbox": [
+          287,
+          545,
+          417,
+          858
+        ]
+      }
+    ],
+    "25": [
+      {
+        "pagina": 8,
+        "tipo": "figura",
+        "elemento": "Esquema de cargas em vértices de quadrado",
+        "bbox": [
+          555,
+          545,
+          783,
+          831
+        ]
+      }
+    ],
+    "27": [
+      {
+        "pagina": 8,
+        "tipo": "figura",
+        "elemento": "Diagrama de circuito elétrico",
+        "bbox": [
+          555,
+          680,
+          755,
+          871
+        ]
+      }
+    ],
+    "29": [
+      {
+        "pagina": 9,
+        "tipo": "figura",
+        "elemento": "Esquema da garrafa com êmbolo",
+        "bbox": [
+          376,
+          786,
+          550,
+          831
+        ]
+      }
+    ],
+    "32": [
+      {
+        "pagina": 9,
+        "tipo": "figura",
+        "elemento": "Esquema da caixa d'água com feixe de laser",
+        "bbox": [
+          471,
+          755,
+          597,
+          892
+        ]
+      }
+    ],
+    "34": [
+      {
+        "pagina": 10,
+        "tipo": "grafico",
+        "elemento": "Gráfico de absorção de clorofilas a e b",
+        "bbox": [
+          539,
+          93,
+          736,
+          401
+        ]
+      }
+    ],
+    "35": [
+      {
+        "pagina": 10,
+        "tipo": "mapa",
+        "elemento": "Mapa de ventos do Brasil",
+        "bbox": [
+          217,
+          514,
+          444,
+          915
+        ]
+      },
+      {
+        "pagina": 10,
+        "tipo": "grafico",
+        "elemento": "Gráfico da potência do aerogerador",
+        "bbox": [
+          520,
+          545,
+          663,
+          803
+        ]
+      }
+    ],
+    "36": [
+      {
+        "pagina": 11,
+        "tipo": "figura",
+        "elemento": "Esquema da via metabólica",
+        "bbox": [
+          180,
+          235,
+          307,
+          788
+        ]
+      }
+    ],
+    "38": [
+      {
+        "pagina": 11,
+        "tipo": "figura",
+        "elemento": "Heredograma",
+        "bbox": [
+          678,
+          778,
+          810,
+          915
+        ]
+      }
+    ],
+    "41": [
+      {
+        "pagina": 12,
+        "tipo": "figura",
+        "elemento": "Árvores filogenéticas (cladogramas)",
+        "bbox": [
+          215,
+          77,
+          477,
+          395
+        ]
+      }
+    ],
+    "46": [
+      {
+        "pagina": 13,
+        "tipo": "cartum",
+        "elemento": "Cartum sobre animais de estimação",
+        "bbox": [
+          108,
+          93,
+          277,
+          381
+        ]
+      }
+    ],
+    "64": [
+      {
+        "pagina": 18,
+        "tipo": "imagem",
+        "elemento": "Imagens de satélite de 1979 e 2000 do delta do rio Huang Ho e mapa de localização",
+        "bbox": [
+          10,
+          10,
+          45,
+          40
+        ]
+      }
+    ],
+    "65": [
+      {
+        "pagina": 18,
+        "tipo": "cartum",
+        "elemento": "Charge geopolítica de EUA e Cuba",
+        "bbox": [
+          68,
+          68,
+          90,
+          90
+        ]
+      }
+    ],
+    "67": [
+      {
+        "pagina": 19,
+        "tipo": "grafico",
+        "elemento": "Esquemas de circulação de ventos em centros de alta pressão",
+        "bbox": [
+          35,
+          35,
+          85,
+          85
+        ]
+      }
+    ],
+    "68": [
+      {
+        "pagina": 20,
+        "tipo": "grafico",
+        "elemento": "Gráfico de barras das 20 aglomerações urbanas mais populosas",
+        "bbox": [
+          40,
+          40,
+          330,
+          330
+        ]
+      }
+    ],
+    "69": [
+      {
+        "pagina": 20,
+        "tipo": "grafico",
+        "elemento": "Mapa físico do Nepal",
+        "bbox": [
+          350,
+          200,
+          680,
+          600
+        ]
+      }
+    ],
+    "70": [
+      {
+        "pagina": 21,
+        "tipo": "grafico",
+        "elemento": "Mapa da Região Sudeste - Turismo e Lazer",
+        "bbox": [
+          100,
+          60,
+          450,
+          480
+        ]
+      }
+    ],
+    "72": [
+      {
+        "pagina": 21,
+        "tipo": "grafico",
+        "elemento": "Mapas de migração entre as regiões brasileiras",
+        "bbox": [
+          590,
+          50,
+          750,
+          480
+        ]
+      }
+    ],
+    "73": [
+      {
+        "pagina": 22,
+        "tipo": "grafico",
+        "elemento": "Mapa da Ferrovia Transoceânica",
+        "bbox": [
+          180,
+          60,
+          430,
+          430
+        ]
+      }
+    ],
+    "79": [
+      {
+        "pagina": 24,
+        "tipo": "imagem",
+        "elemento": "Pintura de Jacques-Louis David",
+        "bbox": [
+          110,
+          270,
+          250,
+          410
+        ]
+      }
+    ],
+    "83": [
+      {
+        "pagina": 25,
+        "tipo": "grafico",
+        "elemento": "Gráfico da quantidade de navios negreiros no Rio de Janeiro (1796-1830)",
+        "bbox": [
+          110,
+          120,
+          240,
+          470
+        ]
+      }
+    ],
+    "86": [
+      {
+        "pagina": 27,
+        "tipo": "imagem",
+        "elemento": "Ilustração de mosquito",
+        "bbox": [
+          110,
+          410,
+          170,
+          480
+        ]
+      }
+    ]
+  }
+}

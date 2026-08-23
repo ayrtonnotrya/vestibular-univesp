@@ -1,0 +1,512 @@
+{
+  "exame": "fuvest_2014",
+  "figuras_coordenadas": {
+    "1": [
+      {
+        "pagina": 2,
+        "tipo": "imagem",
+        "elemento": "Sequência de fotografias da mitose",
+        "bbox": [
+          189,
+          114,
+          401,
+          483
+        ]
+      }
+    ],
+    "5": [
+      {
+        "pagina": 3,
+        "tipo": "figura",
+        "elemento": "Esquema da esteira rolante do glomérulo",
+        "bbox": [
+          287,
+          72,
+          451,
+          381
+        ]
+      }
+    ],
+    "8": [
+      {
+        "pagina": 3,
+        "tipo": "grafico",
+        "elemento": "Gráfico de barras da razão entre sexos (M:F) de pessoas com AIDS",
+        "bbox": [
+          591,
+          529,
+          694,
+          915
+        ]
+      }
+    ],
+    "11": [
+      {
+        "pagina": 4,
+        "tipo": "figura",
+        "elemento": "Estrutura química de Adenina e Timina",
+        "bbox": [
+          128,
+          563,
+          266,
+          929
+        ]
+      }
+    ],
+    "14": [
+      {
+        "pagina": 5,
+        "tipo": "figura",
+        "elemento": "Esquema do bloco de madeira, balde e copo",
+        "bbox": [
+          588,
+          126,
+          730,
+          313
+        ]
+      }
+    ],
+    "16": [
+      {
+        "pagina": 5,
+        "tipo": "figura",
+        "elemento": "Esquema da estação espacial",
+        "bbox": [
+          510,
+          771,
+          649,
+          929
+        ]
+      }
+    ],
+    "17": [
+      {
+        "pagina": 6,
+        "tipo": "figura",
+        "elemento": "Lâmina bimetálica e alternativas de curvatura",
+        "bbox": [
+          151,
+          79,
+          532,
+          273
+        ]
+      }
+    ],
+    "18": [
+      {
+        "pagina": 6,
+        "tipo": "figura",
+        "elemento": "Esquema dos prismas e placas de vidro",
+        "bbox": [
+          602,
+          332,
+          853,
+          442
+        ]
+      }
+    ],
+    "19": [
+      {
+        "pagina": 6,
+        "tipo": "figura",
+        "elemento": "Fios cilíndricos emendados",
+        "bbox": [
+          188,
+          551,
+          260,
+          893
+        ]
+      }
+    ],
+    "20": [
+      {
+        "pagina": 6,
+        "tipo": "figura",
+        "elemento": "Esquema da audição com alto-falantes",
+        "bbox": [
+          558,
+          549,
+          712,
+          882
+        ]
+      }
+    ],
+    "21": [
+      {
+        "pagina": 7,
+        "tipo": "figura",
+        "elemento": "Esquema de partículas em campos elétrico e magnético",
+        "bbox": [
+          272,
+          198,
+          381,
+          442
+        ]
+      }
+    ],
+    "23": [
+      {
+        "pagina": 7,
+        "tipo": "grafico",
+        "elemento": "Gráficos de audiometria das orelhas direita e esquerda",
+        "bbox": [
+          392,
+          532,
+          552,
+          929
+        ]
+      }
+    ],
+    "24": [
+      {
+        "pagina": 8,
+        "tipo": "tabela",
+        "elemento": "Tabela de identificação de X, Y e Z",
+        "bbox": [
+          287,
+          86,
+          381,
+          483
+        ]
+      }
+    ],
+    "25": [
+      {
+        "pagina": 8,
+        "tipo": "tabela",
+        "elemento": "Tabela de gases em recipientes",
+        "bbox": [
+          471,
+          91,
+          576,
+          479
+        ]
+      }
+    ],
+    "26": [
+      {
+        "pagina": 8,
+        "tipo": "tabela",
+        "elemento": "Tabela de soluções em copos",
+        "bbox": [
+          672,
+          114,
+          762,
+          483
+        ]
+      }
+    ],
+    "27": [
+      {
+        "pagina": 8,
+        "tipo": "tabela",
+        "elemento": "Tabela de resultados experimentais dos frascos",
+        "bbox": [
+          604,
+          532,
+          725,
+          930
+        ]
+      }
+    ],
+    "29": [
+      {
+        "pagina": 9,
+        "tipo": "figura",
+        "elemento": "Esquema da aparelhagem com frascos de $CoCl_2$ e $Ca(OH)_2$",
+        "bbox": [
+          435,
+          126,
+          582,
+          442
+        ]
+      }
+    ],
+    "30": [
+      {
+        "pagina": 9,
+        "tipo": "figura",
+        "elemento": "Localização do ródio na tabela periódica",
+        "bbox": [
+          107,
+          549,
+          212,
+          929
+        ]
+      }
+    ],
+    "31": [
+      {
+        "pagina": 9,
+        "tipo": "tabela",
+        "elemento": "Tabela de dados de ácidos carboxílicos",
+        "bbox": [
+          483,
+          532,
+          604,
+          930
+        ]
+      }
+    ],
+    "33": [
+      {
+        "pagina": 10,
+        "tipo": "tabela",
+        "elemento": "Tabela de ebulição com solutos",
+        "bbox": [
+          517,
+          72,
+          638,
+          483
+        ]
+      }
+    ],
+    "34": [
+      {
+        "pagina": 10,
+        "tipo": "figura",
+        "elemento": "Estrutura de X e diagramas dos olhos",
+        "bbox": [
+          212,
+          532,
+          426,
+          929
+        ]
+      }
+    ],
+    "35": [
+      {
+        "pagina": 11,
+        "tipo": "fluxograma",
+        "elemento": "Fluxograma dos processos A, B e tradicional",
+        "bbox": [
+          223,
+          149,
+          574,
+          853
+        ]
+      }
+    ],
+    "39": [
+      {
+        "pagina": 12,
+        "tipo": "figura",
+        "elemento": "Três hexágonos regulares congruentes justapostos",
+        "bbox": [
+          156,
+          558,
+          298,
+          814
+        ]
+      }
+    ],
+    "46": [
+      {
+        "pagina": 13,
+        "tipo": "fotografia",
+        "elemento": "Relógio solar do campus do Butantã (USP)",
+        "bbox": [
+          363,
+          532,
+          532,
+          893
+        ]
+      }
+    ],
+    "47": [
+      {
+        "pagina": 14,
+        "tipo": "imagem",
+        "elemento": "Fotos de vegetação e mapas de localização",
+        "bbox": [
+          9.0,
+          75.0,
+          642.0,
+          563.0
+        ]
+      }
+    ],
+    "48": [
+      {
+        "pagina": 14,
+        "tipo": "tabela",
+        "elemento": "Tabela de estrutura geológica e ocupação humana",
+        "bbox": [
+          435.0,
+          513.0,
+          512.0,
+          936.0
+        ]
+      }
+    ],
+    "49": [
+      {
+        "pagina": 14,
+        "tipo": "grafico",
+        "elemento": "Mapa IDHM-Renda Região Sudeste",
+        "bbox": [
+          566.0,
+          508.0,
+          784.0,
+          935.0
+        ]
+      }
+    ],
+    "50": [
+      {
+        "pagina": 15,
+        "tipo": "tabela",
+        "elemento": "Tabela de assassinatos de indígenas",
+        "bbox": [
+          99.0,
+          93.0,
+          246.0,
+          937.0
+        ]
+      }
+    ],
+    "52": [
+      {
+        "pagina": 15,
+        "tipo": "grafico",
+        "elemento": "Anamorfoses da produção agrícola",
+        "bbox": [
+          558.0,
+          529.0,
+          683.0,
+          936.0
+        ]
+      }
+    ],
+    "53": [
+      {
+        "pagina": 16,
+        "tipo": "grafico",
+        "elemento": "Mapa de distribuição de drones na África e Oriente Médio",
+        "bbox": [
+          107.0,
+          114.0,
+          314.0,
+          483.0
+        ]
+      }
+    ],
+    "54": [
+      {
+        "pagina": 16,
+        "tipo": "grafico",
+        "elemento": "Gráfico de consumo de energia mundial por tipo de fonte",
+        "bbox": [
+          136.0,
+          528.0,
+          316.0,
+          936.0
+        ]
+      }
+    ],
+    "56": [
+      {
+        "pagina": 17,
+        "tipo": "grafico",
+        "elemento": "Mapa mundial de desastres naturais",
+        "bbox": [
+          198.0,
+          77.0,
+          362.0,
+          477.0
+        ]
+      }
+    ],
+    "57": [
+      {
+        "pagina": 17,
+        "tipo": "grafico",
+        "elemento": "Mapas da evolução territorial do Brasil",
+        "bbox": [
+          323.0,
+          508.0,
+          686.0,
+          936.0
+        ]
+      }
+    ],
+    "63": [
+      {
+        "pagina": 19,
+        "tipo": "imagem",
+        "elemento": "Homem em frente a tanques em Beijing",
+        "bbox": [
+          471,
+          79,
+          663,
+          497
+        ]
+      }
+    ],
+    "66": [
+      {
+        "pagina": 20,
+        "tipo": "imagem",
+        "elemento": "Pintura Moema de Victor Meirelles",
+        "bbox": [
+          88,
+          77,
+          252,
+          497
+        ]
+      }
+    ],
+    "68": [
+      {
+        "pagina": 20,
+        "tipo": "cartum",
+        "elemento": "Charge da Primeira República",
+        "bbox": [
+          538,
+          513,
+          706,
+          929
+        ]
+      }
+    ],
+    "69": [
+      {
+        "pagina": 21,
+        "tipo": "imagem",
+        "elemento": "Ilustração dos protestos mundiais",
+        "bbox": [
+          91,
+          517,
+          240,
+          936
+        ]
+      }
+    ],
+    "74": [
+      {
+        "pagina": 22,
+        "tipo": "cartum",
+        "elemento": "Tirinha de Laerte",
+        "bbox": [
+          96,
+          77,
+          240,
+          497
+        ]
+      }
+    ],
+    "75": [
+      {
+        "pagina": 22,
+        "tipo": "cartum",
+        "elemento": "Tirinha de Laerte",
+        "bbox": [
+          96,
+          77,
+          240,
+          497
+        ]
+      }
+    ]
+  }
+}

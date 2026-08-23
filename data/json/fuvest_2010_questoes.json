@@ -1,0 +1,2589 @@
+{
+  "exame": "fuvest_2010_questoes",
+  "ano": 2010,
+  "semestre": null,
+  "fonte_questoes": "data/fuvest_2010_questoes.pdf",
+  "fonte_gabarito": "data/fuvest_2010_gabarito.pdf",
+  "total_questoes": 90,
+  "questoes": [
+    {
+      "numero": 1,
+      "tipo": "objetiva",
+      "enunciado": "Tendo em vista as questões levantadas pelo texto, é correto afirmar que",
+      "textos_de_apoio": [
+        "“Pela primeira vez na história da humanidade, mais de um bilhão de pessoas, concretamente 1,02 bilhão, sofrerão de subnutrição em todo o mundo. O aumento da insegurança alimentar que aconteceu em 2009 mostra a urgência de encarar as causas profundas da fome com rapidez e eficácia.\"\nRelatório da Organização das Nações Unidas para a Agricultura e Alimentação [FAO], primeiro semestre de 2009."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "a principal causa da fome e da subnutrição é a falta de terra agricultável para a produção de alimentos necessários para toda a população mundial.",
+        "b": "a proporção de subnutridos e famintos, de acordo com os dados do texto, é inferior a 10% da população mundial.",
+        "c": "as principais causas da fome e da subnutrição são disparidades econômicas, pobreza extrema, guerras e conflitos.",
+        "d": "as consequências da subnutrição severa em crianças são revertidas com alimentação adequada na vida adulta.",
+        "e": "o uso de organismos geneticamente modificados na agricultura tem reduzido a subnutrição nas regiões mais pobres do planeta."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Demografia: conceitos populacionais, transição demográfica, pirâmides etárias e fluxos migratórios",
+            "Impactos antrópicos: poluição, bioacumulação trófica, espécies exóticas, pegada ecológica e unidades de conservação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 2,
+      "tipo": "objetiva",
+      "enunciado": "Levando em conta esses dados, considere as seguintes afirmações:\nI. Um indivíduo adulto de 1,70 m e 100 kg apresenta Obesidade Grau 1.\nII. Uma das estratégias para diminuir a obesidade na população é aumentar a altura média de seus indivíduos por meio de atividades físicas orientadas para adultos.\nIII. Uma nova classificação que considere obesos somente indivíduos com IMC maior que 40 pode diminuir os problemas de saúde pública.\nEstá correto o que se afirma somente em",
+      "textos_de_apoio": [
+        "O Índice de Massa Corporal (IMC) é o número obtido pela divisão da massa de um indivíduo adulto, em quilogramas, pelo quadrado da altura, medida em metros. É uma referência adotada pela Organização Mundial de Saúde para classificar um indivíduo adulto, com relação ao seu peso e altura, conforme a tabela abaixo.\nIMC | Classificação\naté 18,4 | Abaixo do peso\nde 18,5 a 24,9 | Peso normal\nde 25,0 a 29,9 | Sobrepeso\nde 30,0 a 34,9 | Obesidade Grau 1\nde 35,0 a 39,9 | Obesidade Grau 2\na partir de 40,0 | Obesidade Grau 3"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "I.",
+        "b": "II.",
+        "c": "III.",
+        "d": "I e II.",
+        "e": "I e III."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Razões e proporções diretas e inversas",
+            "Ordem na reta numérica e resolução de problemas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 3,
+      "tipo": "objetiva",
+      "enunciado": "Observe a gravura e considere as afirmações.\nI. Pentágonos regulares congruentes podem substituir os hexágonos da gravura de modo a recobrir todo o plano sem sobreposição.\nII. Pelo menos um dos animais representados passa pelo processo de metamorfose na natureza.\nIII. A sequência de espécies animais representadas da esquerda para a direita do leitor corresponde à do processo evolutivo na biosfera.\nEstá correto o que se afirma somente em",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 2: Gravura 'Metamorphosis II' de M. C. Escher, mostrando tesselação com lagartos, peixes, pássaros, hexágonos e motivos arquitetônicos."
+      ],
+      "alternativas": {
+        "a": "I.",
+        "b": "II.",
+        "c": "III.",
+        "d": "I e II.",
+        "e": "II e III."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Teorias evolutivas: fixismo, lamarckismo, darwinismo e teoria sintética da evolução (neodarwinismo)"
+          ]
+        },
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Geometria Plana: ponto, reta, plano, segmentos e ângulos",
+            "Ladrilhamento e pavimentação de superfícies"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 4,
+      "tipo": "objetiva",
+      "enunciado": "Considere as seguintes afirmações:\nI. O uso do logaritmo nas escalas mencionadas justifica-se pelas variações exponenciais das grandezas envolvidas.\nII. A concentração de íons H⁺ de uma solução ácida com pH 4 é 10 mil vezes maior que a de uma solução alcalina com pH 8.\nIII. Um abalo sísmico de magnitude 6 na escala Richter libera duas vezes mais energia que outro, de magnitude 3.\nEstá correto o que se afirma somente em",
+      "textos_de_apoio": [
+        "A magnitude de um terremoto na escala Richter é proporcional ao logaritmo, na base 10, da energia liberada pelo abalo sísmico. Analogamente, o pH de uma solução aquosa é dado pelo logaritmo, na base 10, do inverso da concentração de íons H⁺."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "I.",
+        "b": "II.",
+        "c": "III.",
+        "d": "I e II.",
+        "e": "I e III."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Teoria dos logaritmos, propriedades e função logarítmica"
+          ]
+        },
+        {
+          "area": "Química",
+          "assuntos": [
+            "Equilíbrio iônico da água, escala de pH, pOH e hidrólise de sais"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 5,
+      "tipo": "objetiva",
+      "enunciado": "Assinale a alternativa que apresenta essas entidades em ordem crescente de tamanho.",
+      "textos_de_apoio": [
+        "O avanço científico-tecnológico permitiu identificar e dimensionar partículas e sistemas microscópicos e submicroscópicos fundamentais para o entendimento de fenômenos naturais macroscópicos. Desse modo, tornou-se possível ordenar, em função das dimensões, entidades como cromossomo (C), gene (G), molécula de água (M), núcleo do hidrogênio (N) e partícula alfa (P)."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "N, P, M, G, C.",
+        "b": "P, N, M, G, C.",
+        "c": "N, M, P, G, C.",
+        "d": "N, P, M, C, G.",
+        "e": "P, M, G, N, C."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Estrutura molecular do DNA e RNA, transcrição gênica e síntese proteica (código genético)"
+          ]
+        },
+        {
+          "area": "Física",
+          "assuntos": [
+            "Grandezas fundamentais e derivadas, Sistema Internacional de Unidades (SI) e análise dimensional"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 6,
+      "tipo": "objetiva",
+      "enunciado": "Se os polos do globo de Mafalda estivessem posicionados de acordo com os polos astronômicos, ou seja, o polo geográfico Sul apontando para o polo astronômico Sul, seria correto afirmar que",
+      "textos_de_apoio": [
+        "A personagem Mafalda, que está em Buenos Aires, olha o globo em que o Norte está para cima e afirma: “a gente está de cabeça pra baixo”. Quem olha para o céu noturno dessa posição geográfica não vê a estrela Polar, referência do polo astronômico Norte, e sim o Cruzeiro do Sul, referência do polo astronômico Sul."
+      ],
+      "midia": [
+        "Página 3: Tira da Mafalda (Quino): Mafalda olha para um globo terrestre, questionando sua posição e a de Buenos Aires."
+      ],
+      "alternativas": {
+        "a": "o Norte do globo estaria para cima, o Sul para baixo e Mafalda estaria realmente de cabeça para baixo.",
+        "b": "o Norte do globo estaria para cima e o Sul para baixo, mas Mafalda não estaria de cabeça para baixo por causa da gravidade.",
+        "c": "o Norte do globo estaria para cima, o Sul para baixo, e quem estaria de cabeça para baixo seriam os habitantes do hemisfério norte.",
+        "d": "o Sul do globo estaria para cima e o Norte para baixo, mas Mafalda estaria de cabeça para baixo por causa da gravidade.",
+        "e": "o Sul do globo estaria para cima, o Norte para baixo e Mafalda não teria razão em afirmar que está de cabeça para baixo."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Coordenadas geográficas, localização, fusos horários e projeções cartográficas"
+          ]
+        },
+        {
+          "area": "Física",
+          "assuntos": [
+            "Massa, peso e forças de atrito (estático e cinético)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 7,
+      "tipo": "objetiva",
+      "enunciado": "A partir das informações do texto, é correto situar os referidos eventos no mês de dezembro desse ano, no(s) dia(s)",
+      "textos_de_apoio": [
+        "Uma maneira de compreender a distribuição temporal de fenômenos ocorridos em longos períodos é situá-los em um ano de 365 dias. Por exemplo, ao transpor os 4,6 bilhões de anos da Terra para esse ano, a formação do planeta teria ocorrido em 1º de janeiro, o surgimento do oxigênio na atmosfera em 13 de junho, o aumento e a diversificação da vida macroscópica a partir de 15 de novembro e o início da separação da Pangea em 13 de dezembro.\nConsidere os seguintes eventos:\nEvento 1. Surgimento do Homo sapiens.\nEvento 2. Revolução agrícola do Neolítico.\nEvento 3. Declínio do Império Romano.\nEvento 4. A colonização da América pelos europeus."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "Evento 1: 29 | Evento 2: 29 | Evento 3: 30 | Evento 4: 30",
+        "b": "Evento 1: 29 | Evento 2: 30 | Evento 3: 30 | Evento 4: 31",
+        "c": "Evento 1: 30 | Evento 2: 30 | Evento 3: 31 | Evento 4: 31",
+        "d": "Evento 1: 30 | Evento 2: 31 | Evento 3: 31 | Evento 4: 31",
+        "e": "Evento 1: 31 | Evento 2: 31 | Evento 3: 31 | Evento 4: 31"
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Origem humana, processos de sedentarização e registros rupestres",
+            "Antiguidade Clássica: democracia ateniense, República/Império Romano e escravismo",
+            "Grandes Navegações, espaço atlântico, reinos africanos e tráfico de escravizados"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 8,
+      "tipo": "objetiva",
+      "enunciado": "Em face das proibições da Lei, a compreensão da frase: “Cuidado, este produto pode ser tóxico”",
+      "textos_de_apoio": [
+        "A chamada Lei do Agrotóxico (nº 7.802, de 11/06/89) determina que os rótulos dos produtos não contenham afirmações ou imagens que possam induzir o usuário a erro quanto a sua natureza, composição, segurança, eficácia e uso. Também proíbe declarações sobre a inocuidade, tais como “seguro”, “não venenoso”, “não tóxico”, mesmo que complementadas por afirmações do tipo “quando utilizado segundo as instruções”."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "precisa levar em consideração que a condição suficiente para que um produto possa ser tóxico é sua ingestão, inalação ou contato com a pele e não sua composição.",
+        "b": "exige cautela, pois a expressão “pode ser” pressupõe “pode não ser”, permitindo a interpretação de que se trata de um produto “seguro”, “não venenoso”, “não tóxico”.",
+        "c": "precisa levar em consideração que a expressão “pode ser” elimina o sentido de “pode não ser”, consistindo em um alerta ao usuário sobre a inocuidade dos produtos.",
+        "d": "exige admitir que a condição necessária para que um produto seja tóxico é a sua composição, induzindo o usuário a erro quanto à inocuidade e ao mau uso dos produtos.",
+        "e": "precisa ser complementada com a consideração de que a segurança no manuseio dos agrotóxicos elimina sua toxicidade, bem como eventuais riscos de intoxicação."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação",
+            "Mecanismos de coesão textual (lexical, referencial, anafórica) e coerência"
+          ]
+        },
+        {
+          "area": "Química",
+          "assuntos": [
+            "Segurança doméstica com produtos químicos e método científico"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 9,
+      "tipo": "objetiva",
+      "enunciado": "Com base nessas informações, analise as afirmações:\nI. O número de combinações de proteínas de superfície do vírus Influenza A é 25, o que dificulta a produção de medicamentos antivirais específicos.\nII. Tanto na época atual quanto na da Gripe Espanhola, as viagens transoceânicas contribuíram para a disseminação do vírus pelo mundo.\nIII. O sistema imunológico do indivíduo reconhece segmentos das proteínas de superfície do vírus para combatê-lo.\nEstá correto o que se afirma em",
+      "textos_de_apoio": [
+        "A Gripe A, causada pelo vírus Influenza A (H1N1), tem sido relacionada com a Gripe Espanhola, pandemia ocorrida entre 1918 e 1919. No genoma do vírus Influenza A, há dois genes que codificam proteínas de superfície, chamadas de Hemaglutinina (H) e Neuraminidase (N), das quais existem, respectivamente, 16 e 9 tipos."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "I, somente.",
+        "b": "I e II, somente.",
+        "c": "I e III, somente.",
+        "d": "II e III, somente.",
+        "e": "I, II e III."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Vírus: estrutura, replicação e principais viroses humanas",
+            "Fisiologia dos sistemas humanos: digestório, cardiovascular, respiratório, excretor, nervoso, endócrino, locomotor e reprodutor"
+          ]
+        },
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Princípios multiplicativo e aditivo da contagem"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 10,
+      "tipo": "objetiva",
+      "enunciado": "Cesarismo/cesarista são termos utilizados para caracterizar governantes atuais que, à maneira de Júlio César (de onde o nome), na antiga Roma, exercem um poder",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "teocrático.",
+        "b": "democrático.",
+        "c": "aristocrático.",
+        "d": "burocrático.",
+        "e": "autocrático."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Antiguidade Clássica: democracia ateniense, República/Império Romano e escravismo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 11,
+      "tipo": "objetiva",
+      "enunciado": "Esta frase sobre o feudalismo trata",
+      "textos_de_apoio": [
+        "“A instituição das corveias variava de acordo com os domínios senhoriais, e, no interior de cada um, de acordo com o estatuto jurídico dos camponeses, ou de seus mansos [parcelas de terra].”\nMarc Bloch. Os caracteres originais da França rural, 1952."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "da vassalagem.",
+        "b": "do colonato.",
+        "c": "do comitatus.",
+        "d": "da servidão.",
+        "e": "da guilda."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Período Medieval: feudalismo, diversidade religiosa (cristianismo, islamismo, judaísmo) e vida cultural no Medievo europeu e africano"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 12,
+      "tipo": "objetiva",
+      "enunciado": "Sobre as ações dos jesuítas nesse período, é correto afirmar que",
+      "textos_de_apoio": [
+        "Os primeiros jesuítas chegaram à Bahia com o governador-geral Tomé de Sousa, em 1549, e em pouco tempo se espalharam por outras regiões da colônia, permanecendo até sua expulsão, pelo governo de Portugal, em 1759."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "criaram escolas de arte que foram responsáveis pelo desenvolvimento do barroco mineiro.",
+        "b": "defenderam os princípios humanistas e lutaram pelo reconhecimento dos direitos civis dos nativos.",
+        "c": "foram responsáveis pela educação dos filhos dos colonos, por meio da criação de colégios secundários e escolas de “ler e escrever”.",
+        "d": "causaram constantes atritos com os colonos por defenderem, esses religiosos, a preservação das culturas indígenas.",
+        "e": "formularam acordos políticos e diplomáticos que garantiram a incorporação da região amazônica ao domínio português."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Brasil Colônia: primeiros habitantes indígenas, ocupação territorial, ciclos econômicos (açúcar e ouro) e escravidão"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 13,
+      "tipo": "objetiva",
+      "enunciado": "Esta frase indica que as riquezas minerais da colônia",
+      "textos_de_apoio": [
+        "“E o pior é que a maior parte do ouro que se tira das minas passa em pó e em moeda para os reinos estranhos e a menor quantidade é a que fica em Portugal e nas cidades do Brasil...”\nJoão Antonil. Cultura e opulência do Brasil por suas drogas e minas, 1711."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "produziram ruptura nas relações entre Brasil e Portugal.",
+        "b": "foram utilizadas, em grande parte, para o cumprimento do Tratado de Methuen entre Portugal e Inglaterra.",
+        "c": "prestaram-se, exclusivamente, aos interesses mercantilistas da França, da Inglaterra e da Alemanha.",
+        "d": "foram desviadas, majoritariamente, para a Europa por meio do contrabando na região do rio da Prata.",
+        "e": "possibilitaram os acordos com a Holanda que asseguraram a importação de escravos africanos."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Brasil Colônia: primeiros habitantes indígenas, ocupação territorial, ciclos econômicos (açúcar e ouro) e escravidão",
+            "Grandes Navegações, espaço atlântico, reinos africanos e tráfico de escravizados"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 14,
+      "tipo": "objetiva",
+      "enunciado": "Carlos III, rei da Espanha entre 1759 e 1788, implementou profundas reformas – conhecidas como bourbônicas – que tiveram grandes repercussões sobre as colônias espanholas na América. Entre elas,",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "o estabelecimento de medidas econômicas e políticas, para maior controle da Coroa sobre as colônias.",
+        "b": "o redirecionamento da economia colonial, para valorizar a indústria em detrimento da agricultura de exportação.",
+        "c": "a promulgação de medidas políticas, levando à separação entre a Igreja Católica e a Coroa.",
+        "d": "a reestruturação das tradicionais comunidades indígenas, visando instituir a propriedade privada.",
+        "e": "a decretação de medidas excepcionais, permitindo a escravização dos africanos e, também, a dos indígenas."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Colonização espanhola, inglesa, francesa e holandesa na América"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 15,
+      "tipo": "objetiva",
+      "enunciado": "O texto trata da Revolução pernambucana de 1817. Com relação a esse acontecimento é possível afirmar que os insurgentes",
+      "textos_de_apoio": [
+        "“Eis que uma revolução, proclamando um governo absolutamente independente da sujeição à corte do Rio de Janeiro, rebentou em Pernambuco, em março de 1817. É um assunto para o nosso ânimo tão pouco simpático que, se nos fora permitido [colocar] sobre ele um véu, o deixaríamos fora do quadro que nos propusemos tratar.”\nF. A. Varnhagen. História geral do Brasil, 1854."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "pretendiam a separação de Pernambuco do restante do reino, impondo a expulsão dos portugueses desse território.",
+        "b": "contaram com a ativa participação de homens negros, pondo em risco a manutenção da escravidão na região.",
+        "c": "dominaram Pernambuco e o norte da colônia, decretando o fim dos privilégios da Companhia do Grão-Pará e Maranhão.",
+        "d": "propuseram a independência e a república, congregando proprietários, comerciantes e pessoas das camadas populares.",
+        "e": "implantaram um governo de terror, ameaçando o direito dos pequenos proprietários à livre exploração da terra."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Revoltas coloniais e a transferência da Família Real para o Brasil (1808)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 16,
+      "tipo": "objetiva",
+      "enunciado": "A “ordem social” e as “ideias e credos” a que se refere o autor caracterizam-se, respectivamente, como",
+      "textos_de_apoio": [
+        "No Ocidente, o período entre 1848 e 1875 “é primariamente o do maciço avanço da economia do capitalismo industrial, em escala mundial, da ordem social que o representa, das ideias e credos que pareciam legitimá-lo e ratificá-lo”.\nE. J. Hobsbawm. A era do capital 1848-1875."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "aristocrática e conservadoras.",
+        "b": "socialista e anarquistas.",
+        "c": "popular e democráticas.",
+        "d": "tradicional e positivistas.",
+        "e": "burguesa e liberais."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Iluminismo, Liberalismo e a 1ª Revolução Industrial"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 17,
+      "tipo": "objetiva",
+      "enunciado": "Essas passagens expressam a",
+      "textos_de_apoio": [
+        "No “Manifesto Antropófago”, lançado em São Paulo, em 1928, lê-se: “Queremos a Revolução Caraíba (...). A unificação de todas as revoltas eficazes na direção do homem (...). Sem nós, a Europa não teria sequer a sua pobre declaração dos direitos do homem.”"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "defesa de concepções artísticas do impressionismo.",
+        "b": "crítica aos princípios da Revolução Francesa.",
+        "c": "valorização da cultura nacional.",
+        "d": "adesão à ideologia socialista.",
+        "e": "afinidade com a cultura norte-americana."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Modernismo Brasileiro: 1ª Fase (1922), 2ª Fase (Geração de 30 - romance regionalista e poesia de 30) e 3ª Fase (Geração de 45/Pós-Modernismo)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 18,
+      "tipo": "objetiva",
+      "enunciado": "A partir da redemocratização do Brasil (1985), é possível observar mudanças econômicas significativas no país. Entre elas, a",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "exclusão de produtos agrícolas do rol das principais exportações brasileiras.",
+        "b": "privatização de empresas estatais em diversos setores como os de comunicação e de mineração.",
+        "c": "ampliação das tarifas alfandegárias de importação, protegendo a indústria nacional.",
+        "d": "implementação da reforma agrária sem pagamento de indenização aos proprietários.",
+        "e": "continuidade do comércio internacional voltado prioritariamente aos mercados africanos e asiáticos."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Redemocratização do Brasil, Constituição de 1988 e crises políticas recentes"
+          ]
+        },
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Globalização, comércio internacional, blocos econômicos e a posição do Brasil no comércio global"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 19,
+      "tipo": "objetiva",
+      "enunciado": "Essa campanha representou a",
+      "textos_de_apoio": [
+        "Cartaz de 1994 da campanha de Nelson Mandela à presidência da África do Sul."
+      ],
+      "midia": [
+        "Página 5: Cartaz de campanha de Nelson Mandela para presidente com os dizeres 'Mandela for President - A escolha do povo'."
+      ],
+      "alternativas": {
+        "a": "luta dos sul-africanos contra o regime do apartheid então vigente.",
+        "b": "conciliação entre os segregacionistas e os partidários da democracia racial.",
+        "c": "proposta de ampliação da luta anti-apartheid no continente africano.",
+        "d": "contemporização diante dos atos de violência contra os direitos humanos.",
+        "e": "superação dos preconceitos raciais por parte dos africânderes."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Guerra Fria, corrida armamentista e descolonização da África e Ásia"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 20,
+      "tipo": "objetiva",
+      "enunciado": "Neste trecho de uma carta de Fernando Sabino a Mário de Andrade, o emprego de linguagem informal é bem evidente em",
+      "textos_de_apoio": [
+        "Belo Horizonte, 28 de julho de 1942.\nMeu caro Mário,\nEstou te escrevendo rapidamente, se bem que haja muitíssima coisa que eu quero te falar (a respeito da Conferência, que acabei de ler agora). Vem-me uma vontade imensa de desabafar com você tudo o que ela me fez sentir. Mas é longo, não tenho o direito de tomar seu tempo e te chatear.\nFernando Sabino."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "“se bem que haja”.",
+        "b": "“que acabei de ler agora”.",
+        "c": "“Vem-me uma vontade”.",
+        "d": "“tudo o que ela me fez sentir”.",
+        "e": "“tomar seu tempo e te chatear”."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Variações linguísticas e níveis de formalidade/informalidade"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 21,
+      "tipo": "objetiva",
+      "enunciado": "No texto, o conectivo “se bem que” estabelece relação de",
+      "textos_de_apoio": [
+        "Belo Horizonte, 28 de julho de 1942.\nMeu caro Mário,\nEstou te escrevendo rapidamente, se bem que haja muitíssima coisa que eu quero te falar (a respeito da Conferência, que acabei de ler agora). Vem-me uma vontade imensa de desabafar com você tudo o que ela me fez sentir. Mas é longo, não tenho o direito de tomar seu tempo e te chatear.\nFernando Sabino."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "conformidade.",
+        "b": "condição.",
+        "c": "concessão.",
+        "d": "alternância.",
+        "e": "consequência."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Sintaxe do período composto (coordenação e subordinação)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 22,
+      "tipo": "objetiva",
+      "enunciado": "No início do texto, o autor declara sua “tendência para personificar as coisas”. Tal tendência se manifesta na personificação dos seguintes elementos:",
+      "textos_de_apoio": [
+        "Desde pequeno, tive tendência para personificar as coisas. Tia Tula, que achava que mormaço fazia mal, sempre gritava: “Vem pra dentro, menino, olha o mormaço!” Mas eu ouvia o mormaço com M maiúsculo. Mormaço, para mim, era um velho que pegava crianças! Ia pra dentro logo. E ainda hoje, quando leio que alguém se viu perseguido pelo clamor público, vejo com estes olhos o Sr. Clamor Público, magro, arquejante, de preto, brandindo um guarda-chuva, com um gogó protuberante que se abaixa e levanta no excitamento da perseguição. E já estava devidamente grandezinho, pois devia contar uns trinta anos, quando me fui, com um grupo de colegas, a ver o lançamento da pedra fundamental da ponte Uruguaiana-Libres, ocasião de grandes solenidades, com os presidentes Justo e Getúlio, e gente muita, tanto assim que fomos alojados os do meu grupo num casarão que creio fosse a Prefeitura, com os demais jornalistas do Brasil e Argentina. Era como um alojamento de quartel, com breve espaço entre as camas e todas as portas e janelas abertas, tudo com os alegres incômodos e duvidosos encantos de uma coletividade democrática. Pois lá pelas tantas da noite, como eu pressentisse, em meu entredormir, um vulto junto à minha cama, sentei-me estremunhado* e olhei atônito para um tipo de chiru*, ali parado, de bigodes caídos, pala pendente e chapéu descido sobre os olhos. Diante da minha muda interrogação, ele resolveu explicar-se, com a devida calma:\n– Pois é! Não vê que eu sou o sereno...\nMário Quintana, As cem melhores crônicas brasileiras."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "Tia Tula, Justo e Getúlio.",
+        "b": "mormaço, clamor público, sereno.",
+        "c": "magro, arquejante, preto.",
+        "d": "colegas, jornalistas, presidentes.",
+        "e": "vulto, chiru, crianças."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação",
+            "Figuras de linguagem (metáfora, metonímia, antítese, paradoxo, hipérbole, ironia)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 23,
+      "tipo": "objetiva",
+      "enunciado": "A caracterização ambivalente da “coletividade democrática” (L. 20 e 21), feita com humor pelo cronista, ocorre também na seguinte frase relativa à democracia:",
+      "textos_de_apoio": [
+        "Desde pequeno, tive tendência para personificar as coisas. Tia Tula, que achava que mormaço fazia mal, sempre gritava: “Vem pra dentro, menino, olha o mormaço!” Mas eu ouvia o mormaço com M maiúsculo. Mormaço, para mim, era um velho que pegava crianças! Ia pra dentro logo. E ainda hoje, quando leio que alguém se viu perseguido pelo clamor público, vejo com estes olhos o Sr. Clamor Público, magro, arquejante, de preto, brandindo um guarda-chuva, com um gogó protuberante que se abaixa e levanta no excitamento da perseguição. E já estava devidamente grandezinho, pois devia contar uns trinta anos, quando me fui, com um grupo de colegas, a ver o lançamento da pedra fundamental da ponte Uruguaiana-Libres, ocasião de grandes solenidades, com os presidentes Justo e Getúlio, e gente muita, tanto assim que fomos alojados os do meu grupo num casarão que creio fosse a Prefeitura, com os demais jornalistas do Brasil e Argentina. Era como um alojamento de quartel, com breve espaço entre as camas e todas as portas e janelas abertas, tudo com os alegres incômodos e duvidosos encantos de uma coletividade democrática. Pois lá pelas tantas da noite, como eu pressentisse, em meu entredormir, um vulto junto à minha cama, sentei-me estremunhado* e olhei atônito para um tipo de chiru*, ali parado, de bigodes caídos, pala pendente e chapéu descido sobre os olhos. Diante da minha muda interrogação, ele resolveu explicar-se, com a devida calma:\n– Pois é! Não vê que eu sou o sereno...\nMário Quintana, As cem melhores crônicas brasileiras."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "“Meu ideal político é a democracia, para que todo homem seja respeitado como indivíduo, e nenhum, venerado.” (A. Einstein)",
+        "b": "“A democracia é a pior forma de governo, com exceção de todas as demais.” (W. Churchill)",
+        "c": "“A democracia é apenas a substituição de alguns corruptos por muitos incompetentes.” (B. Shaw)",
+        "d": "“É uma coisa santa a democracia praticada honestamente, regularmente, sinceramente.” (Machado de Assis)",
+        "e": "“A democracia se estabelece quando os pobres, tendo vencido seus inimigos, massacram alguns, banem os outros e partilham igualmente com os restantes o governo e as magistraturas.” (Platão)"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Intertextualidade, interdiscursividade e análise de textos verbais e não verbais (charges, cartuns)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 24,
+      "tipo": "objetiva",
+      "enunciado": "Considerando que “silepse é a concordância que se faz não com a forma gramatical das palavras, mas com seu sentido, com a ideia que elas representam”, indique o fragmento em que essa figura de linguagem se manifesta.",
+      "textos_de_apoio": [
+        "Desde pequeno, tive tendência para personificar as coisas. Tia Tula, que achava que mormaço fazia mal, sempre gritava: “Vem pra dentro, menino, olha o mormaço!” Mas eu ouvia o mormaço com M maiúsculo. Mormaço, para mim, era um velho que pegava crianças! Ia pra dentro logo. E ainda hoje, quando leio que alguém se viu perseguido pelo clamor público, vejo com estes olhos o Sr. Clamor Público, magro, arquejante, de preto, brandindo um guarda-chuva, com um gogó protuberante que se abaixa e levanta no excitamento da perseguição. E já estava devidamente grandezinho, pois devia contar uns trinta anos, quando me fui, com um grupo de colegas, a ver o lançamento da pedra fundamental da ponte Uruguaiana-Libres, ocasião de grandes solenidades, com os presidentes Justo e Getúlio, e gente muita, tanto assim que fomos alojados os do meu grupo num casarão que creio fosse a Prefeitura, com os demais jornalistas do Brasil e Argentina. Era como um alojamento de quartel, com breve espaço entre as camas e todas as portas e janelas abertas, tudo com os alegres incômodos e duvidosos encantos de uma coletividade democrática. Pois lá pelas tantas da noite, como eu pressentisse, em meu entredormir, um vulto junto à minha cama, sentei-me estremunhado* e olhei atônito para um tipo de chiru*, ali parado, de bigodes caídos, pala pendente e chapéu descido sobre os olhos. Diante da minha muda interrogação, ele resolveu explicar-se, com a devida calma:\n– Pois é! Não vê que eu sou o sereno...\nMário Quintana, As cem melhores crônicas brasileiras."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "“olha o mormaço”.",
+        "b": "“pois devia contar uns trinta anos”.",
+        "c": "“fomos alojados os do meu grupo”.",
+        "d": "“com os demais jornalistas do Brasil”.",
+        "e": "“pala pendente e chapéu descido sobre os olhos”."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Concordância verbal e nominal"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 25,
+      "tipo": "objetiva",
+      "enunciado": "No contexto em que ocorre, a frase “estava devidamente grandezinho, pois devia contar uns trinta anos” (L. 11 e 12) constitui",
+      "textos_de_apoio": [
+        "Desde pequeno, tive tendência para personificar as coisas. Tia Tula, que achava que mormaço fazia mal, sempre gritava: “Vem pra dentro, menino, olha o mormaço!” Mas eu ouvia o mormaço com M maiúsculo. Mormaço, para mim, era um velho que pegava crianças! Ia pra dentro logo. E ainda hoje, quando leio que alguém se viu perseguido pelo clamor público, vejo com estes olhos o Sr. Clamor Público, magro, arquejante, de preto, brandindo um guarda-chuva, com um gogó protuberante que se abaixa e levanta no excitamento da perseguição. E já estava devidamente grandezinho, pois devia contar uns trinta anos, quando me fui, com um grupo de colegas, a ver o lançamento da pedra fundamental da ponte Uruguaiana-Libres, ocasião de grandes solenidades, com os presidentes Justo e Getúlio, e gente muita, tanto assim que fomos alojados os do meu grupo num casarão que creio fosse a Prefeitura, com os demais jornalistas do Brasil e Argentina. Era como um alojamento de quartel, com breve espaço entre as camas e todas as portas e janelas abertas, tudo com os alegres incômodos e duvidosos encantos de uma coletividade democrática. Pois lá pelas tantas da noite, como eu pressentisse, em meu entredormir, um vulto junto à minha cama, sentei-me estremunhado* e olhei atônito para um tipo de chiru*, ali parado, de bigodes caídos, pala pendente e chapéu descido sobre os olhos. Diante da minha muda interrogação, ele resolveu explicar-se, com a devida calma:\n– Pois é! Não vê que eu sou o sereno...\nMário Quintana, As cem melhores crônicas brasileiras."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "recurso expressivo que produz incoerência, uma vez que não se usa o adjetivo “grande” no diminutivo.",
+        "b": "exemplo de linguagem regional, que se manifesta também em outras partes do texto, como na palavra “brandindo”.",
+        "c": "expressão de nonsense (linguagem surreal, ilógica), que, por sinal, ocorre também quando o autor afirma ouvir o M maiúsculo de “mormaço”.",
+        "d": "manifestação de humor irônico, o qual, aliás, corresponde ao tom predominante no texto.",
+        "e": "parte do sonho que está sendo narrado e que é revelado apenas no final do texto, principalmente no trecho “em meu entredormir”."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação",
+            "Figuras de linguagem (metáfora, metonímia, antítese, paradoxo, hipérbole, ironia)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 26,
+      "tipo": "objetiva",
+      "enunciado": "No texto, a sequência temporal é estabelecida principalmente pelas expressões:",
+      "textos_de_apoio": [
+        "Há 1,5 milhão de anos, ancestrais do homem moderno deixaram pegadas quando atravessaram um campo lamacento nas proximidades do Ileret, no norte do Quênia. Uma equipe internacional de pesquisadores descobriu essas marcas recentemente e mostrou que elas são muito parecidas com as do “Homo sapiens”: o arco do pé é alongado, os dedos são curtos, arqueados e alinhados. Também, o tamanho, a profundidade das pegadas e o espaçamento entre elas refletem a altura, o peso e o modo de caminhar atual. Anteriormente, houve outras descobertas arqueológicas, como, por exemplo, as feitas na Tanzânia, em 1978, que revelaram pegadas de 3,7 milhões de anos, mas com uma anatomia semelhante à de macacos. Os pesquisadores acreditam que as marcas recém-descobertas pertenceram ao “Homo erectus”.\nRevista FAPESP, nº 157, março de 2009. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "“Há 1,5 milhão de anos”; “recentemente”; “anteriormente”.",
+        "b": "“ancestrais”; “moderno”; “proximidades”.",
+        "c": "“quando atravessaram”; “norte do Quênia”; “houve outras descobertas”.",
+        "d": "“marcas recém-descobertas”; “em 1978”; “descobertas arqueológicas”.",
+        "e": "“descobriu”; “mostrou”; “acreditam”."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Mecanismos de coesão textual (lexical, referencial, anafórica) e coerência"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 27,
+      "tipo": "objetiva",
+      "enunciado": "No trecho “semelhante à de macacos”, fica subentendida uma palavra já empregada na mesma frase. Um recurso linguístico desse tipo também está presente no trecho assinalado em:",
+      "textos_de_apoio": [
+        "Há 1,5 milhão de anos, ancestrais do homem moderno deixaram pegadas quando atravessaram um campo lamacento nas proximidades do Ileret, no norte do Quênia. Uma equipe internacional de pesquisadores descobriu essas marcas recentemente e mostrou que elas são muito parecidas com as do “Homo sapiens”: o arco do pé é alongado, os dedos são curtos, arqueados e alinhados. Também, o tamanho, a profundidade das pegadas e o espaçamento entre elas refletem a altura, o peso e o modo de caminhar atual. Anteriormente, houve outras descobertas arqueológicas, como, por exemplo, as feitas na Tanzânia, em 1978, que revelaram pegadas de 3,7 milhões de anos, mas com uma anatomia semelhante à de macacos. Os pesquisadores acreditam que as marcas recém-descobertas pertenceram ao “Homo erectus”.\nRevista FAPESP, nº 157, março de 2009. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "A água não é somente herança de nossos predecessores; ela é, sobretudo, um empréstimo às futuras gerações.",
+        "b": "Recorrer à exploração da miséria humana, infelizmente, está longe de ser um novo ingrediente no cardápio da tevê aberta à moda brasileira.",
+        "c": "Ainda há quem julgue que os recursos que a natureza oferece à humanidade são, de certo modo, inesgotáveis.",
+        "d": "A prática do patrimonialismo acaba nos levando à cultura da tolerância à corrupção.",
+        "e": "Já está provado que a concentração de poluentes em área para não fumantes é muito superior à recomendada pela OMS."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Mecanismos de coesão textual (lexical, referencial, anafórica) e coerência"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 28,
+      "tipo": "objetiva",
+      "enunciado": "No texto, o narrador diz que José Dias “sabia opinar obedecendo”. Considerada no contexto da obra, essa característica da personagem é motivada, principalmente, pelo fato de José Dias ser",
+      "textos_de_apoio": [
+        "[José Dias] Teve um pequeno legado no testamento, uma apólice e quatro palavras de louvor. Copiou as palavras, encaixilhou-as e pendurou-as no quarto, por cima da cama. “Esta é a melhor apólice”, dizia ele muita vez. Com o tempo, adquiriu certa autoridade na família, certa audiência, ao menos; não abusava, e sabia opinar obedecendo. Ao cabo, era amigo, não direi ótimo, mas nem tudo é ótimo neste mundo. E não lhe suponhas alma subalterna; as cortesias que fizesse vinham antes do cálculo que da índole. A roupa durava-lhe muito; ao contrário das pessoas que enxovalham depressa o vestido novo, ele trazia o velho escovado e liso, cerzido, abotoado, de uma elegância pobre e modesta. Era lido, posto que de atropelo, o bastante para divertir ao serão e à sobremesa, ou explicar algum fenômeno, falar dos efeitos do calor e do frio, dos polos e de Robespierre. Contava muita vez uma viagem que fizera à Europa, e confessava que a não sermos nós, já teria voltado para lá; tinha amigos em Lisboa, mas a nossa família, dizia ele, abaixo de Deus, era tudo.\nMachado de Assis, Dom Casmurro."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "um homem culto, porém autodidata.",
+        "b": "homeopata, mas usuário da alopatia.",
+        "c": "pessoa de opiniões inflexíveis, mas também um homem naturalmente cortês.",
+        "d": "um homem livre, mas dependente da família proprietária.",
+        "e": "católico praticante e devoto, porém perverso."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Literatura Brasileira: Quinhentismo, Barroco (Gregório de Matos), Arcadismo, Romantismo, Realismo/Naturalismo (Machado de Assis), Parnasianismo e Simbolismo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 29,
+      "tipo": "objetiva",
+      "enunciado": "Considerado o contexto, qual das expressões sublinhadas foi empregada em sentido metafórico?",
+      "textos_de_apoio": [
+        "[José Dias] Teve um pequeno legado no testamento, uma apólice e quatro palavras de louvor. Copiou as palavras, encaixilhou-as e pendurou-as no quarto, por cima da cama. “Esta é a melhor apólice”, dizia ele muita vez. Com o tempo, adquiriu certa autoridade na família, certa audiência, ao menos; não abusava, e sabia opinar obedecendo. Ao cabo, era amigo, não direi ótimo, mas nem tudo é ótimo neste mundo. E não lhe suponhas alma subalterna; as cortesias que fizesse vinham antes do cálculo que da índole. A roupa durava-lhe muito; ao contrário das pessoas que enxovalham depressa o vestido novo, ele trazia o velho escovado e liso, cerzido, abotoado, de uma elegância pobre e modesta. Era lido, posto que de atropelo, o bastante para divertir ao serão e à sobremesa, ou explicar algum fenômeno, falar dos efeitos do calor e do frio, dos polos e de Robespierre. Contava muita vez uma viagem que fizera à Europa, e confessava que a não sermos nós, já teria voltado para lá; tinha amigos em Lisboa, mas a nossa família, dizia ele, abaixo de Deus, era tudo.\nMachado de Assis, Dom Casmurro."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "“Teve um pequeno legado”.",
+        "b": "“Esta é a melhor apólice”.",
+        "c": "“certa audiência, ao menos”.",
+        "d": "“ao cabo, era amigo”.",
+        "e": "“o bastante para divertir”."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 30,
+      "tipo": "objetiva",
+      "enunciado": "Por caminhos diferentes, tanto Pedro Bala (de Capitães de areia, de Jorge Amado) quanto o operário (do conhecido poema “O operário em construção”, de Vinícius de Moraes) passam por processos de “aquisição de uma consciência política” (expressão do próprio Vinícius). O contexto dessas obras indica também que essa conscientização leva ambos à",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "exclusão social, que arruína precocemente suas promissoras carreiras profissionais.",
+        "b": "sublimação intelectual do ímpeto revolucionário, motivada pelo contato com estudantes.",
+        "c": "condição de meros títeres, manipulados por partidos políticos oportunistas.",
+        "d": "luta, em associação com seus pares de grupo ou de classe social, contra a ordem vigente.",
+        "e": "cumplicidade com criminosos comuns, com o fito de atacar as legítimas forças de repressão."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Modernismo Brasileiro: 1ª Fase (1922), 2ª Fase (Geração de 30 - romance regionalista e poesia de 30) e 3ª Fase (Geração de 45/Pós-Modernismo)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 31,
+      "tipo": "objetiva",
+      "enunciado": "Neste excerto, o julgamento expresso por Jacinto, ao falar de um casal que o serve em sua quinta de Tormes, manifesta um ponto de vista semelhante ao do",
+      "textos_de_apoio": [
+        "(...) É uma bela moça, mas uma bruta... Não há ali mais poesia, nem mais sensibilidade, nem mesmo mais beleza do que numa linda vaca turina. Merece o seu nome de Ana Vaqueira. Trabalha bem, digere bem, concebe bem. Para isso a fez a Natureza, assim sã e rija; e ela cumpre. O marido todavia não parece contente, porque a desanca. Também é um belo bruto... Não, meu filho, a serra é maravilhosa e muito grato lhe estou... Mas temos aqui a fêmea em toda a sua animalidade e o macho em todo o seu egoísmo...\nEça de Queirós, A cidade e as serras."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "Major Vidigal, de Memórias de um sargento de milícias, ao se referir aos desocupados cariocas do tempo do rei.",
+        "b": "narrador de Iracema, em particular quando se refere a tribos inimigas e a franceses.",
+        "c": "narrador de Vidas secas, principalmente quando ele enfoca as relações sexuais de Fabiano e Sinha Vitória.",
+        "d": "Anjo, do Auto da barca do inferno, ao condenar os pecados da carne cometidos pelos humanos.",
+        "e": "narrador de O cortiço, especialmente quando se refere a personagens de classes sociais inferiores."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Literatura Portuguesa: Trovadorismo, Humanismo, Classicismo (Camões), Realismo (Eça de Queirós) e Modernismo (Fernando Pessoa)",
+            "Literatura Brasileira: Quinhentismo, Barroco (Gregório de Matos), Arcadismo, Romantismo, Realismo/Naturalismo (Machado de Assis), Parnasianismo e Simbolismo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 32,
+      "tipo": "objetiva",
+      "enunciado": "O tipo cujo perfil se traça, em linhas gerais, neste excerto, aparece em romances como Memórias de um sargento de milícias, O cortiço, além de Capitães de areia. Essa recorrência indica que",
+      "textos_de_apoio": [
+        "Inimigo da riqueza e do trabalho, amigo das festas, da música, do corpo das cabrochas. Malandro. Armador de fuzuês. Jogador de capoeira navalhista, ladrão quando se fizer preciso.\nJorge Amado, Capitães de areia."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "certas estruturas e tipos sociais originários do período colonial foram repostos durante muito tempo, nos processos de transformação da sociedade brasileira.",
+        "b": "o atraso relativo das regiões Norte e Nordeste atraiu para elas a migração de tipos sociais que o progresso expulsara do Sul/Sudeste.",
+        "c": "os romancistas brasileiros, embora críticos da sociedade, militaram com patriotismo na defesa de nossas personagens mais típicas e mais queridas.",
+        "d": "certas ideologias exóticas influenciaram negativamente os romancistas brasileiros, fazendo-os representar, em suas obras, tipos sociais já extintos quando elas foram escritas.",
+        "e": "a criança abandonada, personagem central dos três livros, torna-se, na idade adulta, um elemento nocivo à sociedade dos homens de bem."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Modernismo Brasileiro: 1ª Fase (1922), 2ª Fase (Geração de 30 - romance regionalista e poesia de 30) e 3ª Fase (Geração de 45/Pós-Modernismo)"
+          ]
+        },
+        {
+          "area": "História",
+          "assuntos": [
+            "Brasil Colônia: primeiros habitantes indígenas, ocupação territorial, ciclos econômicos (açúcar e ouro) e escravidão"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 33,
+      "tipo": "objetiva",
+      "enunciado": "Considere as seguintes afirmações:\nI. O diálogo com outros textos (intertextualidade) é procedimento central na composição da estrofe.\nII. O espírito de contradição manifesto nos versos indica que o amor da pátria que eles expressam não é oficial nem conformista.\nIII. O apego do eu lírico à tradição da poesia clássica patenteia-se na escolha de um verso latino como núcleo da estrofe.\nEstá correto o que se afirma em",
+      "textos_de_apoio": [
+        "Mais do que a mais garrida a minha pátria tem\n Uma quentura, um querer bem, um bem\n Um “libertas quae sera tamen”*\n Que um dia traduzi num exame escrito:\n “Liberta que serás também”\n E repito!\nVinícius de Moraes, “Pátria minha”, Antologia poética.\n*A frase em latim traduz-se, comumente, por “liberdade ainda que tardia”."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "I, apenas.",
+        "b": "II, apenas.",
+        "c": "I e II, apenas.",
+        "d": "II e III, apenas.",
+        "e": "I, II e III."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Intertextualidade, interdiscursividade e análise de textos verbais e não verbais (charges, cartuns)",
+            "Modernismo Brasileiro: 1ª Fase (1922), 2ª Fase (Geração de 30 - romance regionalista e poesia de 30) e 3ª Fase (Geração de 45/Pós-Modernismo)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 34,
+      "tipo": "objetiva",
+      "enunciado": "Em qual destas frases a vírgula foi empregada para marcar a omissão do verbo?",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "Ter um apartamento no térreo é ter as vantagens de uma casa, além de poder desfrutar de um jardim.",
+        "b": "Compre sem susto: a loja é virtual; os direitos, reais.",
+        "c": "Para quem não conhece o mercado financeiro, procuramos usar uma linguagem livre do economês.",
+        "d": "A sensação é de estar perdido: você não vai encontrar ninguém no Jalapão, mas vai ver a natureza intocada.",
+        "e": "Esta é a informação mais importante para a preservação da água: sabendo usar, não vai faltar."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Sintaxe do período simples (termos essenciais, integrantes e acessórios da oração)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 35,
+      "tipo": "objetiva",
+      "enunciado": "A única frase que segue as normas da língua escrita padrão é:",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "A janela propiciava uma vista para cuja beleza muito contribuía a mata no alto do morro.",
+        "b": "Em pouco tempo e gratuitamente, prepare-se para a universidade que você se inscreveu.",
+        "c": "Apesar do rigor da disciplina, militares se mobilizam no sentido de voltar a cujos postos estavam antes de se licenciarem.",
+        "d": "Sem pretender passar por herói, aproveito para contar coisas as quais fui testemunha nos idos de 1968 e que hoje tanto se fala.",
+        "e": "Sem muito sacrifício, adotou um modo de vida a qual o permitia fazer o regime recomendado pelo médico."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Regência verbal e nominal (emprego do sinal indicativo de crase)",
+            "Sintaxe do período composto (coordenação e subordinação)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 36,
+      "tipo": "objetiva",
+      "enunciado": "De acordo com o texto, publicado em março de 2009,",
+      "textos_de_apoio": [
+        "Last month America’s unemployment rate climbed to 8,1%, the highest in a quarter of a century. For those newly out of a job, the chances of finding another soon are the worst since records began 50 years ago. In China 20m migrant workers (maybe 3% of the labour force) have been laid off. Cambodia’s textile industry, its main source of exports, has cut one worker in ten. In Spain the building bust has pushed the jobless rate up by two-thirds in a year, to 14.8% in January. And in Japan, where official unemployment used to be all but unknown, tens of thousands of people on temporary contracts are losing not just their jobs but also the housing provided by their employers.\nThe next phase of the world’s economic downturn is taking shape: a global jobs crisis. Its contours are only just becoming clear, but the severity, breadth and likely length of the recession, together with changes in the structure of labour markets in both rich and emerging economies, suggest the world is about to undergo its biggest increase in unemployment for decades.\nThe Economist, March 14th 2009."
+      ],
+      "midia": [
+        "Página 9: Imagem ilustrativa de manchete 'Briefing Unemployment'."
+      ],
+      "alternativas": {
+        "a": "o aumento de postos de trabalho é vital para as economias emergentes.",
+        "b": "a crise mundial poderia afetar sobretudo os países mais pobres.",
+        "c": "a estrutura do mercado de trabalho vigente em países ricos é a principal responsável pela crise.",
+        "d": "o mundo poderia enfrentar a maior crise de desemprego das últimas décadas.",
+        "e": "a crise que a economia mundial vivencia vem sendo anunciada há décadas."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Identificação do gênero textual, propósito comunicativo e público-alvo",
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 37,
+      "tipo": "objetiva",
+      "enunciado": "Segundo o texto, no Japão,",
+      "textos_de_apoio": [
+        "Last month America’s unemployment rate climbed to 8,1%, the highest in a quarter of a century. For those newly out of a job, the chances of finding another soon are the worst since records began 50 years ago. In China 20m migrant workers (maybe 3% of the labour force) have been laid off. Cambodia’s textile industry, its main source of exports, has cut one worker in ten. In Spain the building bust has pushed the jobless rate up by two-thirds in a year, to 14.8% in January. And in Japan, where official unemployment used to be all but unknown, tens of thousands of people on temporary contracts are losing not just their jobs but also the housing provided by their employers.\nThe next phase of the world’s economic downturn is taking shape: a global jobs crisis. Its contours are only just becoming clear, but the severity, breadth and likely length of the recession, together with changes in the structure of labour markets in both rich and emerging economies, suggest the world is about to undergo its biggest increase in unemployment for decades.\nThe Economist, March 14th 2009."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "o número oficial de desempregados é desconhecido.",
+        "b": "milhares de pessoas estão perdendo seus empregos e sua moradia.",
+        "c": "grande parte dos trabalhadores possui contratos temporários de trabalho.",
+        "d": "os empregadores omitem o número de postos de trabalho porque muitos não são oficiais.",
+        "e": "os desempregados estão lutando para manter suas casas."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 38,
+      "tipo": "objetiva",
+      "enunciado": "O pronome “another” (L. 3) na sentença “...the chances of finding another...” refere-se a",
+      "textos_de_apoio": [
+        "Last month America’s unemployment rate climbed to 8,1%, the highest in a quarter of a century. For those newly out of a job, the chances of finding another soon are the worst since records began 50 years ago. In China 20m migrant workers (maybe 3% of the labour force) have been laid off. Cambodia’s textile industry, its main source of exports, has cut one worker in ten. In Spain the building bust has pushed the jobless rate up by two-thirds in a year, to 14.8% in January. And in Japan, where official unemployment used to be all but unknown, tens of thousands of people on temporary contracts are losing not just their jobs but also the housing provided by their employers.\nThe next phase of the world’s economic downturn is taking shape: a global jobs crisis. Its contours are only just becoming clear, but the severity, breadth and likely length of the recession, together with changes in the structure of labour markets in both rich and emerging economies, suggest the world is about to undergo its biggest increase in unemployment for decades.\nThe Economist, March 14th 2009."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "país.",
+        "b": "trabalhador.",
+        "c": "emprego.",
+        "d": "oportunidade.",
+        "e": "recorde."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Coesão textual em inglês: referência pronominal e elipses"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 39,
+      "tipo": "objetiva",
+      "enunciado": "O texto informa que",
+      "textos_de_apoio": [
+        "As everybody knows, if you do not work out, your muscles get flaccid. What most people don’t realize, however, is that your brain also stays in better shape when you exercise.\nSurprised? Although the idea of exercising cognitive machinery by performing mentally demanding activities – popularly termed the “use it or lose it” hypothesis – is better known, a review of dozens of studies shows that maintaining a mental edge requires more than that. Other things you do – including participating in activities that make you think, getting regular exercise, staying socially engaged and even having a positive attitude – have a meaningful influence on how effective your cognitive functioning will be in old age.\nwww.scientificamerican.com/article. Acessado em 06/07/2009. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "exercícios físicos são benéficos para o corpo e para a saúde mental.",
+        "b": "as pessoas não se dão conta da importância de músculos fortes.",
+        "c": "o cérebro é muito pouco exercitado por pessoas que não trabalham.",
+        "d": "todo mundo deveria exercitar-se diariamente.",
+        "e": "grande parte das pessoas preocupa-se apenas com a aparência física."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Identificação do gênero textual, propósito comunicativo e público-alvo",
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 40,
+      "tipo": "objetiva",
+      "enunciado": "Segundo o texto, o bom funcionamento de nosso cérebro na velhice depende, entre outros fatores,",
+      "textos_de_apoio": [
+        "As everybody knows, if you do not work out, your muscles get flaccid. What most people don’t realize, however, is that your brain also stays in better shape when you exercise.\nSurprised? Although the idea of exercising cognitive machinery by performing mentally demanding activities – popularly termed the “use it or lose it” hypothesis – is better known, a review of dozens of studies shows that maintaining a mental edge requires more than that. Other things you do – including participating in activities that make you think, getting regular exercise, staying socially engaged and even having a positive attitude – have a meaningful influence on how effective your cognitive functioning will be in old age.\nwww.scientificamerican.com/article. Acessado em 06/07/2009. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "das perdas e ganhos que vivenciamos ao longo da vida.",
+        "b": "da herança genética que trazemos conosco.",
+        "c": "das modalidades de exercícios físicos que realizamos.",
+        "d": "da complexidade de exercícios intelectuais a que somos expostos.",
+        "e": "de nosso engajamento em atividades intelectuais e sociais."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 41,
+      "tipo": "objetiva",
+      "enunciado": "A charge chama a atenção, principalmente, para a",
+      "textos_de_apoio": [
+        "Leia a charge a seguir:"
+      ],
+      "midia": [
+        "Página 10: Charge de Bill Watterson (Calvin e Haroldo): Papai Noel com duendes em uma oficina no Polo Norte conversando sobre salários baixos e incentivos fiscais."
+      ],
+      "alternativas": {
+        "a": "precariedade da legislação ambiental em vigor nos países nórdicos, caracterizados pela intensa exploração de seus recursos florestais.",
+        "b": "expansão do capitalismo monopolista globalizado, que se caracteriza, a partir da II Guerra Mundial, pela busca de condições mais vantajosas para a produção industrial.",
+        "c": "internacionalização da pobreza, com a presença globalizada de trabalho infantil e de condições sub-humanas de trabalho.",
+        "d": "nova regionalização do espaço mundial, caracterizada pela centralização das indústrias, e pela concentração do capital e do trabalho.",
+        "e": "Divisão Internacional do Trabalho, caracterizada, a partir da II Guerra Mundial, pela inexistência de centros hegemônicos de poder e pela formação de blocos econômicos."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Globalização, comércio internacional, blocos econômicos e a posição do Brasil no comércio global"
+          ]
+        },
+        {
+          "area": "Filosofia e Sociologia",
+          "assuntos": [
+            "Mundo do trabalho: taylorismo, fordismo, flexibilização produtiva e precarização/trabalho escravo contemporâneo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 42,
+      "tipo": "objetiva",
+      "enunciado": "Considere o texto acima e as três afirmações:\nI. As redes de comunicação propiciadas pela Internet têm a propriedade da conectividade e, ao mesmo tempo, são suscetíveis de funcionar como instrumentos de integração e exclusão.\nII. A revolução tecnológica pode consolidar as desigualdades sociais e também aprofundá-las, produzindo um distanciamento cognitivo entre os que já convivem com ela e os que estão sem acesso a ela.\nIII. Nesse ambiente comunicacional, as fronteiras se relativizam e tem-se a possibilidade de adicionar, às noções de espaço e tempo tradicionais, uma nova noção de espaço: o ciberespaço.\nEstá correto o que se afirma em",
+      "textos_de_apoio": [
+        "Serviços como o fotolog e o Orkut, tal qual outras ferramentas para mensagens instantâneas na Internet (MSN e ICQ), não devem ser lidos como sintomas de um mundo que a velocidade da comunicação e as tecnologias digitais teriam tornado “pequeno”. Ligar-se em rede e “estreitar” o mundo é uma escolha, algo como uma camada adicional de sociabilidade disponível somente para alguns, e que também, somente para alguns, faz sentido acionar.\nMaria Isabel Mendes de Almeida e Fernanda Eugênio (Orgs). Culturas Jovens: novos mapas do afeto, 2006. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "I, apenas.",
+        "b": "II, apenas.",
+        "c": "I e II, apenas.",
+        "d": "II e III, apenas.",
+        "e": "I, II e III."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Globalização, comércio internacional, blocos econômicos e a posição do Brasil no comércio global"
+          ]
+        },
+        {
+          "area": "Filosofia e Sociologia",
+          "assuntos": [
+            "Indivíduo e sociedade: instituições sociais, socialização e construção de identidades"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 43,
+      "tipo": "objetiva",
+      "enunciado": "Sobre os muçulmanos que vivem na África e Ásia é correto afirmar:",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 10: Tabela comparativa entre África e Ásia sobre a distribuição da população muçulmana e eventos geopolíticos."
+      ],
+      "alternativas": {
+        "a": "África: A grande concentração está no norte do continente, mas tem ocorrido aumento dessa população nos países subsaarianos. | Ásia: No oeste da China, centenas de muçulmanos, da etnia uigur, foram mortos em conflitos ocorridos em julho deste ano.",
+        "b": "África: Após a eliminação do apartheid, na África do Sul, os muçulmanos deixaram de ser marginalizados nesse país. | Ásia: As peregrinações anuais a Meca foram suspensas, nos últimos cinco anos, devido a ataques terroristas.",
+        "c": "África: A grande concentração está no norte do continente, mas tem ocorrido aumento dessa população nos países subsaarianos. | Ásia: Em agosto deste ano, os muçulmanos do grupo Taleban assumiram o governo no Afeganistão, desestruturando outros grupos políticos, não muçulmanos.",
+        "d": "África: Após a eliminação do apartheid, na África do Sul, os muçulmanos deixaram de ser marginalizados nesse país. | Ásia: No oeste da China, centenas de muçulmanos, da etnia uigur, foram mortos em conflitos ocorridos em julho deste ano.",
+        "e": "África: Os conflitos de Darfur, no Sudão, com milhares de refugiados, são consequência de embates tribais entre muçulmanos. | Ásia: Em agosto deste ano, os muçulmanos do grupo Taleban assumiram o governo no Afeganistão, desestruturando outros grupos políticos, não muçulmanos."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Demografia: conceitos populacionais, transição demográfica, pirâmides etárias e fluxos migratórios"
+          ]
+        },
+        {
+          "area": "História",
+          "assuntos": [
+            "Conflitos étnicos e religiosos atuais no Oriente Médio e África"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 44,
+      "tipo": "objetiva",
+      "enunciado": "Assinale a anamorfose que melhor representa a atual Pegada Ecológica dos diferentes países.",
+      "textos_de_apoio": [
+        "Sempre deixamos marcas no meio ambiente. Para medir essas marcas, William Rees propôs um(a) indicador/estimativa chamado(a) de “Pegada Ecológica”. Segundo a Organização WWF, esse índice calcula a superfície exigida para sustentar um gênero de vida específico. Mostra até que ponto a nossa forma de viver está de acordo com a capacidade do planeta de oferecer e renovar seus recursos naturais e também de absorver os resíduos que geramos. Assim, por exemplo, países de alto consumo e grande produção de lixo, bem como países mais industrializados e com alta emissão de CO2, apresentam maior Pegada Ecológica.\nwww.wwf.org.br. Acessado em 17/08/09. Adaptado."
+      ],
+      "midia": [
+        "Página 11: Cinco mapas em anamorfose (a, b, c, d, e) representando proporções territoriais alteradas conforme dados da Pegada Ecológica."
+      ],
+      "alternativas": {
+        "a": "Anamorfose 'a'",
+        "b": "Anamorfose 'b'",
+        "c": "Anamorfose 'c'",
+        "d": "Anamorfose 'd'",
+        "e": "Anamorfose 'e'"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Leitura e interpretação de mapas temáticos, cartas e anamorfoses",
+            "Impactos ambientais: mudanças climáticas, efeito estufa, desmatamento, degradação de solos e conferências internacionais do clima"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 45,
+      "tipo": "objetiva",
+      "enunciado": "Em relação a esse tema, é correto afirmar que",
+      "textos_de_apoio": [
+        "A Organização dos Estados Americanos (OEA) revogou, por meio da Resolução de 03/06/2009, a decisão, tomada em 1962, que excluía Cuba dessa organização."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "os países membros impuseram, como condição para a volta de Cuba à OEA, o cumprimento do acordo de fechamento da prisão de Guantánamo.",
+        "b": "o retorno de Cuba à OEA deve resultar de um processo de diálogo a pedido do próprio governo cubano.",
+        "c": "a atual decisão da OEA foi criticada por países da América do Sul que não fazem parte dessa organização como, por exemplo, Venezuela e Bolívia.",
+        "d": "o Brasil não participou da decisão da OEA, em junho de 2009, mantendo-se alheio ao processo de diálogo e de negociação com Cuba.",
+        "e": "os EUA retiraram-se do processo de discussão da referida Resolução por discordarem da readmissão de Cuba à OEA."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Globalização, comércio internacional, blocos econômicos e a posição do Brasil no comércio global"
+          ]
+        },
+        {
+          "area": "História",
+          "assuntos": [
+            "Organismos internacionais (FMI, OMC, Banco Mundial) e ascensão da China"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 46,
+      "tipo": "objetiva",
+      "enunciado": "Acerca desse tema, considere os gráficos, seus conhecimentos e as seguintes afirmações:\nI. A Região Sudeste responde por mais da metade do PIB nacional, sendo, porém, a região com maior deficit habitacional. Consequentemente, forte concentração de capital não significa acesso à moradia.\nII. A Região Nordeste tem o segundo maior deficit habitacional e a terceira maior participação no PIB nacional. Isso significa que a histórica desigualdade social nessa região foi superada.\nIII. A Região Norte tem o segundo menor deficit habitacional e a menor participação no PIB nacional. Isso significa que o deficit habitacional é um problema desvinculado da produção/distribuição de riqueza.\nEstá correto o que se afirma em",
+      "textos_de_apoio": [
+        "Desde o final da década de 1970, no Brasil, os movimentos sociais urbanos têm reivindicado o chamado Direito à Cidade, em que a moradia é elemento fundamental."
+      ],
+      "midia": [
+        "Página 11: Dois gráficos de barras: 'Deficit Habitacional por Região' e 'Participação no PIB nacional por Região', IBGE, 2006/2007."
+      ],
+      "alternativas": {
+        "a": "I, apenas.",
+        "b": "I e II, apenas.",
+        "c": "I e III, apenas.",
+        "d": "II e III, apenas.",
+        "e": "I, II e III."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Geografia Urbana: industrialização, urbanização, metropolização, conurbação, megalópoles e segregação socioespacial",
+            "Divisão regional do Brasil (IBGE e complexos geoeconômicos)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 47,
+      "tipo": "objetiva",
+      "enunciado": "I. A expansão desse cultivo tem ocorrido, principalmente, com vistas ao aumento da produção de etanol para o abastecimento dos mercados interno e externo.\nII. O cultivo desse produto agrícola tem ocupado porções do Oeste Paulista que, tradicionalmente, eram ocupadas com pasto.\nIII. A expansão desse cultivo tem acarretado a diminuição da produção de gêneros alimentícios em algumas regiões do estado.\nEstá correto o que se afirma em:",
+      "textos_de_apoio": [
+        "Considere os mapas do Estado de São Paulo, seus conhecimentos e as afirmativas abaixo."
+      ],
+      "midia": [
+        "Página 12: Dois mapas do Estado de São Paulo mostrando o cultivo da cana-de-açúcar nos períodos 2003-2004 e 2008-2009."
+      ],
+      "alternativas": {
+        "a": "I e II, apenas.",
+        "b": "II, apenas.",
+        "c": "II e III, apenas.",
+        "d": "III, apenas.",
+        "e": "I, II e III."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Espaço Rural: sistemas agrícolas, modernização do campo e estrutura agrária brasileira",
+            "Matrizes energéticas mundiais e do Brasil (fontes renováveis e não renováveis)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 48,
+      "tipo": "objetiva",
+      "enunciado": "As figuras e o texto acima referem-se a um processo de formação de um fenômeno climático que ocorre, por exemplo, na cidade de São Paulo. Trata-se de",
+      "textos_de_apoio": [
+        "Em algumas cidades, pode-se observar no horizonte, em certos dias, a olho nu, uma camada de cor marrom. Essa condição afeta a saúde, principalmente, de crianças e de idosos, provocando, entre outras, doenças respiratórias e cardiovasculares.\nhttp://tempoagora.uol.com.br/noticias. Acessado em 20/06/2009. Adaptado."
+      ],
+      "midia": [
+        "Página 12: Duas figuras (Figura 1 e Figura 2) ilustrando o perfil de temperatura atmosférica e inversão térmica."
+      ],
+      "alternativas": {
+        "a": "ilha de calor, caracterizada pelo aumento de temperaturas na periferia da cidade.",
+        "b": "zona de convergência intertropical, que provoca o aumento da pressão atmosférica na área urbana.",
+        "c": "chuva convectiva, caracterizada pela formação de nuvens de poluentes que provocam danos ambientais.",
+        "d": "inversão térmica, que provoca concentração de poluentes na baixa camada da atmosfera.",
+        "e": "ventos alíseos de sudeste, que provocam o súbito aumento da umidade relativa do ar."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Climatologia: fatores/elementos do clima, dinâmica das massas de ar e climas do Brasil e do mundo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 49,
+      "tipo": "objetiva",
+      "enunciado": "A relação entre minério e sua localização no território brasileiro está corretamente expressa em:",
+      "textos_de_apoio": [
+        "Em se tratando de commodities, o Brasil tem papel relevante no mercado mundial, graças à exportação de minérios. Destacam-se os minérios de ferro e de manganês, bases para a produção de aço, e a bauxita, da qual deriva o alumínio."
+      ],
+      "midia": [
+        "Página 12: Tabela relacionando tipos de minérios e suas localizações geográficas."
+      ],
+      "alternativas": {
+        "a": "ferro | Quadrilátero Ferrífero (Planalto da Borborema)",
+        "b": "ferro | Serra dos Carajás (Planalto das Guianas)",
+        "c": "bauxita | Vale do Trombetas (Serra do Espinhaço)",
+        "d": "manganês | Maciço do Urucum (Pantanal Mato-Grossense)",
+        "e": "manganês | Vale do Aço (Chapada dos Parecis)"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Estrutura geológica da Terra, tectonismo, vulcanismo e eras geológicas",
+            "Divisão regional do Brasil (IBGE e complexos geoeconômicos)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 50,
+      "tipo": "objetiva",
+      "enunciado": "Os gráficos revelam",
+      "textos_de_apoio": [
+        "Estrutura Fundiária Brasileira (Estabelecimentos Rurais em % e Área Ocupada em %)"
+      ],
+      "midia": [
+        "Página 12: Dois gráficos de pizza sobre a Estrutura Fundiária Brasileira (INCRA, 2003)."
+      ],
+      "alternativas": {
+        "a": "pequena quantidade de propriedades, com até 100 ha, ocupando a maior parcela da área, o que significa uma distribuição desigual da terra.",
+        "b": "grande quantidade de propriedades, com mais de 1000 ha, correspondendo à maior parcela da área ocupada, o que significa uma distribuição equitativa da terra.",
+        "c": "grande quantidade de propriedades, com até 100 ha, correspondendo às menores parcelas da área ocupada, o que significa uma distribuição desigual da terra.",
+        "d": "pequena quantidade de propriedades, de 100 a 1000 ha, ocupando a maior parcela da área, o que significa uma distribuição equitativa da terra.",
+        "e": "pequena quantidade de propriedades, com mais de 1000 ha, correspondendo à menor parcela da área ocupada, o que significa uma distribuição desigual da terra."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Espaço Rural: sistemas agrícolas, modernização do campo e estrutura agrária brasileira"
+          ]
+        },
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Interpretação de gráficos (barras, setores, histogramas, box-plot, ramos e folhas)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 51,
+      "tipo": "objetiva",
+      "enunciado": "Em uma planta, a celulose é encontrada",
+      "textos_de_apoio": [
+        "Os animais que consomem as folhas de um livro alimentam-se da celulose contida no papel."
+      ],
+      "midia": [
+        "Página 13: Cartum com insetos comendo um livro e conversando ('Que livro interessante!')."
+      ],
+      "alternativas": {
+        "a": "armazenada no vacúolo presente no citoplasma.",
+        "b": "em todos os órgãos, como componente da parede celular.",
+        "c": "apenas nas folhas, associada ao parênquima.",
+        "d": "apenas nos órgãos de reserva, como caule e raiz.",
+        "e": "apenas nos tecidos condutores do xilema e do floema."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Componentes químicos celulares: água, sais minerais, carboidratos, lipídios, proteínas e vitaminas",
+            "Organização celular: diferenças entre procariontes e eucariontes (animal e vegetal)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 52,
+      "tipo": "objetiva",
+      "enunciado": "Diante disso, considere as seguintes afirmativas:\nI. A seleção natural leva ao aumento da frequência populacional das mutações vantajosas num dado ambiente; caso o ambiente mude, essas mesmas mutações podem tornar seus portadores menos adaptados e, assim, diminuir de frequência.\nII. A seleção natural é um processo que direciona a adaptação dos indivíduos ao ambiente, atuando sobre a variabilidade populacional gerada de modo casual.\nIII. A mutação é a causa primária da variabilidade entre os indivíduos, dando origem a material genético novo e ocorrendo sem objetivo adaptativo.\nEstá correto o que se afirma em",
+      "textos_de_apoio": [
+        "O conhecimento sobre a origem da variabilidade entre os indivíduos, sobre os mecanismos de herança dessa variabilidade e sobre o comportamento dos genes nas populações foi incorporado à teoria da evolução biológica por seleção natural de Charles Darwin."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "I, II e III.",
+        "b": "I e III, apenas.",
+        "c": "I e II, apenas.",
+        "d": "I, apenas.",
+        "e": "III, apenas."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Teorias evolutivas: fixismo, lamarckismo, darwinismo e teoria sintética da evolução (neodarwinismo)",
+            "Mutações gênicas e cromossômicas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 53,
+      "tipo": "objetiva",
+      "enunciado": "Um determinado animal adulto é desprovido de crânio e apêndices articulares. Apresenta corpo alongado e cilíndrico. Esse animal pode pertencer ao grupo dos",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "répteis ou nematelmintos.",
+        "b": "platelmintos ou anelídeos.",
+        "c": "moluscos ou platelmintos.",
+        "d": "anelídeos ou nematelmintos.",
+        "e": "anelídeos ou artrópodes."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Reino Animalia: características evolutivas dos principais filos (simetria, folhetos embrionários, celoma)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 54,
+      "tipo": "objetiva",
+      "enunciado": "O termo “código genético” refere-se",
+      "textos_de_apoio": [
+        "“Há uma impressionante continuidade entre os seres vivos (...). Talvez o exemplo mais marcante seja o da conservação do código genético (...) em praticamente todos os seres vivos. Um código genético de tal maneira “universal” é evidência de que todos os seres vivos são aparentados e herdaram os mecanismos de leitura do RNA de um ancestral comum.”\nMorgante & Meyer, Darwin e a Biologia, O Biólogo 10:12–20, 2009."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "ao conjunto de trincas de bases nitrogenadas, cada trinca correspondendo a um determinado aminoácido.",
+        "b": "ao conjunto de todos os genes dos cromossomos de uma célula, capazes de sintetizar diferentes proteínas.",
+        "c": "ao conjunto de proteínas sintetizadas a partir de uma sequência específica de RNA.",
+        "d": "a todo o genoma de um organismo, formado pelo DNA de suas células somáticas e reprodutivas.",
+        "e": "à síntese de RNA a partir de uma das cadeias do DNA, que serve de modelo."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Estrutura molecular do DNA e RNA, transcrição gênica e síntese proteica (código genético)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 55,
+      "tipo": "objetiva",
+      "enunciado": "Uma pessoa, ao encontrar uma semente, pode afirmar, com certeza, que dentro dela há o embrião de uma planta, a qual, na fase adulta,",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "forma flores, frutos e sementes.",
+        "b": "forma sementes, mas não produz flores e frutos.",
+        "c": "vive exclusivamente em ambiente terrestre.",
+        "d": "necessita de água para o deslocamento dos gametas na fecundação.",
+        "e": "tem tecidos especializados para condução de água e de seiva elaborada."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Reino Plantae: características e ciclos de vida de briófitas, pteridófitas, gimnospermas e angiospermas",
+            "Anatomia e fisiologia vegetal: tecidos, condução de seivas, transpiração e fitormônios/tropismos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 56,
+      "tipo": "objetiva",
+      "enunciado": "Considere as seguintes características atribuídas aos seres vivos:\nI. Os seres vivos são constituídos por uma ou mais células.\nII. Os seres vivos têm material genético interpretado por um código universal.\nIII. Quando considerados como populações, os seres vivos se modificam ao longo do tempo.\nAdmitindo que possuir todas essas características seja requisito obrigatório para ser classificado como “ser vivo”, é correto afirmar que",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "os vírus e as bactérias são seres vivos, porque ambos preenchem os requisitos I, II e III.",
+        "b": "os vírus e as bactérias não são seres vivos, porque ambos não preenchem o requisito I.",
+        "c": "os vírus não são seres vivos, porque preenchem os requisitos II e III, mas não o requisito I.",
+        "d": "os vírus não são seres vivos, porque preenchem o requisito III, mas não os requisitos I e II.",
+        "e": "os vírus não são seres vivos, porque não preenchem os requisitos I, II e III."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Organização celular: diferenças entre procariontes e eucariontes (animal e vegetal)",
+            "Vírus: estrutura, replicação e principais viroses humanas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 57,
+      "tipo": "objetiva",
+      "enunciado": "No esquema abaixo, as setas numeradas de I a IV indicam transferências de moléculas ou energia entre seres vivos e entre eles e o ambiente.\nAssinale a alternativa do quadro abaixo que mostra, corretamente, as passagens em que há transferência de gás carbônico, de moléculas orgânicas ou de energia.",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 14: Esquema com um bloco 'Ambiente', setas I, II, III e IV conectando Produtores e Consumidores."
+      ],
+      "alternativas": {
+        "a": "gás carbônico: I e II | moléculas orgânicas: I e IV | energia: I e III",
+        "b": "gás carbônico: I e IV | moléculas orgânicas: II | energia: I, III e IV",
+        "c": "gás carbônico: I, II e IV | moléculas orgânicas: III | energia: I, II, III e IV",
+        "d": "gás carbônico: I, II e III | moléculas orgânicas: III e IV | energia: I, II, III e IV",
+        "e": "gás carbônico: II, III e IV | moléculas orgânicas: II e III | energia: I e III"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Metabolismo energético: fotossíntese, quimiossíntese, respiração aeróbia e fermentação",
+            "Cadeias e teias alimentares, níveis tróficos, pirâmides ecológicas e fluxo de energia"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 58,
+      "tipo": "objetiva",
+      "enunciado": "Do cruzamento entre plantas de flores cor-de-rosa, resultam plantas com flores",
+      "textos_de_apoio": [
+        "Numa espécie de planta, a cor das flores é determinada por um par de alelos. Plantas de flores vermelhas cruzadas com plantas de flores brancas produzem plantas de flores cor-de-rosa."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "das três cores, em igual proporção.",
+        "b": "das três cores, prevalecendo as cor-de-rosa.",
+        "c": "das três cores, prevalecendo as vermelhas.",
+        "d": "somente cor-de-rosa.",
+        "e": "somente vermelhas e brancas, em igual proporção."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "1ª e 2ª Leis de Mendel e correlação com a meiose",
+            "Heredogramas e probabilidades genéticas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 59,
+      "tipo": "objetiva",
+      "enunciado": "O fígado humano é uma glândula que participa de processos de digestão e absorção de nutrientes, ao",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "produzir diversas enzimas hidrolíticas que atuam na digestão de carbo-hidratos.",
+        "b": "produzir secreção rica em enzimas que digerem as gorduras.",
+        "c": "produzir a insulina e o glucagon, reguladores dos níveis de glicose no sangue.",
+        "d": "produzir secreção rica em sais que facilita a digestão e a absorção de gorduras.",
+        "e": "absorver excretas nitrogenadas do sangue e transformá-las em nutrientes proteicos."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Fisiologia dos sistemas humanos: digestório, cardiovascular, respiratório, excretor, nervoso, endócrino, locomotor e reprodutor"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 60,
+      "tipo": "objetiva",
+      "enunciado": "A cana-de-açúcar é importante matéria-prima para a produção de etanol. A energia contida na molécula de etanol e liberada na sua combustão foi",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "captada da luz solar pela cana-de-açúcar, armazenada na molécula de glicose produzida por fungos no processo de fermentação e, posteriormente, transferida para a molécula de etanol.",
+        "b": "obtida por meio do processo de fermentação realizado pela cana-de-açúcar e, posteriormente, incorporada à molécula de etanol na cadeia respiratória de fungos.",
+        "c": "captada da luz solar pela cana-de-açúcar, por meio do processo de fotossíntese, e armazenada na molécula de clorofila, que foi fermentada por fungos.",
+        "d": "obtida na forma de ATP no processo de respiração celular da cana-de-açúcar e armazenada na molécula de glicose, que foi, posteriormente, fermentada por fungos.",
+        "e": "captada da luz solar por meio do processo de fotossíntese realizado pela cana-de-açúcar e armazenada na molécula de glicose, que foi, posteriormente, fermentada por fungos."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Metabolismo energético: fotossíntese, quimiossíntese, respiração aeróbia e fermentação"
+          ]
+        },
+        {
+          "area": "Química",
+          "assuntos": [
+            "Termoquímica: reações exotérmicas e endotérmicas, entalpia e equações termoquímicas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 61,
+      "tipo": "objetiva",
+      "enunciado": "Considerando suas posições na Tabela Periódica, assinale a alternativa que melhor associa esses quatro elementos químicos com as propriedades discutidas acima.",
+      "textos_de_apoio": [
+        "Os elementos químicos se relacionam de diferentes maneiras com os organismos vivos. Alguns elementos são parte da estrutura das moléculas que constituem os organismos vivos. Outros formam íons essenciais à manutenção da vida. Outros, ainda, podem representar riscos para os seres vivos: alguns, por serem tóxicos; outros, por serem radioativos.\nObserve o esquema da Tabela Periódica, no qual estão destacados quatro elementos químicos, identificados pelas letras w, x, y e z."
+      ],
+      "midia": [
+        "Página 15: Esquema de uma Tabela Periódica destacando quatro elementos w, x, y e z."
+      ],
+      "alternativas": {
+        "a": "w: elemento radioativo | x: íon essencial | y: metal tóxico | z: elemento estrutural",
+        "b": "w: metal tóxico | x: íon essencial | y: elemento estrutural | z: elemento radioativo",
+        "c": "w: elemento radioativo | x: elemento estrutural | y: íon essencial | z: metal tóxico",
+        "d": "w: elemento estrutural | x: elemento radioativo | y: íon essencial | z: metal tóxico",
+        "e": "w: elemento radioativo | x: metal tóxico | y: elemento estrutural | z: íon essencial"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Tabela Periódica: organização, famílias, períodos e propriedades periódicas",
+            "Radioatividade: emissões nucleares, meia-vida, datação, fissão e fusão nuclear"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 62,
+      "tipo": "objetiva",
+      "enunciado": "Sobre tais transformações, pode-se afirmar, corretamente, que ocorre oxirredução apenas em",
+      "textos_de_apoio": [
+        "Na produção de combustível nuclear, o trióxido de urânio é transformado no hexafluoreto de urânio, como representado pelas equações químicas:\nI. UO₃(s) + H₂(g) → UO₂(s) + H₂O(g)\nII. UO₂(s) + 4HF(g) → UF₄(s) + 2 H₂O(g)\nIII. UF₄(s) + F₂(g) → UF₆(g)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "I.",
+        "b": "II.",
+        "c": "III.",
+        "d": "I e II.",
+        "e": "I e III."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Eletroquímica: reações de oxirredução, números de oxidação (NOX) e agentes oxidantes/redutores"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 63,
+      "tipo": "objetiva",
+      "enunciado": "Considerando essas representações, foram feitas as seguintes afirmações sobre os ácidos:\nI. HB é um ácido mais forte do que HA e HC.\nII. Uma solução aquosa de HA deve apresentar maior condutibilidade elétrica do que uma solução aquosa de mesma concentração de HC.\nIII. Uma solução aquosa de HC deve apresentar pH maior do que uma solução aquosa de mesma concentração de HB.\nEstá correto o que se afirma em",
+      "textos_de_apoio": [
+        "As figuras a seguir representam, de maneira simplificada, as soluções aquosas de três ácidos, HA, HB e HC, de mesmas concentrações. As moléculas de água não estão representadas."
+      ],
+      "midia": [
+        "Página 15: Figuras representativas das soluções aquosas dos ácidos HA, HB e HC com íons e moléculas dissociadas."
+      ],
+      "alternativas": {
+        "a": "I, apenas.",
+        "b": "I e II, apenas.",
+        "c": "II e III, apenas.",
+        "d": "I e III, apenas.",
+        "e": "I, II e III."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Funções inorgânicas: ácidos, bases, sais e óxidos",
+            "Água e soluções aquosas: solubilidade, tipos de concentração (g/L, mol/L, ppm) e diluição",
+            "Equilíbrio iônico da água, escala de pH, pOH e hidrólise de sais"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 64,
+      "tipo": "objetiva",
+      "enunciado": "A partir desses experimentos, conclui-se que são pouco solúveis em água somente os compostos",
+      "textos_de_apoio": [
+        "Uma estudante de química realizou quatro experimentos, que consistiram em misturar soluções aquosas de sais inorgânicos e observar os resultados. As observações foram anotadas em uma tabela:\nExperimento | Solutos contidos inicialmente nas soluções que foram misturadas | Observações\n1 | Ba(CO₃)₂ e Mg(IO₃)₂ | formação de precipitado branco\n2 | Mg(IO₃)₂ e Pb(CO₃)₂ | formação de precipitado branco\n3 | MgCrO₄ e Pb(CO₃)₂ | formação de precipitado amarelo\n4 | MgCrO₄ e Ca(CO₃)₂ | nenhuma transformação observada"
+      ],
+      "midia": [
+        "Página 15: Tabela com experimentos de mistura de soluções aquosas de sais inorgânicos."
+      ],
+      "alternativas": {
+        "a": "Ba(IO₃)₂ e Mg(CO₃)₂.",
+        "b": "PbCrO₄ e Mg(CO₃)₂.",
+        "c": "Pb(IO₃)₂ e CaCrO₄.",
+        "d": "Ba(IO₃)₂, Pb(IO₃)₂ e PbCrO₄.",
+        "e": "Pb(IO₃)₂, PbCrO₄ e CaCrO₄."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Água e soluções aquosas: solubilidade, tipos de concentração (g/L, mol/L, ppm) e diluição"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 65,
+      "tipo": "objetiva",
+      "enunciado": "Que modificação deveria ser feita no procedimento para obter resultados experimentais mais adequados ao objetivo proposto?",
+      "textos_de_apoio": [
+        "Um estudante desejava estudar, experimentalmente, o efeito da temperatura sobre a velocidade de uma transformação química. Essa transformação pode ser representada por:\nA + B (catalisador) → P\nApós uma série de quatro experimentos, o estudante representou os dados obtidos em uma tabela:\nNúmero do experimento: 1 | 2 | 3 | 4\ntemperatura (°C): 15 | 20 | 30 | 10\nmassa de catalisador (mg): 1 | 2 | 3 | 4\nconcentração inicial de A (mol/L): 0,1 | 0,1 | 0,1 | 0,1\nconcentração inicial de B (mol/L): 0,2 | 0,2 | 0,2 | 0,2\ntempo decorrido até que a transformação se completasse (em segundos): 47 | 15 | 4 | 18"
+      ],
+      "midia": [
+        "Página 16: Tabela com dados de quatro experimentos variando temperatura, massa de catalisador e tempo."
+      ],
+      "alternativas": {
+        "a": "Manter as amostras à mesma temperatura em todos os experimentos.",
+        "b": "Manter iguais os tempos necessários para completar as transformações.",
+        "c": "Usar a mesma massa de catalisador em todos os experimentos.",
+        "d": "Aumentar a concentração dos reagentes A e B.",
+        "e": "Diminuir a concentração do reagente B."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Cinética Química: rapidez de reação, teoria das colisões e energia de ativação",
+            "Fatores que alteram a velocidade da reação (concentração, temperatura, catalisador)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 66,
+      "tipo": "objetiva",
+      "enunciado": "Em um experimento, deseja-se que haja reação completa, isto é, que os dois reagentes sejam totalmente consumidos. Sabendo-se que a massa molar do selênio (Se) é 2/3 da massa molar do estanho (Sn), a razão entre a massa de selênio e a massa de estanho (m_Se : m_Sn), na reação, deve ser de",
+      "textos_de_apoio": [
+        "Sob condições adequadas, selênio (Se) e estanho (Sn) podem reagir, como representado pela equação:\n2 Se + Sn → SnSe₂"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "2 : 1",
+        "b": "3 : 2",
+        "c": "4 : 3",
+        "d": "2 : 3",
+        "e": "1 : 2"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Cálculos estequiométricos: relações de massa, volume, mols e pureza/rendimento"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 67,
+      "tipo": "objetiva",
+      "enunciado": "Analisando a fórmula estrutural dos ésteres apresentados, pode-se dizer que, dentre eles, os que têm cheiro de",
+      "textos_de_apoio": [
+        "Em um experimento, alunos associaram os odores de alguns ésteres a aromas característicos de alimentos, como, por exemplo:"
+      ],
+      "midia": [
+        "Página 16: Fórmulas estruturais de ésteres associados a aromas (banana, abacaxi, pera, maçã, pepino)."
+      ],
+      "alternativas": {
+        "a": "maçã e abacaxi são isômeros.",
+        "b": "banana e pepino são preparados com álcoois secundários.",
+        "c": "pepino e maçã são heptanoatos.",
+        "d": "pepino e pera são ésteres do mesmo ácido carboxílico.",
+        "e": "pera e banana possuem, cada qual, um carbono assimétrico."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Principais funções orgânicas: hidrocarbonetos, álcoois, fenóis, éteres, ésteres, aldeídos, cetonas, ácidos carboxílicos, aminas e amidas",
+            "Isomeria plana e espacial"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 68,
+      "tipo": "objetiva",
+      "enunciado": "A ordem dessas transformações, da pior para a melhor, de acordo com a “Química Verde”, é:",
+      "textos_de_apoio": [
+        "Do ponto de vista da “Química Verde”, as melhores transformações são aquelas em que não são gerados subprodutos. Mas, se forem gerados, os subprodutos não deverão ser agressivos ao ambiente.\nConsidere as seguintes transformações, representadas por equações químicas, em que, quando houver subprodutos, eles não estão indicados.\nI) ...\nII) ...\nIII) ..."
+      ],
+      "midia": [
+        "Página 16: Equações químicas de transformações I, II e III com fórmulas estruturais."
+      ],
+      "alternativas": {
+        "a": "I, II, III.",
+        "b": "I, III, II.",
+        "c": "II, I, III.",
+        "d": "II, III, I.",
+        "e": "III, I, II."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Reações orgânicas fundamentais: substituição, adição, eliminação, oxidação e esterificação/saponificação",
+            "Química Ambiental: parâmetros de qualidade ambiental, poluição de ar/água/solo e ciclos biogeoquímicos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 69,
+      "tipo": "objetiva",
+      "enunciado": "Assim sendo, o calor envolvido na reação que ocorre no organismo do besouro é",
+      "textos_de_apoio": [
+        "O “besouro bombardeiro” espanta seus predadores, expelindo uma solução quente. Quando ameaçado, em seu organismo ocorre a mistura de soluções aquosas de hidroquinona, peróxido de hidrogênio e enzimas, que promovem uma reação exotérmica, representada por:\nC₆H₄(OH)₂(aq) + H₂O₂(aq) ──enzimas──> C₆H₄O₂(aq) + 2 H₂O(l)\nhidroquinona\nO calor envolvido nessa transformação pode ser calculado, considerando-se os processos:\nC₆H₄(OH)₂(aq) → C₆H₄O₂(aq) + H₂(g)   ΔH = + 177 kJ·mol⁻¹\nH₂O(l) + 1/2 O₂(g) → H₂O₂(aq)   ΔH = + 95 kJ·mol⁻¹\nH₂O(l) → 1/2 O₂(g) + H₂(g)   ΔH = + 286 kJ·mol⁻¹"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "-558 kJ·mol⁻¹",
+        "b": "-204 kJ·mol⁻¹",
+        "c": "+177 kJ·mol⁻¹",
+        "d": "+558 kJ·mol⁻¹",
+        "e": "+585 kJ·mol⁻¹"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Termoquímica: reações exotérmicas e endotérmicas, entalpia e equações termoquímicas",
+            "Lei de Hess e entalpia de ligação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 70,
+      "tipo": "objetiva",
+      "enunciado": "Considerando essas observações, o botânico pôde concluir que",
+      "textos_de_apoio": [
+        "Um botânico observou que uma mesma espécie de planta podia gerar flores azuis ou rosadas. Decidiu então estudar se a natureza do solo poderia influenciar a cor das flores. Para isso, fez alguns experimentos e anotou as seguintes observações:\nI. Transplantada para um solo cujo pH era 5,6, uma planta com flores rosadas passou a gerar flores azuis.\nII. Ao adicionar um pouco de nitrato de sódio ao solo, em que estava a planta com flores azuis, a cor das flores permaneceu a mesma.\nIII. Ao adicionar calcário moído (CaCO₃) ao solo, em que estava a planta com flores azuis, ela passou a gerar flores rosadas."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "em um solo mais ácido do que aquele de pH 5,6, as flores da planta seriam azuis.",
+        "b": "a adição de solução diluída de NaCl ao solo, de pH 5,6, faria a planta gerar flores rosadas.",
+        "c": "a adição de solução diluída de NaHCO₃ ao solo, em que está a planta com flores rosadas, faria com que ela gerasse flores azuis.",
+        "d": "em um solo de pH 5,0, a planta com flores azuis geraria flores rosadas.",
+        "e": "a adição de solução diluída de Al(NO₃)₃ ao solo, em que está uma planta com flores azuis, faria com que ela gerasse flores rosadas."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Equilíbrio iônico da água, escala de pH, pOH e hidrólise de sais"
+          ]
+        },
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Anatomia e fisiologia vegetal: tecidos, condução de seivas, transpiração e fitormônios/tropismos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 71,
+      "tipo": "objetiva",
+      "enunciado": "Um automóvel, modelo flex, consome 34 litros de gasolina para percorrer 374 km. Quando se opta pelo uso do álcool, o automóvel consome 37 litros deste combustível para percorrer 259 km. Suponha que um litro de gasolina custe R$ 2,20. Qual deve ser o preço do litro do álcool para que o custo do quilômetro rodado por esse automóvel, usando somente gasolina ou somente álcool como combustível, seja o mesmo?",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "R$ 1,00",
+        "b": "R$ 1,10",
+        "c": "R$ 1,20",
+        "d": "R$ 1,30",
+        "e": "R$ 1,40"
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Regra de três simples e composta",
+            "Matemática Financeira: porcentagem, juros simples, juros compostos, taxas e índices"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 72,
+      "tipo": "objetiva",
+      "enunciado": "Na figura, o triângulo ABC é retângulo com catetos BC = 3 e AB = 4. Além disso, o ponto D pertence ao cateto AB, o ponto E pertence ao cateto BC e o ponto F pertence à hipotenusa AC, de tal forma que DECF seja um paralelogramo. Se DE = 3/2, então a área do paralelogramo DECF vale",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 17: Figura do triângulo retângulo ABC com o paralelogramo DECF inscrito."
+      ],
+      "alternativas": {
+        "a": "63/25",
+        "b": "12/5",
+        "c": "58/25",
+        "d": "56/25",
+        "e": "11/5"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Congruência de figuras planas e semelhança de triângulos",
+            "Cálculo de áreas (polígonos, círculos, coroas e setores circulares)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 73,
+      "tipo": "objetiva",
+      "enunciado": "Tendo em vista as aproximações log₁₀ 2 ≅ 0,30, log₁₀ 3 ≅ 0,48, então o maior número inteiro n, satisfazendo 10ⁿ ≤ 12⁴¹⁸, é igual a",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "424",
+        "b": "437",
+        "c": "443",
+        "d": "451",
+        "e": "460"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Teoria dos logaritmos, propriedades e função logarítmica",
+            "Equações e inequações lineares, quadráticas, exponenciais, logarítmicas e modulares"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 74,
+      "tipo": "objetiva",
+      "enunciado": "Os números a₁, a₂, a₃ formam uma progressão aritmética de razão r, de tal modo que a₁ + 3, a₂ - 3, a₃ + 9 estejam em progressão geométrica. Dado ainda que a₁ > 0 e a₂ = 2, conclui-se que r é igual a",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "(3 - √3)/2",
+        "b": "3 + (√3)/2",
+        "c": "3 + (3√3)/4",
+        "d": "3 - (3√3)/2",
+        "e": "3 - √3"
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Progressão Aritmética (PA) - termo geral e soma dos termos",
+            "Progressão Geométrica (PG) - termo geral e soma dos termos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 75,
+      "tipo": "objetiva",
+      "enunciado": "Na figura, os pontos A, B, C pertencem à circunferência de centro O e BC = a. A reta OC é perpendicular ao segmento AB e o ângulo AOB mede π/3 radianos. Então, a área do triângulo ABC vale",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 18: Circunferência de centro O com triângulo ABC inscrito."
+      ],
+      "alternativas": {
+        "a": "(a²√3)/8",
+        "b": "(a²√3)/4",
+        "c": "(a²√3)/2",
+        "d": "(3a²√3)/4",
+        "e": "a²"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Trigonometria no triângulo retângulo (seno, cosseno e tangente)",
+            "Cálculo de áreas (polígonos, círculos, coroas e setores circulares)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 76,
+      "tipo": "objetiva",
+      "enunciado": "A figura representa um quadrado ABCD de lado 1. O ponto F está em BC, BF mede √5/4, o ponto E está em CD e AF é bissetriz do ângulo BAE. Nessas condições, o segmento DE mede",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 18: Quadrado ABCD com pontos F e E e os segmentos de reta AF e AE."
+      ],
+      "alternativas": {
+        "a": "(3√5)/40",
+        "b": "(7√5)/40",
+        "c": "(9√5)/40",
+        "d": "(11√5)/40",
+        "e": "(13√5)/40"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Geometria Plana: ponto, reta, plano, segmentos e ângulos",
+            "Relações métricas no triângulo retângulo, polígonos regulares e círculos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 77,
+      "tipo": "objetiva",
+      "enunciado": "A função f : ℝ → ℝ tem como gráfico uma parábola e satisfaz f(x + 1) - f(x) = 6x - 2, para todo número real x. Então, o menor valor de f(x) ocorre quando x é igual a",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "11/6",
+        "b": "7/6",
+        "c": "5/6",
+        "d": "0",
+        "e": "-5/6"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Função quadrática: raízes, gráfico da parábola e pontos de máximo/mínimo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 78,
+      "tipo": "objetiva",
+      "enunciado": "No plano cartesiano Oxy, a reta de equação x + y = 2 é tangente à circunferência C no ponto (0,2). Além disso, o ponto (1,0) pertence a C. Então, o raio de C é igual a",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "(3√2)/2",
+        "b": "(5√2)/2",
+        "c": "(7√2)/2",
+        "d": "(9√2)/2",
+        "e": "(11√2)/2"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Geometria Analítica Básica: coordenadas, plano cartesiano, distância e ponto médio"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 79,
+      "tipo": "objetiva",
+      "enunciado": "Maria deve criar uma senha de 4 dígitos para sua conta bancária. Nessa senha, somente os algarismos 1, 2, 3, 4, 5 podem ser usados e um mesmo algarismo pode aparecer mais de uma vez. Contudo, supersticiosa, Maria não quer que sua senha contenha o número 13, isto é, o algarismo 1 seguido imediatamente pelo algarismo 3. De quantas maneiras distintas Maria pode escolher sua senha?",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "551",
+        "b": "552",
+        "c": "553",
+        "d": "554",
+        "e": "555"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Princípios multiplicativo e aditivo da contagem"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 80,
+      "tipo": "objetiva",
+      "enunciado": "Uma pirâmide tem como base um quadrado de lado 1, e cada uma de suas faces laterais é um triângulo equilátero. Então, a área do quadrado, que tem como vértices os baricentros de cada uma das faces laterais, é igual a",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "5/9",
+        "b": "4/9",
+        "c": "1/3",
+        "d": "2/9",
+        "e": "1/9"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Geometria Espacial: vistas ortogonais e planificação",
+            "Poliedros, corpos redondos, prismas, pirâmides e troncos (área e volume)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 81,
+      "tipo": "objetiva",
+      "enunciado": "Astrônomos observaram que a nossa galáxia, a Via Láctea, está a 2,5×10⁶ anos-luz de Andrômeda, a galáxia mais próxima da nossa. Com base nessa informação, estudantes em uma sala de aula afirmaram o seguinte:\nI. A distância entre a Via Láctea e Andrômeda é de 2,5 milhões de km.\nII. A distância entre a Via Láctea e Andrômeda é maior que 2×10¹⁹ km.\nIII. A luz proveniente de Andrômeda leva 2,5 milhões de anos para chegar à Via Láctea.\nEstá correto apenas o que se afirma em",
+      "textos_de_apoio": [
+        "OBSERVAÇÃO: Nas questões em que for necessário, adote para g, aceleração da gravidade na superfície da Terra, o valor de 10 m/s²; para c, velocidade da luz no vácuo, o valor de 3×10⁸ m/s.\n1 ano tem aproximadamente 3×10⁷ s"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "I.",
+        "b": "II.",
+        "c": "III.",
+        "d": "I e III.",
+        "e": "II e III."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Grandezas fundamentais e derivadas, Sistema Internacional de Unidades (SI) e análise dimensional"
+          ]
+        },
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Notação científica, algarismos significativos e noção de erro"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 82,
+      "tipo": "objetiva",
+      "enunciado": "Dentre os gráficos das figuras abaixo, os que melhor poderiam descrever a posição x e a velocidade v do carrinho em função do tempo t são, respectivamente,",
+      "textos_de_apoio": [
+        "Na Cidade Universitária (USP), um jovem, em um carrinho de rolimã, desce a rua do Matão, cujo perfil está representado na figura abaixo, em um sistema de coordenadas em que o eixo Ox tem a direção horizontal. No instante t = 0, o carrinho passa em movimento pela posição y = y₀ e x = 0."
+      ],
+      "midia": [
+        "Página 19: Perfil da rua do Matão e quatro conjuntos de gráficos de posição e velocidade em função do tempo."
+      ],
+      "alternativas": {
+        "a": "I e II.",
+        "b": "I e III.",
+        "c": "II e IV.",
+        "d": "III e II.",
+        "e": "IV e III."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Interpretação de gráficos físicos (área sob a curva e inclinação da reta)",
+            "Cinemática escalar: velocidade e aceleração escalar média e instantânea",
+            "Movimento Uniforme (MU) e Movimento Uniformemente Variado (MUV)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 83,
+      "tipo": "objetiva",
+      "enunciado": "Para que o dublê caia dentro da caçamba, v pode diferir da velocidade ideal, em módulo, no máximo:",
+      "textos_de_apoio": [
+        "Numa filmagem, no exato instante em que um caminhão passa por uma marca no chão, um dublê se larga de um viaduto para cair dentro de sua caçamba. A velocidade v do caminhão é constante e o dublê inicia sua queda a partir do repouso, de uma altura de 5 m da caçamba, que tem 6 m de comprimento. A velocidade ideal do caminhão é aquela em que o dublê cai bem no centro da caçamba, mas a velocidade real v do caminhão poderá ser diferente e ele cairá mais à frente ou mais atrás do centro da caçamba."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "1 m/s.",
+        "b": "3 m/s.",
+        "c": "5 m/s.",
+        "d": "7 m/s.",
+        "e": "9 m/s."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Queda livre e lançamento vertical",
+            "Vetores na cinemática e lançamentos bidimensionais (horizontal e oblíquo)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 84,
+      "tipo": "objetiva",
+      "enunciado": "Pode-se afirmar que, durante esse período, uma bola de futebol que se encontrava solta sobre uma poltrona desocupada",
+      "textos_de_apoio": [
+        "Um avião, com velocidade constante e horizontal, voando em meio a uma tempestade, repentinamente perde altitude, sendo tragado para baixo e permanecendo com aceleração constante vertical de módulo a > g, em relação ao solo, durante um intervalo de tempo Δt."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "permanecerá sobre a poltrona, sem alteração de sua posição inicial.",
+        "b": "flutuará no espaço interior do avião, sem aceleração em relação ao mesmo, durante o intervalo de tempo Δt.",
+        "c": "será acelerada para cima, em relação ao avião, sem poder se chocar com o teto, independentemente do intervalo de tempo Δt.",
+        "d": "será acelerada para cima, em relação ao avião, podendo se chocar com o teto, dependendo do intervalo de tempo Δt.",
+        "e": "será pressionada contra a poltrona durante o intervalo de tempo Δt."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "As 3 Leis de Newton e conceito de força resultante",
+            "Massa, peso e forças de atrito (estático e cinético)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 85,
+      "tipo": "objetiva",
+      "enunciado": "Das figuras abaixo, qual poderia representar as direções e sentidos das velocidades das partículas π⁺ e π⁻ no sistema de referência em que o K⁰ estava em repouso?",
+      "textos_de_apoio": [
+        "A partícula neutra conhecida como méson K⁰ é instável e decai, emitindo duas partículas, com massas iguais, uma positiva e outra negativa, chamadas, respectivamente, méson π⁺ e méson π⁻. Em um experimento, foi observado o decaimento de um K⁰, em repouso, com emissão do par π⁺ e π⁻."
+      ],
+      "midia": [
+        "Página 19: Cinco diagramas vetoriais (a, b, c, d, e) com direções e sentidos de velocidades."
+      ],
+      "alternativas": {
+        "a": "a",
+        "b": "b",
+        "c": "c",
+        "d": "d",
+        "e": "e"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Grandezas escalares e vetoriais (operações com vetores e decomposição)",
+            "Impulso, quantidade de movimento e conservação da quantidade de movimento (colisões)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 86,
+      "tipo": "objetiva",
+      "enunciado": "Para armazenar a mesma quantidade de energia que seria obtida com a queima de 1 L de gasolina, necessita-se de uma massa de NaNO₃ igual a",
+      "textos_de_apoio": [
+        "Energia térmica, obtida a partir da conversão de energia solar, pode ser armazenada em grandes recipientes isolados, contendo sais fundidos em altas temperaturas. Para isso, pode-se utilizar o sal nitrato de sódio (NaNO₃), aumentando sua temperatura de 300 ºC para 550 ºC, fazendo-se assim uma reserva para períodos sem insolação. Essa energia armazenada poderá ser recuperada, com a temperatura do sal retornando a 300 ºC.\nPoder calorífico da gasolina = 3,6×10⁷ J/L\nCalor específico do NaNO₃ = 1,2×10³ J/kg ºC"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "4,32 kg.",
+        "b": "120 kg.",
+        "c": "240 kg.",
+        "d": "3×10⁴ kg.",
+        "e": "3,6×10⁴ kg."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Calorimetria: calor sensível, capacidade térmica, calor latente e trocas de calor"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 87,
+      "tipo": "objetiva",
+      "enunciado": "Consultando a tabela acima, pode-se concluir que o som produzido pelo violino era o da nota",
+      "textos_de_apoio": [
+        "Um estudo de sons emitidos por instrumentos musicais foi realizado, usando um microfone ligado a um computador. O gráfico abaixo, reproduzido da tela do monitor, registra o movimento do ar captado pelo microfone, em função do tempo, medido em milissegundos, quando se toca uma nota musical em um violino.\nNota | dó | ré | mi | fá | sol | lá | si\nFrequência (Hz) | 262 | 294 | 330 | 349 | 388 | 440 | 494\n1 ms = 10⁻³ s"
+      ],
+      "midia": [
+        "Página 20: Gráfico de amplitude em função do tempo em milissegundos para uma nota musical tocada ao violino, acompanhado de tabela de frequências."
+      ],
+      "alternativas": {
+        "a": "dó.",
+        "b": "mi.",
+        "c": "sol.",
+        "d": "lá.",
+        "e": "si."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Ondulatória: características das ondas e Equação Fundamental da Ondulatória (v = λ * f)",
+            "Acústica: velocidade do som, qualidades fisiológicas (altura, timbre, intensidade), tubos sonoros e Efeito Doppler"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 88,
+      "tipo": "objetiva",
+      "enunciado": "O movimento do ímã, em direção ao anel,",
+      "textos_de_apoio": [
+        "Aproxima-se um ímã de um anel metálico fixo em um suporte isolante, como mostra a figura."
+      ],
+      "midia": [
+        "Página 20: Figura mostrando um ímã (com polos S e N) sendo aproximado de um anel metálico em suporte isolante."
+      ],
+      "alternativas": {
+        "a": "não causa efeitos no anel.",
+        "b": "produz corrente alternada no anel.",
+        "c": "faz com que o polo sul do ímã vire polo norte e vice-versa.",
+        "d": "produz corrente elétrica no anel, causando uma força de atração entre anel e ímã.",
+        "e": "produz corrente elétrica no anel, causando uma força de repulsão entre anel e ímã."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Indução eletromagnética: Lei de Lenz, Lei de Faraday-Neumann e transformadores"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 89,
+      "tipo": "objetiva",
+      "enunciado": "O esboço que melhor representa o anteparo iluminado pelas três lâmpadas acesas é",
+      "textos_de_apoio": [
+        "Uma determinada montagem óptica é composta por um anteparo, uma máscara com furo triangular e três lâmpadas, L1, L2 e L3, conforme a figura abaixo. L1 e L3 são pequenas lâmpadas de lanterna e L2, uma lâmpada com filamento extenso e linear, mas pequena nas outras dimensões. No esquema, apresenta-se a imagem projetada no anteparo com apenas L1 acesa."
+      ],
+      "midia": [
+        "Página 20: Esquema da montagem óptica com lâmpadas, máscara com furo triangular e anteparo, seguido por opções de esboços (a, b, c, d, e)."
+      ],
+      "alternativas": {
+        "a": "a",
+        "b": "b",
+        "c": "c",
+        "d": "d",
+        "e": "e"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Princípios da óptica geométrica e formação de sombras/penumbras"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 90,
+      "tipo": "objetiva",
+      "enunciado": "Que fração da carga elétrica total da Terra poderia ser compensada por um raio de 300.000 A e com duração de 0,5 s?",
+      "textos_de_apoio": [
+        "Medidas elétricas indicam que a superfície terrestre tem carga elétrica total negativa de, aproximadamente, 600.000 coulombs. Em tempestades, raios de cargas positivas, embora raros, podem atingir a superfície terrestre. A corrente elétrica desses raios pode atingir valores de até 300.000 A."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "1/2",
+        "b": "1/3",
+        "c": "1/4",
+        "d": "1/10",
+        "e": "1/20"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Eletrodinâmica: corrente elétrica, ddp, Leis de Ohm, resistividade e potência elétrica (kWh)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    }
+  ]
+}

@@ -1,0 +1,525 @@
+{
+  "exame": "fuvest_2025",
+  "figuras_coordenadas": {
+    "1": [
+      {
+        "pagina": 2,
+        "tipo": "imagem",
+        "elemento": "Obra Assojaba Tupinambá de Glicéria Tupinambá",
+        "bbox": [
+          540,
+          90,
+          950,
+          930
+        ]
+      }
+    ],
+    "2": [
+      {
+        "pagina": 3,
+        "tipo": "grafico",
+        "elemento": "Gráficos de barra da distribuição de garimpo em relação a corpos d'água em terras indígenas",
+        "bbox": [
+          210,
+          490,
+          380,
+          750
+        ]
+      }
+    ],
+    "3": [
+      {
+        "pagina": 3,
+        "tipo": "cartum",
+        "elemento": "Charge sobre descarte de mercúrio na água de Jean Galvão",
+        "bbox": [
+          90,
+          500,
+          240,
+          960
+        ]
+      }
+    ],
+    "5": [
+      {
+        "pagina": 4,
+        "tipo": "cartum",
+        "elemento": "Quadrinhos de Fábio Moon e Gabriel Bá adaptando Dois Irmãos",
+        "bbox": [
+          110,
+          120,
+          700,
+          490
+        ]
+      }
+    ],
+    "6": [
+      {
+        "pagina": 4,
+        "tipo": "cartum",
+        "elemento": "Charge de Bira Dantas",
+        "bbox": [
+          350,
+          670,
+          490,
+          970
+        ]
+      }
+    ],
+    "7": [
+      {
+        "pagina": 5,
+        "tipo": "cartum",
+        "elemento": "Tira de quadrinhos Peanuts",
+        "bbox": [
+          90,
+          90,
+          410,
+          470
+        ]
+      }
+    ],
+    "16": [
+      {
+        "pagina": 8,
+        "tipo": "figura",
+        "elemento": "Esquema geométrico da rampa de dois segmentos",
+        "bbox": [
+          370,
+          120,
+          570,
+          420
+        ]
+      }
+    ],
+    "17": [
+      {
+        "pagina": 8,
+        "tipo": "imagem",
+        "elemento": "Foto aérea do cruzamento na Rua da Consolação com os pontos O, B, C",
+        "bbox": [
+          180,
+          530,
+          330,
+          970
+        ]
+      }
+    ],
+    "18": [
+      {
+        "pagina": 9,
+        "tipo": "grafico",
+        "elemento": "Gráfico da velocidade do navio em função do tempo",
+        "bbox": [
+          210,
+          120,
+          420,
+          440
+        ]
+      }
+    ],
+    "19": [
+      {
+        "pagina": 9,
+        "tipo": "figura",
+        "elemento": "Diagrama esquemático do Efeito Compton",
+        "bbox": [
+          820,
+          60,
+          970,
+          490
+        ]
+      }
+    ],
+    "20": [
+      {
+        "pagina": 9,
+        "tipo": "figura",
+        "elemento": "Representação gráfica da evolução dos modelos atômicos",
+        "bbox": [
+          450,
+          500,
+          680,
+          750
+        ]
+      }
+    ],
+    "22": [
+      {
+        "pagina": 10,
+        "tipo": "figura",
+        "elemento": "Esquema da reflexão total e interface de tela sensível ao toque",
+        "bbox": [
+          90,
+          550,
+          330,
+          830
+        ]
+      }
+    ],
+    "24": [
+      {
+        "pagina": 11,
+        "tipo": "imagem",
+        "elemento": "Placas de rua Cloreto de Sódio e Relíquia do Oceano",
+        "bbox": [
+          90,
+          550,
+          330,
+          860
+        ]
+      }
+    ],
+    "26": [
+      {
+        "pagina": 12,
+        "tipo": "mapa",
+        "elemento": "Mapa das rotas do Ártico e canais mundiais",
+        "bbox": [
+          100,
+          150,
+          600,
+          830
+        ]
+      }
+    ],
+    "30": [
+      {
+        "pagina": 13,
+        "tipo": "figura",
+        "elemento": "Esquema de fragmentação de habitat de rinocerontes",
+        "bbox": [
+          570,
+          570,
+          760,
+          830
+        ]
+      }
+    ],
+    "32": [
+      {
+        "pagina": 14,
+        "tipo": "imagem",
+        "elemento": "Foto de asa de borboleta com iridescência",
+        "bbox": [
+          680,
+          240,
+          830,
+          750
+        ]
+      }
+    ],
+    "33": [
+      {
+        "pagina": 14,
+        "tipo": "grafico",
+        "elemento": "Gráficos do estudo sobre crânio de pica-pau",
+        "bbox": [
+          100,
+          550,
+          240,
+          970
+        ]
+      }
+    ],
+    "39": [
+      {
+        "pagina": 17,
+        "tipo": "imagem",
+        "elemento": "Páginas de cartilha de alfabetização do governo Perón",
+        "bbox": [
+          80,
+          80,
+          500,
+          490
+        ]
+      }
+    ],
+    "44": [
+      {
+        "pagina": 19,
+        "tipo": "cartum",
+        "elemento": "Tira de Calvin e Haroldo",
+        "bbox": [
+          90,
+          120,
+          330,
+          410
+        ]
+      }
+    ],
+    "45": [
+      {
+        "pagina": 19,
+        "tipo": "tabela",
+        "elemento": "Tabela de expectativas de vida para EVM19 e EVB20",
+        "bbox": [
+          90,
+          530,
+          180,
+          900
+        ]
+      }
+    ],
+    "47": [
+      {
+        "pagina": 19,
+        "tipo": "mapa",
+        "elemento": "Mapa mundial de ingestão de gordura saturada",
+        "bbox": [
+          620,
+          490,
+          830,
+          970
+        ]
+      }
+    ],
+    "48": [
+      {
+        "pagina": 20,
+        "tipo": "grafico",
+        "elemento": "Gráficos de abate de bovinos e participação de machos e fêmeas",
+        "bbox": [
+          180,
+          80,
+          500,
+          450
+        ]
+      }
+    ],
+    "49": [
+      {
+        "pagina": 20,
+        "tipo": "imagem",
+        "elemento": "Imagens de satélite do desmatamento de 2019 a 2022 no MATOPIBA",
+        "bbox": [
+          80,
+          530,
+          330,
+          930
+        ]
+      }
+    ],
+    "51": [
+      {
+        "pagina": 21,
+        "tipo": "grafico",
+        "elemento": "Gráfico de variação espacial da temperatura do ar por tipo de área urbana",
+        "bbox": [
+          110,
+          80,
+          280,
+          490
+        ]
+      }
+    ],
+    "53": [
+      {
+        "pagina": 21,
+        "tipo": "grafico",
+        "elemento": "Climograma de fevereiro de 2023 - Mirante de Santana",
+        "bbox": [
+          290,
+          550,
+          420,
+          970
+        ]
+      }
+    ],
+    "57": [
+      {
+        "pagina": 22,
+        "tipo": "figura",
+        "elemento": "Esquema do funcionamento do aquecedor de mãos",
+        "bbox": [
+          510,
+          500,
+          680,
+          960
+        ]
+      }
+    ],
+    "59": [
+      {
+        "pagina": 23,
+        "tipo": "grafico",
+        "elemento": "Gráfico de expansão linear de polietileno, cobre e alumínio",
+        "bbox": [
+          520,
+          100,
+          710,
+          490
+        ]
+      }
+    ],
+    "60": [
+      {
+        "pagina": 23,
+        "tipo": "tabela",
+        "elemento": "Tabela com gráficos de variação de massa de barras metálicas",
+        "bbox": [
+          760,
+          80,
+          970,
+          490
+        ]
+      }
+    ],
+    "62": [
+      {
+        "pagina": 24,
+        "tipo": "imagem",
+        "elemento": "Foto da montanha-russa Takabisha",
+        "bbox": [
+          570,
+          240,
+          750,
+          750
+        ]
+      }
+    ],
+    "63": [
+      {
+        "pagina": 24,
+        "tipo": "figura",
+        "elemento": "Esquema da captura de CO2 e fixação para CH4",
+        "bbox": [
+          180,
+          530,
+          380,
+          930
+        ]
+      }
+    ],
+    "67": [
+      {
+        "pagina": 25,
+        "tipo": "figura",
+        "elemento": "Esquema da diferenciação celular de células-tronco",
+        "bbox": [
+          620,
+          540,
+          860,
+          930
+        ]
+      }
+    ],
+    "68": [
+      {
+        "pagina": 26,
+        "tipo": "grafico",
+        "elemento": "Gráfico de publicações científicas por milhão de habitantes versus PIB per capita",
+        "bbox": [
+          180,
+          80,
+          440,
+          500
+        ]
+      }
+    ],
+    "69": [
+      {
+        "pagina": 26,
+        "tipo": "grafico",
+        "elemento": "Opções de gráficos cartesianos para a questão 69",
+        "bbox": [
+          110,
+          520,
+          960,
+          970
+        ]
+      }
+    ],
+    "71": [
+      {
+        "pagina": 27,
+        "tipo": "grafico",
+        "elemento": "Gráfico de crescimento de bactérias com diferentes antibióticos",
+        "bbox": [
+          780,
+          120,
+          960,
+          450
+        ]
+      }
+    ],
+    "72": [
+      {
+        "pagina": 27,
+        "tipo": "figura",
+        "elemento": "Equação de substituição da sulfanilamida com Br2",
+        "bbox": [
+          420,
+          530,
+          600,
+          930
+        ]
+      }
+    ],
+    "73": [
+      {
+        "pagina": 28,
+        "tipo": "figura",
+        "elemento": "Esquema da garrafa PET com manômetro",
+        "bbox": [
+          180,
+          100,
+          410,
+          330
+        ]
+      }
+    ],
+    "75": [
+      {
+        "pagina": 28,
+        "tipo": "figura",
+        "elemento": "Esquema geométrico do vaso para flores",
+        "bbox": [
+          280,
+          660,
+          470,
+          920
+        ]
+      }
+    ],
+    "78": [
+      {
+        "pagina": 29,
+        "tipo": "cartum",
+        "elemento": "Cartum de Andertoons sobre numeral romano X e álgebra",
+        "bbox": [
+          90,
+          80,
+          330,
+          450
+        ]
+      }
+    ],
+    "79": [
+      {
+        "pagina": 29,
+        "tipo": "mapa",
+        "elemento": "Mapa das migrações e invasões no Império Romano",
+        "bbox": [
+          90,
+          520,
+          310,
+          930
+        ]
+      }
+    ],
+    "86": [
+      {
+        "pagina": 32,
+        "tipo": "imagem",
+        "elemento": "Obra 'O mamoeiro' de Tarsila do Amaral",
+        "bbox": [
+          520,
+          530,
+          900,
+          930
+        ]
+      }
+    ]
+  }
+}

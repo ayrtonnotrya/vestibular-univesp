@@ -1,0 +1,1532 @@
+{
+  "exame": "univesp_2022_questoes",
+  "ano": 2022,
+  "semestre": 2,
+  "fonte_questoes": "data/univesp_2022_questoes.pdf",
+  "fonte_gabarito": "data/univesp_2022_gabarito.pdf",
+  "total_questoes": 57,
+  "questoes": [
+    {
+      "numero": 1,
+      "tipo": "objetiva",
+      "enunciado": "Uma papelaria comprou determinado número de calculadoras, dentre o qual 30% eram calculadoras científicas, 15% eram calculadoras financeiras e as 22 calculadoras restantes só efetuavam operações básicas. O número de calculadoras científicas compradas por essa papelaria foi",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "6.",
+        "b": "8.",
+        "c": "10.",
+        "d": "12.",
+        "e": "14."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Matemática Financeira: porcentagem, juros simples, juros compostos, taxas e índices",
+            "Operações fundamentais com números inteiros e decimais"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 2,
+      "tipo": "objetiva",
+      "enunciado": "Uma universidade oferece um total de 160 vagas para cursos de especialização nas áreas de negócios e de produção. Após o preenchimento de todas essas vagas, a razão do número de participantes do curso de produção para o número de participantes do curso de negócios, nessa ordem, era 3/5. O número de participantes do curso de negócios superou o número de participantes do curso de produção em",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "40 participantes.",
+        "b": "35 participantes.",
+        "c": "30 participantes.",
+        "d": "25 participantes.",
+        "e": "20 participantes."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Razões e proporções diretas e inversas",
+            "Sistemas lineares: métodos de resolução algébrica"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 3,
+      "tipo": "objetiva",
+      "enunciado": "Em uma palestra, no auditório de uma faculdade, estavam presentes 240 pessoas, dentre as quais 1/8 era professor da própria faculdade, 18 eram professores de outras faculdades e as demais presentes eram alunos. Sorteando-se aleatoriamente uma dessas pessoas presentes, a probabilidade de ela ser um aluno é de",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "90%.",
+        "b": "85%.",
+        "c": "80%.",
+        "d": "75%.",
+        "e": "70%."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Espaço amostral (discreto e contínuo) e conceito de probabilidade",
+            "Operações com frações e simplificação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 4,
+      "tipo": "objetiva",
+      "enunciado": "Considere as funções f(x) = x – k e g(x) = x² – 4x + k, em que k é um número real. Sabendo que f(−1) = 3 ⋅ g(1), o valor de g(k) é igual a",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "−3.",
+        "b": "−2.",
+        "c": "−1.",
+        "d": "1.",
+        "e": "2."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Conceito de função e relações entre grandezas",
+            "Função quadrática: raízes, gráfico da parábola e pontos de máximo/mínimo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 5,
+      "tipo": "objetiva",
+      "enunciado": "Uma pessoa fez uma compra no valor de R$ 1.200,00 sob as seguintes condições: o pagamento seria feito de uma só vez 2 meses após o ato da compra e ao seu valor inicial seria acrescida taxa de juros simples. Sabendo que o valor pago, após esses 2 meses, foi de R$ 1.236,00, a taxa mensal de juros simples cobrada foi igual a",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "3,5%.",
+        "b": "3,0%.",
+        "c": "2,5%.",
+        "d": "2,0%.",
+        "e": "1,5%."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Matemática Financeira: porcentagem, juros simples, juros compostos, taxas e índices"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 6,
+      "tipo": "objetiva",
+      "enunciado": "A soma dos 5 primeiros termos de uma progressão aritmética é 65. Sabendo que o 5º termo é 19, o valor do 1º termo dessa progressão é",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "6.",
+        "b": "7.",
+        "c": "8.",
+        "d": "9.",
+        "e": "10."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Progressão Aritmética (PA) - termo geral e soma dos termos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 7,
+      "tipo": "objetiva",
+      "enunciado": "Considere um quadrado de lado 6 cm, cujas diagonais se intersectam no ponto P. Considere também os retângulos PQRS e ABRC, ambos de lados paralelos aos lados do quadrado, conforme mostra a figura.\n\nA área do retângulo ABRC, destacado na figura, é igual a",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 4: Figura esquemática mostrando um quadrado principal de 6 cm de lado, dividido internamente, com diagonais se cruzando em P, e os retângulos PQRS e ABRC destacados, indicando dimensões parciais como 8 cm e 10 cm."
+      ],
+      "alternativas": {
+        "a": "50 cm².",
+        "b": "45 cm².",
+        "c": "40 cm².",
+        "d": "35 cm².",
+        "e": "30 cm²."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Cálculo de áreas (polígonos, círculos, coroas e setores circulares)",
+            "Geometria Plana: ponto, reta, plano, segmentos e ângulos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 8,
+      "tipo": "objetiva",
+      "enunciado": "Um estudante comprou três livros, um de álgebra, um de cálculo e um de geometria, pagando o total de R$ 240,00. Sabendo que o livro de cálculo custou R$ 40,00 a menos do que a soma dos valores dos outros dois livros, então, o valor do livro de cálculo foi",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "R$ 100,00.",
+        "b": "R$ 120,00.",
+        "c": "R$ 140,00.",
+        "d": "R$ 160,00.",
+        "e": "R$ 180,00."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Sistemas lineares: métodos de resolução algébrica"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 9,
+      "tipo": "objetiva",
+      "enunciado": "Determinado tipo de alimento é vendido em caixas, que possuem a forma de um prisma reto de base retangular e cujas medidas internas estão indicadas na figura.\n\nSabe-se que o alimento ocupa 80% da capacidade total da caixa e que uma pessoa utiliza 70 cm³ dele no preparo de uma torta. Dessa forma, o número máximo de tortas que poderão ser feitas com o conteúdo de uma caixa desse produto é",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 4: Desenho em perspectiva de um prisma reto de base retangular com dimensões internas de 30 cm de altura, 20 cm de comprimento e 5 cm de largura."
+      ],
+      "alternativas": {
+        "a": "42.",
+        "b": "40.",
+        "c": "38.",
+        "d": "36.",
+        "e": "34."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Poliedros, corpos redondos, prismas, pirâmides e troncos (área e volume)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 10,
+      "tipo": "objetiva",
+      "enunciado": "Uma loja de produtos para cães e gatos vendeu, em média, 32 sacos de ração nos últimos 5 dias. Considerando-se somente os três dias com maior número de sacos de ração vendidos, a média diária foi de 36 sacos. A média diária de sacos de ração vendidos nos outros dois dias foi",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "34.",
+        "b": "30.",
+        "c": "26.",
+        "d": "22.",
+        "e": "18."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Estatística: medidas de tendência central (média, moda e mediana)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 11,
+      "tipo": "objetiva",
+      "enunciado": "Considere a tirinha de Quino.\n\nNo terceiro quadrinho, para responder ao questionamento do amigo, a personagem",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 5: Tirinha em três quadrinhos. No primeiro, uma personagem pergunta a outra sobre os Beatles ('I'm looking through you...'). No segundo, questiona como se pode gostar deles sem entender a letra. No terceiro, a personagem responde citando que meio mundo gosta de cachorro sem saber o que quer dizer 'au au'."
+      ],
+      "alternativas": {
+        "a": "usa um argumento de autoridade.",
+        "b": "prova que entende a letra da música.",
+        "c": "reprova o gosto musical do amigo.",
+        "d": "recorre a uma comparação.",
+        "e": "sugere que mudem de assunto."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Intertextualidade, interdiscursividade e análise de textos verbais e não verbais (charges, cartuns)",
+            "Figuras de linguagem (metáfora, metonímia, antítese, paradoxo, hipérbole, ironia)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 12,
+      "tipo": "objetiva",
+      "enunciado": "O emprego da “hipérbole”, ou seja, o exagero intencional na expressão de uma ideia, pode produzir um efeito cômico, como ocorre no trecho:",
+      "textos_de_apoio": [
+        "Uma mesma canção do Caetano Veloso poderá ninar seus filhos, orientar seu Carnaval e assombrar você pelo resto da sua existência. Não consigo ouvir a palavra “impávido” sem emendar em Mohammed Ali.\nO poeta Manuel Bandeira disse que elegeria “tu pisavas nos astros, distraída” o verso mais bonito da língua portuguesa. Caetano transformou-o no segundo verso mais bonito, ao escrever: “tropeçavas nos astros, desastrada”, forçando toda uma geração de poetas à aposentadoria.\nCom Caetano descobri que o antropólogo Claude Lévi-Strauss detestou a baía de Guanabara, e que Hollywood quer dizer Azevedo, que a coisa mais certa de todas as coisas não vale um caminho sob o sol, que os átomos todos dançam e coragem grande é poder dizer sim, que cantar é mais do que lembrar.\nUma coisa bela é uma alegria pra sempre, dizia o poeta inglês John Keats, que também disse, sobre um vaso grego, em tradução de Augusto de Campos: “quando a idade apagar toda a atual grandeza / Tu ficarás, em meio às dores dos demais”. Keats, coitado, nasceu 2.000 anos depois do vaso. Não viu sua musa ser pintada. Estar vivo ao mesmo tempo que Caetano nos dá essa sorte: a de presenciar o espetáculo do nascimento das coisas eternas."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "“cantar é mais do que lembrar” (3º parágrafo)",
+        "b": "“forçando toda uma geração de poetas à aposentadoria” (2º parágrafo)",
+        "c": "“o antropólogo Claude Lévi-Strauss detestou a baía de Guanabara” (3º parágrafo)",
+        "d": "“Não viu sua musa ser pintada” (4º parágrafo)",
+        "e": "“Estar vivo ao mesmo tempo que Caetano nos dá essa sorte” (4º parágrafo)"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Figuras de linguagem (metáfora, metonímia, antítese, paradoxo, hipérbole, ironia)",
+            "Significação explícita e implícita, denotação e conotação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 13,
+      "tipo": "objetiva",
+      "enunciado": "“Uma mesma canção do Caetano Veloso poderá ninar seus filhos, orientar seu Carnaval e assombrar você pelo resto da sua existência”. (1º parágrafo)\n\nMantendo a coerência e a coesão, sem prejuízo para o sentido do texto, o trecho sublinhado pode ser substituído por:",
+      "textos_de_apoio": [
+        "Uma mesma canção do Caetano Veloso poderá ninar seus filhos, orientar seu Carnaval e assombrar você pelo resto da sua existência. Não consigo ouvir a palavra “impávido” sem emendar em Mohammed Ali."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "assombrar-se.",
+        "b": "assombrar-nos.",
+        "c": "assombrá-lo.",
+        "d": "assombrar-me.",
+        "e": "assombrá-las."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Mecanismos de coesão textual (lexical, referencial, anafórica) e coerência",
+            "Regência verbal e nominal (emprego do sinal indicativo de crase)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 14,
+      "tipo": "objetiva",
+      "enunciado": "Depreende-se do segundo parágrafo que o verso “tropeçavas nos astros, desastrada”, de Caetano Veloso, retoma o da canção “chão de estrelas”, de Orestes Barbosa, “tu pisavas nos astros, distraída”. Esse recurso é um exemplo de",
+      "textos_de_apoio": [
+        "O poeta Manuel Bandeira disse que elegeria “tu pisavas nos astros, distraída” o verso mais bonito da língua portuguesa. Caetano transformou-o no segundo verso mais bonito, ao escrever: “tropeçavas nos astros, desastrada”, forçando toda uma geração de poetas à aposentadoria."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "sinonímia: relação que se estabelece entre duas palavras com significados iguais ou semelhantes.",
+        "b": "intertextualidade: influência direta ou indireta de um ou mais textos preexistentes na elaboração de um novo texto.",
+        "c": "plágio: apresentação de imitação ou cópia de obra intelectual ou artística alheia como sendo de própria autoria.",
+        "d": "citação: reprodução da obra escrita de alguém (geralmente com indicação do autor original), como reforço ou abonação daquilo que se quer dizer.",
+        "e": "polissemia: multiplicidade de significados de uma palavra em determinado contexto."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Intertextualidade, interdiscursividade e análise de textos verbais e não verbais (charges, cartuns)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 15,
+      "tipo": "objetiva",
+      "enunciado": "No quarto parágrafo, Gregório Duvivier faz uma reflexão sobre obras de arte. Para ele, uma característica de tais obras seria sua",
+      "textos_de_apoio": [
+        "Uma coisa bela é uma alegria pra sempre, dizia o poeta inglês John Keats, que também disse, sobre um vaso grego, em tradução de Augusto de Campos: “quando a idade apagar toda a atual grandeza / Tu ficarás, em meio às dores dos demais”. Keats, coitado, nasceu 2.000 anos depois do vaso. Não viu sua musa ser pintada. Estar vivo ao mesmo tempo que Caetano nos dá essa sorte: a de presenciar o espetáculo do nascimento das coisas eternas."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "subjetividade.",
+        "b": "concretude.",
+        "c": "perenidade.",
+        "d": "simplicidade.",
+        "e": "fragilidade."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 16,
+      "tipo": "objetiva",
+      "enunciado": "Nesse trecho do poema, o eu lírico",
+      "textos_de_apoio": [
+        "Não rimarei a palavra sono\ncom a incorrespondente palavra outono.\nRimarei com a palavra carne\nou qualquer outra, que todas me convêm.\nAs palavras não nascem amarradas,\nelas saltam, se beijam, se dissolvem\nno céu livre por vezes um desenho,\nsão puras, largas, autênticas, indevassáveis.\n(A rosa do povo.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "emprega a primeira pessoa como modo de expressar de maneira clara suas ideias e sentimentos mais íntimos.",
+        "b": "tenta convencer o leitor de que a linguagem poética requer rimas ricas, ou seja, que ocorrem entre palavras de classes gramaticais diferentes.",
+        "c": "afirma que a escolha da palavra exata é fundamental para a construção de um bom poema.",
+        "d": "defende que o som das palavras é um elemento pouco importante, que pode ser desconsiderado na elaboração de um poema.",
+        "e": "refere-se à estratégia de construção do próprio poema, afirmando a liberdade de criação artística."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Modernismo Brasileiro: 1ª Fase (1922), 2ª Fase (Geração de 30 - romance regionalista e poesia de 30) e 3ª Fase (Geração de 45/Pós-Modernismo)",
+            "Significação explícita e implícita, denotação e conotação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 17,
+      "tipo": "objetiva",
+      "enunciado": "A palavra “incorrespondente” (2º verso) é formada com o uso do prefixo “in”, que tem sentido de negação, como ocorre na palavra",
+      "textos_de_apoio": [
+        "Não rimarei a palavra sono\ncom a incorrespondente palavra outono."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "íntimo.",
+        "b": "intermunicipal.",
+        "c": "intrauterino.",
+        "d": "insatisfatório.",
+        "e": "injetável."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Estrutura e processos de formação de palavras (derivação e composição)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 18,
+      "tipo": "objetiva",
+      "enunciado": "Nos versos “Rimarei com a palavra carne” (3º verso) \"ou qualquer outra, que todas me convêm\" (4º verso) a palavra sublinhada pode ser substituída, sem prejuízo para o sentido, por:",
+      "textos_de_apoio": [
+        "Rimarei com a palavra carne\nou qualquer outra, que todas me convêm."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "pois.",
+        "b": "portanto.",
+        "c": "assim.",
+        "d": "contudo.",
+        "e": "como."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Mecanismos de coesão textual (lexical, referencial, anafórica) e coerência",
+            "Classes gramaticais: substantivo, adjetivo, artigo, numeral, pronome, verbo, advérbio, preposição, conjunção e interjeição"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 19,
+      "tipo": "objetiva",
+      "enunciado": "O texto refere-se ao movimento literário conhecido como",
+      "textos_de_apoio": [
+        "Constitui um movimento em que se tornou moda a supervalorização dos escritores da Antiguidade greco-latina. Integrado no Humanismo e na Renascença, o movimento se espraiou pela Europa, ao longo dos séculos XV e XVII.\nImpulsionados pelas teorias estéticas defendidas pelos Antigos (Poética, de Aristóteles, Arte Poética, de Horácio, entre outras) os partidários desse movimento entendiam que a obra literária deveria obedecer aos cânones implícitos ou explícitos nos textos greco-latinos. A imitação dos Antigos constituía, pois, o princípio básico dos adeptos do movimento. Todavia, consideravam que a imitação não significava servilismo, cópia elementar; antes, pressupunha o talento individual, a inspiração e a imaginação.\n(Massaud Moisés. Dicionário de termos literários, 1988. Adaptado.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "Parnasianismo.",
+        "b": "Classicismo.",
+        "c": "Romantismo.",
+        "d": "Simbolismo.",
+        "e": "Surrealismo."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Literatura Portuguesa: Trovadorismo, Humanismo, Classicismo (Camões), Realismo (Eça de Queirós) e Modernismo (Fernando Pessoa)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 20,
+      "tipo": "objetiva",
+      "enunciado": "“Todavia, consideravam que a imitação não significava servilismo, cópia elementar” (2º parágrafo)\n\nNo contexto em que se encontra, o termo sublinhado introduz uma oração que expressa",
+      "textos_de_apoio": [
+        "A imitação dos Antigos constituía, pois, o princípio básico dos adeptos do movimento. Todavia, consideravam que a imitação não significava servilismo, cópia elementar; antes, pressupunha o talento individual, a inspiração e a imaginação."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "oposição.",
+        "b": "comparação.",
+        "c": "tempo.",
+        "d": "condição.",
+        "e": "conclusão."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Sintaxe do período composto (coordenação e subordinação)",
+            "Mecanismos de coesão textual (lexical, referencial, anafórica) e coerência"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 21,
+      "tipo": "objetiva",
+      "enunciado": "De acordo com o texto, a Nova Zelândia",
+      "textos_de_apoio": [
+        "New Zealand will ban the sale of tobacco to its next generation, in a bid to eventually phase out smoking. Anyone born after 2008 will not be able to buy cigarettes or tobacco products in their lifetime, under a law expected to be enacted in 2022. “We want to make sure young people never start smoking,” Health Minister Dr Ayesha Verall said. The move is part of a sweeping crackdown on smoking announced by New Zealand’s Health Ministry."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "planeja fazer um apelo a outros países para que ajudem a controlar a entrada de cigarro por suas fronteiras.",
+        "b": "planeja impor medidas restritivas à venda do cigarro para garantir que os jovens das próximas gerações não comecem a fumar.",
+        "c": "pretende se tornar o primeiro país do mundo a banir completamente a venda de tabaco em seu território.",
+        "d": "planeja imprimir os dizeres “fumar mata” em todos os maços de cigarro fabricados no país.",
+        "e": "pretende lançar uma campanha de alcance nacional para conscientizar a população sobre os malefícios do cigarro."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 22,
+      "tipo": "objetiva",
+      "enunciado": "No trecho do segundo parágrafo “which will reduce access to tobacco and restrict nicotine levels in cigarettes”, o termo sublinhado refere-se a",
+      "textos_de_apoio": [
+        "Doctors and other health experts in the country have welcomed the “world-leading” reforms, which will reduce access to tobacco and restrict nicotine levels in cigarettes."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "“cigarettes”.",
+        "b": "“health experts”.",
+        "c": "“world-leading reforms”.",
+        "d": "“nicotine levels”.",
+        "e": "“less harmful products”."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Coesão textual em inglês: referência pronominal e elipses"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 23,
+      "tipo": "objetiva",
+      "enunciado": "No trecho do quarto parágrafo “However, others have warned that the move may create a black market for tobacco”, o termo sublinhado expressa uma",
+      "textos_de_apoio": [
+        "However, others have warned that the move may create a black market for tobacco — something the Health Ministry’s official impact statement does acknowledge..."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "possibilidade.",
+        "b": "obrigação.",
+        "c": "necessidade.",
+        "d": "habilidade.",
+        "e": "suposição."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Verbos modais e seus valores semânticos (can, could, should, must, may, might)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 24,
+      "tipo": "objetiva",
+      "enunciado": "O trecho do texto em que se exprime uma opinião é:",
+      "textos_de_apoio": [
+        "New Zealand will ban the sale of tobacco to its next generation, in a bid to eventually phase out smoking. Anyone born after 2008 will not be able to buy cigarettes or tobacco products in their lifetime, under a law expected to be enacted in 2022. “We want to make sure young people never start smoking,” Health Minister Dr Ayesha Verall said. The move is part of a sweeping crackdown on smoking announced by New Zealand’s Health Ministry.\nDoctors and other health experts in the country have welcomed the “world-leading” reforms, which will reduce access to tobacco and restrict nicotine levels in cigarettes. “It will help people quit smoking or switch to less harmful products, and make it much less likely that young people get addicted to nicotine,” said Prof Janet Hook from the University of Otago.\nThe crackdown has been met with mixed reactions. “I reckon it’s a good move, really,” one man told Reuters news agency."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "“New Zealand will ban the sale of tobacco to its next generation” (1º parágrafo)",
+        "b": "“‘It will help people quit smoking or switch to less harmful products’” (2º parágrafo)",
+        "c": "“The crackdown has been met with mixed reactions” (3º parágrafo)",
+        "d": "“Anyone born after 2008 will not be able to buy cigarettes” (1º parágrafo)",
+        "e": "“‘Public are asking how they’re getting these smokes’” (3º parágrafo)"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 25,
+      "tipo": "objetiva",
+      "enunciado": "No segundo quadrinho, o homem aconselha o menino a ser sempre",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 8: Tirinha em quatro quadrinhos. No primeiro, homem fala ao menino que ele encontrará pessoas difíceis de gostar. No segundo, diz que todos travam batalhas secretas. No terceiro, cita seu próprio exemplo da etiqueta da camisa. No quarto, conclui que deve-se ser sempre gentil."
+      ],
+      "alternativas": {
+        "a": "cauteloso.",
+        "b": "humilde.",
+        "c": "sincero.",
+        "d": "gentil.",
+        "e": "corajoso."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 26,
+      "tipo": "objetiva",
+      "enunciado": "A expressão “for instance”, no último quadrinho, foi empregada para introduzir",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 8: Tirinha detalhando a fala 'FOR INSTANCE, I HAVE A SCRATCHY TAG ON THE INSIDE COLLAR OF THIS SHIRT THAT IS DRIVING ME CRAZY'."
+      ],
+      "alternativas": {
+        "a": "uma condição.",
+        "b": "um motivo.",
+        "c": "um exemplo.",
+        "d": "uma consequência.",
+        "e": "uma concessão."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Marcadores discursivos e conectivos (conjunções de adição, contraste, causa, consequência e condição)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 27,
+      "tipo": "objetiva",
+      "enunciado": "Examine a estátua de São Jorge, esculpida pelo artista Donatello em 1416.\n\nTípica do período chamado de Renascimento, essa obra",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 9: Imagem fotográfica da estátua de São Jorge de Donatello, escultura em marmore/bronze exibindo traços de realismo e proporções humanas."
+      ],
+      "alternativas": {
+        "a": "reproduz a rigidez das esculturas egípcias.",
+        "b": "despreza as características humanas da figura.",
+        "c": "consolida o teocentrismo da cultura medieval.",
+        "d": "expressa uma visão politeísta de mundo.",
+        "e": "retoma valores estéticos da arte greco-romana."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Renascimento Cultural, Reformas Religiosas e formação dos Estados Nacionais"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 28,
+      "tipo": "objetiva",
+      "enunciado": "Os reveses para a montagem dos impérios português e espanhol foram inúmeros. A solução encontrada foi transformar o Estado no grande administrador do comércio colonial.\nTanto no caso de Portugal como no da Espanha, o Estado assumia a tarefa de organizar não apenas o comércio como também a extração e produção das matérias-primas.\n(Janice Theodoro da Silva. Descobrimentos e colonização, 1989. Adaptado.)\n\nA colonização ibérica na América baseou-se",
+      "textos_de_apoio": [
+        "Os reveses para a montagem dos impérios português e espanhol foram inúmeros. A solução encontrada foi transformar o Estado no grande administrador do comércio colonial.\nTanto no caso de Portugal como no da Espanha, o Estado assumia a tarefa de organizar não apenas o comércio como também a extração e produção das matérias-primas."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "no monopólio e na exploração do trabalho de indígenas e escravizados africanos.",
+        "b": "na criação de empresas vinculadas à Igreja e na diversificação das exportações.",
+        "c": "no liberalismo alfandegário e na organização de minifúndios com monocultura.",
+        "d": "na ação de companhias privadas mercantis e no estabelecimento da escravidão.",
+        "e": "no livre comércio e na produção de manufaturados para os países europeus."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Grandes Navegações, espaço atlântico, reinos africanos e tráfico de escravizados",
+            "Brasil Colônia: primeiros habitantes indígenas, ocupação territorial, ciclos econômicos (açúcar e ouro) e escravidão"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 29,
+      "tipo": "objetiva",
+      "enunciado": "No excerto, o escritor Charles Dickens refere-se",
+      "textos_de_apoio": [
+        "Estêvão inclinou-se sobre o tear, calmo, atento e laborioso. Como todos os homens na floresta de teares, onde trabalhava, Estêvão formava contraste estranho com o rumor, o barulho e a agitação das peças do mecanismo a que fora destinado. Havia centenas de operários na fábrica e a força de centenas de cavalos-vapor. Fez-se dia rapidamente, mostrando-se no exterior, apesar das luzes prepotentes do interior. Apagaram-se as luzes e o trabalho continuou. No vasto pátio externo, o vapor do tubo de descarga, o montão de tonéis e ferros velhos, o depósito luzidio de carvão, as cinzas espalhadas por todo lado, estavam envolvidos em véu de névoa e chuva.\nO trabalho prosseguiu ao som das sinetas do meio-dia. Novo tropel pelo calçamento. Os teares, as rodas, os operários saíram todos da engrenagem por uma hora.\n(Apud Edgar de Decca e Cristina Meneguelo. Fábricas e homens, 1999. Adaptado.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "à atmosfera saudável aos operários predominante nas fábricas.",
+        "b": "à independência dos operários frente aos instrumentos de produção.",
+        "c": "à progressiva autonomia dos operários a partir da industrialização.",
+        "d": "à rígida rotina dos operários em ambiente dominado pela máquina.",
+        "e": "à regulação do cotidiano dos operários conforme o ritmo da natureza."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Iluminismo, Liberalismo e a 1ª Revolução Industrial"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 30,
+      "tipo": "objetiva",
+      "enunciado": "A adesão dos fazendeiros paulistas ao movimento republicano está associada, entre outros fatores,",
+      "textos_de_apoio": [
+        "Formado inicialmente por profissionais liberais ligados a setores urbanos, o Partido Republicano foi reforçado em 1873 por novos adeptos: fazendeiros paulistas que, descontentes com o que consideravam ser uma política intervencionista do Estado, passaram a engrossar as fileiras de oposição à monarquia.\nAlém do mais, com o predomínio do café na região, São Paulo ia se tornando a província mais rica da União, sem a correspondente representação no Parlamento.\n(Lilia M. Schwarcz e Heloisa M. Starling. Brasil: uma biografia, 2015. Adaptado.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "à demora do imperador em aprovar a abolição da escravidão.",
+        "b": "ao déficit público provocado pelas medidas positivistas de governo.",
+        "c": "à crítica sobre a reduzida autonomia provincial vigente no Império.",
+        "d": "à hegemonia da burguesia industrial na estrutura de poder.",
+        "e": "ao avanço das medidas governamentais para a reforma agrária."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Brasil Imperial: Independência, Primeiro Reinado, Período Regencial e Segundo Reinado",
+            "Economia cafeeira, Guerra do Paraguai, imigração e abolição da escravidão no Brasil"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 31,
+      "tipo": "objetiva",
+      "enunciado": "O contexto que originou os movimentos fascistas no início do século XX foi marcado",
+      "textos_de_apoio": [
+        "A ideologia fascista surgiu no contexto da crise vivida pelo capitalismo e pela sociedade ocidental após a Primeira Guerra Mundial. Nesse período, tanto a esquerda quanto a direita empreenderam esforços para encontrar soluções para os inconvenientes mais ostensivos da vida política e social do momento.\nUma das alternativas encontradas pela direita para resolver tais dilemas foi o fascismo.\n(João Fábio Bertonha. Fascismo, nazismo, integralismo, 2000. Adaptado.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "pelo fortalecimento dos ideais democráticos.",
+        "b": "pelos efeitos da depressão econômica.",
+        "c": "pelo apogeu dos conflitos da Guerra Fria.",
+        "d": "pelos movimentos de independência colonial.",
+        "e": "pela expansão do comunismo soviético."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Revolução Russa, Crise de 1929 e ascensão do Nazifascismo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 32,
+      "tipo": "objetiva",
+      "enunciado": "Um dos fatores que propiciou esse “milagre” no Brasil foi",
+      "textos_de_apoio": [
+        "O período do chamado “milagre” estendeu-se de 1969 a 1973, combinando o extraordinário crescimento econômico com taxas relativamente baixas de inflação. O PIB cresceu na média anual 11,2%, tendo seu pico em 1973, com uma variação de 13%.\n(Boris Fausto. História do Brasil, 1994.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "a redução dos gastos públicos com a ampliação do programa de privatizações.",
+        "b": "a política governamental de aumentos salariais acima da inflação.",
+        "c": "a crise internacional do petróleo responsável pelo encarecimento dos insumos.",
+        "d": "a proibição de importação de tecnologia e de bens de produção.",
+        "e": "a disponibilidade de capital estrangeiro para empréstimos e investimentos."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Brasil República: República Velha (oligarquias), Era Vargas (1930-1945), Período Democrático (1945-1964) e Ditadura Civil-Militar (1964-1985)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 33,
+      "tipo": "objetiva",
+      "enunciado": "Analise o gráfico.\n\nOs dados expressos no gráfico estão relacionados com",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 10: Gráfico de linhas intitulado 'Insegurança alimentar no Brasil (% da população)' com as curvas 'Leve', 'Moderada' e 'Grave' cobrindo o período de 2004 a 2020."
+      ],
+      "alternativas": {
+        "a": "o aumento da produção e do consumo de alimentos orgânicos.",
+        "b": "a diminuição da demanda internacional por produtos agropecuários.",
+        "c": "o crescimento do Índice de Desenvolvimento Humano da população urbana.",
+        "d": "a ampliação da renda per capita no contexto de pandemia da Covid-19.",
+        "e": "a redução do poder aquisitivo da população brasileira."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Interpretação de gráficos (barras, setores, histogramas, box-plot, ramos e folhas)",
+            "Demografia: conceitos populacionais, transição demográfica, pirâmides etárias e fluxos migratórios"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 34,
+      "tipo": "objetiva",
+      "enunciado": "O grande fluxo de migrantes nordestinos para a região amazônica, entre o final do século XIX e o início do XX, esteve atrelado à",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "expansão da produção de soja.",
+        "b": "mineração de bauxita.",
+        "c": "criação da Zona Franca de Manaus.",
+        "d": "economia extrativista da borracha.",
+        "e": "exportação de café."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Demografia: conceitos populacionais, transição demográfica, pirâmides etárias e fluxos migratórios"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 35,
+      "tipo": "objetiva",
+      "enunciado": "Analise a ilustração do desenhista Percy Lau.\n\nConsiderando o conceito de regiões homogêneas com a combinação de aspectos naturais, sociais e econômicos que permitem a diferenciação dos lugares, a ilustração pretende",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 11: Ilustração de Percy Lau mostrando paisagem geográfica e humana típica de região brasileira."
+      ],
+      "alternativas": {
+        "a": "indicar a desconcentração da população.",
+        "b": "criar faixas de transições ecológicas.",
+        "c": "apresentar uma regionalização do espaço brasileiro.",
+        "d": "expor os fluxos de migração interna.",
+        "e": "indicar os impactos da revolução verde."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Divisão regional do Brasil (IBGE e complexos geoeconômicos)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 36,
+      "tipo": "objetiva",
+      "enunciado": "Analise os mapas.\n\nOs mapas demonstram que",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 11: Dois mapas mundiais indicando o potencial de deslizamento nos meses de Junho e Dezembro, com legenda de porcentagem de baixo a alto."
+      ],
+      "alternativas": {
+        "a": "no hemisfério sul, os maiores potenciais de deslizamento ocorrem no inverno.",
+        "b": "no hemisfério norte, os maiores potenciais de deslizamento ocorrem em áreas de baixa altitude.",
+        "c": "no hemisfério sul, os maiores potenciais de deslizamento ocorrem no mês de elevado índice pluviométrico.",
+        "d": "no hemisfério norte, existe pouca influência do relevo e do clima no potencial de deslizamento.",
+        "e": "no hemisfério sul, os menores potenciais de deslizamento ocorrem em áreas montanhosas."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Climatologia: fatores/elementos do clima, dinâmica das massas de ar e climas do Brasil e do mundo",
+            "Classificação das rochas, formação de solos e relevo (agentes internos e externos/intemperismo)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 37,
+      "tipo": "objetiva",
+      "enunciado": "O excerto faz referência ao fenômeno denominado",
+      "textos_de_apoio": [
+        "Este fenômeno é causado pela presença de poluentes na atmosfera, os quais ocorrem devido à queima dos combustíveis fósseis por veículos e indústrias, principais fontes de óxidos de nitrogênio, enxofre, monóxido de carbono e material particulado em áreas urbanas. Entre os efeitos desse fenômeno está a corrosão de superfícies, o enfraquecimento da vegetação pela limitação de nutrientes e a liberação de compostos no solo, como o alumínio.\n(Gabrielle Tavares. www.correiodoestado.com.br. 30.08.2021. Adaptado.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "ilhas de calor.",
+        "b": "La Niña.",
+        "c": "aquecimento global.",
+        "d": "inversão térmica.",
+        "e": "chuva ácida."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Química Ambiental: parâmetros de qualidade ambiental, poluição de ar/água/solo e ciclos biogeoquímicos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 38,
+      "tipo": "objetiva",
+      "enunciado": "Para o funcionamento do aplicativo descrito no excerto, necessita-se de",
+      "textos_de_apoio": [
+        "Trata-se de um serviço de carro sob demanda que permite solicitar os serviços de um motorista particular por meio de um aplicativo em execução nos aparelhos celulares. Esse serviço utiliza um software que envia ao motorista mais próximo a localização do passageiro.\n(www.transportal.com.br. 09.06.2021. Adaptado.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "mapas políticos.",
+        "b": "aerofotogrametria.",
+        "c": "sistema de posicionamento global.",
+        "d": "perfis topográficos.",
+        "e": "mapas altimétricos."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Tecnologias: fotografias aéreas, imagens de satélite, GPS e Sensoriamento Remoto/SIG"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 39,
+      "tipo": "objetiva",
+      "enunciado": "O gás hidrogênio é um importante insumo industrial, sendo usado na fabricação de produtos químicos, na hidrogenação de compostos orgânicos insaturados e na soldagem de peças metálicas. Esse gás é produzido na reação entre água e carbono, conforme a equação a seguir.\n\nH₂O (g) + C (s) → CO (g) + H₂ (g)\n\nNessa reação, verifica-se que a geometria molecular do reagente gasoso e a polaridade da molécula do produto que é classificado como uma substância simples são, respectivamente,",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "angular e polar.",
+        "b": "linear e polar.",
+        "c": "piramidal e apolar.",
+        "d": "linear e apolar.",
+        "e": "angular e apolar."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Ligação covalente, estruturas de Lewis, regra do octeto e geometria molecular",
+            "Polaridade de ligações e de moléculas (uso da eletronegatividade)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 40,
+      "tipo": "objetiva",
+      "enunciado": "O esquema apresenta um experimento em que um único reagente, o peróxido de hidrogênio (H₂O₂), forma dois produtos.\n\nCerto tempo após o início do experimento, o kitassato é aberto rapidamente para a introdução de um ____ sólido, notando-se na proveta um aumento da vazão do gás oxigênio liberado, cuja fórmula molecular é ____, formado a partir da reação de ____ ocorrida no kitassato.\n\nAs lacunas do texto são preenchidas, respectivamente, por",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 12: Desenho esquemático de aparelhagem laboratorial contendo kitassato com H₂O₂, tubo de desprendimento, béquer e proveta medidora com recolhimento de gás."
+      ],
+      "alternativas": {
+        "a": "catalisador; O ═ O; adição.",
+        "b": "inibidor; O₂; decomposição.",
+        "c": "catalisador; O ─ O; simples troca.",
+        "d": "catalisador; O₂; decomposição.",
+        "e": "inibidor; O₂; adição."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Fatores que alteram a velocidade da reação (concentração, temperatura, catalisador)",
+            "Evidências macroscópicas de transformações químicas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 41,
+      "tipo": "objetiva",
+      "enunciado": "A respiração aeróbica é um processo que necessita do gás oxigênio para converter moléculas de carboidratos, como a glicose (C₆H₁₂O₆ – massa molar = 180 g/mol), em energia, com produção de dióxido de carbono (CO₂) e água (H₂O) como resíduos. A reação simplificada da respiração aeróbica pode ser equacionada por:\n\nC₆H₁₂O₆ (s) + 6O₂ (g) → 6H₂O (ℓ) + 6CO₂ (g) + Energia\n\nA massa de sólido consumida na produção de 2,4 mol de dióxido de carbono é igual a:",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "12,5 g.",
+        "b": "30,0 g.",
+        "c": "72,0 g.",
+        "d": "180,0 g.",
+        "e": "450,0 g."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Cálculos estequiométricos: relações de massa, volume, mols e pureza/rendimento"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 42,
+      "tipo": "objetiva",
+      "enunciado": "A substância fenilalanina está presente em diversos alimentos e necessita de uma enzima específica para ser corretamente processada pelo organismo humano, caso contrário, acumula-se provocando uma doença chamada fenilcetonúria, que pode afetar o cérebro e outros órgãos.\n\nNa fórmula estrutural da fenilalanina estão presentes as funções orgânicas",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 13: Fórmula estrutural da fenilalanina exibindo anel benzênico ligado a grupo amino, ácido carboxílico e cadeia carbônica."
+      ],
+      "alternativas": {
+        "a": "cetona e álcool.",
+        "b": "amina e cetona.",
+        "c": "ácido carboxílico e fenol.",
+        "d": "amina e ácido carboxílico.",
+        "e": "amina e fenol."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Principais funções orgânicas: hidrocarbonetos, álcoois, fenóis, éteres, ésteres, aldeídos, cetonas, ácidos carboxílicos, aminas e amidas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 43,
+      "tipo": "objetiva",
+      "enunciado": "Para preparar uma solução de densidade 1,2 g/mL de um determinado sal, dissolve-se 20 g desse composto em 230 g de água.\n\nA concentração dessa solução é igual a",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "80,0 g/L.",
+        "b": "86,0 g/L.",
+        "c": "96,0 g/L.",
+        "d": "110,4 g/L.",
+        "e": "114,0 g/L."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Água e soluções aquosas: solubilidade, tipos de concentração (g/L, mol/L, ppm) e diluição"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 44,
+      "tipo": "objetiva",
+      "enunciado": "Considere quatro substâncias que apresentam o elemento cloro em sua composição: gás cloro (Cℓ₂), cloreto de sódio (NaCℓ), hipoclorito de potássio (KCℓO) e ácido perclórico (HCℓO₄).\n\nOs números de oxidação (Nox) do elemento cloro nessas quatro substâncias são, respectivamente, iguais a",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "0, –1, +1 e +7.",
+        "b": "–1, –1, +1 e +3.",
+        "c": "–2, –1, +1 e +3.",
+        "d": "0, –7, –1 e +7.",
+        "e": "–1, –7, +3 e +7."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Eletroquímica: reações de oxirredução, números de oxidação (NOX) e agentes oxidantes/redutores"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 45,
+      "tipo": "objetiva",
+      "enunciado": "A primeira etapa do processo de sucessão é denominada ecese, caracterizada pela presença de líquens, musgos, samambaias e gramíneas. Esses organismos são",
+      "textos_de_apoio": [
+        "A figura ilustra as etapas de uma sucessão ecológica primária."
+      ],
+      "midia": [
+        "Página 14: Ilustração seriada mostrando as etapas sucessivas de uma sucessão ecológica primária, desde rocha nua até comunidade clímax."
+      ],
+      "alternativas": {
+        "a": "capazes de suportar grande variação nas condições ambientais.",
+        "b": "autotróficos e realizam a quimiossíntese ao invés da fotossíntese.",
+        "c": "caracterizados pela rápida capacidade de evolução e especiação.",
+        "d": "vegetais pertencentes ao grupo das angiospermas.",
+        "e": "assexuados e se reproduzem por brotamento."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Sucessão ecológica",
+            "Conceitos ecológicos fundamentais (habitat, nicho ecológico, população, comunidade e ecossistema)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 46,
+      "tipo": "objetiva",
+      "enunciado": "As parasitoses ascaridíase (lombriga), teníase (solitária) e amebíase (ameba) são causadas por agentes etiológicos de diferentes grupos taxonômicos. Tais parasitoses apresentam ciclos reprodutivos que diferem em diversos aspectos. No entanto, essas três doenças parasitárias humanas são contraídas devido à",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "infecção por meio de animais invertebrados vetores.",
+        "b": "contaminação pela ingestão de ovos de vermes intestinais.",
+        "c": "contaminação pela ingestão de água com protozoários.",
+        "d": "contaminação pela ingestão de formas infectantes.",
+        "e": "infecção por patógenos que parasitam dois hospedeiros em seus ciclos biológicos."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Saúde e Parasitologia: bacterioses, protozooses (malária, Chagas, leishmaniose) e verminoses (teníase, esquistossomose, ascaridíase)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 47,
+      "tipo": "objetiva",
+      "enunciado": "As ligações peptídicas decorrem da reação do grupo carboxila de um aminoácido com o grupo amina de outro aminoácido. Para essa ligação se consumar, é necessária a atuação de enzimas específicas que promovem, ao final do processo, a produção de uma molécula de água.\n\nA ocorrência da ligação peptídica está relacionada à",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "síntese de polissacarídeos.",
+        "b": "duplicação do DNA.",
+        "c": "tradução do RNA mensageiro.",
+        "d": "digestão de proteínas.",
+        "e": "transcrição do RNA transportador."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Componentes químicos celulares: água, sais minerais, carboidratos, lipídios, proteínas e vitaminas",
+            "Estrutura molecular do DNA e RNA, transcrição gênica e síntese proteica (código genético)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 48,
+      "tipo": "objetiva",
+      "enunciado": "Os cogumelos são corpos de frutificação de certas espécies de fungos e são formados a partir de filamentos subterrâneos (hifas), os quais compõem micélios organizados e que emergem para a superfície. Os esporos produzidos e liberados pelos cogumelos",
+      "textos_de_apoio": [
+        "A fotografia mostra o momento exato da liberação de esporos por uma espécie de cogumelo."
+      ],
+      "midia": [
+        "Página 14: Fotografia macro de cogumelos liberando nuvem de esporos."
+      ],
+      "alternativas": {
+        "a": "são as sementes dos cogumelos, classificados como vegetais primitivos.",
+        "b": "são estruturas de dispersão que desenvolvem novas hifas.",
+        "c": "indicam que o ciclo de vida do fungo chegou ao seu final.",
+        "d": "caem no solo e se unem para a formação de novos micélios.",
+        "e": "dependem da presença de luz solar para se desenvolverem."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Reinos Monera, Protista e Fungi: características e importância ecológica/econômica"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 49,
+      "tipo": "objetiva",
+      "enunciado": "O heredograma ilustra uma família em que o indivíduo II-3 manifestou uma rara doença condicionada por apenas um par de alelos autossômicos.\n\nA análise do heredograma permite afirmar que os alelos que condicionam a doença",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 15: Heredograma indicando três gerações com pais normais (I-1 e I-2) e filhos afetados e normais."
+      ],
+      "alternativas": {
+        "a": "apresentam caráter dominante.",
+        "b": "estão ligados ao cromossomo sexual X.",
+        "c": "se manifestam em homozigose.",
+        "d": "se manifestam em heterozigose.",
+        "e": "são influenciados pelo sexo."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "1ª e 2ª Leis de Mendel e correlação com a meiose",
+            "Heredogramas e probabilidades genéticas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 50,
+      "tipo": "objetiva",
+      "enunciado": "O processo de coevolução é compreendido a partir da interação entre espécies que, ao longo de milhares de anos, evoluem de maneira conjunta em um determinado aspecto, seja ele anatômico ou fisiológico.\n\nUm exemplo de coevolução são as flores tubulares e os bicos dos beija-flores.\n\nCom base nos conceitos evolutivos, afirma-se que",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 15: Fotografia de um beija-flor alimentando-se em uma flor tubular."
+      ],
+      "alternativas": {
+        "a": "a relação ecológica entre a flor e o beija-flor indica que houve especiação.",
+        "b": "o bico do beija-flor se modificou em função do formato da flor.",
+        "c": "a flor se modificou em função do formato do bico do beija-flor.",
+        "d": "o formato das flores e o do bico do beija-flor são resultantes das mesmas mutações.",
+        "e": "o processo de seleção natural ocorre de forma relacionada na flor e no beija-flor."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Teorias evolutivas: fixismo, lamarckismo, darwinismo e teoria sintética da evolução (neodarwinismo)",
+            "Dinâmica de populações e relações ecológicas (intraespecíficas e interespecíficas)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 51,
+      "tipo": "objetiva",
+      "enunciado": "Um atleta completou uma corrida de 100 m em 10,0 s. Sabendo que ele percorreu os primeiros 34 m em 4,0 s, a sua velocidade média no trecho restante dessa corrida foi de",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "10,0 m/s.",
+        "b": "10,5 m/s.",
+        "c": "11,0 m/s.",
+        "d": "11,5 m/s.",
+        "e": "12,0 m/s."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Cinemática escalar: velocidade e aceleração escalar média e instantânea"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 52,
+      "tipo": "objetiva",
+      "enunciado": "Ao flutuar nas águas de um lago, certa canoa, quando desocupada, fica sujeita à ação de uma força de empuxo de intensidade igual a 400 N. Considerando a aceleração da gravidade igual a 10 m/s², quando essa mesma canoa é ocupada por duas pessoas de 70 kg cada uma e flutua nas águas desse mesmo lago, ela sofre a ação de uma força de empuxo de intensidade igual a",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "540 N.",
+        "b": "1100 N.",
+        "c": "1400 N.",
+        "d": "1800 N.",
+        "e": "5400 N."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Princípio de Arquimedes (empuxo e corpos flutuantes)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 53,
+      "tipo": "objetiva",
+      "enunciado": "Na parte final de um salto de paraquedas, com este já aberto, o paraquedista desce com velocidade constante. Durante essa parte da descida, a energia potencial gravitacional do paraquedista",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "permanece constante e a sua energia cinética aumenta.",
+        "b": "aumenta e a sua energia cinética permanece constante.",
+        "c": "aumenta e a sua energia cinética diminui.",
+        "d": "diminui e a sua energia cinética permanece constante.",
+        "e": "diminui e a sua energia cinética aumenta."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Energia cinética, energia potencial (gravitacional e elástica) e conservação da energia mecânica"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 54,
+      "tipo": "objetiva",
+      "enunciado": "Em um local ao nível do mar, um bloco metálico, a 50 ºC, foi colocado no interior de um calorímetro contendo certa massa de gelo a –10 ºC. Quando o sistema atingiu o equilíbrio térmico, observou-se que no interior do calorímetro havia água no estado líquido, gelo e o bloco metálico. A temperatura de equilíbrio desse sistema foi de",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "–5,0 ºC.",
+        "b": "0,0 ºC.",
+        "c": "20 ºC.",
+        "d": "25 ºC.",
+        "e": "30 ºC."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Calorimetria: calor sensível, capacidade térmica, calor latente e trocas de calor",
+            "Diagramas de fases"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 55,
+      "tipo": "objetiva",
+      "enunciado": "Uma pessoa observa um quadro, localizado em uma parede às suas costas, por meio de um espelho plano colocado na parede à sua frente, como mostrado na figura.\n\nDespreze as espessuras do quadro e do espelho. Sabendo que a distância entre os olhos dessa pessoa e o espelho é de 1,0 m e que a distância entre os olhos da pessoa e a imagem do quadro, conjugada pelo espelho, é de 4,0 m, a distância L entre essas duas paredes é de",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 16: Desenho esquemático mostrando uma pessoa sentada entre uma parede com um quadro e outra parede com um espelho plano, indicando distâncias geométricas."
+      ],
+      "alternativas": {
+        "a": "3,0 m.",
+        "b": "3,5 m.",
+        "c": "4,0 m.",
+        "d": "4,5 m.",
+        "e": "5,0 m."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Reflexão da luz: espelhos planos e espelhos esféricos (construção gráfica e estudo analítico)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 56,
+      "tipo": "objetiva",
+      "enunciado": "Uma sala é iluminada por um conjunto de quatro lâmpadas de 15 W cada uma, as quais permanecem acesas simultaneamente por 6,0 horas a cada dia. O consumo diário de energia elétrica desse conjunto de lâmpadas é",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "0,06 kWh.",
+        "b": "0,09 kWh.",
+        "c": "0,24 kWh.",
+        "d": "0,30 kWh.",
+        "e": "0,36 kWh."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Eletrodinâmica: corrente elétrica, ddp, Leis de Ohm, resistividade e potência elétrica (kWh)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 57,
+      "tipo": "redacao",
+      "enunciado": "Com base nos textos apresentados e em seus próprios conhecimentos, escreva um texto dissertativo-argumentativo, empregando a norma-padrão da língua portuguesa, sobre o tema:\n\nTrabalhadores invisíveis: por que, apesar de essenciais, são ignorados pela sociedade?",
+      "textos_de_apoio": [
+        "Texto 1\nTrabalhadores invisíveis são profissionais com funções sociais fundamentais, porém desvalorizadas. A invisibilidade de tais indivíduos ocorre devido ao seu poder aquisitivo diminuto, aos direitos relativizados e devido ao preconceito por parte de uma parcela da classe alta.\nEm relação à maior parte da classe trabalhadora, os profissionais invisíveis geralmente não são notados devido ao fluxo acelerado verificado nos grandes centros urbanos. Assim, o cidadão, sempre em estado de alerta referente a suas atividades diárias e aos horários apertados, dificilmente nota a pessoa que presta serviços essenciais.\nGaris, entregadores, camelôs, ascensoristas, cobradores, jardineiros, faxineiros, coletores, gandulas, entre outros, são considerados trabalhadores invisíveis. Além de sua invisibilidade como prestadores de serviços, não são notados em relação às condições econômicas e materiais.\nA maior dificuldade da invisibilidade é o não atendimento de suas reivindicações como profissional perante as empresas. O ideal é que as companhias apresentem políticas de valorização desses trabalhadores por meio do reconhecimento financeiro e pessoal e do acompanhamento de suas necessidades como prestadores de serviço remunerado.\n(Felipe Araújo. “Trabalhadores Invisíveis”. www.infoescola.com. Adaptado.)",
+        "Texto 2\nVocê já se perguntou qual a sensação de se sentir invisível? Para profissionais de diversas áreas, essa sensação se faz presente o tempo quase todo. Mesmo desempenhando funções essenciais, como varrer as ruas, sepultar pessoas ou coletar materiais recicláveis, muitos trabalhadores são simplesmente ignorados pela maioria das pessoas. Ou até mesmo humilhados. Os catadores, por exemplo, são responsáveis pela coleta de quase 90% do lixo reciclado no Brasil, segundo o Instituto de Pesquisa Econômica Aplicada (Ipea). Mas poucas pessoas lembram desse tipo de informação quando se fala nesses trabalhadores.\nO tema da invisibilidade de certos profissionais inspirou até uma tese de doutorado em Psicologia Social. Durante dez anos, o pesquisador Fernando Braga da Costa se vestiu de gari ao menos uma vez por semana para vivenciar o dia a dia da profissão e conversar com quem depende dela para sobreviver. Entre as muitas constatações que fez está a de que, apenas por colocar a roupa de gari, ele se tornava quase automaticamente invisível. Muitos colegas e professores que conviviam com ele na Universidade de São Paulo (USP), ao verem-no vestido de gari varrendo as ruas da própria universidade, já não o reconheciam. “Essa invisibilidade é uma expressão construída historicamente a partir de dois fenômenos psicossociais: a humilhação social e a reificação (transformação em coisa)”, aponta Costa.",
+        "Texto 3\nA merendeira desce, o ônibus sai\nDona Maria já se foi, só depois é que o sol nasce\nDe madruga que as aranha desce no breu\nE amantes ofegantes vão pro mundo de Morfeu\nE o sol só vem depois\nO sol só vem depois\nÉ o astro rei, okay, mas vem depois\nO sol só vem depois\nAnunciado no latir dos cães, no cantar dos galos\nNa calma das mães, que quer o rebento cem por cento\nE diz “leva o documento, Sam”\nNa São Paulo das manhã que tem lá seus Vietnã\nNa vela que o vento apaga, afaga quando passa\nA brasa dorme fria e só quem dança é a fumaça\nOrvalho é o pranto dessa planta no sereno\nA lua já tá no Japão, como esse mundo é pequeno\nFarelos de um sonho bobinho que a luz contorna\nDar um tapa no quartinho, esse ano sai a reforma\nO som das criança indo pra escola convence\nO feijão germina no algodão, a vida sempre vence\nNuvens curiosas, como são\nSe vestem de cabelo crespo, ancião\nCaminham lento, lá pra cima, o firmamento\nPois no fundo ela se finge de neblina\nPraz ver o amor dos dois mundos\n[...]\n(Damien Alain Faulconnier e Leandro Roque de Oliveira. “A ordem natural das coisas”. AmarElo, 2019.)"
+      ],
+      "midia": [],
+      "alternativas": null,
+      "gabarito": null,
+      "areas": [
+        {
+          "area": "Redação",
+          "assuntos": [
+            "Gênero dissertativo-argumentativo: impessoalidade (3ª pessoa) e defesa de ponto de vista claro",
+            "Macroestrutura padrão em 4 parágrafos (Introdução com tese, D1, D2 e Conclusão reflexiva)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    }
+  ]
+}

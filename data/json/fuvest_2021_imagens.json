@@ -1,0 +1,996 @@
+{
+  "exame": "fuvest_2021",
+  "figuras_coordenadas": {
+    "1": [
+      {
+        "pagina": 2,
+        "tipo": "figura",
+        "elemento": "Mapa de bairro com pontos X e Y e três caminhos (a, b, c) de diferentes comprimentos.",
+        "bbox": [
+          70,
+          70,
+          400,
+          200
+        ]
+      }
+    ],
+    "2": [
+      {
+        "pagina": 2,
+        "tipo": "grafico",
+        "elemento": "Gráfico (A) com y aumentando com x.",
+        "bbox": [
+          490,
+          220,
+          700,
+          300
+        ]
+      },
+      {
+        "pagina": 2,
+        "tipo": "grafico",
+        "elemento": "Gráfico (B) com y diminuindo e depois aumentando com x.",
+        "bbox": [
+          490,
+          320,
+          700,
+          400
+        ]
+      },
+      {
+        "pagina": 2,
+        "tipo": "grafico",
+        "elemento": "Gráfico (C) com y aumentando e depois diminuindo com x.",
+        "bbox": [
+          490,
+          420,
+          700,
+          500
+        ]
+      },
+      {
+        "pagina": 2,
+        "tipo": "grafico",
+        "elemento": "Gráfico (D) com y diminuindo linearmente com x.",
+        "bbox": [
+          230,
+          220,
+          440,
+          300
+        ]
+      },
+      {
+        "pagina": 2,
+        "tipo": "grafico",
+        "elemento": "Gráfico (E) com y aumentando com x.",
+        "bbox": [
+          230,
+          320,
+          440,
+          400
+        ]
+      }
+    ],
+    "3": [
+      {
+        "pagina": 2,
+        "tipo": "cartum",
+        "elemento": "Quadrinho com personagens discutindo números primos. Números como 2, 23, 37, 61, 137 e 143 aparecem.",
+        "bbox": [
+          470,
+          170,
+          930,
+          420
+        ]
+      }
+    ],
+    "4": [
+      {
+        "pagina": 2,
+        "tipo": "figura",
+        "elemento": "Figura geométrica composta por três triângulos equiláteros e dois quadrados, com um pentágono irregular destacado.",
+        "bbox": [
+          500,
+          470,
+          930,
+          730
+        ]
+      }
+    ],
+    "9": [
+      {
+        "pagina": 3,
+        "tipo": "figura",
+        "elemento": "Figura geométrica com segmentos paralelos AC e DE, perpendiculares a CD. Pontos A, B, C, D, E, F. Triângulo equilátero ABE.",
+        "bbox": [
+          490,
+          220,
+          730,
+          400
+        ]
+      }
+    ],
+    "10": [
+      {
+        "pagina": 3,
+        "tipo": "grafico",
+        "elemento": "Plano cartesiano com círculo centrado na origem e raio 1, com região hachurada.",
+        "bbox": [
+          490,
+          470,
+          730,
+          730
+        ]
+      }
+    ],
+    "14": [
+      {
+        "pagina": 4,
+        "tipo": "imagem",
+        "elemento": "Mapa mostrando a projeção de Mercator.",
+        "bbox": [
+          520,
+          150,
+          930,
+          270
+        ]
+      },
+      {
+        "pagina": 4,
+        "tipo": "imagem",
+        "elemento": "Mapa mostrando a projeção de Gall-Peters.",
+        "bbox": [
+          520,
+          300,
+          930,
+          420
+        ]
+      },
+      {
+        "pagina": 4,
+        "tipo": "imagem",
+        "elemento": "Mapa mostrando a projeção de Robinson.",
+        "bbox": [
+          520,
+          450,
+          930,
+          570
+        ]
+      }
+    ],
+    "15": [
+      {
+        "pagina": 5,
+        "tipo": "tabela",
+        "elemento": "Tabela com períodos e suas implicações territoriais e sociais.",
+        "bbox": [
+          490,
+          150,
+          930,
+          680
+        ]
+      }
+    ],
+    "16": [
+      {
+        "pagina": 5,
+        "tipo": "mapa",
+        "elemento": "Mapa-múndi com países destacados em amarelo.",
+        "bbox": [
+          510,
+          50,
+          930,
+          250
+        ]
+      }
+    ],
+    "17": [
+      {
+        "pagina": 5,
+        "tipo": "mapa",
+        "elemento": "Mapa do estado da Bahia com a localização de um terremoto indicado.",
+        "bbox": [
+          510,
+          470,
+          930,
+          730
+        ]
+      }
+    ],
+    "18": [
+      {
+        "pagina": 6,
+        "tipo": "imagem",
+        "elemento": "Marcha para o Oeste",
+        "bbox": [
+          240,
+          220,
+          470,
+          300
+        ]
+      },
+      {
+        "pagina": 6,
+        "tipo": "imagem",
+        "elemento": "Revitalização de áreas centrais",
+        "bbox": [
+          520,
+          220,
+          740,
+          300
+        ]
+      },
+      {
+        "pagina": 6,
+        "tipo": "imagem",
+        "elemento": "Independência dos EUA",
+        "bbox": [
+          240,
+          320,
+          470,
+          400
+        ]
+      },
+      {
+        "pagina": 6,
+        "tipo": "imagem",
+        "elemento": "Suburbanização",
+        "bbox": [
+          520,
+          320,
+          740,
+          400
+        ]
+      },
+      {
+        "pagina": 6,
+        "tipo": "imagem",
+        "elemento": "Festa do chá de Boston",
+        "bbox": [
+          240,
+          420,
+          470,
+          500
+        ]
+      },
+      {
+        "pagina": 6,
+        "tipo": "imagem",
+        "elemento": "Vale do Silício",
+        "bbox": [
+          520,
+          420,
+          740,
+          500
+        ]
+      },
+      {
+        "pagina": 6,
+        "tipo": "imagem",
+        "elemento": "Guerra de Secessão",
+        "bbox": [
+          240,
+          520,
+          470,
+          600
+        ]
+      },
+      {
+        "pagina": 6,
+        "tipo": "imagem",
+        "elemento": "Construção do muro que separa EUA e México",
+        "bbox": [
+          520,
+          520,
+          740,
+          600
+        ]
+      },
+      {
+        "pagina": 6,
+        "tipo": "imagem",
+        "elemento": "Descobrimento dos EUA",
+        "bbox": [
+          240,
+          620,
+          470,
+          700
+        ]
+      },
+      {
+        "pagina": 6,
+        "tipo": "imagem",
+        "elemento": "O gueto e a segregação urbana",
+        "bbox": [
+          520,
+          620,
+          740,
+          700
+        ]
+      }
+    ],
+    "19": [
+      {
+        "pagina": 7,
+        "tipo": "figura",
+        "elemento": "Esquema mostrando a transição de sociedade agrário para urbano, com zonas crítica, industrial, comercial e política.",
+        "bbox": [
+          100,
+          150,
+          470,
+          300
+        ]
+      }
+    ],
+    "23": [
+      {
+        "pagina": 8,
+        "tipo": "mapa",
+        "elemento": "Mapa do Brasil mostrando a distribuição da Bothrops jararaca e os diferentes biomas.",
+        "bbox": [
+          100,
+          200,
+          470,
+          450
+        ]
+      }
+    ],
+    "25": [
+      {
+        "pagina": 8,
+        "tipo": "grafico",
+        "elemento": "Gráfico de barras mostrando o tempo de decomposição (em anos) para dois grupos de resíduos sólidos (X e Y).",
+        "bbox": [
+          510,
+          480,
+          930,
+          730
+        ]
+      }
+    ],
+    "26": [
+      {
+        "pagina": 9,
+        "tipo": "grafico",
+        "elemento": "Gráfico de taxa de emigração ao longo do tempo.",
+        "bbox": [
+          100,
+          220,
+          300,
+          300
+        ]
+      },
+      {
+        "pagina": 9,
+        "tipo": "grafico",
+        "elemento": "Gráfico de taxa de imigração ao longo do tempo.",
+        "bbox": [
+          300,
+          220,
+          500,
+          300
+        ]
+      },
+      {
+        "pagina": 9,
+        "tipo": "grafico",
+        "elemento": "Gráfico de taxa de mortalidade ao longo do tempo.",
+        "bbox": [
+          100,
+          320,
+          300,
+          400
+        ]
+      },
+      {
+        "pagina": 9,
+        "tipo": "grafico",
+        "elemento": "Gráfico de taxa de natalidade ao longo do tempo.",
+        "bbox": [
+          300,
+          320,
+          500,
+          400
+        ]
+      }
+    ],
+    "28": [
+      {
+        "pagina": 9,
+        "tipo": "figura",
+        "elemento": "Pedigree mostrando uma família com indivíduos afetados e não afetados por adrenoleucodistrofia.",
+        "bbox": [
+          510,
+          170,
+          740,
+          300
+        ]
+      }
+    ],
+    "29": [
+      {
+        "pagina": 9,
+        "tipo": "figura",
+        "elemento": "Esquema (A) mostrando cromossomos com alelos.",
+        "bbox": [
+          510,
+          470,
+          730,
+          530
+        ]
+      },
+      {
+        "pagina": 9,
+        "tipo": "figura",
+        "elemento": "Esquema (B) mostrando cromossomos com alelos.",
+        "bbox": [
+          510,
+          540,
+          730,
+          600
+        ]
+      },
+      {
+        "pagina": 9,
+        "tipo": "figura",
+        "elemento": "Esquema (C) mostrando cromossomos com alelos.",
+        "bbox": [
+          510,
+          610,
+          730,
+          670
+        ]
+      },
+      {
+        "pagina": 9,
+        "tipo": "figura",
+        "elemento": "Esquema (D) mostrando cromossomos com alelos.",
+        "bbox": [
+          750,
+          470,
+          930,
+          530
+        ]
+      },
+      {
+        "pagina": 9,
+        "tipo": "figura",
+        "elemento": "Esquema (E) mostrando cromossomos com alelos.",
+        "bbox": [
+          750,
+          540,
+          930,
+          600
+        ]
+      }
+    ],
+    "32": [
+      {
+        "pagina": 10,
+        "tipo": "grafico",
+        "elemento": "Gráfico mostrando a atividade da aromatase (%) em função da temperatura (°C) para tartarugas-de-couro.",
+        "bbox": [
+          510,
+          220,
+          930,
+          400
+        ]
+      }
+    ],
+    "41": [
+      {
+        "pagina": 12,
+        "tipo": "imagem",
+        "elemento": "Pintura \"A Primavera\" de Sandro Botticelli, século XV.",
+        "bbox": [
+          520,
+          470,
+          930,
+          730
+        ]
+      }
+    ],
+    "42": [
+      {
+        "pagina": 13,
+        "tipo": "tabela",
+        "elemento": "Tabela com mortalidade gripal no Município de São Paulo por distrito (15/10 a 19/12/1918).",
+        "bbox": [
+          510,
+          280,
+          930,
+          730
+        ]
+      },
+      {
+        "pagina": 13,
+        "tipo": "tabela",
+        "elemento": "Quadro: Município de São Paulo: Características distritais por volta de 1918.",
+        "bbox": [
+          100,
+          470,
+          930,
+          270
+        ]
+      }
+    ],
+    "46": [
+      {
+        "pagina": 14,
+        "tipo": "figura",
+        "elemento": "Foto de um experimento com garrafa de água suspensa por palito de dente.",
+        "bbox": [
+          50,
+          470,
+          470,
+          730
+        ]
+      },
+      {
+        "pagina": 14,
+        "tipo": "figura",
+        "elemento": "Figura lateral mostrando forças F e P atuando no palito.",
+        "bbox": [
+          510,
+          470,
+          930,
+          730
+        ]
+      }
+    ],
+    "47": [
+      {
+        "pagina": 15,
+        "tipo": "grafico",
+        "elemento": "Gráfico mostrando a aceleração (ax-aref) em função do tempo (s) para um smartphone oscilante.",
+        "bbox": [
+          100,
+          220,
+          470,
+          400
+        ]
+      }
+    ],
+    "49": [
+      {
+        "pagina": 15,
+        "tipo": "figura",
+        "elemento": "Figura ilustrando um experimento para produzir ondas estacionárias em uma corda.",
+        "bbox": [
+          510,
+          470,
+          930,
+          730
+        ]
+      }
+    ],
+    "50": [
+      {
+        "pagina": 15,
+        "tipo": "grafico",
+        "elemento": "Diagrama P-V mostrando um ciclo termodinâmico ABCA.",
+        "bbox": [
+          510,
+          470,
+          930,
+          730
+        ]
+      }
+    ],
+    "51": [
+      {
+        "pagina": 16,
+        "tipo": "figura",
+        "elemento": "Ilustração do olho humano míope com objeto, ponto remoto (PR), cristalino e retina.",
+        "bbox": [
+          100,
+          220,
+          470,
+          350
+        ]
+      },
+      {
+        "pagina": 16,
+        "tipo": "figura",
+        "elemento": "Esquema (A) mostrando arranjo de objeto, lente e retina.",
+        "bbox": [
+          100,
+          470,
+          470,
+          530
+        ]
+      },
+      {
+        "pagina": 16,
+        "tipo": "figura",
+        "elemento": "Esquema (B) mostrando arranjo de objeto, lente e retina.",
+        "bbox": [
+          100,
+          540,
+          470,
+          600
+        ]
+      },
+      {
+        "pagina": 16,
+        "tipo": "figura",
+        "elemento": "Esquema (C) mostrando arranjo de objeto, lente e retina.",
+        "bbox": [
+          100,
+          610,
+          470,
+          670
+        ]
+      },
+      {
+        "pagina": 16,
+        "tipo": "figura",
+        "elemento": "Esquema (D) mostrando arranjo de objeto, lente e retina.",
+        "bbox": [
+          100,
+          680,
+          470,
+          740
+        ]
+      },
+      {
+        "pagina": 16,
+        "tipo": "figura",
+        "elemento": "Esquema (E) mostrando arranjo de objeto, lente e retina.",
+        "bbox": [
+          100,
+          750,
+          470,
+          810
+        ]
+      }
+    ],
+    "52": [
+      {
+        "pagina": 16,
+        "tipo": "figura",
+        "elemento": "Ilustração de três latas metálicas em contato, próximas a dois balões negativamente carregados.",
+        "bbox": [
+          510,
+          170,
+          930,
+          420
+        ]
+      }
+    ],
+    "53": [
+      {
+        "pagina": 16,
+        "tipo": "figura",
+        "elemento": "Esquema de circuito elétrico (1).",
+        "bbox": [
+          510,
+          470,
+          730,
+          530
+        ]
+      },
+      {
+        "pagina": 16,
+        "tipo": "figura",
+        "elemento": "Esquema de circuito elétrico (2).",
+        "bbox": [
+          750,
+          470,
+          930,
+          530
+        ]
+      },
+      {
+        "pagina": 16,
+        "tipo": "figura",
+        "elemento": "Esquema de circuito elétrico (3).",
+        "bbox": [
+          510,
+          540,
+          730,
+          600
+        ]
+      },
+      {
+        "pagina": 16,
+        "tipo": "figura",
+        "elemento": "Esquema de circuito elétrico (4).",
+        "bbox": [
+          750,
+          540,
+          930,
+          600
+        ]
+      },
+      {
+        "pagina": 16,
+        "tipo": "figura",
+        "elemento": "Esquema de circuito elétrico (5).",
+        "bbox": [
+          510,
+          610,
+          730,
+          670
+        ]
+      }
+    ],
+    "54": [
+      {
+        "pagina": 17,
+        "tipo": "figura",
+        "elemento": "Figura mostrando uma esfera metálica com carga +q em um campo elétrico uniforme E, sendo erguida verticalmente.",
+        "bbox": [
+          100,
+          170,
+          470,
+          400
+        ]
+      }
+    ],
+    "77": [
+      {
+        "pagina": 22,
+        "tipo": "cartum",
+        "elemento": "Mafalda e amiga sobre tomar distância",
+        "bbox": [
+          660,
+          150,
+          810,
+          450
+        ]
+      }
+    ],
+    "80": [
+      {
+        "pagina": 23,
+        "tipo": "diagrama",
+        "elemento": "Processo de fabricação do açúcar",
+        "bbox": [
+          60,
+          110,
+          190,
+          480
+        ]
+      }
+    ],
+    "81": [
+      {
+        "pagina": 23,
+        "tipo": "cartum",
+        "elemento": "Meme 'Há 1 impostor entre nós' com Tabela Periódica",
+        "bbox": [
+          510,
+          60,
+          670,
+          280
+        ]
+      }
+    ],
+    "82": [
+      {
+        "pagina": 23,
+        "tipo": "tabela",
+        "elemento": "Tabela Periódica",
+        "bbox": [
+          60,
+          510,
+          200,
+          940
+        ]
+      },
+      {
+        "pagina": 23,
+        "tipo": "tabela",
+        "elemento": "Tabela de resultados de ensaios de equilíbrio químico",
+        "bbox": [
+          340,
+          510,
+          450,
+          940
+        ]
+      },
+      {
+        "pagina": 23,
+        "tipo": "tabela",
+        "elemento": "Tabela de solubilidade dos sais",
+        "bbox": [
+          670,
+          510,
+          740,
+          940
+        ]
+      }
+    ],
+    "83": [
+      {
+        "pagina": 24,
+        "tipo": "tabela",
+        "elemento": "Teor de HMF e utilização",
+        "bbox": [
+          60,
+          110,
+          310,
+          480
+        ]
+      },
+      {
+        "pagina": 24,
+        "tipo": "diagrama",
+        "elemento": "Rota de formação de HMF a partir da frutose",
+        "bbox": [
+          390,
+          110,
+          580,
+          480
+        ]
+      }
+    ],
+    "84": [
+      {
+        "pagina": 24,
+        "tipo": "tabela",
+        "elemento": "Teor de HMF e utilização",
+        "bbox": [
+          60,
+          110,
+          310,
+          480
+        ]
+      },
+      {
+        "pagina": 24,
+        "tipo": "diagrama",
+        "elemento": "Rota de formação de HMF a partir da frutose",
+        "bbox": [
+          390,
+          110,
+          580,
+          480
+        ]
+      }
+    ],
+    "85": [
+      {
+        "pagina": 24,
+        "tipo": "diagrama",
+        "elemento": "Representação de reação química com círculos",
+        "bbox": [
+          520,
+          560,
+          730,
+          890
+        ]
+      }
+    ],
+    "86": [
+      {
+        "pagina": 25,
+        "tipo": "diagrama",
+        "elemento": "Modelo atômico incompleto",
+        "bbox": [
+          300,
+          280,
+          330,
+          360
+        ]
+      }
+    ],
+    "87": [
+      {
+        "pagina": 25,
+        "tipo": "tabela",
+        "elemento": "Tabela de resultados de ensaios de equilíbrio químico",
+        "bbox": [
+          340,
+          510,
+          450,
+          940
+        ]
+      },
+      {
+        "pagina": 25,
+        "tipo": "tabela",
+        "elemento": "Tabela de solubilidade dos sais",
+        "bbox": [
+          670,
+          510,
+          740,
+          940
+        ]
+      }
+    ],
+    "88": [
+      {
+        "pagina": 26,
+        "tipo": "diagrama",
+        "elemento": "Reação de Maillard (Glicina + Carboidrato redutor)",
+        "bbox": [
+          140,
+          60,
+          240,
+          480
+        ]
+      },
+      {
+        "pagina": 26,
+        "tipo": "diagrama",
+        "elemento": "Formação de acrilamida (Composto 1 + Carboidrato redutor)",
+        "bbox": [
+          310,
+          60,
+          410,
+          480
+        ]
+      },
+      {
+        "pagina": 26,
+        "tipo": "figura",
+        "elemento": "Estrutura química A",
+        "bbox": [
+          420,
+          100,
+          470,
+          200
+        ]
+      },
+      {
+        "pagina": 26,
+        "tipo": "figura",
+        "elemento": "Estrutura química B",
+        "bbox": [
+          500,
+          100,
+          570,
+          200
+        ]
+      },
+      {
+        "pagina": 26,
+        "tipo": "figura",
+        "elemento": "Estrutura química C",
+        "bbox": [
+          590,
+          100,
+          640,
+          200
+        ]
+      },
+      {
+        "pagina": 26,
+        "tipo": "figura",
+        "elemento": "Estrutura química D",
+        "bbox": [
+          420,
+          280,
+          470,
+          400
+        ]
+      },
+      {
+        "pagina": 26,
+        "tipo": "figura",
+        "elemento": "Estrutura química E",
+        "bbox": [
+          500,
+          280,
+          570,
+          400
+        ]
+      }
+    ],
+    "89": [
+      {
+        "pagina": 26,
+        "tipo": "diagrama",
+        "elemento": "Diagrama de um Skimmer",
+        "bbox": [
+          80,
+          740,
+          280,
+          940
+        ]
+      }
+    ]
+  }
+}

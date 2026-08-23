@@ -1,0 +1,447 @@
+{
+  "exame": "fuvest_2026",
+  "figuras_coordenadas": {
+    "5": [
+      {
+        "pagina": 3,
+        "tipo": "figura",
+        "elemento": "Bingo das ligações químicas",
+        "bbox": [
+          588,
+          172,
+          893,
+          444
+        ]
+      }
+    ],
+    "10": [
+      {
+        "pagina": 5,
+        "tipo": "imagem",
+        "elemento": "Capoeira, Maria Auxiliadora da Silva (1970)",
+        "bbox": [
+          678,
+          201,
+          834,
+          420
+        ]
+      }
+    ],
+    "13": [
+      {
+        "pagina": 7,
+        "tipo": "grafico",
+        "elemento": "Taxa de participação na força de trabalho, por sexo, Brasil - 2012 a 2024",
+        "bbox": [
+          270,
+          110,
+          417,
+          429
+        ]
+      }
+    ],
+    "14": [
+      {
+        "pagina": 7,
+        "tipo": "grafico",
+        "elemento": "Mapa e gráfico da Região Sul sobre imigrantes e emprego formal",
+        "bbox": [
+          180,
+          563,
+          442,
+          908
+        ]
+      }
+    ],
+    "17": [
+      {
+        "pagina": 8,
+        "tipo": "grafico",
+        "elemento": "Distribuição da ocupação por categoria e rendimento médio (PNAD-C)",
+        "bbox": [
+          287,
+          563,
+          608,
+          935
+        ]
+      }
+    ],
+    "19": [
+      {
+        "pagina": 9,
+        "tipo": "imagem",
+        "elemento": "Zero Cruzeiro, Cildo Meireles (1978)",
+        "bbox": [
+          435,
+          178,
+          620,
+          526
+        ]
+      }
+    ],
+    "22": [
+      {
+        "pagina": 10,
+        "tipo": "cartum",
+        "elemento": "Charge Marco Temporal",
+        "bbox": [
+          178,
+          143,
+          290,
+          442
+        ]
+      }
+    ],
+    "23": [
+      {
+        "pagina": 10,
+        "tipo": "grafico",
+        "elemento": "Área de desmatamento da Mata Atlântica (1985-2024)",
+        "bbox": [
+          287,
+          532,
+          381,
+          912
+        ]
+      }
+    ],
+    "24": [
+      {
+        "pagina": 11,
+        "tipo": "imagem",
+        "elemento": "Ilha Ardley e gráficos NDVI e TCG",
+        "bbox": [
+          287,
+          102,
+          532,
+          483
+        ]
+      }
+    ],
+    "27": [
+      {
+        "pagina": 12,
+        "tipo": "mapa",
+        "elemento": "Mapa do potencial geotérmico da África",
+        "bbox": [
+          201,
+          551,
+          477,
+          918
+        ]
+      }
+    ],
+    "28": [
+      {
+        "pagina": 13,
+        "tipo": "imagem",
+        "elemento": "Formatura da capivara gerada por IA",
+        "bbox": [
+          102,
+          102,
+          237,
+          237
+        ]
+      }
+    ],
+    "34": [
+      {
+        "pagina": 15,
+        "tipo": "mapa",
+        "elemento": "Principais rios da Região Hidrográfica Amazônica",
+        "bbox": [
+          237,
+          102,
+          532,
+          452
+        ]
+      }
+    ],
+    "35": [
+      {
+        "pagina": 15,
+        "tipo": "esquema",
+        "elemento": "Sistema de monitoramento de corrida de detritos",
+        "bbox": [
+          220,
+          520,
+          431,
+          881
+        ]
+      }
+    ],
+    "36": [
+      {
+        "pagina": 16,
+        "tipo": "figura",
+        "elemento": "Esquema de topografia com Estação Total",
+        "bbox": [
+          194,
+          185,
+          308,
+          381
+        ]
+      }
+    ],
+    "37": [
+      {
+        "pagina": 16,
+        "tipo": "figura",
+        "elemento": "Esquema da praça e prédios circulares",
+        "bbox": [
+          253,
+          563,
+          404,
+          762
+        ]
+      }
+    ],
+    "43": [
+      {
+        "pagina": 19,
+        "tipo": "imagem",
+        "elemento": "Exposição imersiva de Van Gogh",
+        "bbox": [
+          102,
+          333,
+          237,
+          659
+        ]
+      }
+    ],
+    "44": [
+      {
+        "pagina": 20,
+        "tipo": "imagem",
+        "elemento": "Paul Cézanne. A montanha de Sainte-Victoire, 1904",
+        "bbox": [
+          102,
+          178,
+          308,
+          381
+        ]
+      }
+    ],
+    "46": [
+      {
+        "pagina": 21,
+        "tipo": "imagem",
+        "elemento": "Francisco Ruiz Gijón, Santíssimo Cristo da Expiação",
+        "bbox": [
+          102,
+          178,
+          264,
+          381
+        ]
+      }
+    ],
+    "52": [
+      {
+        "pagina": 24,
+        "tipo": "mapa",
+        "elemento": "Reconfiguração geopolítica do Cáucaso (2023)",
+        "bbox": [
+          180,
+          163,
+          520,
+          831
+        ]
+      }
+    ],
+    "53": [
+      {
+        "pagina": 25,
+        "tipo": "mapa",
+        "elemento": "Mapa da Venezuela e Guiana Essequiba",
+        "bbox": [
+          180,
+          178,
+          381,
+          467
+        ]
+      }
+    ],
+    "57": [
+      {
+        "pagina": 26,
+        "tipo": "imagem",
+        "elemento": "Foto de lobo gerado por edição genética",
+        "bbox": [
+          150,
+          680,
+          260,
+          800
+        ]
+      }
+    ],
+    "66": [
+      {
+        "pagina": 28,
+        "tipo": "imagem",
+        "elemento": "Ilustração de pessoa treinando com pesos",
+        "bbox": [
+          150,
+          680,
+          250,
+          800
+        ]
+      }
+    ],
+    "67": [
+      {
+        "pagina": 29,
+        "tipo": "grafico",
+        "elemento": "Espectrometria de massas",
+        "bbox": [
+          323,
+          102,
+          452,
+          435
+        ]
+      }
+    ],
+    "68": [
+      {
+        "pagina": 29,
+        "tipo": "imagem",
+        "elemento": "Diagrama clássico de paladar na língua",
+        "bbox": [
+          119,
+          788,
+          220,
+          918
+        ]
+      }
+    ],
+    "71": [
+      {
+        "pagina": 30,
+        "tipo": "imagem",
+        "elemento": "Comparação de ovos cozidos pelos métodos 1, 2, 3 e 4",
+        "bbox": [
+          323,
+          532,
+          452,
+          918
+        ]
+      }
+    ],
+    "72": [
+      {
+        "pagina": 31,
+        "tipo": "figura",
+        "elemento": "Esquema de preparo de café filtrado e alturas H e D",
+        "bbox": [
+          102,
+          102,
+          220,
+          483
+        ]
+      }
+    ],
+    "73": [
+      {
+        "pagina": 31,
+        "tipo": "imagem",
+        "elemento": "Colher em equilíbrio sobre xícara (situações 1, 2, 3 e 4)",
+        "bbox": [
+          220,
+          520,
+          483,
+          918
+        ]
+      }
+    ],
+    "74": [
+      {
+        "pagina": 32,
+        "tipo": "grafico",
+        "elemento": "Gráficos de funções no plano cartesiano",
+        "bbox": [
+          102,
+          118,
+          381,
+          483
+        ]
+      }
+    ],
+    "75": [
+      {
+        "pagina": 32,
+        "tipo": "grafico",
+        "elemento": "Gráficos de altura versus tempo para uma bolinha quicando",
+        "bbox": [
+          153,
+          532,
+          901,
+          788
+        ]
+      }
+    ],
+    "76": [
+      {
+        "pagina": 33,
+        "tipo": "grafico",
+        "elemento": "Exame de audiometria tonal",
+        "bbox": [
+          180,
+          102,
+          290,
+          435
+        ]
+      }
+    ],
+    "77": [
+      {
+        "pagina": 33,
+        "tipo": "grafico",
+        "elemento": "Exame de audiometria tonal",
+        "bbox": [
+          180,
+          102,
+          290,
+          435
+        ]
+      }
+    ],
+    "81": [
+      {
+        "pagina": 34,
+        "tipo": "esquema",
+        "elemento": "Comunicação entre plantas via aérea e solo",
+        "bbox": [
+          201,
+          551,
+          404,
+          881
+        ]
+      }
+    ],
+    "84": [
+      {
+        "pagina": 35,
+        "tipo": "figura",
+        "elemento": "Células estomáticas",
+        "bbox": [
+          435,
+          532,
+          608,
+          918
+        ]
+      }
+    ],
+    "85": [
+      {
+        "pagina": 36,
+        "tipo": "grafico",
+        "elemento": "Nichos ecológicos de duas espécies",
+        "bbox": [
+          102,
+          178,
+          253,
+          483
+        ]
+      }
+    ]
+  }
+}

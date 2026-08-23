@@ -1,0 +1,594 @@
+{
+  "plano_de_estudos_vestibular": {
+    "publico_alvo": "Candidato retornando aos estudos após 17 anos",
+    "foco_banca": "VUNESP / UNIVESP",
+    "disciplinas": [
+      {
+        "area": "Matemática",
+        "orientacao_pedagogica": "Não pule o Módulo 0. A maioria dos erros em exatas ocorre na base aritmética e na interpretação de enunciados.",
+        "modulos": [
+          {
+            "ordem": 1,
+            "fase": "Módulo 0: Nivelamento (Base Essencial)",
+            "assuntos": [
+              "Operações fundamentais com números inteiros e decimais",
+              "Operações com frações e simplificação",
+              "Regra de três simples e composta",
+              "Potenciação e radiciação",
+              "Produtos notáveis e fatoração algébrica básica"
+            ]
+          },
+          {
+            "ordem": 2,
+            "fase": "Módulo 1: Aritmética e Álgebra Básica",
+            "assuntos": [
+              "Conjuntos numéricos (Naturais, Inteiros, Racionais e Reais)",
+              "Ordem na reta numérica e resolução de problemas",
+              "Razões e proporções diretas e inversas",
+              "Proporcionalidade quadrática",
+              "Notação científica, algarismos significativos e noção de erro",
+              "Sistemas de contagem: base decimal, binária e sexagesimal",
+              "Sistema Internacional de Medidas (conversões e unidades de informática)",
+              "Matemática Financeira: porcentagem, juros simples, juros compostos, taxas e índices"
+            ]
+          },
+          {
+            "ordem": 3,
+            "fase": "Módulo 2: Sequências e Sistemas Lineares",
+            "assuntos": [
+              "Noção de sequência e lei de formação/recorrência",
+              "Progressão Aritmética (PA) - termo geral e soma dos termos",
+              "Progressão Geométrica (PG) - termo geral e soma dos termos",
+              "Sistemas lineares: métodos de resolução algébrica",
+              "Discussão e interpretação gráfica de sistemas lineares"
+            ]
+          },
+          {
+            "ordem": 4,
+            "fase": "Módulo 3: Estudo das Funções",
+            "assuntos": [
+              "Conceito de função e relações entre grandezas",
+              "Gráficos de funções por uma ou várias sentenças",
+              "Taxa de variação: crescimento linear, quadrático e exponencial",
+              "Função polinomial do 1º grau e função constante",
+              "Equação da reta: forma reduzida, coeficientes angular/linear e intersecção",
+              "Função quadrática: raízes, gráfico da parábola e pontos de máximo/mínimo",
+              "Função exponencial e propriedades",
+              "Teoria dos logaritmos, propriedades e função logarítmica",
+              "Equações e inequações lineares, quadráticas, exponenciais, logarítmicas e modulares"
+            ]
+          },
+          {
+            "ordem": 5,
+            "fase": "Módulo 4: Trigonometria",
+            "assuntos": [
+              "Arcos e ângulos: medidas (graus e radianos) e relações entre arcos",
+              "Trigonometria no triângulo retângulo (seno, cosseno e tangente)",
+              "Círculo trigonométrico e funções periódicas (seno e cosseno)",
+              "Equações e inequações trigonométricas",
+              "Teorema dos Senos e Teorema dos Cossenos (triângulos quaisquer e obtusângulos)"
+            ]
+          },
+          {
+            "ordem": 6,
+            "fase": "Módulo 5: Geometria Plana e Espacial",
+            "assuntos": [
+              "Geometria Plana: ponto, reta, plano, segmentos e ângulos",
+              "Congruência de figuras planas e semelhança de triângulos",
+              "Relações métricas no triângulo retângulo, polígonos regulares e círculos",
+              "Cálculo de áreas (polígonos, círculos, coroas e setores circulares)",
+              "Geometria Analítica Básica: coordenadas, plano cartesiano, distância e ponto médio",
+              "Transformações isométricas (translação, reflexão, rotação) e homotéticas",
+              "Ladrilhamento e pavimentação de superfícies",
+              "Geometria Espacial: vistas ortogonais e planificação",
+              "Poliedros, corpos redondos, prismas, pirâmides e troncos (área e volume)",
+              "Cilindro, cone e esfera (área, volume e capacidade)",
+              "Deformações de áreas e ângulos em projeções cartográficas"
+            ]
+          },
+          {
+            "ordem": 7,
+            "fase": "Módulo 6: Análise Combinatória, Probabilidade e Estatística",
+            "assuntos": [
+              "Princípios multiplicativo e aditivo da contagem",
+              "Arranjos, permutações e combinações simples",
+              "Espaço amostral (discreto e contínuo) e conceito de probabilidade",
+              "Probabilidade da união e da intersecção de eventos",
+              "Probabilidade condicional e eventos independentes",
+              "Estatística: medidas de tendência central (média, moda e mediana)",
+              "Estatística: medidas de dispersão (amplitude, desvio padrão e variância)",
+              "Interpretação de gráficos (barras, setores, histogramas, box-plot, ramos e folhas)",
+              "Algoritmos, fluxogramas e lógica básica de programação"
+            ]
+          }
+        ]
+      },
+      {
+        "area": "Química",
+        "orientacao_pedagogica": "Reordenação essencial: Domine a estrutura atômica, ligações e funções inorgânicas antes de tentar fazer cálculos estequiométricos.",
+        "modulos": [
+          {
+            "ordem": 1,
+            "fase": "Fase 1: Matéria, Estados Físicos e Estrutura Atômica",
+            "assuntos": [
+              "Propriedades gerais e específicas dos materiais",
+              "Misturas homogêneas/heterogêneas e processos de separação",
+              "Estados físicos da matéria e diagramas de aquecimento/resfriamento",
+              "Evolução dos modelos atômicos (Dalton, Thomson, Rutherford, Bohr)",
+              "Número atômico, número de massa, isótopos, isóbaros e isótonos",
+              "Tabela Periódica: organização, famílias, períodos e propriedades periódicas"
+            ]
+          },
+          {
+            "ordem": 2,
+            "fase": "Fase 2: Ligações Químicas e Funções Inorgânicas",
+            "assuntos": [
+              "Ligação iônica e características dos compostos iônicos",
+              "Ligação covalente, estruturas de Lewis, regra do octeto e geometria molecular",
+              "Polaridade de ligações e de moléculas (uso da eletronegatividade)",
+              "Interações intermoleculares (forças de London, dipolo-dipolo e ligação de hidrogênio)",
+              "Alotropia (carbono, oxigênio, enxofre e fósforo)",
+              "Ligação metálica e ligas metálicas",
+              "Funções inorgânicas: ácidos, bases, sais e óxidos",
+              "Teorias ácido-base (Arrhenius, Bronsted-Lowry e Lewis)",
+              "Água e soluções aquosas: solubilidade, tipos de concentração (g/L, mol/L, ppm) e diluição"
+            ]
+          },
+          {
+            "ordem": 3,
+            "fase": "Fase 3: Transformações Químicas, Gases e Estequiometria",
+            "assuntos": [
+              "Evidências macroscópicas de transformações químicas",
+              "Fórmulas químicas: mínima, centesimal e molecular",
+              "Equações químicas e métodos de balanceamento",
+              "Leis ponderais: Lei de Lavoisier e Lei de Proust",
+              "Estudo dos gases: teoria cinética, leis dos gases e Equação de Clapeyron",
+              "Cálculos estequiométricos: relações de massa, volume, mols e pureza/rendimento"
+            ]
+          },
+          {
+            "ordem": 4,
+            "fase": "Fase 4: Físico-Química",
+            "assuntos": [
+              "Termoquímica: reações exotérmicas e endotérmicas, entalpia e equações termoquímicas",
+              "Lei de Hess e entalpia de ligação",
+              "Cinética Química: rapidez de reação, teoria das colisões e energia de ativação",
+              "Fatores que alteram a velocidade da reação (concentração, temperatura, catalisador)",
+              "Equilíbrio Químico: constante Kc e Kp, Princípio de Le Chatelier",
+              "Equilíbrio iônico da água, escala de pH, pOH e hidrólise de sais",
+              "Eletroquímica: reações de oxirredução, números de oxidação (NOX) e agentes oxidantes/redutores",
+              "Pilhas (potencial-padrão de redução) e Eletrólise (Leis de Faraday)"
+            ]
+          },
+          {
+            "ordem": 5,
+            "fase": "Fase 5: Química Orgânica, Radioatividade e Meio Ambiente",
+            "assuntos": [
+              "Características do carbono, cadeias carbônicas, ligações e hibridização",
+              "Isomeria plana e espacial",
+              "Principais funções orgânicas: hidrocarbonetos, álcoois, fenóis, éteres, ésteres, aldeídos, cetonas, ácidos carboxílicos, aminas e amidas",
+              "Combustíveis fósseis (carvão, petróleo, gás natural) e destilação fracionada",
+              "Reações orgânicas fundamentais: substituição, adição, eliminação, oxidação e esterificação/saponificação",
+              "Polímeros sintéticos (PE, PS, PET, PVC, teflon, náilon) e biomoléculas (glicídios, lipídios, proteínas)",
+              "Radioatividade: emissões nucleares, meia-vida, datação, fissão e fusão nuclear",
+              "Química Ambiental: parâmetros de qualidade ambiental, poluição de ar/água/solo e ciclos biogeoquímicos",
+              "Segurança doméstica com produtos químicos e método científico"
+            ]
+          }
+        ]
+      },
+      {
+        "area": "Biologia",
+        "orientacao_pedagogica": "Abordagem progressiva: do microscópico (célula e bioquímica) aos grandes ecossistemas e biomas.",
+        "modulos": [
+          {
+            "ordem": 1,
+            "fase": "Fase 1: Bioquímica Celular, Citologia e Biotecnologia",
+            "assuntos": [
+              "Componentes químicos celulares: água, sais minerais, carboidratos, lipídios, proteínas e vitaminas",
+              "Organização celular: diferenças entre procariontes e eucariontes (animal e vegetal)",
+              "Membrana plasmática e mecanismos de transporte (passivo, ativo, endocitose)",
+              "Organelas citoplasmáticas e suas funções",
+              "Metabolismo energético: fotossíntese, quimiossíntese, respiração aeróbia e fermentação",
+              "Núcleo celular, ciclo celular e divisões celulares (Mitose e Meiose)",
+              "Estrutura molecular do DNA e RNA, transcrição gênica e síntese proteica (código genético)",
+              "Mutações gênicas e cromossômicas",
+              "Biotecnologia: DNA recombinante, transgênicos, PCR, clonagem, células-tronco e CRISPR"
+            ]
+          },
+          {
+            "ordem": 2,
+            "fase": "Fase 2: Classificação Biológica, Seres Vivos e Doenças",
+            "assuntos": [
+              "Níveis de organização da vida, taxonomia de Lineu e cladogramas modernos",
+              "Vírus: estrutura, replicação e principais viroses humanas",
+              "Domínios Archaea, Bacteria e Eukarya",
+              "Reinos Monera, Protista e Fungi: características e importância ecológica/econômica",
+              "Saúde e Parasitologia: bacterioses, protozooses (malária, Chagas, leishmaniose) e verminoses (teníase, esquistossomose, ascaridíase)",
+              "Conceitos de saúde pública, SUS, vacinas, soros terapêuticos e dinâmica epidemiológica (endemia, surto, epidemia, pandemia)"
+            ]
+          },
+          {
+            "ordem": 3,
+            "fase": "Fase 3: Botânica e Fisiologia Animal/Humana",
+            "assuntos": [
+              "Reino Plantae: características e ciclos de vida de briófitas, pteridófitas, gimnospermas e angiospermas",
+              "Anatomia e fisiologia vegetal: tecidos, condução de seivas, transpiração e fitormônios/tropismos",
+              "Reino Animalia: características evolutivas dos principais filos (simetria, folhetos embrionários, celoma)",
+              "Craniados e vertebrados: adaptações morfológicas",
+              "Fisiologia dos sistemas humanos: digestório, cardiovascular, respiratório, excretor, nervoso, endócrino, locomotor e reprodutor",
+              "Embriologia humana e reprodução (gametogênese, fecundação, anexos embrionários, métodos contraceptivos e ISTs)"
+            ]
+          },
+          {
+            "ordem": 4,
+            "fase": "Fase 4: Genética e Evolução",
+            "assuntos": [
+              "1ª e 2ª Leis de Mendel e correlação com a meiose",
+              "Heredogramas e probabilidades genéticas",
+              "Alelos múltiplos, herança de grupos sanguíneos (sistemas ABO e Rh / eritroblastose fetal)",
+              "Ligação gênica (linkage) e herança ligada ao sexo",
+              "Teorias evolutivas: fixismo, lamarckismo, darwinismo e teoria sintética da evolução (neodarwinismo)",
+              "Evidências da evolução e especiação",
+              "Genética de populações",
+              "Evolução humana: características dos hominídeos, dispersão global e diversidade fenotípica"
+            ]
+          },
+          {
+            "ordem": 5,
+            "fase": "Fase 5: Ecologia",
+            "assuntos": [
+              "Conceitos ecológicos fundamentais (habitat, nicho ecológico, população, comunidade e ecossistema)",
+              "Cadeias e teias alimentares, níveis tróficos, pirâmides ecológicas e fluxo de energia",
+              "Ciclos biogeoquímicos (água, carbono, oxigênio e nitrogênio)",
+              "Dinâmica de populações e relações ecológicas (intraespecíficas e interespecíficas)",
+              "Sucessão ecológica",
+              "Biomas brasileiros e ecossistemas aquáticos",
+              "Impactos antrópicos: poluição, bioacumulação trófica, espécies exóticas, pegada ecológica e unidades de conservação"
+            ]
+          }
+        ]
+      },
+      {
+        "area": "Física",
+        "orientacao_pedagogica": "A sequência tradicional newtoniana é excelente. Foque na interpretação gráfica e resolução de listas de exercícios.",
+        "modulos": [
+          {
+            "ordem": 1,
+            "fase": "Fase 1: Fundamentos e Cinemática",
+            "assuntos": [
+              "Grandezas fundamentais e derivadas, Sistema Internacional de Unidades (SI) e análise dimensional",
+              "Grandezas escalares e vetoriais (operações com vetores e decomposição)",
+              "Interpretação de gráficos físicos (área sob a curva e inclinação da reta)",
+              "Cinemática escalar: velocidade e aceleração escalar média e instantânea",
+              "Movimento Uniforme (MU) e Movimento Uniformemente Variado (MUV)",
+              "Queda livre e lançamento vertical",
+              "Vetores na cinemática e lançamentos bidimensionais (horizontal e oblíquo)",
+              "Movimento Circular Uniforme (MCU): velocidade angular, aceleração centrípeta e acoplamento de engrenagens"
+            ]
+          },
+          {
+            "ordem": 2,
+            "fase": "Fase 2: Dinâmica e Leis de Newton",
+            "assuntos": [
+              "As 3 Leis de Newton e conceito de força resultante",
+              "Massa, peso e forças de atrito (estático e cinético)",
+              "Aplicações das Leis de Newton (planos inclinados, máquinas de Atwood com polias)",
+              "Força centrípeta em trajetórias curvilíneas",
+              "Equilíbrio do ponto material e do corpo extenso (Momento ou Torque)",
+              "Trabalho de forças constantes e variáveis",
+              "Energia cinética, energia potencial (gravitacional e elástica) e conservação da energia mecânica",
+              "Potência mecânica e rendimento",
+              "Impulso, quantidade de movimento e conservação da quantidade de movimento (colisões)"
+            ]
+          },
+          {
+            "ordem": 3,
+            "fase": "Fase 3: Gravitação e Hidrostática",
+            "assuntos": [
+              "Modelos de Universo (geocêntrico e heliocêntrico)",
+              "Leis de Kepler e Lei da Gravitação Universal de Newton",
+              "Campo gravitacional, órbitas e satélites geoestacionários",
+              "Massa específica e densidade",
+              "Pressão e pressão hidrostática (Teorema de Stevin e experiência de Torricelli)",
+              "Princípio de Pascal e prensa hidráulica",
+              "Princípio de Arquimedes (empuxo e corpos flutuantes)",
+              "Noções de hidrodinâmica (vazão e Equação de Bernoulli)"
+            ]
+          },
+          {
+            "ordem": 4,
+            "fase": "Fase 4: Termologia e Termodinâmica",
+            "assuntos": [
+              "Temperatura, termômetros e conversão de escalas termométricas (Celsius, Fahrenheit, Kelvin)",
+              "Dilatação térmica de sólidos (linear, superficial, volumétrica) e líquidos",
+              "Calorimetria: calor sensível, capacidade térmica, calor latente e trocas de calor",
+              "Diagramas de fases",
+              "Processos de propagação de calor (condução, convecção e irradiação)",
+              "Gases perfeitos: Equação de Clapeyron e transformações gasosas (isotérmica, isobárica, isocórica)",
+              "1ª e 2ª Leis da Termodinâmica, trabalho de um gás, energia interna e máquinas térmicas (Ciclo de Carnot)"
+            ]
+          },
+          {
+            "ordem": 5,
+            "fase": "Fase 5: Óptica e Ondulatória",
+            "assuntos": [
+              "Princípios da óptica geométrica e formação de sombras/penumbras",
+              "Reflexão da luz: espelhos planos e espelhos esféricos (construção gráfica e estudo analítico)",
+              "Refração luminosa: Lei de Snell-Descartes, ângulo limite, reflexão total e dioptro plano",
+              "Lentes esféricas delgadas: vergência e equações dos pontos conjugados",
+              "Instrumentos ópticos e o olho humano (miopia, hipermetropia, astigmatismo e correção)",
+              "Movimento Harmônico Simples (MHS) e pêndulo simples",
+              "Ondulatória: características das ondas e Equação Fundamental da Ondulatória (v = λ * f)",
+              "Fenômenos ondulatórios: reflexão, refração, difração, interferência, polarização e ressonância",
+              "Acústica: velocidade do som, qualidades fisiológicas (altura, timbre, intensidade), tubos sonoros e Efeito Doppler"
+            ]
+          },
+          {
+            "ordem": 6,
+            "fase": "Fase 6: Eletricidade, Eletromagnetismo e Física Moderna",
+            "assuntos": [
+              "Eletrostática: carga elétrica, processos de eletrização, Lei de Coulomb, campo e potencial elétrico",
+              "Eletrodinâmica: corrente elétrica, ddp, Leis de Ohm, resistividade e potência elétrica (kWh)",
+              "Associação de resistores, geradores, receptores e circuitos elétricos (Leis de Kirchhoff)",
+              "Capacitores e instalações elétricas residenciais",
+              "Campo magnético de ímãs e correntes elétricas (fio, espira e solenoide)",
+              "Força magnética sobre cargas em movimento e condutores",
+              "Indução eletromagnética: Lei de Lenz, Lei de Faraday-Neumann e transformadores",
+              "Física Moderna: fótons, modelo de Bohr, efeito fotoelétrico, dualidade onda-partícula e noções de relatividade"
+            ]
+          }
+        ]
+      },
+      {
+        "area": "História",
+        "orientacao_pedagogica": "Estude em paralelo por eras históricas, conectando eventos globais ao contexto do Brasil e das Américas.",
+        "modulos": [
+          {
+            "ordem": 1,
+            "fase": "Bloco 1: Da Pré-História ao Medievo",
+            "assuntos": [
+              "Origem humana, processos de sedentarização e registros rupestres",
+              "Antiguidade Oriental e África Antiga (Mesopotâmia, Egito, Núbia e Reino de Axum)",
+              "Antiguidade Clássica: democracia ateniense, República/Império Romano e escravismo",
+              "Período Medieval: feudalismo, diversidade religiosa (cristianismo, islamismo, judaísmo) e vida cultural no Medievo europeu e africano"
+            ]
+          },
+          {
+            "ordem": 2,
+            "fase": "Bloco 2: Mundo Moderno e Colonização das Américas",
+            "assuntos": [
+              "Renascimento Cultural, Reformas Religiosas e formação dos Estados Nacionais",
+              "Povos pré-colombianos na América (Maias, Astecas e Incas)",
+              "Grandes Navegações, espaço atlântico, reinos africanos e tráfico de escravizados",
+              "Colonização espanhola, inglesa, francesa e holandesa na América",
+              "Brasil Colônia: primeiros habitantes indígenas, ocupação territorial, ciclos econômicos (açúcar e ouro) e escravidão",
+              "Revoltas coloniais e a transferência da Família Real para o Brasil (1808)"
+            ]
+          },
+          {
+            "ordem": 3,
+            "fase": "Bloco 3: Era das Revoluções e o Século XIX",
+            "assuntos": [
+              "Iluminismo, Liberalismo e a 1ª Revolução Industrial",
+              "Revolução Francesa e a Era Napoleônica",
+              "Processos de Independência nas Américas: EUA, Revolução Haitiana e América Espanhola",
+              "Brasil Imperial: Independência, Primeiro Reinado, Período Regencial e Segundo Reinado",
+              "Economia cafeeira, Guerra do Paraguai, imigração e abolição da escravidão no Brasil",
+              "Imperialismo e neocolonialismo na África e na Ásia no século XIX"
+            ]
+          },
+          {
+            "ordem": 4,
+            "fase": "Bloco 4: O Século XX - Guerras, Totalitarismos e Conflitos",
+            "assuntos": [
+              "Belle Époque e Primeira Guerra Mundial",
+              "Revolução Russa, Crise de 1929 e ascensão do Nazifascismo",
+              "Segunda Guerra Mundial e criação da Declaração Universal dos Direitos Humanos",
+              "Guerra Fria, corrida armamentista e descolonização da África e Ásia",
+              "EUA e América Latina: Doutrina Monroe, Big Stick, Revolução Mexicana e regimes civil-militares",
+              "Brasil República: República Velha (oligarquias), Era Vargas (1930-1945), Período Democrático (1945-1964) e Ditadura Civil-Militar (1964-1985)"
+            ]
+          },
+          {
+            "ordem": 5,
+            "fase": "Bloco 5: O Mundo Contemporâneo e o Século XXI",
+            "assuntos": [
+              "Colapso da URSS, Nova Ordem Mundial, Globalização e Neoliberalismo",
+              "Organismos internacionais (FMI, OMC, Banco Mundial) e ascensão da China",
+              "Redemocratização do Brasil, Constituição de 1988 e crises políticas recentes",
+              "Conflitos étnicos e religiosos atuais no Oriente Médio e África",
+              "Desafios contemporâneos: racismo estrutural, migrações, sustentabilidade e novas tecnologias"
+            ]
+          }
+        ]
+      },
+      {
+        "area": "Geografia",
+        "orientacao_pedagogica": "Inicie pela Cartografia e Geografia Física para obter os alicerces necessários para a análise do espaço socioeconômico e geopolítico.",
+        "modulos": [
+          {
+            "ordem": 1,
+            "fase": "Fase 1: Cartografia e Tecnologias de Representação",
+            "assuntos": [
+              "Coordenadas geográficas, localização, fusos horários e projeções cartográficas",
+              "Escala cartográfica numérica e gráfica (cálculo de distâncias)",
+              "Leitura e interpretação de mapas temáticos, cartas e anamorfoses",
+              "Tecnologias: fotografias aéreas, imagens de satélite, GPS e Sensoriamento Remoto/SIG"
+            ]
+          },
+          {
+            "ordem": 2,
+            "fase": "Fase 2: Geografia Física e Meio Ambiente",
+            "assuntos": [
+              "Estrutura geológica da Terra, tectonismo, vulcanismo e eras geológicas",
+              "Classificação das rochas, formação de solos e relevo (agentes internos e externos/intemperismo)",
+              "Climatologia: fatores/elementos do clima, dinâmica das massas de ar e climas do Brasil e do mundo",
+              "Hidrografia: bacias hidrográficas mundiais e brasileiras e geopolítica da água",
+              "Domínios morfoclimáticos e biomas mundiais e brasileiros",
+              "Impactos ambientais: mudanças climáticas, efeito estufa, desmatamento, degradação de solos e conferências internacionais do clima"
+            ]
+          },
+          {
+            "ordem": 3,
+            "fase": "Fase 3: Geografia Humana, Econômica e Geopolítica",
+            "assuntos": [
+              "Demografia: conceitos populacionais, transição demográfica, pirâmides etárias e fluxos migratórios",
+              "Geografia Urbana: industrialização, urbanização, metropolização, conurbação, megalópoles e segregação socioespacial",
+              "Espaço Rural: sistemas agrícolas, modernização do campo e estrutura agrária brasileira",
+              "Matrizes energéticas mundiais e do Brasil (fontes renováveis e não renováveis)",
+              "Redes de transporte, comunicações e circulação espacial",
+              "Globalização, comércio internacional, blocos econômicos e a posição do Brasil no comércio global",
+              "Divisão regional do Brasil (IBGE e complexos geoeconômicos)"
+            ]
+          }
+        ]
+      },
+      {
+        "area": "Língua Portuguesa e Literaturas",
+        "orientacao_pedagogica": "Divida o estudo em duas frentes: treino contínuo de interpretação textual aliado à revisão sistemática de gramática e escolas literárias.",
+        "modulos": [
+          {
+            "ordem": 1,
+            "fase": "Eixo 1: Interpretação de Texto e Semântica (Prática Contínua)",
+            "assuntos": [
+              "Significação explícita e implícita, denotação e conotação",
+              "Mecanismos de coesão textual (lexical, referencial, anafórica) e coerência",
+              "Tipologias textuais (narração, descrição, dissertação) e gêneros textuais variados",
+              "Discurso direto, indireto e indireto livre",
+              "Figuras de linguagem (metáfora, metonímia, antítese, paradoxo, hipérbole, ironia)",
+              "Intertextualidade, interdiscursividade e análise de textos verbais e não verbais (charges, cartuns)"
+            ]
+          },
+          {
+            "ordem": 2,
+            "fase": "Eixo 2: Gramática Normativa e Morfossintaxe",
+            "assuntos": [
+              "Norma ortográfica oficial (regras de acentuação e Novo Acordo Ortográfico)",
+              "Variações linguísticas e níveis de formalidade/informalidade",
+              "Estrutura e processos de formação de palavras (derivação e composição)",
+              "Classes gramaticais: substantivo, adjetivo, artigo, numeral, pronome, verbo, advérbio, preposição, conjunção e interjeição",
+              "Flexão nominal e flexão verbal (tempos, modos, vozes e correlação verbal)",
+              "Sintaxe do período simples (termos essenciais, integrantes e acessórios da oração)",
+              "Sintaxe do período composto (coordenação e subordinação)",
+              "Concordância verbal e nominal",
+              "Regência verbal e nominal (emprego do sinal indicativo de crase)"
+            ]
+          },
+          {
+            "ordem": 3,
+            "fase": "Eixo 3: Literatura Brasileira, Portuguesa, Africana e Indígena",
+            "assuntos": [
+              "Literatura Portuguesa: Trovadorismo, Humanismo, Classicismo (Camões), Realismo (Eça de Queirós) e Modernismo (Fernando Pessoa)",
+              "Literatura Brasileira: Quinhentismo, Barroco (Gregório de Matos), Arcadismo, Romantismo, Realismo/Naturalismo (Machado de Assis), Parnasianismo e Simbolismo",
+              "Modernismo Brasileiro: 1ª Fase (1922), 2ª Fase (Geração de 30 - romance regionalista e poesia de 30) e 3ª Fase (Geração de 45/Pós-Modernismo)",
+              "Literaturas Africanas em Língua Portuguesa: autores Mia Couto, Paulina Chiziane, Luandino Vieira, Pepetela, Ana Paula Tavares e Ondjaki",
+              "Literatura Indígena em Língua Portuguesa: autores Eliane Potiguara, Daniel Munduruku, Cristino Wapichana, Ailton Krenak e Davi Kopenawa"
+            ]
+          }
+        ]
+      },
+      {
+        "area": "Língua Inglesa",
+        "orientacao_pedagogica": "Foco exclusivo em leitura instrumental e compreensão textual contextualizada em múltiplos gêneros.",
+        "modulos": [
+          {
+            "ordem": 1,
+            "fase": "Fase Única: Leitura Instrumental e Vocabulário Contextualizado",
+            "assuntos": [
+              "Estratégias de leitura rápida: Skimming (ideia geral) e Scanning (busca de dados específicos)",
+              "Identificação do gênero textual, propósito comunicativo e público-alvo",
+              "Localização de informações explícitas e inferência de sentidos implícitos",
+              "Coesão textual em inglês: referência pronominal e elipses",
+              "Formação de palavras: prefixos e sufixos mais comuns (ex: -able, -ness, un-, dis-)",
+              "Marcadores discursivos e conectivos (conjunções de adição, contraste, causa, consequência e condição)",
+              "Verbos modais e seus valores semânticos (can, could, should, must, may, might)",
+              "Variações linguísticas ortográficas e lexicais (Inglês Britânico vs. Americano)"
+            ]
+          }
+        ]
+      },
+      {
+        "area": "Filosofia e Sociologia",
+        "orientacao_pedagogica": "Concentre-se nos conceitos estruturantes de cada pensador e relacione-os com problemas e dilemas do mundo contemporâneo.",
+        "modulos": [
+          {
+            "ordem": 1,
+            "fase": "Filosofia: Módulo 1 (Origens, Epistemologia e Política)",
+            "assuntos": [
+              "Surgimento da Filosofia: passagem do pensamento mítico ao discurso racional (Logos)",
+              "Filosofia Antiga: Sócrates, Platão e Aristóteles",
+              "Epistemologia: Racionalismo (Descartes) vs. Empirismo (Locke, Hume) e Crítica Kantiana",
+              "Senso comum vs. conhecimento científico",
+              "Filosofia Política: Estado Absoluto, Contratualismo (Hobbes, Locke, Rousseau) e Maquiavel",
+              "Concepção liberal do Estado e críticas marxistas"
+            ]
+          },
+          {
+            "ordem": 2,
+            "fase": "Filosofia: Módulo 2 (Ética, Estética e Contemporaneidade)",
+            "assuntos": [
+              "Concepções sobre a ação ética: liberdade, determinismo e compatibilismo",
+              "Teorias éticas: Ética das Virtudes, Utilitarismo e Ética do Dever (Kant)",
+              "Questões éticas contemporâneas: Bioética, relações de gênero e novas identidades",
+              "Ética, tecnologia e empatia nas relações intergeracionais",
+              "Estética: conceitos de arte, natureza e Indústria Cultural no mundo contemporâneo"
+            ]
+          },
+          {
+            "ordem": 3,
+            "fase": "Sociologia: Módulo 1 (Fundamentos e Pensadores Clássicos)",
+            "assuntos": [
+              "A constituição da sociedade moderna e o surgimento da Sociologia",
+              "Émile Durkheim: o método sociológico, fato social, solidariedade e anomia",
+              "Max Weber: teoria da ação social, tipos ideais e ética protestante",
+              "Karl Marx: materialismo histórico, divisão social do trabalho, mais-valia e alienação"
+            ]
+          },
+          {
+            "ordem": 4,
+            "fase": "Sociologia: Módulo 2 (Cultura, Trabalho e Sociedade Brasileira)",
+            "assuntos": [
+              "Indivíduo e sociedade: instituições sociais, socialização e construção de identidades",
+              "Conceito antropológico de cultura, etnocentrismo e relativismo cultural",
+              "Consumismo, Indústria Cultural e manipulação da informação",
+              "Mundo do trabalho: taylorismo, fordismo, flexibilização produtiva e precarização/trabalho escravo contemporâneo",
+              "Estado, representação política, partidos e movimentos sociais",
+              "Sociedade Brasileira: cidadania, violência no campo e na cidade, pluralismo e racismo estrutural"
+            ]
+          }
+        ]
+      },
+      {
+        "area": "Redação",
+        "orientacao_pedagogica": "Prática quinzenal evoluindo para semanal. Domínio rigoroso da estrutura dissertativa formal cobrada pela Fundação VUNESP.",
+        "modulos": [
+          {
+            "ordem": 1,
+            "fase": "Etapa 1: Estrutura Dissertativo-Argumentativa e Critérios VUNESP",
+            "assuntos": [
+              "Gênero dissertativo-argumentativo: impessoalidade (3ª pessoa) e defesa de ponto de vista claro",
+              "Macroestrutura padrão em 4 parágrafos (Introdução com tese, D1, D2 e Conclusão reflexiva)",
+              "Critério A: Atendimento integral à frase temática e leitura crítica dos textos motivadores",
+              "Critério B: Estrutura textual, coerência lógica e repertório sociocultural legítimo e produtivo",
+              "Critério C: Domínio da norma-padrão escrita, precisão vocabular e concordância/regência",
+              "Critério D: Coesão referencial/sequencial e emprego correto de conectivos interparágrafos",
+              "Regras eliminatórias: textos com menos de 20 linhas, plágio/cópia da coletânea e marcas de identificação"
+            ]
+          },
+          {
+            "ordem": 2,
+            "fase": "Etapa 2: Rotina de Produção e Repertórios Temáticos",
+            "assuntos": [
+              "Eixo Temático 1: Tecnologia, privacidade e transformações nas relações humanas",
+              "Eixo Temático 2: Meio ambiente, sustentabilidade e crises ecológicas",
+              "Eixo Temático 3: Cidadania, saúde pública, educação e desigualdades no Brasil",
+              "Eixo Temático 4: Ética, liberdade de expressão e dilemas morais contemporâneos",
+              "Treino prático: redação cronometrada (máximo de 1h15min incluindo rascunho e passagem a limpo)"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

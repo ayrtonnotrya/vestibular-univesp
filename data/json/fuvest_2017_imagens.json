@@ -1,0 +1,525 @@
+{
+  "exame": "fuvest_2017",
+  "figuras_coordenadas": {
+    "1": [
+      {
+        "pagina": 2,
+        "tipo": "cartum",
+        "elemento": "Cartaz com o texto 'MÃO ERUDITA, OLHO SELVAGEM'",
+        "bbox": [
+          25,
+          242,
+          75,
+          440
+        ]
+      }
+    ],
+    "14": [
+      {
+        "pagina": 5,
+        "tipo": "imagem",
+        "elemento": "Amoreira africana",
+        "bbox": [
+          25,
+          75,
+          120,
+          245
+        ]
+      }
+    ],
+    "17": [
+      {
+        "pagina": 6,
+        "tipo": "imagem",
+        "elemento": "Fachada e nave da igreja de São Francisco de Assis",
+        "bbox": [
+          50,
+          100,
+          230,
+          900
+        ]
+      }
+    ],
+    "24": [
+      {
+        "pagina": 8,
+        "tipo": "imagem",
+        "elemento": "Manuscrito medieval de Percival",
+        "bbox": [
+          110,
+          90,
+          195,
+          380
+        ]
+      }
+    ],
+    "28": [
+      {
+        "pagina": 9,
+        "tipo": "grafico",
+        "elemento": "Mapa das rotas eurasianas de comércio e Império Otomano",
+        "bbox": [
+          100,
+          80,
+          260,
+          310
+        ]
+      }
+    ],
+    "29": [
+      {
+        "pagina": 9,
+        "tipo": "tabela",
+        "elemento": "Tabela de níveis per capita de industrialização, 1750-1913",
+        "bbox": [
+          50,
+          490,
+          245,
+          880
+        ]
+      }
+    ],
+    "31": [
+      {
+        "pagina": 10,
+        "tipo": "fotografia",
+        "elemento": "Foto de Nilüfer Demir, Bodrum, Turquia",
+        "bbox": [
+          185,
+          730,
+          245,
+          870
+        ]
+      }
+    ],
+    "35": [
+      {
+        "pagina": 12,
+        "tipo": "imagem",
+        "elemento": "Transformações do curso do rio Sena",
+        "bbox": [
+          160,
+          70,
+          285,
+          920
+        ]
+      }
+    ],
+    "37": [
+      {
+        "pagina": 13,
+        "tipo": "grafico",
+        "elemento": "Anamorfoses geográficas I e II",
+        "bbox": [
+          110,
+          180,
+          380,
+          915
+        ]
+      }
+    ],
+    "39": [
+      {
+        "pagina": 13,
+        "tipo": "grafico",
+        "elemento": "Corte transversal A-B área serrana",
+        "bbox": [
+          570,
+          510,
+          750,
+          915
+        ]
+      }
+    ],
+    "40": [
+      {
+        "pagina": 14,
+        "tipo": "grafico",
+        "elemento": "Gráfico de emissão de gases do efeito estufa por setor econômico",
+        "bbox": [
+          210,
+          80,
+          550,
+          455
+        ]
+      }
+    ],
+    "41": [
+      {
+        "pagina": 14,
+        "tipo": "imagem",
+        "elemento": "Manchete jornal O Povo de 1932",
+        "bbox": [
+          90,
+          500,
+          335,
+          915
+        ]
+      }
+    ],
+    "43": [
+      {
+        "pagina": 15,
+        "tipo": "grafico",
+        "elemento": "Mapa de favelas no município de São Paulo",
+        "bbox": [
+          200,
+          500,
+          610,
+          890
+        ]
+      }
+    ],
+    "45": [
+      {
+        "pagina": 16,
+        "tipo": "tabela",
+        "elemento": "Tabela de patrimônios da humanidade da Unesco no Brasil",
+        "bbox": [
+          310,
+          510,
+          465,
+          915
+        ]
+      }
+    ],
+    "46": [
+      {
+        "pagina": 16,
+        "tipo": "grafico",
+        "elemento": "Esquema simplificado do PDBG e Baía de Guanabara",
+        "bbox": [
+          505,
+          55,
+          875,
+          915
+        ]
+      }
+    ],
+    "48": [
+      {
+        "pagina": 17,
+        "tipo": "grafico",
+        "elemento": "Pirâmides etárias de populações de plantas (A, B, C)",
+        "bbox": [
+          520,
+          60,
+          680,
+          475
+        ]
+      }
+    ],
+    "49": [
+      {
+        "pagina": 17,
+        "tipo": "imagem",
+        "elemento": "Heredogramas das alternativas a até e",
+        "bbox": [
+          185,
+          550,
+          335,
+          915
+        ]
+      }
+    ],
+    "51": [
+      {
+        "pagina": 17,
+        "tipo": "tabela",
+        "elemento": "Tabela de transporte e armazenamento de glicídios",
+        "bbox": [
+          760,
+          500,
+          885,
+          915
+        ]
+      }
+    ],
+    "52": [
+      {
+        "pagina": 18,
+        "tipo": "tabela",
+        "elemento": "Tabela da questão 52",
+        "bbox": [
+          215,
+          110,
+          335,
+          475
+        ]
+      }
+    ],
+    "54": [
+      {
+        "pagina": 18,
+        "tipo": "tabela",
+        "elemento": "Tabela da questão 54",
+        "bbox": [
+          680,
+          110,
+          815,
+          475
+        ]
+      }
+    ],
+    "56": [
+      {
+        "pagina": 18,
+        "tipo": "grafico",
+        "elemento": "Esquema da circulação sanguínea em peixes",
+        "bbox": [
+          570,
+          550,
+          750,
+          915
+        ]
+      }
+    ],
+    "57": [
+      {
+        "pagina": 19,
+        "tipo": "grafico",
+        "elemento": "Gráficos a, b, c, d, e de velocidade em função do tempo",
+        "bbox": [
+          210,
+          80,
+          380,
+          475
+        ]
+      }
+    ],
+    "58": [
+      {
+        "pagina": 19,
+        "tipo": "imagem",
+        "elemento": "Trajetórias na câmara de nuvens e vetores a até e",
+        "bbox": [
+          655,
+          60,
+          915,
+          475
+        ]
+      }
+    ],
+    "59": [
+      {
+        "pagina": 19,
+        "tipo": "grafico",
+        "elemento": "Gráfico de F_R versus v",
+        "bbox": [
+          230,
+          590,
+          380,
+          915
+        ]
+      }
+    ],
+    "61": [
+      {
+        "pagina": 20,
+        "tipo": "grafico",
+        "elemento": "Esquemas I, II, III, IV de arranjos de fios",
+        "bbox": [
+          180,
+          60,
+          275,
+          475
+        ]
+      }
+    ],
+    "62": [
+      {
+        "pagina": 20,
+        "tipo": "imagem",
+        "elemento": "Especificações da bateria e do carregador",
+        "bbox": [
+          495,
+          205,
+          610,
+          335
+        ]
+      }
+    ],
+    "63": [
+      {
+        "pagina": 20,
+        "tipo": "grafico",
+        "elemento": "Gráfico de onda harmônica transversal",
+        "bbox": [
+          70,
+          500,
+          165,
+          915
+        ]
+      }
+    ],
+    "65": [
+      {
+        "pagina": 21,
+        "tipo": "grafico",
+        "elemento": "Esquema experimental com bloco de poliestireno e gerador de micro-ondas",
+        "bbox": [
+          250,
+          60,
+          385,
+          380
+        ]
+      }
+    ],
+    "68": [
+      {
+        "pagina": 21,
+        "tipo": "grafico",
+        "elemento": "Gráfico de energia potencial de ligação do ozônio",
+        "bbox": [
+          490,
+          550,
+          645,
+          915
+        ]
+      }
+    ],
+    "69": [
+      {
+        "pagina": 22,
+        "tipo": "tabela",
+        "elemento": "Quadro de transformações de nutrientes em função do pH",
+        "bbox": [
+          110,
+          90,
+          330,
+          475
+        ]
+      }
+    ],
+    "71": [
+      {
+        "pagina": 22,
+        "tipo": "tabela",
+        "elemento": "Tabela de reatividade de metais e esquema de pilha",
+        "bbox": [
+          215,
+          500,
+          530,
+          915
+        ]
+      }
+    ],
+    "72": [
+      {
+        "pagina": 23,
+        "tipo": "grafico",
+        "elemento": "Figura 1, Figura 2 e Tabela de dados experimentais",
+        "bbox": [
+          230,
+          400,
+          380,
+          915
+        ]
+      }
+    ],
+    "74": [
+      {
+        "pagina": 23,
+        "tipo": "grafico",
+        "elemento": "Equação química de tratamento do para-brisa",
+        "bbox": [
+          655,
+          500,
+          760,
+          915
+        ]
+      }
+    ],
+    "75": [
+      {
+        "pagina": 24,
+        "tipo": "tabela",
+        "elemento": "Tabela de energia de ligação de moléculas",
+        "bbox": [
+          205,
+          500,
+          280,
+          915
+        ]
+      }
+    ],
+    "76": [
+      {
+        "pagina": 24,
+        "tipo": "grafico",
+        "elemento": "Esquema de célula a combustível",
+        "bbox": [
+          570,
+          110,
+          785,
+          475
+        ]
+      }
+    ],
+    "77": [
+      {
+        "pagina": 24,
+        "tipo": "grafico",
+        "elemento": "Gráfico de saturação de Hb por O2 versus pO2",
+        "bbox": [
+          310,
+          570,
+          475,
+          915
+        ]
+      }
+    ],
+    "78": [
+      {
+        "pagina": 25,
+        "tipo": "imagem",
+        "elemento": "Esquema da reação de L-Dopa e estruturas a até e",
+        "bbox": [
+          110,
+          65,
+          380,
+          475
+        ]
+      }
+    ],
+    "81": [
+      {
+        "pagina": 26,
+        "tipo": "figura",
+        "elemento": "Paralelepípedo retângulo ABCDEFGH",
+        "bbox": [
+          310,
+          140,
+          440,
+          415
+        ]
+      }
+    ],
+    "84": [
+      {
+        "pagina": 26,
+        "tipo": "figura",
+        "elemento": "Retângulo ABCD com divisões geométricas",
+        "bbox": [
+          495,
+          550,
+          670,
+          860
+        ]
+      }
+    ],
+    "85": [
+      {
+        "pagina": 27,
+        "tipo": "figura",
+        "elemento": "Retângulo ABCD e triângulo AEF",
+        "bbox": [
+          185,
+          165,
+          275,
+          420
+        ]
+      }
+    ]
+  }
+}

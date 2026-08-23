@@ -1,0 +1,2520 @@
+{
+  "exame": "fuvest_2018_questoes",
+  "ano": 2018,
+  "semestre": null,
+  "fonte_questoes": "data/fuvest_2018_questoes.pdf",
+  "fonte_gabarito": "data/fuvest_2018_gabarito.pdf",
+  "total_questoes": 90,
+  "questoes": [
+    {
+      "numero": 1,
+      "tipo": "objetiva",
+      "enunciado": "Um fabricante de acessórios de montanhismo quer projetar um colchão de espuma apropriado para ser utilizado por alpinistas em regiões frias. Considere que a taxa de transferência de calor ao solo por uma pessoa dormindo confortavelmente seja 90 kcal/hora e que a transferência de calor entre a pessoa e o solo se dê exclusivamente pelo mecanismo de condução térmica através da espuma do colchão. Nestas condições, o gráfico representa a taxa de transferência de calor, em J/s, através da espuma do colchão, em função de sua espessura, em cm.\n\nConsiderando 1 cal = 4 J, a menor espessura do colchão, em cm, para que a pessoa durma confortavelmente é",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 2: Gráfico da taxa de transferência de calor (J/s) em função da espessura (cm), variando de 0 a 6 cm e de 0 a 400 J/s."
+      ],
+      "alternativas": {
+        "a": "1,0.",
+        "b": "1,5.",
+        "c": "2,2.",
+        "d": "2,8.",
+        "e": "3,9."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Processos de propagação de calor (condução, convecção e irradiação)",
+            "Grandezas fundamentais e derivadas, Sistema Internacional de Unidades (SI) e análise dimensional"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 2,
+      "tipo": "objetiva",
+      "enunciado": "Câmeras digitais, como a esquematizada na figura, possuem mecanismos automáticos de focalização.\n\nEm uma câmera digital que utilize uma lente convergente com 20 mm de distância focal, a distância, em mm, entre a lente e o sensor da câmera, quando um objeto a 2 m estiver corretamente focalizado, é, aproximadamente,",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 2: Esquema de uma câmera digital mostrando o objeto, a lente convergente e o sensor."
+      ],
+      "alternativas": {
+        "a": "1.",
+        "b": "5.",
+        "c": "10.",
+        "d": "15.",
+        "e": "20."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Lentes esféricas delgadas: vergência e equações dos pontos conjugados",
+            "Instrumentos ópticos e o olho humano (miopia, hipermetropia, astigmatismo e correção)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 3,
+      "tipo": "objetiva",
+      "enunciado": "Furacões são sistemas físicos que liberam uma enorme quantidade de energia por meio de diferentes tipos de processos, sendo um deles a condensação do vapor em água. De acordo com o Laboratório Oceanográfico e Meteorológico do Atlântico, um furacão produz, em média, 1,5 cm de chuva por dia em uma região plana de 660 km de raio. Nesse caso, a quantidade de energia por unidade de tempo envolvida no processo de condensação do vapor em água da chuva é, aproximadamente,",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 2: Caixa com constantes Note e adote: π = 3, Calor latente de vaporização da água: 2 x 10⁶ J/kg, Densidade da água: 10³ kg/m³, 1 dia = 8,6 x 10⁴ s."
+      ],
+      "alternativas": {
+        "a": "3,8 x 10¹⁵ W.",
+        "b": "4,6 x 10¹⁴ W.",
+        "c": "2,1 x 10¹³ W.",
+        "d": "1,2 x 10¹² W.",
+        "e": "1,1 x 10¹¹ W."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Calorimetria: calor sensível, capacidade térmica, calor latente e trocas de calor",
+            "Potência mecânica e rendimento"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 4,
+      "tipo": "objetiva",
+      "enunciado": "Em uma tribo indígena de uma ilha tropical, o teste derradeiro de coragem de um jovem é deixar-se cair em um rio, do alto de um penhasco. Um desses jovens se soltou verticalmente, a partir do repouso, de uma altura de 45 m em relação à superfície da água. O tempo decorrido, em segundos, entre o instante em que o jovem iniciou sua queda e aquele em que um espectador, parado no alto do penhasco, ouviu o barulho do impacto do jovem na água é, aproximadamente,",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 2: Note e adote com dados de gravidade e velocidade do som."
+      ],
+      "alternativas": {
+        "a": "3,1.",
+        "b": "4,3.",
+        "c": "5,2.",
+        "d": "6,2.",
+        "e": "7,0."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Queda livre e lançamento vertical",
+            "Movimento Uniforme (MU) e Movimento Uniformemente Variado (MUV)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 5,
+      "tipo": "objetiva",
+      "enunciado": "Ondas na superfície de líquidos têm velocidades que dependem da profundidade do líquido e da aceleração da gravidade, desde que se propaguem em águas rasas. O gráfico representa o módulo v da velocidade da onda em função da profundidade h da água.\n\nUma onda no mar, onde a profundidade da água é 4,0 m, tem comprimento de onda igual a 50 m. Na posição em que a profundidade da água é 1,0 m, essa onda tem comprimento de onda, em m, aproximadamente igual a",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 3: Gráfico de velocidade v em função da profundidade h."
+      ],
+      "alternativas": {
+        "a": "8.",
+        "b": "12.",
+        "c": "25.",
+        "d": "35.",
+        "e": "50."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Ondulatória: características das ondas e Equação Fundamental da Ondulatória (v = λ * f)",
+            "Fenômenos ondulatórios: reflexão, refração, difração, interferência, polarização e ressonância"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 6,
+      "tipo": "objetiva",
+      "enunciado": "Uma caminhonete, de massa 2.000 kg, bateu na traseira de um sedã, de massa 1.000 kg, que estava parado no semáforo, em uma rua horizontal. Após o impacto, os dois veículos deslizaram como um único bloco. Para a perícia, o motorista da caminhonete alegou que estava a menos de 20 km/h quando o acidente ocorreu. A perícia constatou, analisando as marcas de frenagem, que a caminhonete arrastou o sedã, em linha reta, por uma distância de 10 m. Com este dado e estimando que o coeficiente de atrito cinético entre os pneus dos veículos e o asfalto, no local do acidente, era 0,5, a perícia concluiu que a velocidade real da caminhonete, em km/h, no momento da colisão era, aproximadamente,",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "10.",
+        "b": "15.",
+        "c": "36.",
+        "d": "48.",
+        "e": "54."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Impulso, quantidade de movimento e conservação da quantidade de movimento (colisões)",
+            "Massa, peso e forças de atrito (estático e cinético)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 7,
+      "tipo": "objetiva",
+      "enunciado": "O projeto para um balanço de corda única de um parque de diversões exige que a corda do brinquedo tenha um comprimento de 2,0 m. O projetista tem que escolher a corda adequada para o balanço, a partir de cinco ofertas disponíveis no mercado, cada uma delas com distintas tensões de ruptura. A tabela apresenta essas opções.\n\nEle tem também que incluir no projeto uma margem de segurança; esse fator de segurança é tipicamente 7, ou seja, o balanço deverá suportar cargas sete vezes a tensão no ponto mais baixo da trajetória. Admitindo que uma pessoa de 60 kg, ao se balançar, parta do repouso, de uma altura de 1,2 m em relação à posição de equilíbrio do balanço, as cordas que poderiam ser adequadas para o projeto são",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 3: Tabela de cordas (I a V) e suas respectivas tensões de ruptura (N)."
+      ],
+      "alternativas": {
+        "a": "I, II, III, IV e V.",
+        "b": "II, III, IV e V, apenas.",
+        "c": "III, IV e V, apenas.",
+        "d": "IV e V, apenas.",
+        "e": "V, apenas."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Energia cinética, energia potencial (gravitacional e elástica) e conservação da energia mecânica",
+            "Força centrípeta em trajetórias curvilíneas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 8,
+      "tipo": "objetiva",
+      "enunciado": "O ano de 2017 marca o trigésimo aniversário de um grave acidente de contaminação radioativa, ocorrido em Goiânia em 1987. Na ocasião, uma fonte radioativa, utilizada em um equipamento de radioterapia, foi retirada do prédio abandonado de um hospital e, posteriormente, aberta no ferro-velho para onde fora levada. O brilho azulado do pó de césio-137 fascinou o dono do ferro-velho, que compartilhou porções do material altamente radioativo com sua família e amigos, o que teve consequências trágicas. O tempo necessário para que metade da quantidade de césio-137 existente em uma fonte se transforme no elemento não radioativo bário-137 é trinta anos. Em relação a 1987, a fração de césio-137, em %, que existirá na fonte radioativa 120 anos após o acidente, será, aproximadamente,",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "3,1.",
+        "b": "6,3.",
+        "c": "12,5.",
+        "d": "25,0.",
+        "e": "50,0."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Radioatividade: emissões nucleares, meia-vida, datação, fissão e fusão nuclear"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 9,
+      "tipo": "objetiva",
+      "enunciado": "Na figura, A e B representam duas placas metálicas; a diferença de potencial entre elas é V_B – V_A = 2,0 x 10⁴ V. As linhas tracejadas 1 e 2 representam duas possíveis trajetórias de um elétron, no plano da figura.\n\nConsidere a carga do elétron igual a –1,6 x 10⁻¹⁹ C e as seguintes afirmações com relação à energia cinética de um elétron que sai do ponto X na placa A e atinge a placa B:\n\nI. Se o elétron tiver velocidade inicial nula, sua energia cinética, ao atingir a placa B, será 3,2 x 10⁻¹⁵ J.\nII. A variação da energia cinética do elétron é a mesma, independentemente de ele ter percorrido as trajetórias 1 ou 2.\nIII. O trabalho realizado pela força elétrica sobre o elétron na trajetória 2 é maior do que o realizado sobre o elétron na trajetória 1.\n\nApenas é correto o que se afirma em",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 4: Esquema com placas A e B, ponto X e trajetórias 1 e 2."
+      ],
+      "alternativas": {
+        "a": "I.",
+        "b": "II.",
+        "c": "III.",
+        "d": "I e II.",
+        "e": "I e III."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Eletrostática: carga elétrica, processos de eletrização, Lei de Coulomb, campo e potencial elétrico"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 10,
+      "tipo": "objetiva",
+      "enunciado": "Atualmente são usados LEDs (Light Emitting Diode) na iluminação doméstica. LEDs são dispositivos semicondutores que conduzem a corrente elétrica apenas em um sentido. Na figura, há um circuito de alimentação de um LED (L) de 8 W, que opera com 4 V, sendo alimentado por uma fonte (F) de 6 V.\n\nO valor da resistência do resistor (R), em Ω, necessário para que o LED opere com seus valores nominais é, aproximadamente,",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 4: Circuito elétrico com fonte F, resistor R e LED L."
+      ],
+      "alternativas": {
+        "a": "1,0.",
+        "b": "2,0.",
+        "c": "3,0.",
+        "d": "4,0.",
+        "e": "5,0."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Eletrodinâmica: corrente elétrica, ddp, Leis de Ohm, resistividade e potência elétrica (kWh)",
+            "Associação de resistores, geradores, receptores e circuitos elétricos (Leis de Kirchhoff)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 11,
+      "tipo": "objetiva",
+      "enunciado": "Em 2016, as lâmpadas incandescentes tiveram sua venda definitivamente proibida no país, por razões energéticas. Uma lâmpada fluorescente, considerada energeticamente eficiente, consome 28 W de potência e pode produzir a mesma intensidade luminosa que uma lâmpada incandescente consumindo a potência de 100 W. A vida útil média da lâmpada fluorescente é de 10.000 h e seu preço médio é de R$ 20,00, enquanto a lâmpada incandescente tem vida útil de 1.000 h e cada unidade custaria, hoje, R$ 4,00. O custo da energia é de R$ 0,25 por quilowatt-hora. O valor total, em reais, que pode ser poupado usando uma lâmpada fluorescente, ao longo da sua vida útil, ao invés de usar lâmpadas incandescentes para obter a mesma intensidade luminosa, durante o mesmo período de tempo, é",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "90,00.",
+        "b": "140,00.",
+        "c": "200,00.",
+        "d": "250,00.",
+        "e": "290,00."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Eletrodinâmica: corrente elétrica, ddp, Leis de Ohm, resistividade e potência elétrica (kWh)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 12,
+      "tipo": "objetiva",
+      "enunciado": "Uma das substâncias utilizadas em desinfetantes comerciais é o perácido de fórmula CH₃CO₃H.\n\nA formulação de um dado desinfetante encontrado no comércio consiste em uma solução aquosa na qual existem espécies químicas em equilíbrio, como representado a seguir. (Nessa representação, a fórmula do composto 1 não é apresentada.)\n\n[Fórmula estrutural da reação]\n\nAo abrir um frasco desse desinfetante comercial, é possível sentir o odor característico de um produto de uso doméstico. Esse odor é de",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 5: Equação química em estrutura de Lewis/traço mostrando a conversão de perácido a ácido acético ou similar."
+      ],
+      "alternativas": {
+        "a": "amônia, presente em produtos de limpeza, como limpa-vidros.",
+        "b": "álcool comercial, ou etanol, usado em limpeza doméstica.",
+        "c": "acetato de etila, ou etanoato de etila, presente em removedores de esmalte.",
+        "d": "cloro, presente em produtos alvejantes.",
+        "e": "ácido acético, ou ácido etanoico, presente no vinagre."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Principais funções orgânicas: hidrocarbonetos, álcoois, fenóis, éteres, ésteres, aldeídos, cetonas, ácidos carboxílicos, aminas e amidas",
+            "Equilíbrio Químico: constante Kc e Kp, Princípio de Le Chatelier"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 13,
+      "tipo": "objetiva",
+      "enunciado": "Uma determinada quantidade de metano (CH₄) é colocada para reagir com cloro (Cl₂) em excesso, a 400 °C, gerando HCl (g) e os compostos organoclorados H₃CCl, H₂CCl₂, HCCl₃, CCl₄, cujas propriedades são mostradas na tabela. A mistura obtida ao final das reações químicas é então resfriada a 25 °C, e o líquido, formado por uma única fase e sem HCl, é coletado.\n\n[Tabela de propriedades]\n\nA melhor técnica de separação dos organoclorados presentes na fase líquida e o primeiro composto a ser separado por essa técnica são:",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 5: Tabela com pontos de fusão, ebulição, solubilidade e densidade dos compostos organoclorados."
+      ],
+      "alternativas": {
+        "a": "decantação; H₃CCl.",
+        "b": "destilação fracionada; CCl₄.",
+        "c": "cristalização; HCCl₃.",
+        "d": "destilação fracionada; H₂CCl².",
+        "e": "decantação; CCl₄."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Misturas homogêneas/heterogêneas e processos de separação",
+            "Principais funções orgânicas: hidrocarbonetos, álcoois, fenóis, éteres, ésteres, aldeídos, cetonas, ácidos carboxílicos, aminas e amidas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 14,
+      "tipo": "objetiva",
+      "enunciado": "A mandioca, uma das principais fontes de carboidratos da alimentação brasileira, possui algumas variedades conhecidas popularmente como “mandioca brava”, devido a sua toxicidade. Essa toxicidade se deve à grande quantidade de cianeto de hidrogênio (HCN) liberado quando o tecido vegetal é rompido.\n\nApós cada etapa do processamento para a produção de farinha de mandioca seca, representado pelo esquema a seguir, quantificou-se o total de HCN nas amostras, conforme mostrado no gráfico que acompanha o esquema.\n\nO que ocorre com o HCN nas Etapas 2 e 3?",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 5: Esquema de fluxograma do processamento da mandioca e gráfico de quantidade total de HCN por etapa."
+      ],
+      "alternativas": {
+        "a": "HCN é insolúvel em água, formando um precipitado. | HCN é volatilizado durante a torração, sendo liberado no ar.",
+        "b": "HCN é insolúvel em água, formando uma única fase na manipueira. | HCN permanece na massa torrada, não sendo afetado pela temperatura.",
+        "c": "HCN é solúvel em água, sendo levado na manipueira. | HCN permanece na massa torrada, não sendo afetado pela temperatura.",
+        "d": "HCN é solúvel em água, sendo levado na manipueira. | HCN é volatilizado durante a torração, sendo liberado no ar.",
+        "e": "HCN é insolúvel em água, formando um precipitado. | A 160 °C, a ligação C≡N é quebrada, degradando as moléculas de HCN."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Água e soluções aquosas: solubilidade, tipos de concentração (g/L, mol/L, ppm) e diluição",
+            "Misturas homogêneas/heterogêneas e processos de separação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 15,
+      "tipo": "objetiva",
+      "enunciado": "Um dos parâmetros que determina a qualidade do azeite de oliva é sua acidez, normalmente expressa na embalagem na forma de porcentagem, e que pode ser associada diretamente ao teor de ácido oleico em sua composição.\n\nUma amostra de 20,00 g de um azeite comercial foi adicionada a 100 mL de uma solução contendo etanol e etoxietano (dietiléter), 1:1 em volume, com o indicador fenolftaleína. Sob constante agitação, titulou-se com uma solução etanólica contendo KOH 0,020 mol/L até a ________________ total. Para essa amostra, usaram-se 35,0 mL de base, o que permite concluir que se trata de um azeite tipo ________________.\n\nAs palavras que completam corretamente as lacunas são:",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 6: Tabela de classificação de azeites por acidez e fórmula estrutural do ácido oleico."
+      ],
+      "alternativas": {
+        "a": "oxidação; semifino.",
+        "b": "neutralização; virgem fino.",
+        "c": "oxidação; virgem fino.",
+        "d": "neutralização; extra virgem.",
+        "e": "neutralização; semifino."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Água e soluções aquosas: solubilidade, tipos de concentração (g/L, mol/L, ppm) e diluição",
+            "Cálculos estequiométricos: relações de massa, volume, mols e pureza/rendimento"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 16,
+      "tipo": "objetiva",
+      "enunciado": "Analise a tabela periódica e as seguintes afirmações a respeito do elemento químico enxofre (S):\n\nI. Tem massa atômica maior do que a do selênio (Se).\nII. Pode formar com o hidrogênio um composto molecular de fórmula H₂S.\nIII. A energia necessária para remover um elétron da camada mais externa do enxofre é maior do que para o sódio (Na).\nIV. Pode formar com o sódio (Na) um composto iônico de fórmula Na₃S.\n\nSão corretas apenas as afirmações",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 6: Tabela periódica parcial."
+      ],
+      "alternativas": {
+        "a": "I e II.",
+        "b": "I e III.",
+        "c": "II e III.",
+        "d": "II e IV.",
+        "e": "III e IV."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Tabela Periódica: organização, famílias, períodos e propriedades periódicas",
+            "Ligação iônica e características dos compostos iônicos",
+            "Ligação covalente, estruturas de Lewis, regra do octeto e geometria molecular"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 17,
+      "tipo": "objetiva",
+      "enunciado": "A energia liberada na combustão do etanol de cana-de-açúcar pode ser considerada advinda da energia solar, uma vez que a primeira etapa para a produção do etanol é a fotossíntese. As transformações envolvidas na produção e no uso do etanol combustível são representadas pelas seguintes equações químicas:\n\n6 CO₂ (g) + 6 H₂O (g) → C₆H₁₂O₆ (aq) + 6 O₂ (g)\nC₆H₁₂O₆ (aq) → 2 C₂H₅OH (ℓ) + 2 CO₂ (g)  ΔH = –70 kJ/mol\nC₂H₅OH (ℓ) + 3 O₂ (g) → 2 CO₂ (g) + 3 H₂O (g)  ΔH = –1.235 kJ/mol\n\nCom base nessas informações, podemos afirmar que o valor de ΔH para a reação de fotossíntese é",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "–1.305 kJ/mol.",
+        "b": "+1.305 kJ/mol.",
+        "c": "+2.400 kJ/mol.",
+        "d": "–2.540 kJ/mol.",
+        "e": "+2.540 kJ/mol."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Termoquímica: reações exotérmicas e endotérmicas, entalpia e equações termoquímicas",
+            "Lei de Hess e entalpia de ligação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 18,
+      "tipo": "objetiva",
+      "enunciado": "Um método largamente aplicado para evitar a corrosão em estruturas de aço enterradas no solo, como tanques e dutos, é a proteção catódica com um metal de sacrifício. Esse método consiste em conectar a estrutura a ser protegida, por meio de um fio condutor, a uma barra de um metal diferente e mais facilmente oxidável, que, com o passar do tempo, vai sendo corroído até que seja necessária sua substituição.\n\nUm experimento para identificar quais metais podem ser utilizados como metal de sacrifício consiste na adição de um pedaço de metal a diferentes soluções contendo sais de outros metais, conforme ilustrado, e cujos resultados são mostrados na tabela. O símbolo ( + ) indica que foi observada uma reação química e o ( – ) indica que não se observou qualquer reação química.\n\n[Tabela e esquema de reações de deslocamento]\n\nDa análise desses resultados, conclui-se que pode(m) ser utilizado(s) como metal(is) de sacrifício para tanques de aço:",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 7: Esquema do sistema de proteção catódica e tabela de reações entre metais e soluções."
+      ],
+      "alternativas": {
+        "a": "Al e Zn.",
+        "b": "somente Sn.",
+        "c": "Al e Sn.",
+        "d": "somente Al.",
+        "e": "Sn e Zn."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Eletroquímica: reações de oxirredução, números de oxidação (NOX) e agentes oxidantes/redutores",
+            "Pilhas (potencial-padrão de redução) e Eletrólise (Leis de Faraday)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 19,
+      "tipo": "objetiva",
+      "enunciado": "Em um laboratório químico, foi encontrado um frasco de vidro contendo um líquido incolor e que apresentava o seguinte rótulo:\n\n[Composto Alfa, C₇H₈O]\n\nPara identificar a substância contida no frasco, foram feitos os seguintes testes:\n\nI. Dissolveram-se alguns mililitros do líquido do frasco em água, resultando uma solução neutra. A essa solução, adicionaram-se uma gota de ácido e uma pequena quantidade de um forte oxidante. Verificou-se a formação de um composto branco insolúvel em água fria, mas solúvel em água quente. A solução desse composto em água quente apresentou pH = 4.\nII. O sólido branco, obtido no teste anterior, foi dissolvido em etanol e a solução foi aquecida na presença de um catalisador. Essa reação produziu benzoato de etila, que é um éster aromático, de fórmula C₉H₁₀O₂.\n\nCom base nos resultados desses testes, concluiu-se que o Composto Alfa é:",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 7: Fórmulas estruturais das alternativas (A), (B), (C), (D), (E)."
+      ],
+      "alternativas": {
+        "a": "[Estrutura A]",
+        "b": "[Estrutura B]",
+        "c": "[Estrutura C]",
+        "d": "[Estrutura D]",
+        "e": "[Estrutura E]"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Reações orgânicas fundamentais: substituição, adição, eliminação, oxidação e esterificação/saponificação",
+            "Principais funções orgânicas: hidrocarbonetos, álcoois, fenóis, éteres, ésteres, aldeídos, cetonas, ácidos carboxílicos, aminas e amidas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 20,
+      "tipo": "objetiva",
+      "enunciado": "Considere as figuras pelas quais são representados diferentes sistemas contendo determinadas substâncias químicas. Nas figuras, cada círculo representa um átomo, e círculos de tamanhos diferentes representam elementos químicos diferentes.\n\n[6 caixas com representações moleculares de sistemas]\n\nA respeito dessas representações, é correto afirmar que os sistemas",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 8: Seis caixas numeradas de 1 a 6 contendo representações de partículas (átomos e moléculas)."
+      ],
+      "alternativas": {
+        "a": "3, 4 e 5 representam misturas.",
+        "b": "1, 2 e 5 representam substâncias puras.",
+        "c": "2 e 5 representam, respectivamente, uma substância molecular e uma mistura de gases nobres.",
+        "d": "6 e 4 representam, respectivamente, uma substância molecular gasosa e uma substância simples.",
+        "e": "1 e 5 representam substâncias simples puras."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Misturas homogêneas/heterogêneas e processos de separação",
+            "Propriedades gerais e específicas dos materiais"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 21,
+      "tipo": "objetiva",
+      "enunciado": "Considere um aquário tampado contendo apenas água e plantas aquáticas, em grande quantidade, e iluminado somente por luz solar. O gráfico que melhor esboça a variação de pH da água em função do horário do dia, considerando que os gases envolvidos na fotossíntese e na respiração das plantas ficam parcialmente dissolvidos na água, é:",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 8: Gráficos (A), (B), (C), (D), (E) mostrando a variação do pH ao longo da noite e do dia."
+      ],
+      "alternativas": {
+        "a": "[Gráfico A]",
+        "b": "[Gráfico B]",
+        "c": "[Gráfico C]",
+        "d": "[Gráfico D]",
+        "e": "[Gráfico E]"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Química Ambiental: parâmetros de qualidade ambiental, poluição de ar/água/solo e ciclos biogeoquímicos",
+            "Equilíbrio iônico da água, escala de pH, pOH e hidrólise de sais"
+          ]
+        },
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Metabolismo energético: fotossíntese, quimiossíntese, respiração aeróbia e fermentação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 22,
+      "tipo": "objetiva",
+      "enunciado": "O hormônio melatonina é responsável pela sensação de sonolência. Em nosso organismo, a concentração de melatonina começa a aumentar ao anoitecer, atinge o máximo no meio da noite e decresce com a luz do dia. A melatonina é sintetizada a partir do aminoácido triptofano, em quatro etapas catalisadas por diferentes enzimas, sendo que a enzima 3 é degradada em presença de luz.\n\n[Esquema reacional de síntese da melatonina]\n\nConsidere as seguintes afirmações a respeito desse processo:\n\nI. Na etapa 2, há perda de dióxido de carbono e, na etapa 3, a serotonina é transformada em uma amida.\nII. A manipulação de objetos que emitem luz, como celulares e tablets, pode interromper ou tornar muito lento o processo de transformação da serotonina em N-acetil-serotonina.\nIII. O aumento da concentração de triptofano na corrente sanguínea pode fazer com que a pessoa adormeça mais lentamente ao anoitecer.\n\nÉ correto o que se afirma em",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 9: Esquema detalhado das reações químicas/etapas de conversão do triptofano em melatonina."
+      ],
+      "alternativas": {
+        "a": "I e II, apenas.",
+        "b": "I e III, apenas.",
+        "c": "II e III, apenas.",
+        "d": "III, apenas.",
+        "e": "I, II e III."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Principais funções orgânicas: hidrocarbonetos, álcoois, fenóis, éteres, ésteres, aldeídos, cetonas, ácidos carboxílicos, aminas e amidas"
+          ]
+        },
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Fisiologia dos sistemas humanos: digestório, cardiovascular, respiratório, excretor, nervoso, endócrino, locomotor e reprodutor"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 23,
+      "tipo": "objetiva",
+      "enunciado": "Neste texto, o autor descreve o fascínio que as descobertas em Química exerciam sobre ele, durante sua infância.\n\nEu adorava Química em parte por ela ser uma ciência de transformações, de inúmeros compostos baseados em algumas dúzias de elementos, eles próprios fixos, invariáveis e eternos. A noção de estabilidade e de invariabilidade dos elementos era psicologicamente crucial para mim, pois eu os via como pontos fixos, como âncoras em um mundo instável. Mas agora, com a radioatividade, chegavam transformações das mais incríveis.\n(...)\nA radioatividade não alterava as realidades da Química ou a noção de elementos; não abalava a ideia de sua estabilidade e identidade. O que ela fazia era aludir a duas esferas no átomo – uma esfera relativamente superficial e acessível, que governava a reatividade e a combinação química, e uma esfera mais profunda, inacessível a todos os agentes químicos e físicos usuais e suas energias relativamente pequenas, onde qualquer mudança produzia uma alteração fundamental de identidade.\nOliver Sacks, Tio Tungstênio: Memórias de uma infância química.\n\nDe acordo com o autor,",
+      "textos_de_apoio": [
+        "Eu adorava Química em parte por ela ser uma ciência de transformações, de inúmeros compostos baseados em algumas dúzias de elementos, eles próprios fixos, invariáveis e eternos. A noção de estabilidade e de invariabilidade dos elementos era psicologicamente crucial para mim, pois eu os via como pontos fixos, como âncoras em um mundo instável. Mas agora, com a radioatividade, chegavam transformações das mais incríveis. (...)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "o trecho “eles próprios fixos, invariáveis e eternos” (L. 3) remete à dificuldade para a quebra de ligações químicas, que são muito estáveis.",
+        "b": "“esfera relativamente superficial” (L. 12) e “esfera mais profunda” (L. 14) dizem respeito, respectivamente, à eletrosfera e ao núcleo dos átomos.",
+        "c": "“esfera relativamente superficial” (L. 12) e “esfera mais profunda” (L. 14) referem-se, respectivamente, aos elétrons da camada de valência, envolvidos nas reações químicas, e aos elétrons das camadas internas dos átomos, que não estão envolvidos nas reações químicas.",
+        "d": "as energias envolvidas nos processos de transformação de um átomo em outro, como ocorre com materiais radioativos, são “relativamente pequenas” (L. 15-16).",
+        "e": "a expressão “uma alteração fundamental de identidade” (L. 16-17) relaciona-se à capacidade que um mesmo átomo tem de fazer ligações químicas diferentes, formando compostos com propriedades distintas das dos átomos isolados."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Evolução dos modelos atômicos (Dalton, Thomson, Rutherford, Bohr)",
+            "Radioatividade: emissões nucleares, meia-vida, datação, fissão e fusão nuclear"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 24,
+      "tipo": "objetiva",
+      "enunciado": "Em uma urna, há bolas amarelas, brancas e vermelhas. Sabe-se que:\n\nI. A probabilidade de retirar uma bola vermelha dessa urna é o dobro da probabilidade de retirar uma bola amarela.\nII. Se forem retiradas 4 bolas amarelas dessa urna, a probabilidade de retirar uma bola vermelha passa a ser 1/2.\nIII. Se forem retiradas 12 bolas vermelhas dessa urna, a probabilidade de retirar uma bola branca passa a ser 1/2.\n\nA quantidade de bolas brancas na urna é",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "8.",
+        "b": "10.",
+        "c": "12.",
+        "d": "14.",
+        "e": "16."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Razões e proporções diretas e inversas",
+            "Espaço amostral (discreto e contínuo) e conceito de probabilidade"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 25,
+      "tipo": "objetiva",
+      "enunciado": "Sejam f: ℝ → ℝ e g: ℝ⁺ → ℝ definidas por\n\nf(x) = (1/2)⁵ˣ e g(x) = log₁₀x,\n\nrespectivamente.\n\nO gráfico da função composta g∘f é:",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 10: Gráficos (A), (B), (C), (D), (E) de funções no plano cartesiano."
+      ],
+      "alternativas": {
+        "a": "[Gráfico A]",
+        "b": "[Gráfico B]",
+        "c": "[Gráfico C]",
+        "d": "[Gráfico D]",
+        "e": "[Gráfico E]"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Função exponencial e propriedades",
+            "Teoria dos logaritmos, propriedades e função logarítmica",
+            "Gráficos de funções por uma ou várias sentenças"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 26,
+      "tipo": "objetiva",
+      "enunciado": "Doze pontos são assinalados sobre quatro segmentos de reta de forma que três pontos sobre três segmentos distintos nunca são colineares, como na figura.\n\nO número de triângulos distintos que podem ser desenhados com os vértices nos pontos assinalados é",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 10: Figura mostrando pontos assinalados sobre segmentos de reta."
+      ],
+      "alternativas": {
+        "a": "200.",
+        "b": "204.",
+        "c": "208.",
+        "d": "212.",
+        "e": "220."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Arranjos, permutações e combinações simples",
+            "Princípios multiplicativo e aditivo da contagem"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 27,
+      "tipo": "objetiva",
+      "enunciado": "Dentre os candidatos que fizeram provas de matemática, português e inglês num concurso, 20 obtiveram nota mínima para aprovação nas três disciplinas. Além disso, sabe-se que:\n\nI. 14 não obtiveram nota mínima em matemática;\nII. 16 não obtiveram nota mínima em português;\nIII. 12 não obtiveram nota mínima em inglês;\nIV. 5 não obtiveram nota mínima em matemática e em português;\nV. 3 não obtiveram nota mínima em matemática e em inglês;\nVI. 7 não obtiveram nota mínima em português e em inglês e\nVII. 2 não obtiveram nota mínima em português, matemática e inglês.\n\nA quantidade de candidatos que participaram do concurso foi",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "44.",
+        "b": "46.",
+        "c": "47.",
+        "d": "48.",
+        "e": "49."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Conjuntos numéricos (Naturais, Inteiros, Racionais e Reais)",
+            "Princípios multiplicativo e aditivo da contagem"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 28,
+      "tipo": "objetiva",
+      "enunciado": "Sejam D_f e D_g os maiores subconjuntos de ℝ nos quais estão definidas, respectivamente, as funções reais\n\nf(x) = (x³ + 2x² – 4x – 8) / (x – 2)  e  g(x) = √(x³ + 2x² – 4x – 8) / √(x – 2)\n\nConsidere, ainda, I_f e I_g as imagens de f e de g, respectivamente.\n\nNessas condições,",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "D_f = D_g e I_f = I_g.",
+        "b": "tanto D_f e D_g quanto I_f e I_g diferem em apenas um ponto.",
+        "c": "D_f e D_g diferem em apenas um ponto, I_f e I_g diferem em mais de um ponto.",
+        "d": "D_f e D_g diferem em mais de um ponto, I_f e I_g diferem em apenas um ponto.",
+        "e": "tanto D_f e D_g quanto I_f e I_g diferem em mais de um ponto."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Conceito de função e relações entre grandezas",
+            "Conjuntos numéricos (Naturais, Inteiros, Racionais e Reais)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 29,
+      "tipo": "objetiva",
+      "enunciado": "Prolongando-se os lados de um octógono convexo ABCDEFGH, obtém-se um polígono estrelado, conforme a figura.\n\nA soma α₁ + ... + α₈ vale",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 11: Figura de um polígono estrelado derivado de um octógono."
+      ],
+      "alternativas": {
+        "a": "180°.",
+        "b": "360°.",
+        "c": "540°.",
+        "d": "720°.",
+        "e": "900°."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Geometria Plana: ponto, reta, plano, segmentos e ângulos",
+            "Relações métricas no triângulo retângulo, polígonos regulares e círculos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 30,
+      "tipo": "objetiva",
+      "enunciado": "Admitindo que a linha pontilhada represente o gráfico da função f(x) = sen(x) e que a linha contínua represente o gráfico da função g(x) = α sen(βx), segue que",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 11: Gráfico com ondas senoidais pontilhada e contínua."
+      ],
+      "alternativas": {
+        "a": "0 < α < 1 e 0 < β < 1.",
+        "b": "α > 1 e 0 < β < 1.",
+        "c": "α = 1 e β > 1.",
+        "d": "0 < α < 1 e β > 1.",
+        "e": "0 < α < 1 e β = 1."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Círculo trigonométrico e funções periódicas (seno e cosseno)",
+            "Gráficos de funções por uma ou várias sentenças"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 31,
+      "tipo": "objetiva",
+      "enunciado": "Maria quer comprar uma TV que está sendo vendida por R$ 1.500,00 à vista ou em 3 parcelas mensais sem juros de R$ 500,00. O dinheiro que Maria reservou para essa compra não é suficiente para pagar à vista, mas descobriu que o banco oferece uma aplicação financeira que rende 1% ao mês. Após fazer os cálculos, Maria concluiu que, se pagar a primeira parcela e, no mesmo dia, aplicar a quantia restante, conseguirá pagar as duas parcelas que faltam sem ter que colocar nem tirar um centavo sequer. Quanto Maria reservou para essa compra, em reais?",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "1.450,20",
+        "b": "1.480,20",
+        "c": "1.485,20",
+        "d": "1.495,20",
+        "e": "1.490,20"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Matemática Financeira: porcentagem, juros simples, juros compostos, taxas e índices"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 32,
+      "tipo": "objetiva",
+      "enunciado": "Considere o polinômio\n\nP(x) = xⁿ + aₙ₋₁ xⁿ⁻¹ + ... + a₁ x + a₀,\n\nem que a₀, ..., aₙ₋₁ ∈ ℝ. Sabe-se que as suas n raízes estão sobre a circunferência unitária e que a₀ < 0.\n\nO produto das n raízes de P(x), para qualquer inteiro n ≥ 1, é:",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "–1",
+        "b": "iⁿ",
+        "c": "iⁿ⁺¹",
+        "d": "(–1)ⁿ",
+        "e": "(–1)ⁿ⁺¹"
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Potenciação e radiciação",
+            "Conjuntos numéricos (Naturais, Inteiros, Racionais e Reais)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 33,
+      "tipo": "objetiva",
+      "enunciado": "O quadrilátero da figura está inscrito em uma circunferência de raio 1. A diagonal desenhada é um diâmetro dessa circunferência.\n\nSendo x e y as medidas dos ângulos indicados na figura, a área da região cinza, em função de x e y, é:",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 12: Circunferência com quadrilátero inscrito e ângulos x e y destacados."
+      ],
+      "alternativas": {
+        "a": "π + sen(2x) + sen(2y)",
+        "b": "π – sen(2x) – sen(2y)",
+        "c": "π – cos(2x) – cos(2y)",
+        "d": "π – (cos(2x) + cos(2y)) / 2",
+        "e": "π – (sen(2x) + sen(2y)) / 2"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Cálculo de áreas (polígonos, círculos, coroas e setores circulares)",
+            "Trigonometria no triângulo retângulo (seno, cosseno e tangente)",
+            "Relações métricas no triângulo retângulo, polígonos regulares e círculos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 34,
+      "tipo": "objetiva",
+      "enunciado": "Dois atletas correm com velocidades constantes em uma pista retilínea, partindo simultaneamente de extremos opostos, A e B. Um dos corredores parte de A, chega a B e volta para A. O outro corredor parte de B, chega a A e volta para B. Os corredores cruzam-se duas vezes, a primeira vez a 800 metros de A e a segunda vez a 500 metros de B. O comprimento da pista, em metros, é",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "1.000.",
+        "b": "1.300.",
+        "c": "1.600.",
+        "d": "1.900.",
+        "e": "2.100."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Razões e proporções diretas e inversas",
+            "Ordem na reta numérica e resolução de problemas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 35,
+      "tipo": "objetiva",
+      "enunciado": "Borboleta, lula e avestruz têm como principal excreta nitrogenado, respectivamente,",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "ácido úrico, amônia e ácido úrico.",
+        "b": "ácido úrico, ureia e amônia.",
+        "c": "amônia, ácido úrico e amônia.",
+        "d": "amônia, ureia e ácido úrico.",
+        "e": "ureia, amônia e ácido úrico."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Fisiologia dos sistemas humanos: digestório, cardiovascular, respiratório, excretor, nervoso, endócrino, locomotor e reprodutor",
+            "Reino Animalia: características evolutivas dos principais filos (simetria, folhetos embrionários, celoma)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 36,
+      "tipo": "objetiva",
+      "enunciado": "No sistema circulatório humano,",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "a veia cava superior transporta sangue pobre em oxigênio, coletado da cabeça, dos braços e da parte superior do tronco, e chega ao átrio esquerdo do coração.",
+        "b": "a veia cava inferior transporta sangue pobre em oxigênio, coletado da parte inferior do tronco e dos membros inferiores, e chega ao átrio direito do coração.",
+        "c": "a artéria pulmonar transporta sangue rico em oxigênio, do coração até os pulmões.",
+        "d": "as veias pulmonares transportam sangue rico em oxigênio, dos pulmões até o átrio direito do coração.",
+        "e": "a artéria aorta transporta sangue rico em oxigênio para o corpo, por meio da circulação sistêmica, e sai do ventrículo direito do coração."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Fisiologia dos sistemas humanos: digestório, cardiovascular, respiratório, excretor, nervoso, endócrino, locomotor e reprodutor"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 37,
+      "tipo": "objetiva",
+      "enunciado": "No grupo dos fungos, são conhecidas perto de 100 mil espécies. Esse grupo tão diverso inclui espécies que",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "são sapróbias, fundamentais na ciclagem dos nutrientes, pois sintetizam açúcares a partir do dióxido de carbono do ar.",
+        "b": "são parasitas, procariontes heterotróficos que absorvem compostos orgânicos produzidos pelos organismos hospedeiros.",
+        "c": "são comestíveis, pertencentes a um grupo de fungos primitivos que não formam corpos de frutificação.",
+        "d": "formam, com as raízes de plantas, associações chamadas micorrizas, mutuamente benéficas, pela troca de nutrientes.",
+        "e": "realizam respiração, na presença de oxigênio, e fotossíntese, na ausência desse gás, sendo, portanto, anaeróbias facultativas."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Reinos Monera, Protista e Fungi: características e importância ecológica/econômica",
+            "Dinâmica de populações e relações ecológicas (intraespecíficas e interespecíficas)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 38,
+      "tipo": "objetiva",
+      "enunciado": "Analise as três afirmações sobre o controle da respiração em humanos.\n\nI. Impulsos nervosos estimulam a contração do diafragma e dos músculos intercostais, provocando a inspiração.\nII. A concentração de dióxido de carbono no sangue influencia o ritmo respiratório.\nIII. O ritmo respiratório pode ser controlado voluntariamente, mas na maior parte do tempo tem controle involuntário.\n\nEstá correto o que se afirma em",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "I, apenas.",
+        "b": "I e III, apenas.",
+        "c": "III, apenas.",
+        "d": "II e III, apenas.",
+        "e": "I, II e III."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Fisiologia dos sistemas humanos: digestório, cardiovascular, respiratório, excretor, nervoso, endócrino, locomotor e reprodutor"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 39,
+      "tipo": "objetiva",
+      "enunciado": "A surdez é geneticamente heterogênea: pode ser causada por mutações em diferentes genes, localizados nos autossomos ou no cromossomo X ou, ainda, por mutações em genes mitocondriais.\n\nOs heredogramas representam quatro famílias, em que ocorrem pessoas com surdez (■ e ●):\n\n[Heredogramas 1, 2, 3 e 4]\n\nA(s) família(s) em que o padrão de herança permite afastar a possibilidade de que a surdez tenha herança mitocondrial é(são) apenas",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 13: Quatro heredogramas indicados por Família 1, Família 2, Família 3 e Família 4."
+      ],
+      "alternativas": {
+        "a": "1.",
+        "b": "2 e 3.",
+        "c": "3.",
+        "d": "3 e 4.",
+        "e": "4."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Heredogramas e probabilidades genéticas",
+            "Ligação gênica (linkage) e herança ligada ao sexo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 40,
+      "tipo": "objetiva",
+      "enunciado": "Muitas plantas adaptadas a ambientes terrestres secos e com alta intensidade luminosa apresentam folhas",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "pequenas com estômatos concentrados na parte inferior, muitos tricomas claros, cutícula impermeável e parênquima aquífero.",
+        "b": "grandes com estômatos concentrados na parte inferior, poucos tricomas claros, cutícula impermeável e parênquima aerífero.",
+        "c": "pequenas com estômatos concentrados na parte superior, ausência de tricomas, cera sobre a epiderme foliar e parênquima aquífero.",
+        "d": "grandes com estômatos igualmente distribuídos em ambas as partes, ausência de tricomas, ausência de cera sobre a epiderme fuso, e parênquima aerífero.",
+        "e": "pequenas com estômatos concentrados na parte superior, muitos tricomas claros, cera sobre a epiderme foliar e parênquima aerífero."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Anatomia e fisiologia vegetal: tecidos, condução de seivas, transpiração e fitormônios/tropismos",
+            "Biomas brasileiros e ecossistemas aquáticos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 41,
+      "tipo": "objetiva",
+      "enunciado": "Células de embrião de drosófila (2n=8), que estavam em divisão, foram tratadas com uma substância que inibe a formação do fuso, impedindo que a divisão celular prossiga. Após esse tratamento, quantos cromossomos e quantas cromátides, respectivamente, cada célula terá?",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "4 e 4.",
+        "b": "4 e 8.",
+        "c": "8 e 8.",
+        "d": "8 e 16.",
+        "e": "16 e 16."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Núcleo celular, ciclo celular e divisões celulares (Mitose e Meiose)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 42,
+      "tipo": "objetiva",
+      "enunciado": "Analise as três afirmações seguintes sobre ciclos biogeoquímicos.\n\nI. A respiração dos seres vivos e a queima de combustíveis fósseis e de vegetação restituem carbono à atmosfera.\nII. Diferentes tipos de bactérias participam da ciclagem do nitrogênio: as fixadoras, que transformam o gás nitrogênio em amônia, as nitrificantes, que produzem nitrito e nitrato, e as desnitrificantes, que devolvem o nitrogênio gasoso à atmosfera.\nIII. Pelo processo da transpiração, as plantas bombeiam, continuamente, água do solo para a atmosfera, e esse vapor de água se condensa e contribui para a formação de nuvens, voltando à terra como chuva.\n\nEstá correto o que se afirma em",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "I, apenas.",
+        "b": "I e II, apenas.",
+        "c": "II e III, apenas.",
+        "d": "III, apenas.",
+        "e": "I, II e III."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Ciclos biogeoquímicos (água, carbono, oxigênio e nitrogênio)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 43,
+      "tipo": "objetiva",
+      "enunciado": "O botulismo provocou a morte de 1,1 mil cabeças de gado, no último mês de agosto, numa fazenda em Mato Grosso do Sul. A suspeita clínica inicial foi confirmada pelo exame das amostras de grãos úmidos de milho fornecidos aos animais, demonstrando a presença da toxina botulínica, que é produzida pela bactéria Clostridium botulinum.\n\nConsiderando que a toxina botulínica bloqueia a transmissão neuromuscular, a morte dos animais deve ter sido decorrente de",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "infecção generalizada.",
+        "b": "hemorragia interna.",
+        "c": "desidratação provocada por diarreia.",
+        "d": "acidente vascular cerebral.",
+        "e": "parada respiratória."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Fisiologia dos sistemas humanos: digestório, cardiovascular, respiratório, excretor, nervoso, endócrino, locomotor e reprodutor",
+            "Saúde e Parasitologia: bacterioses, protozooses (malária, Chagas, leishmaniose) e verminoses (teníase, esquistossomose, ascaridíase)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 44,
+      "tipo": "objetiva",
+      "enunciado": "A levedura Saccharomyces cerevisiae pode obter energia na ausência de oxigênio, de acordo com a equação\n\nC₆H₁₂O₆ → 2 CO₂ + 2 CH₃CH₂OH + 2 ATP.\n\nProdutos desse processo são utilizados na indústria de alimentos e bebidas. Esse processo ocorre _____________ da levedura e seus produtos são utilizados na produção de _____________.\n\nAs lacunas dessa frase devem ser preenchidas por:",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "nas mitocôndrias; cerveja e vinagre.",
+        "b": "nas mitocôndrias; cerveja e pão.",
+        "c": "no citosol; cerveja e pão.",
+        "d": "no citosol; iogurte e vinagre.",
+        "e": "no citosol e nas mitocôndrias; cerveja e iogurte."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Metabolismo energético: fotossíntese, quimiossíntese, respiração aeróbia e fermentação",
+            "Organelas citoplasmáticas e suas funções"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 45,
+      "tipo": "objetiva",
+      "enunciado": "Nos cães labradores, a cor da pelagem preta, chocolate ou dourada depende da interação entre dois genes, um localizado no cromossomo 11 (alelos B e b) e o outro, no cromossomo 5 (alelos E e e). O alelo dominante B é responsável pela síntese do pigmento preto e o alelo recessivo b, pela produção do pigmento chocolate. O alelo dominante E determina a deposição do pigmento preto ou chocolate nos pelos; e o alelo e impede a deposição de pigmento no pelo.\n\nDentre 36 cães resultantes de cruzamentos de cães heterozigóticos nos dois lócus com cães duplo-homozigóticos recessivos, quantos com pelagem preta, chocolate e dourada, respectivamente, são esperados?",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "0, 0 e 36.",
+        "b": "9, 9 e 18.",
+        "c": "18, 9 e 9.",
+        "d": "18, 0 e 18.",
+        "e": "18, 18 e 0."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "1ª e 2ª Leis de Mendel e correlação com a meiose",
+            "Heredogramas e probabilidades genéticas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 46,
+      "tipo": "objetiva",
+      "enunciado": "Considere estas três reações químicas realizadas por seres vivos:\n\nI. Fotossíntese\n6 H₂O + 6 CO₂ —(luz)→ 6 O₂ + C₆H₁₂O₆\n\nII. Quimiossíntese metanogênica\nCO₂ + 4 H₂ → CH₄ + 2 H₂O\n\nIII. Respiração celular\n6 O₂ + C₆H₁₂O₆ → 6 H₂O + 6 CO₂\n\nA mudança no estado de oxidação do elemento carbono em cada reação e o tipo de organismo em que a reação ocorre são:",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 14: Tabela com as colunas I, II, III e as opções de resposta."
+      ],
+      "alternativas": {
+        "a": "redução; autotrófico. | redução; autotrófico. | oxidação; heterotrófico e autotrófico.",
+        "b": "oxidação; autotrófico. | oxidação; heterotrófico. | oxidação; autotrófico.",
+        "c": "redução; autotrófico. | redução; heterotrófico e autotrófico. | redução; heterotrófico e autotrófico.",
+        "d": "oxidação; autotrófico e heterotrófico. | redução; autotrófico. | oxidação; autotrófico.",
+        "e": "oxidação; heterotrófico. | oxidação; autotrófico. | redução; heterotrófico."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Metabolismo energético: fotossíntese, quimiossíntese, respiração aeróbia e fermentação"
+          ]
+        },
+        {
+          "area": "Química",
+          "assuntos": [
+            "Eletroquímica: reações de oxirredução, números de oxidação (NOX) e agentes oxidantes/redutores"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 47,
+      "tipo": "objetiva",
+      "enunciado": "Nas últimas décadas, descobriu-se que os volumosos e inadequados descartes de resíduos plásticos e de outros materiais sintéticos, mesmo quando realizados nos continentes, podem resultar em consideráveis depósitos em áreas distantes nos oceanos e mares, seja em seu fundo, na coluna d’água, ou na sua superfície. Como consequência, ocorrem mudanças físicas, químicas e ecológicas nesses oceanos e mares, em que alguns desses depósitos já atingem a escala planetária, como é o caso dos materiais plásticos flutuantes representados na figura.",
+      "textos_de_apoio": [
+        "www.revistapesquisafapesp.br, maio de 2016.",
+        "Ocean Trash Map - National Geographic. www.news.nationalgeographic.com. Adaptado."
+      ],
+      "midia": [
+        "Página 15: Mapa intitulado 'DEPÓSITOS FLUTUANTES DE RESÍDUOS PLÁSTICOS NOS OCEANOS', mostrando os giros oceânicos do Pacífico Norte e Sul, Atlântico Norte e Sul e Índico, com legendas indicando presença esparsa, áreas de moderada, média e alta acumulação e o giro oceânico."
+      ],
+      "alternativas": {
+        "a": "com padrões concentrados na parte interna dos giros oceânicos do Pacífico norte e sul, locais de menor atividade das grandes correntes marinhas.",
+        "b": "com maior acumulação no litoral de ambos os hemisférios, devido à atuação de importantes correntes marinhas nessas áreas.",
+        "c": "mais volumosos no hemisfério norte, em função das menores temperaturas de suas águas, o que faz aumentar a velocidade de correntes, como a do Peru e a do Japão.",
+        "d": "com concentrações idênticas em ambos os hemisférios, devido à forte atuação de importantes correntes marinhas que transitam do hemisfério norte ao sul.",
+        "e": "mais concentrados e abundantes no hemisfério norte, devido à grande mobilidade de importantes correntes marinhas, como a de Humboldt e a de Madagascar."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Hidrografia: bacias hidrográficas mundiais e brasileiras e geopolítica da água",
+            "Impactos ambientais: mudanças climáticas, efeito estufa, desmatamento, degradação de solos e conferências internacionais do clima"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 48,
+      "tipo": "objetiva",
+      "enunciado": "Às vésperas da Cúpula do G20, que teve início em 07 de julho de 2017, em Hamburgo, na Alemanha, a chanceler alemã, Angela Merkel, discursou no Parlamento e referiu-se a atores políticos importantes no cenário mundial, conforme os trechos transcritos a seguir.",
+      "textos_de_apoio": [
+        "Quem pensa que os problemas deste mundo podem ser resolvidos com o isolacionismo e o protecionismo está cometendo um enorme erro. Somente juntos podemos encontrar as respostas certas às questões centrais dos nossos tempos (...) Não podemos esperar até que a última pessoa na Terra esteja convencida da evidência científica das mudanças climáticas. Em outras palavras: o acordo climático (de Paris) é irreversível e não negociável.\nwww.jb.com.br/pais/notícias."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "I, apenas.",
+        "b": "II, apenas.",
+        "c": "I e III, apenas.",
+        "d": "II e III, apenas.",
+        "e": "I, II e III."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Globalização, comércio internacional, blocos econômicos e a posição do Brasil no comércio global",
+            "Impactos ambientais: mudanças climáticas, efeito estufa, desmatamento, degradação de solos e conferências internacionais do clima"
+          ]
+        },
+        {
+          "area": "História",
+          "assuntos": [
+            "Colapso da URSS, Nova Ordem Mundial, Globalização e Neoliberalismo",
+            "Organismos internacionais (FMI, OMC, Banco Mundial) e ascensão da China"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 49,
+      "tipo": "objetiva",
+      "enunciado": "Contemporaneamente, pode-se definir a sociedade mundial como a do petróleo, devido à participação desta matéria-prima em inúmeros produtos e atividades humanas. A utilização deste recurso natural data de muitos séculos, mas sua exploração e beneficiamento se expandiram somente a partir do século XX. A respeito desse recurso natural, é correto afirmar:",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "Houve uma forte redução do preço do barril, no início da década de 1970, por conta dos resultados das pesquisas envolvendo novos procedimentos de extração e refino.",
+        "b": "A estatização, no Brasil, do transporte e do refino de petróleo iniciou-se no final dos anos 1930 sob o governo de Juscelino Kubitschek.",
+        "c": "O início de seu uso como fonte de energia se deu em 1920, na Inglaterra, com a descoberta de reservas pouco profundas.",
+        "d": "No final dos anos 1920, sete empresas petrolíferas mundiais constituíram um cartel controlador da extração, transporte, refino e distribuição do petróleo.",
+        "e": "Os Estados Unidos possuem reservas ilimitadas de petróleo, o que ocasiona independência em relação aos países participantes da OPEP."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Matrizes energéticas mundiais e do Brasil (fontes renováveis e não renováveis)"
+          ]
+        },
+        {
+          "area": "História",
+          "assuntos": [
+            "Revolução Russa, Crise de 1929 e ascensão do Nazifascismo",
+            "Guerra Fria, corrida armamentista e descolonização da África e Ásia"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 50,
+      "tipo": "objetiva",
+      "enunciado": "Países europeus, como França e Alemanha, têm valorizado, principalmente nas duas últimas décadas, o estabelecimento da menor distância possível entre as áreas de produção agrícola e de consumo, o que se denomina circuito curto. Na França, o circuito curto é reconhecido por integrar, no máximo, um intermediário entre o produtor e o consumidor, quando não se trata de venda direta. No Brasil, ainda que não haja uma definição oficial, o circuito curto é identificado pela proximidade entre produtor e consumidor.",
+      "textos_de_apoio": [
+        "Moacir R. Darolt et al. A diversidade dos circuitos curtos de alimentos ecológicos: ensinamentos do caso brasileiro e francês. Agriculturas, v.10, n.2. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "I.",
+        "b": "II.",
+        "c": "I e II.",
+        "d": "II e III.",
+        "e": "I e III."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Espaço Rural: sistemas agrícolas, modernização do campo e estrutura agrária brasileira"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 51,
+      "tipo": "objetiva",
+      "enunciado": "O Brasil possui um território extenso, com 92% pertencentes à zona intertropical. As massas de ar que atuam em território brasileiro possuem influências oceânicas e continentais. Sobre as características dessas massas de ar, é correto afirmar:",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 16: Mapa do Brasil mostrando as massas de ar indicadas pelas letras W, X, Y, Z e V."
+      ],
+      "alternativas": {
+        "a": "W representa a Massa Equatorial Atlântica de ar quente e úmido, responsável pela grande umidade na Amazônia.",
+        "b": "Y indica a Massa Polar Atlântica, que se desloca a partir do sul em direção ao norte do território brasileiro e tem como característica a presença de ar frio, podendo atingir a região Centro-Oeste no inverno.",
+        "c": "Z indica a Massa Tropical Continental, que tem como característica a presença de ar quente e úmido, ocasionando alagamentos no Centro-Oeste no inverno.",
+        "d": "X indica a Massa Equatorial Continental de ar quente e seco, que atua no nordeste do litoral brasileiro.",
+        "e": "V representa a Massa Temperada Atlântica de ar frio e seco, que atua no sul do litoral brasileiro."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Climatologia: fatores/elementos do clima, dinâmica das massas de ar e climas do Brasil e do mundo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 52,
+      "tipo": "objetiva",
+      "enunciado": "No mundo virtual, milhões de pessoas falam, compram, compartilham dados e se reúnem para tratar dos mais variados assuntos. Nas figuras, os números mostram a movimentação média, em 1 minuto, de algumas das principais empresas e ferramentas de internet nos anos de 2015 e 2017.",
+      "textos_de_apoio": [
+        "www.excelacom.com. Adaptado."
+      ],
+      "midia": [
+        "Página 17: Duas infografias circulares comparando dados de uso de empresas de internet (YouTube, Google, Spotify, Instagram, Twitter, Uber, Amazon) nos anos de 2015 e 2017."
+      ],
+      "alternativas": {
+        "a": "Após um crescimento até a primeira década do século XXI, as ferramentas na internet apresentaram estagnação de utilização nos últimos anos.",
+        "b": "Para todos os governos do mundo, independentemente do regime, a democratização da internet é uma ação estratégica.",
+        "c": "O controle de dados e informações é descentralizado, o que confere equanimidade aos países membros da ONU.",
+        "d": "A internet está em constante e rápida mudança, com novas ferramentas aparecendo com contribuições relevantes, enquanto outras vão perdendo espaço.",
+        "e": "Empresas do ramo de serviços têm apresentado crescimento acentuado, o que não é observado em relação a empresas do ramo de entretenimento."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Redes de transporte, comunicações e circulação espacial",
+            "Globalização, comércio internacional, blocos econômicos e a posição do Brasil no comércio global"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 53,
+      "tipo": "objetiva",
+      "enunciado": "Nas cidades brasileiras, particularmente no último quartel do século XIX, novas formas urbanas são constituídas, como os cortiços e as favelas. Sobre esse fenômeno, é correto afirmar:",
+      "textos_de_apoio": [
+        "As casinhas eram alugadas por mês e as tinas por dia; e tudo pago adiantado. O preço de cada tina, metendo a água, quinhentos réis; sabão à parte. As moradoras do cortiço tinham preferência e não pagavam nada para lavar. (...) E, mal vagava uma das casinhas, ou um quarto, um canto onde coubesse um colchão, surgia uma nuvem de pretendentes a disputá-los.\nAluísio Azevedo, O cortiço."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "A expansão periférica no século XIX, na zona sul da cidade do Rio de Janeiro, teve significativa presença de cortiços, devido à chegada massiva de imigrantes japoneses.",
+        "b": "A primeira favela carioca teve sua origem no forte empobrecimento da população no contexto da crise cafeeira na região serrana do Rio de Janeiro.",
+        "c": "A maior concentração dos cortiços da cidade de São Paulo, presentes no último quartel do século XIX, localizava-se na porção mais central da aglomeração urbana.",
+        "d": "As primeiras favelas brasileiras se originaram devido à expansão da atividade industrial, no centro da cidade de São Paulo, no início do último quartel do século XIX.",
+        "e": "Nas cidades do Vale do Paraíba, durante a expansão cafeeira, os cortiços eram muito frequentes, por conta da presença de imigrantes italianos empobrecidos."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Economia cafeeira, Guerra do Paraguai, imigração e abolição da escravidão no Brasil",
+            "Brasil República: República Velha (oligarquias), Era Vargas (1930-1945), Período Democrático (1945-1964) e Ditadura Civil-Militar (1964-1985)"
+          ]
+        },
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Geografia Urbana: industrialização, urbanização, metropolização, conurbação, megalópoles e segregação socioespacial"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 54,
+      "tipo": "objetiva",
+      "enunciado": "Exemplo de processo ao qual se aplica o conceito mais restrito de erosão é",
+      "textos_de_apoio": [
+        "O conceito de erosão apresenta definições mais amplas ou mais restritas. A mais abrangente envolve os processos de denudação da superfície terrestre de forma geral, incluindo desde os processos de intemperismo de todos os tipos até os de transporte e deposição de material. Outro conceito, mais restrito, envolve apenas o deslocamento do material intemperizado, seja solo ou rocha, por agentes de transporte como a água corrente, o vento, o gelo ou a gravidade, produzindo formas erosivas características.\nR. Fairbridge. The Encyclopedia of Geomorphology, 1968. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "a formação de rochas.",
+        "b": "a oxidação de rochas.",
+        "c": "a formação de sulcos no solo.",
+        "d": "a formação de concreções no solo.",
+        "e": "o vulcanismo da crosta."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Classificação das rochas, formação de solos e relevo (agentes internos e externos/intemperismo)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 55,
+      "tipo": "objetiva",
+      "enunciado": "As transformações ocorridas na agricultura após meados do século XX foram reconhecidas como revolução verde, sobre a qual se pode afirmar:",
+      "textos_de_apoio": [
+        "As primeiras práticas de agricultura datam de, aproximadamente, 10.000 anos. Neste período, ocorreram inúmeras transformações na sua base técnica, mas é, no decorrer da segunda metade do século XX, que a revolução agrícola contemporânea, fundada na elevada motorização-mecanização, na seleção de variedades de plantas e de raças de animais e na ampla utilização de corretores de pH dos solos, de fertilizantes, de ração animal e de insumos químicos para as plantas e para os animais domésticos, progrediu vigorosamente nos países desenvolvidos e em alguns setores limitados dos países subdesenvolvidos.\nMarcel Mazoyer & Laurence Roudart. História das agriculturas no mundo: do neolítico à crise contemporânea, São Paulo: Unesp; Brasília: NEAD, 2010. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "Sua concepção foi desenvolvida no Japão e nos Tigres Asiáticos após a II Guerra Mundial.",
+        "b": "Contribuiu para a ampliação da diversificação das espécies e do controle das sementes pelos pequenos agricultores.",
+        "c": "Seus parâmetros produtivos estavam fundados, desde sua origem, em preservar e proteger a biodiversidade nas áreas de cultivo.",
+        "d": "Com sua expansão, na África e no sudeste Asiático, as populações rurais puderam alcançar padrões de consumo semelhantes aos das grandes metrópoles.",
+        "e": "Foi baseada na inovação científica e está atrelada à grande produção de grãos em extensas áreas de monocultura."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Espaço Rural: sistemas agrícolas, modernização do campo e estrutura agrária brasileira"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 56,
+      "tipo": "objetiva",
+      "enunciado": "Com relação às áreas delimitadas nos mapas, está correto o que se afirma em:",
+      "textos_de_apoio": [
+        "Observe os mapas referentes à delimitação da bacia hidrográfica do rio Xingu, com o detalhamento da parte sul, onde fica o Parque Indígena do Xingu (PIX)."
+      ],
+      "midia": [
+        "Página 18: Dois mapas mostrando a bacia hidrográfica do rio Xingu, localização e desmatamento na parte sul com o Parque Indígena do Xingu (PIX)."
+      ],
+      "alternativas": {
+        "a": "Devido ao avanço do desmatamento nessa bacia hidrográfica nas últimas quatro décadas, processo iniciado pela atividade pecuária ao longo dos rios e seguido pelo avanço da monocultura de eucalipto, inviabilizam-se quaisquer ações de recuperação e de conservação do bioma Amazônico.",
+        "b": "O Parque Indígena do Xingu, criado principalmente para proteger diversas etnias indígenas, atua hoje como inibidor do avanço do desmatamento, função esperada para as diversas unidades de conservação previstas pelo Sistema Nacional de Unidades de Conservação.",
+        "c": "Dentre as grandes bacias hidrográficas amazônicas, a bacia hidrográfica do rio Xingu, na disposição leste-oeste, é uma das bacias da margem esquerda do rio Amazonas com importante conectividade entre dois biomas brasileiros: a Caatinga e o bioma Amazônico, ambos biologicamente e geologicamente diversos.",
+        "d": "O desmatamento, observado no mapa, é resultado da monocultura de babaçu, praticada pelos indígenas que extraem seu óleo e vendem-no para indústrias de cosméticos.",
+        "e": "O avanço do desmatamento nessa área deve-se às monoculturas de cana-de-açúcar e laranja, ambas cultivadas com variedades transgênicas adaptadas ao bioma Amazônico."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Domínios morfoclimáticos e biomas mundiais e brasileiros",
+            "Hidrografia: bacias hidrográficas mundiais e brasileiras e geopolítica da água"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 57,
+      "tipo": "objetiva",
+      "enunciado": "Estuários são ambientes aquáticos em que há a transição entre rio (água doce, com salinidade menor que 0,5 g de NaCl por kg de água) e mar (água salgada, com salinidade maior que 30 g de NaCl por kg de água). Existem diferentes tipos de estuários, dos quais três deles são:\n1. Estuário bem misturado: ocorre quando há grandes variações de maré e fortes correntes, causando rápida mistura entre as águas.\n2. Estuário parcialmente misturado: ocorre quando o mar tem variações moderadas de maré e há mistura entre as águas, porém com diferenças entre a região superficial e a profunda.\n3. Estuário do tipo cunha salina: ocorre quando o rio desemboca no mar, em que este tem pouca variação de maré, gerando grande estratificação.\nMedidas de salinidade da água em função da profundidade foram realizadas em um ponto equivalente para esses três tipos de estuários, conforme mostrado no esquema a seguir, gerando os gráficos I, II e III.",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 19: Esquema de mistura de águas e três gráficos (I, II e III) de salinidade em função da profundidade."
+      ],
+      "alternativas": {
+        "a": "1: I, 2: II, 3: III",
+        "b": "1: II, 2: I, 3: III",
+        "c": "1: II, 2: III, 3: I",
+        "d": "1: III, 2: I, 3: II",
+        "e": "1: III, 2: II, 3: I"
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Hidrografia: bacias hidrográficas mundiais e brasileiras e geopolítica da água"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 58,
+      "tipo": "objetiva",
+      "enunciado": "Na região das formações sociais gregas,",
+      "textos_de_apoio": [
+        "Os Impérios helenísticos, amálgamas ecléticas de formas gregas e orientais, alargaram o espaço da civilização urbana da Antiguidade clássica, diluindo-lhe a substância [...].\nDe 200 a.C. em diante, o poder imperial romano avançou para leste [...] e nos meados do século II as suas legiões haviam esmagado todas as barreiras sérias de resistência do Oriente.\nP. Anderson. Passagens da Antiguidade ao feudalismo. Porto: Afrontamento, 1982."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "a autonomia das cidades-estado manteve-se intocável, apesar da centralização política implementada pelos imperadores helenísticos.",
+        "b": "essas formações e os impérios helenísticos constituíram-se com o avanço das conquistas espartanas no período posterior às guerras no Peloponeso, ao final do século V a.C.",
+        "c": "a conquista romana caracterizou-se por uma forte ofensiva frente à cultura helenística, impondo a língua latina e cerceando as escolas filosóficas gregas.",
+        "d": "o Oriente tornou-se área preponderante do Império Romano a partir do século III d.C., com a crise do escravismo, que afetou mais fortemente sua parte ocidental.",
+        "e": "os espaços foram conquistados pelas tropas romanas, na Grécia e na Ásia Menor, em seu período de apogeu, devido às lutas intestinas e às rivalidades entre cidades-estado."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Antiguidade Clássica: democracia ateniense, República/Império Romano e escravismo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 59,
+      "tipo": "objetiva",
+      "enunciado": "Acerca das características da Cristandade e do Islã no período medieval, pode-se afirmar que",
+      "textos_de_apoio": [
+        "Um grande manto de florestas e várzeas cortado por clareiras cultivadas, mais ou menos férteis, tal é o aspecto da Cristandade – algo diferente do Oriente muçulmano, mundo de oásis em meio a desertos. Num local a madeira é rara e as árvores indicam a civilização, noutro a madeira é abundante e sinaliza a barbárie. A religião, que no Oriente nasceu ao abrigo das palmeiras, cresceu no Ocidente em detrimento das árvores, refúgio dos gênios pagãos que monges, santos e missionários abatem impiedosamente.\nJ. Le Goff. A civilização do ocidente medieval. Bauru: Edusc, 2005. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "o cristianismo se desenvolveu a partir do mundo rural, enquanto a religião muçulmana teve como base inicial as cidades e os povoados da península arábica.",
+        "b": "a concentração humana assemelhava-se nas clareiras e nos oásis, que se constituíam como células econômicas, sociais e culturais, tanto da Cristandade quanto do Islã.",
+        "c": "a Cristandade é considerada o negativo do Islã, pela ausência de cidades, circuitos mercantis e transações monetárias, que abundavam nas formações sociais islâmicas.",
+        "d": "o clero cristão, defensor do monoteísmo estrito, combateu as práticas pagãs muçulmanas, arraigadas nas florestas e nas regiões desérticas da Cristandade ocidental.",
+        "e": "a expansão econômica islâmica caracterizou-se pela ampliação das fronteiras de cultivo, em detrimento das florestas, em um movimento inverso àquele verificado no Ocidente medieval."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Período Medieval: feudalismo, diversidade religiosa (cristianismo, islamismo, judaísmo) e vida cultural no Medievo europeu e africano"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 60,
+      "tipo": "objetiva",
+      "enunciado": "Analise as quatro afirmações seguintes, a respeito da empresa e da conquista colonial espanhola no Peru e da representação presente na imagem.",
+      "textos_de_apoio": [
+        "A imagem representa a morte de Atahualpa, o último imperador inca, em 1533, após a conquista espanhola comandada por Francisco Pizarro."
+      ],
+      "midia": [
+        "Página 20: Pintura 'Los funerais do inca Atahualpa' de Luis Montero (1865-1867)."
+      ],
+      "alternativas": {
+        "a": "I, II e III.",
+        "b": "II, III e IV.",
+        "c": "I, III e IV.",
+        "d": "I e II.",
+        "e": "III e IV."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Povos pré-colombianos na América (Maias, Astecas e Incas)",
+            "Colonização espanhola, inglesa, francesa e holandesa na América"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 61,
+      "tipo": "objetiva",
+      "enunciado": "A respeito dos espaços econômicos do açúcar e do ouro no Brasil colonial, é correto afirmar:",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "A pecuária no sertão nordestino surgiu em resposta às demandas de transporte da economia mineradora.",
+        "b": "A produção açucareira estimulou a formação de uma rede urbana mais ampla do que a atividade aurífera.",
+        "c": "O custo relativo do frete dos metais preciosos viabilizou a interiorização da colonização portuguesa.",
+        "d": "A mão de obra escrava indígena foi mais empregada na exploração do ouro do que na produção de açúcar.",
+        "e": "Ambas as atividades produziram efeitos similares sobre a formação de um mercado interno colonial."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Brasil Colônia: primeiros habitantes indígenas, ocupação territorial, ciclos econômicos (açúcar e ouro) e escravidão"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 62,
+      "tipo": "objetiva",
+      "enunciado": "Nesse excerto, o autor referia-se",
+      "textos_de_apoio": [
+        "Na edição de julho de 1818 do Correio Braziliense, o jornalista Hipólito José da Costa, residente em Londres, publicou a seguinte avaliação sobre os dilemas então enfrentados pelo Império português na América:\nA presença de S.M. [Sua Majestade Imperial] no Brasil lhe dará ocasião para ter mais ou menos influência naqueles acontecimentos; a independência em que el-rei ali se acha das intrigas europeias o deixa em liberdade para decidir-se nas ocorrências, segundo melhor convier a seus interesses. Se volta para Lisboa, antes daquela crise se decidir, não poderá tomar parte nos arranjamentos que a nova ordem de coisas deve ocasionar na América."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "aos desdobramentos da Revolução Pernambucana do ano anterior, que ameaçara o domínio português sobre o centro-sul do Brasil.",
+        "b": "às demandas da Revolução Constitucionalista do Porto, exigindo a volta imediata do monarca a Portugal.",
+        "c": "à posição de independência de D. João VI em relação às pressões da Santa Aliança para que interviesse nas guerras do rio da Prata.",
+        "d": "às implicações que os movimentos de independência na América espanhola traziam para a dominação portuguesa no Brasil.",
+        "e": "ao projeto de D. João VI para que seu filho D. Pedro se tornasse imperador do Brasil independente."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Revoltas coloniais e a transferência da Família Real para o Brasil (1808)",
+            "Processos de Independência nas Américas: EUA, Revolução Haitiana e América Espanhola"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 63,
+      "tipo": "objetiva",
+      "enunciado": "No que se refere à crise do colonialismo português na África na segunda metade do século XX,",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "a Era das Revoluções, ao implicar a abolição do tráfico transatlântico de escravos para as Américas, erodiu as bases do domínio de Portugal sobre Angola e Moçambique.",
+        "b": "Portugal, com um poder de segunda ordem no concerto europeu, se viu alijado das deliberações da Conferência de Berlim, perdendo assim o domínio sobre suas colônias.",
+        "c": "as independências de Angola e de Moçambique foram marcadas por um processo relativamente pacífico, que envolveu ampla negociação com os poderes metropolitanos em Portugal.",
+        "d": "o processo de independência das colônias portuguesas, ao contrário do que ocorreu nas colônias inglesas e francesas, não se relacionou às polarizações geopolíticas da Guerra Fria.",
+        "e": "o movimento de independência colonial foi decisivo para o processo de transformação política em Portugal, ao acelerar a crise do regime autoritário nascido no período entre-guerras."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Guerra Fria, corrida armamentista e descolonização da África e Ásia"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 64,
+      "tipo": "objetiva",
+      "enunciado": "A Declaração Universal mencionada no texto",
+      "textos_de_apoio": [
+        "[...] a Declaração Universal representa um fato novo na história, na medida em que, pela primeira vez, um sistema de princípios fundamentais da conduta humana foi livre e expressamente aceito, através de seus respectivos governos, pela maioria dos homens que vive na Terra. Com essa declaração, um sistema de valores é – pela primeira vez na história – universal, não em princípio, mas de fato, na medida em que o consenso sobre sua validade e sua capacidade de reger os destinos da comunidade futura de todos os homens foi explicitamente declarado. [...] Somente depois da Declaração Universal é que podemos ter a certeza histórica de que a humanidade – toda a humanidade – partilha alguns valores comuns; e podemos, finalmente, crer na universalidade dos valores, no único sentido em que tal crença é historicamente legítima, ou seja, no sentido em que universal significa não algo dado objetivamente, mas algo subjetivamente acolhido pelo universo dos homens.\nN. Bobbio. A era dos direitos. Rio de Janeiro: Campus, 1992."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "foi instituída no processo da Revolução Francesa e norteou os movimentos feministas, sufragistas e operários no decorrer do século XIX.",
+        "b": "assemelhou-se ao universalismo cristão, que também resultou no estabelecimento de um conjunto de valores partilhado pela humanidade.",
+        "c": "desenvolveu-se com a inclusão de princípios universais pelos legisladores norte-americanos e influenciou o abolicionismo nos Estados Unidos.",
+        "d": "foi aprovada pela Organização das Nações Unidas e serviu como referência para grupos que lutaram pelos direitos de negros, mulheres e homossexuais na década de 1960.",
+        "e": "originou-se do jusnaturalismo moderno e consolidou-se com o movimento ilustrado e o despotismo esclarecido ao longo do século XVIII."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Segunda Guerra Mundial e criação da Declaração Universal dos Direitos Humanos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 65,
+      "tipo": "objetiva",
+      "enunciado": "Nesse texto,",
+      "textos_de_apoio": [
+        "Aqui no Chile estava se construindo, entre imensas dificuldades, uma sociedade verdadeiramente justa, erguida sobre a base de nossa soberania, de nosso orgulho nacional, do heroísmo dos melhores habitantes do Chile. Do nosso lado, do lado da revolução chilena, estavam a constituição e a lei, a democracia e a esperança.\nPablo Neruda. Confesso que vivi. Memórias. Rio de Janeiro: Difel, 1980."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "“soberania” está relacionada às campanhas de privatização das minas de estanho e salitre, que até então eram mantidas por capitais anglo-americanos.",
+        "b": "“heroísmo” refere-se aos embates armados, travados com setores da democracia cristã e com as comunidades indígenas dos araucanos.",
+        "c": "“a constituição e a lei” é uma referência ao novo ordenamento jurídico implantado após o golpe promovido pela Unidade Popular.",
+        "d": "“democracia” alude a um traço peculiar da via chilena para o socialismo, pois o presidente Salvador Allende chegou ao poder pelo voto.",
+        "e": "“esperança” traduz a expectativa resultante do apoio econômico e estratégico que havia sido obtido junto aos Estados Unidos e França."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "EUA e América Latina: Doutrina Monroe, Big Stick, Revolução Mexicana e regimes civil-militares"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 66,
+      "tipo": "objetiva",
+      "enunciado": "O futurismo de Marinetti e o fascismo de Benito Mussolini têm em comum",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "a constatação da falência cultural da Itália, que se agarrou ao passado romano e ignorou os grandes avanços da Primeira Revolução Industrial.",
+        "b": "o desejo de proporcionar aos cidadãos italianos o acesso aos bens de consumo e a implantação do Estado de bem-estar social.",
+        "c": "o esforço de modernização cultural e a tentativa de demolir as edificações que restaram do passado romano.",
+        "d": "a valorização e a adoção das bases e dos princípios das teorias revolucionárias anarquistas e socialistas.",
+        "e": "a glorificação da ideologia da guerra e da velocidade proporcionada pelos avanços técnicos e militares."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Revolução Russa, Crise de 1929 e ascensão do Nazifascismo"
+          ]
+        },
+        {
+          "area": "Filosofia e Sociologia",
+          "assuntos": [
+            "Estética: conceitos de arte, natureza e Indústria Cultural no mundo contemporâneo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 67,
+      "tipo": "objetiva",
+      "enunciado": "Está de acordo com o texto a seguinte afirmação:",
+      "textos_de_apoio": [
+        "A operação era um pouco dolorosa e não durava mais que um minuto, mas era traumática. Seu significado simbólico estava claro para todos: este é um sinal indelével, daqui não sairão mais; esta é a marca que se imprime nos escravos e nos animais destinados ao matadouro, e vocês se tornaram isso. Vocês não têm mais nome: este é o seu nome. A violência da tatuagem era gratuita, um fim em si mesmo, pura ofensa: não bastavam os três números de pano costurados nas calças, no casaco e no agasalho de inverno?\nPrimo Levi. Os afogados e os sobreviventes. Rio de Janeiro: Paz e Terra, 1990."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "A tatuagem era uma forma de tortura e uma mensagem não verbal, que inscrevia a condenação no corpo do prisioneiro.",
+        "b": "O uso de tatuagens era perturbador apenas para ciganos e judeus ortodoxos, pois violava o código moral e as leis religiosas dessas comunidades.",
+        "c": "O recurso de tatuar o prisioneiro, além de impor um sofrimento físico e moral, discriminava o tipo de remuneração.",
+        "d": "O emprego das tatuagens funcionava como um código estético e de classificação dos prisioneiros nos campos de concentração.",
+        "e": "A tatuagem, assim como o trabalho voluntário, não tinham finalidade produtiva, mas contribuíam para o entendimento entre os prisioneiros."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Segunda Guerra Mundial e criação da Declaração Universal dos Direitos Humanos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 68,
+      "tipo": "objetiva",
+      "enunciado": "Analise as quatro afirmações seguintes, acerca das revoluções políticas e científicas da Época Moderna.\nI. A concepção heliocêntrica de Nicolau Copérnico, sustentada na obra Das revoluções das esferas celestes, de 1543, reforçava a doutrina católica contra os postulados protestantes.\nII. A Lei da Gravitação Universal, proposta por Isaac Newton no século XVII, reforçava as radicais perspectivas ateístas que haviam pautado as ações dos grupos revolucionários na Inglaterra à época da Revolução Puritana.\nIII. Às experiências com eletricidade realizadas por Benjamin Franklin no século XVIII, somou-se sua atuação no processo de emancipação política dos Estados Unidos da América.\nIV. Os estudos sobre o oxigênio e sobre a conservação da matéria, feitos por Antoine Lavoisier ao final do século XVIII, estavam em consonância com a racionalização do conhecimento, característica da Ilustração.\nEstão corretas apenas as afirmações",
+      "textos_de_apoio": [
+        "Tanto no desenvolvimento político como no científico, o sentimento de funcionamento defeituoso, que pode levar à crise, é um pré-requisito para a revolução.\nT. S. Kuhn. A estrutura das revoluções científicas. São Paulo: Perspectiva, 1989."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "I, II e III.",
+        "b": "II, III e IV.",
+        "c": "I, III e IV.",
+        "d": "I e II.",
+        "e": "III e IV."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Renascimento Cultural, Reformas Religiosas e formação dos Estados Nacionais",
+            "Iluminismo, Liberalismo e a 1ª Revolução Industrial"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 69,
+      "tipo": "objetiva",
+      "enunciado": "O efeito de humor presente no cartum decorre, principalmente, da",
+      "textos_de_apoio": [
+        "Frank e Ernest – Bob Thaves. O Estado de S. Paulo. 22.08.2017."
+      ],
+      "midia": [
+        "Página 23: Cartum de Frank e Ernest mostrando dois personagens e um GPS dizendo 'O GPS NÃO VAI RESOLVER NOSSO PROBLEMA DE 'LOCALIZAÇÃO' LINGUÍSTICA'."
+      ],
+      "alternativas": {
+        "a": "semelhança entre a língua de origem e a local.",
+        "b": "falha de comunicação causada pelo uso do aparelho eletrônico.",
+        "c": "falta de habilidade da personagem em operar o localizador geográfico.",
+        "d": "discrepância entre situar-se geograficamente e dominar o idioma local.",
+        "e": "incerteza sobre o nome do ponto turístico onde as personagens se encontram."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Intertextualidade, interdiscursividade e análise de textos verbais e não verbais (charges, cartuns)",
+            "Significação explícita e implícita, denotação e conotação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 70,
+      "tipo": "objetiva",
+      "enunciado": "De acordo com o texto, a compreensão do significado de uma obra de arte pressupõe",
+      "textos_de_apoio": [
+        "Uma obra de arte é um desafio; não a explicamos, ajustamo-nos a ela. Ao interpretá-la, fazemos uso dos nossos próprios objetivos e esforços, dotamo-la de um significado que tem sua origem nos nossos próprios modos de viver e de pensar. Numa palavra, qualquer gênero de arte que, de fato, nos afete, torna-se, deste modo, arte moderna.\nAs obras de arte, porém, são como altitudes inacessíveis. Não nos dirigimos a elas diretamente, mas contornamo-las. Cada geração as vê sob um ângulo diferente e sob uma nova visão; nem se deve supor que um ponto de vista mais recente é mais eficiente do que um anterior. Cada aspecto surge na sua altura própria, que não pode ser antecipada nem prolongada; e, todavia, o seu significado não está perdido porque o significado que uma obra assume para uma geração posterior é o resultado de uma série completa de interpretações anteriores.\nArnold Hauser, Teorias da arte. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "o reconhecimento de seu significado intrínseco.",
+        "b": "a exclusividade do ponto de vista mais recente.",
+        "c": "a consideração de seu caráter imutável.",
+        "d": "o acúmulo de interpretações anteriores.",
+        "e": "a explicação definitiva de seu sentido."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação",
+            "Mecanismos de coesão textual (lexical, referencial, anafórica) e coerência"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 71,
+      "tipo": "objetiva",
+      "enunciado": "No trecho “Numa palavra, qualquer gênero de arte que, de fato, nos afete, torna-se, deste modo, arte moderna” (L. 5-6), as expressões sublinhadas podem ser substituídas, sem prejuízo do sentido do texto, respectivamente, por",
+      "textos_de_apoio": [
+        "Uma obra de arte é um desafio; não a explicamos, ajustamo-nos a ela. Ao interpretá-la, fazemos uso dos nossos próprios objetivos e esforços, dotamo-la de um significado que tem sua origem nos nossos próprios modos de viver e de pensar. Numa palavra, qualquer gênero de arte que, de fato, nos afete, torna-se, deste modo, arte moderna.\nArnold Hauser, Teorias da arte. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "realmente; portanto.",
+        "b": "invariavelmente; ainda.",
+        "c": "com efeito; todavia.",
+        "d": "com segurança; também.",
+        "e": "possivelmente; até."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Mecanismos de coesão textual (lexical, referencial, anafórica) e coerência",
+            "Classes gramaticais: substantivo, adjetivo, artigo, numeral, pronome, verbo, advérbio, preposição, conjunção e interjeição"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 72,
+      "tipo": "objetiva",
+      "enunciado": "São características dos narradores Brás Cubas e Helena, respectivamente,",
+      "textos_de_apoio": [
+        "Este último capítulo é todo de negativas. Não alcancei a celebridade do emplasto, não fui ministro, não fui califa, não conheci o casamento. Verdade é que, ao lado dessas faltas, coube-me a boa fortuna de não comprar o pão com o suor do meu rosto. Mais; não padeci a morte de dona Plácida, nem a semidemência do Quincas Borba. Somadas umas coisas e outras, qualquer pessoa imaginará que não houve míngua nem sobra, e, conseguintemente, que saí quite com a vida. E imaginará mal; porque ao chegar a este outro lado do mistério, achei-me com um pequeno saldo, que é a derradeira negativa deste capítulo de negativas: Não tive filhos, não transmiti a nenhuma criatura o legado da nossa miséria.\nMachado de Assis, Memórias póstumas de Brás Cubas.",
+        "Não sei por que até hoje todo o mundo diz que tinha pena dos escravos. Eu não penso assim. Acho que se fosse obrigada a trabalhar o dia inteiro não seria infeliz. Ser obrigada a ficar à toa é que seria castigo para mim. Mamãe às vezes diz que ela até deseja que eu fique preguiçosa; a minha esperteza é que a amofina. Eu então respondo: “Se eu fosse preguiçosa não sei o que seria da senhora, meu pai e meus irmãos, sem uma empregada em casa”.\nHelena Morley, Minha vida de menina."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "malícia e ingenuidade.",
+        "b": "solidariedade e egoísmo.",
+        "c": "apatia e determinação.",
+        "d": "rebeldia e conformismo.",
+        "e": "otimismo e pessimismo."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Literatura Brasileira: Quinhentismo, Barroco (Gregório de Matos), Arcadismo, Romantismo, Realismo/Naturalismo (Machado de Assis), Parnasianismo e Simbolismo",
+            "Tipologias textuais (narração, descrição, dissertação) e gêneros textuais variados"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 73,
+      "tipo": "objetiva",
+      "enunciado": "Nos dois textos, obtém-se ênfase por meio do emprego de um mesmo recurso expressivo, como se pode verificar nos seguintes trechos:",
+      "textos_de_apoio": [
+        "Este último capítulo é todo de negativas. Não alcancei a celebridade do emplasto, não fui ministro, não fui califa, não conheci o casamento. Verdade é que, ao lado dessas faltas, coube-me a boa fortuna de não comprar o pão com o suor do meu rosto. Mais; não padeci a morte de dona Plácida, nem a semidemência do Quincas Borba. Somadas umas coisas e outras, qualquer pessoa imaginará que não houve míngua nem sobra, e, conseguintemente, que saí quite com a vida. E imaginará mal; porque ao chegar a este outro lado do mistério, achei-me com um pequeno saldo, que é a derradeira negativa deste capítulo de negativas: Não tive filhos, não transmiti a nenhuma criatura o legado da nossa miséria.\nMachado de Assis, Memórias póstumas de Brás Cubas.",
+        "Não sei por que até hoje todo o mundo diz que tinha pena dos escravos. Eu não penso assim. Acho que se fosse obrigada a trabalhar o dia inteiro não seria infeliz. Ser obrigada a ficar à toa é que seria castigo para mim. Mamãe às vezes diz que ela até deseja que eu fique preguiçosa; a minha esperteza é que a amofina. Eu então respondo: “Se eu fosse preguiçosa não sei o que seria da senhora, meu pai e meus irmãos, sem uma empregada em casa”.\nHelena Morley, Minha vida de menina."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "“Este último capítulo é todo de negativas” / “Eu não penso assim”.",
+        "b": "“Não alcancei a celebridade do emplasto, não fui ministro, não fui califa, não conheci o casamento” / “Não sei por que até hoje todo o mundo diz que tinha pena dos escravos”.",
+        "c": "“Verdade é que, ao lado dessas faltas, coube-me a boa fortuna de não comprar o pão com o suor do meu rosto” / “Ser obrigada a ficar à toa é que seria castigo para mim”.",
+        "d": "“qualquer pessoa imaginará que não houve míngua nem sobra” / “Mamãe às vezes diz que ela até deseja que eu fique preguiçosa”.",
+        "e": "“Não tive filhos, não transmiti a nenhuma criatura o legado da nossa miséria” / “Acho que se fosse obrigada a trabalhar o dia inteiro não seria infeliz”."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Figuras de linguagem (metáfora, metonímia, antítese, paradoxo, hipérbole, ironia)",
+            "Significação explícita e implícita, denotação e conotação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 74,
+      "tipo": "objetiva",
+      "enunciado": "O trecho do romance Minha vida de menina que ilustra de modo mais preciso o que, para o crítico Alexandre Eulálio, representa “a coexistência íntima de dois mundos culturais divergentes” é:",
+      "textos_de_apoio": [
+        "Voltada para o encanto da vida livre do pequeno núcleo aberto para o campo, a jovem Helena, familiar a todas as classes sociais daquele âmbito, estava colocada num invejável ponto de observação. (...)\nSem querer forçar um conflito que, a bem dizer, apenas se esboça, podemos atribuir parte desta grande versatilidade psicológica da protagonista aos ecos de uma formação britânica, protestante, liberal, ressoando num ambiente de corte ibérico e católico, mal saído do regime de trabalho escravo. Colorindo a apaixonada esfera de independência da juventude, reveste-se de acentuado sabor sociológico este caso da menina ruiva que, embora inteiramente identificada com o meio de gente morena que é o seu, o único que conhece e ama, não vacila em o criticar com precisão e finura notáveis, se essa lucidez não traduzisse a coexistência íntima de dois mundos culturais divergentes, que se contemplam e se julgam no interior de um eu tornado harmonioso pelo equilíbrio mesmo de suas contradições.\nAlexandre Eulálio, “Livro que nasceu clássico”.\nIn: Helena Morley, Minha vida de menina."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "“Se há uma coisa que me faz muita tristeza é gostar muito de uma pessoa, pensando que ela é boa e depois ver que é ruim”.",
+        "b": "“Eu tinha muita inveja de ver meus irmãos montarem no cavalo em pelo, mas agora estou curada e não montarei nunca mais na minha vida”.",
+        "c": "“Já refleti muito desde ontem e vi que o único meio de ter vestido é vendendo o broche. Vou dormir ainda esta noite com isto na cabeça e vou conversar com Nossa Senhora tudo direitinho”.",
+        "d": "“Se eu não ouvir missa no domingo, como quando estou na Boa Vista onde não há igreja e não posso ouvir no Bom Sucesso, fico o dia todo com um prego na consciência me aferroando”.",
+        "e": "“Este ano saiu à rua a procissão de Cinzas que há muitos anos não havia. Dizem que não saía há muito tempo por falta de santos, porque muitos já estavam quebrados”."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Modernismo Brasileiro: 1ª Fase (1922), 2ª Fase (Geração de 30 - romance regionalista e poesia de 30) e 3ª Fase (Geração de 45/Pós-Modernismo)",
+            "Significação explícita e implícita, denotação e conotação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 75,
+      "tipo": "objetiva",
+      "enunciado": "De acordo com Alexandre Eulálio, a protagonista do romance Minha vida de menina",
+      "textos_de_apoio": [
+        "Voltada para o encanto da vida livre do pequeno núcleo aberto para o campo, a jovem Helena, familiar a todas as classes sociais daquele âmbito, estava colocada num invejável ponto de observação. (...)\nSem querer forçar um conflito que, a bem dizer, apenas se esboça, podemos atribuir parte desta grande versatilidade psicológica da protagonista aos ecos de uma formação britânica, protestante, liberal, ressoando num ambiente de corte ibérico e católico, mal saído do regime de trabalho escravo. Colorindo a apaixonada esfera de independência da juventude, reveste-se de acentuado sabor sociológico este caso da menina ruiva que, embora inteiramente identificada com o meio de gente morena que é o seu, o único que conhece e ama, não vacila em o criticar com precisão e finura notáveis, se essa lucidez não traduzisse a coexistência íntima de dois mundos culturais divergentes, que se contemplam e se julgam no interior de um eu tornado harmonioso pelo equilíbrio mesmo de suas contradições.\nAlexandre Eulálio, “Livro que nasceu clássico”.\nIn: Helena Morley, Minha vida de menina."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "vivencia um conflito – uma ideia fortalecida por “a bem dizer” (L. 5).",
+        "b": "apresenta certo vínculo com o protestantismo – uma ideia sintetizada por “ecos de uma formação britânica” (L. 7-8).",
+        "c": "formou-se num meio alheio ao trabalho escravo – um fato referido por “num ambiente de corte ibérico e católico” (L. 8-9).",
+        "d": "rejeita as influências do meio em que vive – uma característica revelada por “precisão e finura notáveis” (L. 14).",
+        "e": "tem a sua lucidez psicológica abalada pelas ambivalências de sua educação – um traço reiterado por “equilíbrio mesmo de suas contradições” (L. 17-18)."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Modernismo Brasileiro: 1ª Fase (1922), 2ª Fase (Geração de 30 - romance regionalista e poesia de 30) e 3ª Fase (Geração de 45/Pós-Modernismo)",
+            "Significação explícita e implícita, denotação e conotação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 76,
+      "tipo": "objetiva",
+      "enunciado": "Uma característica do Naturalismo presente no texto é:",
+      "textos_de_apoio": [
+        "O rumor crescia, condensando-se; o zunzum de todos os dias acentuava-se; já se não destacavam vozes dispersas, mas um só ruído compacto que enchia todo o cortiço. Começavam a fazer compras na venda; ensarilhavam-se* discussões e rezingas**; ouviam-se gargalhadas e pragas; já se não falava, gritava-se. Sentia-se naquela fermentação sanguínea, naquela gula viçosa de plantas rasteiras que mergulham os pés vigorosos na lama preta e nutriente da vida, o prazer animal de existir, a triunfante satisfação de respirar sobre a terra.\nDa porta da venda que dava para o cortiço iam e vinham como formigas; fazendo compras.\nDuas janelas do Miranda abriram-se. Apareceu numa a Isaura, que se dispunha a começar a limpeza da casa.\n– Nhá Dunga! gritou ela para baixo, a sacudir um pano de mesa; se você tem cuscuz de milho hoje, bata na porta, ouviu?\nAluísio Azevedo, O cortiço.\n* ensarilhar-se: emaranhar-se.\n** rezinga: resmungo."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "forte apelo aos sentidos.",
+        "b": "idealização do espaço.",
+        "c": "exaltação da natureza.",
+        "d": "realce de aspectos raciais.",
+        "e": "ênfase nas individualidades."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Literatura Brasileira: Quinhentismo, Barroco (Gregório de Matos), Arcadismo, Romantismo, Realismo/Naturalismo (Machado de Assis), Parnasianismo e Simbolismo",
+            "Figuras de linguagem (metáfora, metonímia, antítese, paradoxo, hipérbole, ironia)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 77,
+      "tipo": "objetiva",
+      "enunciado": "Constitui marca do registro informal da língua o trecho",
+      "textos_de_apoio": [
+        "O rumor crescia, condensando-se; o zunzum de todos os dias acentuava-se; já se não destacavam vozes dispersas, mas um só ruído compacto que enchia todo o cortiço. Começavam a fazer compras na venda; ensarilhavam-se* discussões e rezingas**; ouviam-se gargalhadas e pragas; já se não falava, gritava-se. Sentia-se naquela fermentação sanguínea, naquela gula viçosa de plantas rasteiras que mergulham os pés vigorosos na lama preta e nutriente da vida, o prazer animal de existir, a triunfante satisfação de respirar sobre a terra.\nDa porta da venda que dava para o cortiço iam e vinham como formigas; fazendo compras.\nDuas janelas do Miranda abriram-se. Apareceu numa a Isaura, que se dispunha a começar a limpeza da casa.\n– Nhá Dunga! gritou ela para baixo, a sacudir um pano de mesa; se você tem cuscuz de milho hoje, bata na porta, ouviu?\nAluísio Azevedo, O cortiço.\n* ensarilhar-se: emaranhar-se.\n** rezinga: resmungo."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "“mas um só ruído compacto” (L. 2-3).",
+        "b": "“ouviam-se gargalhadas” (L. 5).",
+        "c": "“o prazer animal de existir” (L. 8-9).",
+        "d": "“gritou ela para baixo” (L. 14).",
+        "e": "“bata na porta” (L. 15)."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Variações linguísticas e níveis de formalidade/informalidade",
+            "Sintaxe do período simples (termos essenciais, integrantes e acessórios da oração)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 78,
+      "tipo": "objetiva",
+      "enunciado": "As declarações de Graciliano Ramos na Carta e o excerto do romance permitem afirmar que a personagem Baleia, em Vidas secas, representa",
+      "textos_de_apoio": [
+        "(...) procurei adivinhar o que se passa na alma duma cachorra. Será que há mesmo alma em cachorro? Não me importo. O meu bicho morre desejando acordar num mundo cheio de preás. Exatamente o que todos nós desejamos. A diferença é que eu quero que eles apareçam antes do sono, e padre Zé Leite pretende que eles nos venham em sonhos, mas no fundo todos somos como a minha cachorra Baleia e esperamos preás. (...)\nCarta de Graciliano Ramos a sua esposa.",
+        "(...) Uma angústia apertou-lhe o pequeno coração. Precisava vigiar as cabras: àquela hora cheiros de suçuarana deviam andar pelas ribanceiras, rondar as moitas afastadas. Felizmente os meninos dormiam na esteira, por baixo do caritó onde sinha Vitória guardava o cachimbo.\n(...)\nBaleia queria dormir. Acordaria feliz, num mundo cheio de preás. E lamberia as mãos de Fabiano, um Fabiano enorme. As crianças se espojariam com ela, rolariam com ela num pátio enorme, num chiqueiro enorme. O mundo ficaria todo cheio de preás, gordos, enormes.\nGraciliano Ramos, Vidas secas."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "o conformismo dos sertanejos.",
+        "b": "os anseios comunitários de justiça social.",
+        "c": "os desejos incompatíveis com os de Fabiano.",
+        "d": "a crença em uma vida sobrenatural.",
+        "e": "o desdém por um mundo melhor."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Modernismo Brasileiro: 1ª Fase (1922), 2ª Fase (Geração de 30 - romance regionalista e poesia de 30) e 3ª Fase (Geração de 45/Pós-Modernismo)",
+            "Significação explícita e implícita, denotação e conotação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 79,
+      "tipo": "objetiva",
+      "enunciado": "A comparação entre os fragmentos, respectivamente, da Carta e de Vidas secas, permite afirmar que",
+      "textos_de_apoio": [
+        "(...) procurei adivinhar o que se passa na alma duma cachorra. Será que há mesmo alma em cachorro? Não me importo. O meu bicho morre desejando acordar num mundo cheio de preás. Exatamente o que todos nós desejamos. A diferença é que eu quero que eles apareçam antes do sono, e padre Zé Leite pretende que eles nos venham em sonhos, mas no fundo todos somos como a minha cachorra Baleia e esperamos preás. (...)\nCarta de Graciliano Ramos a sua esposa.",
+        "(...) Uma angústia apertou-lhe o pequeno coração. Precisava vigiar as cabras: àquela hora cheiros de suçuarana deviam andar pelas ribanceiras, rondar as moitas afastadas. Felizmente os meninos dormiam na esteira, por baixo do caritó onde sinha Vitória guardava o cachimbo.\n(...)\nBaleia queria dormir. Acordaria feliz, num mundo cheio de preás. E lamberia as mãos de Fabiano, um Fabiano enorme. As crianças se espojariam com ela, rolariam com ela num pátio enorme, num chiqueiro enorme. O mundo ficaria todo cheio de preás, gordos, enormes.\nGraciliano Ramos, Vidas secas."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "“será que há mesmo” e “acordaria feliz” sugerem dúvida.",
+        "b": "“procurei adivinhar” e “precisava vigiar” significam necessidade.",
+        "c": "“no fundo todos somos” e “andar pelas ribanceiras” indicam lugar.",
+        "d": "“padre Zé Leite pretende” e “Baleia queria dormir” indicam intencionalidade.",
+        "e": "“todos nós desejamos” e “dormiam na esteira” indicam possibilidade."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Classes gramaticais: substantivo, adjetivo, artigo, numeral, pronome, verbo, advérbio, preposição, conjunção e interjeição",
+            "Mecanismos de coesão textual (lexical, referencial, anafórica) e coerência"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 80,
+      "tipo": "objetiva",
+      "enunciado": "A novela Sarapalha apresenta uma estória dentro de outra, por meio da qual a personagem masculina da narrativa principal (Primo Argemiro) alude a uma mulher da narrativa secundária (a moça levada pelo capeta). O mesmo procedimento ocorre em",
+      "textos_de_apoio": [
+        "Sarapalha\n– Ô calorão, Primo!... E que dor de cabeça excomungada!\n– É um instantinho e passa... É só ter paciência....\n– É... passa... passa... passa... Passam umas mulheres vestidas de cor de água, sem olhos na cara, para não terem de olhar a gente... Só ela é que não passa, Primo Argemiro!... E eu já estou cansado de procurar, no meio das outras... Não vem!... Foi, rio abaixo, com o outro... Foram p’r’os infernos!...\n– Não foi, Primo Ribeiro. Não foram pelo rio... Foi trem-de-ferro que levou...\n– Não foi no rio, eu sei... No rio ninguém não anda... Só a maleita é quem sobe e desce, olhando seus mosquitinhos e pondo neles a benção... Mas, na estória... Como é mesmo a estória, Primo? Como é?...\n– O senhor bien que sabe, Primo... Tem paciência, que não é bom variar...\n– Mas, a estória, Primo!... Como é?... Conta outra vez...\n– O senhor já sabe as palavras todas de cabeça... “Foi o moço bonito que apareceu, vestido com roupa de dia de domingo e com a viola enfeitada de fitas... E chamou a moça p’ra ir se fugir com ele”...\n– Espera, Primo, elas estão passando... Vão umas atrás das outras... Cada qual mais bonita... Mas eu não quero, nenhuma!... Quero só ela... Luísa...\n– Prima Luísa...\n– Espera um pouco, deixa ver se eu vejo... Me ajuda, Primo! Me ajuda a ver...\n– Não é nada, Primo Ribeiro... Deixa disso!\n– Não é mesmo não...\n– Pois então?!\n– Conta o resto da estória!...\n– ...“Então, a moça, que não sabia que o moço bonito era o capeta, ajuntou suas roupinhas melhores numa trouxa, e foi com ele na canoa, descendo o rio...”\nGuimarães Rosa, Sagarana."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "Duelo, com Cassiano e Silivana.",
+        "b": "Minha gente, com Ramiro e a filha de Emílio.",
+        "c": "A volta do marido pródigo, com Lalino e Maria Rita.",
+        "d": "O burrinho pedrês, com Raymundão e a namorada de Silvino.",
+        "e": "A hora e vez de Augusto Matraga, com Ovídio e Dionóra."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Modernismo Brasileiro: 1ª Fase (1922), 2ª Fase (Geração de 30 - romance regionalista e poesia de 30) e 3ª Fase (Geração de 45/Pós-Modernismo)",
+            "Tipologias textuais (narração, descrição, dissertação) e gêneros textuais variados"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 81,
+      "tipo": "objetiva",
+      "enunciado": "No texto de Sarapalha, constitui exemplo de personificação o seguinte trecho:",
+      "textos_de_apoio": [
+        "Sarapalha\n– Ô calorão, Primo!... E que dor de cabeça excomungada!\n– É um instantinho e passa... É só ter paciência....\n– É... passa... passa... passa... Passam umas mulheres vestidas de cor de água, sem olhos na cara, para não terem de olhar a gente... Só ela é que não passa, Primo Argemiro!... E eu já estou cansado de procurar, no meio das outras... Não vem!... Foi, rio abaixo, com o outro... Foram p’r’os infernos!...\n– Não foi, Primo Ribeiro. Não foram pelo rio... Foi trem-de-ferro que levou...\n– Não foi no rio, eu sei... No rio ninguém não anda... Só a maleita é quem sobe e desce, olhando seus mosquitinhos e pondo neles a benção... Mas, na estória... Como é mesmo a estória, Primo? Como é?...\n– O senhor bien que sabe, Primo... Tem paciência, que não é bom variar...\n– Mas, a estória, Primo!... Como é?... Conta outra vez...\n– O senhor já sabe as palavras todas de cabeça... “Foi o moço bonito que apareceu, vestido com roupa de dia de domingo e com a viola enfeitada de fitas... E chamou a moça p’ra ir se fugir com ele”...\n– Espera, Primo, elas estão passando... Vão umas atrás das outras... Cada qual mais bonita... Mas eu não quero, nenhuma!... Quero só ela... Luísa...\n– Prima Luísa...\n– Espera um pouco, deixa ver se eu vejo... Me ajuda, Primo! Me ajuda a ver...\n– Não é nada, Primo Ribeiro... Deixa disso!\n– Não é mesmo não...\n– Pois então?!\n– Conta o resto da estória!...\n– ...“Então, a moça, que não sabia que o moço bonito era o capeta, ajuntou suas roupinhas melhores numa trouxa, e foi com ele na canoa, descendo o rio...”\nGuimarães Rosa, Sagarana."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "“No rio ninguém não anda” (L. 10).",
+        "b": "“só a maleita é quem sobe e desce” (L. 10-11).",
+        "c": "“O senhor já sabe as palavras todas de cabeça” (L. 17).",
+        "d": "“e com a viola enfeitada de fitas” (L. 19).",
+        "e": "“ajuntou suas roupinhas melhores numa trouxa” (L. 32)."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Figuras de linguagem (metáfora, metonímia, antítese, paradoxo, hipérbole, ironia)",
+            "Significação explícita e implícita, denotação e conotação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 82,
+      "tipo": "objetiva",
+      "enunciado": "Tendo como base o trecho “só a maleita é quem sobe e desce, olhando seus mosquitinhos e pondo neles a benção...”, o termo em destaque foi empregado ironicamente por aludir ao inseto",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "causador da malária.",
+        "b": "causador da febre amarela.",
+        "c": "transmissor da doença de Chagas.",
+        "d": "transmissor da malária.",
+        "e": "transmissor da febre amarela."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Saúde e Parasitologia: bacterioses, protozooses (malária, Chagas, leishmaniose) e verminoses (teníase, esquistossomose, ascaridíase)"
+          ]
+        },
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Figuras de linguagem (metáfora, metonímia, antítese, paradoxo, hipérbole, ironia)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 83,
+      "tipo": "objetiva",
+      "enunciado": "Considere as seguintes afirmações:\nI. Os familiares, que falam no poema, ironizam a condição frágil do poeta.\nII. O passado é uma maldição da qual o poeta, como revela o título do poema, não consegue se desvencilhar.\nIII. O trecho “o fim de tudo que foi grande” remete à ruína das oligarquias, das quais Drummond é tributário.\nIV. A imagem de uma “poesia que se furta e se expande/à maneira de um lago de pez e resíduos letais...” sintetiza o pessimismo dos poemas de Claro enigma.\nEstão corretas:",
+      "textos_de_apoio": [
+        "Os bens e o sangue\nVIII\n(...)\nÓ filho pobre, e descorçoado*, e finito\nó inapto para as cavalhadas e os trabalhos brutais\ncom a faca, o formão, o couro... Ó tal como quiséramos\npara tristeza nossa e consumação das eras,\npara o fim de tudo que foi grande!\nÓ desejado,\nó poeta de uma poesia que se furta e se expande\nà maneira de um lago de pez** e resíduos letais...\nÉs nosso fim natural e somos teu adubo,\ntua explicação e tua mais singela virtude...\nPois carecia que um de nós nos recusasse\npara melhor servir-nos. Face a face\nte contemplamos, e é teu esse primeiro\ne úmido beijo em nossa boca de barro e de sarro.\nCarlos Drummond de Andrade, Claro enigma.\n* “descorçoado”: assim como “desacorçoado”, é uma variante de uso popular da palavra “desacoroçoado”, que significa “desanimado”.\n** “pez”: piche."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "I e II, apenas.",
+        "b": "I, II e III, apenas.",
+        "c": "II e IV, apenas.",
+        "d": "I, III e IV, apenas.",
+        "e": "I, II, III e IV."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Modernismo Brasileiro: 1ª Fase (1922), 2ª Fase (Geração de 30 - romance regionalista e poesia de 30) e 3ª Fase (Geração de 45/Pós-Modernismo)",
+            "Significação explícita e implícita, denotação e conotação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 84,
+      "tipo": "objetiva",
+      "enunciado": "Considere o tipo de relação estabelecida pela preposição “para” nos seguintes trechos do poema:\nI. “ó inapto para as cavalhadas e os trabalhos brutais”.\nII. “Ó tal como quiséramos para tristeza nossa e consumação das eras”.\nIII. “para o fim de tudo que foi grande”.\nIV. “para melhor servir-nos”.\nA preposição “para” introduz uma oração com ideia de finalidade apenas em",
+      "textos_de_apoio": [
+        "Os bens e o sangue\nVIII\n(...)\nÓ filho pobre, e descorçoado*, e finito\nó inapto para as cavalhadas e os trabalhos brutais\ncom a faca, o formão, o couro... Ó tal como quiséramos\npara tristeza nossa e consumação das eras,\npara o fim de tudo que foi grande!\nÓ desejado,\nó poeta de uma poesia que se furta e se expande\nà maneira de um lago de pez** e resíduos letais...\nÉs nosso fim natural e somos teu adubo,\ntua explicação e tua mais singela virtude...\nPois carecia que um de nós nos recusasse\npara melhor servir-nos. Face a face\nte contemplamos, e é teu esse primeiro\ne úmido beijo em nossa boca de barro e de sarro.\nCarlos Drummond de Andrade, Claro enigma."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "I.",
+        "b": "I e II.",
+        "c": "III.",
+        "d": "III e IV.",
+        "e": "IV."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Sintaxe do período composto (coordenação e subordinação)",
+            "Regência verbal e nominal (emprego do sinal indicativo de crase)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 85,
+      "tipo": "objetiva",
+      "enunciado": "Por ser empregado tanto na linguagem formal quanto na linguagem informal, o termo “legal” pode ser lido, no contexto da propaganda, respectivamente, nos seguintes sentidos:",
+      "textos_de_apoio": [
+        "Examine esta propaganda.\nwww.combustivellegal.com.br"
+      ],
+      "midia": [
+        "Página 26: Propaganda da campanha 'COMBUSTÍVEL LEGAL'."
+      ],
+      "alternativas": {
+        "a": "lícito e bom.",
+        "b": "aceito e regulado.",
+        "c": "requintado e excepcional.",
+        "d": "viável e interessante.",
+        "e": "jurídico e autorizado."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação",
+            "Variações linguísticas e níveis de formalidade/informalidade"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 86,
+      "tipo": "objetiva",
+      "enunciado": "Conforme o texto, o grau de importância atribuído à estátua da rainha Vitória, em Québec, reside no fato de a escultura",
+      "textos_de_apoio": [
+        "It’s a perilous time to be a statue. Not that it has ever been a particularly secure occupation, exposed as statues are to the elements, bird droppings and political winds.\nJust ask Queen Victoria, whose rounded frame perches atop hundreds of plinths across the Commonwealth, with an air of solemn, severe solidity. But in 1963 in Quebec, members of a separatist paramilitary group stuck dynamite under the dress of her local statue. It exploded with a force so great that her head was found 100 yards away.\nToday, the head is on display in a museum, with her body preserved in a room some miles away. The art historian Vincent Giguère said that “the fact it’s damaged is what makes it so important.”\nThere’s another reason to conserve the beheaded Victoria. Statues of women, standing alone and demanding attention in a public space, are extremely rare.\nTo be made a statue, a woman had to be a naked muse, royalty or the mother of God. Or occasionally, an icon of war, justice or virtue: Boadicea in her chariot in London, the Statue of Liberty in New York.\nStill, of 925 public statues in Britain, only 158 are women standing on their own. Of those, 110 are allegorical or mythical, and 29 are of Queen Victoria.\nJulia Baird, The New York Times. September 4, 2017. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "estar em processo de restauração.",
+        "b": "ter sobrevivido às intempéries ao longo dos anos.",
+        "c": "pertencer a um grupo de réplicas idênticas.",
+        "d": "ser a primeira a retratar uma autoridade feminina.",
+        "e": "ter sofrido danos em sua estrutura."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 87,
+      "tipo": "objetiva",
+      "enunciado": "No texto, a figura da rainha Vitória é associada ao conceito de",
+      "textos_de_apoio": [
+        "It’s a perilous time to be a statue. Not that it has ever been a particularly secure occupation, exposed as statues are to the elements, bird droppings and political winds.\nJust ask Queen Victoria, whose rounded frame perches atop hundreds of plinths across the Commonwealth, with an air of solemn, severe solidity. But in 1963 in Quebec, members of a separatist paramilitary group stuck dynamite under the dress of her local statue. It exploded with a force so great that her head was found 100 yards away.\nToday, the head is on display in a museum, with her body preserved in a room some miles away. The art historian Vincent Giguère said that “the fact it’s damaged is what makes it so important.”\nThere’s another reason to conserve the beheaded Victoria. Statues of women, standing alone and demanding attention in a public space, are extremely rare.\nTo be made a statue, a woman had to be a naked muse, royalty or the mother of God. Or occasionally, an icon of war, justice or virtue: Boadicea in her chariot in London, the Statue of Liberty in New York.\nStill, of 925 public statues in Britain, only 158 are women standing on their own. Of those, 110 are allegorical or mythical, and 29 are of Queen Victoria.\nJulia Baird, The New York Times. September 4, 2017. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "firmeza.",
+        "b": "eloquência.",
+        "c": "longevidade.",
+        "d": "beleza.",
+        "e": "maternidade."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 88,
+      "tipo": "objetiva",
+      "enunciado": "No texto, a referência ao número de estátuas expostas em espaços públicos na Grã-Bretanha indica",
+      "textos_de_apoio": [
+        "It’s a perilous time to be a statue. Not that it has ever been a particularly secure occupation, exposed as statues are to the elements, bird droppings and political winds.\nJust ask Queen Victoria, whose rounded frame perches atop hundreds of plinths across the Commonwealth, with an air of solemn, severe solidity. But in 1963 in Quebec, members of a separatist paramilitary group stuck dynamite under the dress of her local statue. It exploded with a force so great that her head was found 100 yards away.\nToday, the head is on display in a museum, with her body preserved in a room some miles away. The art historian Vincent Giguère said that “the fact it’s damaged is what makes it so important.”\nThere’s another reason to conserve the beheaded Victoria. Statues of women, standing alone and demanding attention in a public space, are extremely rare.\nTo be made a statue, a woman had to be a naked muse, royalty or the mother of God. Or occasionally, an icon of war, justice or virtue: Boadicea in her chariot in London, the Statue of Liberty in New York.\nStill, of 925 public statues in Britain, only 158 are women standing on their own. Of those, 110 are allegorical or mythical, and 29 are of Queen Victoria.\nJulia Baird, The New York Times. September 4, 2017. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "ênfase em personalidades alegóricas.",
+        "b": "escassez de monumentos do gênero feminino.",
+        "c": "desapreço por esculturas de corpo inteiro.",
+        "d": "falta de espaço em museus para peças de grande porte.",
+        "e": "preferência por figuras de destaque em batalhas."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 89,
+      "tipo": "objetiva",
+      "enunciado": "No texto, um exemplo associado ao fato de algoritmos estarem por toda parte é",
+      "textos_de_apoio": [
+        "Algorithms are everywhere. They play the stockmarket, decide whether you can have a mortgage and may one day drive your car for you. They search the internet when commanded, stick carefully chosen advertisements into the sites you visit and decide what prices to show you in online shops. (…) But what exactly are algorithms, and what makes them so powerful?\nAn algorithm is, essentially, a brainless way of doing clever things. It is a set of precise steps that need no great mental effort to follow but which, if obeyed exactly and mechanically, will lead to some desirable outcome. Long division and column addition are examples that everyone is familiar with — if you follow the procedure, you are guaranteed to get the right answer. So is the strategy, rediscovered thousands of times every year by schoolchildren bored with learning mathematical algorithms, for playing a perfect game of noughts and crosses. The brainlessness is key: each step should be as simple and as free from ambiguity as possible. Cooking recipes and driving directions are algorithms of a sort. But instructions like “stew the meat until tender” or “it’s a few miles down the road” are too vague to follow without at least some interpretation.\n(…)\nThe Economist, August 30, 2017."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "o cartão de crédito.",
+        "b": "o livre mercado.",
+        "c": "a dieta.",
+        "d": "o jogo de xadrez.",
+        "e": "o comércio eletrônico."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 90,
+      "tipo": "objetiva",
+      "enunciado": "Segundo o texto, a execução de um algoritmo consiste em um processo que",
+      "textos_de_apoio": [
+        "Algorithms are everywhere. They play the stockmarket, decide whether you can have a mortgage and may one day drive your car for you. They search the internet when commanded, stick carefully chosen advertisements into the sites you visit and decide what prices to show you in online shops. (…) But what exactly are algorithms, and what makes them so powerful?\nAn algorithm is, essentially, a brainless way of doing clever things. It is a set of precise steps that need no great mental effort to follow but which, if obeyed exactly and mechanically, will lead to some desirable outcome. Long division and column addition are examples that everyone is familiar with — if you follow the procedure, you are guaranteed to get the right answer. So is the strategy, rediscovered thousands of times every year by schoolchildren bored with learning mathematical algorithms, for playing a perfect game of noughts and crosses. The brainlessness is key: each step should be as simple and as free from ambiguity as possible. Cooking recipes and driving directions are algorithms of a sort. But instructions like “stew the meat until tender” or “it’s a few miles down the road” are too vague to follow without at least some interpretation.\n(…)\nThe Economist, August 30, 2017."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "prevê a memorização de tabelas e fórmulas.",
+        "b": "envolve mecanismos de seleção e detecção de erros.",
+        "c": "se apoia em um número infinito de etapas.",
+        "d": "é incompatível com análises subjetivas e imprecisas.",
+        "e": "alterna níveis altos e baixos de esforço intelectual."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    }
+  ]
+}

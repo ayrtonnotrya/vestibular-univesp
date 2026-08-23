@@ -1,0 +1,447 @@
+{
+  "exame": "fuvest_2020",
+  "figuras_coordenadas": {
+    "1": [
+      {
+        "pagina": 2,
+        "tipo": "imagem",
+        "elemento": "Ilustração da xícara de café com algodão-doce",
+        "bbox": [
+          14.0,
+          248.0,
+          247.0,
+          396.0
+        ]
+      }
+    ],
+    "3": [
+      {
+        "pagina": 2,
+        "tipo": "tabela",
+        "elemento": "Tabela Periódica destacando césio e sódio",
+        "bbox": [
+          89.0,
+          126.0,
+          181.0,
+          380.0
+        ]
+      }
+    ],
+    "4": [
+      {
+        "pagina": 3,
+        "tipo": "imagem",
+        "elemento": "Esquemas de separação de fases e estruturas de licopeno e betanina",
+        "bbox": [
+          254.0,
+          64.0,
+          471.0,
+          386.0
+        ]
+      }
+    ],
+    "5": [
+      {
+        "pagina": 3,
+        "tipo": "grafico",
+        "elemento": "Gráfico de porcentagem de compostos ao longo do tempo",
+        "bbox": [
+          116.0,
+          606.0,
+          233.0,
+          837.0
+        ]
+      }
+    ],
+    "6": [
+      {
+        "pagina": 3,
+        "tipo": "esquema",
+        "elemento": "Esquema de diluições homeopáticas",
+        "bbox": [
+          572.0,
+          731.0,
+          670.0,
+          933.0
+        ]
+      }
+    ],
+    "7": [
+      {
+        "pagina": 4,
+        "tipo": "esquema",
+        "elemento": "Série de decaimento radioativo do Urânio-238",
+        "bbox": [
+          219.0,
+          517.0,
+          331.0,
+          759.0
+        ]
+      }
+    ],
+    "8": [
+      {
+        "pagina": 4,
+        "tipo": "tabela",
+        "elemento": "Esquemas de arranjos antes e depois da colisão",
+        "bbox": [
+          688.0,
+          64.0,
+          833.0,
+          469.0
+        ]
+      }
+    ],
+    "9": [
+      {
+        "pagina": 4,
+        "tipo": "imagem",
+        "elemento": "Estruturas químicas do Grupo Heme, Biliverdina e Bilirrubina",
+        "bbox": [
+          219.0,
+          591.0,
+          642.0,
+          758.0
+        ]
+      }
+    ],
+    "10": [
+      {
+        "pagina": 5,
+        "tipo": "imagem",
+        "elemento": "Esquemas de reações orgânicas e estruturas moleculares",
+        "bbox": [
+          98.0,
+          128.0,
+          822.0,
+          423.0
+        ]
+      }
+    ],
+    "11": [
+      {
+        "pagina": 5,
+        "tipo": "grafico",
+        "elemento": "Diagrama de fases da água (Pressão x Temperatura)",
+        "bbox": [
+          211.0,
+          602.0,
+          380.0,
+          786.0
+        ]
+      }
+    ],
+    "12": [
+      {
+        "pagina": 6,
+        "tipo": "tabela",
+        "elemento": "Tabela de valores de pH e escala de cores",
+        "bbox": [
+          492.0,
+          67.0,
+          833.0,
+          442.0
+        ]
+      }
+    ],
+    "13": [
+      {
+        "pagina": 6,
+        "tipo": "grafico",
+        "elemento": "Diagrama de rotas e probabilidades entre cidades",
+        "bbox": [
+          219.0,
+          507.0,
+          380.0,
+          767.0
+        ]
+      }
+    ],
+    "15": [
+      {
+        "pagina": 6,
+        "tipo": "imagem",
+        "elemento": "Ilustração de rolo de fita crepe",
+        "bbox": [
+          710.0,
+          758.0,
+          833.0,
+          933.0
+        ]
+      }
+    ],
+    "16": [
+      {
+        "pagina": 7,
+        "tipo": "imagem",
+        "elemento": "Esquema do paralelogramo articulado",
+        "bbox": [
+          219.0,
+          127.0,
+          272.0,
+          447.0
+        ]
+      }
+    ],
+    "24": [
+      {
+        "pagina": 8,
+        "tipo": "cartum",
+        "elemento": "Tirinha de Calvin e Hobbes",
+        "bbox": [
+          290.0,
+          247.0,
+          497.0,
+          504.0
+        ]
+      }
+    ],
+    "28": [
+      {
+        "pagina": 9,
+        "tipo": "imagem",
+        "elemento": "Meme em inglês com terapeuta e paciente",
+        "bbox": [
+          310.0,
+          245.0,
+          517.0,
+          759.0
+        ]
+      }
+    ],
+    "51": [
+      {
+        "pagina": 15,
+        "tipo": "grafico",
+        "elemento": "Curvas de crescimento de insetos hemimetábolos",
+        "bbox": [
+          50,
+          180,
+          95,
+          340
+        ]
+      }
+    ],
+    "52": [
+      {
+        "pagina": 15,
+        "tipo": "figura",
+        "elemento": "Esquema de célula vegetal adulta",
+        "bbox": [
+          50,
+          550,
+          95,
+          690
+        ]
+      }
+    ],
+    "53": [
+      {
+        "pagina": 15,
+        "tipo": "figura",
+        "elemento": "Heredograma da doença",
+        "bbox": [
+          90,
+          110,
+          95,
+          280
+        ]
+      }
+    ],
+    "54": [
+      {
+        "pagina": 15,
+        "tipo": "figura",
+        "elemento": "Esquema das células 1 e 2",
+        "bbox": [
+          500,
+          550,
+          95,
+          750
+        ]
+      }
+    ],
+    "60": [
+      {
+        "pagina": 17,
+        "tipo": "mapa",
+        "elemento": "Rotas comerciais da África do Norte e Ocidental no século XV",
+        "bbox": [
+          90,
+          110,
+          95,
+          300
+        ]
+      }
+    ],
+    "62": [
+      {
+        "pagina": 17,
+        "tipo": "mapa",
+        "elemento": "Atlas Portulano de Battista Agnese, 1545",
+        "bbox": [
+          250,
+          550,
+          95,
+          750
+        ]
+      }
+    ],
+    "71": [
+      {
+        "pagina": 19,
+        "tipo": "grafico",
+        "elemento": "Gráfico de L (dB) versus d (m)",
+        "bbox": [
+          500,
+          550,
+          95,
+          690
+        ]
+      }
+    ],
+    "75": [
+      {
+        "pagina": 20,
+        "tipo": "figura",
+        "elemento": "Diagramas dos circuitos 1, 2 e 3",
+        "bbox": [
+          200,
+          550,
+          95,
+          720
+        ]
+      }
+    ],
+    "76": [
+      {
+        "pagina": 20,
+        "tipo": "grafico",
+        "elemento": "Gráfico de limite de resolução versus diâmetro do telescópio",
+        "bbox": [
+          650,
+          550,
+          95,
+          720
+        ]
+      }
+    ],
+    "77": [
+      {
+        "pagina": 21,
+        "tipo": "figura",
+        "elemento": "Figura 1 e Figura 2 do Solenoide e partículas",
+        "bbox": [
+          100,
+          110,
+          95,
+          450
+        ]
+      }
+    ],
+    "78": [
+      {
+        "pagina": 21,
+        "tipo": "figura",
+        "elemento": "Ilustração do drone e das trajetórias",
+        "bbox": [
+          750,
+          550,
+          95,
+          750
+        ]
+      }
+    ],
+    "80": [
+      {
+        "pagina": 21,
+        "tipo": "figura",
+        "elemento": "Representação esquemática de frentes frias",
+        "bbox": [
+          550,
+          550,
+          95,
+          750
+        ]
+      }
+    ],
+    "81": [
+      {
+        "pagina": 22,
+        "tipo": "figura",
+        "elemento": "Ilustração da sombra das colunas de Eratóstenes",
+        "bbox": [
+          250,
+          110,
+          95,
+          450
+        ]
+      }
+    ],
+    "82": [
+      {
+        "pagina": 22,
+        "tipo": "mapa",
+        "elemento": "Mapa de corredores ecológicos do vírus no Estado de SP",
+        "bbox": [
+          200,
+          550,
+          95,
+          750
+        ]
+      }
+    ],
+    "84": [
+      {
+        "pagina": 23,
+        "tipo": "cartum",
+        "elemento": "Cartogramas da agricultura familiar e não familiar no Brasil",
+        "bbox": [
+          100,
+          110,
+          95,
+          450
+        ]
+      }
+    ],
+    "85": [
+      {
+        "pagina": 23,
+        "tipo": "mapa",
+        "elemento": "Mapa global de trânsito de internet",
+        "bbox": [
+          250,
+          550,
+          95,
+          750
+        ]
+      }
+    ],
+    "89": [
+      {
+        "pagina": 25,
+        "tipo": "figura",
+        "elemento": "Representação de deslizamento de terra em Santos e São Vicente",
+        "bbox": [
+          280,
+          110,
+          95,
+          450
+        ]
+      }
+    ],
+    "90": [
+      {
+        "pagina": 25,
+        "tipo": "figura",
+        "elemento": "Esquema do vulcão Chimborazo e faixas de vegetação",
+        "bbox": [
+          500,
+          550,
+          95,
+          750
+        ]
+      }
+    ]
+  }
+}

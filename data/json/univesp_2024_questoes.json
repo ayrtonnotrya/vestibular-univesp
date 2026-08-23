@@ -1,0 +1,1575 @@
+{
+  "exame": "univesp_2024_questoes",
+  "ano": 2024,
+  "semestre": 1,
+  "fonte_questoes": "data/univesp_2024_questoes.pdf",
+  "fonte_gabarito": "data/univesp_2024_gabarito.pdf",
+  "total_questoes": 57,
+  "questoes": [
+    {
+      "numero": 1,
+      "tipo": "objetiva",
+      "enunciado": "Considerando o gráfico e as informações relativas a ele, assinale a opção correta.",
+      "textos_de_apoio": [
+        "Em outubro de 2023, o Instituto Brasileiro de Geografia e Estatística (IBGE) divulgou dados a respeito da mudança no perfil de idade em nosso país. Um exemplo é o índice de envelhecimento (IE) que tenta estimar o ritmo de envelhecimento da população a partir da razão entre a população idosa (com 65 anos ou mais) e a população jovem (grupo com 14 anos ou menos), nessa ordem. Assim, em 2022, a título de ilustração, o IE indica que, para cada grupo de 1000 jovens no Brasil, existiam 552 idosos.",
+        "Envelhecimento da População Brasileira\nÍNDICE DE ENVELHECIMENTO (%)\n1970: 7,5\n1980: 10,5\n1990: 13,9\n2000: 19,8\n2010: 30,7\n2022: 55,2\nFonte dos dados: IBGE. Adaptado."
+      ],
+      "midia": [
+        "Página 2: Gráfico de linha mostrando a evolução do Índice de Envelhecimento (%) no Brasil de 1970 a 2022 (valores: 1970=7,5; 1980=10,5; 1990=13,9; 2000=19,8; 2010=30,7; 2022=55,2)."
+      ],
+      "alternativas": {
+        "a": "No período que se estende de 1970 a 1990, a taxa de crescimento do IE manteve-se constante.",
+        "b": "O intervalo entre 1990 e 2000 foi aquele em que o Brasil registrou o maior aumento em seu IE.",
+        "c": "Entre os anos de 2000 e 2010, o IE apresentou o menor crescimento em relação aos demais intervalos.",
+        "d": "De 2010 a 2022, o IE indica que a população idosa aumentou, ao contrário da população jovem, que diminuiu.",
+        "e": "Se a taxa de crescimento da última década for mantida, estima-se que, até 2034, o IE ultrapasse o valor de 60 %."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Interpretação de gráficos (barras, setores, histogramas, box-plot, ramos e folhas)",
+            "Razões e proporções diretas e inversas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 2,
+      "tipo": "objetiva",
+      "enunciado": "No período de 10 anos, contados a partir de 1985, o IE indica que, para cada grupo de 1000 jovens no Brasil, o número de idoso existentes estava compreendido entre",
+      "textos_de_apoio": [
+        "Em outubro de 2023, o Instituto Brasileiro de Geografia e Estatística (IBGE) divulgou dados a respeito da mudança no perfil de idade em nosso país. Um exemplo é o índice de envelhecimento (IE) que tenta estimar o ritmo de envelhecimento da população a partir da razão entre a população idosa (com 65 anos ou mais) e a população jovem (grupo com 14 anos ou menos), nessa ordem. Assim, em 2022, a título de ilustração, o IE indica que, para cada grupo de 1000 jovens no Brasil, existiam 552 idosos.",
+        "Envelhecimento da População Brasileira\nÍNDICE DE ENVELHECIMENTO (%)\n1970: 7,5\n1980: 10,5\n1990: 13,9\n2000: 19,8\n2010: 30,7\n2022: 55,2\nFonte dos dados: IBGE. Adaptado."
+      ],
+      "midia": [
+        "Página 2: Gráfico de linha mostrando a evolução do Índice de Envelhecimento (%) no Brasil de 1970 a 2022."
+      ],
+      "alternativas": {
+        "a": "75,0 e 90,0.",
+        "b": "90,0 e 122,0.",
+        "c": "105,0 e 139,5.",
+        "d": "122,0 e 168,5.",
+        "e": "130,0 e 190,5."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Razões e proporções diretas e inversas",
+            "Interpretação de gráficos (barras, setores, histogramas, box-plot, ramos e folhas)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 3,
+      "tipo": "objetiva",
+      "enunciado": "Sobre os índices referentes aos anos que vão de 1970 a 1980, tomados ano a ano, é correto afirmar que eles formam uma",
+      "textos_de_apoio": [
+        "Em outubro de 2023, o Instituto Brasileiro de Geografia e Estatística (IBGE) divulgou dados a respeito da mudança no perfil de idade em nosso país. Um exemplo é o índice de envelhecimento (IE) que tenta estimar o ritmo de envelhecimento da população a partir da razão entre a população idosa (com 65 anos ou mais) e a população jovem (grupo com 14 anos ou menos), nessa ordem. Assim, em 2022, a título de ilustração, o IE indica que, para cada grupo de 1000 jovens no Brasil, existiam 552 idosos.",
+        "Envelhecimento da População Brasileira\nÍNDICE DE ENVELHECIMENTO (%)\n1970: 7,5\n1980: 10,5\n1990: 13,9\n2000: 19,8\n2010: 30,7\n2022: 55,2\nFonte dos dados: IBGE. Adaptado."
+      ],
+      "midia": [
+        "Página 2: Gráfico de linha mostrando a evolução do Índice de Envelhecimento (%) no Brasil de 1970 a 2022."
+      ],
+      "alternativas": {
+        "a": "Progressão Aritmética de razão igual a 7/5.",
+        "b": "Progressão Geométrica de razão igual a 7/5.",
+        "c": "Progressão Aritmética de razão igual a 5/2.",
+        "d": "Progressão Geométrica de razão igual a 3/10.",
+        "e": "Progressão Aritmética de razão igual a 3/10."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Progressão Aritmética (PA) - termo geral e soma dos termos",
+            "Noção de sequência e lei de formação/recorrência"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 4,
+      "tipo": "objetiva",
+      "enunciado": "No sul da Costa Rica, está conservada uma série de pedras esféricas entre 0,7 e 2,5 metros de diâmetro, cuja fabricação, utilização e significado são um mistério para os arqueólogos.\nAs esferas são surpreendentes pela perfeição de suas formas, quantidades e tamanhos; e é por essa razão que, desde 2014, fazem parte da lista do patrimônio cultural mundial.\n<http://tinyurl.com/mryvurny>. Acesso em: 11.01.2024.\nSuponha que uma dessas esferas, mencionadas no texto, vá ser transportada para uma exposição em outro país. Para isso, ela será acondicionada em uma caixa cúbica que ficará circunscrita a ela. Sabe-se, ainda, que o diâmetro dessa esfera corresponde ao valor médio do intervalo informado no texto.\nLogo, o volume dessa caixa, desprezando a espessura de suas laterais, é mais próximo de",
+      "textos_de_apoio": [
+        "No sul da Costa Rica, está conservada uma série de pedras esféricas entre 0,7 e 2,5 metros de diâmetro, cuja fabricação, utilização e significado são um mistério para os arqueólogos.\nAs esferas são surpreendentes pela perfeição de suas formas, quantidades e tamanhos; e é por essa razão que, desde 2014, fazem parte da lista do patrimônio cultural mundial.\n<http://tinyurl.com/mryvurny>. Acesso em: 11.01.2024."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "0,51 m³.",
+        "b": "2,05 m³.",
+        "c": "2,56 m³.",
+        "d": "4,10 m³.",
+        "e": "7,68 m³."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Poliedros, corpos redondos, prismas, pirâmides e troncos (área e volume)",
+            "Cilindro, cone e esfera (área, volume e capacidade)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 5,
+      "tipo": "objetiva",
+      "enunciado": "Um motoboy realiza entregas para seis lojas diferentes que comercializam camisetas. Todas essas lojas distribuem seus produtos em pacotes iguais e de mesmo tamanho. Contudo, no baú da moto do entregador, cabem apenas 8 desses pacotes.\nTabela:\nLoja 1: 6 pacotes\nLoja 2: 52 pacotes\nLoja 3: 35 pacotes\nLoja 4: 82 pacotes\nLoja 5: 23 pacotes\nLoja 6: 11 pacotes\nSuponha que, a cada vez que o motoboy vai realizar entregas, ele se dirige a uma única das seis lojas, coloca os produtos no baú e entrega em todos os endereços, antes de retornar a qualquer uma dessas lojas para reabastecer.\nDiante do exposto, a quantidade máxima de pacotes de camisetas que o motoboy consegue transportar, após 16 entregas, é igual a",
+      "textos_de_apoio": [
+        "Número de pacotes de camisetas aguardando retirada por loja:\nLoja 1: 6\nLoja 2: 52\nLoja 3: 35\nLoja 4: 82\nLoja 5: 23\nLoja 6: 11"
+      ],
+      "midia": [
+        "Página 3: Tabela contendo o número de pacotes de camisetas aguardando retirada por loja (Loja 1: 6, Loja 2: 52, Loja 3: 35, Loja 4: 82, Loja 5: 23, Loja 6: 11)."
+      ],
+      "alternativas": {
+        "a": "122.",
+        "b": "124.",
+        "c": "126.",
+        "d": "128.",
+        "e": "130."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Operações fundamentais com números inteiros e decimais",
+            "Interpretação de gráficos (barras, setores, histogramas, box-plot, ramos e folhas)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 6,
+      "tipo": "objetiva",
+      "enunciado": "Uma pessoa instalou um aplicativo de relacionamentos. Esse aplicativo oferece opções de relacionamento baseado no fato de duas pessoas circularem por uma mesma região, ao mesmo tempo, tendo o aplicativo instalado em seus smartphones.\nAo observar seu aplicativo, ela notou que, dentro de uma área circular de 1 km de diâmetro, existiam 3 pretendentes com os quais o aplicativo dizia que ela sempre “cruzava” em regiões específicas. Essas áreas estão representadas na imagem.\nSe o setor circular referente ao pretendente 1 possui ângulo de 30º e o ângulo do setor de maior área é o dobro do ângulo do setor de área intermediária, adotando π = 3,14, é correto afirmar que o perímetro do setor de área referente ao pretendente 2 é mais próximo de",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 3: Imagem ilustrando uma área circular dividida em setores circulares para Pretendente 1, Pretendente 2 e Pretendente 3."
+      ],
+      "alternativas": {
+        "a": "3 919 m.",
+        "b": "2 878 m.",
+        "c": "2 195 m.",
+        "d": "1 959 m.",
+        "e": "624 m."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Cálculo de áreas (polígonos, círculos, coroas e setores circulares)",
+            "Arcos e ângulos: medidas (graus e radianos) e relações entre arcos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 7,
+      "tipo": "objetiva",
+      "enunciado": "A respeito da promoção “leve 5 unidades do mesmo produto e pague apenas 4”, uma outra promoção que oferece o mesmo desconto percentual seria",
+      "textos_de_apoio": [
+        "Uma rede de supermercados oferece para os clientes cadastrados em seu programa de fidelidade dois tipos de promoção:\n• “leve 3 unidades do mesmo produto e pague apenas 2”, válido para mercadorias veganas, e\n• “leve 5 unidades do mesmo produto e pague apenas 4”, aplicável a itens de higiene pessoal."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "a segunda unidade tem 66 % de desconto, ao levar 2 unidades do mesmo produto.",
+        "b": "a segunda unidade tem 40 % de desconto, ao levar 2 unidades do mesmo produto.",
+        "c": "você recebe 33 % de desconto, ao levar 1 unidade de um produto em promoção.",
+        "d": "você recebe 80 % de desconto, ao levar 1 unidade de um produto em promoção.",
+        "e": "pague apenas 5, ao levar 6 unidades do mesmo produto."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Matemática Financeira: porcentagem, juros simples, juros compostos, taxas e índices",
+            "Razões e proporções diretas e inversas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 8,
+      "tipo": "objetiva",
+      "enunciado": "Preocupada com as promoções do seu programa de fidelidade, a rede de supermercados decidiu monitorar quais eram os itens participantes. Após levantamento, constatou que existem\n• 1730 produtos, que são mercadorias veganas;\n• 2 650 produtos, que são itens de higiene pessoal; e\n• 4 000 são mercadorias veganas ou itens de higiene pessoal.\nCom base nessas informações, a quantidade de produtos que estão participando de apenas uma das promoções é",
+      "textos_de_apoio": [
+        "Uma rede de supermercados oferece para os clientes cadastrados em seu programa de fidelidade dois tipos de promoção:\n• “leve 3 unidades do mesmo produto e pague apenas 2”, válido para mercadorias veganas, e\n• “leve 5 unidades do mesmo produto e pague apenas 4”, aplicável a itens de higiene pessoal."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "380.",
+        "b": "910.",
+        "c": "1350.",
+        "d": "2270.",
+        "e": "3620."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Conjuntos numéricos (Naturais, Inteiros, Racionais e Reais)",
+            "Operações fundamentais com números inteiros e decimais"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 9,
+      "tipo": "objetiva",
+      "enunciado": "O Rugby é uma modalidade esportiva que nasceu na Inglaterra, no século XVII. Nesse esporte, o ensaio é a ação de transpor a linha final do adversário com a bola e de a colocar no chão. São marcados 5 pontos automaticamente caso se tenha sucesso. Em seguida, há a possibilidade de transformar o ensaio por meio de um pontapé de transformação. Este pontapé vale 2 pontos suplementares e sobe o marcador para 7 pontos.\nSuponha que um jogador de rugby tenha um aproveitamento de 80 % ao converter o ensaio por meio de um pontapé de transformação para obter os 7 pontos.\nLogo, é correto afirmar que a probabilidade de, em 5 tentativas, o jogador conseguir realizar essa transformação, com sucesso, em apenas 2 delas é de, aproximadamente,",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "32 %.",
+        "b": "20 %.",
+        "c": "15 %.",
+        "d": "10 %.",
+        "e": "5 %."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Espaço amostral (discreto e contínuo) e conceito de probabilidade",
+            "Arranjos, permutações e combinações simples"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 10,
+      "tipo": "objetiva",
+      "enunciado": "Alfredo está comprando mobília para seu novo apartamento. Ele comprou um colchão no valor de R$ 2.500,00; uma cama de casal por R$ 800,00; armários para a cozinha no valor de R$ 3.500,00; e duas cadeiras no valor de R$ 350,00 cada.\nNa hora de pagar as mercadorias, Alfredo optou por parcelar o valor total da compra em três vezes, o que implica um aumento de 10 % sobre o valor total a pagar.\nLogo, o valor de cada uma das parcela, em reais, foi igual a",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "R$ 3.250,00.",
+        "b": "R$ 2.383,33.",
+        "c": "R$ 2.750,00.",
+        "d": "R$ 2.166,67.",
+        "e": "R$ 2.500,00."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Matemática Financeira: porcentagem, juros simples, juros compostos, taxas e índices",
+            "Operações fundamentais com números inteiros e decimais"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 11,
+      "tipo": "objetiva",
+      "enunciado": "No texto, o autor apresenta brevemente as correntes estéticas da Literatura Brasileira após a Geração de 1922.\nAssinale a alternativa que corresponde a uma das temáticas expostas no texto.",
+      "textos_de_apoio": [
+        "Entre 1930 e 1945/50, grosso modo, o panorama literário apresentava, em primeiro plano, a ficção regionalista, o ensaísmo social e o aprofundamento da lírica moderna no seu ritmo oscilante entre o fechamento e a abertura do eu à sociedade e à natureza. Afirmando-se lenta, mas seguramente, vinha o romance introspectivo. [...] A sua paisagem nos é familiar: o Nordeste decadente, as agruras das classes médias no começo da fase urbanizadora, os conflitos internos da burguesia entre provinciana e cosmopolita (fontes da prosa de ficção). Para a poesia, a fase 30/50 foi universalizante, metafísica, hermética, ecoando as principais vozes da “poesia pura” europeia de entreguerras.\nBosi, Alfredo. História concisa da Literatura Brasileira. São Paulo: Cultrix, 2017. pp. 449-450. E-book. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "Tinha andado a procurar raízes, à toa: o resto de farinha acabara, não se ouvia um berro de rês perdida na caatinga. [...] Despertara-a um grito áspero, vira de perto a realidade e o papagaio, que andava furioso, com os pés apalhetados, numa atitude ridícula. Resolvera de supetão aproveitá-lo como alimento e justificara-se declarando a si mesma que ele era mudo e inútil.",
+        "b": "Enquanto pasta alegre o manso gado,\nMinha bela Marília, nos sentemos\nÀ sombra deste cedro levantado.\nUm pouco meditemos\nNa regular beleza.\nQue em tudo quanto vive, nos descobre\nA sábia Natureza.",
+        "c": "Alguém havia, porém, que reparava nessa mudança, que o coração já lho havia denunciado, fazendo-lhe vibrar nas suas cordas todos os simpáticos eflúvios que emanavam do peito cândido e descuidoso da virgem. Esse alguém amava a palidez de Úrsula, esse alguém adorava-lhe a suave melancolia, e o doce langor de seus negros olhos.",
+        "d": "Pálida estrela! o canto do crepúsculo\nAcorda-te no céu:\nErgue-te nua na floresta morta\nNo teu doirado véu!\nErgue-te! Eu vim por ti e pela tarde\nPelos campos errar,\nSentir o vento, respirando a vida,\nE livre suspirar.",
+        "e": "O dono da sege estava no adro, e tinha fome, muita fome, porque era tarde, e almoçara cedo e pouco. Dali pôde fazer sinal ao cocheiro; este fustigou as mulas para ir buscar o patrão. A sege no meio do caminho achou um obstáculo e derrubou-o; esse obstáculo era minha avó. O primeiro ato dessa série de atos foi um movimento de conservação: Humanitas tinha fome."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Modernismo Brasileiro: 1ª Fase (1922), 2ª Fase (Geração de 30 - romance regionalista e poesia de 30) e 3ª Fase (Geração de 45/Pós-Modernismo)",
+            "Intertextualidade, interdiscursividade e análise de textos verbais e não verbais (charges, cartuns)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 12,
+      "tipo": "objetiva",
+      "enunciado": "Os termos sublinhados, nas alternativas, pertencem à mesma classe gramatical em",
+      "textos_de_apoio": [
+        "Entre 1930 e 1945/50, grosso modo, o panorama literário apresentava, em primeiro plano, a ficção regionalista, o ensaísmo social e o aprofundamento da lírica moderna no seu ritmo oscilante entre o fechamento e a abertura do eu à sociedade e à natureza. Afirmando-se lenta, mas seguramente, vinha o romance introspectivo. [...] A sua paisagem nos é familiar: o Nordeste decadente, as agruras das classes médias no começo da fase urbanizadora, os conflitos internos da burguesia entre provinciana e cosmopolita (fontes da prosa de ficção). Para a poesia, a fase 30/50 foi universalizante, metafísica, hermética, ecoando as principais vozes da “poesia pura” europeia de entreguerras.\nBosi, Alfredo. História concisa da Literatura Brasileira. São Paulo: Cultrix, 2017. pp. 449-450. E-book. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "“o panorama literário apresentava...a ficção regionalista, o ensaísmo social e o aprofundamento da lírica moderna...” [a, o].",
+        "b": "“Afirmando-se lenta, mas seguramente, vinha o romance introspectivo...” [lenta, seguramente].",
+        "c": "“A sua paisagem nos é familiar...” [sua, nos].",
+        "d": "“...o Nordeste decadente, as agruras das classes médias no começo da fase urbanizadora, os conflitos internos da burguesia entre provinciana e cosmopolita...” [provinciana, cosmopolita].",
+        "e": "“...a fase 30/50 foi universalizante, metafísica, hermética...” [universalizante, metafísica]."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Classes gramaticais: substantivo, adjetivo, artigo, numeral, pronome, verbo, advérbio, preposição, conjunção e interjeição"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 13,
+      "tipo": "objetiva",
+      "enunciado": "Analisando o texto apresentado, pode-se concluir corretamente que se trata de um",
+      "textos_de_apoio": [
+        "Acotirene e Aqualtune\nSéc. XVII / Pernambuco\nA presença e a liderança feminina em Palmares surgem descritas na “Relação das guerras feitas aos Palmares de Pernambuco no tempo do governador d. Pedro de Almeida” – uma memória sobre as incursões realizadas entre 1675 e 1678, em que aparecem definições de “distintos Palmares”.\nCerca de vinte léguas da vila de Porto Calvo, havia o Mocambo de Acotirene, que aparece também grafado “Arotirene”. A trinta léguas de Porto Calvo, a noroeste, havia a Cerca de Aqualtune, que seria “o nome da mãe do rei”, que vivia em “mocambo fortificado”.\nAcotirene e Aqualtune, assim como as expressões “rainha”, “fêmeas” e “negras”, parecem resumir a presença feminina palmarista.\nA preocupação das autoridades coloniais com as mulheres em Palmares – apesar da pequena referência a nomes próprios – está registrada nas polêmicas que surgiram sobre como proceder com as prisioneiras. Considerava-se que, após a captura, elas deviam ser exterminadas ou vendidas e mandadas para bem longe.\nCaetano de Melo e Castro (1680 – 1718), ao dar a notícia sobre o sucesso dos ataques a Palmares, destacou que as mulheres negras que “chegaram a ter aquela liberdade\" deveriam ser mesmo enviadas para fora da capitania, senão todos ali ficariam “menos seguros”.\nAlém de combaterem lado a lado com os homens, uma série de mulheres exercia, com frequência, funções logísticas significativas, transportando alimentos, pólvora e armamentos, bem como cuidando de feridos e transferindo-os para lugares seguros. Ademais, é possível supor que, em certos mocambos, a população feminina fosse maior do que a documentação tem até hoje apontado. Como estratégia, alguns quilombolas podem ter mantido suas mulheres e crianças em locais mais seguros, em acampamentos afastados, onde dificilmente seriam encontradas pelas expedições de captura. Se a história colonial silenciou sobre seus nomes, não pode evitar falar de seus atos e papéis dentro das comunidades palmarinas.\nAcotirene e Aqualtune. In: Enciclopédia Negra. São Paulo: Companhia das Letras, 2021. pp.25-26. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "versículo, uma vez que numera as subdivisões de um artigo e expõe, por meio da dissertação, informações sobre o quilombo de Palmares.",
+        "b": "poema, uma vez que conta as ações de incursão contra Palmares por meio de uma narrativa construída em versos e rimas.",
+        "c": "artigo de opinião, uma vez que defende um posicionamento em uma linguagem denotativa, valendo-se da dissertação.",
+        "d": "editorial, uma vez que evidencia o posicionamento de uma revista sobre o papel das mulheres por meio da descrição.",
+        "e": "verbete, uma vez que expõe informações sobre determinados termos valendo-se da dissertação."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Tipologias textuais (narração, descrição, dissertação) e gêneros textuais variados"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 14,
+      "tipo": "objetiva",
+      "enunciado": "Os termos “que”, “os” e “seus” pertencem à mesma classe morfológica, sendo",
+      "textos_de_apoio": [
+        "Acotirene e Aqualtune\nSéc. XVII / Pernambuco\nA presença e a liderança feminina em Palmares surgem descritas na “Relação das guerras feitas aos Palmares de Pernambuco no tempo do governador d. Pedro de Almeida” – uma memória sobre as incursões realizadas entre 1675 e 1678, em que aparecem definições de “distintos Palmares”.\nCerca de vinte léguas da vila de Porto Calvo, havia o Mocambo de Acotirene, que aparece também grafado “Arotirene”. A trinta léguas de Porto Calvo, a noroeste, havia a Cerca de Aqualtune, que seria “o nome da mãe do rei”, que vivia em “mocambo fortificado”.\nAcotirene e Aqualtune, assim como as expressões “rainha”, “fêmeas” e “negras”, parecem resumir a presença feminina palmarista.\nA preocupação das autoridades coloniais com as mulheres em Palmares – apesar da pequena referência a nomes próprios – está registrada nas polêmicas que surgiram sobre como proceder com as prisioneiras. Considerava-se que, após a captura, elas deviam ser exterminadas ou vendidas e mandadas para bem longe.\nCaetano de Melo e Castro (1680 – 1718), ao dar a notícia sobre o sucesso dos ataques a Palmares, destacou que as mulheres negras que “chegaram a ter aquela liberdade\" deveriam ser mesmo enviadas para fora da capitania, senão todos ali ficariam “menos seguros”.\nAlém de combaterem lado a lado com os homens, uma série de mulheres exercia, com frequência, funções logísticas significativas, transportando alimentos, pólvora e armamentos, bem como cuidando de feridos e transferindo-os para lugares seguros. Ademais, é possível supor que, em certos mocambos, a população feminina fosse maior do que a documentação tem até hoje apontado. Como estratégia, alguns quilombolas podem ter mantido suas mulheres e crianças em locais mais seguros, em acampamentos afastados, onde dificilmente seriam encontradas pelas expedições de captura. Se a história colonial silenciou sobre seus nomes, não pode evitar falar de seus atos e papéis dentro das comunidades palmarinas.\nAcotirene e Aqualtune. In: Enciclopédia Negra. São Paulo: Companhia das Letras, 2021. pp.25-26. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "pronomes, que se referem a “Mocambo”, “armamentos” e “quilombolas”, respectivamente.",
+        "b": "artigos, que acompanham os termos “aparece”, “lugares” e “nomes”, respectivamente.",
+        "c": "pronomes, retomando “Mocambo de Acotirene”, “feridos” e “mulheres”, respectivamente.",
+        "d": "adjetivos, que qualificam os termos “Mocambo”, “lugares” e “nomes”, respectivamente.",
+        "e": "advérbios, que modificam os termos “aparece”, “transferindo” e “silenciou”, respectivamente."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Classes gramaticais: substantivo, adjetivo, artigo, numeral, pronome, verbo, advérbio, preposição, conjunção e interjeição",
+            "Mecanismos de coesão textual (lexical, referencial, anafórica) e coerência"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 15,
+      "tipo": "objetiva",
+      "enunciado": "Com base no texto, é correto afirmar que",
+      "textos_de_apoio": [
+        "Acotirene e Aqualtune\nSéc. XVII / Pernambuco\nA presença e a liderança feminina em Palmares surgem descritas na “Relação das guerras feitas aos Palmares de Pernambuco no tempo do governador d. Pedro de Almeida” – uma memória sobre as incursões realizadas entre 1675 e 1678, em que aparecem definições de “distintos Palmares”.\nCerca de vinte léguas da vila de Porto Calvo, havia o Mocambo de Acotirene, que aparece também grafado “Arotirene”. A trinta léguas de Porto Calvo, a noroeste, havia a Cerca de Aqualtune, que seria “o nome da mãe do rei”, que vivia em “mocambo fortificado”.\nAcotirene e Aqualtune, assim como as expressões “rainha”, “fêmeas” e “negras”, parecem resumir a presença feminina palmarista.\nA preocupação das autoridades coloniais com as mulheres em Palmares – apesar da pequena referência a nomes próprios – está registrada nas polêmicas que surgiram sobre como proceder com as prisioneiras. Considerava-se que, após a captura, elas deviam ser exterminadas ou vendidas e mandadas para bem longe.\nCaetano de Melo e Castro (1680 – 1718), ao dar a notícia sobre o sucesso dos ataques a Palmares, destacou que as mulheres negras que “chegaram a ter aquela liberdade\" deveriam ser mesmo enviadas para fora da capitania, senão todos ali ficariam “menos seguros”.\nAlém de combaterem lado a lado com os homens, uma série de mulheres exercia, com frequência, funções logísticas significativas, transportando alimentos, pólvora e armamentos, bem como cuidando de feridos e transferindo-os para lugares seguros. Ademais, é possível supor que, em certos mocambos, a população feminina fosse maior do que a documentação tem até hoje apontado. Como estratégia, alguns quilombolas podem ter mantido suas mulheres e crianças em locais mais seguros, em acampamentos afastados, onde dificilmente seriam encontradas pelas expedições de captura. Se a história colonial silenciou sobre seus nomes, não pode evitar falar de seus atos e papéis dentro das comunidades palmarinas.\nAcotirene e Aqualtune. In: Enciclopédia Negra. São Paulo: Companhia das Letras, 2021. pp.25-26. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "havia um quilombo dos Palmares que serviu de modelo de resistência a outras comunidades locais, posteriormente chamadas de Porto Calvo.",
+        "b": "os poucos registros existentes sobre a participação feminina nas incursões de captura evidenciam que mulheres ocupavam postos de liderança.",
+        "c": "o cuidado doméstico, na organização dos quilombos, ficava restrito às mulheres, cabendo aos homens as funções de transporte dos mantimentos e de defesa.",
+        "d": "a preocupação dos colonizadores com o destino das mulheres capturadas em Palmares evidencia que elas eram vistas com uma possível ameaça.",
+        "e": "o silenciamento da participação feminina nos quilombos é resultado do isolamento físico de mulheres e crianças, realizado como estratégia para manter as expedições de captura."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 16,
+      "tipo": "objetiva",
+      "enunciado": "Na passagem, “Se a história colonial silenciou sobre seus nomes, não pode evitar falar de seus atos…”, se o sujeito do período fosse “historiadores”, mantendo-se tempo e modo dos verbos destacados, as formas verbais seriam",
+      "textos_de_apoio": [
+        "Acotirene e Aqualtune\nSéc. XVII / Pernambuco\nA presença e a liderança feminina em Palmares surgem descritas na “Relação das guerras feitas aos Palmares de Pernambuco no tempo do governador d. Pedro de Almeida” – uma memória sobre as incursões realizadas entre 1675 e 1678, em que aparecem definições de “distintos Palmares”.\nCerca de vinte léguas da vila de Porto Calvo, havia o Mocambo de Acotirene, que aparece também grafado “Arotirene”. A trinta léguas de Porto Calvo, a noroeste, havia a Cerca de Aqualtune, que seria “o nome da mãe do rei”, que vivia em “mocambo fortificado”.\nAcotirene e Aqualtune, assim como as expressões “rainha”, “fêmeas” e “negras”, parecem resumir a presença feminina palmarista.\nA preocupação das autoridades coloniais com as mulheres em Palmares – apesar da pequena referência a nomes próprios – está registrada nas polêmicas que surgiram sobre como proceder com as prisioneiras. Considerava-se que, após a captura, elas deviam ser exterminadas ou vendidas e mandadas para bem longe.\nCaetano de Melo e Castro (1680 – 1718), ao dar a notícia sobre o sucesso dos ataques a Palmares, destacou que as mulheres negras que “chegaram a ter aquela liberdade\" deveriam ser mesmo enviadas para fora da capitania, senão todos ali ficariam “menos seguros”.\nAlém de combaterem lado a lado com os homens, uma série de mulheres exercia, com frequência, funções logísticas significativas, transportando alimentos, pólvora e armamentos, bem como cuidando de feridos e transferindo-os para lugares seguros. Ademais, é possível supor que, em certos mocambos, a população feminina fosse maior do que a documentação tem até hoje apontado. Como estratégia, alguns quilombolas podem ter mantido suas mulheres e crianças em locais mais seguros, em acampamentos afastados, onde dificilmente seriam encontradas pelas expedições de captura. Se a história colonial silenciou sobre seus nomes, não pode evitar falar de seus atos e papéis dentro das comunidades palmarinas.\nAcotirene e Aqualtune. In: Enciclopédia Negra. São Paulo: Companhia das Letras, 2021. pp.25-26. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "silenciasse e podia evitar.",
+        "b": "silenciam e podem evitar.",
+        "c": "silenciarão e poderão evitar.",
+        "d": "silenciavam e puderam evitar.",
+        "e": "silenciaram e podem evitar."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Flexão nominal e flexão verbal (tempos, modos, vozes e correlação verbal)",
+            "Concordância verbal e nominal"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 17,
+      "tipo": "objetiva",
+      "enunciado": "No cartum, a oposição entre “positive” (positivo) e “negative” (negativo) configura uma",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 7: Cartum mostrando duas pessoas olhando para uma radiografia, acompanhado do texto 'You tested positive for being negative.'."
+      ],
+      "alternativas": {
+        "a": "metáfora.",
+        "b": "metonímia.",
+        "c": "personificação.",
+        "d": "paronomásia.",
+        "e": "antítese."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Figuras de linguagem (metáfora, metonímia, antítese, paradoxo, hipérbole, ironia)",
+            "Intertextualidade, interdiscursividade e análise de textos verbais e não verbais (charges, cartuns)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 18,
+      "tipo": "objetiva",
+      "enunciado": "No texto apresentado, o eu lírico se dirige a",
+      "textos_de_apoio": [
+        "Pai\nDescobri\num velho pedaço de papel\ncom sua letra\nNesses traços\na sombra da sua mão\nainda está se mexendo\nÉ só um velho pedaço de papel\nmas nele você ainda\nconsegue conjugar\nos verbos na primeira pessoa\nLeonardo Gandolfi. Poesia. Piauí, São Paulo, n. 208, p. 77, janeiro de 2024."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "seu melhor amigo de infância, o qual se faz presente nas memórias de sua vivência escolar.",
+        "b": "si mesmo, no passado, quando era possível uma expressão sincera de seus sentimentos.",
+        "c": "sua imagem no espelho, a qual não reconhece devido a mudanças causadas pela velhice.",
+        "d": "seu pai, cuja presença se realiza por meio da escrita em primeira pessoa.",
+        "e": "seus pais, no futuro, evidenciando a saudade que sente de sua infância."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 19,
+      "tipo": "objetiva",
+      "enunciado": "Nos versos “Descobri / um velho pedaço de papel”, o termo “pedaço” desempenha a mesma função sintática do vocábulo sublinhado em",
+      "textos_de_apoio": [
+        "Pai\nDescobri\num velho pedaço de papel\ncom sua letra\nNesses traços\na sombra da sua mão\nainda está se mexendo\nÉ só um velho pedaço de papel\nmas nele você ainda\nconsegue conjugar\nos verbos na primeira pessoa\nLeonardo Gandolfi. Poesia. Piauí, São Paulo, n. 208, p. 77, janeiro de 2024."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "“Nesses traços / a sombra da sua mão / ainda está se mexendo”.",
+        "b": "“Nesses traços / a sombra da sua mão / ainda está se mexendo”.",
+        "c": "“Nesses traços / a sombra da sua mão / ainda está se mexendo”.",
+        "d": "“mas nele você ainda / consegue conjugar / os verbos na primeira pessoa”.",
+        "e": "“mas nele você ainda / consegue conjugar / os verbos na primeira pessoa”."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Sintaxe do período simples (termos essenciais, integrantes e acessórios da oração)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 20,
+      "tipo": "objetiva",
+      "enunciado": "Sobre os termos destacados entre aspas, é correto afirmar que",
+      "textos_de_apoio": [
+        "Pai\nDescobri\num velho pedaço de papel\ncom sua letra\nNesses traços\na sombra da sua mão\nainda está se mexendo\nÉ só um velho pedaço de papel\nmas nele você ainda\nconsegue conjugar\nos verbos na primeira pessoa\nLeonardo Gandolfi. Poesia. Piauí, São Paulo, n. 208, p. 77, janeiro de 2024."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "“sua”, na primeira estrofe, é possessivo e indica que a letra do poema pertence ao enunciador.",
+        "b": "“nesses”, na segunda estrofe, é demonstrativo e expressa proximidade de “traços” com o interlocutor.",
+        "c": "“você”, na terceira estrofe, é pronome de tratamento e evidencia a formalidade entre os interlocutores.",
+        "d": "“nele”, na terceira estrofe, é pessoal reto e exerce função de sujeito da locução “consegue conjugar”.",
+        "e": "“se”, na segunda estrofe, é pronome apassivador e marca a construção da voz passiva sintética."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Classes gramaticais: substantivo, adjetivo, artigo, numeral, pronome, verbo, advérbio, preposição, conjunção e interjeição"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 21,
+      "tipo": "objetiva",
+      "enunciado": "A fala no balão indica que o urso denominado Bob",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 8: Charge mostrando um urso polar em um bloco de gelo minúsculo com areia e placa dizendo 'SAND', com a legenda 'BOB'S DECIDED TO COPE BY BEING A CLIMATE CHANGE DENIER.'."
+      ],
+      "alternativas": {
+        "a": "coordena uma luta contra a mudança climática.",
+        "b": "anseia por outros tipos de alimentação.",
+        "c": "aguarda a chegada do verão.",
+        "d": "sente saudades da costa.",
+        "e": "busca fugir da realidade."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 22,
+      "tipo": "objetiva",
+      "enunciado": "A palavra coping, no topo da charge, poderia ser substituída, sem prejuízo de significado, por",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 8: Charge mostrando um urso polar com a palavra 'coping' no topo."
+      ],
+      "alternativas": {
+        "a": "dealing.",
+        "b": "risking.",
+        "c": "running.",
+        "d": "stopping.",
+        "e": "playing."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 23,
+      "tipo": "objetiva",
+      "enunciado": "O sufixo -able, na palavra reachable, destacada no segundo parágrafo, indica",
+      "textos_de_apoio": [
+        "JANUARY 24, 2024\nHow Long Does It Really Take to Form a Habit?\nThere’s a myth that it takes 21 days to form a habit. Experts explain why it might take some people longer–or shorter\nBY JOCELYN SOLIS-MOREIRA\nWaking up at the crack of dawn and going for a run might feel intimidating when you start trying to make it a habit. Weaving a significant new activity such as this into your regular routine obviously takes determination and time–but how much time is really needed to make that habit stick?\nOne popular idea suggests that it takes 21 days to solidify a habit. A three-week time frame might sound easily reachable to someone making a resolution on New Year’s Day, when people tend to feel extra motivated to start a new habit or kick an old one, says Colin Camerer, a behavioral economist at the California Institute of Technology who has conducted research on habit formation. Yet every January 21 very few people can boast that they have kept their resolutions. One survey showed that only 9 percent of people actually stuck to their goals in 2023.\nEveryone has a unique habit-building timeline–and no matter how long it is for any individual, repetition is the key to making it work, explains Phillippa Lally, a senior lecturer in psychology and the co-director of the Habit Application and Theory group at the University of Surrey in England. Both Lally and Camerer suggest various individualized ways to reinforce healthy behaviors and to eventually turn a wholesome task into an unconscious habit.\n<https://tinyurl.com/e8rjumxe> Acesso em: 24.01.2024. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "ação improvável.",
+        "b": "sensação de saciedade.",
+        "c": "formação de substantivo.",
+        "d": "indicação de capacidade.",
+        "e": "certeza de impossibilidade."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Formação de palavras: prefixos e sufixos mais comuns (ex: -able, -ness, un-, dis-)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 24,
+      "tipo": "objetiva",
+      "enunciado": "A sentença “Yet every January 21 very few people can boast that they have kept their resolutions”, no segundo parágrafo,",
+      "textos_de_apoio": [
+        "JANUARY 24, 2024\nHow Long Does It Really Take to Form a Habit?\nThere’s a myth that it takes 21 days to form a habit. Experts explain why it might take some people longer–or shorter\nBY JOCELYN SOLIS-MOREIRA\nWaking up at the crack of dawn and going for a run might feel intimidating when you start trying to make it a habit. Weaving a significant new activity such as this into your regular routine obviously takes determination and time–but how much time is really needed to make that habit stick?\nOne popular idea suggests that it takes 21 days to solidify a habit. A three-week time frame might sound easily reachable to someone making a resolution on New Year’s Day, when people tend to feel extra motivated to start a new habit or kick an old one, says Colin Camerer, a behavioral economist at the California Institute of Technology who has conducted research on habit formation. Yet every January 21 very few people can boast that they have kept their resolutions. One survey showed that only 9 percent of people actually stuck to their goals in 2023.\nEveryone has a unique habit-building timeline–and no matter how long it is for any individual, repetition is the key to making it work, explains Phillippa Lally, a senior lecturer in psychology and the co-director of the Habit Application and Theory group at the University of Surrey in England. Both Lally and Camerer suggest various individualized ways to reinforce healthy behaviors and to eventually turn a wholesome task into an unconscious habit.\n<https://tinyurl.com/e8rjumxe> Acesso em: 24.01.2024. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "reforça a ideia de que tomadas de decisão, na virada do ano, são as mais prováveis de se concretizarem.",
+        "b": "mostra que, após 21 dias de persistência, as novas atividades se tornam habituais.",
+        "c": "demonstra que qualquer resolução tomada nas festas de final de ano cai por terra no dia 21 de janeiro.",
+        "d": "indica que, apesar da motivação de realizar novas atividades no início do ano, a maioria das pessoas não consegue mantê-las.",
+        "e": "refuta a ideia de que três semanas sejam realmente necessárias para a solidificação de um novo hábito."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 25,
+      "tipo": "objetiva",
+      "enunciado": "De acordo com o texto, para uma ação se tornar um hábito inconsciente deve-se",
+      "textos_de_apoio": [
+        "JANUARY 24, 2024\nHow Long Does It Really Take to Form a Habit?\nThere’s a myth that it takes 21 days to form a habit. Experts explain why it might take some people longer–or shorter\nBY JOCELYN SOLIS-MOREIRA\nWaking up at the crack of dawn and going for a run might feel intimidating when you start trying to make it a habit. Weaving a significant new activity such as this into your regular routine obviously takes determination and time–but how much time is really needed to make that habit stick?\nOne popular idea suggests that it takes 21 days to solidify a habit. A three-week time frame might sound easily reachable to someone making a resolution on New Year’s Day, when people tend to feel extra motivated to start a new habit or kick an old one, says Colin Camerer, a behavioral economist at the California Institute of Technology who has conducted research on habit formation. Yet every January 21 very few people can boast that they have kept their resolutions. One survey showed that only 9 percent of people actually stuck to their goals in 2023.\nEveryone has a unique habit-building timeline–and no matter how long it is for any individual, repetition is the key to making it work, explains Phillippa Lally, a senior lecturer in psychology and the co-director of the Habit Application and Theory group at the University of Surrey in England. Both Lally and Camerer suggest various individualized ways to reinforce healthy behaviors and to eventually turn a wholesome task into an unconscious habit.\n<https://tinyurl.com/e8rjumxe> Acesso em: 24.01.2024. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "acordar cedo.",
+        "b": "manter a repetição.",
+        "c": "ter acompanhamento psicológico.",
+        "d": "acabar com hábitos degenerativos.",
+        "e": "estabelecer uma meta na virada do ano."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 26,
+      "tipo": "objetiva",
+      "enunciado": "A página da rede social, de onde o texto foi retirado, cria conteúdo cômico a partir de questões linguísticas.\nO humor do texto se constrói por",
+      "textos_de_apoio": [
+        "What's the difference between grey and gray?\nOne is a color, and the other is a colour.\n<https://tinyurl.com/4k6tjr87> Acesso em: 25.01.2024."
+      ],
+      "midia": [
+        "Página 10: Imagem com texto em inglês sobre 'grey' vs 'gray' e 'color' vs 'colour'."
+      ],
+      "alternativas": {
+        "a": "perda de sentido.",
+        "b": "equívocos na acentuação.",
+        "c": "variação ortográfica.",
+        "d": "incorreção semântica.",
+        "e": "trocadilho sintático."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Variações linguísticas ortográficas e lexicais (Inglês Britânico vs. Americano)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 27,
+      "tipo": "objetiva",
+      "enunciado": "“Fale macio e use um porrete.”. Segundo os historiadores, essa frase de Theodore Roosevelt Jr., presidente dos Estados Unidos, sintetizou",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "a Guerra às Drogas, um conjunto de políticas destinadas a desencorajar a produção, a distribuição e o consumo de drogas psicoativas ilegais em países da América Latina.",
+        "b": "a Declaração de Direitos dos cidadãos estadunidenses, que equiparou a posse de armas às liberdades de expressão, de imprensa, de religião e de reunião.",
+        "c": "a Política do Apaziguamento, adotada por Inglaterra e França, em resposta à expansão do domínio alemão sobre a Europa, que daria início à Segunda Guerra Mundial.",
+        "d": "a política do Big Stick, segundo a qual os EUA mantinham negociações amistosas com outros países, enquanto deixavam clara a possibilidade de usar a força para alcançar seus objetivos.",
+        "e": "as negociações do Tratado de Versalhes, segundo o qual a Alemanha e seus aliados se responsabilizaram por todas as perdas e os prejuízos causados pela Primeira Guerra Mundial."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "EUA e América Latina: Doutrina Monroe, Big Stick, Revolução Mexicana e regimes civil-militares"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 28,
+      "tipo": "objetiva",
+      "enunciado": "Na Inglaterra, durante a Primeira Revolução Industrial, as cidades",
+      "textos_de_apoio": [
+        "Ao lado das estradas de ferro, as cidades eram o símbolo mais característico da sociedade industrial. A indústria tornou-se fator de aglomeração urbana. A urbanização cresceu em escala gigantesca, e a concentração de pessoas em cidades tornou-se o principal fenômeno social do século XIX.\nCAMPOS, Flávio de; CLARO, Regina. Oficina de História. São Paulo: Leya, 2015. p. 371."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "cresceram rapidamente, sem infraestrutura adequada; os serviços sanitários e a iluminação eram precários; e as áreas de concentração de pessoas pobres eram cortadas por avenidas e linhas de estradas de ferro, o que piorava as já insalubres condições de vida dessa população.",
+        "b": "foram resultado dos primeiros esforços de planejamento urbano; os governos promoveram melhorias na circulação e na higienização dos espaços públicos, com a demolição de cortiços, alargamento e iluminação de ruas e avenidas, criação de praças, monumentos e boulevards.",
+        "c": "concentraram a maior parte da população do país; a falta de planejamento urbano, os incentivos à indústria automotiva e o maior poder de consumo das famílias levaram as pessoas a optar pelo transporte individual, o que agravou os problemas de mobilidade urbana.",
+        "d": "registraram grande déficit habitacional, devido ao êxodo rural; para facilitar o acesso ao financiamento de construção, aquisição ou reforma de imóveis, foi criado um sistema financeiro para habitação, com recursos de financiamento imobiliário geridos pelo Estado britânico.",
+        "e": "implementaram projetos de geração de energia renovável; devido à alta demanda das indústrias, foram oferecidos incentivos à pesquisa em áreas como energia eólica, a partir da produção cooperativa entre prefeituras, instituições públicas e empresas privadas, organizações de pesquisa e moradores das grandes cidades."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Iluminismo, Liberalismo e a 1ª Revolução Industrial"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 29,
+      "tipo": "objetiva",
+      "enunciado": "A cena cultural estava efervescente: o cinema havia nascido, as artes visuais e plásticas experimentavam novas formas, com o surgimento do Impressionismo e da Art Nouveau. O período foi marcado por uma cultura urbana de divertimento, de otimismo baseado na paz regional e na prosperidade econômica, além das inovações culturais, científicas e tecnológicas, especialmente o desenvolvimento dos meios de comunicação e de transporte, como o telefone, o telégrafo sem fio, a bicicleta, o automóvel e o avião.\nO texto faz referência ao período histórico conhecido como",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "Renascimento Cultural.",
+        "b": "Revolução Francesa.",
+        "c": "Era Vargas.",
+        "d": "Guerra Fria.",
+        "e": "Belle Époque."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Belle Époque e Primeira Guerra Mundial"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 30,
+      "tipo": "objetiva",
+      "enunciado": "Leia o texto e preencha as lacunas.\n________, país do Caribe, uma rebelião de negros escravizados deflagrou uma longa guerra racial e civil, que culminou na _____________ e na Independência da então mais rica colônia francesa.\n<https://tinyurl.com/24zcs8mk> Acesso em: 10.02.2024. Adaptado.\nAssinale a alternativa que preenche, correta e respectivamente, as lacunas.",
+      "textos_de_apoio": [
+        "________, país do Caribe, uma rebelião de negros escravizados deflagrou uma longa guerra racial e civil, que culminou na _____________ e na Independência da então mais rica colônia francesa.\n<https://tinyurl.com/24zcs8mk> Acesso em: 10.02.2024. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "No Haiti / Industrialização",
+        "b": "Em Cuba / Reforma Agrária",
+        "c": "Em Cuba / Revolução Cubana",
+        "d": "No Haiti / Abolição da Escravatura",
+        "e": "Na Jamaica / Rebelião da Baía de Morant"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Processos de Independência nas Américas: EUA, Revolução Haitiana e América Espanhola"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 31,
+      "tipo": "objetiva",
+      "enunciado": "Em 1807, uma frota de malconservados navios de guerra portugueses atravessava o Atlântico em direção ao Brasil, escoltada por uma esquadra inglesa. A bordo, quase dez mil pessoas, entre as quais o príncipe regente D. João e sua corte. Na bagagem, tudo o que podiam carregar: pratas, louças, joias, roupas, livros, manuscritos e mapas. Eles deixaram para trás a ameaça de deposição em direção a uma colônia que nunca mais seria a mesma.\n<https://tinyurl.com/222jljls> Acesso em: 10.02.2024. Adaptado.\nO evento histórico, abordado no texto,",
+      "textos_de_apoio": [
+        "Em 1807, uma frota de malconservados navios de guerra portugueses atravessava o Atlântico em direção ao Brasil, escoltada por uma esquadra inglesa. A bordo, quase dez mil pessoas, entre as quais o príncipe regente D. João e sua corte. Na bagagem, tudo o que podiam carregar: pratas, louças, joias, roupas, livros, manuscritos e mapas. Eles deixaram para trás a ameaça de deposição em direção a uma colônia que nunca mais seria a mesma.\n<https://tinyurl.com/222jljls> Acesso em: 10.02.2024. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "está relacionado à ação de corsários e piratas ingleses, que se caracterizava por ataques a colônias e a navios espanhóis nas Américas, nas Ilhas Caraíbas e no leste do Pacífico.",
+        "b": "pertence ao contexto das Grandes Navegações e marca o momento em que Portugal estabeleceu suas primeiras colônias nos territórios americanos.",
+        "c": "foi resultado da desobediência ao Bloqueio Continental, decretado por Napoleão Bonaparte, e é considerado, por muitos historiadores, o início do processo de Independência do Brasil.",
+        "d": "é considerado o início da Guerra do Ultramar, travada entre Portugal e uma de suas províncias africanas, Moçambique, que lutava por sua independência.",
+        "e": "representa a fuga da elite portuguesa devido à destruição causada em Lisboa, capital do Império, por um terremoto de 9 graus na escala Richter."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Revoltas coloniais e a transferência da Família Real para o Brasil (1808)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 32,
+      "tipo": "objetiva",
+      "enunciado": "Em 11 de fevereiro de 1979, durante um jogo entre Corinthians e Santos, pela sétima rodada do Campeonato Paulista, dois torcedores estenderam uma faixa na arquibancada do estádio Cícero Pompeu de Toledo (Morumbi), conforme a imagem.\n<https://tinyurl.com/2buh5cpc> Acesso em: 10.02.2024.\nNesse contexto histórico, a faixa reivindicava",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 12: Fotografia de manifestação com faixa estendida em estádio de futebol pedindo 'anistia ampla geral e irrestrita'."
+      ],
+      "alternativas": {
+        "a": "o perdão aos crimes cometidos pelos integrantes da organização criminosa Comando Vermelho, criada no fim dos anos 1970, no presídio da Ilha Grande, no Rio de Janeiro.",
+        "b": "o fim da perseguição política e criminal a pessoas que se manifestaram, de diversas formas, contra o regime cívico-militar implementado no Brasil, em março de 1964.",
+        "c": "a absolvição de torcedores que, em prisão preventiva, respondiam a processos por brigas violentas nas imediações de estádios paulistanos.",
+        "d": "a assinatura de um decreto presidencial, previsto na Constituição, que extinguia a pena de réus primários condenados a até oito anos de prisão e que já tinham cumprido um quarto da pena.",
+        "e": "a reabilitação criminal de Josef Mengele, médico responsável por experiências macabras nos campos de concentração nazista, que morreu em fevereiro de 1979, em Bertioga, São Paulo."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Brasil República: República Velha (oligarquias), Era Vargas (1930-1945), Período Democrático (1945-1964) e Ditadura Civil-Militar (1964-1985)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 33,
+      "tipo": "objetiva",
+      "enunciado": "“...é o conjunto de duas ou mais regiões metropolitanas interligadas, conurbadas, por intenso fluxo de pessoas, mercadorias e serviços.”\nMORAES, Paulo Roberto. Geografia Geral e do Brasil. 5. Ed. São Paulo: HARBRA, 2017, p. 339.\nO texto exprime o conceito de",
+      "textos_de_apoio": [
+        "“...é o conjunto de duas ou mais regiões metropolitanas interligadas, conurbadas, por intenso fluxo de pessoas, mercadorias e serviços.”\nMORAES, Paulo Roberto. Geografia Geral e do Brasil. 5. Ed. São Paulo: HARBRA, 2017, p. 339."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "tecnopolo.",
+        "b": "megacidade.",
+        "c": "megalópole.",
+        "d": "cidade global.",
+        "e": "hierarquia urbana."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Geografia Urbana: industrialização, urbanização, metropolização, conurbação, megalópoles e segregação socioespacial"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 34,
+      "tipo": "objetiva",
+      "enunciado": "O primeiro-ministro de Israel, Benjamin Netanyahu, disse, em 18 de janeiro de 2024, que a ideia de criar um Estado palestino entraria em conflito com a segurança de Israel. Netanyahu afirmou que Israel precisa controlar a segurança de todo o território a oeste da Jordânia.\n<http://tinyurl.com/s67zndt3> Acesso em: 19.01.2024. Adaptado.\nSobre Israel e Palestina, é correto afirmar que o Estado",
+      "textos_de_apoio": [
+        "O primeiro-ministro de Israel, Benjamin Netanyahu, disse, em 18 de janeiro de 2024, que a ideia de criar um Estado palestino entraria em conflito com a segurança de Israel. Netanyahu afirmou que Israel precisa controlar a segurança de todo o território a oeste da Jordânia.\n<http://tinyurl.com/s67zndt3> Acesso em: 19.01.2024. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "palestino foi fundado, no século XXI, pela organização nacionalista Hezbollah, inimiga de Israel, motivo pelo qual este Estado não reconhece a existência de um Estado palestino.",
+        "b": "palestino foi fundado no início de 2024, em terras israelenses, o que levou Israel a se posicionar contra a fundação desse Estado, atacando a Faixa de Gaza e a Cisjordânia.",
+        "c": "de Israel foi fundado no século XIX, durante o congresso Sionista, no qual foi estabelecida a luta contra a fundação de um Estado palestino.",
+        "d": "de Israel foi fundado no século XX, no Oriente Médio, e vê, na criação de um Estado palestino, um perigo para a segurança.",
+        "e": "de Israel é secular, sendo fundado no início da era Cristã, em substituição ao até então existente Estado palestino."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Conflitos étnicos e religiosos atuais no Oriente Médio e África"
+          ]
+        },
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Hidrografia: bacias hidrográficas mundiais e brasileiras e geopolítica da água"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 35,
+      "tipo": "objetiva",
+      "enunciado": "O Brasil é um país de grande extensão territorial. Para melhor compreender, estudar e administrar este imenso país, o território brasileiro está dividido atualmente em cinco Grandes Regiões, de acordo com o Instituto Brasileiro de Geografia e Estatística (IBGE).\nSobre as atuais Grandes Regiões Brasileiras e os estados que as compõem, é correto afirmar que a Região",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "Nordeste é composta pelos estados de Alagoas, Bahia, Ceará, Espírito Santo, Paraíba, Pernambuco, Piauí, Rio Grande do Norte e Sergipe.",
+        "b": "Sudeste é composta pelos estados de Minas Gerais, Rio de Janeiro, São Paulo, além da cidade de Brasília, no Distrito Federal.",
+        "c": "Norte é composta pelos estados do Acre, Amapá, Amazonas, Maranhão, Pará, Rondônia e Roraima.",
+        "d": "Centro-Oeste é composta pelos estados de Goiás, Mato Grosso, Mato Grosso do Sul e Tocantins.",
+        "e": "Sul é composta pelos estados do Paraná, Rio Grande do Sul e Santa Catarina."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Divisão regional do Brasil (IBGE e complexos geoeconômicos)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 36,
+      "tipo": "objetiva",
+      "enunciado": "Em dezembro de 2023, durante a 63ª Cúpula do Mercado Comum do Sul (Mercosul), reunida no Rio de Janeiro, os chefes de Estado desse bloco se encontraram para, dentre outras atividades, oficializar a entrada, como membro pleno do bloco,",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "do Peru.",
+        "b": "do Chile.",
+        "c": "da Bolívia.",
+        "d": "do Equador.",
+        "e": "da Colômbia."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Globalização, comércio internacional, blocos econômicos e a posição do Brasil no comércio global"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 37,
+      "tipo": "objetiva",
+      "enunciado": "Este domínio morfoclimático se estende ao longo do litoral brasileiro, do Nordeste ao Sul, adentrando com maior intensidade na região Sudeste, possuindo aproximadamente 1 000 000 km². É formado pela intensa ação erosiva na estrutura cristalina das Serras do Mar, da Mantiqueira e do Espinhaço. Possui área de relevo planáltico com morros arredondados, sob influência do clima tropical quente e úmido.\n<http://tinyurl.com/hj5yccdx> Acesso em: 19.01.2024. Adaptado.\nO domínio morfoclimático, apresentado no texto, denomina-se de",
+      "textos_de_apoio": [
+        "Este domínio morfoclimático se estende ao longo do litoral brasileiro, do Nordeste ao Sul, adentrando com maior intensidade na região Sudeste, possuindo aproximadamente 1 000 000 km². É formado pela intensa ação erosiva na estrutura cristalina das Serras do Mar, da Mantiqueira e do Espinhaço. Possui área de relevo planáltico com morros arredondados, sob influência do clima tropical quente e úmido.\n<http://tinyurl.com/hj5yccdx> Acesso em: 19.01.2024. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "cerrado.",
+        "b": "caatinga.",
+        "c": "pradaria.",
+        "d": "araucárias.",
+        "e": "mares de morros."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Domínios morfoclimáticos e biomas mundiais e brasileiros"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 38,
+      "tipo": "objetiva",
+      "enunciado": "Em um determinado mapa, a distância, em linha reta, entre a cidade X e a cidade Y é de 8 centímetros. Na superfície real, a distância, em linha reta, entre essas cidades é de 64 quilômetros.\nCom base nos dados apresentados, a escala numérica do referido mapa é",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "1 : 800.",
+        "b": "1 : 8 000.",
+        "c": "1 : 80 000.",
+        "d": "1 : 800 000.",
+        "e": "1 : 8 000 000."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Escala cartográfica numérica e gráfica (cálculo de distâncias)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 39,
+      "tipo": "objetiva",
+      "enunciado": "Após o experimento descrito, o cientista faz colocações sobre suas observações experimentais, presentes em negrito no texto.\nEssa descrição se refere ao modelo atômico de",
+      "textos_de_apoio": [
+        "Os primeiros a imaginarem a existência dos átomos foram os filósofos gregos Leucipo e Demócrito em, aproximadamente, 450 a.C. Nesse modelo, tudo seria formado por minúsculas partículas indivisíveis. Daí a origem do nome “átomo”, que vem do grego a- (não) e -tómos (parte). Entretanto, essas ideias não puderam ser comprovadas na época, constituindo-se apenas como hipóteses.\nAlguns cientistas passaram a realizar testes experimentais cada vez mais precisos graças aos avanços tecnológicos. Com isso, não só se descobriu que tudo era realmente formado por minúsculas partículas, mas também foi possível entender cada vez mais sobre a estrutura atômica.\nEm 1911, um cientista neozelandês realizou um experimento no qual ele bombardeou uma finíssima lâmina de ouro com partículas alfa emitidas por uma amostra de polônio (²¹⁰₈₄Po), que ficava dentro de um bloco de chumbo com um pequeno orifício pelo qual as partículas passavam. Baseado nos resultados desse experimento, o cientista percebeu que, na verdade, o átomo não seria maciço como propuseram os modelos anteriores. Para ele o átomo é descontínuo e é formado por duas regiões: o núcleo e a eletrosfera. O núcleo é denso e tem carga positiva, ou seja, é constituído de prótons. A eletrosfera é uma grande região vazia, onde os elétrons ficam girando ao redor do núcleo.\n<https://tinyurl.com/uvrfbc22> Acesso em: 10.02.2024. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "Demócrito.",
+        "b": "Dalton.",
+        "c": "Thomson.",
+        "d": "Rutherford.",
+        "e": "Bohr."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Evolução dos modelos atômicos (Dalton, Thomson, Rutherford, Bohr)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 40,
+      "tipo": "objetiva",
+      "enunciado": "Assinale a alternativa que apresenta, respectivamente, o número de prótons, elétrons e nêutrons presentes no isótopo do elemento polônio, mencionado no texto.",
+      "textos_de_apoio": [
+        "Os primeiros a imaginarem a existência dos átomos foram os filósofos gregos Leucipo e Demócrito em, aproximadamente, 450 a.C. Nesse modelo, tudo seria formado por minúsculas partículas indivisíveis. Daí a origem do nome “átomo”, que vem do grego a- (não) e -tómos (parte). Entretanto, essas ideias não puderam ser comprovadas na época, constituindo-se apenas como hipóteses.\nAlguns cientistas passaram a realizar testes experimentais cada vez mais precisos graças aos avanços tecnológicos. Com isso, não só se descobriu que tudo era realmente formado por minúsculas partículas, mas também foi possível entender cada vez mais sobre a estrutura atômica.\nEm 1911, um cientista neozelandês realizou um experimento no qual ele bombardeou uma finíssima lâmina de ouro com partículas alfa emitidas por uma amostra de polônio (²¹⁰₈₄Po), que ficava dentro de um bloco de chumbo com um pequeno orifício pelo qual as partículas passavam. Baseado nos resultados desse experimento, o cientista percebeu que, na verdade, o átomo não seria maciço como propuseram os modelos anteriores. Para ele o átomo é descontínuo e é formado por duas regiões: o núcleo e a eletrosfera. O núcleo é denso e tem carga positiva, ou seja, é constituído de prótons. A eletrosfera é uma grande região vazia, onde os elétrons ficam girando ao redor do núcleo.\n<https://tinyurl.com/uvrfbc22> Acesso em: 10.02.2024. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "84 – 126 – 210",
+        "b": "84 – 84 – 210",
+        "c": "84 – 84 – 126",
+        "d": "126 – 84 – 126",
+        "e": "126 – 126 – 210"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Número atômico, número de massa, isótopos, isóbaros e isótonos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 41,
+      "tipo": "objetiva",
+      "enunciado": "O método mais comum e mais empregado nos processos industriais para obtenção de ésteres é a reação reversível de ácido carboxílico e álcool, com eliminação de água, denominado de reação de esterificação.\nOs ésteres são os responsáveis, geralmente em associação com outras substâncias, por muitos dos agradáveis aromas que as frutas possuem. Embora os ésteres apresentem diferentes estruturas, possuindo cadeias abertas de tamanhos variados ou anel benzênico, a presença do grupo –COO– é o denominador comum dessa classe de substâncias e também é essencial para seu aroma.\nNa tabela, temos alguns ésteres e seus respectivos aromas.\nSão aromas que podem ser produzidos por meio da reação de esterificação descrita no texto, a partir do ácido etanoico,",
+      "textos_de_apoio": [
+        "Tabela de Ésteres e Aromas:\n• Acetato de isoamila: Banana\n• Propanoato de isobutila: Rum\n• Acetato de benzila: Pêssego e Rum\n• Butirato de metila: Maçã\n• Butirato de etila: Abacaxi\n• Formiato de etila: Rum, Groselha e Framboesa\n• Acetato de octila: Laranja"
+      ],
+      "midia": [
+        "Página 15: Tabela listando ésteres e seus aromas correspondentes."
+      ],
+      "alternativas": {
+        "a": "maçã e abacaxi.",
+        "b": "banana, pêssego e laranja.",
+        "c": "framboesa, groselha e abacaxi.",
+        "d": "rum, groselha e laranja.",
+        "e": "abacaxi e framboesa."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Reações orgânicas fundamentais: substituição, adição, eliminação, oxidação e esterificação/saponificação",
+            "Principais funções orgânicas: hidrocarbonetos, álcoois, fenóis, éteres, ésteres, aldeídos, cetonas, ácidos carboxílicos, aminas e amidas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 42,
+      "tipo": "objetiva",
+      "enunciado": "Baseando-se no texto, o ferro atua como",
+      "textos_de_apoio": [
+        "A amônia é matéria-prima para um número elevado de aplicações. Entre elas, destaca-se seu uso na fabricação de fertilizantes, como os nitratos, a ureia e os fertilizantes fosfatados, que incrementam significativamente a produtividade da agricultura.\nO principal método de produção industrial de amônia é a combinação direta entre nitrogênio e hidrogênio, em um ambiente de pressão e temperatura elevadas, no qual o ferro é utilizado para acelerar o processo. Em homenagem aos desenvolvedores Fritz Haber e Carl Bosch, esse método foi batizado como Haber-Bosch.\nA reação descrita é N₂(g) + 3 H₂(g) ⇌ 2 NH₃(g)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "reagente, pois apresenta elevada energia de ativação.",
+        "b": "reagente, pois a reação não ocorre sem sua presença.",
+        "c": "catalisador, aumentando a energia de ativação da reação.",
+        "d": "catalisador, diminuindo a variação de entalpia do processo.",
+        "e": "catalisador, diminuindo a energia de ativação da reação."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Cinética Química: rapidez de reação, teoria das colisões e energia de ativação",
+            "Fatores que alteram a velocidade da reação (concentração, temperatura, catalisador)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 43,
+      "tipo": "objetiva",
+      "enunciado": "A expressão da constante de equilíbrio da reação, mencionada no texto, é",
+      "textos_de_apoio": [
+        "A amônia é matéria-prima para um número elevado de aplicações. Entre elas, destaca-se seu uso na fabricação de fertilizantes, como os nitratos, a ureia e os fertilizantes fosfatados, que incrementam significativamente a produtividade da agricultura.\nO principal método de produção industrial de amônia é a combinação direta entre nitrogênio e hidrogênio, em um ambiente de pressão e temperatura elevadas, no qual o ferro é utilizado para acelerar o processo. Em homenagem aos desenvolvedores Fritz Haber e Carl Bosch, esse método foi batizado como Haber-Bosch.\nA reação descrita é N₂(g) + 3 H₂(g) ⇌ 2 NH₃(g)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "Kc = [NH₃]² / ([N₂] · [H₂]³)",
+        "b": "Kc = [NH₃] / ([N₂] · [H₂])",
+        "c": "Kc = ([N₂] · [H₂]³) / [NH₃]²",
+        "d": "Kc = ([N₂] · [H₂]) / [NH₃]",
+        "e": "Kc = [NH₃]²"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Equilíbrio Químico: constante Kc e Kp, Princípio de Le Chatelier"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 44,
+      "tipo": "objetiva",
+      "enunciado": "As reações de neutralização têm diversas aplicações na saúde. Os medicamentos antiácidos neutralizam o excesso de acidez no estômago, devido à presença de ácido clorídrico, HCl. Estes medicamentos contêm bases como o hidróxido de alumínio, Al(OH)₃, na sua constituição.\nUm indivíduo ingeriu 2 colheres de chá, que corresponde a 10 mL da suspensão dessa base, sendo que, na bula, está indicado que 1 mL contém 61,5 mg de hidróxido de alumínio.\nConsidere a equação da reação de neutralização:\n3 HCl (aq) + Al(OH)₃ (aq) → AlCl₃ (aq) + 3 H₂O (l)\nAssinale a alternativa que apresenta a quantidade aproximada, em mols, de ácido que será neutralizada.\nDadas as Massas Molares (g/mol): H = 1, O = 16, Al = 27, Cl = 35,5.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "0,61",
+        "b": "0,10",
+        "c": "0,05",
+        "d": "0,02",
+        "e": "0,01"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Cálculos estequiométricos: relações de massa, volume, mols e pureza/rendimento",
+            "Funções inorgânicas: ácidos, bases, sais e óxidos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 45,
+      "tipo": "objetiva",
+      "enunciado": "A respiração celular e a fermentação são processos realizados pelos seres vivos para a obtenção de energia. Nesses processos, moléculas de ácidos graxos ou de glicídios, principalmente glicose, são degradadas liberando energia, que é transferida para moléculas de uma substância chamada trifosfato de adenosina (ATP), nas quais fica armazenada.\nComparando esses dois processos, é correto afirmar que ambos",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "dependem da cadeia transportadora de elétrons para a produção de ATP, que ocorre no citosol.",
+        "b": "ocorrem no interior de mitocôndrias e de cloroplastos, com a participação de enzimas do ciclo de Krebs.",
+        "c": "apresentam uma etapa anaeróbia em comum, denominada glicólise, que independe do gás oxigênio para ocorrer.",
+        "d": "utilizam oxigênio como um aceptor final de elétrons na cadeia respiratória, que ocorre nas cristas mitocondriais.",
+        "e": "produzem a mesma quantidade de moléculas de ATP para cada molécula de glicose completamente degradada."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Metabolismo energético: fotossíntese, quimiossíntese, respiração aeróbia e fermentação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 46,
+      "tipo": "objetiva",
+      "enunciado": "A Doença Hemolítica Perinatal (DHPN), conhecida como eritroblastose fetal, se manifesta quando a mãe e o bebê possuem sangues incompatíveis.\nEssa doença tem início depois do primeiro contato da mãe Rh negativo, com o antígeno das hemácias ou eritrócitos de um sangue de Rh positivo, o que pode acontecer na gravidez por causa do rompimento de capilares presentes na placenta, principalmente na hora do parto, ou anteriormente, como, por exemplo, pelo uso de agulhas ou em transfusões de sangue.\nNesses casos, o sistema imunológico materno deflagra uma resposta por meio da produção de anticorpos específicos. Essa resposta é guardada em células de memória de modo que, na ocasião de um segundo contato com esse antígeno, o sistema imunológico materno produz uma resposta muito mais rápida e intensa do que no primeiro contato.\nPor esse motivo, em geral, a primeira criança Rh positivo, filha de mãe Rh negativo, nasce normal, sendo que os sintomas da eritroblastose só se manifestarão a partir da segunda gestação Rh positivo. As consequências são mais graves à medida que a sensibilização da mãe e a produção de anticorpos aumentam, causando hemólise, anemia e destruição dos eritrócitos fetais.\nSobre a DHPN, é correto afirmar que",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "a destruição dos leucócitos do recém-nascido pelos anticorpos maternos provoca anemia e hemorragias.",
+        "b": "a passagem transplacentária de anticorpos, produzidos pelo feto, acarreta a hemólise das hemácias maternas.",
+        "c": "a sensibilização de uma mulher Rh positivo pode ocorrer quando ela recebe transfusão de sangue Rh negativo.",
+        "d": "o feto produz células sanguíneas anormais, que induzem o organismo materno a produzir anticorpos de defesa.",
+        "e": "a mãe Rh negativo, ao ser sensibilizada em uma primeira gravidez, produz anticorpos contra os eritrócitos do filho Rh positivo."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Alelos múltiplos, herança de grupos sanguíneos (sistemas ABO e Rh / eritroblastose fetal)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 47,
+      "tipo": "objetiva",
+      "enunciado": "Analise as Figuras A e B, referentes aos processos de intercâmbio de gases respiratórios no sistema respiratório humano.\nOs alvéolos pulmonares humanos são pequenas bolsas redondas, com paredes muito delgadas, que se localizam nos pulmões, no final dos bronquíolos. São recobertos por capilares, o que garante a proximidade entre o sangue e o ar no interior dessas estruturas, favorecendo, assim, as trocas gasosas do gás oxigênio e do gás carbônico; e a transformação do sangue venoso em arterial.\nEssas trocas gasosas, que ocorrem nos capilares sanguíneos dos alvéolos pulmonares, são feitas pelo processo conhecido como",
+      "textos_de_apoio": [
+        "Legenda\nFigura A: representação esquemática da relação entre as extremidades dos bronquíolos e os alvéolos pulmonares.\nFigura B: representação esquemática de um alvéolo humano envolto por um capilar.\n<http://tinyurl.com/f734kbhd> Acesso em: 26.01.2024. Original colorido. Adaptado."
+      ],
+      "midia": [
+        "Página 18: Figura A (representação esquemática da relação entre bronquíolos e alvéolos pulmonares) e Figura B (alvéolo humano envolto por um capilar sanguíneo com troca de O2 e CO2)."
+      ],
+      "alternativas": {
+        "a": "pinocitose, no qual as células dos capilares alveolares formam invaginações para absorver os gases respiratórios.",
+        "b": "fagocitose, no qual células das paredes dos alvéolos formam pseudópodes para englobar os gases respiratórios.",
+        "c": "difusão, no qual ocorre a passagem dos gases respiratórios do meio mais concentrado para o meio menos concentrado.",
+        "d": "osmose, no qual ocorre a ativação das enzimas responsáveis pela penetração dos gases respiratórios nos alvéolos pulmonares.",
+        "e": "transporte ativo, no qual ocorre a passagem dos gases respiratórios do meio menos concentrado para o meio mais concentrado."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Membrana plasmática e mecanismos de transporte (passivo, ativo, endocitose)",
+            "Fisiologia dos sistemas humanos: digestório, cardiovascular, respiratório, excretor, nervoso, endócrino, locomotor e reprodutor"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 48,
+      "tipo": "objetiva",
+      "enunciado": "Sempre que células realizam a duplicação de seu material genético, isso resulta na formação de duas novas duplas fitas de DNA, cada uma direcionada a uma célula-filha formada. Esse processo, selecionado ao longo da evolução, acabou garantindo a transmissão adequada do material genético à geração seguinte de células.\nSobre o processo descrito, é correto afirmar que",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "a duplicação da molécula de DNA é descrita como conservativa, pois ocorre em trechos de DNA ainda condensados a fim de acelerar a divisão celular e preservar intacta a molécula parental original após o processo.",
+        "b": "as pontes de hidrogênio, entre as bases nitrogenadas da dupla fita de DNA parental, se rompem e as duas fitas se separam, permitindo a formação do RNA, que será transformado em DNA.",
+        "c": "os nucleotídeos livres existentes na célula se encaixam na dupla fita aberta de DNA, de forma complementar, pareando adenina com citosina e timina com guanina.",
+        "d": "a enzima chamada RNA-polimerase catalisa a duplicação da molécula de DNA e orienta o emparelhamento de nucleotídeos livres a cada uma das fitas parental.",
+        "e": "a duplicação da molécula de DNA é semiconservativa, pois cada dupla fita formada consiste de uma fita parental e de uma recém-sintetizada."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Estrutura molecular do DNA e RNA, transcrição gênica e síntese proteica (código genético)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 49,
+      "tipo": "objetiva",
+      "enunciado": "O diagrama representa, a partir das algas verdes, as relações evolutivas compartilhadas por diferentes plantas terrestres, especificadas por algarismos romanos I, II, III e IV, de acordo com algumas de suas características. As letras A, B e C indicam novidades evolutivas referentes à aquisição de uma característica compartilhada pelas plantas acima dessa letra.\nCom base nas informações apresentadas e na análise desse diagrama, é correto afirmar que as letras A, B e C correspondem, respectivamente, ao surgimento de",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 19: Diagrama filogenético (cladograma) de plantas terrestres (Musgo, Samambaia, Araucária, Lírio Branco) com as letras A, B, C e 'Presença de embrião'."
+      ],
+      "alternativas": {
+        "a": "clorofila, sementes e estróbilos.",
+        "b": "sementes, vasos condutores e flores.",
+        "c": "vasos condutores, sementes e flores.",
+        "d": "clorofila, inflorescências e estróbilos.",
+        "e": "vasos condutores, inflorescências e sementes."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Reino Plantae: características e ciclos de vida de briófitas, pteridófitas, gimnospermas e angiospermas",
+            "Níveis de organização da vida, taxonomia de Lineu e cladogramas modernos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 50,
+      "tipo": "objetiva",
+      "enunciado": "O nitrogênio é um elemento muito abundante na atmosfera, onde ocorre sob a forma de gás (N₂), correspondendo a 79 % do volume do ar atmosférico. Apesar disso, o nitrogênio não é utilizado de forma direta pelos seres vivos, com exceção de alguns micro-organismos que conseguem realizar um processo chamado biofixação do nitrogênio.\nNos ecossistemas terrestres, a fixação do nitrogênio é feita por algumas espécies de bactérias, como as do gênero Rhizobium, que vivem nas raízes de certas plantas leguminosas (feijão, soja e ervilha, por exemplo), com as quais estabelecem uma relação ecológica interespecífica denominada",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "mutualismo, em que todos os participantes se beneficiam.",
+        "b": "comensalismo, em que apenas um dos participantes se beneficia.",
+        "c": "competição, em que todos disputam entre si os recursos do ambiente.",
+        "d": "predatismo, em que um dos participantes mata o outro para se alimentar.",
+        "e": "parasitismo, em que um dos participantes vive no corpo do outro, prejudicando-o."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Dinâmica de populações e relações ecológicas (intraespecíficas e interespecíficas)",
+            "Ciclos biogeoquímicos (água, carbono, oxigênio e nitrogênio)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 51,
+      "tipo": "objetiva",
+      "enunciado": "No caso (I), em que uma descarga elétrica atmosférica utiliza a pipa, o fio e a chave como elementos condutores de eletricidade entre as nuvens e o solo, podemos afirmar corretamente que",
+      "textos_de_apoio": [
+        "Um brinquedo muito comum no Brasil é a “pipa” (papagaio, arraia etc.). O modelo “parafólio”, em especial, é um dos que alcança maior altitude. Esse modelo é aquele com o formato de um velame retangular de paraglider, cheio de gomos, e que permite a passagem do ar por eles.\nNa ciência, há algumas histórias interessantes envolvendo pipas, tais como:\nI. Benjamin Franklin empinando uma pipa numa tempestade, na qual coloca uma chave na extremidade de baixo do fio;\nII. usinas de eletricidade que utilizam pipas parafólio empinadas a uma altura média de 300 m a 500 m para gerar energia elétrica com o vento;\nIII. os navios cargueiros puxados com uma pipa parafólio gigante à mesma altura de 300 m e que economizam até 30 % de combustível em uma travessia oceânica."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "a pipa e o fio, usados por Franklin, eram feitos de metal condutor.",
+        "b": "o experimento só foi possível devido ao uso da chave na ponta do fio.",
+        "c": "a descarga elétrica ocorreu em virtude de uma diferença de potencial elétrica (ddp) entre o solo e a nuvem.",
+        "d": "a história descrita é uma lenda por ser proibido empinar pipas com chaves em dias de chuva.",
+        "e": "a descarga elétrica ocorrida só foi possível graças ao gerador instalado por Franklin."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Eletrostática: carga elétrica, processos de eletrização, Lei de Coulomb, campo e potencial elétrico"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 52,
+      "tipo": "objetiva",
+      "enunciado": "No caso (II), as pipas são conectadas a uma turbina e a um gerador para alcançar a produção de eletricidade. Desprezando-se as perdas de energia térmica, podemos afirmar corretamente que as energias envolvidas no sistema pipa-gerador são",
+      "textos_de_apoio": [
+        "Um brinquedo muito comum no Brasil é a “pipa” (papagaio, arraia etc.). O modelo “parafólio”, em especial, é um dos que alcança maior altitude. Esse modelo é aquele com o formato de um velame retangular de paraglider, cheio de gomos, e que permite a passagem do ar por eles.\nNa ciência, há algumas histórias interessantes envolvendo pipas, tais como:\nI. Benjamin Franklin empinando uma pipa numa tempestade, na qual coloca uma chave na extremidade de baixo do fio;\nII. usinas de eletricidade que utilizam pipas parafólio empinadas a uma altura média de 300 m a 500 m para gerar energia elétrica com o vento;\nIII. os navios cargueiros puxados com uma pipa parafólio gigante à mesma altura de 300 m e que economizam até 30 % de combustível em uma travessia oceânica."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "solar, mecânica e elétrica.",
+        "b": "eólica, mecânica e elétrica.",
+        "c": "mecânica, cinética e luminosa.",
+        "d": "eletromagnética, solar e elétrica.",
+        "e": "luminosa, mecânica e aerodinâmica."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Energia cinética, energia potencial (gravitacional e elástica) e conservação da energia mecânica"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 53,
+      "tipo": "objetiva",
+      "enunciado": "No caso (III), considere a situação em que todo o combustível e a pipa “soprada” pelo vento sejam usados no movimento de um navio de massa 100 000 t, como apresentado na imagem, para a conversão, sem perdas, em energia cinética.\nÉ correto afirmar que, nessas condições, a pipa parafólio contribui, em joules, com uma economia máxima de",
+      "textos_de_apoio": [
+        "Considere:\n1 nó = 0,5 m/s\n1 t = 1 000 kg\nE_c = (m · v²) / 2"
+      ],
+      "midia": [
+        "Página 21: Ilustração de navio cargueiro puxado por pipa parafólio com indicação de massa (m = 100 000 t), velocidade (V_NAVIO = 20 nós ≅ 10 m/s) e sentido do vento."
+      ],
+      "alternativas": {
+        "a": "1,5 × 10³.",
+        "b": "3,0 × 10³.",
+        "c": "1,5 × 10⁶.",
+        "d": "1,5 × 10⁹.",
+        "e": "3,0 × 10⁹."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Energia cinética, energia potencial (gravitacional e elástica) e conservação da energia mecânica"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 54,
+      "tipo": "objetiva",
+      "enunciado": "Em uma das atividades solicitadas durante uma aula de Física, uma estudante começa a montagem de um alfabeto utilizando um circuito elétrico simples com resistores incandescentes e com fios bons condutores. Para isso, ela monta diferentes circuitos formando as letras A, B, C, D e E, conforme representados na figura.\nApós a montagem, ela aplica uma ddp, entre os pontos X e Y, diferente de zero, para que os resistores incandesçam (não necessariamente com um brilho de mesma intensidade) e para que apareça a letra desejada.\nNessa montagem, é correto afirmar que ela obtém sucesso em todas, exceto na letra",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 21: Representação dos circuitos elétricos formados nas letras A, B, C, D e E com pontos X e Y."
+      ],
+      "alternativas": {
+        "a": "A.",
+        "b": "B.",
+        "c": "C.",
+        "d": "D.",
+        "e": "E."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Eletrodinâmica: corrente elétrica, ddp, Leis de Ohm, resistividade e potência elétrica (kWh)",
+            "Associação de resistores, geradores, receptores e circuitos elétricos (Leis de Kirchhoff)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 55,
+      "tipo": "objetiva",
+      "enunciado": "Com as informações fornecidas no texto, podemos afirmar corretamente que as acelerações escalares média aproximadas, atingidas pelo atleta Felix Baumgartner e pelo caça F–16, são, em m/s², respectivamente,",
+      "textos_de_apoio": [
+        "Em 14 de outubro de 2012, o atleta austríaco de base jumping Felix Baumgartner vencia o enjoo, o desmaio e a embolia pulmonar para superar um desafio. Em um traje especial com cerca de 13 kg, ele salta de uma cápsula, posicionada a aproximadamente 39 km de altitude, com a finalidade ser o primeiro homem a alcançar Mach 1. Em outras palavras, ele é o primeiro a romper a barreira do som, conforme apresentado em um gráfico comparativo dos seus dados com os dados de um caça modelo F–16."
+      ],
+      "midia": [
+        "Página 22: Gráfico de 'Aceleração comparativa (Atleta Felix × Caça F-16)' mostrando velocidade V(m/s) em função do tempo t(s)."
+      ],
+      "alternativas": {
+        "a": "8,5 e 8,5.",
+        "b": "8,5 e 12,0.",
+        "c": "10,0 e 12,5.",
+        "d": "12,5 e 10,0.",
+        "e": "12,5 e 12,5."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Cinemática escalar: velocidade e aceleração escalar média e instantânea",
+            "Interpretação de gráficos físicos (área sob a curva e inclinação da reta)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 56,
+      "tipo": "objetiva",
+      "enunciado": "Considerando que, na altitude do salto, a aceleração gravitacional seja de aproximadamente 9,7 m/s², e que o atleta possua 87,0 kg de massa corporal, podemos determinar que a energia potencial gravitacional do atleta, em relação à Terra, é, aproximadamente, igual a",
+      "textos_de_apoio": [
+        "Em 14 de outubro de 2012, o atleta austríaco de base jumping Felix Baumgartner vencia o enjoo, o desmaio e a embolia pulmonar para superar um desafio. Em um traje especial com cerca de 13 kg, ele salta de uma cápsula, posicionada a aproximadamente 39 km de altitude, com a finalidade ser o primeiro homem a alcançar Mach 1. Em outras palavras, ele é o primeiro a romper a barreira do som, conforme apresentado em um gráfico comparativo dos seus dados com os dados de um caça modelo F–16.",
+        "Considere:\nE_p = m · g · h"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "38 J.",
+        "b": "33 kJ.",
+        "c": "38 kJ.",
+        "d": "33 MJ.",
+        "e": "38 MJ."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Energia cinética, energia potencial (gravitacional e elástica) e conservação da energia mecânica"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 57,
+      "tipo": "redacao",
+      "enunciado": "A partir da coletânea apresentada, elabore um texto narrativo ou um texto dissertativo-argumentativo explorando o seguinte tema: Uso do celular na sociedade contemporânea: entre benefícios e danos.",
+      "textos_de_apoio": [
+        "Texto I: <http://tinyurl.com/2x8yawke> (Charge representando diversas pessoas usando celulares em cena urbana)",
+        "Texto II: “Temos muito menos contato com as pessoas, mas, ao mesmo tempo, estamos sempre, por exemplo, com o celular, que é tátil. E isso nos dá uma falsa sensação de realidade e tato. É um momento complexo, porque perdemos o contato direto com as pessoas, a comunicação próxima, o toque. E, ao mesmo tempo que aumenta a distância entre as pessoas, cada vez mais nos expomos e nos mostramos à sociedade, ainda que de forma superficial. Isso nos afeta muito psicologicamente, porque não se perde apenas o contato, mas também a profundidade das relações com os outros e com nós mesmos.” (<http://tinyurl.com/2s4y8frf>)",
+        "Texto III: “Imagine transformar seu celular em uma poderosa ferramenta para mapear pontos de transmissão de doenças como zika, malária ou dengue. É exatamente esse o objetivo de um projeto desenvolvido pelo Centro de Pesquisa em Doenças Inflamatórias (Crid). A ideia é utilizar o arquivo que armazena as informações do GPS do celular para identificar os locais em que os pacientes estiveram e, após o cruzamento desses dados, encontrar os pontos em que pode haver criadouros. [...] Um dos desdobramentos desse projeto, caso seja bem-sucedido, é a criação de um aplicativo que mapeie, em tempo real, onde estão os possíveis locais de transmissão das doenças...” (<http://tinyurl.com/2435r3mh>)"
+      ],
+      "midia": [
+        "Página 23: Charge ilustrando pessoas utilizando aparelhos celulares em vias públicas."
+      ],
+      "alternativas": null,
+      "gabarito": null,
+      "areas": [
+        {
+          "area": "Redação",
+          "assuntos": [
+            "Gênero dissertativo-argumentativo: impessoalidade (3ª pessoa) e defesa de ponto de vista claro",
+            "Macroestrutura padrão em 4 parágrafos (Introdução com tese, D1, D2 e Conclusão reflexiva)",
+            "Eixo Temático 1: Tecnologia, privacidade e transformações nas relações humanas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    }
+  ]
+}

@@ -1,0 +1,1520 @@
+{
+  "exame": "univesp_2023_questoes",
+  "ano": 2023,
+  "semestre": 2,
+  "fonte_questoes": "data/univesp_2023_questoes.pdf",
+  "fonte_gabarito": "data/univesp_2023_gabarito.pdf",
+  "total_questoes": 57,
+  "questoes": [
+    {
+      "numero": 1,
+      "tipo": "objetiva",
+      "enunciado": "Para armazenar alguns arquivos, uma pessoa comprou determinado número de pen drives. Em 2/3 deles foram colocados 12 arquivos em cada um, e nos pen drives restantes foram colocados, em cada um, 8 arquivos. Se o número total de arquivos armazenados foi 160, o número de pen drives que ficaram com 12 arquivos cada um foi",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "18.",
+        "b": "15.",
+        "c": "12.",
+        "d": "10.",
+        "e": "8."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Equações e inequações lineares, quadráticas, exponenciais, logarítmicas e modulares",
+            "Operações com frações e simplificação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 2,
+      "tipo": "objetiva",
+      "enunciado": "Em um concurso público, foram aprovados 20% do número total de participantes, mas somente 30% dos aprovados foram chamados para ocupar o cargo. Os outros 168 candidatos aprovados ficaram na lista de espera. O número de candidatos aprovados que foram chamados foi",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "168.",
+        "b": "144.",
+        "c": "120.",
+        "d": "96.",
+        "e": "72."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Matemática Financeira: porcentagem, juros simples, juros compostos, taxas e índices"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 3,
+      "tipo": "objetiva",
+      "enunciado": "Em uma sala de aula, 35 das 40 cadeiras estão ocupadas. Se dois alunos entrarem nessa sala, o número de maneiras distintas de eles escolherem as cadeiras onde irão se sentar é",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "25.",
+        "b": "20.",
+        "c": "15.",
+        "d": "10.",
+        "e": "5."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Princípios multiplicativo e aditivo da contagem",
+            "Arranjos, permutações e combinações simples"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 4,
+      "tipo": "objetiva",
+      "enunciado": "A reta r de equação y = 2x + 1 é paralela à reta s. Sabendo que a reta s passa pelo ponto (1, 5), sua equação pode ser dada por",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "y = 2x + 3",
+        "b": "y = 3x - 2",
+        "c": "y = x + 4",
+        "d": "y = x/5",
+        "e": "y = 2x + 5"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Equação da reta: forma reduzida, coeficientes angular/linear e intersecção",
+            "Geometria Analítica Básica: coordenadas, plano cartesiano, distância e ponto médio"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 5,
+      "tipo": "objetiva",
+      "enunciado": "O ponto A(x, 2) pertence ao gráfico da função f(x) = 3x – 4 e o ponto V(3, y) é o vértice da parábola descrita pela função g(x) = x² – 6x + 5. A distância entre os pontos A e V é igual a",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "√34",
+        "b": "√35",
+        "c": "√37",
+        "d": "√39",
+        "e": "√41"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Função quadrática: raízes, gráfico da parábola e pontos de máximo/mínimo",
+            "Geometria Analítica Básica: coordenadas, plano cartesiano, distância e ponto médio"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 6,
+      "tipo": "objetiva",
+      "enunciado": "Três amigos, Bento, Caio e Edu, compararam as notas obtidas por eles nas provas de Matemática e de Português, sempre na ordem alfabética de seus nomes. Eles observaram que as notas de Matemática formavam uma progressão aritmética de razão r_M = 2 e que as notas de Português formavam outra progressão aritmética de razão r_P = – 1. Sabendo que a soma das notas da prova de Português foi 21 e que Caio obteve a mesma nota nas duas provas, então, a maior nota da prova de Matemática foi",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "10.",
+        "b": "9.",
+        "c": "8.",
+        "d": "7.",
+        "e": "6."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Progressão Aritmética (PA) - termo geral e soma dos termos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 7,
+      "tipo": "objetiva",
+      "enunciado": "Um quadrado ABCD, com 6 cm de lado, foi dividido em cinco polígonos, sendo três triângulos, T₁, T₂, T₃, um quadrado Q e um trapézio TP, conforme mostra a figura.\nSabendo que a área do quadrado Q é 9 cm² e que os pontos M e N são pontos médios dos lados do quadrado ABCD, a área do trapézio é igual a",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 4: Figura geométrica mostrando um quadrado ABCD dividido em subpolígonos (triângulos T1, T2, T3, quadrado Q e trapézio TP), com pontos M e N indicados como pontos médios."
+      ],
+      "alternativas": {
+        "a": "9/2 cm²",
+        "b": "13/2 cm²",
+        "c": "9 cm²",
+        "d": "11 cm²",
+        "e": "27/2 cm²"
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Cálculo de áreas (polígonos, círculos, coroas e setores circulares)",
+            "Geometria Plana: ponto, reta, plano, segmentos e ângulos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 8,
+      "tipo": "objetiva",
+      "enunciado": "Em uma urna foram colocados 24 cartões, numerados de 29 a 52. Retirando-se aleatoriamente um cartão dessa urna, a probabilidade de que o número que está no cartão seja divisível por 3 é de",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "1/3",
+        "b": "1/4",
+        "c": "1/5",
+        "d": "1/6",
+        "e": "1/8"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Espaço amostral (discreto e contínuo) e conceito de probabilidade"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 9,
+      "tipo": "objetiva",
+      "enunciado": "Duas caixas, A e B, ambas na forma de um prisma reto de base retangular, com alturas H_A e H_B, respectivamente, têm suas medidas indicadas na figura.\nSabendo que o volume da caixa A é 300 cm³ maior do que o volume da caixa B e que a altura da caixa A é 6 cm menor do que a altura da caixa B, então a altura da caixa B é",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 4: Desenho de duas caixas retangulares A (base 40 cm por 25 cm, altura H_A) e B (base 35 cm por 20 cm, altura H_B)."
+      ],
+      "alternativas": {
+        "a": "15 cm.",
+        "b": "18 cm.",
+        "c": "21 cm.",
+        "d": "24 cm.",
+        "e": "27 cm."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Poliedros, corpos redondos, prismas, pirâmides e troncos (área e volume)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 10,
+      "tipo": "objetiva",
+      "enunciado": "O gráfico apresenta o número de parques temáticos dos cinco estados brasileiros que possuem o maior número deles, cadastrados no Ministério do Turismo até março de 2022.\nSuponha que o número de parques temáticos dos estados do RS e de SP mantenha-se igual nos próximos três anos. Nessas condições, o número mínimo de parques temáticos que os estados de SC, PE e GO, juntos, precisariam abrir nesses três anos, além dos que eles já possuem, para que a média aritmética do número de parques temáticos deles fique maior que a média aritmética do número de parques temáticos dos estados do RS e de SP seria de",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 4: Gráfico de barras verticais mostrando os parques temáticos por estado: RS (40), SP (42), SC (35), PE (18), GO (16) [Nota: o gráfico indica também valores e linhas de tendência]."
+      ],
+      "alternativas": {
+        "a": "71.",
+        "b": "70.",
+        "c": "69.",
+        "d": "68.",
+        "e": "67."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Estatística: medidas de tendência central (média, moda e mediana)",
+            "Interpretação de gráficos (barras, setores, histogramas, box-plot, ramos e folhas)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 11,
+      "tipo": "objetiva",
+      "enunciado": "Em relação ao evento ocorrido na Igreja, o homem acredita que as pessoas se mostrariam",
+      "textos_de_apoio": [
+        "Numa das tardes de trabalho, domingo, depois da missa da manhã, um homem entrou na Igreja e começou a tentar mover os bancos. Grunhia na empurração, mas não conseguia tirá-los do lugar. Repetia alguma coisa sobre abrir espaço, sobre precisar de espaço. Carolina logo viu que se tratava de um louco.\n[...]\nO fato é que Carolina, que prestava atenção na Virgem Maria, começou a reparar que os olhos da Santa estavam chorando também. Junto com o doido, a Santa também derramava lágrimas.\n[...]\nNão dava pra ficar ajoelhada vendo a Santa chorar. Começou a tirar fotos e fazer vídeos com o celular. Diriam que era tudo montagem, mas era uma evidência a mais.\n[...]\nO homem ficou de pé, apontou pra Santa, abaixou os braços. Olhou pra Carolina por alguns segundos, apontou pra Santa de novo.\nMeu Deus, que homem louco.\n— A Santa está com pena de mim.\n— Tá, mas por quê? Tá com pena de quê? E por que ela só tem pena de você? Não tem mais gente pra ela sentir pena?\n[...]\nCarolina suspirou.\nNão adianta discutir com doido, a questão é essa estátua chorando. Tá chorando, eu tô vendo. Vou deixar esse homem rezando e vou chamar mais gente.\n— Fica aí, viu? Eu vou chamar mais gente pra ver a Santa.\n— Ninguém vai acreditar em você.\n— Eu vou chamar mesmo assim.\nSaiu correndo, abriu as portas que davam pra frente do altar. Viu uma senhorinha caminhando devagar pela calçada perto da Igreja e foi até ela. Com muito jeito, muito mesmo, que era pra não ser vista como doida, explicou a situação.\n(Jarid Arraes. Redemoinho em dia quente, 2019.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "atônitas.",
+        "b": "oportunistas.",
+        "c": "céticas.",
+        "d": "compassivas.",
+        "e": "indignadas."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação",
+            "Tipologias textuais (narração, descrição, dissertação) e gêneros textuais variados"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 12,
+      "tipo": "objetiva",
+      "enunciado": "O discurso indireto livre se configura pela mistura entre a voz de um personagem e a do narrador, a exemplo do que ocorre em",
+      "textos_de_apoio": [
+        "Numa das tardes de trabalho, domingo, depois da missa da manhã, um homem entrou na Igreja e começou a tentar mover os bancos. Grunhia na empurração, mas não conseguia tirá-los do lugar. Repetia alguma coisa sobre abrir espaço, sobre precisar de espaço. Carolina logo viu que se tratava de um louco.\n[...]\nO fato é que Carolina, que prestava atenção na Virgem Maria, começou a reparar que os olhos da Santa estavam chorando também. Junto com o doido, a Santa também derramava lágrimas.\n[...]\nNão dava pra ficar ajoelhada vendo a Santa chorar. Começou a tirar fotos e fazer vídeos com o celular. Diriam que era tudo montagem, mas era uma evidência a mais.\n[...]\nO homem ficou de pé, apontou pra Santa, abaixou os braços. Olhou pra Carolina por alguns segundos, apontou pra Santa de novo.\nMeu Deus, que homem louco.\n— A Santa está com pena de mim.\n— Tá, mas por quê? Tá com pena de quê? E por que ela só tem pena de você? Não tem mais gente pra ela sentir pena?\n[...]\nCarolina suspirou.\nNão adianta discutir com doido, a questão é essa estátua chorando. Tá chorando, eu tô vendo. Vou deixar esse homem rezando e vou chamar mais gente.\n— Fica aí, viu? Eu vou chamar mais gente pra ver a Santa.\n— Ninguém vai acreditar em você.\n— Eu vou chamar mesmo assim.\nSaiu correndo, abriu as portas que davam pra frente do altar. Viu uma senhorinha caminhando devagar pela calçada perto da Igreja e foi até ela. Com muito jeito, muito mesmo, que era pra não ser vista como doida, explicou a situação.\n(Jarid Arraes. Redemoinho em dia quente, 2019.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "“O homem ficou de pé, apontou pra Santa, abaixou os braços.” (4º parágrafo)",
+        "b": "“— A Santa está com pena de mim.” (6º parágrafo)",
+        "c": "“Não adianta discutir com doido, a questão é essa estátua chorando.” (9º parágrafo)",
+        "d": "“Saiu correndo, abriu as portas que davam pra frente do altar.” (13º parágrafo)",
+        "e": "“Com muito jeito, muito mesmo, que era pra não ser vista como doida, explicou a situação.” (13º parágrafo)"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Discurso direto, indireto e indireto livre"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 13,
+      "tipo": "objetiva",
+      "enunciado": "Em “Viu uma senhorinha caminhando devagar pela calçada perto da Igreja e foi até ela.” (13º parágrafo), o sufixo da palavra sublinhada expressa",
+      "textos_de_apoio": [
+        "Numa das tardes de trabalho, domingo, depois da missa da manhã, um homem entrou na Igreja e começou a tentar mover os bancos. Grunhia na empurração, mas não conseguia tirá-los do lugar. Repetia alguma coisa sobre abrir espaço, sobre precisar de espaço. Carolina logo viu que se tratava de um louco.\n[...]\nO fato é que Carolina, que prestava atenção na Virgem Maria, começou a reparar que os olhos da Santa estavam chorando também. Junto com o doido, a Santa também derramava lágrimas.\n[...]\nNão dava pra ficar ajoelhada vendo a Santa chorar. Começou a tirar fotos e fazer vídeos com o celular. Diriam que era tudo montagem, mas era uma evidência a mais.\n[...]\nO homem ficou de pé, apontou pra Santa, abaixou os braços. Olhou pra Carolina por alguns segundos, apontou pra Santa de novo.\nMeu Deus, que homem louco.\n— A Santa está com pena de mim.\n— Tá, mas por quê? Tá com pena de quê? E por que ela só tem pena de você? Não tem mais gente pra ela sentir pena?\n[...]\nCarolina suspirou.\nNão adianta discutir com doido, a questão é essa estátua chorando. Tá chorando, eu tô vendo. Vou deixar esse homem rezando e vou chamar mais gente.\n— Fica aí, viu? Eu vou chamar mais gente pra ver a Santa.\n— Ninguém vai acreditar em você.\n— Eu vou chamar mesmo assim.\nSaiu correndo, abriu as portas que davam pra frente do altar. Viu uma senhorinha caminhando devagar pela calçada perto da Igreja e foi até ela. Com muito jeito, muito mesmo, que era pra não ser vista como doida, explicou a situação.\n(Jarid Arraes. Redemoinho em dia quente, 2019.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "exagero.",
+        "b": "depreciação.",
+        "c": "ironia.",
+        "d": "atenuação.",
+        "e": "afeto."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Estrutura e processos de formação de palavras (derivação e composição)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 14,
+      "tipo": "objetiva",
+      "enunciado": "O eu lírico vê a cidade de São Paulo como um espaço no qual",
+      "textos_de_apoio": [
+        "Venha até São Paulo ver o que é bom pra tosse\nvenha até São Paulo dance e pule o rock and rush\nentre no meu carro vamos ao largo do Arouche\nLiberdade é bairro mas é como Japão fosse\n\nVenha nesse embalo concrete fax telex\nigreja praça da Sé faça logo sua prece\nquem vem pra São Paulo, meu bem, jamais se esquece\nnão tem intervalo tudo depressa acontece\n\nVai e vem e tchan e tchun êta sobe e desce\ngente do nordeste do norte aqui no sudeste\nbatalhando nesse mundaréu de mundo que só cresce\n[que só carece\nque só carece que só cresce\n(Pretobrás: por que que eu não pensei nisso antes?, 2006. Adaptado.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "a violência e a pressa eliminam as possibilidades de civilidade e de convívio com o outro.",
+        "b": "a busca por desenvolvimento tecnológico implica a falta de liberdade da população.",
+        "c": "a intensidade do fluxo migratório é diminuída pela falta de capacidade real de acolhimento.",
+        "d": "a população parece se misturar em meio a uma realidade urbana caótica.",
+        "e": "a miscigenação dos habitantes impossibilita a definição de uma identidade ao lugar."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 15,
+      "tipo": "objetiva",
+      "enunciado": "Pertence ao grupo das classes de palavras invariáveis o termo sublinhado em:",
+      "textos_de_apoio": [
+        "Venha até São Paulo ver o que é bom pra tosse\nvenha até São Paulo dance e pule o rock and rush\nentre no meu carro vamos ao largo do Arouche\nLiberdade é bairro mas é como Japão fosse\n\nVenha nesse embalo concrete fax telex\nigreja praça da Sé faça logo sua prece\nquem vem pra São Paulo, meu bem, jamais se esquece\nnão tem intervalo tudo depressa acontece\n\nVai e vem e tchan e tchun êta sobe e desce\ngente do nordeste do norte aqui no sudeste\nbatalhando nesse mundaréu de mundo que só cresce\n[que só carece\nque só carece que só cresce\n(Pretobrás: por que que eu não pensei nisso antes?, 2006. Adaptado.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "“Venha até São Paulo ver o que é bom pra tosse” (1ª estrofe)",
+        "b": "“entre no meu carro vamos ao largo do Arouche” (1ª estrofe)",
+        "c": "“Venha nesse embalo concrete fax telex” (2ª estrofe)",
+        "d": "“quem vem pra São Paulo, meu bem, jamais se esquece” (2ª estrofe)",
+        "e": "“batalhando nesse mundaréu de mundo que só cresce que só carece” (3ª estrofe)"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Classes gramaticais: substantivo, adjetivo, artigo, numeral, pronome, verbo, advérbio, preposição, conjunção e interjeição"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 16,
+      "tipo": "objetiva",
+      "enunciado": "Na última estrofe, há predominância de verbos no",
+      "textos_de_apoio": [
+        "Venha até São Paulo ver o que é bom pra tosse\nvenha até São Paulo dance e pule o rock and rush\nentre no meu carro vamos ao largo do Arouche\nLiberdade é bairro mas é como Japão fosse\n\nVenha nesse embalo concrete fax telex\nigreja praça da Sé faça logo sua prece\nquem vem pra São Paulo, meu bem, jamais se esquece\nnão tem intervalo tudo depressa acontece\n\nVai e vem e tchan e tchun êta sobe e desce\ngente do nordeste do norte aqui no sudeste\nbatalhando nesse mundaréu de mundo que só cresce\n[que só carece\nque só carece que só cresce\n(Pretobrás: por que que eu não pensei nisso antes?, 2006. Adaptado.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "presente do indicativo, o que corresponde à previsão de ações iminentes.",
+        "b": "presente do indicativo, o que corresponde à descrição de ações constantes.",
+        "c": "gerúndio, o que corresponde à narração de ações já cessadas, mas que se estenderam no tempo.",
+        "d": "gerúndio, o que corresponde à narração de ações começadas no passado e que continuam a se estender no tempo.",
+        "e": "imperativo afirmativo, o que corresponde à proposta do eu lírico de que ocorram certas ações."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Flexão nominal e flexão verbal (tempos, modos, vozes e correlação verbal)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 17,
+      "tipo": "objetiva",
+      "enunciado": "Em “Venha até São Paulo”, há associação de duas palavras com semelhança fônica e significados diferentes no verso:",
+      "textos_de_apoio": [
+        "Venha até São Paulo ver o que é bom pra tosse\nvenha até São Paulo dance e pule o rock and rush\nentre no meu carro vamos ao largo do Arouche\nLiberdade é bairro mas é como Japão fosse\n\nVenha nesse embalo concrete fax telex\nigreja praça da Sé faça logo sua prece\nquem vem pra São Paulo, meu bem, jamais se esquece\nnão tem intervalo tudo depressa acontece\n\nVai e vem e tchan e tchun êta sobe e desce\ngente do nordeste do norte aqui no sudeste\nbatalhando nesse mundaréu de mundo que só cresce\n[que só carece\nque só carece que só cresce\n(Pretobrás: por que que eu não pensei nisso antes?, 2006. Adaptado.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "“Venha até São Paulo ver o que é bom pra tosse” (1ª estrofe)",
+        "b": "“entre no meu carro vamos ao largo do Arouche” (1ª estrofe)",
+        "c": "“Liberdade é bairro mas é como Japão fosse” (1ª estrofe)",
+        "d": "“gente do nordeste do norte aqui no sudeste” (3ª estrofe)",
+        "e": "“batalhando nesse mundaréu de mundo que só cresce que só carece” (3ª estrofe)"
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Figuras de linguagem (metáfora, metonímia, antítese, paradoxo, hipérbole, ironia)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 18,
+      "tipo": "objetiva",
+      "enunciado": "O poema pode remeter às cantigas de amigo do Trovadorismo porque nele se observa",
+      "textos_de_apoio": [
+        "Tendes castelo, mais nada.\nNem por isso vós sereis\no dono de minha vida:\nVivo tranquila sem reis.\n\nTendes castelo, afirmais\ne não me convencereis.\nNão vos presto vassalagem,\nnão sou amiga de reis.\n(http://www.poetacelinaferreira.com, 2020.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "religiosidade mística.",
+        "b": "eu lírico feminino.",
+        "c": "idealização do pretendente.",
+        "d": "ambiente bucólico.",
+        "e": "submissão masculina."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Literatura Portuguesa: Trovadorismo, Humanismo, Classicismo (Camões), Realismo (Eça de Queirós) e Modernismo (Fernando Pessoa)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 19,
+      "tipo": "objetiva",
+      "enunciado": "“Tendes castelo, mais nada. / Nem por isso vós sereis” (1ª estrofe)\nSe a concordância fosse feita com a terceira pessoa do plural, mantendo-se o tempo e o modo dos verbos sublinhados, as formas verbais seriam, respectivamente:",
+      "textos_de_apoio": [
+        "Tendes castelo, mais nada.\nNem por isso vós sereis\no dono de minha vida:\nVivo tranquila sem reis.\n\nTendes castelo, afirmais\ne não me convencereis.\nNão vos presto vassalagem,\nnão sou amiga de reis.\n(http://www.poetacelinaferreira.com, 2020.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "teriam – foram.",
+        "b": "têm – seriam.",
+        "c": "tem – eram.",
+        "d": "têm – serão.",
+        "e": "tem – serão."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Concordância verbal e nominal",
+            "Flexão nominal e flexão verbal (tempos, modos, vozes e correlação verbal)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 20,
+      "tipo": "objetiva",
+      "enunciado": "Em “Tendes castelo, afirmais / e não me convencereis.” (2ª estrofe), o termo sublinhado introduz uma oração que, em relação à anterior, expressa",
+      "textos_de_apoio": [
+        "Tendes castelo, mais nada.\nNem por isso vós sereis\no dono de minha vida:\nVivo tranquila sem reis.\n\nTendes castelo, afirmais\ne não me convencereis.\nNão vos presto vassalagem,\nnão sou amiga de reis.\n(http://www.poetacelinaferreira.com, 2020.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "alternativa.",
+        "b": "condição.",
+        "c": "explicação.",
+        "d": "conclusão.",
+        "e": "oposição."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Sintaxe do período composto (coordenação e subordinação)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 21,
+      "tipo": "objetiva",
+      "enunciado": "The text intends to",
+      "textos_de_apoio": [
+        "There are many positive aspects to tourism. Around two billion people travel each year for tourism purposes. Travel and tourism connect people and bring the world closer through shared experiences, cultural awareness and community building. It provides jobs, encourages regional development, and is a key driver for socio-economic progress.\n\nBut there is often a downside. Many popular destinations are threatened by increasing pollution, environmental risks, damage to heritage sites and overuse of resources. And that’s without factoring the pollution caused by travel to and from these destinations.\n\nSo, with that in mind here are two tips that will help you to enjoy your trip, and leave with the confidence that your favoured tourist destination will not be damaged by your presence, once you return home:\n\n1. Many of us are switching to sustainable options in our daily lives, and we can take the same attitude when we’re on the road. By choosing reusable bottles and bags wherever you go, you can help ensure there is less plastic waste in the ocean and other habitats.\n\n2. On the whole, tourists use far more water than local residents. With a growing number of places experiencing water scarcity, the choices you make can help ensure people have adequate access to water in the future. By foregoing a daily change of sheets and towels during hotel stays, we can save millions of litres of water each year.\n(https://news.un.org, 08.10.2022. Adaptado.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "compare the differences between travel and tourism.",
+        "b": "explain why cultural tourism is important.",
+        "c": "show important tips on how to stay safe while travelling.",
+        "d": "draw attention to the different types of tourism.",
+        "e": "indicate ways on how to make a positive impact on travels."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Identificação do gênero textual, propósito comunicativo e público-alvo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 22,
+      "tipo": "objetiva",
+      "enunciado": "In the excerpt from the first paragraph “It provides jobs”, the underlined word refers to",
+      "textos_de_apoio": [
+        "There are many positive aspects to tourism. Around two billion people travel each year for tourism purposes. Travel and tourism connect people and bring the world closer through shared experiences, cultural awareness and community building. It provides jobs, encourages regional development, and is a key driver for socio-economic progress.\n\nBut there is often a downside. Many popular destinations are threatened by increasing pollution, environmental risks, damage to heritage sites and overuse of resources. And that’s without factoring the pollution caused by travel to and from these destinations.\n\nSo, with that in mind here are two tips that will help you to enjoy your trip, and leave with the confidence that your favoured tourist destination will not be damaged by your presence, once you return home:\n\n1. Many of us are switching to sustainable options in our daily lives, and we can take the same attitude when we’re on the road. By choosing reusable bottles and bags wherever you go, you can help ensure there is less plastic waste in the ocean and other habitats.\n\n2. On the whole, tourists use far more water than local residents. With a growing number of places experiencing water scarcity, the choices you make can help ensure people have adequate access to water in the future. By foregoing a daily change of sheets and towels during hotel stays, we can save millions of litres of water each year.\n(https://news.un.org, 08.10.2022. Adaptado.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "“world”.",
+        "b": "“regional development”.",
+        "c": "“tourism”.",
+        "d": "“community building”.",
+        "e": "“cultural awareness”."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Coesão textual em inglês: referência pronominal e elipses"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 23,
+      "tipo": "objetiva",
+      "enunciado": "No trecho do segundo parágrafo “But there is often a downside”, o termo sublinhado expressa",
+      "textos_de_apoio": [
+        "There are many positive aspects to tourism. Around two billion people travel each year for tourism purposes. Travel and tourism connect people and bring the world closer through shared experiences, cultural awareness and community building. It provides jobs, encourages regional development, and is a key driver for socio-economic progress.\n\nBut there is often a downside. Many popular destinations are threatened by increasing pollution, environmental risks, damage to heritage sites and overuse of resources. And that’s without factoring the pollution caused by travel to and from these destinations.\n\nSo, with that in mind here are two tips that will help you to enjoy your trip, and leave with the confidence that your favoured tourist destination will not be damaged by your presence, once you return home:\n\n1. Many of us are switching to sustainable options in our daily lives, and we can take the same attitude when we’re on the road. By choosing reusable bottles and bags wherever you go, you can help ensure there is less plastic waste in the ocean and other habitats.\n\n2. On the whole, tourists use far more water than local residents. With a growing number of places experiencing water scarcity, the choices you make can help ensure people have adequate access to water in the future. By foregoing a daily change of sheets and towels during hotel stays, we can save millions of litres of water each year.\n(https://news.un.org, 08.10.2022. Adaptado.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "consequência.",
+        "b": "contraste.",
+        "c": "concessão.",
+        "d": "condição.",
+        "e": "causa."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Marcadores discursivos e conectivos (conjunções de adição, contraste, causa, consequência e condição)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 24,
+      "tipo": "objetiva",
+      "enunciado": "No trecho do item 1 do texto “By choosing reusable bottles and bags wherever you go, you can help ensure there is less plastic waste in the ocean and other habitats”, a expressão sublinhada descreve",
+      "textos_de_apoio": [
+        "There are many positive aspects to tourism. Around two billion people travel each year for tourism purposes. Travel and tourism connect people and bring the world closer through shared experiences, cultural awareness and community building. It provides jobs, encourages regional development, and is a key driver for socio-economic progress.\n\nBut there is often a downside. Many popular destinations are threatened by increasing pollution, environmental risks, damage to heritage sites and overuse of resources. And that’s without factoring the pollution caused by travel to and from these destinations.\n\nSo, with that in mind here are two tips that will help you to enjoy your trip, and leave with the confidence that your favoured tourist destination will not be damaged by your presence, once you return home:\n\n1. Many of us are switching to sustainable options in our daily lives, and we can take the same attitude when we’re on the road. By choosing reusable bottles and bags wherever you go, you can help ensure there is less plastic waste in the ocean and other habitats.\n\n2. On the whole, tourists use far more water than local residents. With a growing number of places experiencing water scarcity, the choices you make can help ensure people have adequate access to water in the future. By foregoing a daily change of sheets and towels during hotel stays, we can save millions of litres of water each year.\n(https://news.un.org, 08.10.2022. Adaptado.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "como algo deve ser feito.",
+        "b": "quando algo deve ser feito.",
+        "c": "o lugar onde algo deve ser feito.",
+        "d": "o motivo pelo qual algo deve ser feito.",
+        "e": "a frequência com que algo deve ser feito."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 25,
+      "tipo": "objetiva",
+      "enunciado": "A expressão “water scarcity”, no item 2 do texto, significa, em português,",
+      "textos_de_apoio": [
+        "There are many positive aspects to tourism. Around two billion people travel each year for tourism purposes. Travel and tourism connect people and bring the world closer through shared experiences, cultural awareness and community building. It provides jobs, encourages regional development, and is a key driver for socio-economic progress.\n\nBut there is often a downside. Many popular destinations are threatened by increasing pollution, environmental risks, damage to heritage sites and overuse of resources. And that’s without factoring the pollution caused by travel to and from these destinations.\n\nSo, with that in mind here are two tips that will help you to enjoy your trip, and leave with the confidence that your favoured tourist destination will not be damaged by your presence, once you return home:\n\n1. Many of us are switching to sustainable options in our daily lives, and we can take the same attitude when we’re on the road. By choosing reusable bottles and bags wherever you go, you can help ensure there is less plastic waste in the ocean and other habitats.\n\n2. On the whole, tourists use far more water than local residents. With a growing number of places experiencing water scarcity, the choices you make can help ensure people have adequate access to water in the future. By foregoing a daily change of sheets and towels during hotel stays, we can save millions of litres of water each year.\n(https://news.un.org, 08.10.2022. Adaptado.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "poluição da água.",
+        "b": "falta de água.",
+        "c": "fornecimento de água.",
+        "d": "custo da água.",
+        "e": "desperdício de água."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 26,
+      "tipo": "objetiva",
+      "enunciado": "Leia o cartum de Glasbergen.\n“You keep me on a chain, you make me eat on the floor, you never let me go out in public alone. We need counseling!”\n(www.gocomics.com)\nA fala do cachorro",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 8: Cartum mostrando um cachorro acorrentado conversando com seu dono e exigindo aconselhamento."
+      ],
+      "alternativas": {
+        "a": "revela um posicionamento favorável às atitudes de seu dono.",
+        "b": "sugere uma alternativa viável para seu comportamento inadequado.",
+        "c": "mostra que ele está cansado da ração oferecida por seu dono.",
+        "d": "indica uma insatisfação em relação às atitudes de seu dono.",
+        "e": "evidencia seu medo de andar sozinho em local público."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Filosofia e Sociologia",
+          "assuntos": [
+            "Indivíduo e sociedade: instituições sociais, socialização e construção de identidades"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 27,
+      "tipo": "objetiva",
+      "enunciado": "A democracia estabelecida na Atenas da Antiguidade Clássica ficou conhecida por ser",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "fundamentada em distinções sociais e reservada à aristocracia ateniense.",
+        "b": "baseada na participação direta e restrita aos homens atenienses.",
+        "c": "representativa e reduzida àqueles que nasceram na pólis.",
+        "d": "apoiada na coletividade e aberta a todos os residentes da cidade.",
+        "e": "exclusivista e limitada ao grupo militar urbano."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Antiguidade Clássica: democracia ateniense, República/Império Romano e escravismo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 28,
+      "tipo": "objetiva",
+      "enunciado": "Para descrever os nove anos em que viveu no chamado Brasil holandês, Johan Niehof, funcionário da Companhia das Índias Ocidentais, escreveu uma crônica da qual se extraiu o seguinte excerto:\nTodo o litoral brasileiro está literalmente tarjado de pequenos cursos d’água que vêm lançar ao mar após terem banhado extensos vales. Por isso, os engenhos de cana erigidos nas regiões ribeirinhas desfrutam grande economia tanto no transporte como na mão de obra. Além de moverem esses rios os engenhos instalados em suas margens, servem eles para o transporte do açúcar e constituem via fácil para o abastecimento das fábricas. Condições assim tão vantajosas não se encontram em nenhum outro país das Índias Ocidentais, e, por isso, neles não se poderia cuidar com lucro da cultura da cana.\n(Apud Evaldo Cabral de Mello. O Brasil holandês (1630-1654), 2010.)\nNo excerto, o funcionário holandês faz uma",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "averiguação da devastação do sistema ambiental devido ao plantio extensivo da cana-de-açúcar.",
+        "b": "projeção de como poderiam ser os sistemas de exploração açucareiros empregados ao longo da costa brasileira.",
+        "c": "indagação das possibilidades de uso da natureza para o bom aproveitamento do cultivo de cana-de-açúcar.",
+        "d": "constatação da potencialidade dos recursos naturais para a maximização dos ganhos da produção açucareira.",
+        "e": "certificação do aproveitamento ineficaz da riqueza ambiental brasileira pelos engenhos de açúcar."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Brasil Colônia: primeiros habitantes indígenas, ocupação territorial, ciclos econômicos (açúcar e ouro) e escravidão"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 29,
+      "tipo": "objetiva",
+      "enunciado": "Um museu de Londres concordou em devolver ao governo nigeriano 72 objetos saqueados de Benin City em 1897.\nTodos os objetos foram retirados do Reino de Benin, no que hoje é a capital do estado de Edo, no sul da Nigéria, durante uma operação militar britânica em fevereiro de 1897, disse o museu.\nOs artefatos incluem 12 placas de latão que fazem parte de um gênero conhecido como “bronze do Benin”.\nEssas esculturas de bronze foram criadas pelo menos desde o século 16 para decorar a corte real em Benin, de acordo com o Museu Britânico.\n(cnnbrasil.com.br)\nO saque realizado pelos britânicos em Benin foi uma das expressões",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "da missão civilizadora europeia para preservar a cultura africana.",
+        "b": "do desprezo dos países europeus em relação à produção artística africana.",
+        "c": "do equilíbrio entre as forças industriais europeias e os reinos africanos.",
+        "d": "da divisão igualitária das riquezas africanas entre os países europeus.",
+        "e": "da dominação do continente africano pelas potências imperialistas europeias."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Imperialismo e neocolonialismo na África e na Ásia no século XIX"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 30,
+      "tipo": "objetiva",
+      "enunciado": "Leia o excerto de artigo escrito por Aristides Lobo em 1889 e o trecho do romance Esaú e Jacó, de Machado de Assis, publicado em 1904.\nPor ora, a cor do governo é puramente militar e deverá ser assim. O fato foi deles, deles só [...]. O povo assistiu àquilo bestializado, atônico, surpreso, sem conhecer o que significava. Muitos acreditavam sinceramente estar vendo uma parada.\n(monarquiaconstitucional.jusbrasil.com.br)\n— Como diabo é que eles fizeram isto, sem que ninguém desse pela coisa? refletia Paulo. [...]. Deodoro é uma bela figura. Dizem que a entrada do marechal no quartel, e a saída, puxando os batalhões, foram esplêndidas. Talvez fáceis demais; é que o regime estava podre e caiu por si…\n(Machado de Assis. Obra Completa, 1994.)\nAmbos os excertos partilham a ideia de que a Proclamação da República",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "causou espanto nos setores das elites da sociedade brasileira.",
+        "b": "resultou do enfraquecimento dos militares brasileiros.",
+        "c": "aconteceu sem a participação das camadas populares brasileiras.",
+        "d": "decorreu da fragilidade do regime imperial brasileiro.",
+        "e": "expressou a comunhão dos interesses econômicos brasileiros."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Brasil República: República Velha (oligarquias), Era Vargas (1930-1945), Período Democrático (1945-1964) e Ditadura Civil-Militar (1964-1985)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 31,
+      "tipo": "objetiva",
+      "enunciado": "Analise a tabela.\nPopulação urbana\nDécada 1940 1950 Aumento percentual\nGoiás 36131 90791 151,28%\nBrasil 8899202 13925769 56,48%\n(O Brasil em números. Apêndice do “Anuário Estatístico do Brasil – 1960”, IBGE. Adaptado.)\nOs dados da tabela são explicados, entre outros fatores,",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 9: Tabela com dados de população urbana em Goiás e no Brasil nas décadas de 1940 e 1950."
+      ],
+      "alternativas": {
+        "a": "pela criação da cidade de Brasília como capital do país.",
+        "b": "pela expansão da atividade extrativista da borracha.",
+        "c": "pelo aumento da industrialização pesada em Goiás.",
+        "d": "pelo esvaziamento das áreas litorâneas em direção ao centro do país.",
+        "e": "pela crise agropecuária no Planalto Central brasileiro."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Demografia: conceitos populacionais, transição demográfica, pirâmides etárias e fluxos migratórios"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 32,
+      "tipo": "objetiva",
+      "enunciado": "Analise a imagem de autoria de Rube Goldberg.\n(www.illustrationhistory.org. Adaptado.)\nPublicada originalmente em 1947, já no início da Guerra Fria, a imagem revela uma preocupação com a",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 9: Imagem de Rube Goldberg representando uma engrenagem destrutiva que relaciona 'Paz na atualidade', 'Bomba atômica', 'Controle mundial' e 'Destruição mundial'."
+      ],
+      "alternativas": {
+        "a": "insuficiência da divisão internacional em zonas de influência ideológicas.",
+        "b": "instabilidade da manutenção da segurança internacional.",
+        "c": "alienação das pessoas em relação aos problemas políticos do mundo.",
+        "d": "inviabilidade na organização de conferências internacionais de paz.",
+        "e": "pressão psicológica no mundo devido à fragilidade das armas nucleares."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Guerra Fria, corrida armamentista e descolonização da África e Ásia"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 33,
+      "tipo": "objetiva",
+      "enunciado": "“O Mercosul não deve ser considerado como um fardo, apesar das dificuldades, mas sim um espaço privilegiado para o Brasil conseguir implementar uma estratégia de desenvolvimento”, argumenta Roberto Menezes, professor de relações internacionais da Universidade de Brasília. “Um país não pode ficar preso à sua região, porém, nesse contexto, deve tratá-la com prioridade”.\n(Ana Flávia Castro. www.metropoles.com. 08.01.2023. Adaptado.)\nConsiderando o excerto, uma vantagem proporcionada pelo Mercosul para o desenvolvimento da economia brasileira consiste",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "no aumento dos custos envolvendo entrega e estoque de mercadorias.",
+        "b": "na burocratização dos processos de importação e exportação.",
+        "c": "na redução das tarifas alfandegárias na comercialização entre países-membros.",
+        "d": "na integração das políticas fiscais e trabalhistas entre os países-membros.",
+        "e": "na destinação das mercadorias concentrada em países que não integram o bloco."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Globalização, comércio internacional, blocos econômicos e a posição do Brasil no comércio global"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 34,
+      "tipo": "objetiva",
+      "enunciado": "Analise os mapas que retratam a taxa de crescimento do rebanho bovino nas microrregiões brasileiras em 1990 e 2015.\n(Adirson M. de Freitas Junior e Pedro Henrique B. de Barros. “A expansão da pecuária para a Amazônia legal: externalidades espaciais, acesso ao mercado de crédito e intensificação do sistema produtivo”. Nova Economia, janeiro de 2021.)\nOs mapas evidenciam que a área de maior expansão do rebanho bovino entre 1990 e 2015 na Amazônia Legal coincide com a região",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 10: Dois mapas do Brasil destacando a taxa de crescimento do rebanho bovino nas microrregiões nos anos de 1990 e 2015."
+      ],
+      "alternativas": {
+        "a": "dos maiores índices de industrialização.",
+        "b": "de produção de eucalipto.",
+        "c": "de produção de algodão.",
+        "d": "do arco do desmatamento.",
+        "e": "das reservas de carvão mineral."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Impactos ambientais: mudanças climáticas, efeito estufa, desmatamento, degradação de solos e conferências internacionais do clima",
+            "Espaço Rural: sistemas agrícolas, modernização do campo e estrutura agrária brasileira"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 35,
+      "tipo": "objetiva",
+      "enunciado": "Examine a imagem que retrata um dos movimentos realizados pelas placas tectônicas.\n(www.byjus.com. Adaptado.)\nUma das consequências desse movimento é a",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 11: Ilustração de placas tectônicas convergentes/subdução."
+      ],
+      "alternativas": {
+        "a": "formação de fossas tectônicas.",
+        "b": "ocorrência de abalos sísmicos.",
+        "c": "constituição de cadeias montanhosas.",
+        "d": "diminuição do intemperismo.",
+        "e": "expansão das dorsais oceânicas."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Estrutura geológica da Terra, tectonismo, vulcanismo e eras geológicas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 36,
+      "tipo": "objetiva",
+      "enunciado": "Sem árvores e com seu subsolo permanentemente congelado, essa monótona paisagem horizontal é o bioma mais frio que existe na Terra. Sua frágil vegetação, em geral musgos, com menos de 10 centímetros de altura e escassos caules anões lenhosos, raramente se conserva nas camadas de rocha. Isso explica a grande dificuldade em localizar musgos primitivos preservados em sedimentos glaciais.\n(Marcos Pivetta. www.revistapesquisa.fapesp.br, janeiro de 2004. Adaptado.)\nO excerto faz referência ao bioma",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "taiga.",
+        "b": "tundra.",
+        "c": "floresta tropical.",
+        "d": "floresta temperada.",
+        "e": "savana."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Domínios morfoclimáticos e biomas mundiais e brasileiros"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 37,
+      "tipo": "objetiva",
+      "enunciado": "Analise o esquema que demonstra o funcionamento de uma termoelétrica.\n(www.usinas.energiaeambiente.org.br)\nUm dos impactos ambientais causados pelo funcionamento das usinas termoelétricas é a",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 11: Esquema de funcionamento de uma usina termoelétrica."
+      ],
+      "alternativas": {
+        "a": "recorrência de acidentes nucleares.",
+        "b": "potencialização das queimadas.",
+        "c": "dependência da regularidade do vento.",
+        "d": "necessidade de intensa extração de silício.",
+        "e": "emissão de gases de efeito estufa."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Matrizes energéticas mundiais e do Brasil (fontes renováveis e não renováveis)",
+            "Impactos ambientais: mudanças climáticas, efeito estufa, desmatamento, degradação de solos e conferências internacionais do clima"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 38,
+      "tipo": "objetiva",
+      "enunciado": "Analise o fragmento de uma carta topográfica.\n(www.geoftp.ibge.gov.br)\nEsse tipo de representação cartográfica tem como objetivo",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 11: Fragmento de carta topográfica com curvas de nível e acidentes geográficos."
+      ],
+      "alternativas": {
+        "a": "estabelecer uma regionalização.",
+        "b": "apresentar diferenças altimétricas.",
+        "c": "indicar fluxos de dados.",
+        "d": "exibir pontos de contagem.",
+        "e": "apresentar limites e fronteiras."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Leitura e interpretação de mapas temáticos, cartas e anamorfoses"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 39,
+      "tipo": "objetiva",
+      "enunciado": "O propano, um dos componentes do gás liquefeito de petróleo (GLP), é um hidrocarboneto que nas condições ambiente apresenta-se como um gás incolor, inflamável e não tóxico. Esse gás é empregado como combustível para fogões e em motores de caminhões.\nAo sofrer combustão completa esse hidrocarboneto produz gás carbônico, água e libera calor, conforme a equação a seguir.\n1C₃H₈ (g) + xO₂ (g) -> yCO₂ (g) + 4H₂O (g) + calor\nOs valores dos coeficientes estequiométricos, x e y, para essa reação de combustão e a classificação desse hidrocarboneto são, respectivamente,",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "5, 2 e alcano.",
+        "b": "2, 3 e alceno.",
+        "c": "5, 4 e alcano.",
+        "d": "4, 5 e alceno.",
+        "e": "5, 3 e alcano."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Equações químicas e métodos de balanceamento",
+            "Principais funções orgânicas: hidrocarbonetos, álcoois, fenóis, éteres, ésteres, aldeídos, cetonas, ácidos carboxílicos, aminas e amidas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 40,
+      "tipo": "objetiva",
+      "enunciado": "A necessidade de ingestão diária de cálcio (M = 40 g/mol) por seres humanos varia de acordo com a idade. Indivíduos entre 19 e 50 anos precisam ingerir, em média, 1000 mg de cálcio por dia e esse valor aumenta na adolescência, durante a gestação e também para indivíduos na terceira idade.\nA quantidade média de cálcio que um indivíduo de 50 anos deve ingerir por dia é de",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "2,5 × 10⁻³ mol.",
+        "b": "4,0 × 10⁻² mol.",
+        "c": "2,5 × 10⁻² mol.",
+        "d": "2,5 × 10⁻¹ mol.",
+        "e": "4,0 × 10¹ mol."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Água e soluções aquosas: solubilidade, tipos de concentração (g/L, mol/L, ppm) e diluição",
+            "Cálculos estequiométricos: relações de massa, volume, mols e pureza/rendimento"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 41,
+      "tipo": "objetiva",
+      "enunciado": "Do ponto de vista meteorológico, a geada é um fenômeno caracterizado pela formação de uma camada fina de gelo em superfícies expostas, como o solo e plantas, quando a temperatura ambiente atinge 0 ºC ou menos. Nessa condição, o vapor d’água presente no ar, em contato com a superfície fria, muda de estado físico, depositando-se sobre ela e dando um aspecto esbranquiçado sobre a paisagem.\n(https://www.diariodecanoas.com.br)\nA mudança de estado físico descrita no excerto é denominada",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "vaporização.",
+        "b": "condensação.",
+        "c": "liquefação.",
+        "d": "ressublimação.",
+        "e": "fusão."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Estados físicos da matéria e diagramas de aquecimento/resfriamento"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 42,
+      "tipo": "objetiva",
+      "enunciado": "A figura ilustra a obtenção de três misturas preparadas em três tubos de ensaio identificados com os números 1, 2 e 3.\nConstitui um sistema homogêneo a mistura que foi preparada",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 12: Ilustração de 3 tubos de ensaio com diferentes solventes e solutos (1: 250 mL de água + 1 g de cloreto de sódio; 2: 250 mL de água + 250 mL de etanol; 3: 250 mL de água + 250 mL de óleo vegetal)."
+      ],
+      "alternativas": {
+        "a": "no tubo 1, apenas.",
+        "b": "no tubo 2, apenas.",
+        "c": "nos tubos 1 e 2.",
+        "d": "nos tubos 1 e 3.",
+        "e": "nos tubos 2 e 3."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Misturas homogêneas/heterogêneas e processos de separação",
+            "Água e soluções aquosas: solubilidade, tipos de concentração (g/L, mol/L, ppm) e diluição"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 43,
+      "tipo": "objetiva",
+      "enunciado": "O composto orgânico, cuja fórmula estrutural está representada, em seu estado puro, apresenta-se como um líquido incolor, corrosivo e malcheiroso. Esse composto é obtido naturalmente pela fermentação da polpa de madeira e pode ser encontrado em alguns queijos e temperos artificiais.\nConsiderando a fórmula estrutural apresentada, afirma-se que",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 13: Fórmula estrutural de um ácido carboxílico (ácido acético/etanoico ou similar com carbonila e hidroxila)."
+      ],
+      "alternativas": {
+        "a": "a molécula apresenta cadeia carbônica aberta e insaturada.",
+        "b": "a molécula possui seis átomos de hidrogênio.",
+        "c": "o composto orgânico representado é insolúvel em água.",
+        "d": "a estrutura apresenta o grupo funcional álcool.",
+        "e": "a molécula possui um carbono terciário."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Características do carbono, cadeias carbônicas, ligações e hibridização",
+            "Principais funções orgânicas: hidrocarbonetos, álcoois, fenóis, éteres, ésteres, aldeídos, cetonas, ácidos carboxílicos, aminas e amidas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 44,
+      "tipo": "objetiva",
+      "enunciado": "A determinação da idade de fósseis de seres vivos com até 40 000 anos pode ser feita a partir da avaliação da quantidade do isótopo carbono-14 presente nele. Sabe-se que o tempo de meia-vida do carbono-14 é de 5 730 anos e a idade é determinada pela comparação entre a quantidade de carbono-14 presente no fóssil e a quantidade de carbono-14 existente em um ser vivo semelhante ao fóssil.\n(https://pueblosoriginarios.com)\nConsidere o fóssil de um hominídeo, cuja idade, determinada pelo método do carbono-14, é de 22 920 anos. A porcentagem de carbono-14 presente nesse fóssil será de",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "6,25%.",
+        "b": "12,5%.",
+        "c": "25%.",
+        "d": "50%.",
+        "e": "75%."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Radioatividade: emissões nucleares, meia-vida, datação, fissão e fusão nuclear"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 45,
+      "tipo": "objetiva",
+      "enunciado": "O esquema ilustra determinado conceito X estudado na ecologia, responsável por caracterizar biologicamente, e de forma bastante abrangente, os seres vivos.\nO conceito X refere-se",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 13: Diagrama de Venn (esquema) relacionando 'Comportamento social', 'Disponibilidade de alimento', 'Reprodução' e 'Predação sofrida' em torno de um 'Conceito X'."
+      ],
+      "alternativas": {
+        "a": "à produtividade primária.",
+        "b": "à comunidade.",
+        "c": "ao hábitat.",
+        "d": "ao nicho ecológico.",
+        "e": "ao nível trófico."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Conceitos ecológicos fundamentais (habitat, nicho ecológico, população, comunidade e ecossistema)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 46,
+      "tipo": "objetiva",
+      "enunciado": "O efeito estufa, fenômeno natural que promove o aquecimento global e consequentemente as mudanças climáticas, está se intensificando no planeta, tendo em vista",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "o volume emitido de gases como o CO₂, CO e CH₄ ser cada vez maior, desde a revolução industrial.",
+        "b": "a combustão da gasolina e a fermentação do etanol contribuírem de forma similar para o tal efeito.",
+        "c": "a capacidade das florestas tropicais de capturarem os gases emitidos na combustão ser bastante reduzida.",
+        "d": "a destruição da camada de ozônio permitir maior absorção e refração de radiação infravermelha e ultravioleta.",
+        "e": "o aumento de abalos sísmicos provocarem liberação de magma superaquecido na superfície terrestre."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Impactos antrópicos: poluição, bioacumulação trófica, espécies exóticas, pegada ecológica e unidades de conservação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 47,
+      "tipo": "objetiva",
+      "enunciado": "Yanomamis concentraram quase 10% dos casos de malária em 2022 no Brasil. Dos 123 151 casos de malária registrados no Brasil no ano passado, 11 530 ocorreram no território Yanomami. Apesar do elevado volume de registros da doença, esse povo indígena é uma fatia muito pequena no Brasil: os Yanomamis são cerca de 0,013% da população do país.\n(https://br.notícias.yahoo.com, 26.01.2023. Adaptado.)\nA malária é uma doença",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "transmitida diretamente dos garimpeiros para os indígenas por via respiratória.",
+        "b": "causada por um protozoário flagelado que parasita essencialmente a população nativa.",
+        "c": "prevenida pelas campanhas nacionais de vacinação na Amazônia e no Cerrado.",
+        "d": "relacionada aos distúrbios gastrointestinais como disenterias, náuseas e vômitos.",
+        "e": "caracterizada pela presença de dois hospedeiros, o mosquito Anopheles e o ser humano."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Saúde e Parasitologia: bacterioses, protozooses (malária, Chagas, leishmaniose) e verminoses (teníase, esquistossomose, ascaridíase)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 48,
+      "tipo": "objetiva",
+      "enunciado": "A figura ilustra um hipotético organismo unicelular com organização procariota.\n(https://mundoeducacao.uol.com.br)\nCom relação às estruturas representadas na figura, afirma-se que",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 14: Ilustração de uma célula procariota com indicações de parede celular, membrana plasmática, nucleoide, plasmídeo e ribossomo."
+      ],
+      "alternativas": {
+        "a": "a parede celular é composta por celulose.",
+        "b": "a membrana plasmática é semipermeável.",
+        "c": "o nucleoide é envolto pela membrana nuclear.",
+        "d": "o plasmídeo é responsável pela produção de energia.",
+        "e": "o ribossomo é responsável pela digestão dos nutrientes."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Organização celular: diferenças entre procariontes e eucariontes (animal e vegetal)",
+            "Membrana plasmática e mecanismos de transporte (passivo, ativo, endocitose)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 49,
+      "tipo": "objetiva",
+      "enunciado": "O néfron é a unidade funcional de nossos rins responsável pelas três etapas da formação da urina.\n(https://edisciplinas.usp.br)\nDurante o processo de formação da urina em uma pessoa saudável, a região",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 14: Esquema anatômico detalhado de um néfron com cápsula renal, glomérulo, túbulos e alça néfrica."
+      ],
+      "alternativas": {
+        "a": "da cápsula renal e do glomérulo renal produz amônia.",
+        "b": "do tubo contorcido proximal degrada toxinas.",
+        "c": "da alça néfrica reabsorve água para o sistema circulatório.",
+        "d": "do tubo contorcido distal produz hormônios glicêmicos.",
+        "e": "do ducto coletor elimina o excesso de células sanguíneas."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Fisiologia dos sistemas humanos: digestório, cardiovascular, respiratório, excretor, nervoso, endócrino, locomotor e reprodutor"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 50,
+      "tipo": "objetiva",
+      "enunciado": "Simone e Murilo tiveram quatro filhos. A testagem do tipo sanguíneo referente ao sistema ABO revelou que os quatro filhos do casal apresentavam quatro fenótipos diferentes entre si.\nCom base apenas nessas informações, com relação ao sistema ABO de tipagem sanguínea, afirma-se que",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "Simone e Murilo apresentam genótipos homozigotos.",
+        "b": "os quatro filhos do casal apresentam genótipos homozigotos.",
+        "c": "os quatro filhos do casal apresentam genótipos heterozigotos.",
+        "d": "Simone e Murilo apresentam o mesmo genótipo.",
+        "e": "Simone e Murilo apresentam genótipos heterozigotos."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Alelos múltiplos, herança de grupos sanguíneos (sistemas ABO e Rh / eritroblastose fetal)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 51,
+      "tipo": "objetiva",
+      "enunciado": "O atleta ugandense Andrew Rotich Kwemoi foi o vencedor da Corrida Internacional de São Silvestre de 2022. Durante a corrida, ele percorreu as ruas da cidade de São Paulo com a velocidade média de 20 km/h e, portanto, percorreu cada quilômetro, em média, em um intervalo de tempo igual a",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "1,0 min.",
+        "b": "2,0 min.",
+        "c": "3,0 min.",
+        "d": "5,0 min.",
+        "e": "6,0 min."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Cinemática escalar: velocidade e aceleração escalar média e instantânea",
+            "Movimento Uniforme (MU) e Movimento Uniformemente Variado (MUV)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 52,
+      "tipo": "objetiva",
+      "enunciado": "As figuras mostram dois sistemas de polias, S₁ e S₂, os quais são combinações de polias fixas, em azul, com polias móveis, em vermelho. Cada polia móvel divide por dois a força necessária para sustentar a carga, e a polia fixa apenas modifica o sentido e a direção da força aplicada na corda, tornando mais cômoda a tarefa de mover a carga.\nNas situações representadas nas figuras, as forças F₁ e F₂ necessárias para manter suspensas e em repouso as cargas de peso P nos sistemas S₁ e S₂ têm intensidades, respectivamente, iguais a",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 15: Ilustração de dois sistemas de polias S1 e S2 sustentando blocos com peso P."
+      ],
+      "alternativas": {
+        "a": "P/2 e P/4",
+        "b": "P/2 e P/6",
+        "c": "P/4 e P/6",
+        "d": "P/4 e P/8",
+        "e": "P/6 e P/8"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "As 3 Leis de Newton e conceito de força resultante",
+            "Aplicações das Leis de Newton (planos inclinados, máquinas de Atwood com polias)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 53,
+      "tipo": "objetiva",
+      "enunciado": "A dilatação linear ΔL de uma barra metálica é diretamente proporcional ao seu comprimento inicial, ao coeficiente de dilatação térmica linear do material de que é feita e à variação de temperatura a que é submetida. Considere que o coeficiente de dilatação térmica linear do alumínio é igual a 2,4 × 10⁻⁵ ºC⁻¹. A dilatação linear ΔL sofrida por uma barra de alumínio de comprimento inicial igual a 40 cm, ao ser submetida a uma variação de temperatura de 50 ºC, é de",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "4,8 × 10⁻² cm.",
+        "b": "2,4 × 10⁻² cm.",
+        "c": "9,6 × 10⁻³ cm.",
+        "d": "9,6 × 10⁻⁴ cm.",
+        "e": "4,8 × 10⁻⁴ cm."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Dilatação térmica de sólidos (linear, superficial, volumétrica) e líquidos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 54,
+      "tipo": "objetiva",
+      "enunciado": "Em um salão de beleza, uma cliente vê, por meio do espelho plano à sua frente, o desenho do logotipo do salão pintado na parede às suas costas.\nA imagem do desenho vista pela cliente",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "tem dimensões maiores do que a do desenho na parede.",
+        "b": "tem as mesmas dimensões do desenho na parede.",
+        "c": "tem dimensões que dependem da distância entre a cliente e o espelho.",
+        "d": "está a uma distância do espelho igual à distância da cliente ao espelho.",
+        "e": "está a uma distância do espelho menor do que a distância da cliente ao espelho."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Reflexão da luz: espelhos planos e espelhos esféricos (construção gráfica e estudo analítico)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 55,
+      "tipo": "objetiva",
+      "enunciado": "A figura mostra cinco posições, equidistantes entre si, na trajetória de um pêndulo simples que oscila entre as posições V e Z.\nA massa do pêndulo foi solta, a partir do repouso, da posição V e no instante t₀ = 0 s, e retornou a essa mesma posição, pela primeira vez, no instante t₁ = 1,2 s. Considerando a ausência de forças dissipativas, no instante t₂ = 1,8 s, a massa estava na posição",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 16: Ilustração de um pêndulo simples oscilando entre as posições V, W, X, Y e Z."
+      ],
+      "alternativas": {
+        "a": "V.",
+        "b": "W.",
+        "c": "X.",
+        "d": "Y.",
+        "e": "Z."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Movimento Harmônico Simples (MHS) e pêndulo simples"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 56,
+      "tipo": "objetiva",
+      "enunciado": "Analise o gráfico que mostra a variação da intensidade da corrente elétrica I que atravessa um resistor R em função da diferença de potencial U aplicada entre os terminais desse resistor.\nSabe-se que a resistência elétrica de um resistor é definida como a razão entre a diferença de potencial existente entre seus terminais e a intensidade da corrente elétrica que o atravessa. Da análise do gráfico conclui-se que a resistência elétrica do resistor R",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 16: Gráfico cartesiano de Corrente I (A) versus Tensão U (V) para um resistor R."
+      ],
+      "alternativas": {
+        "a": "é constante e vale 0,20 Ω.",
+        "b": "é constante e vale 5,0 Ω.",
+        "c": "aumenta com o aumento da diferença de potencial e vale 0,20 Ω quando U = 20 V.",
+        "d": "aumenta com o aumento da diferença de potencial e vale 5,0 Ω quando U = 20 V.",
+        "e": "diminui com o aumento da diferença de potencial e vale 0,20 Ω quando U = 20 V."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Eletrodinâmica: corrente elétrica, ddp, Leis de Ohm, resistividade e potência elétrica (kWh)",
+            "Interpretação de gráficos físicos (área sob a curva e inclinação da reta)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 57,
+      "tipo": "redacao",
+      "enunciado": "Com base nos textos apresentados e em seus próprios conhecimentos, escreva um texto dissertativo-argumentativo, empregando a norma-padrão da língua portuguesa, sobre o tema:\n\nESCOLA INCLUSIVA:\nENTRE UM CONVÍVIO ENRIQUECEDOR E OS DESAFIOS NA APRENDIZAGEM",
+      "textos_de_apoio": [
+        "TEXTO 1\nA inclusão obrigatória de crianças com necessidades específicas — autistas, surdas, superdotadas etc. — em salas de aula regulares pode ter o efeito inverso e ser uma forma de exclusão em alguns casos, alertam especialistas e pais. “O direito de todos estarem juntos não é maior que o direito individual ao desenvolvimento”, apontou o Ministério da Educação (MEC), em 2020.\nRecentemente, as intenções apresentadas para tratar todas as crianças da mesma forma são positivas: eliminar preconceitos, fomentar a convivência com outras crianças, evitar que sejam privadas de conteúdos de aprendizagem. O problema é que a mera “boa vontade” de colocar todos na mesma sala de aula, sem ajuda personalizada e especializada, não é suficiente para atingir essas metas, podendo até prejudicar as crianças em muitos casos.\nUm estudo realizado nos Estados Unidos apresentou, como consequências dessa política, o atraso do progresso na aprendizagem e a desmotivação dos alunos com deficiência, por não conseguirem acompanhar as aulas e não terem acompanhamento personalizado. Do mesmo modo, os alunos sem deficiência que estudam em classes inclusivas tiveram seu desempenho afetado, apresentando baixo resultado acadêmico e comportamental. Além disso, o artigo revelou que os professores de salas inclusivas passam mais tempo no gerenciamento da sala de aula e menos tempo na instrução e ensino. No Brasil, a maior parte dos docentes não está preparada para atender a demanda desses alunos. O atendimento a crianças com necessidades específicas é reduzido e precário em muitos lugares.\n(Gabriele Bonat. www.gazetadopovo.com.br, 07.01.2023. Adaptado.)",
+        "TEXTO 2\n(Charge de Ricardo Ferraz mostrando uma sala de aula e personagens diante de um dilema pedagógico e inclusivo).\n(Ricardo Ferraz. www.comolidarcomalunosespecias.blogspot.com, 12.03.2023.)",
+        "TEXTO 3\nA inclusão de crianças e adolescentes com deficiência física ou cognitiva, autismo e altas habilidades em escolas comuns ganhou fôlego nas últimas décadas. Em alguns lugares do Brasil, grande parte dos estudantes que frequentavam escolas especializadas passou a frequentar salas de aula comuns, como resultado de uma compreensão de que o convívio entre estudantes com diferentes características é enriquecedor para todos. Além de ser uma representação da vida em sociedade, o aprendizado fica mais interessante por haver uma interlocução maior entre as crianças. Embora sejam necessárias adequações para receber esses alunos, não são as crianças que precisam mudar, mas os espaços e materiais pedagógicos.\nPara a oficial de Educação do Fundo das Nações Unidas para a Infância (UNICEF), Erondina Barbosa da Silva, ainda há o predomínio do capacitismo, que considera incapazes pessoas com deficiência: “a gente vive em uma sociedade em que há muitas diferenças e conviver com elas dentro das escolas é benéfico para todos. Quando há estudantes com deficiência em sala de aula, percebemos que esses se beneficiam, mas os outros se beneficiam muito mais, porque aprendem o sentido de cuidar, de respeitar a diferença, de respeitar o tempo e a capacidade de cada um”, analisa. Para ela, “o desafio é desnaturalizar uma lógica excludente”. De acordo Adriana Scott Amaral Restelatto, diretora da Escola Municipal de Ensino Fundamental (EMEF) Catulo da Paixão Cearense, “a gente consegue mostrar para sociedade que é possível essa convivência, refinando o nosso trato, o olhar para o outro, sendo mais tolerante e aprendendo que é na diferença que conseguimos estruturar melhores possibilidades de convivência. O diferencial não está apenas na acessibilidade, mas no olhar focado em acolher as crianças e ensinar a todas elas que é normal ser diferente”.\n(https://gauchazh.clicrbs.com.br, 13.01.2023. Adaptado.)"
+      ],
+      "midia": [
+        "Página 18: Charge de Ricardo Ferraz com o texto 'A prova é amanhã! Veja bem... Ouça... Olhe...'."
+      ],
+      "alternativas": null,
+      "gabarito": null,
+      "areas": [
+        {
+          "area": "Redação",
+          "assuntos": [
+            "Gênero dissertativo-argumentativo: impessoalidade (3ª pessoa) e defesa de ponto de vista claro",
+            "Eixo Temático 3: Cidadania, saúde pública, educação e desigualdades no Brasil"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    }
+  ]
+}

@@ -1,0 +1,2500 @@
+{
+  "exame": "fuvest_2022_questoes",
+  "ano": 2022,
+  "semestre": null,
+  "fonte_questoes": "data/fuvest_2022_questoes.pdf",
+  "fonte_gabarito": "data/fuvest_2022_gabarito.pdf",
+  "total_questoes": 90,
+  "questoes": [
+    {
+      "numero": 1,
+      "tipo": "objetiva",
+      "enunciado": "A deficiência na enzima G6PD é uma condição recessiva ligada ao cromossomo X, que pode ser diagnosticada no teste do pezinho expandido. Pessoas com deficiência nesta enzima são suscetíveis à anemia hemolítica ao serem expostas à cloroquina ou primaquina, drogas amplamente prescritas por médicos no tratamento da malária. No Brasil, a prevalência de deficiência em G6PD na população geral varia de acordo com as áreas mostradas no mapa:\n\nIndique a afirmação correta sobre a segurança da prescrição de cloroquina nesse contexto.",
+      "textos_de_apoio": [
+        "Dombrowski, J G et al. (2017), Malar J, 16:253, doi:10.1186/s12936-017-1889-6 e Monteiro, W M et al. (2014), Mem Inst Oswaldo Cruz, 109:5, 553-568, doi:10.1590/0074-0276140123. Adaptados.",
+        "Note e adote:\nPopulação de três regiões brasileiras: Norte = 18 milhões; Nordeste = 58 milhões; Centro-Oeste = 17 milhões."
+      ],
+      "midia": [
+        "Página 2: Mapa do Brasil indicando a prevalência da deficiência de G6PD em três faixas (1%, 3%, 5%) divididas por regiões."
+      ],
+      "alternativas": {
+        "a": "Não é necessário fazer o teste do pezinho expandido em filhos de casais da região Nordeste do Brasil que apresentem deficiência da G6PD, já que menos de 3% dos testes serão positivos.",
+        "b": "Aproximadamente 8,5 milhões de pessoas da região Centro-Oeste do Brasil têm somente um alelo recessivo para a deficiência em G6PD, sendo assintomáticas.",
+        "c": "Cerca de 900 mil pessoas da região Norte do Brasil podem desenvolver anemia hemolítica devido ao tratamento com cloroquina, sendo a maioria do sexo masculino.",
+        "d": "Descendentes de casais que não apresentam deficiência em G6PD têm mais de 25% de chance de possuírem o alelo recessivo e podem ser tratados com cloroquina em áreas onde a malária não seja endêmica.",
+        "e": "Os pacientes do sexo masculino devem ser investigados quanto à presença de anemia hemolítica na família paterna caso vivam em regiões onde a malária é endêmica."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Ligação gênica (linkage) e herança ligada ao sexo",
+            "Heredogramas e probabilidades genéticas",
+            "Saúde e Parasitologia: bacterioses, protozooses (malária, Chagas, leishmaniose) e verminoses (teníase, esquistossomose, ascaridíase)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 2,
+      "tipo": "objetiva",
+      "enunciado": "De acordo com o texto,",
+      "textos_de_apoio": [
+        "Por mais bem informado que você possa ser, não dá para baixar a guarda. Mas por que as notícias falsas – mesmo aquelas mais improváveis – parecem tão convincentes para tantas pessoas? Van Bavel, professor de psicologia e ciência neural da Universidade de Nova York, se especializou em entender como as crenças políticas e identidades de grupo influenciam a mente, e descobriu que a identificação com posições políticas pode interferir em como o cérebro processa as informações.\nTendemos a rejeitar fatos que ameaçam nosso senso de identidade e sempre buscar informações que confirmem nossas próprias crenças, seja por meio de memórias seletivas, leituras de fontes que estão do nosso lado ou mesmo interpretando os fatos de determinada maneira. Isso tudo está relacionado a não querermos ter nossas ideias, gostos, identidade questionados, e por isso temos dificuldade em aceitar o que contradiz aquilo em que acreditamos.\nAna Prado. “A ciência explica por que caímos em fake news”. Superinteressante. 15/06/2018. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "as pessoas bem informadas estão protegidas de polêmicas, uma vez que o modo como processam os fatos tornam suas opiniões mais convincentes.",
+        "b": "o posicionamento político garante a disseminação de notícias verdadeiras e resulta de crenças já estabelecidas socialmente.",
+        "c": "a rejeição a questionamentos impede que se admitam pontos de vista antagônicos, em razão da tendência de se confirmar crenças pessoais.",
+        "d": "as memórias seletivas auxiliam na rejeição de fatos contrários à realidade, já que conduzem à interpretação das reportagens de modo imparcial.",
+        "e": "os fatos hostis normalmente são preteridos por grande parte da sociedade, embora sejam utilizados como identificador cultural."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação",
+            "Mecanismos de coesão textual (lexical, referencial, anafórica) e coerência"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 3,
+      "tipo": "objetiva",
+      "enunciado": "Nas histórias em quadrinhos, o Pantera Negra ganha habilidades físicas e mentais sobre-humanas ao ingerir ou aplicar sobre seu corpo uma solução da erva em formato de coração, cujos efeitos perduram durante a vida do herói, mas não são transmitidos aos descendentes. Essa planta cresce em Wakanda, região da África equatorial oriental, onde um meteorito contendo um metal chamado Vibranium caiu há 10 mil anos e provocou mutações na planta. Uma explicação coerente com o conhecimento científico para o que ocorreu nessa situação ficcional é que a erva",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "sofreu mutações em células somáticas pela ação do Vibranium na época em que o meteorito atingiu Wakanda.",
+        "b": "promoveu mutações no RNA das células do Pantera Negra.",
+        "c": "provocou mutações dominantes relacionadas aos superpoderes nas células germinativas do Pantera Negra.",
+        "d": "é uma planta característica de ambientes de tundra.",
+        "e": "estava em estação de floração quando o meteorito caiu, causando mutações em suas células germinativas."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Mutações gênicas e cromossômicas",
+            "Teorias evolutivas: fixismo, lamarckismo, darwinismo e teoria sintética da evolução (neodarwinismo)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 4,
+      "tipo": "objetiva",
+      "enunciado": "Considerando a ironia da tirinha, é possível inferir que",
+      "textos_de_apoio": [
+        "Disponível em http://www.malvados.com.br/."
+      ],
+      "midia": [
+        "Página 3: Tirinha mostrando personagens expressando insatisfação com as condições de transporte público e corrupção."
+      ],
+      "alternativas": {
+        "a": "o serviço de transporte público é gerido pelo Estado.",
+        "b": "a qualidade do transporte é uma forma de punição.",
+        "c": "os responsáveis pelo transporte são punidos no Brasil.",
+        "d": "o brasileiro é um povo que tolera a criminalidade.",
+        "e": "o transporte público é responsável pela mobilidade urbana."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação",
+            "Intertextualidade, interdiscursividade e análise de textos verbais e não verbais (charges, cartuns)"
+          ]
+        },
+        {
+          "area": "Filosofia e Sociologia",
+          "assuntos": [
+            "Indivíduo e sociedade: instituições sociais, socialização e construção de identidades"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 5,
+      "tipo": "objetiva",
+      "enunciado": "O gráfico mostra dados coletados na cidade do Rio de Janeiro, entre fevereiro e abril de 2020, período que inclui o início das medidas de restrição de circulação na cidade por causa da pandemia de COVID-19. Para cada dia, representado por um símbolo no gráfico, foram coletadas duas grandezas: uma média da energia de vibração sísmica durante o dia (na abscissa) e o índice F (na ordenada), que é a fração de pessoas que saiu de casa alguma vez naquele dia. A energia sísmica média foi medida em (nm/s)² na faixa de frequências que tem causas humanas. Os triângulos representam domingos e feriados; os quadrados referem-se aos sábados; e os círculos correspondem aos dias úteis da semana. Para cada um desses subconjuntos de dados, uma reta média foi obtida, expressando a relação aproximada entre as duas grandezas medidas.\n\nSobre o estudo descrito, o que é possível inferir a partir dos dados apresentados?",
+      "textos_de_apoio": [
+        "Dias, F L et al. (2020), Geophysical Research Letters, 47:16, doi:10.1029/2020GL088748. Adaptado."
+      ],
+      "midia": [
+        "Página 3: Gráfico de dispersão relacionando a energia sísmica e a fração de pessoas que saíram de casa."
+      ],
+      "alternativas": {
+        "a": "Em nenhum sábado, a energia sísmica média registrada superou 380 (nm/s)².",
+        "b": "Em todos os dias úteis da semana, pelo menos 20% das pessoas permaneceram o tempo todo em casa.",
+        "c": "Em alguns dos dias de domingo ou feriado, a energia sísmica média foi maior do que 600 (nm/s)².",
+        "d": "Em dias úteis da semana, a energia sísmica média foi maior ou igual do que em sábados, domingos e feriados, para o mesmo número de pessoas que saiu de casa em um dia.",
+        "e": "Aos sábados, uma medição de energia sísmica média de 190 (nm/s)² indica que mais de 60% das pessoas saíram de casa nesse dia."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Interpretação de gráficos (barras, setores, histogramas, box-plot, ramos e folhas)"
+          ]
+        },
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Geografia Urbana: industrialização, urbanização, metropolização, conurbação, megalópoles e segregação socioespacial"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 6,
+      "tipo": "objetiva",
+      "enunciado": "Os mapas mostram uma parte do município de São Paulo. O mapa I refere-se à população vacinada contra Sars-Cov-2; o mapa II refere-se à taxa de mortalidade por COVID-19; e o mapa III refere-se ao Índice de Desenvolvimento Humano. Tons mais claros indicam valores menores e tons mais escuros, valores maiores.\n\nA partir desses dados, é correto afirmar que",
+      "textos_de_apoio": [
+        "Disponível em https://www.labcidade.fau.usp.br/. Maio/2021. Adaptado."
+      ],
+      "midia": [
+        "Página 3: Três mapas temáticos do município de São Paulo mostrando vacinação, mortalidade e IDH."
+      ],
+      "alternativas": {
+        "a": "a efetividade da campanha de vacinação coincide com as áreas de maior IDH.",
+        "b": "a virulência das variantes de Sars-Cov-2 é menor em áreas de menor IDH.",
+        "c": "as vacinas em áreas de menor IDH demandam maior tempo para a resposta imunológica do indivíduo.",
+        "d": "a taxa de mortalidade varia porque a população no centro do município é maior e mais agregada.",
+        "e": "a prevalência das variantes de Sars-Cov-2 é maior em áreas de maior IDH."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Leitura e interpretação de mapas temáticos, cartas e anamorfoses",
+            "Geografia Urbana: industrialização, urbanização, metropolização, conurbação, megalópoles e segregação socioespacial"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 7,
+      "tipo": "objetiva",
+      "enunciado": "Um aumento no consumo de água e produtos agrícolas por parte da população brasileira geralmente vem atrelado a um aumento na pressão exercida sobre o meio ambiente. Selecione a alternativa que apresenta duas soluções sustentáveis, de amplo alcance nacional e economicamente viáveis, para diminuir a expansão dos cultivos sobre a vegetação nativa e para garantir recursos hídricos de qualidade para as gerações futuras.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "I - Aumento da exportação de produtos agropecuários.\nII - Criação em larga escala de represas de pequeno porte.",
+        "b": "I - Aumento progressivo da produtividade dos cultivos já existentes.\nII - Programa amplo de preservação de matas ciliares.",
+        "c": "I - Diminuição do comércio interno de produtos agrícolas.\nII - Aumento da utilização dos aquíferos para abastecimento dos cultivos.",
+        "d": "I - Aumento da exportação de produtos agropecuários.\nII - Programa amplo de preservação de matas ciliares.",
+        "e": "I - Diminuição do comércio interno de produtos agrícolas.\nII - Criação em larga escala de represas de pequeno porte."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Espaço Rural: sistemas agrícolas, modernização do campo e estrutura agrária brasileira",
+            "Impactos ambientais: mudanças climáticas, efeito estufa, desmatamento, degradação de solos e conferências internacionais do clima"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 8,
+      "tipo": "objetiva",
+      "enunciado": "Os gráficos mostram três trajetórias distintas com relação ao número de espécies animais e vegetais, após desmatamento de áreas da floresta Amazônica:\n\nApós os desmatamentos, os gráficos I, II e III correspondem, respectivamente, a uma área que foi",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 4: Três gráficos de número de espécies em função do tempo após desmatamento (I, II, III)."
+      ],
+      "alternativas": {
+        "a": "usada para pastagem e depois para cultivo de soja; usada para cultivo de soja nos primeiros 20 anos e depois abandonada; abandonada logo após o desmatamento.",
+        "b": "abandonada logo após o desmatamento; usada como pastagem nos primeiros 20 anos e depois abandonada; usada para pastagem e depois para cultivo de soja.",
+        "c": "usada como pastagem nos primeiros 20 anos e depois abandonada; abandonada logo após o desmatamento; usada para pastagem e depois para cultivo de soja.",
+        "d": "usada como pastagem nos primeiros 20 anos e depois abandonada; usada para pastagem e depois para cultivo de soja; abandonada logo após o desmatamento.",
+        "e": "usada para pastagem e depois para cultivo de soja; abandonada logo após o desmatamento; usada para cultivo de soja nos primeiros 20 anos e depois abandonada."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Sucessão ecológica",
+            "Impactos antrópicos: poluição, bioacumulação trófica, espécies exóticas, pegada ecológica e unidades de conservação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 9,
+      "tipo": "objetiva",
+      "enunciado": "O gráfico representa o volume celular de um protozoário ciliado em um gradiente de salinidade:\n\nA partir desses dados, é correto afirmar que o protozoário ciliado é",
+      "textos_de_apoio": [
+        "Note e adote:\nO volume celular do ciliado em seu habitat natural é o referencial 1.\n0% corresponde a água doce pura."
+      ],
+      "midia": [
+        "Página 4: Gráfico do volume relativo da célula de um protozoário ciliado em função da concentração de água do mar no meio."
+      ],
+      "alternativas": {
+        "a": "de água salobra e seu equilíbrio osmótico ocorre por difusão passiva em ambientes hiposmóticos.",
+        "b": "de água doce e possui mecanismos de controle osmótico em ambientes hiperosmóticos.",
+        "c": "marinho e possui mecanismos de controle osmótico em ambientes hiperosmóticos.",
+        "d": "de água doce e não possui mecanismos de controle osmótico em ambientes hiposmóticos.",
+        "e": "marinho e não possui mecanismos de controle osmótico em ambientes hiposmóticos."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Membrana plasmática e mecanismos de transporte (passivo, ativo, endocitose)",
+            "Reinos Monera, Protista e Fungi: características e importância ecológica/econômica"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 10,
+      "tipo": "objetiva",
+      "enunciado": "O gráfico mostra linhas de tendência de cinco parâmetros da água (eixo y), medidos por pesquisadores, durante os estágios iniciais do processo de eutrofização de uma lagoa, a partir do momento em que começou a haver aporte de esgoto não tratado e antes de haver a estabilização do sistema. Entretanto, os técnicos da companhia de saneamento notaram que nem todas as tendências mostradas no gráfico estão corretas.\n\nSão corretas apenas as linhas de tendência representadas em",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 5: Gráfico com linhas de tendência de parâmetros da água (densidade de algas, compostos nitrogenados, número de espécies, O2, decompositores) durante eutrofização."
+      ],
+      "alternativas": {
+        "a": "1, 2 e 3.",
+        "b": "1, 2 e 4.",
+        "c": "2, 3 e 5.",
+        "d": "2, 4 e 5.",
+        "e": "3, 4 e 5."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Impactos antrópicos: poluição, bioacumulação trófica, espécies exóticas, pegada ecológica e unidades de conservação"
+          ]
+        },
+        {
+          "area": "Química",
+          "assuntos": [
+            "Química Ambiental: parâmetros de qualidade ambiental, poluição de ar/água/solo e ciclos biogeoquímicos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 11,
+      "tipo": "objetiva",
+      "enunciado": "O gráfico representa a proporção de células em diferentes fases do ciclo celular de dois tecidos humanos (1 e 2), bem como o efeito do tratamento do tecido 2 com uma substância que afeta a divisão celular:\n\nOs tecidos 1 e 2 e uma aplicação médica do efeito do tratamento são, respectivamente:",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 5: Gráfico de barras horizontais mostrando a porcentagem de células em interfase, prófase, metáfase, anáfase e telófase para tecido 1, tecido 2 e tecido 2 tratado."
+      ],
+      "alternativas": {
+        "a": "muscular, tumoral e quimioterapia.",
+        "b": "ósseo, ovariano e fertilização in vitro.",
+        "c": "nervoso, tumoral e transplante.",
+        "d": "epitelial, ósseo e transfusão sanguínea.",
+        "e": "tumoral, nervoso e radioterapia."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Núcleo celular, ciclo celular e divisões celulares (Mitose e Meiose)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 12,
+      "tipo": "objetiva",
+      "enunciado": "Analise o esquema e as estruturas (X, Y e Z) da planta para completar a frase a seguir.\n\nÀs 14h de um dia ensolarado, em condições hídricas ótimas, a estrutura identificada por _I_ encontra-se _II_, possibilitando a absorção de água do solo e entrada de CO2, que é utilizado pela estrutura representada por _III_ para realização da fotossíntese.\n\nAs lacunas I, II e III podem ser preenchidas corretamente por:",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 5: Esquema indicando estruturas de uma planta (folha, raiz, estômato, cloroplasto)."
+      ],
+      "alternativas": {
+        "a": "Z | aberta | Y",
+        "b": "Z | fechada | X",
+        "c": "Y | vazia | X",
+        "d": "X | cheia | Z",
+        "e": "X | vazia | Y"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Anatomia e fisiologia vegetal: tecidos, condução de seivas, transpiração e fitormônios/tropismos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 13,
+      "tipo": "objetiva",
+      "enunciado": "O esquema a seguir representa o aparecimento de bactérias mutantes em uma colônia e o resultado de sua exposição a quatro diferentes condições de cultura:\n\nAssinale a alternativa com a relação correta entre as mutações e as condições de cultura.",
+      "textos_de_apoio": [
+        "Disponível em https://edepot.wur.nl/376546/. Adaptado."
+      ],
+      "midia": [
+        "Página 5: Esquema ilustrando colônias bacterianas, mutações X e Y e quatro condições de cultura."
+      ],
+      "alternativas": {
+        "a": "A mutação X inativa os transportadores de glicose, e a condição I tem esse açúcar como fonte exclusiva de carbono.",
+        "b": "A mutação X promove melhor eficiência do equilíbrio osmótico, e a condição III tem alta salinidade.",
+        "c": "A mutação Y confere resistência ao antibiótico penicilina, e o meio de cultura da condição II contém esse antibiótico.",
+        "d": "As mutações X e Y conferem vantagem adaptativa às bactérias na condição IV.",
+        "e": "A frequência de novas mutações será maior na condição IV."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Mutações gênicas e cromossômicas",
+            "Teorias evolutivas: fixismo, lamarckismo, darwinismo e teoria sintética da evolução (neodarwinismo)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 14,
+      "tipo": "objetiva",
+      "enunciado": "O quadrinho a seguir mostra uma paródia entre situações cotidianas e descobertas científicas.\n\nQuais feitos científicos de Mendeleev, de Watson e Crick e de Thomson estão relacionados com o quadrinho?",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 6: Charge humorística fazendo analogia entre jantares/doces e Mendeleev, Watson e Crick e Thomson."
+      ],
+      "alternativas": {
+        "a": "Proposição de um modelo atômico, descoberta da estrutura dos polímeros, descoberta da radioatividade.",
+        "b": "Organização dos elementos químicos em uma Tabela Periódica, descoberta da estrutura do DNA, proposição de um modelo atômico.",
+        "c": "Compreensão da reatividade dos elementos químicos, representação simbólica dos elementos, descoberta das interações moleculares.",
+        "d": "Definição de entalpia, representação simbólica dos elementos, caracterização e propriedades dos coloides.",
+        "e": "Balanceamento de equações químicas, descoberta da pilha, organização dos elementos químicos em uma Tabela Periódica."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Evolução dos modelos atômicos (Dalton, Thomson, Rutherford, Bohr)",
+            "Tabela Periódica: organização, famílias, períodos e propriedades periódicas"
+          ]
+        },
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Estrutura molecular do DNA e RNA, transcrição gênica e síntese proteica (código genético)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 15,
+      "tipo": "objetiva",
+      "enunciado": "Qual sentença, se tomada como verdadeira, reforça a posição exprimida pelo filósofo no trecho?",
+      "textos_de_apoio": [
+        "No texto do filósofo francês Maurice Merleau-Ponty é estabelecida uma conexão entre as relações sociais e a racionalidade dos indivíduos:\nA sociedade humana não é uma comunidade de espíritos racionais, só se pode compreendê-la assim nos países favorecidos, em que o equilíbrio vital e econômico foi obtido localmente e por certo tempo.\nMaurice Merleau-Ponty, Fenomenologia da percepção, p.89."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "A racionalidade é uma potência espiritual que se impõe sobre as circunstâncias históricas.",
+        "b": "O equilíbrio vital e econômico é uma força irracional que se contrapõe aos espíritos racionais.",
+        "c": "Nos países favorecidos, as pessoas são naturalmente mais racionais.",
+        "d": "A racionalidade das relações sociais depende da estabilidade de circunstâncias históricas.",
+        "e": "Os espíritos racionais são responsáveis pelo equilíbrio vital e econômico dos países favorecidos."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Filosofia e Sociologia",
+          "assuntos": [
+            "Indivíduo e sociedade: instituições sociais, socialização e construção de identidades"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 16,
+      "tipo": "objetiva",
+      "enunciado": "A figura sintetiza, de forma simplificada, a variação da pressão sanguínea (mmHg), da velocidade de circulação sanguínea (cm/s) e da área total (cm²) em relação aos diversos tipos de vasos do sistema sanguíneo humano (artérias, arteríolas, capilares, vênulas e veias):\n\nCom base na figura, é correto afirmar que",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 6: Gráfico mostrando pressão sanguínea, velocidade e área total em artérias, arteríolas, capilares, vênulas e veias."
+      ],
+      "alternativas": {
+        "a": "a velocidade aumenta nas vênulas, o que permite às hemoglobinas descarregarem o O2.",
+        "b": "a pressão sanguínea cai nos capilares, vênulas e veias pela presença de válvulas nesses vasos.",
+        "c": "a pressão diminui a partir dos capilares, o que evita acidentes vasculares em vasos menores.",
+        "d": "a área aumenta na região dos capilares, o que permite maior eficiência nas trocas gasosas.",
+        "e": "a velocidade é inversamente proporcional à área por conta do batimento sistólico do coração."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Fisiologia dos sistemas humanos: digestório, cardiovascular, respiratório, excretor, nervoso, endócrino, locomotor e reprodutor"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 17,
+      "tipo": "objetiva",
+      "enunciado": "Sem alteração de sentido, o segundo parágrafo do texto poderia ser reescrito da seguinte maneira:",
+      "textos_de_apoio": [
+        "TEXTO PARA AS QUESTÕES 17 E 18\nNo modelo hegemônico, quase todo o treinamento é reservado para o desenvolvimento muscular, sobrando muito pouco tempo para a mobilidade, a flexibilidade, o treino restaurativo, o relaxamento e o treinamento cardiovascular. Na teoria, seria algo em torno de 70% para o fortalecimento, 20% para o cárdio e 10% para a flexibilidade e outros. Na prática, muitos alunos direcionam 100% do tempo para o fortalecimento.\nComo a prática cardiovascular é infinitamente mais significativa e determinante para a nossa saúde orgânica como um todo, podendo ser considerada o “coração” de um treinamento consciente e saudável, essa ordem deveria ser revista.\nNuno Cobra Jr. “Fitness não é saúde”. Uol. 06/05/2021. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "Ainda que a prática cardiovascular seja infinitamente mais significativa e determinante para a nossa saúde orgânica como um todo, essa ordem deveria ser revista, podendo ser considerada o “coração” de um treinamento consciente e saudável.",
+        "b": "Para evitar que a prática cardiovascular se torne infinitamente mais significativa e determinante para a nossa saúde orgânica como um todo, podendo ser considerada o “coração” de um treinamento consciente e saudável, essa ordem deveria ser revista.",
+        "c": "Quando a prática cardiovascular for infinitamente mais significativa e determinante para a nossa saúde orgânica como um todo, essa ordem deveria ser revista, podendo ser considerada o “coração” de um treinamento consciente e saudável.",
+        "d": "Quanto mais a prática cardiovascular é infinitamente mais significativa e determinante para a nossa saúde orgânica como um todo, podendo ser considerada o “coração” de um treinamento consciente e saudável, essa ordem deveria ser revista.",
+        "e": "Essa ordem deveria ser revista: a prática cardiovascular é infinitamente mais significativa e determinante para a nossa saúde orgânica como um todo, podendo ser considerada o “coração” de um treinamento consciente e saudável."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Mecanismos de coesão textual (lexical, referencial, anafórica) e coerência",
+            "Sintaxe do período composto (coordenação e subordinação)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 18,
+      "tipo": "objetiva",
+      "enunciado": "Dentre as expressões destacadas, a que exerce a mesma função sintática do termo sublinhado em “o treino restaurativo, o relaxamento e o treinamento cardiovascular” é:",
+      "textos_de_apoio": [
+        "TEXTO PARA AS QUESTÕES 17 E 18\nNo modelo hegemônico, quase todo o treinamento é reservado para o desenvolvimento muscular, sobrando muito pouco tempo para a mobilidade, a flexibilidade, o treino restaurativo, o relaxamento e o treinamento cardiovascular. Na teoria, seria algo em torno de 70% para o fortalecimento, 20% para o cárdio e 10% para a flexibilidade e outros. Na prática, muitos alunos direcionam 100% do tempo para o fortalecimento.\nComo a prática cardiovascular é infinitamente mais significativa e determinante para a nossa saúde orgânica como um todo, podendo ser considerada o “coração” de um treinamento consciente e saudável, essa ordem deveria ser revista.\nNuno Cobra Jr. “Fitness não é saúde”. Uol. 06/05/2021. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "um atleta de seleção precisa de treinamento intenso.",
+        "b": "o amor ao esporte é fundamental para o atleta.",
+        "c": "a população incorpora radicalmente atitudes saudáveis.",
+        "d": "muitas pessoas se beneficiam de alimentos verdes.",
+        "e": "todo tipo de atividade física faz bem à saúde mental."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Sintaxe do período simples (termos essenciais, integrantes e acessórios da oração)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 19,
+      "tipo": "objetiva",
+      "enunciado": "Por narrativas paralelas entende-se um procedimento literário segundo o qual dois ou mais fios narrativos pertencentes a níveis distintos de realidade se desenrolam intercaladamente formando um todo. Considerando-se a sua estrutura, as duas narrativas que podem ser identificadas com base nessa definição são:",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "Quincas Borba e Nove noites",
+        "b": "Campo geral e Terra sonâmbula",
+        "c": "Angústia e Campo geral",
+        "d": "Nove noites e Terra sonâmbula",
+        "e": "Quincas Borba e Angústia"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Literatura Brasileira: Quinhentismo, Barroco (Gregório de Matos), Arcadismo, Romantismo, Realismo/Naturalismo (Machado de Assis), Parnasianismo e Simbolismo",
+            "Modernismo Brasileiro: 1ª Fase (1922), 2ª Fase (Geração de 30 - romance regionalista e poesia de 30) e 3ª Fase (Geração de 45/Pós-Modernismo)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 20,
+      "tipo": "objetiva",
+      "enunciado": "A visão do eu-lírico no texto I",
+      "textos_de_apoio": [
+        "LEIA OS SEGUINTES TEXTOS DE MACHADO DE ASSIS PARA RESPONDER ÀS QUESTÕES DE 20 A 22:\nI.\nSuave mari magno*\nLembra-me que, em certo dia,\nNa rua, ao sol de verão,\nEnvenenado morria\nUm pobre cão.\nArfava, espumava e ria,\nDe um riso espúrio e bufão,\nVentre e pernas sacudia\nNa convulsão.\nNenhum, nenhum curioso\nPassava, sem se deter,\nSilencioso,\nJunto ao cão que ia morrer,\nComo se lhe desse gozo\nVer padecer.\nMachado de Assis. Ocidentais.\n*Expressão latina, retirada de Lucrécio (Da natureza das coisas), a qual aparece no seguinte trecho: Suave, mari magno, turbantibus aequora ventis/ E terra magnum alterius spectare laborem. (“É agradável, enquanto no mar revoltoso os ventos levantam as águas, observar da terra os grandes esforços de um outro.”).\nII.\nTão certo é que a paisagem depende do ponto de vista, e que o melhor modo de apreciar o chicote é ter-lhe o cabo na mão.\nMachado de Assis. Quincas Borba, cap. XVIII.\nIII.\nSofia soltou um grito de horror e acordou. Tinha ao pé do leito o marido:\n– Que foi? perguntou ele.\n– Ah! respirou Sofia. Gritei, não gritei?\n(...)\n– Sonhei que estavam matando você.\nPalha ficou enternecido. Havê-la feito padecer por ele, ainda que em sonhos, encheu-o de piedade, mas de uma piedade gostosa, um sentimento particular, íntimo, profundo, – que o faria desejar outros pesadelos, para que o assassinassem aos olhos dela, e para que ela gritasse angustiada, convulsa, cheia de dor e de pavor.\nMachado de Assis. Quincas Borba, cap. CLXI."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "volta-se nostálgica para as imagens de uma lembrança.",
+        "b": "centra-se com desprezo na figura do animal agonizante.",
+        "c": "apreende displicentemente o movimento dos transeuntes.",
+        "d": "ganha distância da cena para captar todos os seus aspectos.",
+        "e": "apresenta o espectador da crueldade como um ser incomum."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Literatura Brasileira: Quinhentismo, Barroco (Gregório de Matos), Arcadismo, Romantismo, Realismo/Naturalismo (Machado de Assis), Parnasianismo e Simbolismo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 21,
+      "tipo": "objetiva",
+      "enunciado": "A analogia consiste em um recurso de expressão comumente utilizado para ilustrar um raciocínio por meio da semelhança que se observa entre dois fatos ou ideias. No texto II, a analogia construída a partir da imagem do chicote pretende sugerir que",
+      "textos_de_apoio": [
+        "LEIA OS SEGUINTES TEXTOS DE MACHADO DE ASSIS PARA RESPONDER ÀS QUESTÕES DE 20 A 22:\nI.\nSuave mari magno*\nLembra-me que, em certo dia,\nNa rua, ao sol de verão,\nEnvenenado morria\nUm pobre cão.\nArfava, espumava e ria,\nDe um riso espúrio e bufão,\nVentre e pernas sacudia\nNa convulsão.\nNenhum, nenhum curioso\nPassava, sem se deter,\nSilencioso,\nJunto ao cão que ia morrer,\nComo se lhe desse gozo\nVer padecer.\nMachado de Assis. Ocidentais.\n*Expressão latina, retirada de Lucrécio (Da natureza das coisas), a qual aparece no seguinte trecho: Suave, mari magno, turbantibus aequora ventis/ E terra magnum alterius spectare laborem. (“É agradável, enquanto no mar revoltoso os ventos levantam as águas, observar da terra os grandes esforços de um outro.”).\nII.\nTão certo é que a paisagem depende do ponto de vista, e que o melhor modo de apreciar o chicote é ter-lhe o cabo na mão.\nMachado de Assis. Quincas Borba, cap. XVIII.\nIII.\nSofia soltou um grito de horror e acordou. Tinha ao pé do leito o marido:\n– Que foi? perguntou ele.\n– Ah! respirou Sofia. Gritei, não gritei?\n(...)\n– Sonhei que estavam matando você.\nPalha ficou enternecido. Havê-la feito padecer por ele, ainda que em sonhos, encheu-o de piedade, mas de uma piedade gostosa, um sentimento particular, íntimo, profundo, – que o faria desejar outros pesadelos, para que o assassinassem aos olhos dela, e para que ela gritasse angustiada, convulsa, cheia de dor e de pavor.\nMachado de Assis. Quincas Borba, cap. CLXI."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "o instrumento do castigo nem sempre cai em mãos justas.",
+        "b": "o apreço aos objetos independe do uso que se faz deles.",
+        "c": "o cabo é metáfora de mérito, e a ponta, metáfora de culpa.",
+        "d": "o mais fraco, por ser compassivo, é incapaz de desfrutar do poder.",
+        "e": "o prazer verdadeiro se experimenta no lado dos dominantes."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Literatura Brasileira: Quinhentismo, Barroco (Gregório de Matos), Arcadismo, Romantismo, Realismo/Naturalismo (Machado de Assis), Parnasianismo e Simbolismo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 22,
+      "tipo": "objetiva",
+      "enunciado": "No texto III, ao analisar a interioridade de Palha, o narrador descobre, no pensamento oculto do negociante,",
+      "textos_de_apoio": [
+        "LEIA OS SEGUINTES TEXTOS DE MACHADO DE ASSIS PARA RESPONDER ÀS QUESTÕES DE 20 A 22:\nI.\nSuave mari magno*\nLembra-me que, em certo dia,\nNa rua, ao sol de verão,\nEnvenenado morria\nUm pobre cão.\nArfava, espumava e ria,\nDe um riso espúrio e bufão,\nVentre e pernas sacudia\nNa convulsão.\nNenhum, nenhum curioso\nPassava, sem se deter,\nSilencioso,\nJunto ao cão que ia morrer,\nComo se lhe desse gozo\nVer padecer.\nMachado de Assis. Ocidentais.\n*Expressão latina, retirada de Lucrécio (Da natureza das coisas), a qual aparece no seguinte trecho: Suave, mari magno, turbantibus aequora ventis/ E terra magnum alterius spectare laborem. (“É agradável, enquanto no mar revoltoso os ventos levantam as águas, observar da terra os grandes esforços de um outro.”).\nII.\nTão certo é que a paisagem depende do ponto de vista, e que o melhor modo de apreciar o chicote é ter-lhe o cabo na mão.\nMachado de Assis. Quincas Borba, cap. XVIII.\nIII.\nSofia soltou um grito de horror e acordou. Tinha ao pé do leito o marido:\n– Que foi? perguntou ele.\n– Ah! respirou Sofia. Gritei, não gritei?\n(...)\n– Sonhei que estavam matando você.\nPalha ficou enternecido. Havê-la feito padecer por ele, ainda que em sonhos, encheu-o de piedade, mas de uma piedade gostosa, um sentimento particular, íntimo, profundo, – que o faria desejar outros pesadelos, para que o assassinassem aos olhos dela, e para que ela gritasse angustiada, convulsa, cheia de dor e de pavor.\nMachado de Assis. Quincas Borba, cap. CLXI."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "a ternura que lhe inspira a mulher, capaz de toda abnegação.",
+        "b": "a piedade que lhe causa a mulher, a quem só guarda desprezo.",
+        "c": "a vaidade que beira o sadismo, ao ver a mulher sofrer por ele.",
+        "d": "o gozo vingativo, visto que a mulher o trai com Carlos Maria.",
+        "e": "o remorso do infiel, pois ele trai a mulher com Maria Benedita."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Literatura Brasileira: Quinhentismo, Barroco (Gregório de Matos), Arcadismo, Romantismo, Realismo/Naturalismo (Machado de Assis), Parnasianismo e Simbolismo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 23,
+      "tipo": "objetiva",
+      "enunciado": "No soneto, o eu lírico:",
+      "textos_de_apoio": [
+        "Largo em sentir, em respirar sucinto,\nPeno, e calo, tão fino, e tão atento,\nQue fazendo disfarce do tormento\nMostro que o não padeço, e sei que o sinto.\nO mal, que fora encubro, ou que desminto,\nDentro no coração é que o sustento:\nCom que, para penar é sentimento,\nPara não se entender, é labirinto.\n\nNinguém sufoca a voz nos seus retiros;\nDa tempestade é o estrondo efeito:\nLá tem ecos a terra, o mar suspiros.\n\nMas oh do meu segredo alto conceito!\nPois não me chegam a vir à boca os tiros\nDos combates que vão dentro no peito.\nGregório de Matos e Guerra"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "expressa um conflito que confirma a imagem pública do poeta, conhecido pelo epíteto de “o Boca do Inferno”.",
+        "b": "opta por sufocar a própria voz como estratégia apaziguadora de suas perturbações de foro íntimo.",
+        "c": "explora a censura que o autor sofreu em sua época, ao ser impedido de dar expressão aos seus sentimentos.",
+        "d": "estabelece, nos tercetos, um contraponto semântico entre as metáforas da natureza e da guerra.",
+        "e": "revela-se como um ser atormentado, ao mesmo tempo que omite a natureza de seu sofrimento."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Literatura Brasileira: Quinhentismo, Barroco (Gregório de Matos), Arcadismo, Romantismo, Realismo/Naturalismo (Machado de Assis), Parnasianismo e Simbolismo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 24,
+      "tipo": "objetiva",
+      "enunciado": "A primeira parte de Mensagem, organizada como um correlativo poético do Brasão das Armas de Portugal, perfila uma série de figuras míticas e históricas que teriam sido responsáveis pela formação nacional portuguesa. A seleção de Nun´Álvares Pereira para ocupar o lugar da Coroa",
+      "textos_de_apoio": [
+        "Nun´Álvares Pereira\nQue auréola te cerca?\nÉ a espada que, volteando,\nFaz que o ar alto perca\nSeu azul negro e brando.\n\nMas que espada é que, erguida,\nFaz esse halo no céu?\nÉ Excalibur, a ungida,\nQue o Rei Artur te deu.\n\n´Sperança consumada,\nS. Portugal em ser,\nErgue a luz da tua espada\nPara a estrada se ver!\nFernando Pessoa. In: “A Coroa”, Parte I, Mensagem."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "sugere, pela imagem do halo de luz, que a verdadeira nobreza é de espírito.",
+        "b": "destaca, através da referência ao mito arturiano, o seu sangue bretão.",
+        "c": "distingue, por meio do substantivo “´sperança”, um regente digno de seu posto.",
+        "d": "enaltece, pela repetição da palavra espada, a guerra como estrada para o futuro.",
+        "e": "indica, associada ao adjetivo “consumada”, uma visão desenganada da história."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Literatura Portuguesa: Trovadorismo, Humanismo, Classicismo (Camões), Realismo (Eça de Queirós) e Modernismo (Fernando Pessoa)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 25,
+      "tipo": "objetiva",
+      "enunciado": "De acordo com o texto, os eventos sequenciais aos quais alude a expressão “efeito cascata” são:",
+      "textos_de_apoio": [
+        "TEXTO PARA AS QUESTÕES 25 E 26\nA taxação de livros tem um efeito cascata que acaba custando caro não apenas ao leitor, como também ao mercado editorial – que há anos não anda bem das pernas – e, em última instância, ao desenvolvimento econômico do país. A gente explica. Taxar um produto significa, quase sempre, um aumento no valor do produto final. Isso porque ao menos uma parte desse imposto será repassada ao consumidor, especialmente se considerarmos que as editoras e livrarias enfrentam há anos uma crise que agora está intensificada pela pandemia e não poderiam retirar o valor desse imposto de seu já apertado lucro. Livros mais caros também resultam em queda de vendas, que, por sua vez, enfraquece ainda mais editoras e as impede de investir em novas publicações – especialmente aquelas de menor apelo comercial, mas igualmente importantes para a pluralidade de ideias. Já deu para perceber a confusão, não é? Mas, além disso, qual seria o custo de uma sociedade com menos leitores e menos livros?\nTaís Ilhéu. “Por que taxar os livros pode gerar retrocesso social e econômico no país”. Guia do Estudante. Setembro/2020. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "livros mais caros, decréscimo de vendas, estímulo às editoras, supressão de investimento em novas publicações.",
+        "b": "aumento do valor do produto final, queda de vendas, encolhimento das editoras, aumento do investimento em novas obras.",
+        "c": "livros mais caros, instabilidade nas vendas, enfraquecimento das editoras, expansão das publicações.",
+        "d": "aumento do valor do produto final, contração nas vendas, esgotamento das editoras, falta de investimento em novas publicações.",
+        "e": "livros mais caros, equilíbrio nas vendas, diminuição das editoras, carência de investimento em novas publicações."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação",
+            "Mecanismos de coesão textual (lexical, referencial, anafórica) e coerência"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 26,
+      "tipo": "objetiva",
+      "enunciado": "No texto, os pronomes em negrito referem-se, respectivamente, a:",
+      "textos_de_apoio": [
+        "TEXTO PARA AS QUESTÕES 25 E 26\nA taxação de livros tem um efeito cascata que acaba custando caro não apenas ao leitor, como também ao mercado editorial – que há anos não anda bem das pernas – e, em última instância, ao desenvolvimento econômico do país. A gente explica. Taxar um produto significa, quase sempre, um aumento no valor do produto final. Isso porque ao menos uma parte desse imposto será repassada ao consumidor, especialmente se considerarmos que as editoras e livrarias enfrentam há anos uma crise que agora está intensificada pela pandemia e não poderiam retirar o valor desse imposto de seu já apertado lucro. Livros mais caros também resultam em queda de vendas, que, por sua vez, enfraquece ainda mais editoras e as impede de investir em novas publicações – especialmente aquelas de menor apelo comercial, mas igualmente importantes para a pluralidade de ideias. Já deu para perceber a confusão, não é? Mas, além disso, qual seria o custo de uma sociedade com menos leitores e menos livros?\nTaís Ilhéu. “Por que taxar os livros pode gerar retrocesso social e econômico no país”. Guia do Estudante. Setembro/2020. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "taxação de livros, mercado editorial, crise, queda de vendas.",
+        "b": "taxação de livros, leitor, crise, queda de vendas.",
+        "c": "efeito cascata, mercado editorial, crise, queda de vendas.",
+        "d": "efeito cascata, mercado editorial, livrarias, livros.",
+        "e": "efeito cascata, leitor, crise, livros."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Mecanismos de coesão textual (lexical, referencial, anafórica) e coerência"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 27,
+      "tipo": "objetiva",
+      "enunciado": "O conceito de resistência, expresso pela tensão do indivíduo perante o mundo, adquire perspectiva crítica na escrita do romance quando o autor",
+      "textos_de_apoio": [
+        "Chega um momento em que a tensão eu/mundo se exprime mediante uma perspectiva crítica, imanente à escrita, o que torna o romance não mais uma variante literária da rotina social, mas o seu avesso; logo, o oposto do discurso ideológico do homem médio. O romancista “imitaria” a vida, sim, mas qual vida? Aquela cujo sentido dramático escapa a homens e mulheres entorpecidos ou automatizados por seus hábitos cotidianos. A vida como objeto de busca e construção, e não a vida como encadeamento de tempos vazios e inertes. Caso essa pobre vida-morte deva ser tematizada, ela aparecerá como tal, degradada, sem a aura positiva com que as palavras “realismo” e “realidade” são usadas nos discursos que fazem a apologia conformista da “vida como ela é”... A escrita da resistência, a narrativa atravessada pela tensão crítica, mostra, sem retórica nem alarde ideológico, que essa “vida como ela é” é, quase sempre, o ramerrão de um mecanismo alienante, precisamente o contrário da vida plena e digna de ser vivida.\nÉ nesse sentido que se pode dizer que a narrativa descobre a vida verdadeira, e que esta abraça e transcende a vida real. A literatura, com ser ficção, resiste à mentira. É nesse horizonte que o espaço da literatura, considerado em geral como lugar da fantasia, pode ser o lugar da verdade mais exigente.\nAlfredo Bosi. “Narrativa e resistência”. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "rompe a superfície enganosa da realidade.",
+        "b": "forja um realismo rente à vida mesquinha.",
+        "c": "é neutro ao figurar a vacuidade do presente.",
+        "d": "conserva o discurso positivo da ordem.",
+        "e": "consegue sobrepor a fantasia à verdade."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação",
+            "Tipologias textuais (narração, descrição, dissertação) e gêneros textuais variados"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 28,
+      "tipo": "objetiva",
+      "enunciado": "A escrita poderia servir de definição da nossa civilização, uma vez que",
+      "textos_de_apoio": [
+        "TEXTO PARA AS QUESTÕES 28 E 29\nA escrita faz de tal modo parte de nossa civilização que poderia servir de definição dela própria. A história da humanidade se divide em duas imensas eras: antes e a partir da escrita. Talvez venha o dia de uma terceira era — depois da escrita. Vivemos os séculos da civilização escrita. Todas as nossas sociedades baseiam-se no escrito. A lei escrita substitui a lei oral, o contrato escrito substitui a convenção verbal, a religião escrita se seguiu à tradição lendária. E sobretudo não existe história que não se funde sobre textos.\nCharles Higounet. A história da escrita. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "a terceira era está prestes a acontecer.",
+        "b": "o escrito respalda as atividades humanas.",
+        "c": "as convenções verbais substituíram o escrito.",
+        "d": "a oralidade deixou de ser usada em períodos remotos.",
+        "e": "os textos pararam de se modificar a partir da escrita."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação",
+            "Mecanismos de coesão textual (lexical, referencial, anafórica) e coerência"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 29,
+      "tipo": "objetiva",
+      "enunciado": "A locução conjuntiva “de tal modo…que” e o advérbio “sobretudo”, respectivamente, expressam noção de:",
+      "textos_de_apoio": [
+        "TEXTO PARA AS QUESTÕES 28 E 29\nA escrita faz de tal modo parte de nossa civilização que poderia servir de definição dela própria. A história da humanidade se divide em duas imensas eras: antes e a partir da escrita. Talvez venha o dia de uma terceira era — depois da escrita. Vivemos os séculos da civilização escrita. Todas as nossas sociedades baseiam-se no escrito. A lei escrita substitui a lei oral, o contrato escrito substitui a convenção verbal, a religião escrita se seguiu à tradição lendária. E sobretudo não existe história que não se funde sobre textos.\nCharles Higounet. A história da escrita. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "conformidade e dúvida.",
+        "b": "consequência e realce.",
+        "c": "condição e negação.",
+        "d": "consequência e negação.",
+        "e": "condição e realce."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Sintaxe do período composto (coordenação e subordinação)",
+            "Classes gramaticais: substantivo, adjetivo, artigo, numeral, pronome, verbo, advérbio, preposição, conjunção e interjeição"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 30,
+      "tipo": "objetiva",
+      "enunciado": "Atualmente, no Brasil, coexistem dois sistemas de placas de identificação de automóveis: o padrão Mercosul (o mais recente) e aquele que se iniciou em 1990 (o sistema anterior, usado ainda pela maioria dos carros em circulação). No sistema anterior, utilizavam-se 3 letras (em um alfabeto de 26 letras) seguidas de 4 algarismos (de 0 a 9). No padrão Mercosul adotado no Brasil para automóveis, são usadas 4 letras e 3 algarismos, com 3 letras nas primeiras 3 posições e a quarta letra na quinta posição, podendo haver repetições de letras ou de números. A figura ilustra os dois tipos de placas.\n\nDessa forma, o número de placas possíveis do padrão Mercosul brasileiro de automóveis é maior do que o do sistema anterior em",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 9: Ilustração comparativa entre as placas do padrão Mercosul e do sistema anterior."
+      ],
+      "alternativas": {
+        "a": "1,5 vezes.",
+        "b": "2 vezes.",
+        "c": "2,6 vezes.",
+        "d": "2,8 vezes.",
+        "e": "3 vezes."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Princípios multiplicativo e aditivo da contagem"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 31,
+      "tipo": "objetiva",
+      "enunciado": "O sistema de numeração conhecido como chinês científico (ou em barras) surgiu provavelmente há mais de dois milênios. O sistema é essencialmente posicional, de base 10, com o primeiro algarismo à direita representando a unidade. A primeira linha horizontal de símbolos da figura mostra como se representam os algarismos 1, 2, 3, 4, 5, 6, 7, 8 e 9 quando aparecem em posições ímpares (unidades, centenas etc.), e a segunda linha quando tais algarismos aparecem em posições pares (dezenas, milhares etc.). Nesse sistema, passou-se a usar um círculo para representar o algarismo zero a partir da Dinastia Sung (960-1126).\n\nHoward Eves, Introdução à História da Matemática. Tradução: Hygino H. Domingues. Editora Unicamp, 2011 (5ª ed.).\n\nAssinale a alternativa que representa o número 91625 nesse sistema de numeração.",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 10: Tabela com símbolos do sistema de numeração chinês em barras para os algarismos de 1 a 9 em posições ímpares e pares."
+      ],
+      "alternativas": {
+        "a": "...",
+        "b": "...",
+        "c": "...",
+        "d": "...",
+        "e": "..."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Sistemas de contagem: base decimal, binária e sexagesimal"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 32,
+      "tipo": "objetiva",
+      "enunciado": "Um vídeo tem três minutos de duração. Se o vídeo for reproduzido, desde o seu início, com velocidade de 1,5 vezes a velocidade original, o tempo de reprodução do vídeo inteiro será de",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "1min30s.",
+        "b": "1min50s.",
+        "c": "2min00s.",
+        "d": "2min30s.",
+        "e": "2min50s."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Razões e proporções diretas e inversas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 33,
+      "tipo": "objetiva",
+      "enunciado": "Uma indústria produz três modelos de cadeiras (indicadas por M₁, M₂ e M₃), cada um deles em duas opções de cores: preta e vermelha (indicadas por P e V, respectivamente). A tabela mostra o número de cadeiras produzidas semanalmente conforme a cor e o modelo:\n\nAs porcentagens de cadeiras com defeito são de 2% do modelo M₁, 5% do modelo M₂ e 8% do modelo M₃. As cadeiras que não apresentam defeito são denominadas boas.\n\nA tabela que indica o número de cadeiras produzidas semanalmente com defeito (D) e boas (B), de acordo com a cor, é:",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 10: Tabelas de produção de cadeiras por modelo e cor, e alternativas com tabelas de defeituosas e boas."
+      ],
+      "alternativas": {
+        "a": "...",
+        "b": "...",
+        "c": "...",
+        "d": "...",
+        "e": "..."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Matemática Financeira: porcentagem, juros simples, juros compostos, taxas e índices",
+            "Operações fundamentais com números inteiros e decimais"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 34,
+      "tipo": "objetiva",
+      "enunciado": "Os funcionários de um salão de beleza compraram um presente no valor de R$ 200,00 para a recepcionista do estabelecimento. No momento da divisão igualitária do valor, dois deles desistiram de participar e, por causa disso, cada pessoa que ficou no grupo precisou pagar R$ 5,00 a mais que a quantia originalmente prevista. O valor pago por pessoa que permaneceu na divisão do custo do presente foi:",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "R$ 10,00",
+        "b": "R$ 15,00",
+        "c": "R$ 20,00",
+        "d": "R$ 25,00",
+        "e": "R$ 40,00"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Equações e inequações lineares, quadráticas, exponenciais, logarítmicas e modulares"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 35,
+      "tipo": "objetiva",
+      "enunciado": "Uma empresa construiu um poço para armazenar água de reúso. O custo para construir o primeiro metro foi de R$ 1.000,00, e cada novo metro custou R$ 200,00 a mais do que o imediatamente anterior. Se o custo total da construção foi de R$ 48.600,00, a profundidade do poço é:",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "15 m",
+        "b": "18 m",
+        "c": "21 m",
+        "d": "24 m",
+        "e": "27 m"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Progressão Aritmética (PA) - termo geral e soma dos termos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 36,
+      "tipo": "objetiva",
+      "enunciado": "Um deltaedro é um poliedro cujas faces são todas triângulos equiláteros. Se um deltaedro convexo possui 8 vértices, então o número de faces desse deltaedro é:",
+      "textos_de_apoio": [
+        "Note e adote:\nEm poliedros convexos, vale a relação de Euler F − A + V = 2, em que F é o número de faces, A é o número de arestas e V é o número de vértices do poliedro."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "4",
+        "b": "6",
+        "c": "8",
+        "d": "10",
+        "e": "12"
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Geometria Espacial: vistas ortogonais e planificação",
+            "Poliedros, corpos redondos, prismas, pirâmides e troncos (área e volume)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 37,
+      "tipo": "objetiva",
+      "enunciado": "A figura mostra um quadrado e um círculo, ambos com centro no ponto O. O quadrado tem lado medindo 1 unidade de medida (u.m.) e o círculo tem raio igual a 2 u.m. O ponto A está sobre o contorno do quadrado, o ponto B está sobre o contorno do círculo, e o segmento AB tem tamanho 2 u.m.\n\nQuando o ângulo θ = AÔB for máximo, seu cosseno será:",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 11: Figura mostrando um quadrado, um círculo concêntrico em O e pontos A e B."
+      ],
+      "alternativas": {
+        "a": "1/8",
+        "b": "1/4",
+        "c": "1/2",
+        "d": "√2/2",
+        "e": "√3/2"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Teorema dos Senos e Teorema dos Cossenos (triângulos quaisquer e obtusângulos)",
+            "Trigonometria no triângulo retângulo (seno, cosseno e tangente)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 38,
+      "tipo": "objetiva",
+      "enunciado": "Suponha que o polinômio p(x) = x³ + mx − 2, em que m é um número real, tenha uma raiz real dupla a e uma raiz real simples b. O valor da soma de m com a é:",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "0",
+        "b": "–1",
+        "c": "−2",
+        "d": "−3",
+        "e": "−4"
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Produtos notáveis e fatoração algébrica básica"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 39,
+      "tipo": "objetiva",
+      "enunciado": "Quatro tanques cilíndricos são vistos de cima (em planta baixa) conforme a figura. Todos têm 10 m de raio e seus centros se posicionam em vértices dos dois quadrados tracejados adjacentes, ambos com 30 m de lado. Uma fita de isolamento, esticada e paralela ao solo, envolve os 4 tanques, dando uma volta completa (linha em laranja na figura).\n\nO comprimento da fita, em metros, é:",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 11: Planta baixa de quatro tanques cilíndricos com fita de isolamento ao redor."
+      ],
+      "alternativas": {
+        "a": "20π + 30(3 + √2)",
+        "b": "20π + 30(4 + √2)",
+        "c": "25π + 15(4 + √2)",
+        "d": "25π + 30(4 + √2)",
+        "e": "25π + 30(4 + 2√2)"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Cálculo de áreas (polígonos, círculos, coroas e setores circulares)",
+            "Geometria Plana: ponto, reta, plano, segmentos e ângulos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 40,
+      "tipo": "objetiva",
+      "enunciado": "Em fevereiro de 2021, um grupo de físicos da Universidade Federal de Minas Gerais (UFMG) publicou um artigo que foi capa da importante revista Nature. O texto a seguir foi retirado de uma reportagem do site da UFMG sobre o artigo:\n\nO nanoscópio, prossegue Ado Jorio (professor da UFMG), ilumina a amostra com um microscópio óptico usual. O foco da luz tem o tamanho de um círculo de 1 micrômetro de diâmetro. “O que o nanoscópio faz é inserir uma nanoantena, que tem uma ponta com diâmetro de 10 nanômetros, dentro desse foco de 1 micrômetro e escanear essa ponta. A imagem com resolução nanométrica é formada por esse processo de escaneamento da nanoantena, que localiza o campo eletromagnético da luz em seu ápice”, afirma o professor.\n\nItamar Rigueira Jr. “Nanoscópio da UFMG possibilita compreender estrutura que torna grafeno supercondutor”. Adaptado. Disponível em https://ufmg.br/comunicacao/noticias/.\nGadelha A C et al. (2021), Nature, 590, 405-409, doi: 10.1038/s41586-021-03252-5.\n\nCom base nos dados mencionados no texto, a razão entre o diâmetro do foco da luz de um microscópio óptico usual e o diâmetro da ponta da nanoantena utilizada no nanoscópio é da ordem de:",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "0,0001",
+        "b": "0,01",
+        "c": "1",
+        "d": "100",
+        "e": "10000"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Grandezas fundamentais e derivadas, Sistema Internacional de Unidades (SI) e análise dimensional"
+          ]
+        },
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Notação científica, algarismos significativos e noção de erro"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 41,
+      "tipo": "objetiva",
+      "enunciado": "A quantidade de bactérias em um líquido é diretamente proporcional à medida da turbidez desse líquido. O gráfico mostra, em escala logarítmica, o crescimento da turbidez x de um líquido ao longo do tempo t (medido em minutos), isto é, mostra log₁₀ x em função de t. Os dados foram coletados de 30 em 30 minutos, e uma curva de interpolação foi obtida para inferir valores intermediários.\n\nDisponível em https://fankhauserblog.wordpress.com/.\n\nCom base no gráfico, em quantas vezes a população de bactérias aumentou, do instante t₀ para o instante t₁?",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 12: Gráfico em escala logarítmica (log₁₀ x) em função do tempo t."
+      ],
+      "alternativas": {
+        "a": "2",
+        "b": "4",
+        "c": "5",
+        "d": "10",
+        "e": "100"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Teoria dos logaritmos, propriedades e função logarítmica"
+          ]
+        },
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Domínios Archaea, Bacteria e Eukarya"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 42,
+      "tipo": "objetiva",
+      "enunciado": "O texto informa que, na opinião do jornalista Tim Adams, os fatbergs",
+      "textos_de_apoio": [
+        "TEXTO PARA AS QUESTÕES DE 42 A 44\nFatbergs are a growing scourge infesting cities around the world—some are more than 800 feet long and weigh more than four humpback whales. These gross globs, which can cause sewer systems to block up and even overflow, have been plaguing the U.S., Great Britain and Australia for the past decade, forcing governments and utilities companies to send workers down into the sewers armed with water hoses, vacuums and scrapers with the unenviable task of prying them loose.\n\"It is hard not to think of [fatbergs] as a tangible symbol of the way we live now, the ultimate product of our disposable, out of sight, out of mind culture,\" wrote journalist Tim Adams in The Guardian.\nAt their core, fatbergs are the accumulation of oil and grease that's been poured down the drain, congealing around flushed nonbiological waste like tampons, condoms and baby wipes. When fat sticks to the side of sewage pipes, the wipes and other detritus get stuck, accumulating layer upon layer of gunk in a sort of slimy snowball effect.\nFatbergs also collect other kinds of debris—London fatbergs have been cracked open to reveal pens, false teeth and even watches.\nRestaurants are a big contributor to fatbergs: Thames Water, the London utilities company, found nine out of 10 fast-food eateries lacked adequate grease traps to stop fat from entering the sewers. Homeowners also contribute to the problem by pouring grease and fat down the sink.\nEven though its component materials are soft, fatbergs themselves can be tough as rocks. Researchers have found a host of dangerous bacteria in fatbergs, including listeria and e.coli.\nFatbergs are notorious for their fetid smell, which can make even the hardiest sewer workers gag, and chipping away at one can release noxious gases.\nThe key to fatberg prevention is remembering the four Ps: Pee, poo, puke and (toilet) paper are the only things that should be flushed.\nNewsweek, 14 March, 2019. Adaptado."
+      ],
+      "midia": [
+        "Página 12: Imagem ilustrativa com o texto 'BEWARE THE FATBERG'."
+      ],
+      "alternativas": {
+        "a": "integram a paisagem londrina, causando impacto em razão de suas dimensões.",
+        "b": "constituem representação real dos hábitos humanos atuais.",
+        "c": "simbolizam aspectos culturais submetidos a análises racionais.",
+        "d": "desafiam o repertório tecnológico da engenharia de águas.",
+        "e": "demonstram incentivo para que moradores consolidem seus costumes."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 43,
+      "tipo": "objetiva",
+      "enunciado": "De acordo com o texto, o processo de bloqueio do fluxo de esgoto, provocado pelos fatbergs, ocorre",
+      "textos_de_apoio": [
+        "TEXTO PARA AS QUESTÕES DE 42 A 44\nFatbergs are a growing scourge infesting cities around the world—some are more than 800 feet long and weigh more than four humpback whales. These gross globs, which can cause sewer systems to block up and even overflow, have been plaguing the U.S., Great Britain and Australia for the past decade, forcing governments and utilities companies to send workers down into the sewers armed with water hoses, vacuums and scrapers with the unenviable task of prying them loose.\n\"It is hard not to think of [fatbergs] as a tangible symbol of the way we live now, the ultimate product of our disposable, out of sight, out of mind culture,\" wrote journalist Tim Adams in The Guardian.\nAt their core, fatbergs are the accumulation of oil and grease that's been poured down the drain, congealing around flushed nonbiological waste like tampons, condoms and baby wipes. When fat sticks to the side of sewage pipes, the wipes and other detritus get stuck, accumulating layer upon layer of gunk in a sort of slimy snowball effect.\nFatbergs also collect other kinds of debris—London fatbergs have been cracked open to reveal pens, false teeth and even watches.\nRestaurants are a big contributor to fatbergs: Thames Water, the London utilities company, found nine out of 10 fast-food eateries lacked adequate grease traps to stop fat from entering the sewers. Homeowners also contribute to the problem by pouring grease and fat down the sink.\nEven though its component materials are soft, fatbergs themselves can be tough as rocks. Researchers have found a host of dangerous bacteria in fatbergs, including listeria and e.coli.\nFatbergs are notorious for their fetid smell, which can make even the hardiest sewer workers gag, and chipping away at one can release noxious gases.\nThe key to fatberg prevention is remembering the four Ps: Pee, poo, puke and (toilet) paper are the only things that should be flushed.\nNewsweek, 14 March, 2019. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "por falha no sistema de limpeza das galerias a cargo das prefeituras.",
+        "b": "por conta do diâmetro estreito dos canos antigos.",
+        "c": "pela solidificação da água na tubulação, em virtude das baixas temperaturas.",
+        "d": "pela aderência da gordura e outros detritos nas laterais da tubulação.",
+        "e": "pelo descolamento de placas de concreto dentro da rede de abastecimento de água."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 44,
+      "tipo": "objetiva",
+      "enunciado": "Considerado o contexto, os quatro elementos associados à prevenção dos fatbergs têm em comum o fato de",
+      "textos_de_apoio": [
+        "TEXTO PARA AS QUESTÕES DE 42 A 44\nFatbergs are a growing scourge infesting cities around the world—some are more than 800 feet long and weigh more than four humpback whales. These gross globs, which can cause sewer systems to block up and even overflow, have been plaguing the U.S., Great Britain and Australia for the past decade, forcing governments and utilities companies to send workers down into the sewers armed with water hoses, vacuums and scrapers with the unenviable task of prying them loose.\n\"It is hard not to think of [fatbergs] as a tangible symbol of the way we live now, the ultimate product of our disposable, out of sight, out of mind culture,\" wrote journalist Tim Adams in The Guardian.\nAt their core, fatbergs are the accumulation of oil and grease that's been poured down the drain, congealing around flushed nonbiological waste like tampons, condoms and baby wipes. When fat sticks to the side of sewage pipes, the wipes and other detritus get stuck, accumulating layer upon layer of gunk in a sort of slimy snowball effect.\nFatbergs also collect other kinds of debris—London fatbergs have been cracked open to reveal pens, false teeth and even watches.\nRestaurants are a big contributor to fatbergs: Thames Water, the London utilities company, found nine out of 10 fast-food eateries lacked adequate grease traps to stop fat from entering the sewers. Homeowners also contribute to the problem by pouring grease and fat down the sink.\nEven though its component materials are soft, fatbergs themselves can be tough as rocks. Researchers have found a host of dangerous bacteria in fatbergs, including listeria and e.coli.\nFatbergs are notorious for their fetid smell, which can make even the hardiest sewer workers gag, and chipping away at one can release noxious gases.\nThe key to fatberg prevention is remembering the four Ps: Pee, poo, puke and (toilet) paper are the only things that should be flushed.\nNewsweek, 14 March, 2019. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "conterem pouca gordura.",
+        "b": "ocorrerem em quantidade reduzida.",
+        "c": "serem considerados matéria orgânica.",
+        "d": "terem sua frequência controlada.",
+        "e": "estarem livres de bactérias."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 45,
+      "tipo": "objetiva",
+      "enunciado": "De acordo com o texto, para os proprietários de restaurante, a principal vantagem dos aplicativos de entrega de comida é que eles",
+      "textos_de_apoio": [
+        "TEXTO PARA AS QUESTÕES DE 45 A 47\nIf you take a look at my smartphone, you’ll know that I like to order out. But am I helping the small local businesses? You would think that if you own a restaurant you’d be thrilled to have an outsourced service that would take care of your delivery operations while leveraging their marketing might to expand your businesses’ brand. However, restaurant owners have complained of lack of quality control once their food goes out the door. They don’t like that the delivery people are the face of their product when it gets into the customer’s hand. Some of the delivery services have been accused of listing restaurants on their apps without the owners’ permission, and oftentimes publish menu items and prices that are incorrect or out of date.\nBut there is another reason why restaurant owners aren’t fond of delivery services. It’s the costs, which, for some, are becoming unsustainable. Even with the increased revenues from the delivery services, the fees wind up killing a restaurant’s margins to the extent that it’s at best marginally profitable. Therefore, some restaurants are pushing harder to drive orders from their own websites and offering special deals for customers that use their in-house delivery people.\nThe simple fact is that these delivery apps are here to stay. They are enormously popular and have significantly grown. I believe that restaurant owners that resist these apps are hurting their brands by missing out on potential customers. The good news is that the delivery platforms are not as evil as some would portray them. They have some skin in the game. They are competing against other services. They want their listed restaurants to profit. Maybe instead of fighting, the nation’s restaurant industry needs to proactively embrace the delivery service industry and figure out ways to profitably work together.\nThe Guardian. 02 December, 2020. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "procuram oferecer taxas atraentes para a utilização de sua tecnologia.",
+        "b": "demonstram preocupação crescente com a qualidade do serviço que oferecem.",
+        "c": "melhoram a avaliação dos restaurantes pela imprensa especializada.",
+        "d": "garantem que suas listas de restaurantes e menus sejam atualizadas de modo criterioso.",
+        "e": "possuem uma estrutura de marketing que possibilita expansão do círculo de clientes."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 46,
+      "tipo": "objetiva",
+      "enunciado": "Segundo o texto, uma das soluções encontradas pelos donos de restaurante para amenizar os problemas com os serviços de entrega é",
+      "textos_de_apoio": [
+        "TEXTO PARA AS QUESTÕES DE 45 A 47\nIf you take a look at my smartphone, you’ll know that I like to order out. But am I helping the small local businesses? You would think that if you own a restaurant you’d be thrilled to have an outsourced service that would take care of your delivery operations while leveraging their marketing might to expand your businesses’ brand. However, restaurant owners have complained of lack of quality control once their food goes out the door. They don’t like that the delivery people are the face of their product when it gets into the customer’s hand. Some of the delivery services have been accused of listing restaurants on their apps without the owners’ permission, and oftentimes publish menu items and prices that are incorrect or out of date.\nBut there is another reason why restaurant owners aren’t fond of delivery services. It’s the costs, which, for some, are becoming unsustainable. Even with the increased revenues from the delivery services, the fees wind up killing a restaurant’s margins to the extent that it’s at best marginally profitable. Therefore, some restaurants are pushing harder to drive orders from their own websites and offering special deals for customers that use their in-house delivery people.\nThe simple fact is that these delivery apps are here to stay. They are enormously popular and have significantly grown. I believe that restaurant owners that resist these apps are hurting their brands by missing out on potential customers. The good news is that the delivery platforms are not as evil as some would portray them. They have some skin in the game. They are competing against other services. They want their listed restaurants to profit. Maybe instead of fighting, the nation’s restaurant industry needs to proactively embrace the delivery service industry and figure out ways to profitably work together.\nThe Guardian. 02 December, 2020. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "o contato telefônico com clientes para ouvir comentários e reclamações.",
+        "b": "a verificação constante das páginas dos aplicativos para evitar erros e imprecisões.",
+        "c": "o oferecimento de vantagens para clientes que usam os serviços de entrega do próprio restaurante.",
+        "d": "a listagem de seus restaurantes em diversos aplicativos para encorajar a competição entre eles.",
+        "e": "a disseminação, junto aos clientes, de uma imagem relativa aos serviços de aplicativos como incompetentes."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 47,
+      "tipo": "objetiva",
+      "enunciado": "Em “I believe that restaurant owners that resist these apps are hurting their brands by missing out on potential customers” (3º parágrafo), a expressão sublinhada pode ser substituída, sem prejuízo de sentido, por:",
+      "textos_de_apoio": [
+        "TEXTO PARA AS QUESTÕES DE 45 A 47\nIf you take a look at my smartphone, you’ll know that I like to order out. But am I helping the small local businesses? You would think that if you own a restaurant you’d be thrilled to have an outsourced service that would take care of your delivery operations while leveraging their marketing might to expand your businesses’ brand. However, restaurant owners have complained of lack of quality control once their food goes out the door. They don’t like that the delivery people are the face of their product when it gets into the customer’s hand. Some of the delivery services have been accused of listing restaurants on their apps without the owners’ permission, and oftentimes publish menu items and prices that are incorrect or out of date.\nBut there is another reason why restaurant owners aren’t fond of delivery services. It’s the costs, which, for some, are becoming unsustainable. Even with the increased revenues from the delivery services, the fees wind up killing a restaurant’s margins to the extent that it’s at best marginally profitable. Therefore, some restaurants are pushing harder to drive orders from their own websites and offering special deals for customers that use their in-house delivery people.\nThe simple fact is that these delivery apps are here to stay. They are enormously popular and have significantly grown. I believe that restaurant owners that resist these apps are hurting their brands by missing out on potential customers. The good news is that the delivery platforms are not as evil as some would portray them. They have some skin in the game. They are competing against other services. They want their listed restaurants to profit. Maybe instead of fighting, the nation’s restaurant industry needs to proactively embrace the delivery service industry and figure out ways to profitably work together.\nThe Guardian. 02 December, 2020. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "harming.",
+        "b": "deceiving.",
+        "c": "challenging.",
+        "d": "losing.",
+        "e": "disturbing."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos",
+            "Formação de palavras: prefixos e sufixos mais comuns (ex: -able, -ness, un-, dis-)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 48,
+      "tipo": "objetiva",
+      "enunciado": "Os versos do poema",
+      "textos_de_apoio": [
+        "Lying, thinking\nLast night\nHow to find my soul a home\nWhere water is not thirsty\nAnd bread loaf is not stone\nI came up with one thing\nAnd I don't believe I'm wrong\nThat nobody,\nBut nobody\nCan make it out here alone\nAlone - Maya Angelou"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "afirmam os sentimentos de autonomia e autossuficiência.",
+        "b": "mostram a derrota diante das dificuldades.",
+        "c": "expressam o resultado das reflexões feitas.",
+        "d": "indicam a distância intransponível entre amigos.",
+        "e": "mostram arrependimento em relação às decisões do passado."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Identificação do gênero textual, propósito comunicativo e público-alvo",
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 49,
+      "tipo": "objetiva",
+      "enunciado": "Considerando os elementos visuais e verbais da figura, é possível interpretar a fala da mulher como",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 14: Charge com dois personagens sentados à mesa. A mulher diz: 'Do you mind if I strap your phone to my forehead so I can pretend you're looking at me when I talk?' enquanto o homem olha fixamente para o seu próprio celular."
+      ],
+      "alternativas": {
+        "a": "sinal da sua insatisfação com o local escolhido para o encontro.",
+        "b": "sentimento de inferioridade, por não possuir um telefone celular.",
+        "c": "constatação de que relações pessoais acarretam exclusão das redes sociais.",
+        "d": "resposta aos apelos pela troca equitativa de informações.",
+        "e": "expressão sarcástica em protesto pela ausência de interlocução."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos",
+            "Identificação do gênero textual, propósito comunicativo e público-alvo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 50,
+      "tipo": "objetiva",
+      "enunciado": "Um bom café deve ser preparado a uma temperatura pouco acima de 80ºC. Para evitar queimaduras na boca, deve ser consumido a uma temperatura mais baixa. Uma xícara contém 60 mL de café a uma temperatura de 80ºC. Qual a quantidade de leite gelado (a uma temperatura de 5ºC) deve ser misturada ao café para que a temperatura final do café com leite seja de 65ºC?",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "5 mL",
+        "b": "10 mL",
+        "c": "15 mL",
+        "d": "20 mL",
+        "e": "25 mL"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Calorimetria: calor sensível, capacidade térmica, calor latente e trocas de calor"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 51,
+      "tipo": "objetiva",
+      "enunciado": "Uma criança deixa cair de uma mesma altura duas maçãs, uma delas duas vezes mais pesada do que a outra. Ignorando a resistência do ar e desprezando as dimensões das maçãs frente à altura inicial, o que é correto afirmar a respeito das energias cinéticas das duas maçãs na iminência de atingirem o solo?",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "A maçã mais pesada possui tanta energia cinética quanto a maçã mais leve.",
+        "b": "A maçã mais pesada possui o dobro da energia cinética da maçã mais leve.",
+        "c": "A maçã mais pesada possui a metade da energia cinética da maçã mais leve.",
+        "d": "A maçã mais pesada possui o quádruplo da energia cinética da maçã mais leve.",
+        "e": "A maçã mais pesada possui um quarto da energia cinética da maçã mais leve."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Energia cinética, energia potencial (gravitacional e elástica) e conservação da energia mecânica"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 52,
+      "tipo": "objetiva",
+      "enunciado": "Uma bola de bilhar vermelha está inicialmente em repouso a 40 cm de duas das bordas (lateral e superior da figura) de uma mesa de bilhar, como mostra a figura. Uma bola branca de mesma massa e tamanho é lançada em direção à vermelha com velocidade v⃗₀ paralela à borda lateral.\nAs duas bolas colidem e, algum tempo depois, a bola vermelha está prestes a cair na caçapa posicionada na junção das duas bordas. No mesmo instante, a bola branca toca a borda superior da mesa a uma distância d da bola vermelha, conforme figura.\nO valor de d é aproximadamente:",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 14: Ilustração de uma mesa de bilhar esquemática antes e depois da colisão, mostrando a bola vermelha e a bola branca, distâncias de 40 cm e d."
+      ],
+      "alternativas": {
+        "a": "20 cm",
+        "b": "40 cm",
+        "c": "60 cm",
+        "d": "80 cm",
+        "e": "100 cm"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Impulso, quantidade de movimento e conservação da quantidade de movimento (colisões)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 53,
+      "tipo": "objetiva",
+      "enunciado": "Considere a situação indicada na figura, em que um motor, com o auxílio de uma polia, ergue verticalmente uma caixa de massa 12 kg. A caixa contém materiais frágeis e deve ser erguida com velocidade constante. Qual é a magnitude da força vertical que o motor deve exercer para realizar a tarefa?",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 14: Esquema de uma caixa presa por cabos e polias a um motor elétrico."
+      ],
+      "alternativas": {
+        "a": "0 N",
+        "b": "30 N",
+        "c": "60 N",
+        "d": "120 N",
+        "e": "240 N"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "As 3 Leis de Newton e conceito de força resultante",
+            "Aplicações das Leis de Newton (planos inclinados, máquinas de Atwood com polias)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 54,
+      "tipo": "objetiva",
+      "enunciado": "Dois fios muito longos transportam, cada um deles, uma corrente elétrica de intensidade I, conforme indicado na figura. Uma partícula de carga +Q, situada a uma distância R de cada um dos fios, move-se com velocidade constante ao longo da direção z.\nO módulo e sentido da força magnética atuando sobre a carga devido ao campo magnético produzido pelos fios são dados por:",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 15: Sistema tridimensional com dois fios longos paralelos ao eixo z, correntes I, e uma partícula +Q."
+      ],
+      "alternativas": {
+        "a": "0",
+        "b": "Qμ₀I/πR e aponta na direção −y",
+        "c": "Qμ₀I/πR e aponta na direção y",
+        "d": "Qμ₀I/πR e aponta na direção −x",
+        "e": "Qμ₀I/πR e aponta na direção x"
+      },
+      "gabarito": null,
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Campo magnético de ímãs e correntes elétricas (fio, espira e solenoide)",
+            "Força magnética sobre cargas em movimento e condutores"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": true
+    },
+    {
+      "numero": 55,
+      "tipo": "objetiva",
+      "enunciado": "Um componente eletrônico tem curva característica mostrada no gráfico a seguir:\nA resistência elétrica do componente na região em que ele se comporta como um resistor ôhmico vale aproximadamente:",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 15: Gráfico de ddp (V) versus corrente (A) para um componente eletrônico."
+      ],
+      "alternativas": {
+        "a": "0,4 Ω",
+        "b": "0,6 Ω",
+        "c": "0,8 Ω",
+        "d": "1,0 Ω",
+        "e": "1,2 Ω"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Eletrodinâmica: corrente elétrica, ddp, Leis de Ohm, resistividade e potência elétrica (kWh)",
+            "Interpretação de gráficos físicos (área sob a curva e inclinação da reta)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 56,
+      "tipo": "objetiva",
+      "enunciado": "O canhão de Newton, esquematizado na figura, é um experimento mental imaginado por Isaac Newton para mostrar que sua lei da gravitação era universal. Disparando o canhão horizontalmente do alto de uma montanha, a bala cairia na Terra em virtude da força da gravidade. Com uma maior velocidade inicial, a bala iria mais longe antes de retornar à Terra. Com a velocidade certa, o projétil daria uma volta completa em torno da Terra, sempre “caindo” sob ação da gravidade, mas nunca alcançando a Terra. Newton concluiu que esse movimento orbital seria da mesma natureza do movimento da Lua em torno da Terra.\nQual deveria ser a velocidade inicial de um projétil lançado horizontalmente do alto do Everest (a uma distância aproximada de 6.400 km do centro da Terra) para colocá-lo em órbita em torno da Terra?",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 15: Ilustração do experimento do Canhão de Newton sobre a Terra."
+      ],
+      "alternativas": {
+        "a": "8 km/s",
+        "b": "11,2 km/s",
+        "c": "80 km/s",
+        "d": "112 km/s",
+        "e": "8.000 km/s"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Leis de Kepler e Lei da Gravitação Universal de Newton",
+            "Campo gravitacional, órbitas e satélites geoestacionários"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 57,
+      "tipo": "objetiva",
+      "enunciado": "Em virtude do movimento das placas tectônicas, a distância entre a América do Sul e a África aumenta, nos dias atuais, cerca de 2,0 cm a cada ano. Supondo que essa velocidade tivesse sido constante ao longo do tempo, e tomando uma distância atual de cerca de 5.000 km entre os limites dessas duas massas continentais, indique a melhor estimativa para quanto tempo teria transcorrido desde quando ambas estavam unidas em um único supercontinente.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "250.000 anos",
+        "b": "2.500.000 anos",
+        "c": "25.000.000 anos",
+        "d": "250.000.000 anos",
+        "e": "2.500.000.000 anos"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Estrutura geológica da Terra, tectonismo, vulcanismo e eras geológicas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 58,
+      "tipo": "objetiva",
+      "enunciado": "Uma mancha de petróleo com mais de 3000 km de extensão se espalhou por praias e manguezais da costa da região nordeste e parte do sudeste, atingindo áreas marinhas protegidas como o Parque Nacional Marinho de Abrolhos, um dos principais bancos de corais e berço de biodiversidade do Atlântico Sul. Desde que foi detectada pela primeira vez, no dia 30 de agosto de 2019, a mancha de petróleo atingiu cerca de 900 locais em mais de 127 municípios em 11 estados. A origem do petróleo está estimada em algum local a leste do litoral do estado de Pernambuco, distante, aproximadamente, 600 km da linha de costa.\nCom base em seus conhecimentos sobre o litoral brasileiro e as correntes marítimas superficiais que margeiam a costa, assinale a alternativa correta que aponta o fator que contribuiu para a dispersão do petróleo.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "As reentrâncias e os recortes do litoral brasileiro, com sua geomorfologia costeira, foram responsáveis pelo impacto ambiental causado pelo derramamento de petróleo.",
+        "b": "A presença de correntes marítimas frias em superfície, características dessa região, com elevado potencial de transporte de sedimentos, acentuou a dispersão do petróleo.",
+        "c": "A corrente marítima das Falkland (Malvinas), que margeia a costa brasileira até o litoral da região nordeste, com águas frias em superfície, potencializou a dispersão do petróleo.",
+        "d": "A reduzida profundidade média do litoral brasileiro favoreceu a dispersão do petróleo ao longo da costa de norte a sul, resultando em impactos negativos, em especial para a fauna marinha.",
+        "e": "A corrente marítima do Brasil, que é caracterizada pelo movimento de águas superficiais quentes ao longo da linha de costa e provenientes do Atlântico Equatorial, espalhou o petróleo."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Hidrografia: bacias hidrográficas mundiais e brasileiras e geopolítica da água",
+            "Climatologia: fatores/elementos do clima, dinâmica das massas de ar e climas do Brasil e do mundo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 59,
+      "tipo": "objetiva",
+      "enunciado": "A escala cartográfica expressa as dimensões presentes em um mapa e a sua correspondência no terreno, ou seja, é uma abstração adotada que permite transpor a realidade terrestre para o mapa mantendo as proporções. Considerando a distância de 6 cm entre dois municípios em um mapa com escala numérica de 1 : 1.000.000, qual é a distância, em linha reta, entre eles?",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "0,6 km",
+        "b": "6 km",
+        "c": "6,6 km",
+        "d": "60 km",
+        "e": "600 km"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Escala cartográfica numérica e gráfica (cálculo de distâncias)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 60,
+      "tipo": "objetiva",
+      "enunciado": "Eventos climáticos extremos marcaram este ano com vários exemplos no mundo, atingindo populações inteiras, tanto em ambientes rurais como urbanos. Dentre esses eventos, pode-se destacar as inundações na Alemanha no mês de julho, com regiões acometidas por fortes chuvas.\nUm dos motivos que podem ser relacionados ao evento de inundação da área destacada é:",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 16: Duas fotografias comparando a área urbana de Schuld (Alemanha) antes e depois da inundação de julho/2021."
+      ],
+      "alternativas": {
+        "a": "O fato de o rio meandrante desviar da área urbana instalada nas suas margens, pois o vale estreito é periodicamente inundado, em especial nos eventos climáticos extremos, que submergem os morros na cidade.",
+        "b": "A extensão do assentamento urbano que não respeitou os limites do canal fluvial, acabando por aterrá-lo, o que levou à inundação diante de um evento climático extremo, já que os rios não podem ser encobertos.",
+        "c": "A área urbana, que se encontra em um fundo de vale plano onde há a presença de um canal de rio meandrante, o qual pode ter suas águas periodicamente extravasadas para a planície de inundação.",
+        "d": "O insucesso da prevenção da inundação por meio da retificação do rio, pois se esperava que, mesmo com volumes excessivos de chuvas, as águas do canal fluvial não poderiam ser extravasadas para as margens.",
+        "e": "Como a área urbana se encontra em um fundo de vale rugoso, existe maior facilidade para o assentamento, porém com o risco de o rio entrelaçado desviar seu curso único, causando inundações laterais."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Classificação das rochas, formação de solos e relevo (agentes internos e externos/intemperismo)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 61,
+      "tipo": "objetiva",
+      "enunciado": "O mapa mostra a topografia, os aspectos da paisagem e o tipo de cobertura vegetal da superfície numa determinada área, com um observador que, localizado próximo ao leito do rio, vê a paisagem direcionando seu olhar para o quadrante nordeste.\nO cenário a ser visto pelo observador, considerando os aspectos evidenciados no mapa, é:",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 17: Mapa topográfico e de vegetação com a posição do observador e cinco fotografias de paisagem (A, B, C, D, E) como alternativas."
+      ],
+      "alternativas": {
+        "a": "...",
+        "b": "...",
+        "c": "...",
+        "d": "...",
+        "e": "..."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Coordenadas geográficas, localização, fusos horários e projeções cartográficas",
+            "Leitura e interpretação de mapas temáticos, cartas e anamorfoses"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 62,
+      "tipo": "objetiva",
+      "enunciado": "No dia 23 de março de 2021 o mega navio Ever Given, de 220.000 toneladas e 400 m de comprimento, encalhou no Canal de Suez no Egito em rota para o porto de Rotterdam, Holanda, ficando atravessado e preso pelas extremidades. O navio reflutuou no dia 29 do mesmo mês em razão das condições de vento e maré, além da operação promovida por rebocadores.\nCom base nos dados fornecidos e em seus conhecimentos, pode-se atribuir o reflutuamento do Ever Given às seguintes condições:",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 17: Mapas meteorológicos com pressões e gráfico de alturas máximas de maré entre 23 e 31 de março de 2021."
+      ],
+      "alternativas": {
+        "a": "Formação de um gradiente de pressão entre Ásia e África, com ventos de Sudoeste e rebaixamento do nível da água do mar pela maré de quadratura.",
+        "b": "Formação de um gradiente de pressão entre Europa e África, com ventos de Noroeste e elevação do nível da água do mar pela maré de sizígia.",
+        "c": "Formação de um gradiente de pressão entre Europa e África, com ventos de Sudeste e elevação do nível da água do mar pela maré de quadratura.",
+        "d": "Formação de um gradiente de pressão entre África e Europa, com ventos de Nordeste e rebaixamento do nível da água do mar pela maré de sizígia.",
+        "e": "Formação de um gradiente de pressão entre Ásia e Europa, com predomínio de calmarias e vazante do nível da água do mar pela maré neutra."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Climatologia: fatores/elementos do clima, dinâmica das massas de ar e climas do Brasil e do mundo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 63,
+      "tipo": "objetiva",
+      "enunciado": "Uma forma de conservação do Cerrado é a prática de queimadas controladas que simulam o ciclo natural do fogo.\nObserve a imagem que retrata os efeitos visuais de uma queimada controlada em um trecho de Cerrado da Estação Ecológica de Santa Bárbara, no interior do estado de São Paulo.\nNessa área foram conduzidos experimentos com queimadas controladas, e os resultados sugerem que essa prática é benéfica para a flora, cujas plantas rebrotam rapidamente depois da passagem do fogo. Nos grupos vegetais em que as queimadas produziram mais efeitos positivos foi registrado até um discreto aumento de espécies vegetais. Antes das queimadas, os pesquisadores contabilizaram 38 espécies de gramíneas e 68 de outras ervas. Depois, esses números subiram para 44 e 74, respectivamente.\nNo bioma Cerrado, de acordo com a informação do texto, a prática de queimadas controladas",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 18: Fotografia de uma queimada controlada em vegetação do Cerrado."
+      ],
+      "alternativas": {
+        "a": "contribui para a manutenção da biodiversidade local.",
+        "b": "constitui uma técnica de ponta para o plantio agrícola.",
+        "c": "é uma técnica tradicional denominada agricultura itinerante.",
+        "d": "tem como objetivo permitir a pecuária extensiva.",
+        "e": "apresenta desvantagem em termos de ganho para a flora."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Biomas brasileiros e ecossistemas aquáticos",
+            "Impactos antrópicos: poluição, bioacumulação trófica, espécies exóticas, pegada ecológica e unidades de conservação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 64,
+      "tipo": "objetiva",
+      "enunciado": "Conforme definição da Organização Internacional do Trabalho (OIT), o trabalho de cuidado envolve dois tipos de atividades: as diretas, como alimentar um bebê ou cuidar de um doente, e as indiretas, como cozinhar ou limpar. O gráfico apresenta a desigualdade de gênero no trabalho de cuidado no mundo, expressa pela diferença entre homens e mulheres quanto ao tempo e à remuneração. A partir dos dados apresentados, é correto afirmar que as regiões com maior e menor desigualdade são, respectivamente:",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 18: Gráfico de barras indicando minutos diários dedicados ao trabalho de cuidado por homens e mulheres em diferentes regiões do mundo."
+      ],
+      "alternativas": {
+        "a": "África; Europa/Ásia Central",
+        "b": "Américas; África",
+        "c": "Américas; Ásia/Pacífico",
+        "d": "Países Árabes; Américas",
+        "e": "África; Ásia/Pacífico"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Demografia: conceitos populacionais, transição demográfica, pirâmides etárias e fluxos migratórios"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 65,
+      "tipo": "objetiva",
+      "enunciado": "Esses textos foram retirados, respectivamente, da música “Pantera Negra”, de Emicida, e do livro “A mulher de pés descalços”, de Scholastique Mukasonga, e fazem referência à guerra civil em Ruanda. Sobre esse conflito, é correto afirmar:",
+      "textos_de_apoio": [
+        "Texto 1\nMinha pele, Luanda\nAntessala, Aruanda\nTipo T'Challa, Wakanda\nVeneno Black Mamba\nBandoleiro em bando\nQué o comando dessas banda?\n'Sa noite cês vão ver mais sangue\nDo que Hotel Ruanda\n\nTexto 2\nNão sei onde ela tinha ido à escola, mas ela sabia ler e escrever. Saber escrever era algo perigoso se você tinha um pai exilado no Burundi. Logo começam a suspeitar que está se correspondendo com os tutsis que preparam seu retorno a Ruanda, que você é uma espiã dando informações aos que estão desse lado da fronteira e poderia facilitar a volta dos tutsis."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "Ocorrido no início do século XX, teve como principal estopim a disputa por recursos minerais no território de Ruanda, na divisa com Senegal.",
+        "b": "Ex-colônia belga e inglesa, Ruanda conquistou sua independência com auxílio norte-americano nos anos 2000, desencadeando a guerra civil.",
+        "c": "Trata-se de um conflito resultante da disputa entre diferentes grupos religiosos, que resultou na morte de mais de 800 mil Hutus e Tutsis.",
+        "d": "Apoiados pelos russos e pelos franceses, os Tutsis tomaram o poder com um golpe de estado na década de 1970, iniciando as tensões que resultaram na guerra civil.",
+        "e": "Ocorrido na década de 1990, teve como origem a disputa étnico-cultural (Tutsis e Hutus) nos territórios de Ruanda e Burundi."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Conflitos étnicos e religiosos atuais no Oriente Médio e África",
+            "Desafios contemporâneos: racismo estrutural, migrações, sustentabilidade e novas tecnologias"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 66,
+      "tipo": "objetiva",
+      "enunciado": "A pandemia da COVID-19 acendeu o alerta sobre os impactos que a rápida disseminação de enfermidades produz em um mundo cada vez mais globalizado. Além disso, ressaltou a importância das pesquisas científicas na descoberta, tratamento e controle de doenças tropicais negligenciadas, muitas delas recorrentes em diferentes países do mundo. Os mapas a seguir indicam as taxas de incidência de doenças tropicais negligenciadas (total de casos por milhão de habitantes) e o Produto Interno Bruto (PIB) per capita dos respectivos países.\nEm relação à incidência de doenças tropicais negligenciadas, é correto afirmar:",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 19: Dois mapas mundiais temáticos comparando a incidência de doenças tropicais negligenciadas e o PIB per capita dos países."
+      ],
+      "alternativas": {
+        "a": "Na África, é maior nos países com os maiores PIB per capita, em especial na região subsaariana.",
+        "b": "Na Ásia, é menor nos países com os menores PIB per capita, com destaque para Ásia Setentrional.",
+        "c": "Na América do Sul, é menor nos países da América Platina, com os menores PIB per capita da região.",
+        "d": "Na América do Norte, com elevado PIB per capita, a incidência é menor em comparação ao Oriente Médio.",
+        "e": "Na Oceania, apesar do PIB per capita elevado, verifica-se alta incidência, com destaque para a Austrália."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Leitura e interpretação de mapas temáticos, cartas e anamorfoses"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 67,
+      "tipo": "objetiva",
+      "enunciado": "O texto refere-se a uma questão geopolítica contemporânea: a disputa pelos semicondutores na indústria mundial. Sobre esse assunto, indique a alternativa correta:",
+      "textos_de_apoio": [
+        "A escassez global de semicondutores continua a ter estranhas repercussões, sobretudo do ponto de vista geopolítico. Há um ano as indústrias lutam para se abastecer com chips eletrônicos que equipam aparelhos do dia a dia, de computadores a torradeiras, passando pelas máquinas de lavar e consoles de videogames. O episódio atual, no entanto, surge em um contexto marcado por um questionamento geral a respeito dos benefícios da globalização e do declínio da atividade industrial no Ocidente.\nEvgeny Morzorov. “Devemos temer um colapso eletrônico?”. Le Monde Diplomatique Brasil, agosto/2021. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "A produção de semicondutores está concentrada no sudeste asiático, nos países da 1ª e 2ª geração dos Tigres Asiáticos, tais como Taiwan, Coreia do Sul, Cingapura e Indonésia.",
+        "b": "Nos últimos 20 anos, EUA e Europa vêm perdendo destaque na produção de semicondutores em decorrência da queda acentuada de investimentos em pesquisa e inovação.",
+        "c": "A crise da falta de semicondutores revela um dos efeitos negativos da globalização: a independência da cadeia produtiva em escala mundial, pouco suscetível a desequilíbrios de oferta e demanda.",
+        "d": "A Nova Divisão Internacional do Trabalho indica o predomínio geoeconômico dos países do sudeste asiático, principais produtores de semicondutores, que têm ampliado, através da China, sua participação nesse setor desde sua democratização.",
+        "e": "A escassez de semicondutores é resultado de uma interrupção momentânea da produção, em especial no sudeste asiático, devido à falta de matéria-prima, que é o início da cadeia produtiva."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Globalização, comércio internacional, blocos econômicos e a posição do Brasil no comércio global"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 68,
+      "tipo": "objetiva",
+      "enunciado": "A produção do vidro tem por base a modificação da estrutura cristalina do quartzo (SiO₂) por meio do seu aquecimento e da adição de óxidos alcalinos, dentre eles o Na₂O. Esse processo adiciona cátions sódio à estrutura do quartzo, tornando-a amorfa. Alguns vidros, como os utilizados em telas de smartphones, passam ainda por processo de troca iônica para aumentar a resistência a quedas e riscos. Para isso, o vidro é banhado em uma solução salina contendo íons potássio. Dessa forma, o potássio substitui o sódio na estrutura, sem que o volume do vidro se altere.\nCom base nessas informações, é correto afirmar que os íons potássio",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 19: Tabela Periódica simplificada destacando alguns elementos."
+      ],
+      "alternativas": {
+        "a": "são maiores do que os íons sódio, dessa forma, a estrutura torna-se mais preenchida e mais resistente ao choque físico.",
+        "b": "são mais resistentes ao choque físico do que os íons sódio, e esse caráter é conferido ao vidro.",
+        "c": "são menores do que os íons sódio, tornando a estrutura menos preenchida e o vidro mais flexível.",
+        "d": "fazem com que a estrutura do vidro deixe de ser amorfa quando substituem os íons sódio, tornando o vidro menos resistente ao choque físico.",
+        "e": "têm o mesmo tamanho que os íons sódio, visto que ambos são metais alcalinos, permitindo sua completa substituição no vidro."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Tabela Periódica: organização, famílias, períodos e propriedades periódicas",
+            "Propriedades gerais e específicas dos materiais"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 69,
+      "tipo": "objetiva",
+      "enunciado": "Uma das formulações para os adesivos “silicones” usados na construção civil é chamada de “silicone acético”. Essa nomenclatura é utilizada porque o componente ativo libera ácido acético durante a formação do precursor, espécie que promoverá a polimerização, como representado genericamente a seguir.\n(R = cadeia orgânica)\nConsiderando essas informações, qual dos componentes ativos a seguir faria com que a formulação fosse considerada como “silicone acético”?",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 20: Esquema reacional genérico e estruturas químicas das alternativas (A, B, C, D, E)."
+      ],
+      "alternativas": {
+        "a": "...",
+        "b": "...",
+        "c": "...",
+        "d": "...",
+        "e": "..."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Principais funções orgânicas: hidrocarbonetos, álcoois, fenóis, éteres, ésteres, aldeídos, cetonas, ácidos carboxílicos, aminas e amidas",
+            "Reações orgânicas fundamentais: substituição, adição, eliminação, oxidação e esterificação/saponificação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 70,
+      "tipo": "objetiva",
+      "enunciado": "A reação global balanceada, composta pelas etapas I e II, que representa a formação de ozônio é:",
+      "textos_de_apoio": [
+        "Oxigênio (O₂) e ozônio (O₃) estão em constante processo de consumo e produção na estratosfera, como representado pelas equações químicas a seguir. As reações I e II ilustram etapas da produção de ozônio a partir de oxigênio, e a reação III mostra a restauração de oxigênio a partir de ozônio.\nReação ΔH (kcal/mol de O₂)\nI O₂ → 2 O· −118\nII 2 O₂ + 2 O· → 2 O₃ ΔH_II\nIII 2 O₃ → 3 O₂ +21"
+      ],
+      "midia": [
+        "Página 20: Tabela com as reações I, II, III e respectivas variações de entalpia."
+      ],
+      "alternativas": {
+        "a": "3 O → O₃",
+        "b": "4 O₂ → 4 O₃",
+        "c": "2 O₃ → 3 O₂",
+        "d": "3 O₂ → 2 O₃",
+        "e": "3 O₃ → 2 O₂"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Equações químicas e métodos de balanceamento"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 71,
+      "tipo": "objetiva",
+      "enunciado": "O ΔH_II, relacionado à reação II, pode ser calculado a partir dos dados fornecidos para as reações I e III. O valor de ΔH_II, em kcal/mol de O₂ consumido, é igual a:",
+      "textos_de_apoio": [
+        "Oxigênio (O₂) e ozônio (O₃) estão em constante processo de consumo e produção na estratosfera, como representado pelas equações químicas a seguir. As reações I e II ilustram etapas da produção de ozônio a partir de oxigênio, e a reação III mostra a restauração de oxigênio a partir de ozônio.\nReação ΔH (kcal/mol de O₂)\nI O₂ → 2 O· −118\nII 2 O₂ + 2 O· → 2 O₃ ΔH_II\nIII 2 O₃ → 3 O₂ +21"
+      ],
+      "midia": [
+        "Página 20: Tabela com as reações I, II, III e respectivas variações de entalpia."
+      ],
+      "alternativas": {
+        "a": "−90,5",
+        "b": "−55,0",
+        "c": "+27,5",
+        "d": "+48,5",
+        "e": "+55,0"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Termoquímica: reações exotérmicas e endotérmicas, entalpia e equações termoquímicas",
+            "Lei de Hess e entalpia de ligação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 72,
+      "tipo": "objetiva",
+      "enunciado": "Alguns equipamentos de visão noturna têm seu funcionamento baseado no efeito fotoelétrico, uma das primeiras descobertas que contribuíram para o surgimento da mecânica quântica. Nesses equipamentos, fótons de frequência f emitidos por um objeto incidem sobre uma superfície metálica. Elétrons são então liberados da superfície e acelerados por um campo elétrico. Em seguida, o sinal eletrônico é amplificado e produz uma imagem do objeto.\nDiferentemente do que a física clássica prevê, apenas os elétrons com energia hf acima de uma certa energia mínima E₀ são liberados da superfície metálica.\nConsiderando a incidência de fótons com frequência da ordem de 10¹⁴ Hz, a ordem de grandeza do valor limite de E₀ para que o equipamento funcione deve ser:",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "10⁻⁵⁰ J",
+        "b": "10⁻⁴⁰ J",
+        "c": "10⁻³⁰ J",
+        "d": "10⁻²⁰ J",
+        "e": "10⁻¹⁰ J"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Física Moderna: fótons, modelo de Bohr, efeito fotoelétrico, dualidade onda-partícula e noções de relatividade"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 73,
+      "tipo": "objetiva",
+      "enunciado": "As reações de hidrólise de ésteres, quando realizadas em meio aquoso, podem ser catalisadas pela adição de ácido, sendo a reação mais lenta em meios próximos da neutralidade.\nDuas reações idênticas para a hidrólise desse éster foram realizadas nas mesmas condições, variando apenas o pH do meio: uma delas foi conduzida em pH=2 e outra em pH=6. Qual dos seguintes diagramas representa de forma mais adequada a quantidade de ácido graxo formada em função do tempo de reação para as hidrólises em pH=2 e pH=6?",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 21: Reação química de hidrólise de éster e cinco gráficos alternativos (A, B, C, D, E)."
+      ],
+      "alternativas": {
+        "a": "...",
+        "b": "...",
+        "c": "...",
+        "d": "...",
+        "e": "..."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Cinética Química: rapidez de reação, teoria das colisões e energia de ativação",
+            "Fatores que alteram a velocidade da reação (concentração, temperatura, catalisador)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 74,
+      "tipo": "objetiva",
+      "enunciado": "Cálculos renais, conhecidos popularmente por “pedras nos rins”, consistem principalmente em oxalato de cálcio, CaC₂O₄, espécie cuja constante de solubilidade (K_ps) é de aproximadamente 2 × 10⁻⁹. Os íons oxalato, presentes em muitos vegetais, reagem com os íons cálcio para formar oxalato de cálcio, que pode gradualmente se acumular nos rins. Supondo que a concentração de íons cálcio no plasma sanguíneo seja de cerca de 5 × 10⁻³ mol/L, qual seria a concentração mínima, em mol/L, de íons oxalato para que CaC₂O₄ precipitasse?",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "4 × 10⁻¹³",
+        "b": "10 × 10⁻¹²",
+        "c": "4 × 10⁻⁷",
+        "d": "2,5 × 10⁻⁶",
+        "e": "1 × 10⁻⁵"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Água e soluções aquosas: solubilidade, tipos de concentração (g/L, mol/L, ppm) e diluição",
+            "Equilíbrio Químico: constante Kc e Kp, Princípio de Le Chatelier"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 75,
+      "tipo": "objetiva",
+      "enunciado": "Um marcador radioativo (²⁴Na) foi injetado em um ponto de um cano de água subterrâneo e, na sequência, com um detector sobre o solo, foi medida a radioatividade ao longo do percurso do cano. A figura a seguir esquematiza o local de injeção do marcador e o perfil da radioatividade detectada ao longo do cano.\nAssinale a alternativa que melhor explica o perfil da radioatividade.",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 21: Esquema de tubulação subterrânea com injeção de radioatividade e gráfico do perfil da radioatividade detectada."
+      ],
+      "alternativas": {
+        "a": "No trecho 2 o cano está completamente entupido, por isso a radioatividade diminui no trecho 3.",
+        "b": "No trecho 2 há uma fissura no cano, o que resulta em acúmulo de marcador nesse trecho do solo.",
+        "c": "O marcador radioativo flui no sentido contrário ao fluxo da água, acumulando-se no meio do cano.",
+        "d": "No trecho 3 a radioatividade é menor porque foi consumida por reações químicas ao longo do trecho 2.",
+        "e": "No trecho 2 a radioatividade diminui devido ao fato de a meia-vida do marcador ser curta."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Radioatividade: emissões nucleares, meia-vida, datação, fissão e fusão nuclear"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 76,
+      "tipo": "objetiva",
+      "enunciado": "O hidróxido de alumínio (Al(OH)₃), ao precipitar em solução aquosa, forma um sólido gelatinoso que pode ser usado como agente floculante no tratamento de água. Essa precipitação pode ocorrer pela adição de um hidróxido solúvel a uma solução aquosa ácida contendo um sal de alumínio solúvel, como o AlCl₃. Entretanto, adicionando-se excesso de hidróxido ao meio, há a formação de íons [Al(OH)₄]⁻, espécie solúvel em água, e o precipitado se solubiliza novamente. Dessa forma, dependendo do pH do meio, uma dentre as espécies [Al(OH)₄]⁻(aq), Al(OH)₃(s) e Al³⁺(aq) estará presente na solução em quantidade maior que as demais, como exemplificado no esquema.\nA alternativa que mostra corretamente qual das espécies estará em quantidade maior que as duas outras em cada faixa de pH é:",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 22: Esquemas gráficos de distribuição de espécies em função do pH para as alternativas (A, B, C, D, E)."
+      ],
+      "alternativas": {
+        "a": "...",
+        "b": "...",
+        "c": "...",
+        "d": "...",
+        "e": "..."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Equilíbrio iônico da água, escala de pH, pOH e hidrólise de sais"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 77,
+      "tipo": "objetiva",
+      "enunciado": "Para o monitoramento ambiental no entorno de um posto de gasolina, coletou-se uma amostra de solo que foi submetida de forma integral à análise de naftaleno, um composto presente na gasolina. A concentração encontrada foi de 2,0 mg de naftaleno por kg de solo úmido. Sabendo que essa amostra de solo contém 20% de água, qual é o resultado dessa análise por kg de solo seco?",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "0,4 mg/kg",
+        "b": "1,6 mg/kg",
+        "c": "2,0 mg/kg",
+        "d": "2,2 mg/kg",
+        "e": "2,5 mg/kg"
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Água e soluções aquosas: solubilidade, tipos de concentração (g/L, mol/L, ppm) e diluição"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 78,
+      "tipo": "objetiva",
+      "enunciado": "O cátion Ba²⁺ pode apresentar toxicidade aos humanos, dependendo de sua concentração e forma química. Por exemplo, BaSO₄ é pouco tóxico, sendo usado como contraste radiológico, por ser insolúvel em solução aquosa, enquanto BaCO₃ e Ba(NO₃)₂ são muito tóxicos, pois liberam Ba²⁺ no organismo. Em um laboratório foram feitos dois testes de solubilidade para identificar o conteúdo de três frascos não rotulados que poderiam ser de Ba(NO₃)₂, BaCO₃ ou BaSO₄. Os resultados dos dois testes de solubilidade são apresentados a seguir.\nConsiderando os ensaios realizados, indique quais são os compostos contidos nos frascos 1, 2 e 3, respectivamente.",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 22: Tabela de testes de solubilidade em água destilada e HCl diluído para os frascos 1, 2 e 3."
+      ],
+      "alternativas": {
+        "a": "BaSO₄ | BaCO₃ | Ba(NO₃)₂",
+        "b": "BaCO₃ | BaSO₄ | Ba(NO₃)₂",
+        "c": "Ba(NO₃)₂ | BaCO₃ | BaSO₄",
+        "d": "BaSO₄ | Ba(NO₃)₂ | BaCO₃",
+        "e": "BaCO₃ | Ba(NO₃)₂ | BaSO₄"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Funções inorgânicas: ácidos, bases, sais e óxidos",
+            "Evidências macroscópicas de transformações químicas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 79,
+      "tipo": "objetiva",
+      "enunciado": "Ao opor operários sob vigilância e operários a domicílio, a fábrica reduziu os seus custos sem se ver necessariamente obrigada a adotar uma tecnologia mais eficaz. O argumento da superioridade tecnológica não é, portanto, nem necessário nem suficiente para explicar o advento e o êxito da fábrica.",
+      "textos_de_apoio": [
+        "Stephen Marglin. “Origens e funções do parcelamento das tarefas”. Revista de Administração de Empresas, v.18, nº4. Rio de Janeiro, 1978, p.14. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "por meio do maciço investimento na tecnologia das grandes máquinas, diminuindo os custos da produção.",
+        "b": "pela capacidade de controlar e padronizar as diferentes etapas do processo produtivo por meio da disciplina.",
+        "c": "pelo processo de concentração de operários, que estimulou a disputa por vagas e a diminuição dos salários.",
+        "d": "através da substituição das formas artesanais das oficinas domésticas pela estrutura de guildas e corporações.",
+        "e": "por meio de estratégias de gestão que incidiam na divisão do trabalho e na introdução de bônus por produtividade."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Filosofia e Sociologia",
+          "assuntos": [
+            "Karl Marx: materialismo histórico, divisão social do trabalho, mais-valia e alienação",
+            "Mundo do trabalho: taylorismo, fordismo, flexibilização produtiva e precarização/trabalho escravo contemporâneo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 80,
+      "tipo": "objetiva",
+      "enunciado": "Identifique a alternativa mais adequada para expressar as relações entre arte e sociedade no quadro:",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 23: Reprodução da pintura 'Os retirantes' (1944) de Cândido Portinari."
+      ],
+      "alternativas": {
+        "a": "A obra retrata o êxodo rural de um grupo de nordestinos, fugindo da fome, da seca e da miséria.",
+        "b": "O quadro critica a incapacidade da SUDENE em propor políticas públicas para a população nordestina.",
+        "c": "A pintura veicula uma mensagem de esperança, ao opor o céu azul aos tons terrosos para designar a aridez da paisagem.",
+        "d": "A imagem do grupo com corpos esquálidos e doentes evidencia uma visão preconceituosa sobre os nordestinos.",
+        "e": "A tela expressa fortes convicções religiosas, ao retratar o calvário dos nordestinos como uma passagem bíblica."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Brasil República: República Velha (oligarquias), Era Vargas (1930-1945), Período Democrático (1945-1964) e Ditadura Civil-Militar (1964-1985)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 81,
+      "tipo": "objetiva",
+      "enunciado": "O texto sugere que Antonio Conselheiro",
+      "textos_de_apoio": [
+        "Antônio Vicente Mendes Maciel, Conselheiro de alcunha, (...) era cearense e nasceu (...) a 13 de março de 1830. (...) Aprendeu a ler, escrever e contar. (...) Andou estudando latim, enxertando frases da língua de Horácio nos seus longos \"conselhos\", geralmente baseados na Bíblia sagrada, que conhecia razoavelmente. (...) Era apenas um peregrino, acompanhado de numeroso séquito; pequenos agricultores, negros 13 de Maio, caboclos de aldeamentos, gente sem recursos, doentes. (...)\nEm 1893 (...) Antônio Vicente se estabeleceu em Canudos (...). Rebatizou a localidade, dando-lhe o nome de Belo Monte. Criou um clima de tranquilidade local. Respeitavam-no. Seu monarquismo era utopia.\nDe vários pontos do sertão apareciam os conselheiristas (...). Caminhavam para lá movidos pela fé. Queriam morar ali, sem pensar em conquistar novas terras. Nem restaurar a monarquia. Cá de fora, não entenderam assim. Interesses políticos e patrimoniais deram novos rumos e destino sangrento ao sertão do Conselheiro. (...)\nJosé Calazans. “O Bom Jesus do sertão”. Caderno Mais, Folha de S. Paulo. São Paulo, 21/09/1997."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "representou a luta da Igreja Católica contra o regime republicano recém-instaurado no Brasil.",
+        "b": "fez uso da sua educação formal para colocar em xeque os dogmas do catolicismo no Brasil.",
+        "c": "defendeu a restauração da Monarquia por identificar-se com os interesses políticos e patrimoniais das elites locais.",
+        "d": "atraiu pessoas pobres do sertão nordestino com mensagens de fé e de acolhimento na comunidade.",
+        "e": "liderou uma insurreição contra as estruturas sociais e políticas implementadas pela República."
+      },
+      "gabarito": null,
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Brasil República: República Velha (oligarquias), Era Vargas (1930-1945), Período Democrático (1945-1964) e Ditadura Civil-Militar (1964-1985)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": true
+    },
+    {
+      "numero": 82,
+      "tipo": "objetiva",
+      "enunciado": "Sobre o sentido da colonização do Brasil, é correto afirmar:",
+      "textos_de_apoio": [
+        "Se vamos à essência da nossa formação, veremos que na realidade nos constituímos para fornecer açúcar, tabaco, alguns outros gêneros; mais tarde ouro e diamantes; depois, algodão, e em seguida café, para o comércio europeu.\nCaio Prado Jr. Formação do Brasil Contemporâneo. São Paulo: Companhia das Letras, 2011, p. 29."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "Permitiu o desenvolvimento de um extenso parque industrial.",
+        "b": "Caracterizou-se pela forte presença da mão de obra assalariada.",
+        "c": "Esteve voltado, principalmente, para o mercado externo.",
+        "d": "Baseou-se na produção de manufaturas têxteis ou alimentares.",
+        "e": "Garantiu a expansão da pequena propriedade agrícola."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Brasil Colônia: primeiros habitantes indígenas, ocupação territorial, ciclos econômicos (açúcar e ouro) e escravidão"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 83,
+      "tipo": "objetiva",
+      "enunciado": "A revolta dos Malês, ocorrida em Salvador em 1835,",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "foi uma revolta organizada por escravizados e libertos, contra a escravidão e a imposição da religião católica.",
+        "b": "expressava as aspirações de liberdade dos escravos urbanos impedidos de comprar as suas cartas de alforria.",
+        "c": "externava a indignação da população urbana branca com as práticas da violência e dos castigos públicos.",
+        "d": "reivindicava mais autonomia para as províncias, contrapondo-se à política centralizadora empregada pelos gestores imperiais.",
+        "e": "fracassou em decorrência das dificuldades encontradas na arregimentação de escravos dos engenhos do Recôncavo."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Brasil Imperial: Independência, Primeiro Reinado, Período Regencial e Segundo Reinado"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 84,
+      "tipo": "objetiva",
+      "enunciado": "A respeito da Guerra do Peloponeso no séc. V a.C., é correto afirmar:",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "O conflito resultou das disputas comerciais e militares entre a Liga de Delos, liderada pela cidade-estado de Atenas, e os interesses assírios.",
+        "b": "A guerra afetou a autonomia política e administrativa das cidades-estados, dando lugar à organização imperial.",
+        "c": "A hegemonia ateniense foi dissolvida com o triunfo da Liga do Peloponeso e as colônias na Ásia Menor foram devolvidas aos persas.",
+        "d": "A guerra marcou a decadência do militarismo espartano frente aos exércitos atenienses, que defendiam a democracia.",
+        "e": "O desabastecimento de escravos e a desorganização da produção agrícola contribuíram para a perda da hegemonia grega no Mediterrâneo."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Antiguidade Clássica: democracia ateniense, República/Império Romano e escravismo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 85,
+      "tipo": "objetiva",
+      "enunciado": "O desenho de Da Vinci expressa propostas do movimento Renascentista ao",
+      "textos_de_apoio": [
+        "Leonardo da Vinci: Leben und Werk. Stuttgart, Zürich: Belser Verlag, 1989, p. 171.\nO “Homem Vitruviano” foi desenhado por Leonardo da Vinci (1452-1519) com base em um tratado sobre Arquitetura escrito e ilustrado por Marcus Vitruvius no século I a.C., na Roma Antiga. A obra ganhou versões impressas e traduções nos séculos XV e XVI."
+      ],
+      "midia": [
+        "Página 24: Desenho do 'Homem Vitruviano' de Leonardo da Vinci."
+      ],
+      "alternativas": {
+        "a": "buscar perpetuar obras da Antiguidade Clássica por meio da cópia e da salvaguarda.",
+        "b": "censurar os estudos da anatomia humana herdados da Antiguidade Clássica.",
+        "c": "retomar a percepção da simetria e das proporções humanas como ideal do Belo.",
+        "d": "apoiar-se no legado da Antiguidade greco-romana para reafirmar o teocentrismo.",
+        "e": "separar a arte do pensamento humanista e do conhecimento matemático."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Renascimento Cultural, Reformas Religiosas e formação dos Estados Nacionais"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 86,
+      "tipo": "objetiva",
+      "enunciado": "A noção de ditadura variou ao longo da História e dependeu das características políticas de cada sociedade.\nA esse respeito, assinale a alternativa correta:",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "Na Roma Antiga, durante o período republicano, a ditadura era uma magistratura de caráter extraordinário, delimitada legalmente e estabelecida por um período determinado, com uma finalidade definida.",
+        "b": "Com o golpe do 18 Brumário (1799), instaurou-se uma ditadura parlamentar na França, sob o comando de Napoleão Bonaparte, cujo objetivo fundamental era reescrever a Constituição francesa.",
+        "c": "A ditadura militar brasileira, estabelecida em 1964, teve como característica o poder exclusivo das Forças Armadas e o fechamento das instâncias parlamentares durante toda a sua vigência.",
+        "d": "O conceito da ditadura do proletariado foi elaborado por Karl Marx, defendido por anarquistas e comunistas, e previa a instauração permanente de um regime autoritário, como o da antiga União Soviética.",
+        "e": "A ditadura nazista caracterizava-se por um complexo arranjo institucional baseado na articulação política entre o Poder Executivo, as Forças Armadas, o Parlamento alemão e os poderes legislativos municipais."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Antiguidade Clássica: democracia ateniense, República/Império Romano e escravismo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 87,
+      "tipo": "objetiva",
+      "enunciado": "A revista de vanguarda literária Martín Fierro foi fundada em Buenos Aires, na Argentina, em 1924. O “Manifesto”, publicado no seu nº 4, apresentava sintonias com o movimento modernista paulistano, ao",
+      "textos_de_apoio": [
+        "Martín Fierro acredita na importância da contribuição intelectual da América, prévia tesourada a todo cordão umbilical. Acentuar e generalizar para as demais manifestações intelectuais o movimento de independência iniciado, no idioma, por Ruben Darío, não significa, entanto, que haveremos de renunciar, nem muito menos que finjamos desconhecer que todas as manhãs nos servimos de um creme dental sueco, de umas toalhas francesas e de um sabonete inglês.\nMartín Fierro tem fé em nossa fonética, em nossa visão, em nossas maneiras, em nosso ouvido, em nossa capacidade digestiva e de assimilação.\n“Manifesto Martín Fierro”, de Oliverio Girondo, 15/5/1924. In: Jorge Schwartz, Vanguardas latino-americanas: polêmicas, manifestos e textos críticos. São Paulo: EDUSP; Iluminuras; FAPESP, 1995, p. 116."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "propor a ruptura com tradições estéticas e valorizar a autonomia criativa local, sem desprezar os intercâmbios com a Europa.",
+        "b": "defender a obediência aos modelos artísticos da França e da Inglaterra, reconhecendo sua contribuição intelectual.",
+        "c": "repudiar o movimento de independência iniciado, na língua espanhola, pelo poeta nicaraguense Ruben Darío.",
+        "d": "buscar inspiração nos modos de expressão popular e artística originários da América e revolucionar os hábitos de consumo.",
+        "e": "condenar a inquietação intelectual e a experimentação literária em favor da cultura de massas e do conformismo."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Modernismo Brasileiro: 1ª Fase (1922), 2ª Fase (Geração de 30 - romance regionalista e poesia de 30) e 3ª Fase (Geração de 45/Pós-Modernismo)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 88,
+      "tipo": "objetiva",
+      "enunciado": "As fotos de Robert Capa e de Yevgeny Khaldei foram produzidas para documentar eventos da Segunda Guerra Mundial. Referem-se, respectivamente,",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 25: Duas fotografias históricas: 'Omaha Beach' por Robert Capa e 'Berlim' por Yevgeny Khaldei."
+      ],
+      "alternativas": {
+        "a": "ao desembarque dos Aliados para libertar a França da ocupação nazista e ao avanço decisivo das forças Aliadas frente à Alemanha.",
+        "b": "aos conflitos no Canal da Mancha, que deram início à Primeira Guerra Mundial, e à tomada de Berlim pelas tropas soviéticas.",
+        "c": "à fuga de membros da Resistência francesa para a Inglaterra após a invasão nazista e ao início da construção do Muro de Berlim.",
+        "d": "às batalhas no Mediterrâneo, que deram início à Segunda Guerra Mundial, e à incorporação da Alemanha à “cortina de ferro”.",
+        "e": "ao confronto entre a República de Vichy e a Resistência francesa e à vitória da União Soviética sobre os Aliados."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Segunda Guerra Mundial e criação da Declaração Universal dos Direitos Humanos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 89,
+      "tipo": "objetiva",
+      "enunciado": "A partir da perspectiva apresentada nas citações, é correto afirmar que a ideologia de Steve Bannon",
+      "textos_de_apoio": [
+        "No cerne da ideologia Bannon há uma série de contrastes extraordinariamente simplificadores entre bom e mau, sagrado e profano. Essa série semiótica cria perigosos outros, cuja existência contínua ameaça a boa gente que constitui o que Bannon descreve como a “verdadeira América”(...). Numa ordem social democrática, o conflito entre oponentes partidários é agonístico, não antagonístico. Bannon vê de outra forma. Não há espaço para a cortesia em seu universo (...).\nJeffrey Alexander. “Vociferando contra o iluminismo: A ideologia de Steve Bannon”. Sociologia & Antropologia, vol. 08, n. 3, set-dez, 2018.\n\nO antagonismo é a luta entre inimigos, enquanto o agonismo representa a luta entre adversários. (...) o propósito da política democrática é transformar antagonismo em agonismo. Isso demanda oferecer canais por meio dos quais às paixões coletivas serão dados mecanismos de expressarem-se sobre questões que, ainda que permitindo possibilidade suficiente de identificação, não construirão o opositor como inimigo, mas como adversário.\nChantal Mouffe. “Por um modelo agonístico de democracia”. Revista de Sociologia e Política, Curitiba, n. 25, nov. 2005, p. 11-23."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "defende uma ordem social agonística baseada na divisão entre grupos e nos conflitos entre inimigos políticos.",
+        "b": "sustenta uma ordem social baseada em consensos e que não admite conflitos entre adversários.",
+        "c": "defende a possibilidade de conflitos entre adversários, mas não admite a lógica antagonística da aniquilação e exclusão do inimigo.",
+        "d": "defende uma ordem social dividida entre bom e mau e que transforma o antagonismo em agonismo.",
+        "e": "sustenta uma ordem social antagonística fundada na divisão da sociedade entre lados opostos que devem ser entendidos como inimigos."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Filosofia e Sociologia",
+          "assuntos": [
+            "Estado, representação política, partidos e movimentos sociais",
+            "Concepção liberal do Estado e críticas marxistas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 90,
+      "tipo": "objetiva",
+      "enunciado": "O texto integra a proposta elaborada pelo IPHAN, em 2016, para inscrição do Sítio Arqueológico do Cais do Valongo na lista do Patrimônio Mundial. Com base no documento, a história do Cais do Valongo se entrelaça à história universal, pois se relaciona ao",
+      "textos_de_apoio": [
+        "O IPHAN - Instituto do Patrimônio Histórico e Artístico Nacional e a Prefeitura da Cidade do Rio de Janeiro envidaram esforços no sentido de deixar exposta para a contemplação da população parte do Sítio Arqueológico do Cais do Valongo, com o objetivo de apresentar ao visitante, através daquele pequeno, mas representativo espaço, a materialização do momento mais trágico da nossa história, fazendo com que ele não seja esquecido. (...)\nA história do Cais do Valongo e do seu entorno está indissoluvelmente ligada à história universal, por ter sido a porta de entrada do maior volume de africanos escravizados nas Américas. O Rio de Janeiro era, então, a mais afro-atlântica das cidades costeiras do território brasileiro (...).\nDisponível em http://portal.iphan.gov.br/."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "tráfico de africanos escravizados para a América de colonização portuguesa.",
+        "b": "Rio de Janeiro como única cidade escravista das Américas na época colonial.",
+        "c": "trabalho de escavação realizado por arqueólogos estrangeiros no passado.",
+        "d": "fluxo de escravizados do Brasil para outras partes das Américas, após as independências.",
+        "e": "esforço do IPHAN para silenciar a história da escravidão no mundo atlântico."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Grandes Navegações, espaço atlântico, reinos africanos e tráfico de escravizados",
+            "Desafios contemporâneos: racismo estrutural, migrações, sustentabilidade e novas tecnologias"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    }
+  ]
+}

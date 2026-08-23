@@ -1,0 +1,369 @@
+{
+  "exame": "fuvest_2012",
+  "figuras_coordenadas": {
+    "1": [
+      {
+        "pagina": 2,
+        "tipo": "cartum",
+        "elemento": "Duas charges sobre desmatamento",
+        "bbox": [
+          11,
+          67,
+          89,
+          272
+        ]
+      }
+    ],
+    "2": [
+      {
+        "pagina": 2,
+        "tipo": "grafico",
+        "elemento": "Dois mapas com localização de hotéis em São Paulo (1970 e 2000)",
+        "bbox": [
+          114,
+          120,
+          386,
+          627
+        ]
+      }
+    ],
+    "4": [
+      {
+        "pagina": 3,
+        "tipo": "grafico",
+        "elemento": "Três mapas temáticos do Brasil (IBGE e PNAD)",
+        "bbox": [
+          89,
+          124,
+          242,
+          838
+        ]
+      }
+    ],
+    "5": [
+      {
+        "pagina": 3,
+        "tipo": "grafico",
+        "elemento": "Mapas de renda per capita e bolsões de pobreza no Brasil",
+        "bbox": [
+          463,
+          113,
+          599,
+          492
+        ]
+      }
+    ],
+    "7": [
+      {
+        "pagina": 4,
+        "tipo": "grafico",
+        "elemento": "Mapa de tempestades de areia e gráfico de precipitação na China",
+        "bbox": [
+          90,
+          577,
+          427,
+          875
+        ]
+      }
+    ],
+    "8": [
+      {
+        "pagina": 4,
+        "tipo": "grafico",
+        "elemento": "Mapa mundial de áreas de plantio agrícola",
+        "bbox": [
+          520,
+          117,
+          643,
+          481
+        ]
+      }
+    ],
+    "13": [
+      {
+        "pagina": 5,
+        "tipo": "grafico",
+        "elemento": "Gráfico de concentração de anticorpos versus tempo",
+        "bbox": [
+          374,
+          552,
+          512,
+          861
+        ]
+      }
+    ],
+    "17": [
+      {
+        "pagina": 6,
+        "tipo": "grafico",
+        "elemento": "Mapa das rotas dos bandeirantes no Brasil colonial",
+        "bbox": [
+          110,
+          602,
+          319,
+          875
+        ]
+      }
+    ],
+    "18": [
+      {
+        "pagina": 6,
+        "tipo": "figura",
+        "elemento": "Esquema das sequências de RNA/DNA normal e mutante",
+        "bbox": [
+          627,
+          510,
+          786,
+          864
+        ]
+      }
+    ],
+    "24": [
+      {
+        "pagina": 8,
+        "tipo": "figura",
+        "elemento": "Fórmulas estruturais de linalol, eugenol, citronelal e anetol",
+        "bbox": [
+          374,
+          104,
+          552,
+          500
+        ]
+      }
+    ],
+    "26": [
+      {
+        "pagina": 8,
+        "tipo": "grafico",
+        "elemento": "Gráfico de densidade da mistura água e etanol",
+        "bbox": [
+          145,
+          552,
+          335,
+          858
+        ]
+      }
+    ],
+    "29": [
+      {
+        "pagina": 9,
+        "tipo": "grafico",
+        "elemento": "Gráfico de massa de SnI4 versus massa de Sn",
+        "bbox": [
+          181,
+          197,
+          302,
+          431
+        ]
+      }
+    ],
+    "30": [
+      {
+        "pagina": 9,
+        "tipo": "figura",
+        "elemento": "Esquemas de representação de partículas nas fases gasosa e aquosa",
+        "bbox": [
+          602,
+          104,
+          816,
+          484
+        ]
+      }
+    ],
+    "32": [
+      {
+        "pagina": 9,
+        "tipo": "figura",
+        "elemento": "Esquema do experimento com tubos de ensaio, ferro, água e óleo",
+        "bbox": [
+          471,
+          512,
+          672,
+          875
+        ]
+      }
+    ],
+    "33": [
+      {
+        "pagina": 10,
+        "tipo": "figura",
+        "elemento": "Ilustração do experimento de Luigi Galvani",
+        "bbox": [
+          181,
+          181,
+          308,
+          412
+        ]
+      }
+    ],
+    "53": [
+      {
+        "pagina": 14,
+        "tipo": "grafico",
+        "elemento": "Gráficos circulares sobre opinião pública norte-americana",
+        "bbox": [
+          230,
+          280,
+          600,
+          600
+        ]
+      }
+    ],
+    "55": [
+      {
+        "pagina": 14,
+        "tipo": "grafico",
+        "elemento": "Gráficos circulares sobre dados da pesquisa",
+        "bbox": [
+          230,
+          280,
+          600,
+          600
+        ]
+      }
+    ],
+    "56": [
+      {
+        "pagina": 14,
+        "tipo": "imagem",
+        "elemento": "Foto de robô",
+        "bbox": [
+          250,
+          750,
+          440,
+          880
+        ]
+      }
+    ],
+    "57": [
+      {
+        "pagina": 14,
+        "tipo": "imagem",
+        "elemento": "Foto de robô",
+        "bbox": [
+          250,
+          750,
+          440,
+          880
+        ]
+      }
+    ],
+    "63": [
+      {
+        "pagina": 15,
+        "tipo": "figura",
+        "elemento": "Esquema geométrico com triângulos e ângulos",
+        "bbox": [
+          50,
+          630,
+          240,
+          880
+        ]
+      }
+    ],
+    "77": [
+      {
+        "pagina": 19,
+        "tipo": "tabela",
+        "elemento": "Tabela de entrada de escravos no Brasil",
+        "bbox": [
+          110,
+          120,
+          200,
+          470
+        ]
+      }
+    ],
+    "80": [
+      {
+        "pagina": 20,
+        "tipo": "figura",
+        "elemento": "Móbile com elefantes",
+        "bbox": [
+          50,
+          380,
+          240,
+          470
+        ]
+      }
+    ],
+    "82": [
+      {
+        "pagina": 20,
+        "tipo": "figura",
+        "elemento": "Esquema das patinadoras",
+        "bbox": [
+          500,
+          160,
+          580,
+          330
+        ]
+      }
+    ],
+    "83": [
+      {
+        "pagina": 20,
+        "tipo": "figura",
+        "elemento": "Esquema do aparato de dilatação térmica",
+        "bbox": [
+          70,
+          380,
+          200,
+          880
+        ]
+      }
+    ],
+    "84": [
+      {
+        "pagina": 20,
+        "tipo": "figura",
+        "elemento": "Esquema de fibra óptica",
+        "bbox": [
+          610,
+          550,
+          700,
+          830
+        ]
+      }
+    ],
+    "88": [
+      {
+        "pagina": 21,
+        "tipo": "grafico",
+        "elemento": "Gráficos de ondas senoidais em cordas",
+        "bbox": [
+          110,
+          510,
+          200,
+          880
+        ]
+      }
+    ],
+    "89": [
+      {
+        "pagina": 22,
+        "tipo": "figura",
+        "elemento": "Linhas de campo elétrico e magnético",
+        "bbox": [
+          150,
+          110,
+          310,
+          490
+        ]
+      }
+    ],
+    "90": [
+      {
+        "pagina": 22,
+        "tipo": "grafico",
+        "elemento": "Gráfico de força versus ângulo da coluna",
+        "bbox": [
+          170,
+          530,
+          280,
+          880
+        ]
+      }
+    ]
+  }
+}

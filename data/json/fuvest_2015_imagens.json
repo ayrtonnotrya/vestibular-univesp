@@ -1,0 +1,482 @@
+{
+  "exame": "fuvest_2015",
+  "figuras_coordenadas": {
+    "1": [
+      {
+        "pagina": 2,
+        "tipo": "imagem",
+        "elemento": "Três imagens do Antigo Egito sobre atividades agrícolas",
+        "bbox": [
+          99,
+          137,
+          287,
+          893
+        ]
+      }
+    ],
+    "5": [
+      {
+        "pagina": 3,
+        "tipo": "cartum",
+        "elemento": "Charge da Índia de 1946 com animais representando ameaças",
+        "bbox": [
+          128,
+          545,
+          335,
+          919
+        ]
+      }
+    ],
+    "10": [
+      {
+        "pagina": 5,
+        "tipo": "tabela",
+        "elemento": "Tabela de imigração no Brasil de 1881 a 1930",
+        "bbox": [
+          193,
+          142,
+          439,
+          442
+        ]
+      }
+    ],
+    "11": [
+      {
+        "pagina": 6,
+        "tipo": "cartum",
+        "elemento": "Charge sobre economia da China e União Europeia",
+        "bbox": [
+          107,
+          107,
+          303,
+          381
+        ]
+      }
+    ],
+    "12": [
+      {
+        "pagina": 6,
+        "tipo": "grafico",
+        "elemento": "Gráfico de habitantes por autoveículo em vários países (2003 e 2012)",
+        "bbox": [
+          215,
+          508,
+          417,
+          786
+        ]
+      }
+    ],
+    "16": [
+      {
+        "pagina": 7,
+        "tipo": "imagem",
+        "elemento": "Mapa com destaque para a Dorsal Atlântica",
+        "bbox": [
+          98,
+          142,
+          237,
+          344
+        ]
+      }
+    ],
+    "18": [
+      {
+        "pagina": 8,
+        "tipo": "imagem",
+        "elemento": "Três mapas do Brasil com a produção de leite (1940, 1975, 2006)",
+        "bbox": [
+          108,
+          142,
+          307,
+          439
+        ]
+      }
+    ],
+    "20": [
+      {
+        "pagina": 9,
+        "tipo": "imagem",
+        "elemento": "Conjunto de 5 fotos de paisagens litorâneas do Brasil",
+        "bbox": [
+          211,
+          269,
+          755,
+          345
+        ]
+      }
+    ],
+    "22": [
+      {
+        "pagina": 10,
+        "tipo": "cartum",
+        "elemento": "Cartum de Quino com placas de trânsito e pedestres",
+        "bbox": [
+          107,
+          107,
+          280,
+          381
+        ]
+      }
+    ],
+    "40": [
+      {
+        "pagina": 15,
+        "tipo": "ilustração",
+        "elemento": "Esquema da cabeça com cérebro e estrada",
+        "bbox": [
+          99,
+          521,
+          191,
+          650
+        ]
+      }
+    ],
+    "45": [
+      {
+        "pagina": 16,
+        "tipo": "figura",
+        "elemento": "Trajetória parabólica de um projétil a partir de um penhasco",
+        "bbox": [
+          55,
+          237,
+          269,
+          444
+        ]
+      }
+    ],
+    "48": [
+      {
+        "pagina": 16,
+        "tipo": "figura",
+        "elemento": "Triângulo retângulo ABC com ponto M no cateto BC",
+        "bbox": [
+          133,
+          730,
+          319,
+          878
+        ]
+      }
+    ],
+    "49": [
+      {
+        "pagina": 16,
+        "tipo": "figura",
+        "elemento": "Esquema tridimensional da pirâmide sobre paralelepípedo",
+        "bbox": [
+          530,
+          521,
+          693,
+          856
+        ]
+      }
+    ],
+    "54": [
+      {
+        "pagina": 17,
+        "tipo": "grafico",
+        "elemento": "Gráfico de barras de nascimentos por faixa etária da mãe (1999, 2004, 2009)",
+        "bbox": [
+          156,
+          526,
+          335,
+          908
+        ]
+      }
+    ],
+    "56": [
+      {
+        "pagina": 18,
+        "tipo": "imagem",
+        "elemento": "Mapa mundi com destaque para antípodas",
+        "bbox": [
+          247,
+          107,
+          439,
+          447
+        ]
+      }
+    ],
+    "57": [
+      {
+        "pagina": 19,
+        "tipo": "figura",
+        "elemento": "Esquema da válvula de pino da panela de pressão",
+        "bbox": [
+          108,
+          237,
+          303,
+          442
+        ]
+      }
+    ],
+    "58": [
+      {
+        "pagina": 19,
+        "tipo": "figura",
+        "elemento": "Esquema de elevador caindo sobre mola",
+        "bbox": [
+          555,
+          237,
+          786,
+          350
+        ]
+      }
+    ],
+    "59": [
+      {
+        "pagina": 19,
+        "tipo": "grafico",
+        "elemento": "Três circuitos elétricos com lâmpadas (I, II, III)",
+        "bbox": [
+          151,
+          521,
+          451,
+          856
+        ]
+      }
+    ],
+    "60": [
+      {
+        "pagina": 19,
+        "tipo": "figura",
+        "elemento": "Incidência de luz em espelho esférico convexo com pontos A, B e C",
+        "bbox": [
+          676,
+          521,
+          888,
+          853
+        ]
+      }
+    ],
+    "64": [
+      {
+        "pagina": 20,
+        "tipo": "grafico",
+        "elemento": "Diagrama p-V do ciclo termodinâmico ABCA",
+        "bbox": [
+          433,
+          532,
+          590,
+          814
+        ]
+      }
+    ],
+    "65": [
+      {
+        "pagina": 21,
+        "tipo": "figura",
+        "elemento": "Guindaste e plano cartesiano indicando o centro de massa",
+        "bbox": [
+          99,
+          298,
+          269,
+          447
+        ]
+      }
+    ],
+    "66": [
+      {
+        "pagina": 21,
+        "tipo": "grafico",
+        "elemento": "Gráfico da energia potencial U versus posição x",
+        "bbox": [
+          555,
+          137,
+          729,
+          442
+        ]
+      }
+    ],
+    "67": [
+      {
+        "pagina": 21,
+        "tipo": "figura",
+        "elemento": "Teclado de piano com notas musicais identificadas",
+        "bbox": [
+          98,
+          521,
+          239,
+          814
+        ]
+      }
+    ],
+    "70": [
+      {
+        "pagina": 22,
+        "tipo": "tabela",
+        "elemento": "Tabela de massas e volumes de cremes dentais",
+        "bbox": [
+          555,
+          237,
+          650,
+          412
+        ]
+      }
+    ],
+    "71": [
+      {
+        "pagina": 22,
+        "tipo": "figura",
+        "elemento": "Esquemas moleculares numerados de I a V",
+        "bbox": [
+          108,
+          142,
+          280,
+          814
+        ]
+      }
+    ],
+    "73": [
+      {
+        "pagina": 23,
+        "tipo": "grafico",
+        "elemento": "Estruturas químicas e gráfico de conversão de eugenol a isoeugenol",
+        "bbox": [
+          108,
+          142,
+          350,
+          442
+        ]
+      }
+    ],
+    "74": [
+      {
+        "pagina": 23,
+        "tipo": "figura",
+        "elemento": "Simulador de soluções com proveta e cursores",
+        "bbox": [
+          207,
+          521,
+          417,
+          919
+        ]
+      },
+      {
+        "pagina": 23,
+        "tipo": "figura",
+        "elemento": "Opções a, b, c, d, e com posições dos cursores A e B",
+        "bbox": [
+          555,
+          521,
+          796,
+          919
+        ]
+      }
+    ],
+    "75": [
+      {
+        "pagina": 24,
+        "tipo": "grafico",
+        "elemento": "Gráfico de massa de ureia e água versus massa de amônia",
+        "bbox": [
+          98,
+          545,
+          235,
+          908
+        ]
+      }
+    ],
+    "76": [
+      {
+        "pagina": 24,
+        "tipo": "figura",
+        "elemento": "Esquema de oxidação e descarbonilação do 1,4-pentanodiol",
+        "bbox": [
+          471,
+          107,
+          560,
+          417
+        ]
+      },
+      {
+        "pagina": 24,
+        "tipo": "tabela",
+        "elemento": "Tabela com opções de estruturas para os compostos A e B",
+        "bbox": [
+          588,
+          107,
+          856,
+          447
+        ]
+      }
+    ],
+    "77": [
+      {
+        "pagina": 24,
+        "tipo": "tabela",
+        "elemento": "Dados do experimento e massas molares",
+        "bbox": [
+          588,
+          545,
+          786,
+          814
+        ]
+      }
+    ],
+    "80": [
+      {
+        "pagina": 25,
+        "tipo": "figura",
+        "elemento": "Fórmula estrutural da capsaicina",
+        "bbox": [
+          207,
+          545,
+          335,
+          919
+        ]
+      }
+    ],
+    "84": [
+      {
+        "pagina": 26,
+        "tipo": "figura",
+        "elemento": "Árvore filogenética com animais e nós numerados de 1 a 7",
+        "bbox": [
+          98,
+          511,
+          319,
+          878
+        ]
+      }
+    ],
+    "85": [
+      {
+        "pagina": 26,
+        "tipo": "figura",
+        "elemento": "Esquemas de células animais em soluções com setas de fluxo de água",
+        "bbox": [
+          706,
+          521,
+          804,
+          888
+        ]
+      }
+    ],
+    "89": [
+      {
+        "pagina": 27,
+        "tipo": "figura",
+        "elemento": "Diagramas de Venn (a, b, c, d, e) para os grupos vegetais",
+        "bbox": [
+          287,
+          107,
+          493,
+          856
+        ]
+      }
+    ],
+    "90": [
+      {
+        "pagina": 27,
+        "tipo": "tabela",
+        "elemento": "Tabela de correspondência entre substâncias/nutrientes e vasos sanguíneos",
+        "bbox": [
+          771,
+          521,
+          888,
+          888
+        ]
+      }
+    ]
+  }
+}

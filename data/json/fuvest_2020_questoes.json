@@ -1,0 +1,2617 @@
+{
+  "exame": "fuvest_2020_questoes",
+  "ano": 2020,
+  "semestre": null,
+  "fonte_questoes": "data/fuvest_2020_questoes.pdf",
+  "fonte_gabarito": "data/fuvest_2020_gabarito.pdf",
+  "total_questoes": 90,
+  "questoes": [
+    {
+      "numero": 1,
+      "tipo": "objetiva",
+      "enunciado": "Em Xangai, uma loja especializada em café oferece uma opção diferente para adoçar a bebida. A chamada sweet little rain consiste em uma xícara de café sobre a qual é pendurado um algodão-doce, material rico em sacarose, o que passa a impressão de existir uma nuvem pairando sobre o café, conforme ilustrado na imagem.\nO café quente é então adicionado na xícara e, passado um tempo, gotículas começam a pingar sobre a bebida, simulando uma chuva doce e reconfortante. A adição de café quente inicia o processo descrito, pois",
+      "textos_de_apoio": [
+        "Em Xangai, uma loja especializada em café oferece uma opção diferente para adoçar a bebida. A chamada sweet little rain consiste em uma xícara de café sobre a qual é pendurado um algodão-doce, material rico em sacarose, o que passa a impressão de existir uma nuvem pairando sobre o café, conforme ilustrado na imagem.",
+        "Note e adote:\nTemperatura de fusão da sacarose à pressão ambiente = 186 °C;\nSolubilidade da sacarose a 20 °C = 1,97 kg/L de água."
+      ],
+      "midia": [
+        "Página 2: Ilustração de uma xícara de café com um algodão-doce pendurado acima dela, simulando uma nuvem, e gotículas pingando."
+      ],
+      "alternativas": {
+        "a": "a temperatura do café é suficiente para liquefazer a sacarose do algodão-doce, fazendo com que este goteje na forma de sacarose líquida.",
+        "b": "o vapor de água que sai do café quente irá condensar na superfície do algodão-doce, gotejando na forma de água pura.",
+        "c": "a sacarose que evapora do café quente condensa na superfície do algodão-doce e goteja na forma de uma solução de sacarose em água.",
+        "d": "o vapor de água encontra o algodão-doce e solubiliza a sacarose, que goteja na forma de uma solução de sacarose em água.",
+        "e": "o vapor de água encontra o algodão-doce e vaporiza a sacarose, que goteja na forma de uma solução de sacarose em água."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Água e soluções aquosas: solubilidade, tipos de concentração (g/L, mol/L, ppm) e diluição",
+            "Estados físicos da matéria e diagramas de aquecimento/resfriamento"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 2,
+      "tipo": "objetiva",
+      "enunciado": "Equipamentos domésticos chamados de vaporizadores para roupa utilizam o vapor de água gerado por um sistema de resistências elétricas a partir de água líquida. Um equipamento com potência nominal de 1.600 W foi utilizado para passar roupas por 20 minutos, consumindo 540 mL de água. Em relação ao gasto total de energia do equipamento, o gasto de energia utilizado apenas para vaporizar a água, após ela já ter atingido a temperatura de ebulição, equivale a, aproximadamente,",
+      "textos_de_apoio": [
+        "Note e adote:\nEntalpia de vaporização da água a 100 °C = 40 kJ/mol;\nMassa molar da água = 18 g/mol;\nDensidade da água = 1 g/mL."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "0,04%.",
+        "b": "0,062%.",
+        "c": "4,6%.",
+        "d": "40%.",
+        "e": "62%."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Potência mecânica e rendimento",
+            "Calorimetria: calor sensível, capacidade térmica, calor latente e trocas de calor"
+          ]
+        },
+        {
+          "area": "Química",
+          "assuntos": [
+            "Cálculos estequiométricos: relações de massa, volume, mols e pureza/rendimento",
+            "Termoquímica: reações exotérmicas e endotérmicas, entalpia e equações termoquímicas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 3,
+      "tipo": "objetiva",
+      "enunciado": "Pesquisadores (...) conseguiram controlar reações químicas de um modo inovador. Usaram feixes de laser para promover um esbarrão entre dois átomos e uni-los, criando uma molécula. Utilizando pinças ópticas (feixes de laser altamente focados capazes de aprisionar objetos microscópicos), os pesquisadores empurraram um átomo do elemento químico césio (Cs) contra um átomo de sódio (Na) até que colidissem. Um terceiro laser foi lançado sobre ambos, fornecendo energia extra para criar a molécula NaCs. Na natureza, as moléculas formam-se a partir da interação de átomos por acaso. Por suas características químicas, césio e sódio jamais originariam uma molécula espontaneamente. (...)\nCom base nas informações do texto e em seus conhecimentos, é correto afirmar que",
+      "textos_de_apoio": [
+        "Pesquisadores (...) conseguiram controlar reações químicas de um modo inovador. Usaram feixes de laser para promover um esbarrão entre dois átomos e uni-los, criando uma molécula. Utilizando pinças ópticas (feixes de laser altamente focados capazes de aprisionar objetos microscópicos), os pesquisadores empurraram um átomo do elemento químico césio (Cs) contra um átomo de sódio (Na) até que colidissem. Um terceiro laser foi lançado sobre ambos, fornecendo energia extra para criar a molécula NaCs. Na natureza, as moléculas formam-se a partir da interação de átomos por acaso. Por suas características químicas, césio e sódio jamais originariam uma molécula espontaneamente. (...)\nMolécula criada em laboratório. Disponível em http://revistapesquisa.fapesp.br/. Adaptado."
+      ],
+      "midia": [
+        "Página 2: Tabela Periódica dos Elementos Químicos destacando Na e Cs."
+      ],
+      "alternativas": {
+        "a": "o Cs é um elemento químico radioativo e, devido a essa característica química, a molécula de NaCs não se formaria sem esse modo inovador (L.2), que estabiliza o decaimento.",
+        "b": "o raio atômico do Na é maior que o do Cs, portanto, a sua energia de ionização também é maior. O esbarrão (L.3) entre os átomos retira um elétron do Na, permitindo a ligação.",
+        "c": "o terceiro laser (L.8) usado no experimento serviu para retirar um nêutron do Cs, tornando-o um cátion e possibilitando a reação com o Na.",
+        "d": "na natureza, com esses elementos se esbarrando por acaso (L.10-11), a tendência seria formar CsNa, e não NaCs, justificando o caráter inovador do experimento.",
+        "e": "o Cs e o Na não formariam uma molécula espontaneamente (L.11-12), uma vez que ambos têm grande tendência a formarem cátions e ligações iônicas."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Tabela Periódica: organização, famílias, períodos e propriedades periódicas",
+            "Ligação iônica e características dos compostos iônicos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 4,
+      "tipo": "objetiva",
+      "enunciado": "Ao se preparar molho de tomate (considere apenas a fervura de tomate batido com água e azeite), é possível observar que a fração aquosa (fase inferior) fica vermelha logo no início e a fração oleosa (fase superior), inicialmente com a cor característica do azeite, começa a ficar avermelhada conforme o preparo do molho. Por outro lado, ao se preparar uma sopa de beterraba (considere apenas a fervura de beterraba batida com água e azeite), a fração aquosa (fase inferior) fica com a cor rosada e a fração oleosa (fase superior) permanece com sua coloração típica durante todo o processo, não tendo sua cor alterada.\nConsiderando as informações apresentadas no texto e no quadro, a principal razão para a diferença de coloração descrita é que a fração oleosa",
+      "textos_de_apoio": [
+        "Ao se preparar molho de tomate (considere apenas a fervura de tomate batido com água e azeite), é possível observar que a fração aquosa (fase inferior) fica vermelha logo no início e a fração oleosa (fase superior), inicialmente com a cor característica do azeite, começa a ficar avermelhada conforme o preparo do molho. Por outro lado, ao se preparar uma sopa de beterraba (considere apenas a fervura de beterraba batida com água e azeite), a fração aquosa (fase inferior) fica com a cor rosada e a fração oleosa (fase superior) permanece com sua coloração típica durante todo o processo, não tendo sua cor alterada.",
+        "Note e adote:\nMassas molares (g/mol):\nLicopeno = 537; betanina = 551."
+      ],
+      "midia": [
+        "Página 3: Ilustrações do molho de tomate e sopa de beterraba com separação de fases e fórmulas químicas estruturais do licopeno e da betanina."
+      ],
+      "alternativas": {
+        "a": "fica mais quente do que a aquosa, degradando a betanina; o mesmo não é observado com o licopeno, devido à sua cadeia carbônica longa.",
+        "b": "está mais exposta ao ar, que oxida a betanina; o mesmo não é observado com o licopeno, devido à grande quantidade de duplas ligações.",
+        "c": "é apolar e a betanina, polar, havendo pouca interação; o mesmo não é observado com o licopeno, que é apolar e irá interagir com o azeite.",
+        "d": "é apolar e a aquosa, polar, mantendo-se separadas; o licopeno age como um surfactante misturando as fases, colorindo a oleosa, enquanto a betanina não.",
+        "e": "tem alta viscosidade, facilitando a difusão do licopeno, composto de menor massa molar; o mesmo não é observado para a betanina, com maior massa."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Polaridade de ligações e de moléculas (uso da eletronegatividade)",
+            "Interações intermoleculares (forças de London, dipolo-dipolo e ligação de hidrogênio)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 5,
+      "tipo": "objetiva",
+      "enunciado": "Numa determinada condição experimental e com o catalisador adequado, ocorre uma reação, conforme representada no gráfico, que relaciona porcentagem do composto pelo tempo de reação.\nUma representação adequada para esse processo é:",
+      "textos_de_apoio": [
+        "Numa determinada condição experimental e com o catalisador adequado, ocorre uma reação, conforme representada no gráfico, que relaciona porcentagem do composto pelo tempo de reação."
+      ],
+      "midia": [
+        "Página 3: Gráfico de quantidade (%) versus tempo (minutos) para limoneno, p-cimeno e α-terpineno."
+      ],
+      "alternativas": {
+        "a": "limoneno ⇌ p-cimeno → α-terpineno",
+        "b": "limoneno ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯→ p-cimeno (catalisador) α-terpineno",
+        "c": "limoneno + p-cimeno ⇌ α-terpineno",
+        "d": "limoneno ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯→ α-terpineno (catalisador) p-cimeno",
+        "e": "limoneno → α-terpineno → p-cimeno"
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Cinética Química: rapidez de reação, teoria das colisões e energia de ativação",
+            "Fatores que alteram a velocidade da reação (concentração, temperatura, catalisador)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 6,
+      "tipo": "objetiva",
+      "enunciado": "Os chamados “remédios homeopáticos” são produzidos seguindo a farmacotécnica homeopática, que se baseia em diluições sequenciais de determinados compostos naturais. A dosagem utilizada desses produtos é da ordem de poucos mL. Uma das técnicas de diluição homeopática é chamada de diluição centesimal (CH), ou seja, uma parte da solução é diluída em 99 partes de solvente e a solução resultante é homogeneizada (ver esquema).\nAlguns desses produtos homeopáticos são produzidos com até 200 diluições centesimais sequenciais (200CH).\nConsiderando uma solução de partida de 100 mL com concentração 1 mol/L de princípio ativo, a partir de qual diluição centesimal a solução passa a não ter, em média, nem mesmo uma molécula do princípio ativo?",
+      "textos_de_apoio": [
+        "Os chamados “remédios homeopáticos” são produzidos seguindo a farmacotécnica homeopática, que se baseia em diluições sequenciais de determinados compostos naturais. A dosagem utilizada desses produtos é da ordem de poucos mL. Uma das técnicas de diluição homeopática é chamada de diluição centesimal (CH), ou seja, uma parte da solução é diluída em 99 partes de solvente e a solução resultante é homogeneizada (ver esquema).",
+        "Alguns desses produtos homeopáticos são produzidos com até 200 diluições centesimais sequenciais (200CH).",
+        "Note e adote:\nNúmero de Avogadro = 6×10²³."
+      ],
+      "midia": [
+        "Página 3: Esquema de diluições sequenciais em tubos de ensaio."
+      ],
+      "alternativas": {
+        "a": "12ª diluição (12CH).",
+        "b": "24ª diluição (24CH).",
+        "c": "51ª diluição (51CH).",
+        "d": "99ª diluição (99CH).",
+        "e": "200ª diluição (200CH)."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Água e soluções aquosas: solubilidade, tipos de concentração (g/L, mol/L, ppm) e diluição"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 7,
+      "tipo": "objetiva",
+      "enunciado": "O gás hélio disponível comercialmente pode ser gerado pelo decaimento radioativo, sobretudo do urânio, conforme esquematizado pela série de decaimento. Desde a formação da Terra, há 4,5 bilhões de anos, apenas metade do ²³⁸U decaiu para a formação de He.\nCom base nessas informações e em seus conhecimentos, é correto afirmar:",
+      "textos_de_apoio": [
+        "O gás hélio disponível comercialmente pode ser gerado pelo decaimento radioativo, sobretudo do urânio, conforme esquematizado pela série de decaimento. Desde a formação da Terra, há 4,5 bilhões de anos, apenas metade do ²³⁸U decaiu para a formação de He."
+      ],
+      "midia": [
+        "Página 4: Esquema da série de decaimento radioativo do Urânio-238 até Chumbo-206."
+      ],
+      "alternativas": {
+        "a": "O decaimento de um átomo de ²³⁸U produz, ao final da série de decaimento, apenas um átomo de He.",
+        "b": "O decaimento do ²³⁸U para ²³⁴U gera a mesma quantidade de He que o decaimento do ²³⁴U para ²³⁰Th.",
+        "c": "Daqui a 4,5 bilhões de anos, a quantidade de He no planeta Terra será o dobro da atual.",
+        "d": "O decaimento do ²³⁸U para ²³⁴U gera a mesma quantidade de He que o decaimento do ²¹⁴Pb para ²¹⁴Po.",
+        "e": "A produção de He ocorre pela sequência de decaimento a partir do ²⁰⁶Pb."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Radioatividade: emissões nucleares, meia-vida, datação, fissão e fusão nuclear"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 8,
+      "tipo": "objetiva",
+      "enunciado": "Os movimentos das moléculas antes e depois de uma reação química obedecem aos princípios físicos de colisões. Para tanto, cada átomo é representado como um corpo pontual com uma certa massa, ocupando uma posição no espaço e com uma determinada velocidade (representada na forma vetorial). Costumeiramente, os corpos pontuais são representados como esferas com diâmetros proporcionais à massa atômica. As colisões ocorrem conservando a quantidade de movimento.\nConsiderando um referencial no qual as moléculas neutras encontram-se paradas antes e após a colisão, a alternativa que melhor representa o arranjo de íons e moléculas instantes antes e instantes depois de uma colisão que leva à reação\nF⁻ + H₃CCl → CH₃F + Cl⁻\né",
+      "textos_de_apoio": [
+        "Os movimentos das moléculas antes e depois de uma reação química obedecem aos princípios físicos de colisões. Para tanto, cada átomo é representado como um corpo pontual com uma certa massa, ocupando uma posição no espaço e com uma determinada velocidade (representada na forma vetorial). Costumeiramente, os corpos pontuais são representados como esferas com diâmetros proporcionais à massa atômica. As colisões ocorrem conservando a quantidade de movimento.",
+        "Note e adote:\nMassas atômicas: H = 1 u.m.a., C = 12 u.m.a., F = 19 u.m.a. e Cl = 35 u.m.a.\nConsidere que apenas o isótopo de cloro Cl = 35 u.m.a. participa da reação."
+      ],
+      "midia": [
+        "Página 4: Tabela com representações de colisões entre íons e neutros (A, B, C, D, E)."
+      ],
+      "alternativas": {
+        "a": "(A)",
+        "b": "(B)",
+        "c": "(C)",
+        "d": "(D)",
+        "e": "(E)"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Impulso, quantidade de movimento e conservação da quantidade de movimento (colisões)"
+          ]
+        },
+        {
+          "area": "Química",
+          "assuntos": [
+            "Evidências macroscópicas de transformações químicas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 9,
+      "tipo": "objetiva",
+      "enunciado": "Quando o nosso corpo é lesionado por uma pancada, logo se cria um hematoma que, ao longo do tempo, muda de cor. Inicialmente, o hematoma torna-se avermelhado pelo acúmulo de hemoglobina. Em seguida, surge uma coloração azulada, decorrente da perda do O₂ ligado ao Fe do grupo heme. Essa coloração torna-se, então, esverdeada (biliverdina) e, após isso, surge um tom amarelado na pele (bilirrubina). Essa sequência de cores ocorre pela transformação do grupo heme da hemoglobina, como representado a seguir:\nCom base nas informações e nas representações, é correto afirmar:",
+      "textos_de_apoio": [
+        "Quando o nosso corpo é lesionado por uma pancada, logo se cria um hematoma que, ao longo do tempo, muda de cor. Inicialmente, o hematoma torna-se avermelhado pelo acúmulo de hemoglobina. Em seguida, surge uma coloração azulada, decorrente da perda do O₂ ligado ao Fe do grupo heme. Essa coloração torna-se, então, esverdeada (biliverdina) e, após isso, surge um tom amarelado na pele (bilirrubina). Essa sequência de cores ocorre pela transformação do grupo heme da hemoglobina, como representado a seguir:"
+      ],
+      "midia": [
+        "Página 4: Fórmulas estruturais do Grupo Heme, Biliverdina e Bilirrubina."
+      ],
+      "alternativas": {
+        "a": "A conversão da biliverdina em bilirrubina ocorre por meio de uma redução.",
+        "b": "A biliverdina, assim como a hemoglobina, é capaz de transportar O₂ para as células do corpo, pois há oxigênio ligado na molécula.",
+        "c": "As três estruturas apresentadas contêm o grupo funcional amida.",
+        "d": "A degradação do grupo heme para a formação da biliverdina produz duas cetonas.",
+        "e": "O grupo heme, a biliverdina e a bilirrubina são isômeros."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Principais funções orgânicas: hidrocarbonetos, álcoois, fenóis, éteres, ésteres, aldeídos, cetonas, ácidos carboxílicos, aminas e amidas",
+            "Eletroquímica: reações de oxirredução, números de oxidação (NOX) e agentes oxidantes/redutores"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 10,
+      "tipo": "objetiva",
+      "enunciado": "A reação de cetonas com hidrazinas, representada pela equação química\n(R₁R₂C=O + H₂N-NH₂ → R₁R₂C=N-NH₂ + H₂O)\npode ser explorada para a quantificação de compostos cetônicos gerados, por exemplo, pela respiração humana. Para tanto, uma hidrazina específica, a 2,4-dinitrofenilhidrazina, é utilizada como reagente, gerando um produto que possui cor intensa.\nConsidere que a 2,4-dinitrofenilhidrazina seja utilizada para quantificar o seguinte composto:\nNesse caso, a estrutura do composto colorido formado será:",
+      "textos_de_apoio": [
+        "A reação de cetonas com hidrazinas, representada pela equação química... pode ser explorada para a quantificação de compostos cetônicos gerados, por exemplo, pela respiração humana. Para tanto, uma hidrazina específica, a 2,4-dinitrofenilhidrazina, é utilizada como reagente, gerando um produto que possui cor intensa.",
+        "Considere que a 2,4-dinitrofenilhidrazina seja utilizada para quantificar o seguinte composto:"
+      ],
+      "midia": [
+        "Página 5: Equação geral da reação de cetona com hidrazina, estrutura da 2,4-dinitrofenilhidrazina, estrutura de um composto cetônico e alternativas com estruturas químicas (A, B, C, D, E)."
+      ],
+      "alternativas": {
+        "a": "(A)",
+        "b": "(B)",
+        "c": "(C)",
+        "d": "(D)",
+        "e": "(E)"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Reações orgânicas fundamentais: substituição, adição, eliminação, oxidação e esterificação/saponificação",
+            "Principais funções orgânicas: hidrocarbonetos, álcoois, fenóis, éteres, ésteres, aldeídos, cetonas, ácidos carboxílicos, aminas e amidas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 11,
+      "tipo": "objetiva",
+      "enunciado": "Em supermercados, é comum encontrar alimentos chamados de liofilizados, como frutas, legumes e carnes. Alimentos liofilizados continuam próprios para consumo após muito tempo, mesmo sem refrigeração. O termo “liofilizado”, nesses alimentos, refere-se ao processo de congelamento e posterior desidratação por sublimação da água. Para que a sublimação da água ocorra, é necessária uma combinação de condições, como mostra o gráfico de pressão por temperatura, em que as linhas representam transições de fases.\nApesar de ser um processo que requer, industrialmente, uso de certa tecnologia, existem evidências de que os povos pré-colombianos que viviam nas regiões mais altas dos Andes conseguiam liofilizar alimentos, possibilitando estocá-los por mais tempo. Assinale a alternativa que explica como ocorria o processo de liofilização natural:",
+      "textos_de_apoio": [
+        "Em supermercados, é comum encontrar alimentos chamados de liofilizados, como frutas, legumes e carnes. Alimentos liofilizados continuam próprios para consumo após muito tempo, mesmo sem refrigeração. O termo “liofilizado”, nesses alimentos, refere-se ao processo de congelamento e posterior desidratação por sublimação da água. Para que a sublimação da água ocorra, é necessária uma combinação de condições, como mostra o gráfico de pressão por temperatura, em que as linhas representam transições de fases.",
+        "Apesar de ser um processo que requer, industrialmente, uso de certa tecnologia, existem evidências de que os povos pré-colombianos que viviam nas regiões mais altas dos Andes conseguiam liofilizar alimentos, possibilitando estocá-los por mais tempo."
+      ],
+      "midia": [
+        "Página 5: Diagrama de fases (Pressão x Temperatura)."
+      ],
+      "alternativas": {
+        "a": "A sublimação da água ocorria devido às baixas temperaturas e à alta pressão atmosférica nas montanhas.",
+        "b": "Os alimentos, após congelados naturalmente nos períodos frios, eram levados para a parte mais baixa das montanhas, onde a pressão atmosférica era menor, o que possibilitava a sublimação.",
+        "c": "Os alimentos eram expostos ao sol para aumentar a temperatura, e a baixa pressão atmosférica local favorecia a solidificação.",
+        "d": "As temperaturas eram baixas o suficiente nos períodos frios para congelar os alimentos, e a baixa pressão atmosférica nas altas montanhas possibilitava a sublimação.",
+        "e": "Os alimentos, após congelados naturalmente, eram prensados para aumentar a pressão, de forma que a sublimação ocorresse."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Estados físicos da matéria e diagramas de aquecimento/resfriamento"
+          ]
+        },
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Climatologia: fatores/elementos do clima, dinâmica das massas de ar e climas do Brasil e do mundo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 12,
+      "tipo": "objetiva",
+      "enunciado": "Para exemplificar probabilidade, um grupo de estudantes fez uma atividade envolvendo química, conforme o procedimento descrito.\nCada estudante recebeu um recipiente contendo 800 mL de água destilada com algumas gotas do indicador de pH alaranjado de metila e soluções de HCl e NaOH em diversas concentrações.\nCada estudante deveria jogar apenas uma vez dois dados, um amarelo e um vermelho, ambos contendo os números de 1 a 6.\n• Ao jogar o dado vermelho, o estudante deveria adicionar ao recipiente 100 mL de solução do ácido clorídrico na concentração 10⁻ⁿ mol/L, sendo n o número marcado no dado (por exemplo, se saísse o número 1 no dado, a solução seria de 10⁻¹ mol/L; se saísse 6, a solução seria de 10⁻⁶ mol/L).\n• Ao jogar o dado amarelo, o estudante deveria executar o mesmo procedimento, mas substituindo o ácido por NaOH, totalizando assim 1,0 L de solução.\n• O estudante deveria observar a cor da solução ao final do experimento.\nA professora mostrou a tabela com alguns valores de pH resultantes conforme os números tirados nos dados. Ela pediu, então, aos estudantes que utilizassem seus conhecimentos e a tabela para prever em quais combinações de dados a cor final do indicador seria vermelha.\n[Tabela de dados]\nA probabilidade de, após realizar o procedimento descrito, a solução final preparada por um estudante ser vermelha é de:",
+      "textos_de_apoio": [
+        "Para exemplificar probabilidade, um grupo de estudantes fez uma atividade envolvendo química, conforme o procedimento descrito.",
+        "Cada estudante recebeu um recipiente contendo 800 mL de água destilada com algumas gotas do indicador de pH alaranjado de metila e soluções de HCl e NaOH em diversas concentrações.",
+        "Cada estudante deveria jogar apenas uma vez dois dados, um amarelo e um vermelho, ambos contendo os números de 1 a 6.",
+        "Note e adote:\nConsidere a seguinte relação entre pH do meio e coloração do indicador alaranjado de metila:\nMenor que 3,3 | 3,3 a 4,4 | Maior que 4,4\nVermelho | Laranja | Amarelo"
+      ],
+      "midia": [
+        "Página 6: Tabela com resultados de pH para os valores dos dados e escala de cores do indicador."
+      ],
+      "alternativas": {
+        "a": "1/12",
+        "b": "1/6",
+        "c": "1/4",
+        "d": "11/36",
+        "e": "5/12"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Espaço amostral (discreto e contínuo) e conceito de probabilidade"
+          ]
+        },
+        {
+          "area": "Química",
+          "assuntos": [
+            "Equilíbrio iônico da água, escala de pH, pOH e hidrólise de sais"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 13,
+      "tipo": "objetiva",
+      "enunciado": "Carros que saem da cidade A rumo a alguma das cidades turísticas E, F e G fazem caminhos diversos, passando por pelo menos uma das cidades B, C e D, apenas no sentido indicado pelas setas, como mostra a figura. Os números indicados nas setas são as probabilidades, dentre esses carros, de se ir de uma cidade a outra.\nNesse cenário, a probabilidade de um carro ir de A a F é",
+      "textos_de_apoio": [
+        "Carros que saem da cidade A rumo a alguma das cidades turísticas E, F e G fazem caminhos diversos, passando por pelo menos uma das cidades B, C e D, apenas no sentido indicado pelas setas, como mostra a figura. Os números indicados nas setas são as probabilidades, dentre esses carros, de se ir de uma cidade a outra."
+      ],
+      "midia": [
+        "Página 6: Fluxograma/mapa de cidades com probabilidades nas setas."
+      ],
+      "alternativas": {
+        "a": "0,120.",
+        "b": "0,216.",
+        "c": "0,264.",
+        "d": "0,336.",
+        "e": "0,384."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Probabilidade da união e da intersecção de eventos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 14,
+      "tipo": "objetiva",
+      "enunciado": "Se, em 15 anos, o salário mínimo teve um aumento nominal de 300% e a inflação foi de 100%, é correto afirmar que o aumento real do salário mínimo, nesse período, foi de",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "50%.",
+        "b": "100%.",
+        "c": "150%.",
+        "d": "200%.",
+        "e": "250%."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Matemática Financeira: porcentagem, juros simples, juros compostos, taxas e índices"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 15,
+      "tipo": "objetiva",
+      "enunciado": "O cilindro de papelão central de uma fita crepe tem raio externo de 3 cm. A fita tem espessura de 0,01 cm e dá 100 voltas completas. Considerando que, a cada volta, o raio externo do rolo é aumentado no valor da espessura da fita, o comprimento total da fita é de, aproximadamente,",
+      "textos_de_apoio": [
+        "Note e adote:\nπ ≅ 3,14."
+      ],
+      "midia": [
+        "Página 6: Ilustração de um rolo de fita crepe."
+      ],
+      "alternativas": {
+        "a": "9,4 m.",
+        "b": "11,0 m.",
+        "c": "18,8 m.",
+        "d": "22,0 m.",
+        "e": "25,1 m."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Progressão Aritmética (PA) - termo geral e soma dos termos",
+            "Cálculo de áreas (polígonos, círculos, coroas e setores circulares)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 16,
+      "tipo": "objetiva",
+      "enunciado": "Um objeto é formado por 4 hastes rígidas conectadas em seus extremos por articulações, cujos centros são os vértices de um paralelogramo. As hastes movimentam-se de tal forma que o paralelogramo permanece sempre no mesmo plano. A cada configuração desse objeto, associa-se θ, a medida do menor ângulo interno do paralelogramo. A área da região delimitada pelo paralelogramo quando θ = 90° é A.\nPara que a área da região delimitada pelo paralelogramo seja A/2, o valor de θ é, necessariamente, igual a",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 7: Ilustração do objeto com hastes articuladas formando um paralelogramo com ângulo θ."
+      ],
+      "alternativas": {
+        "a": "15°.",
+        "b": "22,5°.",
+        "c": "30°.",
+        "d": "45°.",
+        "e": "60°."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Trigonometria no triângulo retângulo (seno, cosseno e tangente)",
+            "Cálculo de áreas (polígonos, círculos, coroas e setores circulares)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 17,
+      "tipo": "objetiva",
+      "enunciado": "A menor esfera na qual um paralelepípedo reto-retângulo de medidas 7 cm × 4 cm × 4 cm está inscrito tem diâmetro de",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "9 cm.",
+        "b": "10 cm.",
+        "c": "11 cm.",
+        "d": "12 cm.",
+        "e": "15 cm."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Geometria Espacial: vistas ortogonais e planificação",
+            "Cilindro, cone e esfera (área, volume e capacidade)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 18,
+      "tipo": "objetiva",
+      "enunciado": "A dona de uma lanchonete observou que, vendendo um combo a R$ 10,00, 200 deles são vendidos por dia, e que, para cada redução de R$ 1,00 nesse preço, ela vende 100 combos a mais. Nessas condições, qual é a máxima arrecadação diária que ela espera obter com a venda desse combo?",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "R$ 2.000,00",
+        "b": "R$ 3.200,00",
+        "c": "R$ 3.600,00",
+        "d": "R$ 4.000,00",
+        "e": "R$ 4.800,00"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Função quadrática: raízes, gráfico da parábola e pontos de máximo/mínimo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 19,
+      "tipo": "objetiva",
+      "enunciado": "A função E de Euler determina, para cada número natural n, a quantidade de números naturais menores do que n cujo máximo divisor comum com n é igual a 1. Por exemplo, E(6) = 2 pois os números menores do que 6 com tal propriedade são 1 e 5. Qual o valor máximo de E(n), para n de 20 a 25?",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "19",
+        "b": "20",
+        "c": "22",
+        "d": "24",
+        "e": "25"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Conjuntos numéricos (Naturais, Inteiros, Racionais e Reais)",
+            "Princípios multiplicativo e aditivo da contagem"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 20,
+      "tipo": "objetiva",
+      "enunciado": "Se 3x² - 9x + 7 = (x - a)³ - (x - b)³, para todo número real x, o valor de a + b é",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "3.",
+        "b": "5.",
+        "c": "6.",
+        "d": "9.",
+        "e": "12."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Produtos notáveis e fatoração algébrica básica"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 21,
+      "tipo": "objetiva",
+      "enunciado": "Uma agência de turismo vendeu um total de 78 passagens para os destinos: Lisboa, Paris e Roma. Sabe-se que o número de passagens vendidas para Paris foi o dobro do número de passagens vendidas para os outros dois destinos conjuntamente. Sabe-se também que, para Roma, foram vendidas duas passagens a mais que a metade das vendidas para Lisboa. Qual foi o total de passagens vendidas, conjuntamente, para Paris e Roma?",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "26",
+        "b": "38",
+        "c": "42",
+        "d": "62",
+        "e": "68"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Sistemas lineares: métodos de resolução algébrica"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 22,
+      "tipo": "objetiva",
+      "enunciado": "Um ponto (x, y) do plano cartesiano pertence ao conjunto F se é equidistante dos eixos OX e OY e pertence ao círculo de equação x² + y² - 2x - 6y + 2 = 0. É correto afirmar que F",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "é um conjunto vazio.",
+        "b": "tem exatamente 2 pontos, um no primeiro quadrante e outro no segundo quadrante.",
+        "c": "tem exatamente 2 pontos, ambos no primeiro quadrante.",
+        "d": "tem exatamente 3 pontos, sendo dois no primeiro quadrante e outro no segundo quadrante.",
+        "e": "tem exatamente 4 pontos, sendo dois no primeiro quadrante e dois no segundo quadrante."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Geometria Analítica Básica: coordenadas, plano cartesiano, distância e ponto médio"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 23,
+      "tipo": "objetiva",
+      "enunciado": "Uma cidade é dividida em dois Setores: o Setor Sul, com área de 10 km², e o Setor Norte, com área de 30 km². Após um final de semana, foram divulgados os seguintes totais pluviométricos:\n[Tabela]\nÉ correto afirmar que o total pluviométrico desse final de semana na cidade inteira foi de",
+      "textos_de_apoio": [
+        "Uma cidade é dividida em dois Setores: o Setor Sul, com área de 10 km², e o Setor Norte, com área de 30 km². Após um final de semana, foram divulgados os seguintes totais pluviométricos:\nDia | Sul | Norte\nsábado | 7 mm | 11 mm\ndomingo | 9 mm | 17 mm"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "15 mm.",
+        "b": "17 mm.",
+        "c": "22 mm.",
+        "d": "25 mm.",
+        "e": "28 mm."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Estatística: medidas de tendência central (média, moda e mediana)"
+          ]
+        },
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Climatologia: fatores/elementos do clima, dinâmica das massas de ar e climas do Brasil e do mundo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 24,
+      "tipo": "objetiva",
+      "enunciado": "As possíveis soluções, em polegadas (inches, em inglês), para o problema matemático proposto no quadrinho, no caso em que os pontos A, B e C estão em uma mesma reta, são",
+      "textos_de_apoio": [
+        "Bill Watterson, Calvin and Hobbes. Disponível em https://www.gocomics.com/."
+      ],
+      "midia": [
+        "Página 8: Tirinha de Calvin e Hobbes mostrando um diálogo sobre um problema matemático de distâncias."
+      ],
+      "alternativas": {
+        "a": "10/3 e 10.",
+        "b": "10/3, 5 e 10.",
+        "c": "5/3, 10/3 e 10.",
+        "d": "5/3 e 10.",
+        "e": "10/3 e 5."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Ordem na reta numérica e resolução de problemas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 25,
+      "tipo": "objetiva",
+      "enunciado": "Conforme o texto, em relação às mulheres, um efeito decorrente do fato de assistentes digitais reforçarem estereótipos de gênero é",
+      "textos_de_apoio": [
+        "Assigning female genders to digital assistants such as Apple’s Siri and Amazon’s Alexa is helping entrench harmful gender biases, according to a UN agency.",
+        "Research released by Unesco claims that the often submissive and flirty responses offered by the systems to many queries – including outright abusive ones – reinforce ideas of women as subservient.",
+        "“Because the speech of most voice assistants is female, it sends a signal that women are obliging, docile and eager-to-please helpers, available at the touch of a button or with a blunt voice command like ‘hey’ or ‘OK’”, the report said.",
+        "“The assistant holds no power of agency beyond what the commander asks of it. It honours commands and responds to queries regardless of their tone or hostility. In many communities, this reinforces commonly held gender biases that women are subservient and tolerant of poor treatment.”",
+        "The Unesco publication was entitled “I’d Blush if I Could”; a reference to the response Apple’s Siri assistant offers to the phrase: “You’re a slut.” Amazon’s Alexa will respond: “Well, thanks for the feedback.”",
+        "The paper said such firms were “staffed by overwhelmingly male engineering teams” and have built AI (Artificial Intelligence) systems that “cause their feminised digital assistants to greet verbal abuse with catch-me-if-you-can flirtation.”",
+        "Saniye Gülser Corat, Unesco’s director for gender equality, said: “The world needs to pay much closer attention to how, when and whether AI technologies are gendered and, crucially, who is gendering them.”",
+        "The Guardian, May, 2019. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "a inclusão de uma única voz nos dispositivos.",
+        "b": "a normalização de formas de assédio sexista.",
+        "c": "o poder de influência positiva sobre as pessoas.",
+        "d": "o incremento de vendas e customização de robôs.",
+        "e": "a busca por formas que reflitam problemas sociais."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 26,
+      "tipo": "objetiva",
+      "enunciado": "Segundo o texto, o título do relatório publicado pela Unesco - “I’d Blush if I Could” -, no que diz respeito aos assistentes digitais, indica",
+      "textos_de_apoio": [
+        "Assigning female genders to digital assistants such as Apple’s Siri and Amazon’s Alexa is helping entrench harmful gender biases, according to a UN agency.",
+        "Research released by Unesco claims that the often submissive and flirty responses offered by the systems to many queries – including outright abusive ones – reinforce ideas of women as subservient.",
+        "“Because the speech of most voice assistants is female, it sends a signal that women are obliging, docile and eager-to-please helpers, available at the touch of a button or with a blunt voice command like ‘hey’ or ‘OK’”, the report said.",
+        "“The assistant holds no power of agency beyond what the commander asks of it. It honours commands and responds to queries regardless of their tone or hostility. In many communities, this reinforces commonly held gender biases that women are subservient and tolerant of poor treatment.”",
+        "The Unesco publication was entitled “I’d Blush if I Could”; a reference to the response Apple’s Siri assistant offers to the phrase: “You’re a slut.” Amazon’s Alexa will respond: “Well, thanks for the feedback.”",
+        "The paper said such firms were “staffed by overwhelmingly male engineering teams” and have built AI (Artificial Intelligence) systems that “cause their feminised digital assistants to greet verbal abuse with catch-me-if-you-can flirtation.”",
+        "Saniye Gülser Corat, Unesco’s director for gender equality, said: “The world needs to pay much closer attention to how, when and whether AI technologies are gendered and, crucially, who is gendering them.”",
+        "The Guardian, May, 2019. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "resposta padrão para comandos que incluem impropérios.",
+        "b": "capacidade tecnológica para selecionar temas sensíveis ao grande público.",
+        "c": "preocupação dos fabricantes de dispositivos eletrônicos com usuários conservadores.",
+        "d": "perda de controle das formas de interação entre seres humanos e máquinas.",
+        "e": "necessidade de elaboração de sistemas integrados de reconhecimento de voz."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 27,
+      "tipo": "objetiva",
+      "enunciado": "De acordo com o texto, na opinião de Saniye Gülser Corat, tecnologias que envolvem Inteligência Artificial, entre outros aspectos,",
+      "textos_de_apoio": [
+        "Assigning female genders to digital assistants such as Apple’s Siri and Amazon’s Alexa is helping entrench harmful gender biases, according to a UN agency.",
+        "Research released by Unesco claims that the often submissive and flirty responses offered by the systems to many queries – including outright abusive ones – reinforce ideas of women as subservient.",
+        "“Because the speech of most voice assistants is female, it sends a signal that women are obliging, docile and eager-to-please helpers, available at the touch of a button or with a blunt voice command like ‘hey’ or ‘OK’”, the report said.",
+        "“The assistant holds no power of agency beyond what the commander asks of it. It honours commands and responds to queries regardless of their tone or hostility. In many communities, this reinforces commonly held gender biases that women are subservient and tolerant of poor treatment.”",
+        "The Unesco publication was entitled “I’d Blush if I Could”; a reference to the response Apple’s Siri assistant offers to the phrase: “You’re a slut.” Amazon’s Alexa will respond: “Well, thanks for the feedback.”",
+        "The paper said such firms were “staffed by overwhelmingly male engineering teams” and have built AI (Artificial Intelligence) systems that “cause their feminised digital assistants to greet verbal abuse with catch-me-if-you-can flirtation.”",
+        "Saniye Gülser Corat, Unesco’s director for gender equality, said: “The world needs to pay much closer attention to how, when and whether AI technologies are gendered and, crucially, who is gendering them.”",
+        "The Guardian, May, 2019. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "são desenvolvidas segundo normas prescritas em convenções internacionais.",
+        "b": "devem ser monitoradas por empresas multinacionais geridas por mulheres.",
+        "c": "funcionam melhor quando associadas a dispositivos sincronizados em escala mundial.",
+        "d": "dependem de atualização constante para garantia de desempenho satisfatório.",
+        "e": "requerem avaliação ampla, quanto à possível presença de elementos tendenciosos em sua concepção."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 28,
+      "tipo": "objetiva",
+      "enunciado": "O efeito de comicidade que se obtém do meme decorre, sobretudo, da",
+      "textos_de_apoio": [
+        "Therapist: Your wife says you never buy her flowers is that true?\nHim: To be honest, I never knew she sold flowers.",
+        "Disponível em https://www.facebook.com/groups/englishmemes/."
+      ],
+      "midia": [
+        "Página 9: Imagem de um meme envolvendo terapeuta e paciente."
+      ],
+      "alternativas": {
+        "a": "repetição da palavra “never”.",
+        "b": "ambiguidade gerada pela expressão “buy her flowers”.",
+        "c": "asserção “your wife says”.",
+        "d": "contradição presente na frase “To be honest”.",
+        "e": "pergunta “is that true?”."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 29,
+      "tipo": "objetiva",
+      "enunciado": "Afirma-se no texto que, no futuro, a tecnologia de gravação em moléculas de DNA",
+      "textos_de_apoio": [
+        "Scientists have long touted DNA’s potential as an ideal storage medium; it’s dense, easy to replicate, and stable over millennia. But in order to replace existing silicon-chip or magnetic-tape storage technologies, DNA will have to get a lot cheaper to predictably read, write, and package.",
+        "That’s where scientists like Hyunjun Park come in. He and the other cofounders of Catalog, an MIT DNA-storage spinoff emerging out of stealth on Tuesday, are building a machine that will write a terabyte of data a day, using 500 trillion molecules of DNA.",
+        "If successful, DNA storage could be the answer to a uniquely 21st-century problem: information overload. Five years ago humans had produced 4.4 zettabytes of data; that's set to explode to 160 zettabytes (each year!) by 2025. Current infrastructure can handle only a fraction of the coming data deluge, which is expected to consume all the world's microchip-grade silicon by 2040.",
+        "“Today’s technology is already close to the physical limits of scaling,” says Victor Zhirnov, chief scientist of the Semiconductor Research Corporation. “DNA has an information-storage density several orders of magnitude higher than any other known storage technology.”",
+        "How dense exactly? Imagine formatting every movie ever made into DNA; it would be smaller than the size of a sugar cube. And it would last for 10,000 years.",
+        "Wired, June, 2018. Disponível em https://www.wired.com/. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "será utilizada para sequenciar trilhões de moléculas destinadas à pesquisa médica.",
+        "b": "deverá ter seu uso expandido no campo da genética e áreas afins.",
+        "c": "continuará sendo inviável comparada a tecnologias convencionais.",
+        "d": "terá de ser adaptada para o propósito de ler, codificar e guardar dados.",
+        "e": "poderá ser a solução para o problema de espaço de armazenamento de informação digital."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 30,
+      "tipo": "objetiva",
+      "enunciado": "Conforme o texto, cientistas preveem que, em pouco mais de 20 anos,",
+      "textos_de_apoio": [
+        "Scientists have long touted DNA’s potential as an ideal storage medium; it’s dense, easy to replicate, and stable over millennia. But in order to replace existing silicon-chip or magnetic-tape storage technologies, DNA will have to get a lot cheaper to predictably read, write, and package.",
+        "That’s where scientists like Hyunjun Park come in. He and the other cofounders of Catalog, an MIT DNA-storage spinoff emerging out of stealth on Tuesday, are building a machine that will write a terabyte of data a day, using 500 trillion molecules of DNA.",
+        "If successful, DNA storage could be the answer to a uniquely 21st-century problem: information overload. Five years ago humans had produced 4.4 zettabytes of data; that's set to explode to 160 zettabytes (each year!) by 2025. Current infrastructure can handle only a fraction of the coming data deluge, which is expected to consume all the world's microchip-grade silicon by 2040.",
+        "“Today’s technology is already close to the physical limits of scaling,” says Victor Zhirnov, chief scientist of the Semiconductor Research Corporation. “DNA has an information-storage density several orders of magnitude higher than any other known storage technology.”",
+        "How dense exactly? Imagine formatting every movie ever made into DNA; it would be smaller than the size of a sugar cube. And it would last for 10,000 years.",
+        "Wired, June, 2018. Disponível em https://www.wired.com/. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "a geração de dados pela humanidade chegará à marca de 160 zettabytes.",
+        "b": "a armazenagem de todos os dados produzidos esgotará o estoque mundial de microchips de silício.",
+        "c": "a densidade das moléculas de DNA terá aumentado exponencialmente.",
+        "d": "o custo para gravação de dados digitais será maior que hoje.",
+        "e": "as novas tecnologias de informação serão bem mais duradouras que as atuais."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 31,
+      "tipo": "objetiva",
+      "enunciado": "As tentativas de resposta do poeta à pergunta “What happens to a dream deferred?” evocam imagens de",
+      "textos_de_apoio": [
+        "Harlem\nWhat happens to a dream deferred?\nDoes it dry up\nlike a raisin in the sun?\nOr fester like a sore—\nAnd then run?\nDoes it stink like rotten meat?\nOr crust and sugar over—\nlike a syrupy sweet?\nMaybe it just sags\nlike a heavy load.\nOr does it explode?\nLangston Hughes, Selected Poems of Langston Hughes (1990). Disponível em http://www.poetryfoundation.org/."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "animosidade e revolta.",
+        "b": "remorso e compaixão.",
+        "c": "deterioração e destruição.",
+        "d": "empatia e complacência.",
+        "e": "aprisionamento e passividade."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação",
+            "Figuras de linguagem (metáfora, metonímia, antítese, paradoxo, hipérbole, ironia)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 32,
+      "tipo": "objetiva",
+      "enunciado": "Em Claro Enigma, a ideia de engano surge sob a perspectiva do sujeito maduro, já afastado das ilusões, como se lê no verso-síntese “Tu não me enganas, mundo, e não te engano a ti.” (“Legado”). O excerto de “Cantiga de enganar” apresenta a relação do eu com o mundo mediada",
+      "textos_de_apoio": [
+        "Cantiga de enganar\n(...)\nO mundo não tem sentido.\nO mundo e suas canções\nde timbre mais comovido\nestão calados, e a fala\nque de uma para outra sala\nouvimos em certo instante\né silêncio que faz eco\ne que volta a ser silêncio\nno negrume circundante.\nSilêncio: que quer dizer?\nQue diz a boca do mundo?\nMeu bem, o mundo é fechado,\nse não for antes vazio.\nO mundo é talvez: e é só.\nTalvez nem seja talvez.\nO mundo não vale a pena,\nmas a pena não existe.\nMeu bem, façamos de conta.\nDe sofrer e de olvidar,\nde lembrar e de fruir,\nde escolher nossas lembranças\ne revertê-las, acaso\nse lembrem demais em nós.\nFaçamos, meu bem, de conta\n– mas a conta não existe –\nque é tudo como se fosse,\nou que, se fora, não era.\n(...)\nCarlos Drummond de Andrade, Claro Enigma."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "pela música, que ressoa em canções líricas.",
+        "b": "pela cor, brilhante na claridade solar.",
+        "c": "pela afirmação de valores sólidos.",
+        "d": "pela memória, que corre fluida no tempo.",
+        "e": "pelo despropósito de um faz-de-conta."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Modernismo Brasileiro: 1ª Fase (1922), 2ª Fase (Geração de 30 - romance regionalista e poesia de 30) e 3ª Fase (Geração de 45/Pós-Modernismo)",
+            "Significação explícita e implícita, denotação e conotação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 33,
+      "tipo": "objetiva",
+      "enunciado": "O argumento de Benedito Nunes, em torno da natureza artística da literatura, leva a considerar que a obra só assume função transformadora se",
+      "textos_de_apoio": [
+        "Os textos literários são obras de discurso, a que falta a imediata referencialidade da linguagem corrente; poéticos, abolem, “destroem” o mundo circundante, cotidiano, graças à função irrealizante da imaginação que os constrói. E prendem-nos na teia de sua linguagem, a que devemos o poder de apelo estético que nos enleia; seduz-nos o mundo outro, irreal, neles configurado (...). No entanto, da adesão a esse “mundo de papel”, quando retornamos ao real, nossa experiência, ampliada e renovada pela experiência da obra, à luz do que nos revelou, possibilita redescobri-lo, sentindo-o e pensando-o de maneira diferente e nova. A ilusão, a mentira, o fingimento da ficção, aclara o real ao desligar-se dele, transfigurando-o; e aclara-o já pelo insight que em nós provocou.\nBenedito Nunes, “Ética e leitura”, de Crivo de Papel."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "estabelece um contraponto entre a fantasia e o mundo.",
+        "b": "utiliza a linguagem para informar sobre o mundo.",
+        "c": "instiga no leitor uma atitude reflexiva diante do mundo.",
+        "d": "oferece ao leitor uma compensação anestesiante do mundo.",
+        "e": "conduz o leitor a ignorar o mundo real."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Tipologias textuais (narração, descrição, dissertação) e gêneros textuais variados",
+            "Significação explícita e implícita, denotação e conotação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 34,
+      "tipo": "objetiva",
+      "enunciado": "Se o discurso literário “aclara o real ao desligar-se dele, transfigurando-o”, pode-se dizer que Luís da Silva, o narrador-protagonista de Angústia, já não se comove com a leitura de “histórias fáceis, sem almas complicadas” porque",
+      "textos_de_apoio": [
+        "O que eu precisava era ler um romance fantástico, um romance besta, em que os homens e as mulheres fossem criações absurdas, não andassem magoando-se, traindo-se. Histórias fáceis, sem almas complicadas. Infelizmente essas leituras já não me comovem.\nGraciliano Ramos, Angústia."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "rejeita, como jornalista, a escrita de ficção.",
+        "b": "prefere alienar-se com narrativas épicas.",
+        "c": "é indiferente às histórias de fundo sentimental.",
+        "d": "está engajado na militância política.",
+        "e": "se afunda na negatividade própria do fracassado."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Modernismo Brasileiro: 1ª Fase (1922), 2ª Fase (Geração de 30 - romance regionalista e poesia de 30) e 3ª Fase (Geração de 45/Pós-Modernismo)",
+            "Significação explícita e implícita, denotação e conotação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 35,
+      "tipo": "objetiva",
+      "enunciado": "Para Graciliano Ramos, Angústia não faz concessão ao gosto do público na medida em que compõe uma atmosfera",
+      "textos_de_apoio": [
+        "Romance desagradável, abafado, ambiente sujo, povoado de ratos, cheio de podridões, de lixo. Nenhuma concessão ao gosto do público. Solilóquio doido, enervante.\nGraciliano Ramos, Memórias do Cárcere, em nota a respeito de seu livro Angústia."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "dramática, ao representar as tensões de seu tempo.",
+        "b": "grotesca, ao eliminar a expressão individual.",
+        "c": "satírica, ao reduzir os eventos ao plano do riso.",
+        "d": "ingênua, ao simular o equilíbrio entre sujeito e mundo.",
+        "e": "alegórica, ao exaltar as imagens de sujeira."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Modernismo Brasileiro: 1ª Fase (1922), 2ª Fase (Geração de 30 - romance regionalista e poesia de 30) e 3ª Fase (Geração de 45/Pós-Modernismo)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 36,
+      "tipo": "objetiva",
+      "enunciado": "No português do Brasil, a função sintática do sujeito não possui, necessariamente, uma natureza de agente, ainda que o verbo esteja na voz ativa, tal como encontrado em:",
+      "textos_de_apoio": [
+        "“O carro furou o pneu e bateu no meio fio, então eles foram obrigados a parar. O refém conseguiu acionar a população, que depois pegou dois dos três indivíduos e tentaram linchar eles. O outro conseguiu fugir, mas foi preso momentos depois por uma viatura do 5º BPM”, afirmou o major.\nDisponível em https://www.gp1.com.br/."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "“O carro furou o pneu”.",
+        "b": "“e bateu no meio fio”.",
+        "c": "“O refém conseguiu acionar a população”.",
+        "d": "“tentaram linchar eles”.",
+        "e": "“afirmou o major”."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Sintaxe do período simples (termos essenciais, integrantes e acessórios da oração)",
+            "Variações linguísticas e níveis de formalidade/informalidade"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 37,
+      "tipo": "objetiva",
+      "enunciado": "É correto afirmar que o poema",
+      "textos_de_apoio": [
+        "amora\na palavra amora\nseria talvez menos doce\ne um pouco menos vermelha\nse não trouxesse em seu corpo\n(como um velado esplendor)\na memória da palavra amor\na palavra amargo\nseria talvez mais doce\ne um pouco menos acerba\nse não trouxesse em seu corpo\n(como uma sombra a espreitar)\na memória da palavra amar\nMarco Catalão, Sob a face neutra."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "aborda o tema da memória, considerada uma faculdade que torna o ser humano menos amargo e sombrio.",
+        "b": "enfoca a hesitação do eu lírico diante das palavras, o que vem expresso pela repetição da palavra “talvez”.",
+        "c": "apresenta natureza romântica, sendo as palavras “amora” e “amargo” metáforas do sentimento amoroso.",
+        "d": "possui reiterações sonoras que resultam em uma tensão inusitada entre os termos “amor” e “amar”.",
+        "e": "ressalta os significados das palavras tal como se verificam no seu uso mais corrente."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação",
+            "Figuras de linguagem (metáfora, metonímia, antítese, paradoxo, hipérbole, ironia)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 38,
+      "tipo": "objetiva",
+      "enunciado": "Tal como se lê no poema,",
+      "textos_de_apoio": [
+        "amora\na palavra amora\nseria talvez menos doce\ne um pouco menos vermelha\nse não trouxesse em seu corpo\n(como um velado esplendor)\na memória da palavra amor\na palavra amargo\nseria talvez mais doce\ne um pouco menos acerba\nse não trouxesse em seu corpo\n(como uma sombra a espreitar)\na memória da palavra amar\nMarco Catalão, Sob a face neutra."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "a palavra “amora” é substantivo, e “amargo”, adjetivo.",
+        "b": "o verbo “amar” ameniza o amargor da palavra “amargo”.",
+        "c": "o substantivo “corpo” apresenta sentido denotativo.",
+        "d": "o substantivo “amor” intensifica o dulçor da palavra “amora”.",
+        "e": "o verbo “amar” e o substantivo “amor” são intercambiáveis."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação",
+            "Classes gramaticais: substantivo, adjetivo, artigo, numeral, pronome, verbo, advérbio, preposição, conjunção e interjeição"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 39,
+      "tipo": "objetiva",
+      "enunciado": "Considerando que se trata de um texto literário, uma interpretação que seja capaz de captar a sua complexidade abordará o poema como",
+      "textos_de_apoio": [
+        "Uma planta é perturbada na sua sesta* pelo exército que a pisa.\nMas mais frágil fica a bota.\nGonçalo M. Tavares, 1: poemas.\n*sesta: repouso após o almoço."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "uma defesa da natureza.",
+        "b": "um ataque às forças armadas.",
+        "c": "uma defesa dos direitos humanos.",
+        "d": "uma defesa da resistência civil.",
+        "e": "um ataque à passividade."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação",
+            "Intertextualidade, interdiscursividade e análise de textos verbais e não verbais (charges, cartuns)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 40,
+      "tipo": "objetiva",
+      "enunciado": "O ditado popular que se relaciona melhor com o poema é:",
+      "textos_de_apoio": [
+        "Uma planta é perturbada na sua sesta* pelo exército que a pisa.\nMas mais frágil fica a bota.\nGonçalo M. Tavares, 1: poemas.\n*sesta: repouso após o almoço."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "Para bom entendedor, meia palavra basta.",
+        "b": "Água mole em pedra dura tanto bate até que fura.",
+        "c": "Quem com ferro fere, com ferro será ferido.",
+        "d": "Um dia é da caça, o outro é do caçador.",
+        "e": "Uma andorinha só não faz verão."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 41,
+      "tipo": "objetiva",
+      "enunciado": "No período “Nem mesmo comparando com outros robozinhos: tanto os que espalham informações mentirosas quanto aqueles que divulgam dados verdadeiros alcançaram o mesmo número de pessoas.”, os dois-pontos são utilizados para introduzir uma",
+      "textos_de_apoio": [
+        "O Twitter é uma das redes sociais mais importantes no Brasil e no mundo. (...) Um estudo identificou que as fake news são 70% mais propensas a serem retweetadas do que fatos verdadeiros. (...) Outra conclusão importante do trabalho diz respeito aos famosos bots: ao contrário do que muitos pensam, esses robôs não são os grandes responsáveis por disseminar notícias falsas. Nem mesmo comparando com outros robozinhos: tanto os que espalham informações mentirosas quanto aqueles que divulgam dados verdadeiros alcançaram o mesmo número de pessoas.\nSuper Interessante, “No Twitter, fake news se espalham 6 vezes mais rápido que notícias verdadeiras”. Maio/2019."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "conclusão.",
+        "b": "concessão.",
+        "c": "explicação.",
+        "d": "contradição.",
+        "e": "condição."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Mecanismos de coesão textual (lexical, referencial, anafórica) e coerência",
+            "Sintaxe do período composto (coordenação e subordinação)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 42,
+      "tipo": "objetiva",
+      "enunciado": "O retrato de Manuel Fulô, tal como aparece no fragmento, permite afirmar que",
+      "textos_de_apoio": [
+        "Agora, o Manuel Fulô, este, sim! Um sujeito pingadinho, quase menino – “pepino que encorujou desde pequeno” – cara de bobo de fazenda, do segundo tipo –; porque toda fazenda tem o seu bobo, que é, ou um velhote baixote, de barba rara no queixo, ou um eterno rapazola, meio surdo, gago, glabro* e alvar**. Mas gostava de fechar a cara e roncar voz, todo enfarruscado, para mostrar brabeza, e só por descuido sorria, um sorriso manhoso de dono de hotel. E, em suas feições de caburé*** insalubre, amigavam-se as marcas do sangue aimoré e do gálico herdado: cabelo preto, corrido, que boi lambeu; dentes de fio em meia-lua; malares pontudos; lobo da orelha aderente; testa curta, fugidia; olhinhos de viés e nariz peba, mongol.\nGuimarães Rosa, “Corpo fechado”, de Sagarana.\n*sem pelos, sem barba **tolo ***mestiço"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "há clara antipatia do narrador para com a personagem, que por isso é caracterizada como “bobo de fazenda”.",
+        "b": "estão presentes traços de diferentes etnias, de modo a refletir a mescla de culturas própria ao estilo do livro.",
+        "c": "a expressão “caburé insalubre” denota o determinismo biológico que norteia o livro.",
+        "d": "é irônico o trecho “para mostrar brabeza”, pois ao fim da narrativa Manuel Fulô sofre derrota na luta física.",
+        "e": "se apontam em sua fisionomia os “olhinhos de viés” para caracterizar a personagem como ingênua."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Modernismo Brasileiro: 1ª Fase (1922), 2ª Fase (Geração de 30 - romance regionalista e poesia de 30) e 3ª Fase (Geração de 45/Pós-Modernismo)",
+            "Significação explícita e implícita, denotação e conotação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 43,
+      "tipo": "objetiva",
+      "enunciado": "O trecho que melhor define a “incompreensão fundamental” (L.6) referida pela autora é:",
+      "textos_de_apoio": [
+        "O feminismo negro não é uma luta meramente identitária, até porque branquitude e masculinidade também são identidades. Pensar feminismos negros é pensar projetos democráticos. Hoje afirmo isso com muita tranquilidade, mas minha experiência de vida foi marcada pelo incômodo de uma incompreensão fundamental. Não que eu buscasse respostas para tudo. Na maior parte da minha infância e adolescência, não tinha consciência de mim. Não sabia por que sentia vergonha de levantar a mão quando a professora fazia uma pergunta já supondo que eu não saberia a resposta. Por que eu ficava isolada na hora do recreio. Por que os meninos diziam na minha cara que não queriam formar par com a “neguinha” na festa junina. Eu me sentia estranha e inadequada, e, na maioria das vezes, fazia as coisas no automático, me esforçando para não ser notada.\nDjamila Ribeiro, Quem tem medo do feminismo negro?."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "“não que eu buscasse respostas para tudo” (L.6-7).",
+        "b": "“não tinha consciência de mim” (L.8).",
+        "c": "“Por que eu ficava isolada na hora do recreio” (L.10-11).",
+        "d": "“me esforçando para não ser notada” (L.15).",
+        "e": "“sentia vergonha de levantar a mão” (L.8-9)."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Tipologias textuais (narração, descrição, dissertação) e gêneros textuais variados",
+            "Significação explícita e implícita, denotação e conotação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 44,
+      "tipo": "objetiva",
+      "enunciado": "No excerto, o autor recorre à intertextualidade, dialogando com a comédia de Molière, Tartufo (1664), cuja personagem central é um impostor da fé. Tal é a fama da peça que o nome próprio se incorporou ao vocabulário, inclusive em português, como substantivo comum, para designar o “indivíduo hipócrita” ou o “falso devoto”. No contexto maior do romance, sugere-se que a tartufice",
+      "textos_de_apoio": [
+        "E Sofia? interroga impaciente a leitora, tal qual Orgon: Et Tartufe? Ai, amiga minha, a resposta é naturalmente a mesma, – também ela comia bem, dormia largo e fofo, – coisas que, aliás, não impedem que uma pessoa ame, quando quer amar. Se esta última reflexão é o motivo secreto da vossa pergunta, deixai que vos diga que sois muito indiscreta, e que eu não me quero senão com dissimulados.\nRepito, comia bem, dormia largo e fofo. Chegara ao fim da comissão das Alagoas, com elogios da imprensa; a Atalaia chamou-lhe “o anjo da consolação”. E não se pense que este nome a alegrou, posto que a lisonjeasse; ao contrário, resumindo em Sofia toda a ação da caridade, podia mortificar as novas amigas, e fazer-lhe perder em um dia o trabalho de longos meses. Assim se explica o artigo que a mesma folha trouxe no número seguinte, nomeando, particularizando e glorificando as outras comissárias – “estrelas de primeira grandeza”.\nMachado de Assis, Quincas Borba."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "se cola à imagem da leitora, indiscreta quanto aos amores alheios.",
+        "b": "é ação isolada de Sofia, arrivista social e benemérita fingida.",
+        "c": "diz respeito ao filósofo Quincas Borba, o que explica o título do livro.",
+        "d": "se produz na imprensa, apesar de esta se esquivar da eloquência vazia.",
+        "e": "se estende à sociedade, na qual o cinismo é o trunfo dos fortes."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Literatura Brasileira: Quinhentismo, Barroco (Gregório de Matos), Arcadismo, Romantismo, Realismo/Naturalismo (Machado de Assis), Parnasianismo e Simbolismo",
+            "Intertextualidade, interdiscursividade e análise de textos verbais e não verbais (charges, cartuns)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 45,
+      "tipo": "objetiva",
+      "enunciado": "Considerando o contexto, o trecho “E não se pense que este nome a alegrou, posto que a lisonjeasse” (L.10-11) pode ser reescrito, sem prejuízo de sentido, da seguinte maneira: E não se pense que este nome a alegrou,",
+      "textos_de_apoio": [
+        "E Sofia? interroga impaciente a leitora, tal qual Orgon: Et Tartufe? Ai, amiga minha, a resposta é naturalmente a mesma, – também ela comia bem, dormia largo e fofo, – coisas que, aliás, não impedem que uma pessoa ame, quando quer amar. Se esta última reflexão é o motivo secreto da vossa pergunta, deixai que vos diga que sois muito indiscreta, e que eu não me quero senão com dissimulados.\nRepito, comia bem, dormia largo e fofo. Chegara ao fim da comissão das Alagoas, com elogios da imprensa; a Atalaia chamou-lhe “o anjo da consolação”. E não se pense que este nome a alegrou, posto que a lisonjeasse; ao contrário, resumindo em Sofia toda a ação da caridade, podia mortificar as novas amigas, e fazer-lhe perder em um dia o trabalho de longos meses. Assim se explica o artigo que a mesma folha trouxe no número seguinte, nomeando, particularizando e glorificando as outras comissárias – “estrelas de primeira grandeza”.\nMachado de Assis, Quincas Borba."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "apesar de lisonjeá-la.",
+        "b": "antes a lisonjeou.",
+        "c": "porque a lisonjeava.",
+        "d": "a fim de lisonjeá-la.",
+        "e": "tanto quanto a lisonjeava."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Mecanismos de coesão textual (lexical, referencial, anafórica) e coerência",
+            "Sintaxe do período composto (coordenação e subordinação)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 46,
+      "tipo": "objetiva",
+      "enunciado": "As perguntas da menina e do poeta versam sobre a morte. É correto afirmar que",
+      "textos_de_apoio": [
+        "Hoje fizeram o enterro de Bela. Todos na Chácara se convenceram de que ela estava morta, menos eu. Se eu pudesse não deixaria enterrá-la ainda. Disse isso mesmo a vovó, mas ela disse que não se pode fazer assim. Bela estava igualzinha à que ela era no dia em que chegou da Formação, só um pouquinho mais magra.\nTodos dizem que o sofrimento da morte é a luta da alma para se largar do corpo. Eu perguntei a vovó: “Como é que a alma dela saiu sem o menor sofrimento, sem ela fazer uma caretinha que fosse?”. Vovó disse que tudo isso é mistério, que nunca a gente pode saber essas coisas com certeza. Uns sofrem muito quando a alma se despega do corpo, outros morrem de repente sem sofrer.\nHelena Morley, Minha Vida de Menina.",
+        "Perguntas\nNuma incerta hora fria\nperguntei ao fantasma\nque força nos prendia,\nele a mim, que presumo\nestar livre de tudo\neu a ele, gasoso,\n(...)\nNo voo que desfere\nsilente e melancólico,\nrumo da eternidade,\nele apenas responde\n(se acaso é responder\na mistérios, somar-lhes\num mistério mais alto):\nAmar, depois de perder.\nCarlos Drummond de Andrade, Claro Enigma."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "ambos guardam uma dimensão transcendente e católica, de origem mineira.",
+        "b": "ambos ouvem respostas que lhes esclarecem em definitivo as dúvidas existenciais.",
+        "c": "a menina mostra curiosidade acerca da morte como episódio e o poeta especula o sentido filosófico da morte.",
+        "d": "a menina está inquieta por conhecer o destino das almas, enquanto o poeta critica o ceticismo.",
+        "e": "as duas respostas reforçam os mistérios da vida ao acolherem crenças populares."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Modernismo Brasileiro: 1ª Fase (1922), 2ª Fase (Geração de 30 - romance regionalista e poesia de 30) e 3ª Fase (Geração de 45/Pós-Modernismo)",
+            "Intertextualidade, interdiscursividade e análise de textos verbais e não verbais (charges, cartuns)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 47,
+      "tipo": "objetiva",
+      "enunciado": "O soneto de Gregório de Matos e o samba de Noel Rosa, embora distantes na forma e no tempo, aproximam-se por ironizarem",
+      "textos_de_apoio": [
+        "A certa personagem desvanecida\nUm soneto começo em vosso gabo*:\nContemos esta regra por primeira,\nJá lá vão duas, e esta é a terceira,\nJá este quartetinho está no cabo.\nNa quinta torce agora a porca o rabo;\nA sexta vá também desta maneira:\nNa sétima entro já com grã** canseira,\nE saio dos quartetos muito brabo.\nAgora nos tercetos que direi?\nDirei que vós, Senhor, a mim me honrais\nGabando-vos a vós, e eu fico um rei.\nNesta vida um soneto já ditei;\nSe desta agora escapo, nunca mais:\nLouvado seja Deus, que o acabei.\nGregório de Matos\n*louvor **grande",
+        "Tipo zero\nVocê é um tipo que não tem tipo\nCom todo tipo você se parece\nE sendo um tipo que assimila tanto tipo\nPassou a ser um tipo que ninguém esquece\nQuando você penetra num salão\nE se mistura com a multidão\nVocê se torna um tipo destacado\nDesconfiado todo mundo fica\nQue o seu tipo não se classifica\nVocê passa a ser um tipo desclassificado\nEu até hoje nunca vi nenhum\nTipo vulgar tão fora do comum\nQue fosse um tipo tão observado\nVocê ficou agora convencido\nQue o seu tipo já está batido\nMas o seu tipo é o tipo do tipo esgotado\nNoel Rosa"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "o processo de composição do texto.",
+        "b": "a própria inferioridade ante o retratado.",
+        "c": "a singularidade de um caráter nulo.",
+        "d": "o sublime que se oculta na vulgaridade.",
+        "e": "a intolerância para com os gênios."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Literatura Brasileira: Quinhentismo, Barroco (Gregório de Matos), Arcadismo, Romantismo, Realismo/Naturalismo (Machado de Assis), Parnasianismo e Simbolismo",
+            "Modernismo Brasileiro: 1ª Fase (1922), 2ª Fase (Geração de 30 - romance regionalista e poesia de 30) e 3ª Fase (Geração de 45/Pós-Modernismo)",
+            "Intertextualidade, interdiscursividade e análise de textos verbais e não verbais (charges, cartuns)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 48,
+      "tipo": "objetiva",
+      "enunciado": "O autor expressa preocupação com o fato de que as soluções para o problema apontado passam por um esforço multinacional, em face ao crescente número de governos isolacionistas, porque",
+      "textos_de_apoio": [
+        "Óbitos por cepas de bactérias resistentes a antibióticos vêm crescendo. Um estudo do governo britânico estima que, em escala global, os óbitos por cepas resistentes já cheguem a 700 mil por ano. E as coisas têm piorado. Além das bactérias, já estão surgindo fungos resistentes, como a Candida auris.\nQualquer solução passa por um esforço multinacional de ações coordenadas. O crescente número de governos isolacionistas e até antidarwinistas não dá razões para otimismo. Há urgência. O estudo britânico calcula que, se nada for feito, em 2050, as mortes por infecções resistentes chegarão a 10 milhões ao ano.\nHélio Schwartsman, “Mortes anunciadas”. Folha de São Paulo, Abril/2019. Adaptado."
+      ],
+      "midia": [
+        "Página 14: Texto jornalístico dividido em dois parágrafos intitulado 'Óbitos por cepas de bactérias resistentes a antibióticos vêm crescendo'."
+      ],
+      "alternativas": {
+        "a": "áreas de menor índice de desenvolvimento socioeconômico são as únicas atingidas devido à falta de recursos empregados em saúde e educação.",
+        "b": "as cepas resistentes surgem exclusivamente nos países que se negam a aderir a acordos sanitários comuns, constituindo ameaças globais.",
+        "c": "desafios atuais em meio ambiente e saúde são globais e soluções dependem da adesão de cada país aos protocolos internacionais.",
+        "d": "o comércio internacional é o principal responsável por espalhar doenças nesses países, tornando-os vulneráveis, apesar de os programas de vacinação terem alcance mundial.",
+        "e": "a pesquisa nesta área é de âmbito nacional e, portanto, novas drogas não terão alcance mundial, mas apenas regional."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Conceitos de saúde pública, SUS, vacinas, soros terapêuticos e dinâmica epidemiológica (endemia, surto, epidemia, pandemia)",
+            "Impactos antrópicos: poluição, bioacumulação trófica, espécies exóticas, pegada ecológica e unidades de conservação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 49,
+      "tipo": "objetiva",
+      "enunciado": "Várias espécies do gênero Candida, que pertence ao grupo de fungos unicelulares, reproduzem-se por brotamento (gemulação), espalhando-se rapidamente. No grupo dos fungos pluricelulares, a rápida colonização de novos ambientes deve-se, em grande parte, ao fato de que esse grupo possui",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "esporos haploides que germinam e colonizam o ambiente.",
+        "b": "reprodução assexuada, produzindo descendentes que são genotipicamente diferentes.",
+        "c": "zigotos haploides que crescem aceleradamente com mitoses sucessivas.",
+        "d": "cistos de resistência que encapsulam adultos diploides.",
+        "e": "fases autotróficas, podendo viver sem disponibilidade de alimento externo."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Reinos Monera, Protista e Fungi: características e importância ecológica/econômica"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 50,
+      "tipo": "objetiva",
+      "enunciado": "Boa parte da floresta amazônica brasileira cresce sobre solos pobres. Sua exuberância, portanto, deve-se ao fato de que uma grande proporção dos nutrientes advindos da própria floresta retorna à vegetação. Quando se derruba a floresta de uma área de dezenas de quilômetros quadrados e, em seguida, ateia-se fogo no local como preparo para o plantio, esse ciclo é interrompido, o que causa uma série de efeitos.\nIdentifique corretamente a relação dos efeitos mencionados em I, II e III com a derrubada e a queima da floresta.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "I - Diminuição de curto prazo da fertilidade do solo pela queima da vegetação.\nII - Perda de biodiversidade pelo efeito direto do fogo sobre os animais silvestres.\nIII - Diminuição da evaporação da água da chuva que atinge o solo exposto.",
+        "b": "I - Aumento de curto prazo da fertilidade do solo pelo efeito direto do calor do fogo sobre o solo superficial.\nII - Diminuição da diversidade de animais silvestres devido à remoção da vegetação.\nIII - Diminuição da temperatura do solo exposto como efeito direto da remoção da vegetação.",
+        "c": "I - Aumento de curto prazo da fertilidade do solo pela deposição de cinzas.\nII - Perda de biodiversidade devido à remoção da vegetação.\nIII - Aumento temporário da evaporação da água da chuva que atinge o solo exposto.",
+        "d": "I - Aumento de curto prazo da fertilidade do solo pelo efeito direto do calor do fogo sobre o solo superficial.\nII - Perda de biodiversidade pelo efeito direto do fogo sobre a vegetação.\nIII - Diminuição temporária de absorção da água da chuva pelo solo exposto.",
+        "e": "I - Aumento de longo prazo da fertilidade do solo pela deposição de cinzas.\nII - Aumento da diversidade de animais silvestres devido à remoção da vegetação.\nIII - Aumento da erosão do solo exposto devido à remoção da vegetação."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Impactos antrópicos: poluição, bioacumulação trófica, espécies exóticas, pegada ecológica e unidades de conservação",
+            "Biomas brasileiros e ecossistemas aquáticos"
+          ]
+        },
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Domínios morfoclimáticos e biomas mundiais e brasileiros",
+            "Impactos ambientais: mudanças climáticas, efeito estufa, desmatamento, degradação de solos e conferências internacionais do clima"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 51,
+      "tipo": "objetiva",
+      "enunciado": "Qual das curvas representa o crescimento de um inseto hemimetábolo, desde seu nascimento até a fase adulta?",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 15: Gráficos de A a E mostrando o tamanho do corpo em função do tempo (dias) para insetos, evidenciando o crescimento em etapas (ecdises)."
+      ],
+      "alternativas": {
+        "a": "(A)",
+        "b": "(B)",
+        "c": "(C)",
+        "d": "(D)",
+        "e": "(E)"
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Reino Animalia: características evolutivas dos principais filos (simetria, folhetos embrionários, celoma)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 52,
+      "tipo": "objetiva",
+      "enunciado": "Analise o esquema de uma célula adulta.",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 15: Esquema de uma célula vegetal com estruturas indicadas por setas (I, II, III, IV)."
+      ],
+      "alternativas": {
+        "a": "glicídeo, lipídeo, água e ácido nucleico.",
+        "b": "proteína, glicídeo, água e ácido nucleico.",
+        "c": "lipídeo, proteína, glicídeo e ácido nucleico.",
+        "d": "lipídeo, glicídeo, ácido nucleico e água.",
+        "e": "glicídeo, proteína, ácido nucleico e água."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Componentes químicos celulares: água, sais minerais, carboidratos, lipídios, proteínas e vitaminas",
+            "Organização celular: diferenças entre procariontes e eucariontes (animal e vegetal)",
+            "Organelas citoplasmáticas e suas funções"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 53,
+      "tipo": "objetiva",
+      "enunciado": "Analise a seguinte genealogia de uma doença:",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 15: Heredograma mostrando cruzamentos e incidência de uma doença em três gerações."
+      ],
+      "alternativas": {
+        "a": "incidência da doença em mulheres e homens.",
+        "b": "transmissão do alelo mutante apenas às filhas de um homem afetado.",
+        "c": "presença de pessoas afetadas em todas as gerações.",
+        "d": "transmissão do alelo mutante às filhas e aos filhos de uma mulher afetada.",
+        "e": "presença de pelo menos um dos genitores afetados."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Heredogramas e probabilidades genéticas",
+            "Ligação gênica (linkage) e herança ligada ao sexo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 54,
+      "tipo": "objetiva",
+      "enunciado": "Analise os esquemas simplificados das células 1 e 2:",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 15: Esquemas simplificados de duas células (Célula 1 e Célula 2) com indicação de mitocôndrias e vesículas secretoras."
+      ],
+      "alternativas": {
+        "a": "sangue e no fígado.",
+        "b": "osso e no pâncreas.",
+        "c": "músculo esquelético e no pâncreas.",
+        "d": "músculo cardíaco e no osso.",
+        "e": "pâncreas e no fígado."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Organelas citoplasmáticas e suas funções",
+            "Fisiologia dos sistemas humanos: digestório, cardiovascular, respiratório, excretor, nervoso, endócrino, locomotor e reprodutor"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 55,
+      "tipo": "objetiva",
+      "enunciado": "Considere uma sequência de DNA com 100 pares de bases de comprimento contendo 32 timinas.\nQuantas citosinas, guaninas e adeninas essa sequência terá, respectivamente?",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "32, 68, 68.",
+        "b": "68, 32, 68.",
+        "c": "68, 68, 32.",
+        "d": "32, 18, 18.",
+        "e": "18, 32, 18."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Estrutura molecular do DNA e RNA, transcrição gênica e síntese proteica (código genético)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 56,
+      "tipo": "objetiva",
+      "enunciado": "A combinação entre baixa biodiversidade, altas concentrações de poluentes e baixas concentrações de oxigênio dissolvido, que é verificada nos rios que passam por grandes centros urbanos no Brasil, deve-se principalmente à(ao)",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "descarte de garrafas PET e sacolas plásticas, aumentando a cadeia de produção de microplásticos.",
+        "b": "aumento de intervenções de engenharia, como a construção de pontes e dragagens.",
+        "c": "aquecimento da água do rio devido ao aumento da temperatura média nas metrópoles.",
+        "d": "descarte de esgoto doméstico e industrial sem tratamento.",
+        "e": "ocorrência mais frequente de longos períodos de estiagem, aumentando a evaporação."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Impactos antrópicos: poluição, bioacumulação trófica, espécies exóticas, pegada ecológica e unidades de conservação"
+          ]
+        },
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Hidrografia: bacias hidrográficas mundiais e brasileiras e geopolítica da água",
+            "Impactos ambientais: mudanças climáticas, efeito estufa, desmatamento, degradação de solos e conferências internacionais do clima"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 57,
+      "tipo": "objetiva",
+      "enunciado": "Um paciente, com câncer sanguíneo (linfoma) e infectado por HIV, fez quimioterapia e recebeu um transplante de células-tronco da medula óssea de um doador resistente ao HIV. Como resultado, tanto o câncer como o HIV retroagiram neste paciente. O receptor mais usado pelo HIV para entrar nas células do corpo é o CCR5. Um pequeno número de pessoas resistentes ao HIV tem duas cópias mutadas do gene do receptor CCR5. Isso significa que o vírus não pode penetrar nas células sanguíneas do corpo que costumam ser infectadas. O paciente recebeu células-tronco da medula óssea de um doador que tem essa mutação genética específica, o que fez com que também ficasse resistente ao HIV.\nDisponível em https://www.bbc.com/. Março/2019. Adaptado.\nA terapia celular a que o texto se refere",
+      "textos_de_apoio": [
+        "Um paciente, com câncer sanguíneo (linfoma) e infectado por HIV, fez quimioterapia e recebeu um transplante de células-tronco da medula óssea de um doador resistente ao HIV. Como resultado, tanto o câncer como o HIV retroagiram neste paciente. O receptor mais usado pelo HIV para entrar nas células do corpo é o CCR5. Um pequeno número de pessoas resistentes ao HIV tem duas cópias mutadas do gene do receptor CCR5. Isso significa que o vírus não pode penetrar nas células sanguíneas do corpo que costumam ser infectadas. O paciente recebeu células-tronco da medula óssea de um doador que tem essa mutação genética específica, o que fez com que também ficasse resistente ao HIV.\nDisponível em https://www.bbc.com/. Março/2019. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "permitirá que eventuais futuros filhos do paciente transplantado também possuam células resistentes à infecção pelo HIV.",
+        "b": "possibilitou a produção, pelas células sanguíneas do paciente após o transplante, de receptores CCR5 aos quais o vírus HIV não se liga.",
+        "c": "promoveu mutações no gene CCR5 das células do paciente, ocasionando a produção de proteína à qual o HIV não se liga.",
+        "d": "gerou novos alelos mutantes que interagem com o gene do receptor CCR5 do paciente, ocasionando a resistência à entrada do HIV nas células do paciente.",
+        "e": "confirma que o alelo mutante que confere resistência à infecção pelo HIV é dominante sobre o alelo selvagem do gene CCR5."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Biotecnologia: DNA recombinante, transgênicos, PCR, clonagem, células-tronco e CRISPR",
+            "Vírus: estrutura, replicação e principais viroses humanas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 58,
+      "tipo": "objetiva",
+      "enunciado": "Pesquisadores do Museu Nacional, no Rio de Janeiro, encontraram o crânio e uma parte do fêmur de Luzia, o esqueleto humano mais antigo descoberto na América que revolucionou as teorias científicas sobre a ocupação do continente. Os fósseis foram achados há alguns dias (não foi divulgado quando) junto aos escombros do edifício, parcialmente destruído por um incêndio em 2 de setembro. O crânio está fragmentado, porque a cola que mantinha os seus pedaços juntos se foi com o calor, mas a equipe está bastante otimista com suas condições.\nJúlia Barbon, Folha de São Paulo, Outubro/2018. Adaptado.\nO esqueleto de Luzia,",
+      "textos_de_apoio": [
+        "Pesquisadores do Museu Nacional, no Rio de Janeiro, encontraram o crânio e uma parte do fêmur de Luzia, o esqueleto humano mais antigo descoberto na América que revolucionou as teorias científicas sobre a ocupação do continente. Os fósseis foram achados há alguns dias (não foi divulgado quando) junto aos escombros do edifício, parcialmente destruído por um incêndio em 2 de setembro. O crânio está fragmentado, porque a cola que mantinha os seus pedaços juntos se foi com o calor, mas a equipe está bastante otimista com suas condições.\nJúlia Barbon, Folha de São Paulo, Outubro/2018. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "adquirido por D. Pedro II em 1876, foi incorporado à sua coleção pessoal, a mesma que deu origem ao Museu Nacional no período republicano.",
+        "b": "descoberto na década de 1970 em Minas Gerais, permitiu questionar a teoria de que a ocupação das Américas se deu por apenas uma onda migratória.",
+        "c": "estudado por diferentes equipes de antropólogos, comprovou que grupos saídos diretamente da África foram os primeiros habitantes das Américas.",
+        "d": "encontrado na atual Serra da Capivara, no Estado do Piauí, pertenceu à cultura que elaborou suas famosas pinturas rupestres.",
+        "e": "mantido em uma coleção particular fora do país, estava exposto para comemoração dos 150 anos da passagem de Charles Darwin pelo Brasil."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Origem humana, processos de sedentarização e registros rupestres"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 59,
+      "tipo": "objetiva",
+      "enunciado": "Afirmo, portanto, que tínhamos atingido já o ano bem farto da Encarnação do Filho de Deus, de 1348, quando, na mui excelsa cidade de Florença, (...) sobreveio a mortífera pestilência. (...) apareciam no começo, tanto em homens como nas mulheres, ou na virilha ou na axila, algumas inchações (...) chamava-as o populacho de bubões (...).\nGiovanni Boccaccio, Decamerão.\nA respeito da Peste Negra do século XIV, é correto afirmar:",
+      "textos_de_apoio": [
+        "Afirmo, portanto, que tínhamos atingido já o ano bem farto da Encarnação do Filho de Deus, de 1348, quando, na mui excelsa cidade de Florença, (...) sobreveio a mortífera pestilência. (...) apareciam no começo, tanto em homens como nas mulheres, ou na virilha ou na axila, algumas inchações (...) chamava-as o populacho de bubões (...).\nGiovanni Boccaccio, Decamerão."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "Provocou gravíssima queda demográfica, que afetou grande parte da produção econômica europeia.",
+        "b": "Originou-se no Oriente, penetrou no continente europeu pelos portos e manteve-se restrita à Península Itálica.",
+        "c": "Foi provocada pela fome e pela desnutrição dos camponeses e favoreceu o processo de centralização política.",
+        "d": "Foi contida pelo caráter de subsistência da economia europeia, que dificultava o contato humano e, assim, o contágio.",
+        "e": "Estimulou as investidas contra os territórios muçulmanos no movimento conhecido como Segunda Cruzada."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Período Medieval: feudalismo, diversidade religiosa (cristianismo, islamismo, judaísmo) e vida cultural no Medievo europeu e africano"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 60,
+      "tipo": "objetiva",
+      "enunciado": "Em relação às rotas comerciais representadas no mapa, é correto afirmar que elas",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 17: Mapa das principais rotas de comércio da África do Norte e Ocidental no século XV."
+      ],
+      "alternativas": {
+        "a": "indicam que a melhoria das condições ambientais do Saara permitiu a construção de estradas pelo deserto.",
+        "b": "foram construídas pelo poder islâmico do Cairo, que promoveu a unificação de toda a África do Norte.",
+        "c": "mostram a decadência econômica do comércio do Saara oriental, em razão da crise do Império Egípcio.",
+        "d": "atingem a região ao sudoeste do Saara, local de origem do ouro que chegava aos portos do Mediterrâneo.",
+        "e": "representam o poder do Império de Songai, cuja capital era Timbuctu, que unificou todo o território entre o Atlântico e o mar Vermelho."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Período Medieval: feudalismo, diversidade religiosa (cristianismo, islamismo, judaísmo) e vida cultural no Medievo europeu e africano",
+            "Grandes Navegações, espaço atlântico, reinos africanos e tráfico de escravizados"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 61,
+      "tipo": "objetiva",
+      "enunciado": "A chamada “questão trabalhista” no Brasil foi objeto de conflitos, debates e regulamentações entre os anos 1920 e 1946. Identifique uma das dimensões deste processo.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "O liberalismo oligárquico atribuiu ao Estado, por meio da reforma de 1924, o papel de mediador entre o operariado e o patronato.",
+        "b": "A Constituição de 1934 garantiu o direito à organização sindical e abriu espaço para a proteção dos direitos dos trabalhadores.",
+        "c": "O direito de greve e a regulamentação do salário mínimo foram algumas das novidades previstas na Consolidação das Leis do Trabalho (1943).",
+        "d": "A criação do sindicato único contribuiu para a emergência de lideranças combativas ao obrigar todos os trabalhadores a se filiarem a tais associações.",
+        "e": "A Carteira de Trabalho foi um instrumento de controle e dominação, que distinguia o trabalhador e esvaziava o poder dos sindicatos."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Brasil República: República Velha (oligarquias), Era Vargas (1930-1945), Período Democrático (1945-1964) e Ditadura Civil-Militar (1964-1985)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 62,
+      "tipo": "objetiva",
+      "enunciado": "A representação cartográfica a seguir refere-se à viagem de circunavegação, iniciada em Sanlúcar de Barrameda, na Andaluzia, em 20 de setembro de 1519, e comandada pelo português Fernão de Magalhães, a serviço da monarquia da Espanha. A despeito da repercussão da viagem para o desenvolvimento dos conhecimentos náuticos e para a exploração do Oceano Pacífico, Battista Agnese foi um dos poucos cartógrafos a registrar a empreitada de Magalhães.\n\nA representação cartográfica de Battista Agnese",
+      "textos_de_apoio": [
+        "A representação cartográfica a seguir refere-se à viagem de circunavegação, iniciada em Sanlúcar de Barrameda, na Andaluzia, em 20 de setembro de 1519, e comandada pelo português Fernão de Magalhães, a serviço da monarquia da Espanha. A despeito da repercussão da viagem para o desenvolvimento dos conhecimentos náuticos e para a exploração do Oceano Pacífico, Battista Agnese foi um dos poucos cartógrafos a registrar a empreitada de Magalhães."
+      ],
+      "midia": [
+        "Página 17: Detalhe do mapa/atlas portulano de Battista Agnese, 1545, representando a rota da viagem de Magalhães."
+      ],
+      "alternativas": {
+        "a": "revelava a permanência das técnicas e sentidos simbólicos da cosmografia medieval, que orientaram os navegadores ibéricos na época da expansão ultramarina.",
+        "b": "estava vinculada aos dogmas cristãos e procurava conciliar o registro da viagem de Fernão de Magalhães com a perspectiva de Terra Plana ainda presente entre letrados cristãos.",
+        "c": "estava baseada nos relatos dos navegadores, no acúmulo de conhecimentos acerca das rotas marítimas e em estimativas de distâncias a partir de cálculos matemáticos e da planificação do globo terrestre.",
+        "d": "apresentava o Oceano Pacífico em suas reais dimensões de acordo com o entendimento de Fernão de Magalhães e de Cristóvão Colombo e em desacordo com as perspectivas cristãs.",
+        "e": "estava assentada nos conhecimentos e detalhamentos geográficos bíblicos e nas formulações cosmológicas de Ptolomeu, fundamentais para o sucesso da viagem de Fernão de Magalhães."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Grandes Navegações, espaço atlântico, reinos africanos e tráfico de escravizados"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 63,
+      "tipo": "objetiva",
+      "enunciado": "As tentativas holandesas de conquista dos territórios portugueses na América tinham por objetivo central",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "a apropriação do complexo açucareiro escravista do Atlântico Sul, então monopolizado pelos portugueses.",
+        "b": "a formação de núcleos de povoamento para absorverem a crescente população protestante dos Países Baixos.",
+        "c": "a exploração das minas de ouro recém-descobertas no interior, somente acessíveis pelo controle de portos no Atlântico.",
+        "d": "a ocupação de áreas até então pouco exploradas pelos portugueses, como o Maranhão e o Vale Amazônico.",
+        "e": "a criação de uma base para a ocupação definitiva das áreas de mineração da América espanhola."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Brasil Colônia: primeiros habitantes indígenas, ocupação territorial, ciclos econômicos (açúcar e ouro) e escravidão",
+            "Colonização espanhola, inglesa, francesa e holandesa na América"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 64,
+      "tipo": "objetiva",
+      "enunciado": "Com base no texto, registrado aproximadamente no século VII a.C. e que se refere a um antigo mito da Mesopotâmia, bem como em seus conhecimentos, é possível dizer que a sociedade descrita era",
+      "textos_de_apoio": [
+        "Ao primeiro brilho da alvorada chegou do horizonte uma nuvem negra, que era conduzida [pelo] senhor da tempestade (...). Surgiram então os deuses do abismo; Nergal destruiu as barragens que represavam as águas do inferno; Ninurta, o deus da guerra, pôs abaixo os diques (...). Por seis dias e seis noites os ventos sopraram; enxurradas, inundações e torrentes assolaram o mundo; a tempestade e o dilúvio explodiam em fúria como dois exércitos em guerra. Na alvorada do sétimo dia o temporal (...) amainou (...) o dilúvio serenou (...) toda a humanidade havia virado argila (...). Na montanha de Nisir o barco ficou preso (...). Na alvorada do sétimo dia eu soltei uma pomba e deixei que se fosse. Ela voou para longe, mas, não encontrando um lugar para pousar, retornou. Então soltei um corvo. A ave viu que as águas haviam abaixado; ela comeu, (...) grasnou e não mais voltou para o barco. Eu então abri todas as portas e janelas, expondo a nave aos quatro ventos. Preparei um sacrifício e derramei vinho sobre o topo da montanha em oferenda aos deuses (...).\nA Epopeia de Gilgamesh, São Paulo: Martins Fontes, 2001."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "mercantil, pacífica, politeísta e centralizada.",
+        "b": "agrária, militarizada, monoteísta e democrática.",
+        "c": "manufatureira, naval, monoteísta e federalizada.",
+        "d": "mercantil, guerreira, monoteísta e federalizada.",
+        "e": "agrária, guerreira, politeísta e centralizada."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Antiguidade Oriental e África Antiga (Mesopotâmia, Egito, Núbia e Reino de Axum)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 65,
+      "tipo": "objetiva",
+      "enunciado": "Esses versos",
+      "textos_de_apoio": [
+        "Depois de 20 anos na escola\nNão é difícil aprender\nTodas as manhas do seu jogo sujo\nNão é assim que tem que ser\nVamos fazer nosso dever de casa\nE aí então vocês vão ver\nSuas crianças derrubando reis\nFazer comédia no cinema com as suas leis\nSomos os filhos da revolução\nSomos burgueses sem religião\nSomos o futuro da nação\nGeração Coca-Cola.\nDado Villa-Lobos e Renato Russo, Geração Coca-Cola, 1984."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "remetem ao período da Campanha das Diretas Já e apresentam esperanças em relação à implantação de um regime democrático no Brasil.",
+        "b": "revelam a indignação e rebeldia da juventude com os rumos da chamada Nova República, especialmente contra o Colégio Eleitoral e o bipartidarismo.",
+        "c": "propõem um repúdio por parte da juventude brasileira em relação às questões políticas e comportamentais durante a transição democrática.",
+        "d": "oferecem uma visão positiva acerca do período militar no Brasil e demonstram ceticismo com respeito à transição democrática.",
+        "e": "reforçam a capacidade de mobilização e reivindicação da juventude pela liberdade de expressão e criação de novas universidades públicas."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Brasil República: República Velha (oligarquias), Era Vargas (1930-1945), Período Democrático (1945-1964) e Ditadura Civil-Militar (1964-1985)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 66,
+      "tipo": "objetiva",
+      "enunciado": "A respeito da Operação Condor, é correto afirmar:",
+      "textos_de_apoio": [
+        "Documentos da Agência Central de Inteligência Americana (CIA) mostram que o Brasil quis liderar a Operação Condor e só não conseguiu porque enfrentou resistência dos outros países membros – Argentina, Chile, Uruguai, Paraguai e Bolívia. (...) Os documentos da CIA fazem parte do Projeto de Desclassificação Argentina (The Dirty War, 1976-1983), do governo americano, e incluem mais de 40 mil páginas. Duas dezenas delas fazem menções ao Brasil (...).\nMarcelo Godoy, O Estado de São Paulo. Abril/2019."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "Ainda que tivesse um alvo comum de repressão política, ela não implicava o alinhamento automático dos regimes ditatoriais de cada país.",
+        "b": "Ao encontrar resistência dos demais países que dela participavam, o Brasil passou a criticar publicamente suas ações.",
+        "c": "Em vista da oposição norte-americana à iniciativa, a cooperação entre os países membros não foi implantada.",
+        "d": "O governo ditatorial paraguaio assumiu a posição de liderança no acordo firmado entre seus países fundadores.",
+        "e": "Limitou-se à troca de informações sobre os opositores políticos que buscaram exílio em cada um desses países."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Guerra Fria, corrida armamentista e descolonização da África e Ásia",
+            "EUA e América Latina: Doutrina Monroe, Big Stick, Revolução Mexicana e regimes civil-militares"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 67,
+      "tipo": "objetiva",
+      "enunciado": "A respeito deles, é correto afirmar que",
+      "textos_de_apoio": [
+        "A entrega pacífica do governo a um adversário pressupunha um elevado nível de automoderação. O mesmo determinou a boa vontade de um governo em não usar os seus grandes recursos do poder na humilhação ou destruição de predecessores hostis ou opositores (...). As técnicas militares deram lugar às técnicas verbais do debate feitas de retórica e de persuasão, a maior parte das quais exigia mais contenção geral, identificando, de modo nítido, esta mudança com um avanço da civilização.\nNorbert Elias, A busca da excitação. Lisboa: Difel, 1992."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "os debates acalorados no Parlamento, que desencadearam uma série de lutas sociais no século XVIII, foram apenas superados no início do século XIX com a instauração do Regime Parlamentar.",
+        "b": "após o turbulento século XVII, marcado por sucessivas lutas sociais e golpes de Estado, a pacificação entre as classes dominantes ocorreu com o fortalecimento do Regime Parlamentar ao longo do século XVIII.",
+        "c": "a instauração da República de Cromwell e do parlamentarismo, em meados do século XVIII, foi responsável pelo fim das turbulências políticas características do absolutismo monárquico.",
+        "d": "o avanço da civilização mencionado no texto ocorreu com o estabelecimento do princípio da tolerância religiosa entre anglicanos, calvinistas e católicos pelo Parlamento no final do século XVIII.",
+        "e": "o estabelecimento do parlamento bicameral, com representação para os nobres e para a burguesia enriquecida, e do direito de voto universal, ambos no século XVIII, foram responsáveis pela contenção das lutas sociais na Grã-Bretanha."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Renascimento Cultural, Reformas Religiosas e formação dos Estados Nacionais",
+            "Iluminismo, Liberalismo e a 1ª Revolução Industrial"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 68,
+      "tipo": "objetiva",
+      "enunciado": "Escolha a alternativa que demonstre corretamente os elementos de continuidade e de descontinuidade entre a “revolução do impresso” e a “revolução eletrônica” apontados pelo autor.",
+      "textos_de_apoio": [
+        "De acordo com o historiador Martyn Lyons, “nos temores contemporâneos em relação ao acesso ilimitado a sites perigosos da Internet, e às dificuldades enfrentadas por governos de diversos países no policiamento da distribuição da informação, ouve-se o eco do pânico causado pela invenção da imprensa”.\nMartyn Lyons, A história da leitura de Gutenberg a Bill Gates, RJ: Casa da Palavra, 1999."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "As chamadas “revolução do impresso” e “revolução eletrônica” não somente favoreceram a multiplicação e democratização do acesso à informação como também auxiliaram a formação de um público mais vasto e mais crítico.",
+        "b": "A implementação das novas tecnologias de comunicação eliminou a diferença entre os usuários e os excluídos do universo da cultura escrita, tal como se prometera no início de sua adoção.",
+        "c": "A manutenção de índices elevados de circulação de fake news nas redes sociais demonstra que a “revolução da comunicação” depende de quem domina e de quem usa as tecnologias.",
+        "d": "Diferentemente do Index Librorum Prohibitorum promulgado para a atuação da Inquisição no controle da expansão do Protestantismo durante o século XVI, os atuais marcos regulatórios da Internet limitam-se ao controle da pornografia.",
+        "e": "O advento da tipografia não foi necessariamente revolucionário, pois não mudou a natureza nem o assunto dos livros; já a tecnologia digital suprimiu todas as formas anteriores de comunicação, da oral à impressa."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Desafios contemporâneos: racismo estrutural, migrações, sustentabilidade e novas tecnologias"
+          ]
+        },
+        {
+          "area": "Filosofia e Sociologia",
+          "assuntos": [
+            "Consumismo, Indústria Cultural e manipulação da informação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 69,
+      "tipo": "objetiva",
+      "enunciado": "Em julho de 1969, os astronautas Neil Armstrong e Buzz Aldrin fizeram o primeiro pouso tripulado na superfície da Lua, enquanto seu colega Michael Collins permaneceu a bordo do módulo de comando Columbia em órbita lunar. Considerando que o Columbia estivesse em uma órbita perfeitamente circular a uma altitude de 260 km acima da superfície da Lua, o tempo decorrido (em horas terrestres - h) entre duas passagens do Columbia exatamente acima do mesmo ponto da superfície lunar seria de",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "0,5 h.",
+        "b": "2 h.",
+        "c": "4 h.",
+        "d": "8 h.",
+        "e": "72 h."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Leis de Kepler e Lei da Gravitação Universal de Newton",
+            "Campo gravitacional, órbitas e satélites geoestacionários"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 70,
+      "tipo": "objetiva",
+      "enunciado": "A unidade da constante de Planck em termos das unidades de base do SI (quilograma, metro e segundo) é:",
+      "textos_de_apoio": [
+        "Em 20 de maio de 2019, as unidades de base do Sistema Internacional de Unidades (SI) passaram a ser definidas a partir de valores exatos de algumas constantes físicas. Entre elas, está a constante de Planck h, que relaciona a energia E de um fóton (quantum de radiação eletromagnética) com a sua frequência f na forma E = hf."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "kg m²/s",
+        "b": "kg s/m²",
+        "c": "m² s/kg",
+        "d": "kg s/m",
+        "e": "kg m²/s³"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Grandezas fundamentais e derivadas, Sistema Internacional de Unidades (SI) e análise dimensional"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 71,
+      "tipo": "objetiva",
+      "enunciado": "Com base no gráfico, a frequência do sinal é aproximadamente",
+      "textos_de_apoio": [
+        "A transmissão de dados de telefonia celular por meio de ondas eletromagnéticas está sujeita a perdas que aumentam com a distância d entre a antena transmissora e a antena receptora. Uma aproximação frequentemente usada para expressar a perda L, em decibéis (dB), do sinal em função de d, no espaço livre de obstáculos, é dada pela expressão\nL = 20 log₁₀ (4πd / λ),\nem que λ é o comprimento de onda do sinal. O gráfico a seguir mostra L (em dB) versus d (em metros) para um determinado comprimento de onda λ."
+      ],
+      "midia": [
+        "Página 19: Gráfico de L (dB) versus d (metros) mostrando uma curva logarítmica."
+      ],
+      "alternativas": {
+        "a": "2,5 GHz.",
+        "b": "5 GHz.",
+        "c": "12 GHz.",
+        "d": "40 GHz.",
+        "e": "100 GHz."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Ondulatória: características das ondas e Equação Fundamental da Ondulatória (v = λ * f)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 72,
+      "tipo": "objetiva",
+      "enunciado": "Um estímulo nervoso em um dos dedos do pé de um indivíduo demora cerca de 30 ms para chegar ao cérebro. Nos membros inferiores, o pulso elétrico, que conduz a informação do estímulo, é transmitido pelo nervo ciático, chegando à base do tronco em 20 ms. Da base do tronco ao cérebro, o pulso é conduzido na medula espinhal. Considerando que a altura média do brasileiro é de 1,70 m e supondo uma razão média de 0,6 entre o comprimento dos membros inferiores e a altura de uma pessoa, pode-se concluir que as velocidades médias de propagação do pulso nervoso desde os dedos do pé até o cérebro e da base do tronco até o cérebro são, respectivamente:",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "51 m/s e 51 m/s",
+        "b": "51 m/s e 57 m/s",
+        "c": "57 m/s e 57 m/s",
+        "d": "57 m/s e 68 m/s",
+        "e": "68 m/s e 68 m/s"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Cinemática escalar: velocidade e aceleração escalar média e instantânea"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 73,
+      "tipo": "objetiva",
+      "enunciado": "A velocidade de escape de um corpo celeste é a mínima velocidade que um objeto deve ter nas proximidades da superfície desse corpo para escapar de sua atração gravitacional. Com base nessa informação e em seus conhecimentos sobre a interpretação cinética da temperatura, considere as seguintes afirmações a respeito da relação entre a velocidade de escape e a atmosfera de um corpo celeste.\nI. Corpos celestes com mesma velocidade de escape retêm atmosferas igualmente densas, independentemente da temperatura de cada corpo.\nII. Moléculas de gás nitrogênio escapam da atmosfera de um corpo celeste mais facilmente do que moléculas de gás hidrogênio.\nIII. Comparando corpos celestes com temperaturas médias iguais, aquele com a maior velocidade de escape tende a reter uma atmosfera mais densa.\nApenas é correto o que se afirma em",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "I.",
+        "b": "II.",
+        "c": "III.",
+        "d": "I e II.",
+        "e": "I e III."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Leis de Kepler e Lei da Gravitação Universal de Newton",
+            "Gases perfeitos: Equação de Clapeyron e transformações gasosas (isotérmica, isobárica, isocórica)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 74,
+      "tipo": "objetiva",
+      "enunciado": "Um equipamento de bungee jumping está sendo projetado para ser utilizado em um viaduto de 30 m de altura. O elástico utilizado tem comprimento relaxado de 10 m. Qual deve ser o mínimo valor da constante elástica desse elástico para que ele possa ser utilizado com segurança no salto por uma pessoa cuja massa, somada à do equipamento de proteção a ela conectado, seja de 120 kg?",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "30 N/m",
+        "b": "80 N/m",
+        "c": "90 N/m",
+        "d": "160 N/m",
+        "e": "180 N/m"
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Trabalho de forças constantes e variáveis",
+            "Energia cinética, energia potencial (gravitacional e elástica) e conservação da energia mecânica"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 75,
+      "tipo": "objetiva",
+      "enunciado": "Um fabricante projetou resistores para utilizar em uma lâmpada de resistência L. Cada um deles deveria ter resistência R. Após a fabricação, ele notou que alguns deles foram projetados erroneamente, de forma que cada um deles possui uma resistência RD = R/2. Tendo em vista que a lâmpada queimará se for percorrida por uma corrente elétrica superior a V/(R + L), em qual(is) dos circuitos a lâmpada queimará?",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 20: Esquemas de três circuitos elétricos numerados (1), (2) e (3)."
+      ],
+      "alternativas": {
+        "a": "1, apenas.",
+        "b": "2, apenas.",
+        "c": "1 e 3, apenas.",
+        "d": "2 e 3, apenas.",
+        "e": "1, 2 e 3."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Eletrodinâmica: corrente elétrica, ddp, Leis de Ohm, resistividade e potência elétrica (kWh)",
+            "Associação de resistores, geradores, receptores e circuitos elétricos (Leis de Kirchhoff)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 76,
+      "tipo": "objetiva",
+      "enunciado": "Sabe-se que o tamanho equivalente a um pixel na foto do buraco negro corresponde ao valor da menor distância entre dois objetos naquela galáxia para que eles possam ser identificados separadamente pelo EHT. Com base nas informações anteriores e na análise do gráfico, e sabendo que a distância da Terra até a galáxia M87 é de 5 × 10²⁰ km, indique o valor mais próximo do tamanho do pixel.",
+      "textos_de_apoio": [
+        "No dia 10 de abril de 2019, a equipe do Event Horizon Telescope (EHT, “Telescópio Horizonte de Eventos”) divulgou a primeira imagem de um buraco negro, localizado no centro da galáxia M87, obtida por um conjunto de telescópios com diâmetro efetivo equivalente ao da Terra, de 12.700 km. Devido ao fenômeno físico da difração, instrumentos óticos possuem um limite de resolução angular, que corresponde à mínima separação angular entre dois objetos que podem ser identificados separadamente quando observados à distância. O gráfico mostra o limite de resolução de um telescópio, medido em radianos, como função do seu diâmetro, para ondas luminosas de comprimento de onda de 1,3 mm, igual ao daquelas captadas pelo EHT. Note a escala logarítmica dos eixos do gráfico."
+      ],
+      "midia": [
+        "Página 20: Gráfico de resolução angular versus diâmetro efetivo do telescópio."
+      ],
+      "alternativas": {
+        "a": "5 × 10¹ km",
+        "b": "5 × 10⁴ km",
+        "c": "5 × 10⁷ km",
+        "d": "5 × 10¹⁰ km",
+        "e": "5 × 10¹³ km"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Princípios da óptica geométrica e formação de sombras/penumbras",
+            "Fenômenos ondulatórios: reflexão, refração, difração, interferência, polarização e ressonância"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 77,
+      "tipo": "objetiva",
+      "enunciado": "O diagrama que representa corretamente as forças elétrica F_E e magnética F_B atuando sobre a partícula é:",
+      "textos_de_apoio": [
+        "Um solenoide muito longo é percorrido por uma corrente elétrica I, conforme mostra a figura 1.\nEm um determinado instante, uma partícula de carga q positiva desloca-se com velocidade instantânea v perpendicular ao eixo do solenoide, na presença de um campo elétrico na direção do eixo do solenoide. A figura 2 ilustra essa situação, em uma seção reta definida por um plano que contém o eixo do solenoide."
+      ],
+      "midia": [
+        "Página 21: Figura 1 (solenoide) e Figura 2 (seção reta com a trajetória da partícula e vetores)."
+      ],
+      "alternativas": {
+        "a": "(A)",
+        "b": "(B)",
+        "c": "(C)",
+        "d": "(D)",
+        "e": "(E)"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Eletrostática: carga elétrica, processos de eletrização, Lei de Coulomb, campo e potencial elétrico",
+            "Campo magnético de ímãs e correntes elétricas (fio, espira e solenoide)",
+            "Força magnética sobre cargas em movimento e condutores"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 78,
+      "tipo": "objetiva",
+      "enunciado": "Um drone voando na horizontal, em relação ao solo (como indicado pelo sentido da seta na figura), deixa cair um pacote de livros. A melhor descrição da trajetória realizada pelo pacote de livros, segundo um observador em repouso no solo, é dada pelo percurso descrito na",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 21: Ilustração de um drone deixando cair um pacote com 5 trajetórias numeradas de 1 a 5."
+      ],
+      "alternativas": {
+        "a": "trajetória 1.",
+        "b": "trajetória 2.",
+        "c": "trajetória 3.",
+        "d": "trajetória 4.",
+        "e": "trajetória 5."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Vetores na cinemática e lançamentos bidimensionais (horizontal e oblíquo)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 79,
+      "tipo": "objetiva",
+      "enunciado": "Indique a alternativa correta a respeito da comparação entre os períodos de oscilação P_1, P_2 e P_3 do pêndulo nas situações 1, 2 e 3, respectivamente.",
+      "textos_de_apoio": [
+        "Um pêndulo simples é composto por uma haste metálica leve, presa a um eixo bem lubrificado, e por uma esfera pequena de massa muito maior que a da haste, presa à sua extremidade oposta. O período P para pequenas oscilações de um pêndulo é proporcional à raiz quadrada da razão entre o comprimento da haste metálica e a aceleração da gravidade local. Considere este pêndulo nas três situações:\n1. Em um laboratório localizado ao nível do mar, na Antártida, a uma temperatura de 0 °C.\n2. No mesmo laboratório, mas agora a uma temperatura de 250 K.\n3. Em um laboratório no qual a temperatura é de 32 °F, em uma base lunar, cuja aceleração da gravidade é igual a um sexto daquela da Terra."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "P_1 < P_2 < P_3",
+        "b": "P_1 = P_3 < P_2",
+        "c": "P_2 < P_1 < P_3",
+        "d": "P_3 < P_2 < P_1",
+        "e": "P_1 < P_2 = P_3"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Dilatação térmica de sólidos (linear, superficial, volumétrica) e líquidos",
+            "Movimento Harmônico Simples (MHS) e pêndulo simples"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 80,
+      "tipo": "objetiva",
+      "enunciado": "É correto apenas o que se afirma em",
+      "textos_de_apoio": [
+        "Segundo o Instituto Nacional de Meteorologia (INMET), foram registradas temperaturas reduzidas no mês de junho de 2016, tal como na madrugada do dia 13, em que se alcançou a mínima de 3,5°C na estação meteorológica da Serra da Cantareira, na cidade de São Paulo. Além disso, de acordo com o Instituto, também ocorreram precipitações acima da média, com mais de 200 mm no total daquele mês.\nDisponível em https://www.meteo.psu.edu/. Adaptado."
+      ],
+      "midia": [
+        "Página 21: Gráfico/mapa esquemático de frentes frias e quentes sobre o território brasileiro."
+      ],
+      "alternativas": {
+        "a": "I.",
+        "b": "II.",
+        "c": "I e II.",
+        "d": "I e III.",
+        "e": "II e III."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Climatologia: fatores/elementos do clima, dinâmica das massas de ar e climas do Brasil e do mundo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 81,
+      "tipo": "objetiva",
+      "enunciado": "A esfericidade do Planeta Terra demonstrada por Eratóstenes e relembrada por Carl Sagan explica, em conjunto com outros fatores,",
+      "textos_de_apoio": [
+        "Um vídeo do astrônomo Carl Sagan em seu programa dos anos 1980, Cosmos, conta a história de Eratóstenes, demonstrando como os gregos antigos já haviam descoberto que a Terra é uma esfera (geoide). Para fazer isso, Eratóstenes observou a sombra de duas colunas no solstício de verão; uma coluna foi colocada em Alexandria e outra em Siena (atualmente Assuan), ambas no Egito. Ele notou que em Siena, ao meio dia, o Sol ficava em seu ponto mais alto e a coluna lá instalada projetava uma sombra com ângulo diferente daquela projetada em Alexandria. Sagan explica então que, se a Terra fosse plana, ambas as estruturas produziriam sombras iguais, mas como o planeta é esférico, o sombreamento varia.\nDisponível em https://revistagalileu.globo.com/. Adaptado. 2019."
+      ],
+      "midia": [
+        "Página 22: Imagens ilustrando a experiência das sombras das colunas de Eratóstenes e o vídeo de Carl Sagan."
+      ],
+      "alternativas": {
+        "a": "a ocorrência de dias mais longos e com maior insolação no Hemisfério em que está ocorrendo o inverno e de dias mais curtos e com menor insolação no Hemisfério em que está ocorrendo o verão.",
+        "b": "a ocorrência das estações do ano, sendo que, no Hemisfério Norte, há o solstício de verão em dezembro e, no Hemisfério Sul, o solstício de inverno em junho.",
+        "c": "a existência de zonas climáticas, em razão das variações de altitude que intensificam a radiação solar nos polos Norte e Sul.",
+        "d": "a ocorrência das estações do ano, que caracterizam o Equinócio de primavera no Hemisfério Sul em março e o Equinócio de outono no Hemisfério Norte em setembro.",
+        "e": "a existência de zonas climáticas, em função da maior intensidade da radiação solar na região equatorial quando comparada à incidência nos polos."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Coordenadas geográficas, localização, fusos horários e projeções cartográficas",
+            "Climatologia: fatores/elementos do clima, dinâmica das massas de ar e climas do Brasil e do mundo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 82,
+      "tipo": "objetiva",
+      "enunciado": "Com base nas informações e no mapa, o corredor ecológico funcional desse vírus, que atingiu a maior abrangência territorial no Estado de São Paulo durante o ano de 2017, avançou principalmente por quais regiões e causou qual enfermidade?",
+      "textos_de_apoio": [
+        "Em reportagem publicada em 2018, a revista FAPESP apresenta uma pesquisa da Superintendência de Controle de Endemias (SUCEN) que usou informações de data e local de mortes de macacos por um determinado vírus. A partir do estudo, construiu-se um modelo epidemiológico que descreve o sentido de deslocamento e os corredores ecológicos funcionais (corredores prováveis) do vírus.\nDisponível em http://revistapesquisa.fapesp.br/."
+      ],
+      "midia": [
+        "Página 22: Mapa do Estado de São Paulo indicando rotas prováveis de expansão de epizootias/vírus em 2016-2017."
+      ],
+      "alternativas": {
+        "a": "Sul de Minas Gerais e Vale do rio Ribeira de Iguape; Chikungunya.",
+        "b": "Sul de Minas Gerais e São José do Rio Preto; Dengue.",
+        "c": "Vale do rio Ribeira de Iguape e Região Metropolitana de São Paulo; Zika.",
+        "d": "Sul de Minas Gerais e Campinas; Febre Amarela.",
+        "e": "Litoral de São Paulo e Vale do rio Ribeira de Iguape; Gripe."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Divisão regional do Brasil (IBGE e complexos geoeconômicos)"
+          ]
+        },
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Saúde e Parasitologia: bacterioses, protozooses (malária, Chagas, leishmaniose) e verminoses (teníase, esquistossomose, ascaridíase)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 83,
+      "tipo": "objetiva",
+      "enunciado": "Dentre as medidas mais adequadas para mitigação dos efeitos da desertificação encontra(m)-se",
+      "textos_de_apoio": [
+        "O processo de desertificação é definido como a degradação ambiental e socioambiental, particularmente nas zonas áridas, semiáridas e subúmidas, resultantes de vários fatores e vetores, incluindo as variações e alterações climáticas e as atividades humanas.\nBRASIL, Ministério do Meio Ambiente. Disponível em http://www.mma.gov.br/."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "a construção de rodovias que permitam às populações mais diretamente atingidas pela seca se deslocarem diariamente para áreas mais úmidas.",
+        "b": "o uso das áreas de meia encosta como alternativa para expansão das áreas de produção de culturas temporárias e lavouras permanentes.",
+        "c": "o plantio de espécies exóticas que apresentam crescimento rápido e podem reduzir os efeitos da desertificação e da seca, como o eucalipto, por exemplo.",
+        "d": "a prevenção, recuperação e reabilitação de terras parcial ou totalmente degradadas com a recomposição de espécies nativas.",
+        "e": "os programas de incentivo para a instalação de fossas sépticas que dispensam a implantação de um sistema hídrico de saneamento básico."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Impactos ambientais: mudanças climáticas, efeito estufa, desmatamento, degradação de solos e conferências internacionais do clima"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 84,
+      "tipo": "objetiva",
+      "enunciado": "Sobre a produção agrícola brasileira e os dados apresentados nos cartogramas, é correto afirmar:",
+      "textos_de_apoio": [
+        "Brasil: Estabelecimentos de agricultura familiar e não familiar\nHervé Théry e Neli Aparecida Mello-Théry. Atlas do Brasil: disparidades e dinâmicas do território. 3ª edição, 2018. Adaptado."
+      ],
+      "midia": [
+        "Página 23: Dois cartogramas do Brasil representando estabelecimentos de agricultura familiar e não familiar."
+      ],
+      "alternativas": {
+        "a": "A agricultura familiar, que utiliza a maior extensão de terras agricultáveis do país, foi responsável pela produção da maior parte do volume agrícola exportado.",
+        "b": "A agricultura familiar, que utiliza uma extensão de terras menor que a agricultura não familiar, tem destaque na produção de alimentos para o mercado interno.",
+        "c": "A agricultura não familiar, que detém a maior extensão de terras agricultáveis do país, consiste em uma barreira ao desenvolvimento das atividades ligadas ao agronegócio.",
+        "d": "A agricultura não familiar, que apresenta o maior número de estabelecimentos rurais no país, é responsável pela produção de parte das chamadas commodities brasileiras.",
+        "e": "A concentração fundiária foi superada no país em função de a agricultura familiar ocupar, com seus estabelecimentos, a maior parte das terras."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Espaço Rural: sistemas agrícolas, modernização do campo e estrutura agrária brasileira"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 85,
+      "tipo": "objetiva",
+      "enunciado": "A respeito da configuração espacial e geopolítica retratada no excerto e no mapa, é possível afirmar que",
+      "textos_de_apoio": [
+        "É de grande relevância aqui o fato de que uma grande proporção do trânsito de internet do mundo passa pelos Estados Unidos (...). Isso significa que a NSA (a agência de segurança nacional dos EUA) poderia acessar uma quantidade alarmante de ligações telefônicas simplesmente escolhendo as instalações certas. O que é ainda mais inacreditável: essas instalações não passam de alguns prédios, conhecidos como “hotéis de telecomunicação”, que hospedam os principais centros de conexão de internet e telefonia do planeta todo.\nStephen Graham, Cidades Sitiadas: o novo urbanismo militar, 2016. Adaptado."
+      ],
+      "midia": [
+        "Página 23: Mapa mundial indicando fluxos de trânsito de internet (milhões de bits por segundo)."
+      ],
+      "alternativas": {
+        "a": "essa é a razão do grande déficit econômico dos Estados Unidos atualmente, uma vez que a maior parte dos negócios e transações é feita pela internet.",
+        "b": "essa situação explica o fato de que os Estados Unidos tenham, atualmente, a maior dívida pública do planeta, já que os custos com o tratamento de dados são muito altos.",
+        "c": "em um mundo cada vez mais dependente dos fluxos imateriais de informação, a presença de objetos técnicos fixos torna-se irrelevante para a posição geopolítica dos Estados Unidos.",
+        "d": "o mapa representa, por meio do “trânsito de internet” e do fluxo de “ligações telefônicas”, uma globalização que integrou completamente tanto os norte-americanos quanto as populações da África.",
+        "e": "a presença de fixos, como algumas instalações de armazenagem e conexão, influencia a orientação de fluxos e dá aos EUA uma posição de destaque no contexto geopolítico."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Redes de transporte, comunicações e circulação espacial",
+            "Globalização, comércio internacional, blocos econômicos e a posição do Brasil no comércio global"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 86,
+      "tipo": "objetiva",
+      "enunciado": "Essa notícia refere-se ao Ciclone Tropical que atingiu principalmente Moçambique, Zimbábue e Malaui. Eventos dessa magnitude e superiores – o Ciclone Idai atingiu apenas a categoria 2 em uma escala de 1 a 5 – ocorrem em outros locais do planeta e não repercutem da mesma forma, com a perda de centenas de vidas. Isso ocorre em função",
+      "textos_de_apoio": [
+        "O Ciclone Tropical Idai atingiu o litoral de Moçambique na noite de quinta-feira (21/03/2019), provocando grandes danos na cidade de Beira. Cerca de 500 mil pessoas ficaram sem energia, afetando também o setor de comunicações.\nDisponível em https://www.climatempo.com.br/. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "da grande presença de populações não nativas, que não têm tradição em lidar com eventos dessa natureza.",
+        "b": "do relevo de planalto que caracteriza Moçambique, Zimbábue e Malaui, em especial na zona costeira.",
+        "c": "da presença de rede hidrográfica e florestas que contribuem para a formação de ciclones dessa natureza e magnitude.",
+        "d": "da presença de águas superficiais do oceano Índico, com temperaturas mais reduzidas que o habitual, em especial no Canal de Moçambique.",
+        "e": "das características socioeconômicas da região com populações vulneráveis e reduzida capacidade do poder público em prestar atendimento à população."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Climatologia: fatores/elementos do clima, dinâmica das massas de ar e climas do Brasil e do mundo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 87,
+      "tipo": "objetiva",
+      "enunciado": "Os conceitos que explicam as dinâmicas urbanas descritas no excerto são:",
+      "textos_de_apoio": [
+        "Em Barcelona, em 2012 e 2013, a cada 15 minutos uma família recebia ordem de despejo. Desde então, o panorama da habitação mudou totalmente. “(...) Estamos assistindo uma onda de especulação imobiliária (...) que agora se foca no aluguel”, explica Daniel Pardo da Associação de Moradores para um Turismo Sustentável. “Este fenômeno pôs em marcha um processo acelerado e violento de expulsão de inquilinos”, acrescenta. Onde a pressão da especulação imobiliária internacional e a indústria do turismo causaram um aumento substancial nos preços dos aluguéis, os catalães têm hoje de gastar mais de 46% dos seus salários com o aluguel. Para os jovens até os 35 anos, a taxa de esforço aumenta até os 65% (...). “Não queremos que os habitantes de Barcelona sejam substituídos por pessoas com maior poder de compra”, diz a porta-voz do Sindicato dos Inquilinos. Só em Barcelona, 15 fundos de investimento imobiliário possuem 3.000 apartamentos.\n“Os habitantes querem a sua cidade de volta”. Reportagem de Ulrike Prinz para o Goethe-Institut Madrid. Maio/2018. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "Financeirização e Industrialização.",
+        "b": "Gentrificação e Segregação.",
+        "c": "Aglomeração e Conurbação.",
+        "d": "Industrialização e Segregação.",
+        "e": "Conurbação e Gentrificação."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Geografia Urbana: industrialização, urbanização, metropolização, conurbação, megalópoles e segregação socioespacial"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 88,
+      "tipo": "objetiva",
+      "enunciado": "Em relação a esses eventos, é correto afirmar que eles representam",
+      "textos_de_apoio": [
+        "Dois eventos marcaram a diplomacia brasileira em relação ao Oriente Médio no início de 2019. Um deles foi o voto contra a resolução da ONU que pedia a desocupação militar das Colinas de Golã e sua devolução à Síria. Outro evento foi o anúncio de transferência da embaixada brasileira de Tel Aviv para Jerusalém, mesmo não tendo sido levada adiante até setembro de 2019."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "I - uma aproximação do Brasil em relação à posição dos EUA.\nII - um potencial distanciamento do Brasil em relação à posição da maioria dos países do Conselho de Segurança da ONU.",
+        "b": "I - um distanciamento do Brasil em relação à posição da Palestina e uma aproximação em relação ao conjunto de países árabes.\nII - uma potencial aproximação do Brasil em relação à posição da maioria dos países do Conselho de Segurança da ONU.",
+        "c": "I - um distanciamento do Brasil em relação à posição de Israel e uma aproximação em relação aos palestinos.\nII - um potencial distanciamento do Brasil em relação à posição da maioria dos países do Conselho de Segurança da ONU.",
+        "d": "I - um distanciamento do Brasil em relação à posição dos EUA.\nII - uma potencial aproximação do Brasil em relação à posição da maioria dos países do Conselho de Segurança da ONU.",
+        "e": "I - uma aproximação do Brasil em relação à posição da Síria.\nII - um potencial distanciamento do Brasil em relação à posição da maioria dos países do Conselho de Segurança da ONU."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Globalização, comércio internacional, blocos econômicos e a posição do Brasil no comércio global"
+          ]
+        },
+        {
+          "area": "História",
+          "assuntos": [
+            "Colapso da URSS, Nova Ordem Mundial, Globalização e Neoliberalismo",
+            "Organismos internacionais (FMI, OMC, Banco Mundial) e ascensão da China"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 89,
+      "tipo": "objetiva",
+      "enunciado": "Baseando-se nas informações do texto e na figura, é correto afirmar que",
+      "textos_de_apoio": [
+        "No Brasil, várias cidades registram ocupação irregular de encostas em áreas sujeitas a deslizamentos de terra (também chamados de escorregamentos). O Instituto de Pesquisas Tecnológicas (IPT) trabalha no levantamento, mapeamento, recuperação e estabilização dessas áreas de risco. Um exemplo deste trabalho foram aqueles executados desde a década de 1970 referentes aos deslizamentos dos morros de Santos e São Vicente-SP, cuja região é acometida há tempos por esses problemas, inclusive com a ocorrência de vítimas fatais. Para investigar os deslizamentos de terra nas áreas serranas tropicais brasileiras, o Instituto realizou levantamentos topográficos, geológicos e geomorfológicos, estudando também a distribuição dos tipos de vegetação existentes e as categorias de ocupação urbana dos morros.\nRepresentação de deslizamento de terra (escorregamento) na região de Santos e São Vicente\nDisponível em https://www.ipt.br/. Adaptado. 2019."
+      ],
+      "midia": [
+        "Página 25: Representação esquemática de deslizamento de terra (escorregamento) com indicações de cicatriz, trincas, rocha e solo."
+      ],
+      "alternativas": {
+        "a": "as características topográficas, geológicas e geomorfológicas de uma área de risco estão naturalmente ligadas aos escorregamentos, sendo que estradas de terra minimizam a ocorrência de deslizamentos.",
+        "b": "a ocorrência de escorregamentos é causada pela ação humana, cuja ocupação de encostas provoca o empobrecimento de solo, que acaba sendo mobilizado pela diminuição de fertilidade.",
+        "c": "o problema da ocupação de encostas e risco de escorregamentos inclui o contato entre a rocha e o solo, cuja facilidade de deslizamento é aumentada em função da inclinação do terreno e da maior ocorrência de chuvas.",
+        "d": "os deslizamentos de terra fazem parte de um conjunto de fenômenos naturais pontuais e incomuns na superfície da crosta terrestre e, portanto, não participam da escultura do relevo continental e do modelado.",
+        "e": "os escorregamentos são causados em especial pelo fato de o solo tornar-se mais leve que a rocha subjacente durante as chuvas prolongadas de verão, facilitando seu deslizamento ao longo das encostas pouco ou nada inclinadas."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Estrutura geológica da Terra, tectonismo, vulcanismo e eras geológicas",
+            "Classificação das rochas, formação de solos e relevo (agentes internos e externos/intemperismo)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 90,
+      "tipo": "objetiva",
+      "enunciado": "Considerando a relação entre vegetação e altitude, da base até o topo das zonas do vulcão representado, é possível obter a sequência:",
+      "textos_de_apoio": [
+        "Se muita gente hoje enxerga a Terra como um sistema dinâmico de conexões entre atmosfera, águas, rochas e biodiversidade, isso se deve, em larga medida, a Alexander von Humboldt (1769 – 1859). O vulcão Chimborazo (6.268 m de altitude), no atual Equador, foi utilizado por Humboldt como exemplo para apresentar com clareza, pela primeira vez, como cada faixa altitudinal em regiões montanhosas é um microcosmo de climas e biodiversidade.\nDisponível em https://www1.folha.uol.com.br/ciencia/. Adaptado.\nRepresentação esquemática do vulcão Chimborazo\nDisponível em https://www.pinterest.com/. Adaptado. 2019."
+      ],
+      "midia": [
+        "Página 25: Representação esquemática do vulcão Chimborazo com faixas altitudinais."
+      ],
+      "alternativas": {
+        "a": "Floresta Temperada, Floresta de Coníferas, Floresta Tropical, Exposição de Rocha, Tundra, Neve e Gelo.",
+        "b": "Floresta Temperada, Floresta Tropical, Floresta de Coníferas, Exposição de Rocha, Tundra, Neve e Gelo.",
+        "c": "Floresta Tropical, Floresta de Coníferas, Floresta Temperada, Tundra, Exposição de Rocha, Neve e Gelo.",
+        "d": "Floresta Tropical, Floresta Temperada, Floresta de Coníferas, Tundra, Exposição de Rocha, Neve e Gelo.",
+        "e": "Floresta Tropical, Floresta de Coníferas, Tundra, Floresta Temperada, Exposição de Rocha, Neve e Gelo."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Domínios morfoclimáticos e biomas mundiais e brasileiros"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    }
+  ]
+}

@@ -1,0 +1,1679 @@
+{
+  "exame": "univesp_2018_2s_questoes",
+  "ano": 2018,
+  "semestre": 2,
+  "fonte_questoes": "data/univesp_2018_2s_questoes.pdf",
+  "fonte_gabarito": "data/univesp_2018_2s_gabarito.pdf",
+  "total_questoes": 61,
+  "questoes": [
+    {
+      "numero": 1,
+      "tipo": "objetiva",
+      "enunciado": "Considere a charge, de autoria de Arionauro.\n\n(www.arionaurocartuns.com.br. 31.01.2018)\n\nAssinale a alternativa que apresenta um título que sintetize a mensagem da charge.",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 3: Charge retratando uma família (pai, mãe e dois filhos) sentada à mesa em um restaurante, todos vidrados e iluminados pelas telas de seus celulares, enquanto o garçom traz os pratos."
+      ],
+      "alternativas": {
+        "a": "O uso exagerado do celular.",
+        "b": "O anonimato nas redes sociais.",
+        "c": "A especificidade da linguagem da TV.",
+        "d": "A evolução da internet.",
+        "e": "A tecnologia familiar."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Intertextualidade, interdiscursividade e análise de textos verbais e não verbais (charges, cartuns)",
+            "Significação explícita e implícita, denotação e conotação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 2,
+      "tipo": "objetiva",
+      "enunciado": "A partir da leitura da notícia, pode-se concluir que",
+      "textos_de_apoio": [
+        "Marvel criará primeiro super-herói chinês protagonista em HQs\n\nA Marvel vai criar, em parceria com a chinesa NetEase, o primeiro super-herói chinês a estrelar nos quadrinhos. Até hoje a empresa que pertence à Disney só mostrou chineses em papéis secundários, como Benedict Wong, de Doutor Estranho, e o vilão Mandarim, em Homem de Ferro.\n\nA franquia criadora de Homem-Aranha e X-Men, porém, já arrecadou US$ 1,175 bilhão na China com suas adaptações para o cinema. Por esse e por outros motivos, a ideia é que a parceria das empresas não fique só nas HQs, mas futuramente se transforme em outros produtos, como livros e jogos.\n(https://revistagalileu.globo.com. 11.07.2017. Adaptado)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "o pouco sucesso da Marvel na China se explica pela falta de protagonistas chineses.",
+        "b": "a parceria entre a Marvel e a chinesa NetEase se deu por razões mercadológicas.",
+        "c": "os chineses eram descritos de maneira caricatural e preconceituosa nas HQs da Marvel.",
+        "d": "a Marvel vai deixar de apresentar os chineses como vilões para passar a representá-los como heróis.",
+        "e": "o objetivo da parceria entre a Marvel e a NetEase é divulgar a cultura chinesa no Ocidente."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação",
+            "Tipologias textuais (narração, descrição, dissertação) e gêneros textuais variados"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 3,
+      "tipo": "objetiva",
+      "enunciado": "Em “Até hoje a empresa que pertence à Disney só mostrou chineses em papéis secundários”, a expressão que pode estar entre vírgulas, sem que se comprometa a correção gramatical, é:",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "a empresa que",
+        "b": "que pertence à Disney",
+        "c": "à Disney",
+        "d": "só mostrou",
+        "e": "chineses em papéis"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Sintaxe do período composto (coordenação e subordinação)",
+            "Mecanismos de coesão textual (lexical, referencial, anafórica) e coerência"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 4,
+      "tipo": "objetiva",
+      "enunciado": "Em conformidade com as regras de regência e de colocação pronominal, a expressão destacada em “a ideia é que a parceria das empresas não fique só nas HQs” pode ser substituída, sem prejuízo do sentido, por:",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "se restrinja nas",
+        "b": "restrinja-se nas",
+        "c": "restrinja-se as",
+        "d": "se restrinja as",
+        "e": "se restrinja às"
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Regência verbal e nominal (emprego do sinal indicativo de crase)",
+            "Flexão nominal e flexão verbal (tempos, modos, vozes e correlação verbal)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 5,
+      "tipo": "objetiva",
+      "enunciado": "O tema central apresentado no parágrafo é:",
+      "textos_de_apoio": [
+        "A cultura de massa que temos está umbilicalmente conectada com a pauta apresentada instante a instante em algum dos veículos de comunicação em massa. Nada lhe escapa e, por isso mesmo, enorme é sua responsabilidade na criação da geração-consumo que temos “em nós” e também “diante de nós”. Tendo como cenário as mudanças climáticas, a degradação ambiental e os extremos corrosivos da riqueza e da pobreza, a transformação de uma cultura de consumismo irrestrito para uma cultura de sustentabilidade ganhou força em grande parte graças aos esforços da sociedade civil e agências governamentais no mundo inteiro. A par com essas forças, e mesmo permeando-as, temos o poder de influência e onipresença da mídia.\n(Observatório da imprensa. no. 623. http://observatoriodaimprensa.com.br. 04.01.2011)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "o consumo.",
+        "b": "o meio ambiente.",
+        "c": "os órgãos governamentais.",
+        "d": "a desigualdade.",
+        "e": "a mídia."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação",
+            "Mecanismos de coesão textual (lexical, referencial, anafórica) e coerência"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 6,
+      "tipo": "objetiva",
+      "enunciado": "Opõem-se, no texto, os conceitos de",
+      "textos_de_apoio": [
+        "A cultura de massa que temos está umbilicalmente conectada com a pauta apresentada instante a instante em algum dos veículos de comunicação em massa. Nada lhe escapa e, por isso mesmo, enorme é sua responsabilidade na criação da geração-consumo que temos “em nós” e também “diante de nós”. Tendo como cenário as mudanças climáticas, a degradação ambiental e os extremos corrosivos da riqueza e da pobreza, a transformação de uma cultura de consumismo irrestrito para uma cultura de sustentabilidade ganhou força em grande parte graças aos esforços da sociedade civil e agências governamentais no mundo inteiro. A par com essas forças, e mesmo permeando-as, temos o poder de influência e onipresença da mídia.\n(Observatório da imprensa. no. 623. http://observatoriodaimprensa.com.br. 04.01.2011)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "“cultura de massa” e “comunicação em massa”.",
+        "b": "“mudanças climáticas” e “degradação ambiental”.",
+        "c": "“geração-consumo” e “sociedade civil”.",
+        "d": "“cultura de consumismo irrestrito” e “cultura de sustentabilidade”.",
+        "e": "“agências governamentais” e “onipresença da mídia”."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Figuras de linguagem (metáfora, metonímia, antítese, paradoxo, hipérbole, ironia)",
+            "Significação explícita e implícita, denotação e conotação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 7,
+      "tipo": "objetiva",
+      "enunciado": "Assinale a alternativa que apresenta uma palavra empregada no texto com sentido figurado, acompanhada, entre parênteses, de um sinônimo que se ajusta ao contexto.",
+      "textos_de_apoio": [
+        "A cultura de massa que temos está umbilicalmente conectada com a pauta apresentada instante a instante em algum dos veículos de comunicação em massa. Nada lhe escapa e, por isso mesmo, enorme é sua responsabilidade na criação da geração-consumo que temos “em nós” e também “diante de nós”. Tendo como cenário as mudanças climáticas, a degradação ambiental e os extremos corrosivos da riqueza e da pobreza, a transformação de uma cultura de consumismo irrestrito para uma cultura de sustentabilidade ganhou força em grande parte graças aos esforços da sociedade civil e agências governamentais no mundo inteiro. A par com essas forças, e mesmo permeando-as, temos o poder de influência e onipresença da mídia.\n(Observatório da imprensa. no. 623. http://observatoriodaimprensa.com.br. 04.01.2011)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "“umbilicalmente” (estreitamente)",
+        "b": "“responsabilidade” (obrigação)",
+        "c": "“cenário” (espetáculo)",
+        "d": "“esforços” (conflitos)",
+        "e": "“onipresença” (mobilização)"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação",
+            "Figuras de linguagem (metáfora, metonímia, antítese, paradoxo, hipérbole, ironia)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 8,
+      "tipo": "objetiva",
+      "enunciado": "Uma frase que apresenta uso de todas as formas verbais em conformidade com a norma-padrão da língua está em:",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "As mudanças climáticas provocadas pelo efeito estufa devem figurarem mais na pauta dos noticiários.",
+        "b": "Algum dos veículos de comunicação em massa se proporam a tratar do tema discutido no Congresso.",
+        "c": "As medidas para mitigar a degradação ambiental ainda não satisfizeram os anseios dos ecologistas.",
+        "d": "Houveram muitas críticas à forma como a agências governamentais vem tratando da sustentabilidade.",
+        "e": "Se as pessoas manterem seus hábitos de consumo irrefletidamente, as consequências serão assustadoras."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Concordância verbal e nominal",
+            "Flexão nominal e flexão verbal (tempos, modos, vozes e correlação verbal)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 9,
+      "tipo": "objetiva",
+      "enunciado": "O trecho corresponde à apresentação de Berta, protagonista do romance. Ela é descrita como",
+      "textos_de_apoio": [
+        "Era ela de pequena estatura e tão delgada e flexível no talhe, que dobrava-se como o junco da várzea. As formas da graciosa pubescência, que um corpinho justo debuxaria1 em doce e palpitante relevo, as dissimulava o frouxo corte de uma jaqueta de flanela escarlate com mangas compridas, e desabotoada sobre um camisote liso, cujos largos colarinhos se rebatiam sobre os ombros, à feição dos que usavam então os meninos de escola.\nOs grandes olhos, negros, claros e serenos, como um lago cristalino imerso na sombra, não podiam negar que fossem de mulher: tinham a diáfana2 profundidade do céu, cheia de enlevos e mistérios.\nA boca mimosa e breve, conhecia-se que fora vazada no molde do beijo e do sorriso. Mas quando o brinco iluminava essa fisionomia, e o capricho quebrava-lhe a harmonia das linhas do suave perfil, era cobrir-se com a máscara do rapazinho estouvado, que ela teria sido sem dúvida, se a natureza não lhe trocasse o destino.\n(Til. www.dominiopublico.gov.br)\n1 um corpinho justo debuxaria: um corpete justo mostraria;\n2 diáfana: que permite a passagem da luz; transparente, límpida."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "uma jovem cuja feminilidade é tão intensa que se evidencia mesmo quando ela veste o uniforme escolar. Em sua caracterização, é possível perceber o uso excessivo de adjetivos, o que é comum ao Naturalismo.",
+        "b": "uma moça frágil, que se ressente por não ser respeitada pelos rapazes de seu convívio. Em sua caracterização, é possível perceber uma crítica à sociedade machista, o que é comum ao Romantismo.",
+        "c": "uma garota masculinizada, o que a torna uma personagem cômica. Em sua caracterização, é possível perceber um tom de deboche com relação aos costumes burgueses, o que é comum ao Realismo.",
+        "d": "um ser ambivalente, que conserva aspectos de menina e de menino. Em sua caracterização, é possível perceber uma visão um tanto idealizada dos atributos femininos, o que é comum ao Romantismo.",
+        "e": "uma pessoa de personalidade forte, que aprecia a companhia de garotos. Em sua caracterização, é possível perceber a presença de um discurso feminista, o que é comum ao Naturalismo."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Literatura Brasileira: Quinhentismo, Barroco (Gregório de Matos), Arcadismo, Romantismo, Realismo/Naturalismo (Machado de Assis), Parnasianismo e Simbolismo",
+            "Tipologias textuais (narração, descrição, dissertação) e gêneros textuais variados"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 10,
+      "tipo": "objetiva",
+      "enunciado": "Constata-se a presença de uma construção hipotética em:",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "“largos colarinhos se rebatiam sobre os ombros” (1º parágrafo).",
+        "b": "“tinham a diáfana profundidade do céu” (2º parágrafo).",
+        "c": "“fora vazada no molde do beijo e do sorriso” (3º parágrafo).",
+        "d": "“quando o brinco iluminava essa fisionomia” (3º parágrafo).",
+        "e": "“que ela teria sido sem dúvida” (3º parágrafo)."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Sintaxe do período composto (coordenação e subordinação)",
+            "Flexão nominal e flexão verbal (tempos, modos, vozes e correlação verbal)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 11,
+      "tipo": "objetiva",
+      "enunciado": "Considere o emprego dos vocábulos destacados nas seguintes passagens:\n• “Era ela de pequena estatura e tão delgada e flexível no talhe, que dobrava-se como o junco da várzea.”\n• “... um camisote liso, cujos largos colarinhos se rebatiam sobre os ombros, à feição dos que usavam então os meninos de escola.”\n• “Os grandes olhos, negros, claros e serenos, como um lago cristalino imerso na sombra, não podiam negar que fossem de mulher...”\n\nNo contexto em que são empregados, os vocábulos destacados expressam, respectivamente, ideia de",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "modo, conclusão, conformidade.",
+        "b": "causa, conclusão, comparação.",
+        "c": "consequência, tempo, comparação.",
+        "d": "condição, modo, conformidade.",
+        "e": "consequência, tempo, condição."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Sintaxe do período composto (coordenação e subordinação)",
+            "Classes gramaticais: substantivo, adjetivo, artigo, numeral, pronome, verbo, advérbio, preposição, conjunção e interjeição"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 12,
+      "tipo": "objetiva",
+      "enunciado": "Esse trecho evidencia uma característica comum à composição de Macunaíma, que é",
+      "textos_de_apoio": [
+        "Nem bem pisou na praia e se ergueu na frente dele um monstro. Era o bicho Pondê um jurucutu do Solimões que virava gente de-noite e engolia os estradeiros. Porém Macunaíma pegou na flecha que tinha na ponta a cabeça chata da formiga santa chamada curupê e nem fez pontaria, acertou que foi uma beleza. O bicho Pondê estourou virando coruja.\n(Macunaíma – o herói sem nenhum caráter. Ed. crítica de Telê Porto Ancona Lopez, 1988)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "o emprego de recursos próprios dos contos maravilhosos, produzidos pela cultura popular.",
+        "b": "a representação de um herói aos moldes clássicos, cujas ações são motivadas por bravura.",
+        "c": "o resgate de figuras representativas da mitologia greco-latina, o que confere à obra status de um texto épico.",
+        "d": "o uso de um vocabulário específico do norte do Brasil, o que resulta em uma obra tipicamente regionalista.",
+        "e": "o predomínio do enredo psicológico sobre o factual, o que faz com que o texto seja mais ensaístico que narrativo."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Modernismo Brasileiro: 1ª Fase (1922), 2ª Fase (Geração de 30 - romance regionalista e poesia de 30) e 3ª Fase (Geração de 45/Pós-Modernismo)",
+            "Intertextualidade, interdiscursividade e análise de textos verbais e não verbais (charges, cartuns)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 13,
+      "tipo": "objetiva",
+      "enunciado": "Em São Bernardo, o narrador, Paulo Honório, conta de seu relacionamento com a esposa, Madalena; relacionamento conflituoso, marcado pelo ciúme excessivo do marido, o que evidenciava o modo como ele",
+      "textos_de_apoio": [
+        "Conforme declarei, Madalena possuía um excelente coração. Descobri nela manifestações de ternura que me sensibilizaram. E, como sabem, não sou homem de sensibilidades. É certo que tenho experimentado mudanças nestes dois últimos anos. Mas isto passa.\n(S. Bernardo. 93. ed. Rio de Janeiro, Record, 2012)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "era o estereótipo do herói trágico, fadado a um destino sombrio após uma infância privilegiada na fazenda.",
+        "b": "reproduzia o comportamento de personagens que conhecera do convívio com romances do século XIX.",
+        "c": "transferia para as relações interpessoais o tratamento dado à terra e aos objetos de sua propriedade.",
+        "d": "correspondia à caricatura do homem traído, tão comum nas narrativas que corriam o Nordeste na década de 1930.",
+        "e": "tinha sérios distúrbios psicológicos, que o impediam de reproduzir o comportamento da maioria das pessoas à sua volta."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Modernismo Brasileiro: 1ª Fase (1922), 2ª Fase (Geração de 30 - romance regionalista e poesia de 30) e 3ª Fase (Geração de 45/Pós-Modernismo)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 14,
+      "tipo": "objetiva",
+      "enunciado": "“Descobri nela manifestações de ternura que me sensibilizaram.”\n\nEstá escrito em consonância com o conteúdo dessa frase e com uma forma verbal na voz passiva o que se encontra em:",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "As manifestações de ternura que descobri nela me deixaram sensibilizado.",
+        "b": "Fui sensibilizado pelas manifestações de ternura que descobri nela.",
+        "c": "Tendo descoberto nela manifestações de ternura, fiquei sensibilizado.",
+        "d": "Fui me sensibilizando ao descobrir nela manifestações de ternura.",
+        "e": "Quando me deixei sensibilizar, descobri nela manifestações de ternura."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Flexão nominal e flexão verbal (tempos, modos, vozes e correlação verbal)",
+            "Sintaxe do período simples (termos essenciais, integrantes e acessórios da oração)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 15,
+      "tipo": "objetiva",
+      "enunciado": "Considere o poema do livro A cinza das horas, de Manuel Bandeira.\n\nOceano\n\nOlho a praia. A treva é densa.\nUlula o mar, que não vejo,\nNaquela voz sem consolo,\nNaquela tristeza imensa\nQue há na voz do meu desejo.\n\nE nesse tom sem consolo\nOuço a voz do meu destino:\nMá sina que desconheço,\nVem vindo desde eu menino,\nCresce quanto em anos cresço.\n\n— Voz de oceano que não vejo\nDa praia do meu desejo...\n(Estrela da vida inteira. 20. ed. Rio de Janeiro, Nova Fronteira, 1993)\n\nAcerca desse poema, está correto o que se afirma em:",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "A representação da natureza segue as lições do Manifesto Antropófago, que buscava um Brasil primitivo, indiferente ao progresso.",
+        "b": "A ausência de rimas deixa perceber o modo como o poema antecipa uma linguagem que será a marca registrada dos poetas modernistas.",
+        "c": "A descrição realista e a ausência da linguagem figurada são traços que ligam o poema à poesia parnasiana, ridicularizada na Semana de 22.",
+        "d": "Os versos metrificados denunciam a adesão à poesia tradicional, a qual foi posteriormente criticada pelo Modernismo de 1922.",
+        "e": "O tom intimista dos versos é condizente com a poesia realista, embora a descrição objetiva do oceano seja própria do Simbolismo."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Modernismo Brasileiro: 1ª Fase (1922), 2ª Fase (Geração de 30 - romance regionalista e poesia de 30) e 3ª Fase (Geração de 45/Pós-Modernismo)",
+            "Literatura Brasileira: Quinhentismo, Barroco (Gregório de Matos), Arcadismo, Romantismo, Realismo/Naturalismo (Machado de Assis), Parnasianismo e Simbolismo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 16,
+      "tipo": "objetiva",
+      "enunciado": "De acordo com o primeiro parágrafo, a ONG Global Witness afirma que, em 2015,",
+      "textos_de_apoio": [
+        "Dying to defend the planet: why Latin America is the deadliest place for environmentalists\n\nFebruary 11, 2017\n\nDefending nature is a dangerous occupation, especially in Latin America. According to a recent report by Global Witness, an NGO, 185 environmental activists were murdered worldwide in 2015, an increase of 59% from the year before. More than half the killings were in Latin America. In Brazil 50 green campaigners died in 2015. Honduras is especially dangerous: 123 activists have died there since 2010, the highest number of any country relative to its population. Berta Cáceres, an indigenous leader who was a prominent campaigner against dams and plantations, was murdered there."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "o número de ambientalistas assassinados na América Latina foi de 185.",
+        "b": "aconteceram menos assassinatos de ambientalistas que no ano de 2014.",
+        "c": "houve um aumento de quase 60% de ambientalistas assassinados em relação a 2014.",
+        "d": "123 ativistas ambientais foram assassinados apenas em Honduras.",
+        "e": "mais de 50% dos assassinatos de ambientalistas aconteceu no Brasil."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos",
+            "Estratégias de leitura rápida: Skimming (ideia geral) e Scanning (busca de dados específicos)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 17,
+      "tipo": "objetiva",
+      "enunciado": "No trecho do primeiro parágrafo – Berta Cáceres, an indigenous leader who was a prominent campaigner against dams and plantations, was murdered there –, o termo em destaque se refere a",
+      "textos_de_apoio": [
+        "Dying to defend the planet: why Latin America is the deadliest place for environmentalists\n\nFebruary 11, 2017\n\nDefending nature is a dangerous occupation, especially in Latin America. According to a recent report by Global Witness, an NGO, 185 environmental activists were murdered worldwide in 2015, an increase of 59% from the year before. More than half the killings were in Latin America. In Brazil 50 green campaigners died in 2015. Honduras is especially dangerous: 123 activists have died there since 2010, the highest number of any country relative to its population. Berta Cáceres, an indigenous leader who was a prominent campaigner against dams and plantations, was murdered there."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "South America.",
+        "b": "Guatemala.",
+        "c": "Brazil.",
+        "d": "Honduras.",
+        "e": "plantations."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Coesão textual em inglês: referência pronominal e elipses",
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 18,
+      "tipo": "objetiva",
+      "enunciado": "Leia o segundo parágrafo, em que se responde à pergunta “Why is Latin America so deadly?”. De acordo com o mesmo parágrafo, a resposta é:",
+      "textos_de_apoio": [
+        "Why is Latin America so deadly? One reason is its abundant natural resources, which attract enterprises of all sorts, from multinationals to mafias. When prices are low, as they are now, the most rapacious do not go away; to maintain their profits they become more aggressive, says David Kaimowitz of the Ford Foundation, which gives money to good causes. New technologies open up new battlefronts. Soya beans bred to grow in tropical conditions have encouraged farmers to displace cattle ranchers, who in turn have advanced into the rainforest. Small prospectors can now extract gold from soil rather than just hunting around. That opens up new areas for exploitation, such as San Rafael de Flores in south-eastern Guatemala, where activists have been murdered."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "devido ao estabelecimento de empresas multinacionais como a Ford Foundation.",
+        "b": "devido à grande quantidade de recursos naturais.",
+        "c": "devido ao compartilhamento de terras entre agricultores de soja e pecuaristas.",
+        "d": "devido ao desmatamento causado pela agricultura da soja.",
+        "e": "devido aos caçadores em conflito com pequenos garimpeiros de ouro."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos",
+            "Marcadores discursivos e conectivos (conjunções de adição, contraste, causa, consequência e condição)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 19,
+      "tipo": "objetiva",
+      "enunciado": "No trecho do segundo parágrafo – Small prospectors can now extract gold from soil rather than just hunting around – a expressão em destaque equivale, em português, a",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "em vez de.",
+        "b": "por causa de.",
+        "c": "além de.",
+        "d": "a fim de.",
+        "e": "por enquanto."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Marcadores discursivos e conectivos (conjunções de adição, contraste, causa, consequência e condição)",
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 20,
+      "tipo": "objetiva",
+      "enunciado": "No trecho do segundo parágrafo – That opens up new areas for exploitation, such as San Rafael de Flores in south-eastern Guatemala – a expressão em destaque introduz",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "uma explicação.",
+        "b": "uma decorrência.",
+        "c": "uma generalização.",
+        "d": "um motivo.",
+        "e": "um exemplo."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Marcadores discursivos e conectivos (conjunções de adição, contraste, causa, consequência e condição)",
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 21,
+      "tipo": "objetiva",
+      "enunciado": "De acordo com o terceiro parágrafo, o assassino da freira e defensora da floresta amazônica, Dorothy Stang,",
+      "textos_de_apoio": [
+        "The odds of finding the criminals are greater if the victim is foreign. Dorothy Stang, an American nun who fought to protect the Amazon rainforest, was killed in Brazil 12 years ago. Both the gunman and a rancher who had hired him eventually went to jail. But that is an exception."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "é estrangeiro, assim como a vítima.",
+        "b": "foi acobertado pelo mandante do crime.",
+        "c": "está foragido desde o assassinato, há 12 anos.",
+        "d": "foi contratado por um fazendeiro para matar.",
+        "e": "está preso, pois foi denunciado pelo mandante."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 22,
+      "tipo": "objetiva",
+      "enunciado": "Na Antiguidade Clássica, a importância do Mediterrâneo, conhecido como Mare Nostrum (“nosso mar”, em latim) pelos romanos, devia-se",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "à sua notoriedade no fornecimento de produtos tropicais, tais como açúcar e cacau.",
+        "b": "à sua localização estratégica entre a América e o Oriente e como corredor de acesso ao Oceano Pacífico.",
+        "c": "à sua capacidade de interligar comercialmente territórios muito distantes e diversos entre si.",
+        "d": "à abundância de produtos fundamentais à economia, tais como minerais e especiarias, no seu entorno.",
+        "e": "à confluência de rotas subsaarianas, que traziam produtos africanos como a porcelana e a seda."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Antiguidade Clássica: democracia ateniense, República/Império Romano e escravismo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 23,
+      "tipo": "objetiva",
+      "enunciado": "Observe a charge a seguir.\n\n“Você deve esperar que este jogo acabe em breve”\n(Disponível em: <https://goo.gl/4JA4TS>)\n\nA charge, em que um trabalhador carrega nas costas um padre e um nobre, está relacionada ao contexto",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 8: Charge clássica do Antigo Regime mostrando um camponês/trabalhador carregando nas costas um nobre e um padre."
+      ],
+      "alternativas": {
+        "a": "do Congresso de Viena.",
+        "b": "da Comuna de Paris.",
+        "c": "da Primavera dos Povos.",
+        "d": "da Revolução Francesa.",
+        "e": "da Revolução Gloriosa."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Revolução Francesa e a Era Napoleônica"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 24,
+      "tipo": "objetiva",
+      "enunciado": "Observe a obra a seguir.\n\nOs usurários (1520), de Quentin Massys\nAcervo da Galleria Doria Pamphilj, em Roma\n\nA obra constrói uma representação que remete às consequências",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 8: Reprodução da pintura 'Os usurários' (1520), de Quentin Massys."
+      ],
+      "alternativas": {
+        "a": "do poder crescente da nobreza em oposição à decadência dos banqueiros, isolados politicamente no contexto do Estado Moderno.",
+        "b": "dos primórdios do desenvolvimento do capitalismo industrial, à época da montagem do sistema fabril e do surgimento da classe operária.",
+        "c": "da reaproximação entre a Igreja Católica e os burgueses, no momento em que o protestantismo condenava o lucro e a usura.",
+        "d": "da intensificação das atividades mercantis e da vida urbana, em meio às transformações da Baixa Idade Média.",
+        "e": "do período do Renascimento, marcado pela afirmação do teocentrismo como princípio moral e pela crítica às ideias de razão e equilíbrio."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Renascimento Cultural, Reformas Religiosas e formação dos Estados Nacionais",
+            "Período Medieval: feudalismo, diversidade religiosa (cristianismo, islamismo, judaísmo) e vida cultural no Medievo europeu e africano"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 25,
+      "tipo": "objetiva",
+      "enunciado": "Em tela pintada muito tempo depois da morte do paulista Domingos Jorge Velho, é possível afirmar que o bandeirante foi representado de forma",
+      "textos_de_apoio": [
+        "Domingos Jorge Velho em tela de Benedito Calixto (1903)\nAcervo do Museu Paulista"
+      ],
+      "midia": [
+        "Página 9: Pintura de Benedito Calixto (1903) retratando Domingos Jorge Velho."
+      ],
+      "alternativas": {
+        "a": "triunfalista e heroica, desconsiderando o papel dos bandeirantes na escravização dos povos indígenas e no violento combate às comunidades quilombolas.",
+        "b": "neutra e objetiva, com a finalidade de descrever o papel dos bandeirantes na expansão territorial da América Portuguesa.",
+        "c": "crítica e distanciada, revelando múltiplas facetas de um bandeirante que se posicionou contrariamente à escravização de negros.",
+        "d": "negativa e enviesada, denunciando os aspectos mais graves da prática do bandeirantismo, tais como a perseguição aos jesuítas.",
+        "e": "distorcida e manipulada, ressaltando a ancestralidade indígena e miscigenada dos bandeirantes em detrimento da sua origem portuguesa."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Brasil Colônia: primeiros habitantes indígenas, ocupação territorial, ciclos econômicos (açúcar e ouro) e escravidão"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 26,
+      "tipo": "objetiva",
+      "enunciado": "A importância histórica da Estação da Luz pode ser relacionada",
+      "textos_de_apoio": [
+        "Ao redor de 1900, várias modificações e atualizações importantes ocorrem ao longo da ferrovia da São Paulo Railway. As máquinas de tração do equipamento rodante são substituídas por equipamento moderno, há um novo traçado da linha entre a serra e Santos, uma nova Estação da Luz. A Estação da Luz se torna uma estação monumental, imponente e solene.\n(Martins, José de Souza. A ferrovia e a modernidade em São Paulo: a gestação do ser dividido. Revista USP, São Paulo, n.63, p. 6-15, setembro/novembro 2004)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "ao deslocamento dos cafezais para o Vale do Paraíba e à utilização da mão de obra negra escravizada.",
+        "b": "à industrialização na região do ABC paulista e ao início do desenvolvimento rodoviário de São Paulo.",
+        "c": "à expansão da cafeicultura para o Oeste paulista e à presença do capital inglês na economia brasileira.",
+        "d": "à desativação das estradas utilizadas por tropeiros e ao crescimento da exportação de algodão e tabaco.",
+        "e": "à decadência da oligarquia paulista do Oeste Velho e à ascensão da burguesia industrial de origem imigrante."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Economia cafeeira, Guerra do Paraguai, imigração e abolição da escravidão no Brasil"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 27,
+      "tipo": "objetiva",
+      "enunciado": "O cartaz de propaganda alemã, produzido em meio à Segunda Guerra Mundial, tem como fundamento uma característica central da doutrina nazista. Trata-se do",
+      "textos_de_apoio": [
+        "Por trás das forças inimigas, o judeu\n(Disponível em: <https://goo.gl/QyNTd6>)"
+      ],
+      "midia": [
+        "Página 9: Cartaz de propaganda nazista da Segunda Guerra Mundial com a inscrição 'Hinter den Feindmächten: der Jude'."
+      ],
+      "alternativas": {
+        "a": "militarismo.",
+        "b": "antissemitismo.",
+        "c": "autoritarismo.",
+        "d": "protecionismo.",
+        "e": "nacionalismo."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Revolução Russa, Crise de 1929 e ascensão do Nazifascismo",
+            "Segunda Guerra Mundial e criação da Declaração Universal dos Direitos Humanos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 28,
+      "tipo": "objetiva",
+      "enunciado": "A partir da análise dos dois materiais, é correto afirmar que a charge de Jaguar ironiza",
+      "textos_de_apoio": [
+        "MATERIAL 1:\nNoventa milhões em ação\nPra frente Brasil, no meu coração\nTodos juntos, vamos pra frente Brasil\nSalve a seleção!\nDe repente é aquela corrente pra frente, parece que todo o Brasil deu a mão!\nTodos ligados na mesma emoção, tudo é um só coração!\nTodos juntos, vamos pra frente Brasil!\n(Pra frente, Brasil. Miguel Gustavo, 1970)\n\nMATERIAL 2:\nCharge de Jaguar publicada no Pasquim, em 1982\n(Disponível em: <https://goo.gl/qYnXuH>)"
+      ],
+      "midia": [
+        "Página 10: Charge de Jaguar (O Pasquim, 1982) com os dizeres 'PRA FRENTE BRASIL!' e um homem com algemas nas mãos e nos pés."
+      ],
+      "alternativas": {
+        "a": "os rumos erráticos do país após a consolidação da redemocratização.",
+        "b": "o problema da censura à produção cultural na época da ditadura militar.",
+        "c": "a abertura econômica neoliberal após o fracasso do nacionalismo militar.",
+        "d": "a situação econômica brasileira em plena época do “milagre”.",
+        "e": "a relação entre futebol, política e sociedade no contexto da ditadura militar."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Brasil República: República Velha (oligarquias), Era Vargas (1930-1945), Período Democrático (1945-1964) e Ditadura Civil-Militar (1964-1985)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 29,
+      "tipo": "objetiva",
+      "enunciado": "Com a vitória, o Estado de Israel incorporou a seu território Gaza, a Península do Sinai, as Colinas de Golã e a",
+      "textos_de_apoio": [
+        "A Guerra dos Seis Dias foi a guerra mais curta que existiu dentre os conflitos árabes-israelenses. Em junho de 1967, as Forças Armadas israelenses realizaram um fulminante ataque aos três países. Em seis dias, os exércitos da Síria, do Egito e da Jordânia foram derrotados, demonstrando a imensa superioridade da força militar israelense em relação à de seus vizinhos. Com a vitória, o Estado de Israel incorporou a seu território Gaza, a Península do Sinai, as Colinas de Golã e a\n(https://brasilescola.uol.com.br/. Adaptado)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "Cisjordânia.",
+        "b": "península Arábica.",
+        "c": "saída para o canal de Suez.",
+        "d": "bacia do rio Eufrates.",
+        "e": "planície da Mesopotâmia."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Conflitos étnicos e religiosos atuais no Oriente Médio e África"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 30,
+      "tipo": "objetiva",
+      "enunciado": "Entre os objetivos do governo russo em realizar esse evento esportivo, está",
+      "textos_de_apoio": [
+        "A Rússia é a sede da Copa do Mundo FIFA 2018, tendo investido cerca de 40 bilhões de dólares nesse intuito."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "a defesa da supremacia esportiva herdada da antiga União Soviética.",
+        "b": "a coordenação dos planos quinquenais como instrumentos de planificação estatal.",
+        "c": "a continuidade do processo de modernização econômica da Rússia.",
+        "d": "a atração de população com maior pluralidade étnica para residir no país.",
+        "e": "o boicote aos países pertencentes ao bloco de influência dos Estados Unidos."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Globalização, comércio internacional, blocos econômicos e a posição do Brasil no comércio global"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 31,
+      "tipo": "objetiva",
+      "enunciado": "Uma das expectativas em torno da reunião dos líderes coreanos é o processo de",
+      "textos_de_apoio": [
+        "O líder norte-coreano, Kim Jong-un, e o presidente do sul, Moon Jae-in, sentaram-se em uma mesa oval para iniciar o encontro entre os dois países nesta sexta-feira, dia 27.04.2018. O encontro, no prédio da Casa da Paz, no lado sul da Zona Desmilitarizada que divide as duas Coreias, é a terceira cúpula desde o fim da Guerra da Coreia, em 1953.\n(www.cartacapital.com.br. Adaptado)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "admissão da Coreia do Norte na OTAN.",
+        "b": "transferência de tecnologia militar entre as Coreias.",
+        "c": "alinhamento do governo sul-coreano aos interesses geopolíticos do norte.",
+        "d": "incorporação da economia norte-coreana ao bloco capitalista.",
+        "e": "desnuclearização da península coreana."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Globalização, comércio internacional, blocos econômicos e a posição do Brasil no comércio global"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 32,
+      "tipo": "objetiva",
+      "enunciado": "A crise na Venezuela apresenta, como uma de suas consequências,",
+      "textos_de_apoio": [
+        "Há cinco anos, morria o ex-presidente Hugo Chávez, um nome populista que promoveu melhorias na qualidade de vida dos venezuelanos, principalmente para as classes mais pobres. Quem assumiu o poder desde então foi Nicolás Maduro, que tentou aplicar em seu governo a mesma política de Chávez. As condições que o atual presidente encontrou, no entanto, eram bem diferentes das de quando Hugo assumiu: o preço do barril de petróleo, base da economia da Venezuela, baixou. Medidas de controle estatal próprias do chavismo, modelo de socialismo inspirado pelo bolivarianismo, mostraram-se insustentáveis dentro de um contexto de crise política e econômica.\n(https://www.opovo.com.br. Adaptado)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "o bloqueio internacional dos portos venezuelanos.",
+        "b": "a expulsão da Venezuela da OPEP.",
+        "c": "o envio de tropas estadunidenses ao país.",
+        "d": "a migração de população venezuelana para o Brasil.",
+        "e": "a desprivatização das indústrias da Venezuela."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Demografia: conceitos populacionais, transição demográfica, pirâmides etárias e fluxos migratórios"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 33,
+      "tipo": "objetiva",
+      "enunciado": "O incidente descrito na reportagem retrata os efeitos",
+      "textos_de_apoio": [
+        "Na madrugada do dia 01.05.2018, um prédio de 24 andares incendiou-se e desabou no Largo do Paissandu. O edifício era ocupado irregularmente por mais de 140 famílias. Agora, a Defesa Civil vai vistoriar 70 prédios ocupados no centro de São Paulo. Outra decorrência do incêndio foi a reabertura, feita pelo Ministério Público, do inquérito que apurava o risco de desabamento do prédio, que anteriormente foi arquivado.\n(http://jornal.usp.br/. Adaptado)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "da ampliação do monitoramento de imóveis sem função social no Brasil.",
+        "b": "do enfraquecimento dos movimentos populares que planejam as ocupações.",
+        "c": "da ingerência do capital privado na elaboração do Estatuto da Cidade.",
+        "d": "da regularização dos loteamentos urbanos localizados nas áreas centrais.",
+        "e": "do aprofundamento do déficit habitacional na Grande São Paulo."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Geografia Urbana: industrialização, urbanização, metropolização, conurbação, megalópoles e segregação socioespacial"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 34,
+      "tipo": "objetiva",
+      "enunciado": "O domínio morfoclimático dos Mares de Morros possui como uma de suas características principais a presença de vegetação",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "homogênea com plantas xerófitas.",
+        "b": "arbustiva com raízes profundas.",
+        "c": "caducifólia com árvores esparsas.",
+        "d": "latifoliada de grande porte.",
+        "e": "tropical com troncos retorcidos."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Domínios morfoclimáticos e biomas mundiais e brasileiros"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 35,
+      "tipo": "objetiva",
+      "enunciado": "Nos últimos anos, no Brasil, têm crescido os debates sobre a reforma da previdência. As mudanças nas regras da previdência têm como um de seus objetivos",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "impedir a migração de cérebros do país.",
+        "b": "conter os efeitos do envelhecimento populacional.",
+        "c": "subsidiar as políticas de incentivo à natalidade.",
+        "d": "combater o desemprego estrutural.",
+        "e": "compensar o saldo negativo da balança comercial brasileira."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Demografia: conceitos populacionais, transição demográfica, pirâmides etárias e fluxos migratórios"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 36,
+      "tipo": "objetiva",
+      "enunciado": "Um embrião cresce muito nos primeiros meses após a sua formação. Com 5 semanas, o embrião que se iniciou de apenas uma célula já tem braços e pernas evidentes e começam as contrações musculares. O crescimento de um embrião está diretamente relacionado à divisão",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "meiótica, que quadruplica o número de células a cada divisão, resultando num rápido crescimento.",
+        "b": "meiótica, que duplica o número de cromossomos no núcleo a cada divisão, resultando num rápido crescimento.",
+        "c": "mitótica, que gera duas células com o mesmo número de cromossomos a cada divisão, em curto espaço de tempo.",
+        "d": "mitótica, que gera quatro células com o dobro de cromossomos a cada divisão, em curto espaço de tempo.",
+        "e": "mitótica, que gera duas células com a metade do número de cromossomos a cada divisão, em curto espaço de tempo."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Núcleo celular, ciclo celular e divisões celulares (Mitose e Meiose)",
+            "Embriologia humana e reprodução (gametogênese, fecundação, anexos embrionários, métodos contraceptivos e ISTs)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 37,
+      "tipo": "objetiva",
+      "enunciado": "Um estudante observou em uma fazenda algumas vacas pastando e, sobre elas, havia algumas aves, chamadas anus, retirando carrapatos que estavam na pele dos ruminantes. Considerando uma cadeia alimentar e a existência de algumas interações ecológicas entre esses animais, o nível trófico ocupado pelas vacas, a interação entre as vacas e os anus e a interação entre os carrapatos e as vacas são, respectivamente,",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "consumidor secundário, mutualismo e predatismo.",
+        "b": "consumidor primário, protocooperação e parasitismo.",
+        "c": "consumidor secundário, comensalismo e parasitismo.",
+        "d": "consumidor primário, mutualismo e predatismo.",
+        "e": "consumidor secundário, protocooperação e comensalismo."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Cadeias e teias alimentares, níveis tróficos, pirâmides ecológicas e fluxo de energia",
+            "Dinâmica de populações e relações ecológicas (intraespecíficas e interespecíficas)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 38,
+      "tipo": "objetiva",
+      "enunciado": "A experiência de entrar num carrinho de uma montanha-russa não é para qualquer pessoa. Existe uma montanha-russa que sai de zero e atinge 180 km/h em menos de dois segundos. Essa aceleração estimula de forma involuntária o sistema nervoso simpático, que promove várias alterações fisiológicas, entre elas o aumento da frequência cardíaca e",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "menor liberação de glicose hepática.",
+        "b": "a contração dos brônquios.",
+        "c": "a contração da bexiga.",
+        "d": "maior salivação.",
+        "e": "a dilatação da pupila."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Fisiologia dos sistemas humanos: digestório, cardiovascular, respiratório, excretor, nervoso, endócrino, locomotor e reprodutor"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 39,
+      "tipo": "objetiva",
+      "enunciado": "Nas fezes humanas, é possível encontrar milhares de bactérias da flora intestinal e células intestinais. Quando se comparam células bacterianas com as células humanas, podem-se verificar diversas diferenças quanto à atividade metabólica e morfológica. Uma das diferenças é que as células humanas",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "possuem envoltório nuclear e as bacterianas não possuem.",
+        "b": "sintetizam suas próprias proteínas e as bacterianas não sintetizam.",
+        "c": "sintetizam moléculas de ATP e as bacterianas não sintetizam.",
+        "d": "possuem material genético e as bacterianas não possuem.",
+        "e": "possuem parede celular e as bacterianas não possuem."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Organização celular: diferenças entre procariontes e eucariontes (animal e vegetal)",
+            "Núcleo celular, ciclo celular e divisões celulares (Mitose e Meiose)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 40,
+      "tipo": "objetiva",
+      "enunciado": "O esquema representa uma propriedade da molécula de DNA que ocorre no interior de uma célula epitelial.\n\nA propriedade é denominada",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 12: Esquema ilustrando a replicação semiconservativa da molécula de DNA."
+      ],
+      "alternativas": {
+        "a": "mutação cromossômica.",
+        "b": "transcrição reversa.",
+        "c": "tradução.",
+        "d": "replicação semiconservativa.",
+        "e": "inversão paracêntrica."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Estrutura molecular do DNA e RNA, transcrição gênica e síntese proteica (código genético)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 41,
+      "tipo": "objetiva",
+      "enunciado": "Os átomos de iodo-123 e iodo-131 possuem",
+      "textos_de_apoio": [
+        "O setor de medicina nuclear do País, cujos procedimentos para diagnóstico ou terapia utilizam radiofármacos, conta com 432 serviços de medicina nuclear (SMN). O CNEM, Comissão Nacional de Energia Nuclear, conta atualmente com 38 radiofármacos fornecidos para a área médica, entre eles substâncias marcadas com iodo-123, I, e iodo-131, I.\n(http://www.cnen.gov.br/radiofarmacos. Adaptado)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "mesmo número de nêutrons e diferentes números de massa.",
+        "b": "mesmo número de prótons e diferentes números de nêutrons.",
+        "c": "mesmo número de massa e diferentes números de prótons.",
+        "d": "diferentes números de nêutrons e diferentes números de prótons.",
+        "e": "diferentes números de prótons e diferentes números de massa."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Número atômico, número de massa, isótopos, isóbaros e isótonos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 42,
+      "tipo": "objetiva",
+      "enunciado": "A produção da alumina a partir da bauxita, minério de alumínio, envolve uma série de etapas. Entre elas está a calcinação, na qual ocorre a seguinte reação:\n\nAl(OH)₃ → Al₂O₃ + H₂O\n\nO balanceamento correto dessa reação, com os menores números inteiros, é dado, respectivamente, por:",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "1; 2; 1.",
+        "b": "1; 1; 2.",
+        "c": "2; 2; 3.",
+        "d": "2; 1; 3.",
+        "e": "3; 2; 2."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Equações químicas e métodos de balanceamento"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 43,
+      "tipo": "objetiva",
+      "enunciado": "Considerando a massa molar do mercúrio 201 g/mol e a constante de Avogadro 6,0 × 10²³/mol, a quantidade de átomos de mercúrio por grama de fio de cabelo tolerada pela OMS é de, aproximadamente:",
+      "textos_de_apoio": [
+        "As comunidades indígenas e ribeirinhas que vivem em áreas próximas a usinas hidrelétricas na Amazônia podem estar expostas a altos níveis de mercúrio. A análise de amostras de fios de cabelo de 37 ribeirinhos que vivem em ilhas na região de Caraipé, no lago Tucuruí, nos arredores da Usina Hidrelétrica de Tucuruí, no Pará, mostrou que mais da metade dos moradores apresentava níveis de contaminação até sete vezes superior ao limite de 10 microgramas de mercúrio por grama de fio de cabelo tolerado pela Organização Mundial da Saúde (OMS).\n(http://revistapesquisa.fapesp.br/2018/03/08/contaminacao-alem-do-garimpo/?cat=ciencia. Adaptado)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "1,0 × 10¹⁵",
+        "b": "3,0 × 10¹⁵",
+        "c": "6,0 × 10¹⁵",
+        "d": "1,0 × 10¹⁶",
+        "e": "3,0 × 10¹⁶"
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Cálculos estequiométricos: relações de massa, volume, mols e pureza/rendimento"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 44,
+      "tipo": "objetiva",
+      "enunciado": "A função orgânica presente no espilantol é:",
+      "textos_de_apoio": [
+        "Originário da região amazônica, o jambu (Acmella oleracea) é uma hortaliça muito utilizada na culinária do norte do Brasil, principalmente no Pará, em pratos famosos como o tacacá e o pato no tucupi. Além da alimentação, a planta é usada pelos povos indígenas e ribeirinhos como analgésico e anestésico para tratar aftas, herpes, dores de dente e garganta. Os efeitos anestésicos e analgésicos são provocados pela substância espilantol.\n(http://revistapesquisa.fapesp.br/2018/01/16/planta-ecletica/. Adaptado)"
+      ],
+      "midia": [
+        "Página 14: Fórmula estrutural do espilantol."
+      ],
+      "alternativas": {
+        "a": "amida.",
+        "b": "amina.",
+        "c": "cetona.",
+        "d": "aldeído.",
+        "e": "álcool."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Principais funções orgânicas: hidrocarbonetos, álcoois, fenóis, éteres, ésteres, aldeídos, cetonas, ácidos carboxílicos, aminas e amidas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 45,
+      "tipo": "objetiva",
+      "enunciado": "O número de átomos de carbono existente na molécula do espilantol é:",
+      "textos_de_apoio": [
+        "Originário da região amazônica, o jambu (Acmella oleracea) é uma hortaliça muito utilizada na culinária do norte do Brasil, principalmente no Pará, em pratos famosos como o tacacá e o pato no tucupi. Além da alimentação, a planta é usada pelos povos indígenas e ribeirinhos como analgésico e anestésico para tratar aftas, herpes, dores de dente e garganta. Os efeitos anestésicos e analgésicos são provocados pela substância espilantol.\n(http://revistapesquisa.fapesp.br/2018/01/16/planta-ecletica/. Adaptado)"
+      ],
+      "midia": [
+        "Página 14: Fórmula estrutural do espilantol."
+      ],
+      "alternativas": {
+        "a": "16.",
+        "b": "15.",
+        "c": "14.",
+        "d": "13.",
+        "e": "12."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Características do carbono, cadeias carbônicas, ligações e hibridização",
+            "Principais funções orgânicas: hidrocarbonetos, álcoois, fenóis, éteres, ésteres, aldeídos, cetonas, ácidos carboxílicos, aminas e amidas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 46,
+      "tipo": "objetiva",
+      "enunciado": "Nos telescópios refletores, a objetiva é um espelho",
+      "textos_de_apoio": [
+        "Cientistas, procurando esclarecer a dinâmica dos universos macro e microscópicos, utilizam instrumentos ópticos como o telescópio e o microscópio.\nDentre outros, há telescópios refletores e refratores e microscópios ópticos e eletrônicos."
+      ],
+      "midia": [
+        "Página 14: Imagens de um telescópio e de um microscópio.",
+        "Página 14: Links de referência para telescópio e microscópio."
+      ],
+      "alternativas": {
+        "a": "convexo enquanto que a objetiva dos microscópios ópticos é uma lente divergente.",
+        "b": "côncavo enquanto que a objetiva dos microscópios ópticos é uma lente divergente.",
+        "c": "plano enquanto que a objetiva dos microscópios ópticos é uma lente divergente.",
+        "d": "convexo enquanto que a objetiva dos microscópios ópticos é uma lente convergente.",
+        "e": "côncavo enquanto que a objetiva dos microscópios ópticos é uma lente convergente."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Instrumentos ópticos e o olho humano (miopia, hipermetropia, astigmatismo e correção)",
+            "Reflexão da luz: espelhos planos e espelhos esféricos (construção gráfica e estudo analítico)",
+            "Lentes esféricas delgadas: vergência e equações dos pontos conjugados"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 47,
+      "tipo": "objetiva",
+      "enunciado": "Devido às obras em uma das faixas de um trecho retilíneo de uma estrada de pista simples, foram colocados, nas extremidades do trecho em obras, semáforos que, de forma intercalada, administram o tráfego, dando vazão ao trânsito dos veículos nos dois sentidos da rodovia. Um motoqueiro, que está a 100 m de um dos semáforos e dirige sua moto com velocidade constante de 15 m/s, observa que a luz do sinal passa de verde para amarela. Sabendo que a luz permanecerá amarela por 5 s, o motoqueiro acelera a moto o suficiente para continuar sua trajetória pela estrada antes que a luz do semáforo mude para vermelha. A velocidade da moto ao atravessar o semáforo será, em m/s, igual a",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "10.",
+        "b": "15.",
+        "c": "20.",
+        "d": "25.",
+        "e": "30."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Movimento Uniforme (MU) e Movimento Uniformemente Variado (MUV)",
+            "Cinemática escalar: velocidade e aceleração escalar média e instantânea"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 48,
+      "tipo": "objetiva",
+      "enunciado": "Ao ser golpeado pelo martelo, o diapasão emite ondas sonoras ditas",
+      "textos_de_apoio": [
+        "O diapasão, instrumento metálico utilizado para auxiliar na afinação de instrumentos musicais e vozes, é também empregado em medicina na avaliação da sensibilidade de pacientes com disfunções neurológicas."
+      ],
+      "midia": [
+        "Página 15: Imagem de um diapasão sobre caixa de ressonância e um martelo."
+      ],
+      "alternativas": {
+        "a": "longitudinais, uma vez que as moléculas do ar vibram perpendicularmente à direção do movimento da onda.",
+        "b": "longitudinais, uma vez que as moléculas do ar vibram paralelamente à direção do movimento da onda.",
+        "c": "transversais, uma vez que as moléculas do ar vibram perpendicularmente à direção do movimento da onda.",
+        "d": "transversais, uma vez que as moléculas do ar vibram paralelamente à direção do movimento da onda.",
+        "e": "transversais ou longitudinais, uma vez que as moléculas do ar vibram perpendicularmente à direção do movimento da onda."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Ondulatória: características das ondas e Equação Fundamental da Ondulatória (v = λ * f)",
+            "Acústica: velocidade do som, qualidades fisiológicas (altura, timbre, intensidade), tubos sonoros e Efeito Doppler"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 49,
+      "tipo": "objetiva",
+      "enunciado": "A força de interação elétrica entre duas cargas de intensidades Q e 2Q, mantidas a uma distância d uma da outra, é igual a 1 N. Se a distância entre essas cargas elétricas for reduzida à metade, a relação entre a intensidade da força elétrica entre as cargas quando a distância era d e da força elétrica entre as mesmas cargas após a distância ter sido reduzida à metade é",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "4:1.",
+        "b": "2:1.",
+        "c": "1:1.",
+        "d": "1:2.",
+        "e": "1:4."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Eletrostática: carga elétrica, processos de eletrização, Lei de Coulomb, campo e potencial elétrico"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 50,
+      "tipo": "objetiva",
+      "enunciado": "Com base na análise da figura e nas informações técnicas, observa-se que as lâmpadas estão dispostas em uma associação em",
+      "textos_de_apoio": [
+        "O circuito elétrico apresenta duas lâmpadas de led idênticas, de potência elétrica igual a 12 W, quando submetidas a uma diferença de potencial de 120 V."
+      ],
+      "midia": [
+        "Página 15: Esquema de um circuito elétrico com duas lâmpadas ligadas a uma fonte de 120 V."
+      ],
+      "alternativas": {
+        "a": "série e a intensidade da corrente elétrica em cada lâmpada é de 0,2 A.",
+        "b": "série e a intensidade da corrente elétrica em cada lâmpada é de 5,0 A.",
+        "c": "paralelo e a intensidade da corrente elétrica em cada lâmpada é de 0,2 A.",
+        "d": "paralelo e a intensidade da corrente elétrica em cada lâmpada é de 0,1 A.",
+        "e": "paralelo e a intensidade da corrente elétrica em cada lâmpada é de 10,0 A."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Eletrodinâmica: corrente elétrica, ddp, Leis de Ohm, resistividade e potência elétrica (kWh)",
+            "Associação de resistores, geradores, receptores e circuitos elétricos (Leis de Kirchhoff)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 51,
+      "tipo": "objetiva",
+      "enunciado": "Considerando que cada possível doador tem em média 4 órgãos aptos para transplante, se, dentre as famílias consultadas que não deram autorização, um terço tivesse permitido a doação, o número de órgãos disponíveis para transplantes, naquele ano, aumentaria, em média,",
+      "textos_de_apoio": [
+        "No ano de 2016, as centrais estaduais de transplantes identificaram 10158 pessoas que tiveram morte encefálica e poderiam ser doadoras. De 5939 famílias consultadas, 2571 não deram a autorização necessária.\n(https://exame.abril.com.br. Adaptado)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "7918.",
+        "b": "5823.",
+        "c": "4490.",
+        "d": "3428.",
+        "e": "3386."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Operações fundamentais com números inteiros e decimais",
+            "Razões e proporções diretas e inversas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 52,
+      "tipo": "objetiva",
+      "enunciado": "Uma loja de varejo possui exclusividade na venda de uma determinada marca de conjuntos de panelas. No mês passado, essa loja vendeu 357 unidades desse produto, a R$ 600,00 cada conjunto. Para esse mês, a loja lançou uma promoção e está vendendo o conjunto 15% mais barato. Para obter uma arrecadação igual ou maior do que a do mês passado, será necessário que o número de unidades vendidas seja, no mínimo,",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "1260.",
+        "b": "630.",
+        "c": "535.",
+        "d": "420.",
+        "e": "150."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Matemática Financeira: porcentagem, juros simples, juros compostos, taxas e índices",
+            "Operações fundamentais com números inteiros e decimais"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 53,
+      "tipo": "objetiva",
+      "enunciado": "Dado que a platina e o irídio possuem densidade iguais a 21,45 g/cm³ e 22,65 g/cm³, respectivamente, e que a quantidade de platina utilizada na composição da liga é 9 vezes a quantidade de irídio, então a densidade da liga metálica do Protótipo Internacional do Quilograma é igual a",
+      "textos_de_apoio": [
+        "O quilograma é a última unidade a depender de um objeto concreto, chamado de Protótipo Internacional do Quilograma, conhecido também como “Le Grand K”, que fica armazenado no Escritório Internacional de Pesos e Medidas. O protótipo remete a um pequeno cilindro composto de uma liga metálica de platina e de irídio.\n(http://piaui.folha.uol.com.br. Adaptado)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "21,46 g/cm³.",
+        "b": "21,57 g/cm³.",
+        "c": "21,65 g/cm³.",
+        "d": "21,88 g/cm³.",
+        "e": "22,05 g/cm³."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Razões e proporções diretas e inversas",
+            "Operações com frações e simplificação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 54,
+      "tipo": "objetiva",
+      "enunciado": "Uma escola de idiomas inaugurou nova unidade em uma cidade e está fazendo uma pesquisa com pessoas de 18 a 25 anos. Dos 150 participantes da pesquisa, 83 responderam que estão trabalhando, 55 responderam que estão estudando e 24 que não estão estudando nem trabalhando. Essa escola irá sortear um curso intensivo para um dos participantes da pesquisa. Considerando que todos os participantes da pesquisa têm igual chance de serem contemplados, a probabilidade de se sortear uma pessoa que esteja trabalhando e estudando ao mesmo tempo é igual a",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "8%.",
+        "b": "12%.",
+        "c": "36%.",
+        "d": "84%.",
+        "e": "92%."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Princípios multiplicativo e aditivo da contagem",
+            "Espaço amostral (discreto e contínuo) e conceito de probabilidade"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 55,
+      "tipo": "objetiva",
+      "enunciado": "Supondo que o decréscimento ocorreu de forma linear, conforme ilustrado no gráfico, a concentração de espermatozoides de indivíduos que viviam nas regiões indicadas na notícia sofreu uma redução anual de, aproximadamente,",
+      "textos_de_apoio": [
+        "Considere o seguinte trecho de uma notícia:\nDe 1973 a 2011, a concentração de espermatozoides em indivíduos que vivem na América do Norte, Europa, Austrália e Nova Zelândia despencou, em média, de 99 milhões por mililitro (mL), em 1973, para 47 milhões por mL, em 2011.\n(http://revistapesquisa.fapesp.br. Adaptado)"
+      ],
+      "midia": [
+        "Página 17: Gráfico mostrando a queda da concentração de espermatozoides de 99 milhões/mL em 1970/1973 para 47 milhões/mL em 2010/2011 (queda de 52,4%)."
+      ],
+      "alternativas": {
+        "a": "2,10 milhões/mL.",
+        "b": "1,92 milhões/mL.",
+        "c": "1,37 milhões/mL.",
+        "d": "1,24 milhões/mL.",
+        "e": "1,10 milhões/mL."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Função polinomial do 1º grau e função constante",
+            "Equação da reta: forma reduzida, coeficientes angular/linear e intersecção"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 56,
+      "tipo": "objetiva",
+      "enunciado": "Das cinco simulações apresentadas, a que representa os três investimentos descritos anteriormente é a simulação",
+      "textos_de_apoio": [
+        "Empresas on-line de investimentos costumam utilizar de recursos gráficos para mostrar a diferença nos ganhos de certos investimentos. Veja alguns exemplos:\n\nAs funções que descrevem a projeção dos investimentos, em função do número t, em anos, escolhidas por um cliente são as seguintes:\nInvestimento A => A(t) = 1000 · (1,0085)ᵗ\nInvestimento B => B(t) = 1000 · (1,009)ᵗ\nInvestimento C => C(t) = 1000 · (1,01)ᵗ"
+      ],
+      "midia": [
+        "Página 17: Gráficos de Simulação I, II, III, IV e V mostrando curvas de investimento."
+      ],
+      "alternativas": {
+        "a": "I.",
+        "b": "II.",
+        "c": "III.",
+        "d": "IV.",
+        "e": "V."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Função exponencial e propriedades",
+            "Taxa de variação: crescimento linear, quadrático e exponencial"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 57,
+      "tipo": "objetiva",
+      "enunciado": "Desconsiderando as repartições internas dos imóveis e dado que as junções das paredes, em ambas as plantas, formam ângulos retos e que a dedetizadora cobra R$ 4,20 por metro quadrado de área, a diferença entre os valores que serão cobrados desses dois imóveis é um valor",
+      "textos_de_apoio": [
+        "Uma empresa de dedetização calcula o valor a ser cobrado por serviço a partir da área do local onde será realizado o trabalho. A seguir, têm-se a planta baixa e as medidas internas de dois imóveis, um apartamento e uma casa, que serão atendidos por essa empresa.\n(Figuras fora de escala)"
+      ],
+      "midia": [
+        "Página 18: Plantas baixas de um apartamento e de uma casa com dimensões."
+      ],
+      "alternativas": {
+        "a": "inferior a R$ 10,00.",
+        "b": "entre R$ 10,00 e R$ 20,00.",
+        "c": "entre R$ 20,00 e R$ 30,00.",
+        "d": "entre R$ 30,00 e R$ 40,00.",
+        "e": "superior a R$ 50,00."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Cálculo de áreas (polígonos, círculos, coroas e setores circulares)",
+            "Matemática Financeira: porcentagem, juros simples, juros compostos, taxas e índices"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 58,
+      "tipo": "objetiva",
+      "enunciado": "Uma empresa de componentes eletrônicos precisa fazer uma peça maciça com as seguintes características:\n• Formato de um paralelepípedo reto retangular, cujas dimensões são 3 cm, por 5 cm por 8 cm.\n• Em uma das faces de maior área, há três furos cilíndricos retos, com 2 cm de diâmetro e 2 cm de profundidade, cada um.\n\nEssa peça é confeccionada em uma única máquina que injeta nylon em um molde que atende as características exigidas. Desconsiderando eventuais desperdícios e utilizando π = 3,1, o volume de nylon utilizado para confeccionar 5000 dessas peças é um valor",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "superior a 2000000 cm³.",
+        "b": "entre 1500000 cm³ e 2000000 cm³.",
+        "c": "entre 1000000 cm³ e 1500000 cm³.",
+        "d": "entre 500000 cm³ e 1000000 cm³.",
+        "e": "inferior a 500000 cm³."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Geometria Espacial: vistas ortogonais e planificação",
+            "Cilindro, cone e esfera (área, volume e capacidade)",
+            "Poliedros, corpos redondos, prismas, pirâmides e troncos (área e volume)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 59,
+      "tipo": "objetiva",
+      "enunciado": "De acordo com o gráfico, a profissão com mais mulheres de menor idade mediana e a profissão com mais homens de menor idade mediana são, respectivamente,",
+      "textos_de_apoio": [
+        "O gráfico a seguir, construído a partir de dados do Ministério do Trabalho, apresenta um perfil de diferentes profissionais no mercado formal brasileiro. Cada ponto é uma profissão, sendo que a posição nos quadrantes indica a idade mediana e gênero dos profissionais, em percentual de mulheres.\n(www.nexojornal.com.br. Adaptado)"
+      ],
+      "midia": [
+        "Página 19: Gráfico de dispersão com perfil de profissionais por idade mediana e percentual de mulheres."
+      ],
+      "alternativas": {
+        "a": "Recepcionista e Mecânico.",
+        "b": "Caixa e Embalador.",
+        "c": "Operador de telemarketing e Praça das Forças Armadas.",
+        "d": "Professor e Motorista de ônibus.",
+        "e": "Professor de ensino infantil e Pedreiro."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Interpretação de gráficos (barras, setores, histogramas, box-plot, ramos e folhas)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 60,
+      "tipo": "objetiva",
+      "enunciado": "Segundo o gráfico, o país cuja composição possui o maior percentual de energia hidrelétrica é",
+      "textos_de_apoio": [
+        "O gráfico a seguir apresenta a composição da matriz energética de cinco países, no ano de 2014.\n(www.nexojoranal.com.br. Adaptado)"
+      ],
+      "midia": [
+        "Página 19: Gráfico de barras empilhadas mostrando a matriz energética de México, Bolívia, Finlândia, Egito e Índia."
+      ],
+      "alternativas": {
+        "a": "o México.",
+        "b": "a Bolívia.",
+        "c": "a Finlândia.",
+        "d": "o Egito.",
+        "e": "a Índia."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Matrizes energéticas mundiais e do Brasil (fontes renováveis e não renováveis)",
+            "Interpretação de gráficos (barras, setores, histogramas, box-plot, ramos e folhas)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 61,
+      "tipo": "redacao",
+      "enunciado": "Com base nas informações dos textos apresentados e em seus próprios conhecimentos, escreva uma dissertação, de acordo com a norma-padrão da língua portuguesa, sobre o tema:\n\nPetições on-line são formas eficazes de ativismo?",
+      "textos_de_apoio": [
+        "TEXTO 1\nNo meio jurídico, a petição é um instrumento utilizado pelo advogado com o objetivo de conseguir uma decisão favorável dada pelo juiz. Na linguagem popular, uma petição tem o mesmo significado de um abaixo-assinado, podendo ser resumida como um documento contendo uma solicitação coletiva.\nCom o crescente uso da internet, as petições migraram para o meio digital. O número de sites especializados na criação de petições on-line aumentou bastante nos últimos anos, assim como o número de pessoas assinando e criando novas petições.\n(Luan Poppe. “Petições online dão resultado?”. 09.11.2015. www.politize.com.br. Adaptado)",
+        "TEXTO 2\nO especialista em Direito Digital Luís Fernando Prado Chaves explica que as petições on-line possuem validade jurídica desde que “demonstradas a integridade do documento (que não foi alterado após as assinaturas) e sua autenticidade (que a assinatura corresponda de fato a uma pessoa que se manifesta daquela forma)”.\nEssa forma “moderna e mais acessível” de abaixo-assinado, via de regra, “não é capaz de obrigar alguém ou mesmo o ente público” a atendê-la. Isso porque a inovação, apesar de prevista na Constituição Federal como Iniciativa Popular, ainda é recente e faltam dispositivos legais tanto para evitar fraudes, quanto para atribuir maior eficácia a esses documentos.\n(Natalie Garcia. “Petições online podem possuir validade jurídica, mas nem sempre são eficazes”. 26.04.2016. http://justificando.cartacapital.com.br. Adaptado)",
+        "TEXTO 3\nPara Pedro Abromavay, professor de direito da FGV-RJ e diretor da Avaaz (organização internacional de ativistas), o que importa nas petições virtuais é a mobilização que elas causam. “A validade das petições on-line é igual à de um protesto de rua.”\nApesar de soar como uma tentativa de “revolução do sofá” – pois, para assinar as petições, basta acessar um site e digitar dados pessoais –, Abromavay relata haver vários casos de petições que, pelo volume de adesões, ganharam atenção de políticos e até ajudaram a influenciar posicionamentos. Segundo ele, casos como a votação do código florestal (que teve cerca de 2 milhões de assinaturas) e da delimitação de terras para a comunidade indígena guarani-kaiowá são exemplos de como o ativismo na internet pode funcionar.\n(Guilherme Tagiaroli. “Petições online servem como pressão popular, mas não têm valor jurídico”. 13.03.2013. https://tecnologia.uol.com.br. Adaptado)",
+        "TEXTO 4\nQuando se propaga a ideia de que assinar uma petição on-line é “fazer a sua parte” ou, pelo menos, é “melhor do que nada”, os espaços para o ativismo real diminuem. Por quê? Porque uma boa parte das pessoas que praticam esse tipo de ativismo virtual o fazem apenas como uma forma de alívio da consciência. Diante da possibilidade de mudar o mundo em um clique, o sentimento de culpa que alguns carregam, especialmente em um país desigual como o Brasil, é imediatamente atenuado.\n(Felipe Bertoni. “O risco Avaaz”. 04.06.2011. www.advivo.com.br/blogs/bendidle. Adaptado)"
+      ],
+      "midia": [],
+      "alternativas": null,
+      "gabarito": null,
+      "areas": [
+        {
+          "area": "Redação",
+          "assuntos": [
+            "Gênero dissertativo-argumentativo: impessoalidade (3ª pessoa) e defesa de ponto de vista claro",
+            "Macroestrutura padrão em 4 parágrafos (Introdução com tese, D1, D2 e Conclusão reflexiva)",
+            "Eixo Temático 1: Tecnologia, privacidade e transformações nas relações humanas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    }
+  ]
+}

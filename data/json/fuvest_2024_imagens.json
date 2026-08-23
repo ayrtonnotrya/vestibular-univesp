@@ -1,0 +1,721 @@
+{
+  "exame": "fuvest_2024",
+  "figuras_coordenadas": {
+    "3": [
+      {
+        "pagina": 2,
+        "tipo": "imagem",
+        "elemento": "Pintura 'Um jantar brasileiro' de Jean-Baptiste Debret",
+        "bbox": [
+          530,
+          190,
+          890,
+          360
+        ]
+      },
+      {
+        "pagina": 2,
+        "tipo": "imagem",
+        "elemento": "Obra 'Sentem para jantar' de Gê Viana",
+        "bbox": [
+          530,
+          395,
+          890,
+          560
+        ]
+      }
+    ],
+    "4": [
+      {
+        "pagina": 3,
+        "tipo": "imagem",
+        "elemento": "Anúncio do Guerrilla Girls",
+        "bbox": [
+          190,
+          80,
+          480,
+          290
+        ]
+      }
+    ],
+    "7": [
+      {
+        "pagina": 3,
+        "tipo": "cartum",
+        "elemento": "Charge 'Escravidão ou morte' de Angelo Agostini",
+        "bbox": [
+          390,
+          560,
+          680,
+          890
+        ]
+      }
+    ],
+    "14": [
+      {
+        "pagina": 6,
+        "tipo": "imagem",
+        "elemento": "Árvore genealógica (heredograma)",
+        "bbox": [
+          130,
+          540,
+          310,
+          890
+        ]
+      }
+    ],
+    "18": [
+      {
+        "pagina": 7,
+        "tipo": "imagem",
+        "elemento": "Esquema ilustrativo da criação da almôndega de mamute",
+        "bbox": [
+          530,
+          80,
+          770,
+          480
+        ]
+      }
+    ],
+    "19": [
+      {
+        "pagina": 7,
+        "tipo": "imagem",
+        "elemento": "Estruturas químicas A, B, C, D e E",
+        "bbox": [
+          210,
+          520,
+          800,
+          930
+        ]
+      }
+    ],
+    "20": [
+      {
+        "pagina": 8,
+        "tipo": "grafico",
+        "elemento": "Perfil de digestão de quatro substâncias em função do pH",
+        "bbox": [
+          120,
+          90,
+          320,
+          370
+        ]
+      }
+    ],
+    "21": [
+      {
+        "pagina": 8,
+        "tipo": "imagem",
+        "elemento": "Simulação de chat com IA",
+        "bbox": [
+          370,
+          100,
+          500,
+          480
+        ]
+      }
+    ],
+    "25": [
+      {
+        "pagina": 9,
+        "tipo": "imagem",
+        "elemento": "Esquema experimental com chamas e lâmpada de Sódio",
+        "bbox": [
+          150,
+          540,
+          310,
+          890
+        ]
+      }
+    ],
+    "26": [
+      {
+        "pagina": 10,
+        "tipo": "grafico",
+        "elemento": "Gráficos de densidade de energia espectral para diferentes temperaturas",
+        "bbox": [
+          390,
+          50,
+          940,
+          480
+        ]
+      }
+    ],
+    "27": [
+      {
+        "pagina": 11,
+        "tipo": "grafico",
+        "elemento": "Gráfico de densidade do óleo versus temperatura",
+        "bbox": [
+          430,
+          80,
+          600,
+          470
+        ]
+      }
+    ],
+    "28": [
+      {
+        "pagina": 11,
+        "tipo": "imagem",
+        "elemento": "Fotos do forno a lenha",
+        "bbox": [
+          210,
+          600,
+          510,
+          860
+        ]
+      }
+    ],
+    "29": [
+      {
+        "pagina": 12,
+        "tipo": "tabela",
+        "elemento": "Tabela de propriedades dos gases propano, isobutano e n-butano",
+        "bbox": [
+          190,
+          130,
+          260,
+          470
+        ]
+      }
+    ],
+    "30": [
+      {
+        "pagina": 12,
+        "tipo": "imagem",
+        "elemento": "Aparato de laboratório para geração de gás hidrogênio",
+        "bbox": [
+          120,
+          560,
+          310,
+          910
+        ]
+      }
+    ],
+    "31": [
+      {
+        "pagina": 13,
+        "tipo": "imagem",
+        "elemento": "Caminhão-pipa e reservatório cilíndrico",
+        "bbox": [
+          190,
+          100,
+          410,
+          440
+        ]
+      }
+    ],
+    "32": [
+      {
+        "pagina": 13,
+        "tipo": "tabela",
+        "elemento": "Condição de variáveis sociais em quatro cidades",
+        "bbox": [
+          710,
+          50,
+          850,
+          480
+        ]
+      }
+    ],
+    "33": [
+      {
+        "pagina": 13,
+        "tipo": "tabela",
+        "elemento": "Tabela I - Composição e custo",
+        "bbox": [
+          320,
+          560,
+          450,
+          890
+        ]
+      },
+      {
+        "pagina": 13,
+        "tipo": "tabela",
+        "elemento": "Tabela II - Variação no custo",
+        "bbox": [
+          530,
+          560,
+          640,
+          890
+        ]
+      }
+    ],
+    "35": [
+      {
+        "pagina": 14,
+        "tipo": "imagem",
+        "elemento": "Numerais do relógio digital",
+        "bbox": [
+          360,
+          100,
+          430,
+          420
+        ]
+      },
+      {
+        "pagina": 14,
+        "tipo": "imagem",
+        "elemento": "Relógio e reflexo na mesa de vidro",
+        "bbox": [
+          510,
+          140,
+          690,
+          390
+        ]
+      }
+    ],
+    "40": [
+      {
+        "pagina": 15,
+        "tipo": "imagem",
+        "elemento": "Esquema ilustrativo de um jardim de chuva",
+        "bbox": [
+          240,
+          520,
+          530,
+          890
+        ]
+      }
+    ],
+    "41": [
+      {
+        "pagina": 16,
+        "tipo": "imagem",
+        "elemento": "Ciclo hidrológico e diferenciação isotópica de oxigênio",
+        "bbox": [
+          260,
+          50,
+          480,
+          480
+        ]
+      }
+    ],
+    "42": [
+      {
+        "pagina": 16,
+        "tipo": "grafico",
+        "elemento": "Mapa de intensidade do campo magnético terrestre",
+        "bbox": [
+          320,
+          520,
+          570,
+          930
+        ]
+      }
+    ],
+    "43": [
+      {
+        "pagina": 17,
+        "tipo": "grafico",
+        "elemento": "Gráfico de concentrações de gases de efeito estufa (CO2, CH4, N2O)",
+        "bbox": [
+          80,
+          70,
+          310,
+          470
+        ]
+      }
+    ],
+    "46": [
+      {
+        "pagina": 18,
+        "tipo": "grafico",
+        "elemento": "Mapa de expansão da cafeicultura em SP e RJ",
+        "bbox": [
+          80,
+          80,
+          310,
+          460
+        ]
+      }
+    ],
+    "47": [
+      {
+        "pagina": 18,
+        "tipo": "grafico",
+        "elemento": "Gráfico de modais de transporte por país",
+        "bbox": [
+          390,
+          50,
+          480,
+          480
+        ]
+      }
+    ],
+    "48": [
+      {
+        "pagina": 18,
+        "tipo": "imagem",
+        "elemento": "Ilustração de paralelepípedo reto-retângulo",
+        "bbox": [
+          550,
+          560,
+          690,
+          890
+        ]
+      }
+    ],
+    "49": [
+      {
+        "pagina": 19,
+        "tipo": "tabela",
+        "elemento": "Tabela de dimensões de vagas de estacionamento",
+        "bbox": [
+          210,
+          80,
+          290,
+          460
+        ]
+      },
+      {
+        "pagina": 19,
+        "tipo": "imagem",
+        "elemento": "Esquema de projeto de garagem",
+        "bbox": [
+          320,
+          110,
+          530,
+          440
+        ]
+      }
+    ],
+    "50": [
+      {
+        "pagina": 19,
+        "tipo": "grafico",
+        "elemento": "Figura I e Figura II de cinemática",
+        "bbox": [
+          150,
+          530,
+          450,
+          890
+        ]
+      }
+    ],
+    "51": [
+      {
+        "pagina": 19,
+        "tipo": "imagem",
+        "elemento": "Skatista em um bowl",
+        "bbox": [
+          650,
+          540,
+          820,
+          880
+        ]
+      }
+    ],
+    "55": [
+      {
+        "pagina": 21,
+        "tipo": "imagem",
+        "elemento": "Foto do gerador de Van de Graaf",
+        "bbox": [
+          90,
+          120,
+          240,
+          430
+        ]
+      },
+      {
+        "pagina": 21,
+        "tipo": "imagem",
+        "elemento": "Esquema das cargas A e B com ponto P",
+        "bbox": [
+          390,
+          110,
+          460,
+          280
+        ]
+      }
+    ],
+    "56": [
+      {
+        "pagina": 21,
+        "tipo": "grafico",
+        "elemento": "Gráfico de eletronegatividade vs número atômico",
+        "bbox": [
+          730,
+          80,
+          930,
+          480
+        ]
+      }
+    ],
+    "57": [
+      {
+        "pagina": 21,
+        "tipo": "imagem",
+        "elemento": "Foto de circuito em protoboard",
+        "bbox": [
+          430,
+          530,
+          680,
+          910
+        ]
+      }
+    ],
+    "58": [
+      {
+        "pagina": 22,
+        "tipo": "imagem",
+        "elemento": "Ilustração do teste de ouro com ácido",
+        "bbox": [
+          200,
+          70,
+          310,
+          420
+        ]
+      }
+    ],
+    "59": [
+      {
+        "pagina": 22,
+        "tipo": "grafico",
+        "elemento": "Gráfico de função exponencial e sua inversa",
+        "bbox": [
+          570,
+          180,
+          800,
+          390
+        ]
+      }
+    ],
+    "60": [
+      {
+        "pagina": 22,
+        "tipo": "grafico",
+        "elemento": "Gráficos de sistemas lineares de A a E",
+        "bbox": [
+          140,
+          530,
+          930,
+          910
+        ]
+      }
+    ],
+    "61": [
+      {
+        "pagina": 23,
+        "tipo": "grafico",
+        "elemento": "Gráfico de biomassa, biodiversidade e índice de aridez",
+        "bbox": [
+          150,
+          90,
+          310,
+          460
+        ]
+      }
+    ],
+    "62": [
+      {
+        "pagina": 23,
+        "tipo": "imagem",
+        "elemento": "Três fotografias de paisagens dos domínios morfoclimáticos",
+        "bbox": [
+          210,
+          560,
+          680,
+          890
+        ]
+      }
+    ],
+    "63": [
+      {
+        "pagina": 24,
+        "tipo": "imagem",
+        "elemento": "Árvore Pitagórica (Etapas 1 a 4)",
+        "bbox": [
+          230,
+          110,
+          470,
+          420
+        ]
+      }
+    ],
+    "64": [
+      {
+        "pagina": 24,
+        "tipo": "imagem",
+        "elemento": "Mapa da Serra do Imeri",
+        "bbox": [
+          255,
+          530,
+          485,
+          930
+        ]
+      }
+    ],
+    "65": [
+      {
+        "pagina": 25,
+        "tipo": "imagem",
+        "elemento": "Fotografia de deslizamento de terra em SP",
+        "bbox": [
+          180,
+          80,
+          360,
+          480
+        ]
+      }
+    ],
+    "66": [
+      {
+        "pagina": 25,
+        "tipo": "imagem",
+        "elemento": "Imagem de satélite e foto de voçorocas em Buriticupu",
+        "bbox": [
+          90,
+          530,
+          480,
+          910
+        ]
+      }
+    ],
+    "69": [
+      {
+        "pagina": 26,
+        "tipo": "imagem",
+        "elemento": "Cladograma de vertebrados",
+        "bbox": [
+          530,
+          530,
+          680,
+          900
+        ]
+      }
+    ],
+    "70": [
+      {
+        "pagina": 27,
+        "tipo": "grafico",
+        "elemento": "Mapa mundial de distribuição da pesca",
+        "bbox": [
+          180,
+          70,
+          310,
+          480
+        ]
+      }
+    ],
+    "71": [
+      {
+        "pagina": 27,
+        "tipo": "imagem",
+        "elemento": "Esquema do copo dentro da vasilha com água",
+        "bbox": [
+          120,
+          750,
+          200,
+          920
+        ]
+      }
+    ],
+    "72": [
+      {
+        "pagina": 28,
+        "tipo": "grafico",
+        "elemento": "Diagramas de ciclos termodinâmicos A a E",
+        "bbox": [
+          300,
+          50,
+          930,
+          480
+        ]
+      }
+    ],
+    "73": [
+      {
+        "pagina": 28,
+        "tipo": "imagem",
+        "elemento": "Imagem de grãos de areia sobre régua de ondas estacionárias",
+        "bbox": [
+          250,
+          530,
+          310,
+          890
+        ]
+      }
+    ],
+    "75": [
+      {
+        "pagina": 29,
+        "tipo": "imagem",
+        "elemento": "Mapa de rotas comerciais na África e Península Arábica",
+        "bbox": [
+          110,
+          100,
+          310,
+          430
+        ]
+      }
+    ],
+    "78": [
+      {
+        "pagina": 30,
+        "tipo": "imagem",
+        "elemento": "Mapa das áreas de povoamento curdo",
+        "bbox": [
+          90,
+          80,
+          290,
+          480
+        ]
+      }
+    ],
+    "80": [
+      {
+        "pagina": 30,
+        "tipo": "tabela",
+        "elemento": "Ranking dos 10 maiores PIBs (1992, 2010 e 2028)",
+        "bbox": [
+          550,
+          480,
+          710,
+          890
+        ]
+      }
+    ],
+    "84": [
+      {
+        "pagina": 32,
+        "tipo": "grafico",
+        "elemento": "Gráfico de taxa de homicídios de mulheres (2007-2017)",
+        "bbox": [
+          550,
+          70,
+          710,
+          480
+        ]
+      }
+    ],
+    "85": [
+      {
+        "pagina": 32,
+        "tipo": "imagem",
+        "elemento": "Figura I - Números triangulares",
+        "bbox": [
+          250,
+          560,
+          310,
+          890
+        ]
+      },
+      {
+        "pagina": 32,
+        "tipo": "imagem",
+        "elemento": "Figura II - Números oblongos",
+        "bbox": [
+          470,
+          570,
+          530,
+          880
+        ]
+      }
+    ]
+  }
+}

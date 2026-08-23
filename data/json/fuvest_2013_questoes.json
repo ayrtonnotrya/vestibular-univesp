@@ -1,0 +1,2488 @@
+{
+  "exame": "fuvest_2013_questoes",
+  "ano": 2013,
+  "semestre": null,
+  "fonte_questoes": "data/fuvest_2013_questoes.pdf",
+  "fonte_gabarito": "data/fuvest_2013_gabarito.pdf",
+  "total_questoes": 90,
+  "questoes": [
+    {
+      "numero": 1,
+      "tipo": "objetiva",
+      "enunciado": "O ácido gama-hidroxibutírico é utilizado no tratamento do alcoolismo. Esse ácido pode ser obtido a partir da gamabutirolactona, conforme a representação a seguir:\nAssinale a alternativa que identifica corretamente X (de modo que a representação respeite a conservação da matéria) e o tipo de transformação que ocorre quando a gamabutirolactona é convertida no ácido gama-hidroxibutírico.",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 2: Representação esquemática da reação química entre gamabutirolactona e X, produzindo ácido gama-hidroxibutírico na presença de um catalisador, com estruturas moleculares detalhadas mostrando átomos de carbono (preto), oxigênio (vermelho) e hidrogênio (branco)."
+      ],
+      "alternativas": {
+        "a": "CH₃OH   esterificação",
+        "b": "H₂   hidrogenação",
+        "c": "H₂O   hidrólise",
+        "d": "luz   isomerização",
+        "e": "calor   decomposição"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Reações orgânicas fundamentais: substituição, adição, eliminação, oxidação e esterificação/saponificação",
+            "Equações químicas e métodos de balanceamento"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 2,
+      "tipo": "objetiva",
+      "enunciado": "A uma determinada temperatura, as substâncias HI, H₂ e I₂ estão no estado gasoso. A essa temperatura, o equilíbrio entre as três substâncias foi estudado, em recipientes fechados, partindo-se de uma mistura equimolar de H₂ e I₂ (experimento A) ou somente de HI (experimento B).\nPela análise dos dois gráficos, pode-se concluir que",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 2: Dois gráficos de concentração versus tempo. O Gráfico A (Experimento A) mostra H₂ + I₂ reagindo para formar HI até o equilíbrio t₁. O Gráfico B (Experimento B) mostra 2HI formando H₂ + I₂ até o equilíbrio t₁."
+      ],
+      "alternativas": {
+        "a": "no experimento A, ocorre diminuição da pressão total no interior do recipiente, até que o equilíbrio seja atingido.",
+        "b": "no experimento B, as concentrações das substâncias (HI, H₂ e I₂) são iguais no instante t₁.",
+        "c": "no experimento A, a velocidade de formação de HI aumenta com o tempo.",
+        "d": "no experimento B, a quantidade de matéria (em mols) de HI aumenta até que o equilíbrio seja atingido.",
+        "e": "no experimento A, o valor da constante de equilíbrio (K₁) é maior do que 1."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Equilíbrio Químico: constante Kc e Kp, Princípio de Le Chatelier"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 3,
+      "tipo": "objetiva",
+      "enunciado": "Quando certos metais são colocados em contato com soluções ácidas, pode haver formação de gás hidrogênio. Abaixo, segue uma tabela elaborada por uma estudante de Química, contendo resultados de experimentos que ela realizou em diferentes condições.\nApós realizar esses experimentos, a estudante fez três afirmações:\nI. A velocidade da reação de Zn com ácido aumenta na presença de Cu.\nII. O aumento na concentração inicial do ácido causa o aumento da velocidade de liberação do gás H₂.\nIII. Os resultados dos experimentos 1 e 3 mostram que, quanto maior o quociente superfície de contato/massa total de amostra de Zn, maior a velocidade de reação.\nCom os dados contidos na tabela, a estudante somente poderia concluir o que se afirma em",
+      "textos_de_apoio": [
+        "Tabela contendo os experimentos 1 a 4 com colunas de Reagentes (Solução de HCl 0,2 mol/L e Metal), Tempo para liberar 30 mL de H₂ e Observações."
+      ],
+      "midia": [
+        "Página 2: Tabela de dados experimentais de reação entre Zn, Cu e HCl."
+      ],
+      "alternativas": {
+        "a": "I.",
+        "b": "II.",
+        "c": "I e II.",
+        "d": "I e III.",
+        "e": "II e III."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Fatores que alteram a velocidade da reação (concentração, temperatura, catalisador)",
+            "Cinética Química: rapidez de reação, teoria das colisões e energia de ativação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 4,
+      "tipo": "objetiva",
+      "enunciado": "Um aluno estava analisando a Tabela Periódica e encontrou vários conjuntos de três elementos químicos que apresentavam propriedades semelhantes.\nAssinale a alternativa na qual os conjuntos de três elementos ou substâncias elementares estão corretamente associados às propriedades indicadas no quadro abaixo.",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 3: Esboço simplificado da Tabela Periódica."
+      ],
+      "alternativas": {
+        "a": "Pt, Au, Hg | H₂, He, Li | Cl₂, Br₂, I₂",
+        "b": "Cl, Br, I | O₂, F₂, Ne | Ne, Ar, Kr",
+        "c": "Li, Na, K | O₂, F₂, Ne | Pt, Au, Hg",
+        "d": "Ne, Ar, Kr | Mg, Ca, Sr | Cl₂, Br₂, I₂",
+        "e": "Pt, Au, Hg | Li, Na, K | Ne, Ar, Kr"
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Tabela Periódica: organização, famílias, períodos e propriedades periódicas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 5,
+      "tipo": "objetiva",
+      "enunciado": "O craqueamento catalítico é um processo utilizado na indústria petroquímica para converter algumas frações do petróleo que são mais pesadas (isto é, constituídas por compostos de massa molar elevada) em frações mais leves, como a gasolina e o GLP, por exemplo. Nesse processo, algumas ligações químicas nas moléculas de grande massa molecular são rompidas, sendo geradas moléculas menores.\nA respeito desse processo, foram feitas as seguintes afirmações:\nI. O craqueamento é importante economicamente, pois converte frações mais pesadas de petróleo em compostos de grande demanda.\nII. O craqueamento libera grande quantidade de energia, proveniente da ruptura de ligações químicas nas moléculas de grande massa molecular.\nIII. A presença de catalisador permite que as transformações químicas envolvidas no craqueamento ocorram mais rapidamente.\nEstá correto o que se afirma em",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "I, apenas.",
+        "b": "II, apenas.",
+        "c": "I e III, apenas.",
+        "d": "II e III, apenas.",
+        "e": "I, II e III."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Combustíveis fósseis (carvão, petróleo, gás natural) e destilação fracionada",
+            "Fatores que alteram a velocidade da reação (concentração, temperatura, catalisador)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 6,
+      "tipo": "objetiva",
+      "enunciado": "A porcentagem em massa de sais no sangue é de aproximadamente 0,9%. Em um experimento, alguns glóbulos vermelhos de uma amostra de sangue foram coletados e separados em três grupos. Foram preparadas três soluções, identificadas por X, Y e Z, cada qual com uma diferente concentração salina. A cada uma dessas soluções foi adicionado um grupo de glóbulos vermelhos. Para cada solução, acompanhou-se, ao longo do tempo, o volume de um glóbulo vermelho, como mostra o gráfico.\nCom base nos resultados desse experimento, é correto afirmar que",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 3: Gráfico de volume do glóbulo vermelho em função do tempo para três soluções X, Y e Z."
+      ],
+      "alternativas": {
+        "a": "a porcentagem em massa de sal, na solução Z, é menor do que 0,9%.",
+        "b": "a porcentagem em massa de sal é maior na solução Y do que na solução X.",
+        "c": "a solução Y e a água destilada são isotônicas.",
+        "d": "a solução X e o sangue são isotônicos.",
+        "e": "a adição de mais sal à solução Z fará com que ela e a solução X fiquem isotônicas."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Membrana plasmática e mecanismos de transporte (passivo, ativo, endocitose)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 7,
+      "tipo": "objetiva",
+      "enunciado": "A partir de considerações teóricas, foi feita uma estimativa do poder calorífico (isto é, da quantidade de calor liberada na combustão completa de 1 kg de combustível) de grande número de hidrocarbonetos. Dessa maneira, foi obtido o seguinte gráfico de valores teóricos:\nCom base no gráfico, um hidrocarboneto que libera 10.700 kcal/kg em sua combustão completa pode ser representado pela fórmula",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 3: Gráfico de quantidade de calor liberada na combustão completa (kcal/kg) versus razão massa de carbono/massa de hidrogênio."
+      ],
+      "alternativas": {
+        "a": "CH₄",
+        "b": "C₂H₄",
+        "c": "C₄H₁₀",
+        "d": "C₅H₈",
+        "e": "C₆H₆"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Termoquímica: reações exotérmicas e endotérmicas, entalpia e equações termoquímicas",
+            "Fórmulas químicas: mínima, centesimal e molecular"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 8,
+      "tipo": "objetiva",
+      "enunciado": "Um funcionário de uma empresa ficou encarregado de remover resíduos de diferentes polímeros que estavam aderidos a diversas peças. Após alguma investigação, o funcionário classificou as peças em três grupos, conforme o polímero aderido a cada uma. As fórmulas estruturais de cada um desses polímeros são as seguintes:\nPara remover os resíduos de polímero das peças, o funcionário dispunha de apenas dois solventes: água e n-hexano. O funcionário analisou as fórmulas estruturais dos três polímeros e procurou fazer a correspondência entre cada polímero e o solvente mais adequado para solubilizá-lo. A alternativa que representa corretamente essa correspondência é:",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 4: Fórmulas estruturais dos polímeros I, II e III."
+      ],
+      "alternativas": {
+        "a": "água | n-hexano | água",
+        "b": "n-hexano | água | n-hexano",
+        "c": "n-hexano | água | água",
+        "d": "água | água | n-hexano",
+        "e": "água | n-hexano | n-hexano"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Polaridade de ligações e de moléculas (uso da eletronegatividade)",
+            "Interações intermoleculares (forças de London, dipolo-dipolo e ligação de hidrogênio)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 9,
+      "tipo": "objetiva",
+      "enunciado": "Uma moeda antiga de cobre estava recoberta com uma camada de óxido de cobre (II). Para restaurar seu brilho original, a moeda foi aquecida ao mesmo tempo em que se passou sobre ela gás hidrogênio. Nesse processo, formou-se vapor de água e ocorreu a redução completa do cátion metálico.\nAs massas da moeda, antes e depois do processo descrito, eram, respectivamente, 0,795 g e 0,779 g. Assim sendo, a porcentagem em massa do óxido de cobre (II) presente na moeda, antes do processo de restauração, era",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "2%",
+        "b": "4%",
+        "c": "8%",
+        "d": "10%",
+        "e": "16%"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Cálculos estequiométricos: relações de massa, volume, mols e pureza/rendimento",
+            "Eletroquímica: reações de oxirredução, números de oxidação (NOX) e agentes oxidantes/redutores"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 10,
+      "tipo": "objetiva",
+      "enunciado": "O fitoplâncton consiste em um conjunto de organismos microscópicos encontrados em certos ambientes aquáticos. O desenvolvimento desses organismos requer luz e CO₂, para o processo de fotossíntese, e requer também nutrientes contendo os elementos nitrogênio e fósforo.\nConsidere a tabela que mostra dados de pH e de concentrações de nitrato e de oxigênio dissolvidos na água, para amostras coletadas durante o dia, em dois diferentes pontos (A e B) e em duas épocas do ano (maio e novembro), na represa Billings, em São Paulo.\nCom base nas informações da tabela e em seus próprios conhecimentos sobre o processo de fotossíntese, um pesquisador registrou três conclusões:\nI. Nessas amostras, existe uma forte correlação entre as concentrações de nitrato e de oxigênio dissolvidos na água.\nII. As amostras de água coletadas em novembro devem ter menos CO₂ dissolvido do que aquelas coletadas em maio.\nIII. Se as coletas tivessem sido feitas à noite, o pH das quatro amostras de água seria mais baixo do que o observado.\nÉ correto o que o pesquisador concluiu em",
+      "textos_de_apoio": [
+        "Tabela com pH, Concentração de nitrato (mg/L) e Concentração de oxigênio (mg/L) para os Pontos A e B em novembro e maio."
+      ],
+      "midia": [
+        "Página 4: Tabela de dados limnológicos da represa Billings."
+      ],
+      "alternativas": {
+        "a": "I, apenas.",
+        "b": "III, apenas.",
+        "c": "I e II, apenas.",
+        "d": "II e III, apenas.",
+        "e": "I, II e III."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Metabolismo energético: fotossíntese, quimiossíntese, respiração aeróbia e fermentação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 11,
+      "tipo": "objetiva",
+      "enunciado": "Admite-se que as cenouras sejam originárias da região do atual Afeganistão, tendo sido levadas para outras partes do mundo por viajantes ou invasores. Com base em relatos escritos, pode-se dizer que as cenouras devem ter sido levadas à Europa no século XII e, às Américas, no início do século XVII.\nEm escritos anteriores ao século XVI, há referência apenas a cenouras de cor roxa, amarela ou vermelha. É possível que as cenouras de cor laranja sejam originárias dos Países Baixos, e que tenham sido desenvolvidas, inicialmente, à época do Príncipe de Orange (1533-1584).\nNo Brasil, são comuns apenas as cenouras laranja, cuja cor se deve à presença do pigmento betacaroteno, representado a seguir.\nCom base no descrito acima, e considerando corretas as hipóteses ali aventadas, é possível afirmar que as cenouras de coloração laranja",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 5: Fórmula estrutural do betacaroteno."
+      ],
+      "alternativas": {
+        "a": "podem ter sido levadas à Europa pela Companhia das Índias Ocidentais e contêm um pigmento que é um polifenol insaturado.",
+        "b": "podem ter sido levadas à Europa por rotas comerciais norte-africanas e contêm um pigmento cuja molécula possui apenas duplas ligações cis.",
+        "c": "podem ter sido levadas à Europa pelos chineses e contêm um pigmento natural que é um poliéster saturado.",
+        "d": "podem ter sido trazidas ao Brasil pelos primeiros degredados e contêm um pigmento que é um polímero natural cujo monômero é o etileno.",
+        "e": "podem ter sido trazidas a Pernambuco durante a invasão holandesa e contêm um pigmento natural que é um hidrocarboneto insaturado."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Principais funções orgânicas: hidrocarbonetos, álcoois, fenóis, éteres, ésteres, aldeídos, cetonas, ácidos carboxílicos, aminas e amidas",
+            "Características do carbono, cadeias carbônicas, ligações e hibridização"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 12,
+      "tipo": "objetiva",
+      "enunciado": "Louis Pasteur realizou experimentos pioneiros em Microbiologia. Para tornar estéril um meio de cultura, o qual poderia estar contaminado com agentes causadores de doenças, Pasteur mergulhava o recipiente que o continha em um banho de água aquecida à ebulição e à qual adicionava cloreto de sódio.\nCom a adição de cloreto de sódio, a temperatura de ebulição da água do banho, com relação à da água pura, era ______. O aquecimento do meio de cultura provocava ______.\nAs lacunas podem ser corretamente preenchidas, respectivamente, por:",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "maior; desnaturação das proteínas das bactérias presentes.",
+        "b": "menor; rompimento da membrana celular das bactérias presentes.",
+        "c": "a mesma; desnaturação das proteínas das bactérias.",
+        "d": "maior; rompimento da membrana celular dos vírus.",
+        "e": "menor; alterações no DNA dos vírus e das bactérias."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Água e soluções aquosas: solubilidade, tipos de concentração (g/L, mol/L, ppm) e diluição"
+          ]
+        },
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Componentes químicos celulares: água, sais minerais, carboidratos, lipídios, proteínas e vitaminas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 13,
+      "tipo": "objetiva",
+      "enunciado": "Em um recipiente termicamente isolado e mantido a pressão constante, são colocados 138 g de etanol líquido. A seguir, o etanol é aquecido e sua temperatura T é medida como função da quantidade de calor Q a ele transferida. A partir do gráfico de T x Q, apresentado na figura abaixo, pode-se determinar o calor específico molar para o estado líquido e o calor latente molar de vaporização do etanol como sendo, respectivamente, próximos de",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 5: Gráfico de temperatura T (°C) em função da quantidade de calor Q (kJ) para o etanol."
+      ],
+      "alternativas": {
+        "a": "0,12 kJ/(mol·°C) e 36 kJ/mol.",
+        "b": "0,12 kJ/(mol·°C) e 48 kJ/mol.",
+        "c": "0,21 kJ/(mol·°C) e 36 kJ/mol.",
+        "d": "0,21 kJ/(mol·°C) e 48 kJ/mol.",
+        "e": "0,35 kJ/(mol·°C) e 110 kJ/mol."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Calorimetria: calor sensível, capacidade térmica, calor latente e trocas de calor"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 14,
+      "tipo": "objetiva",
+      "enunciado": "Compare as colisões de uma bola de vôlei e de uma bola de golfe com o tórax de uma pessoa, parada e em pé. A bola de vôlei, com massa de 270 g, tem velocidade de 30 m/s quando atinge a pessoa, e a de golfe, com 45 g, tem velocidade de 60 m/s ao atingir a mesma pessoa, nas mesmas condições. Considere ambas as colisões totalmente inelásticas. É correto apenas o que se afirma em:",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "Antes das colisões, a quantidade de movimento da bola de golfe é maior que a da bola de vôlei.",
+        "b": "Antes das colisões, a energia cinética da bola de golfe é maior que a da bola de vôlei.",
+        "c": "Após as colisões, a velocidade da bola de golfe é maior que a da bola de vôlei.",
+        "d": "Durante as colisões, a força média exercida pela bola de golfe sobre o tórax da pessoa é maior que a exercida pela bola de vôlei.",
+        "e": "Durante as colisões, a pressão média exercida pela bola de golfe sobre o tórax da pessoa é maior que a exercida pela bola de vôlei."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Impulso, quantidade de movimento e conservação da quantidade de movimento (colisões)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 15,
+      "tipo": "objetiva",
+      "enunciado": "No experimento descrito a seguir, dois corpos, feitos de um mesmo material, de densidade uniforme, um cilíndrico e o outro com forma de paralelepípedo, são colocados dentro de uma caixa, como ilustra a figura ao lado (vista de cima). Um feixe fino de raios X, com intensidade constante, produzido pelo gerador G, atravessa a caixa e atinge o detector D, colocado do outro lado. Gerador e detector estão acoplados e podem mover-se sobre um trilho. O conjunto Gerador-Detector é então lentamente deslocado ao longo da direção x, registrando-se a intensidade da radiação no detector, em função de x. A seguir, o conjunto Gerador-Detector é reposicionado, e as medidas são repetidas ao longo da direção y. As intensidades I detectadas ao longo das direções x e y são mais bem representadas por",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 6: Esquema do experimento com a caixa contendo os dois corpos (cilíndrico e paralelepípedo) vista de cima.",
+        "Página 6: Gráficos alternativos de intensidade versus x e y."
+      ],
+      "alternativas": {
+        "a": "Gráficos de intensidade para x e y com múltiplos vales.",
+        "b": "Gráficos alternativos de intensidade.",
+        "c": "Gráficos alternativos de intensidade.",
+        "d": "Gráficos alternativos de intensidade.",
+        "e": "Gráficos alternativos de intensidade."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Interpretação de gráficos físicos (área sob a curva e inclinação da reta)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 16,
+      "tipo": "objetiva",
+      "enunciado": "No circuito da figura ao lado, a diferença de potencial, em módulo, entre os pontos A e B é de",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 6: Circuito elétrico com resistores e gerador de 5V."
+      ],
+      "alternativas": {
+        "a": "5 V.",
+        "b": "4 V.",
+        "c": "3 V.",
+        "d": "1 V.",
+        "e": "0 V."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Associação de resistores, geradores, receptores e circuitos elétricos (Leis de Kirchhoff)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 17,
+      "tipo": "objetiva",
+      "enunciado": "Um raio proveniente de uma nuvem transportou para o solo uma carga de 10 C sob uma diferença de potencial de 100 milhões de volts. A energia liberada por esse raio é",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "30 MWh.",
+        "b": "3 MWh.",
+        "c": "300 kWh.",
+        "d": "30 kWh.",
+        "e": "3 kWh."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Eletrodinâmica: corrente elétrica, ddp, Leis de Ohm, resistividade e potência elétrica (kWh)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 18,
+      "tipo": "objetiva",
+      "enunciado": "A extremidade de uma fibra ótica adquire o formato arredondado de uma microlente ao ser aquecida por um laser, acima da temperatura de fusão. A figura abaixo ilustra o formato da microlente para tempos de aquecimento crescentes (t₁ < t₂ < t₃).\nConsidere as afirmações:\nI. O raio de curvatura da microlente aumenta com tempos crescentes de aquecimento.\nII. A distância focal da microlente diminui com tempos crescentes de aquecimento.\nIII. Para os tempos de aquecimento apresentados na figura, a microlente é convergente.\nEstá correto apenas o que se afirma em",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 6: Ilustração da extremidade da fibra ótica formando a microlente."
+      ],
+      "alternativas": {
+        "a": "I.",
+        "b": "II.",
+        "c": "III.",
+        "d": "I e III.",
+        "e": "II e III."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Lentes esféricas delgadas: vergência e equações dos pontos conjugados"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 19,
+      "tipo": "objetiva",
+      "enunciado": "A energia potencial elétrica U de duas partículas em função da distância r que as separa está representada no gráfico da figura abaixo.\nUma das partículas está fixa em uma posição, enquanto a outra se move apenas devido à força elétrica de interação entre elas. Quando a distância entre as partículas varia de rᵢ = 3 x 10⁻¹⁰ m a rᶠ = 9 x 10⁻¹⁰ m, a energia cinética da partícula em movimento",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 7: Gráfico de energia potencial elétrica U em função da distância r."
+      ],
+      "alternativas": {
+        "a": "diminui 1 x 10⁻¹⁸ J.",
+        "b": "aumenta 1 x 10⁻¹⁸ J.",
+        "c": "diminui 2 x 10⁻¹⁸ J.",
+        "d": "aumenta 2 x 10⁻¹⁸ J.",
+        "e": "não se altera."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Energia cinética, energia potencial (gravitacional e elástica) e conservação da energia mecânica"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 20,
+      "tipo": "objetiva",
+      "enunciado": "Uma flauta andina, ou flauta de pã, é constituída por uma série de tubos de madeira, de comprimentos diferentes, atados uns aos outros por fios vegetais. As extremidades inferiores dos tubos são fechadas. A frequência fundamental de ressonância em tubos desse tipo corresponde ao comprimento de onda igual a 4 vezes o comprimento do tubo. Em uma dessas flautas, os comprimentos dos tubos correspondentes, respectivamente, às notas Mi (660 Hz) e Lá (220 Hz) são, aproximadamente,",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "6,6 cm e 2,2 cm.",
+        "b": "22 cm e 5,4 cm.",
+        "c": "12 cm e 37 cm.",
+        "d": "50 cm e 1,5 m.",
+        "e": "50 cm e 16 cm."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Ondulatória: características das ondas e Equação Fundamental da Ondulatória (v = λ * f)",
+            "Acústica: velocidade do som, qualidades fisiológicas (altura, timbre, intensidade), tubos sonoros e Efeito Doppler"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 21,
+      "tipo": "objetiva",
+      "enunciado": "O pêndulo de um relógio é constituído por uma haste rígida com um disco de metal preso em uma de suas extremidades. O disco oscila entre as posições A e C, enquanto a outra extremidade da haste permanece imóvel no ponto P. A figura ao lado ilustra o sistema. A força resultante que atua no disco quando ele passa por B, com a haste na direção vertical, é",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 7: Desenho esquemático de um pêndulo oscilando entre A, B e C."
+      ],
+      "alternativas": {
+        "a": "nula.",
+        "b": "vertical, com sentido para cima.",
+        "c": "vertical, com sentido para baixo.",
+        "d": "horizontal, com sentido para a direita.",
+        "e": "horizontal, com sentido para a esquerda."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Movimento Circular Uniforme (MCU): velocidade angular, aceleração centrípeta e acoplamento de engrenagens",
+            "As 3 Leis de Newton e conceito de força resultante"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 22,
+      "tipo": "objetiva",
+      "enunciado": "Um fóton, com quantidade de movimento na direção e sentido do eixo x, colide com um elétron em repouso. Depois da colisão, o elétron passa a se mover com quantidade de movimento pₑ, no plano xy, como ilustra a figura ao lado. Dos vetores pᶠ abaixo, o único que poderia representar a direção e sentido da quantidade de movimento do fóton, após a colisão, é",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 7: Desenho vetorial da colisão entre fóton e elétron no plano xy.",
+        "Página 7: Opções de vetores pᶠ (a, b, c, d, e)."
+      ],
+      "alternativas": {
+        "a": "Vetor pᶠ apontando para o segundo quadrante (acima do eixo x).",
+        "b": "Vetor pᶠ apontando para o terceiro quadrante.",
+        "c": "Vetor pᶠ apontando para baixo e para a esquerda.",
+        "d": "Vetor pᶠ apontando para o primeiro quadrante.",
+        "e": "Vetor pᶠ horizontal para a esquerda."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Física Moderna: fótons, modelo de Bohr, efeito fotoelétrico, dualidade onda-partícula e noções de relatividade",
+            "Grandezas escalares e vetoriais (operações com vetores e decomposição)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 23,
+      "tipo": "objetiva",
+      "enunciado": "Uma das primeiras estimativas do raio da Terra é atribuída a Eratóstenes, estudioso grego que viveu, aproximadamente, entre 275 a.C. e 195 a.C. Sabendo que em Assuã, cidade localizada no sul do Egito, ao meio dia do solstício de verão, um bastão vertical não apresentava sombra, Eratóstenes decidiu investigar o que ocorreria, nas mesmas condições, em Alexandria, cidade no norte do Egito. O estudioso observou que, em Alexandria, ao meio dia do solstício de verão, um bastão vertical apresentava sombra e determinou o ângulo θ entre as direções do bastão e de incidência dos raios de sol. O valor do raio da Terra, obtido a partir de θ e da distância entre Alexandria e Assuã foi de, aproximadamente, 7500 km.\nO mês em que foram realizadas as observações e o valor aproximado de θ são",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 7: Esquema geométrico da medição de Eratóstenes com a Terra, Assuã e Alexandria."
+      ],
+      "alternativas": {
+        "a": "junho; 7º.",
+        "b": "dezembro; 7º.",
+        "c": "junho; 23º.",
+        "d": "dezembro; 23º.",
+        "e": "junho; 0,3º."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Coordenadas geográficas, localização, fusos horários e projeções cartográficas"
+          ]
+        },
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Arcos e ângulos: medidas (graus e radianos) e relações entre arcos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 24,
+      "tipo": "objetiva",
+      "enunciado": "Vinte times de futebol disputam a Série A do Campeonato Brasileiro, sendo seis deles paulistas. Cada time joga duas vezes contra cada um dos seus adversários. A porcentagem de jogos nos quais os dois oponentes são paulistas é",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "menor que 7%.",
+        "b": "maior que 7%, mas menor que 10%.",
+        "c": "maior que 10%, mas menor que 13%.",
+        "d": "maior que 13%, mas menor que 16%.",
+        "e": "maior que 16%."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Matemática Financeira: porcentagem, juros simples, juros compostos, taxas e índices",
+            "Princípios multiplicativo e aditivo da contagem"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 25,
+      "tipo": "objetiva",
+      "enunciado": "São dados, no plano cartesiano, o ponto P de coordenadas (3, 6) e a circunferência C de equação (x - 1)² + (y - 2)² = 1. Uma reta t passa por P e é tangente a C em um ponto Q. Então a distância de P a Q é",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "√15",
+        "b": "√17",
+        "c": "√18",
+        "d": "√19",
+        "e": "√20"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Geometria Analítica Básica: coordenadas, plano cartesiano, distância e ponto médio"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 26,
+      "tipo": "objetiva",
+      "enunciado": "Os vértices de um tetraedro regular são também vértices de um cubo de aresta 2. A área de uma face desse tetraedro é",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "2√3",
+        "b": "4",
+        "c": "3√2",
+        "d": "3√3",
+        "e": "6"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Geometria Espacial: vistas ortogonais e planificação",
+            "Poliedros, corpos redondos, prismas, pirâmides e troncos (área e volume)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 27,
+      "tipo": "objetiva",
+      "enunciado": "As propriedades aritméticas e as relativas à noção de ordem desempenham um importante papel no estudo dos números reais. Nesse contexto, qual das afirmações abaixo é correta?",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "Quaisquer que sejam os números reais positivos a e b, é verdadeiro que √a+b = √a + √b.",
+        "b": "Quaisquer que sejam os números reais a e b tais que a² - b² = 0, é verdadeiro que a = b.",
+        "c": "Qualquer que seja o número real a, é verdadeiro que √a² = a.",
+        "d": "Quaisquer que sejam os números reais a e b não nulos tais que a < b, é verdadeiro que 1/b < 1/a.",
+        "e": "Qualquer que seja o número real a, com 0 < a < 1, é verdadeiro que a² < √a."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Conjuntos numéricos (Naturais, Inteiros, Racionais e Reais)",
+            "Ordem na reta numérica e resolução de problemas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 28,
+      "tipo": "objetiva",
+      "enunciado": "Sejam α e β números reais com -π/2 < α < π/2 e 0 < β < π. Se o sistema de equações, dado em notação matricial,\n[3 6; 6 8] [tg α; cos β] = [0; -2√3],\nfor satisfeito, então α + β é igual a",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "-π/3",
+        "b": "-π/6",
+        "c": "0",
+        "d": "π/6",
+        "e": "π/3"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Sistemas lineares: métodos de resolução algébrica",
+            "Círculo trigonométrico e funções periódicas (seno e cosseno)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 29,
+      "tipo": "objetiva",
+      "enunciado": "Quando se divide o Produto Interno Bruto (PIB) de um país pela sua população, obtém-se a renda per capita desse país. Suponha que a população de um país cresça à taxa constante de 2% ao ano. Para que sua renda per capita dobre em 20 anos, o PIB deve crescer anualmente à taxa constante de, aproximadamente,",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "4,2%",
+        "b": "5,6%",
+        "c": "6,4%",
+        "d": "7,5%",
+        "e": "8,9%"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Matemática Financeira: porcentagem, juros simples, juros compostos, taxas e índices",
+            "Função exponencial e propriedades"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 30,
+      "tipo": "objetiva",
+      "enunciado": "O mapa de uma região utiliza a escala de 1: 200 000. A porção desse mapa, contendo uma Área de Preservação Permanente (APP), está representada na figura, na qual AF e DF são segmentos de reta, o ponto G está no segmento AF, o ponto E está no segmento DF, GEBA é um retângulo e EDCB é um trapézio. Se AF = 15, GA = 12, BA = 6, DC = 3 e DF = 5√5 indicam valores em centímetros no mapa real, então a área da APP é",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 8: Figura geométrica representando o mapa da APP com os pontos A, B, C, D, E, F, G."
+      ],
+      "alternativas": {
+        "a": "100 km²",
+        "b": "108 km²",
+        "c": "210 km²",
+        "d": "240 km²",
+        "e": "444 km²"
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Cálculo de áreas (polígonos, círculos, coroas e setores circulares)",
+            "Escala cartográfica numérica e gráfica (cálculo de distâncias)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 31,
+      "tipo": "objetiva",
+      "enunciado": "Seja f uma função a valores reais, com domínio D ⊂ ℝ, tal que f(x) = log₁₀(log₁/₃ (x² - x + 1)), para todo x ∈ D.\nO conjunto que pode ser o domínio D é",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 9: Dois pequenos gráficos ilustrativos de funções logarítmicas de base a (>1 e entre 0 e 1)."
+      ],
+      "alternativas": {
+        "a": "{x ∈ ℝ; 0 < x < 1}",
+        "b": "{x ∈ ℝ; x ≤ 0 ou x ≥ 1}",
+        "c": "{x ∈ ℝ; 1/10 < x < 3}",
+        "d": "{x ∈ ℝ; x ≤ 1/3 ou x ≥ 10}",
+        "e": "{x ∈ ℝ; 1/10 < x < 3/9}"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Teoria dos logaritmos, propriedades e função logarítmica",
+            "Equações e inequações lineares, quadráticas, exponenciais, logarítmicas e modulares"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 32,
+      "tipo": "objetiva",
+      "enunciado": "O imposto de renda devido por uma pessoa física à Receita Federal é função da chamada base de cálculo, que se calcula subtraindo o valor das deduções do valor dos rendimentos tributáveis. O gráfico dessa função, representado na figura, é a união dos segmentos de reta OA, AB, BC, CD e da semirreta DE. João preparou sua declaração tendo apurado como base de cálculo o valor de R$ 43.800,00. Poco antes de enviar a declaração, ele encontrou um documento esquecido numa gaveta que comprovava uma renda tributável adicional de R$ 1.000,00. Ao corrigir a declaração, informando essa renda adicional, o valor do imposto devido será acrescido de",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 9: Gráfico da função do imposto de renda em função da base de cálculo."
+      ],
+      "alternativas": {
+        "a": "R$ 100,00",
+        "b": "R$ 200,00",
+        "c": "R$ 225,00",
+        "d": "R$ 450,00",
+        "e": "R$ 600,00"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Função polinomial do 1º grau e função constante",
+            "Equação da reta: forma reduzida, coeficientes angular/linear e intersecção"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 33,
+      "tipo": "objetiva",
+      "enunciado": "Um caminhão sobe uma ladeira com inclinação de 15º. A diferença entre a altura final e a altura inicial de um ponto determinado do caminhão, depois de percorridos 100 m da ladeira, será de, aproximadamente,",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "7 m",
+        "b": "26 m",
+        "c": "40 m",
+        "d": "52 m",
+        "e": "67 m"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Trigonometria no triângulo retângulo (seno, cosseno e tangente)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 34,
+      "tipo": "objetiva",
+      "enunciado": "A tabela informa a extensão territorial e a população de cada uma das regiões do Brasil, segundo o IBGE.\nSabendo que a extensão territorial do Brasil é de, aproximadamente, 8,5 milhões de km², é correto afirmar que a",
+      "textos_de_apoio": [
+        "Tabela com Extensão territorial (km²) e População (habitantes) para as regiões Centro-Oeste, Nordeste, Norte, Sudeste e Sul."
+      ],
+      "midia": [
+        "Página 9: Tabela demográfica do IBGE."
+      ],
+      "alternativas": {
+        "a": "densidade demográfica da região sudeste é de, aproximadamente, 87 habitantes por km².",
+        "b": "região norte corresponde a cerca de 30% do território nacional.",
+        "c": "região sul é a que tem a maior densidade demográfica.",
+        "d": "região centro-oeste corresponde a cerca de 40% do território nacional.",
+        "e": "densidade demográfica da região nordeste é de, aproximadamente, 20 habitantes por km²."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Demografia: conceitos populacionais, transição demográfica, pirâmides etárias e fluxos migratórios"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 35,
+      "tipo": "objetiva",
+      "enunciado": "A figura abaixo representa uma célula de uma planta jovem.\nConsidere duas situações:\n1) a célula mergulhada numa solução hipertônica;\n2) a célula mergulhada numa solução hipotônica.\nDentre as figuras numeradas de I a III, quais representam o aspecto da célula, respectivamente, nas situações 1 e 2?",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 10: Ilustração de uma célula vegetal jovem e três variações estruturais (I, II, III)."
+      ],
+      "alternativas": {
+        "a": "I e II.",
+        "b": "I e III.",
+        "c": "II e I.",
+        "d": "III e I.",
+        "e": "III e II."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Membrana plasmática e mecanismos de transporte (passivo, ativo, endocitose)",
+            "Organização celular: diferenças entre procariontes e eucariontes (animal e vegetal)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 36,
+      "tipo": "objetiva",
+      "enunciado": "Na figura abaixo, está representado o ciclo celular. Na fase S, ocorre síntese de DNA; na fase M, ocorre a mitose e, dela, resultam novas células, indicadas no esquema pelas letras C.\nConsiderando que, em G₁, existe um par de alelos Bb, quantos representantes de cada alelo existirão ao final de S e de G₂ e em cada C?",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 10: Esquema circular do ciclo celular (G₁, S, G₂, M e células C)."
+      ],
+      "alternativas": {
+        "a": "4, 4 e 4.",
+        "b": "4, 4 e 2.",
+        "c": "4, 2 e 1.",
+        "d": "2, 2 e 2.",
+        "e": "2, 2 e 1."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Núcleo celular, ciclo celular e divisões celulares (Mitose e Meiose)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 37,
+      "tipo": "objetiva",
+      "enunciado": "A forma do lobo da orelha, solto ou preso, é determinada geneticamente por um par de alelos.\nO heredograma mostra que a característica lobo da orelha solto NÃO pode ter herança",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 10: Heredograma de três gerações com indicação de fenótipos de lobo da orelha solto e preso."
+      ],
+      "alternativas": {
+        "a": "autossômica recessiva, porque o casal I-1 e I-2 tem um filho e uma filha com lobos das orelhas soltos.",
+        "b": "autossômica recessiva, porque o casal II-4 e II-5 tem uma filha e dois filhos com lobos das orelhas presos.",
+        "c": "autossômica dominante, porque o casal II-4 e II-5 tem uma filha e dois filhos com lobos das orelhas presos.",
+        "d": "ligada ao X recessiva, porque o casal II-1 e II-2 tem uma filha com lobo da orelha preso.",
+        "e": "ligada ao X dominante, porque o casal II-4 e II-5 tem dois filhos homens com lobos das orelhas presos."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Heredogramas e probabilidades genéticas",
+            "1ª e 2ª Leis de Mendel e correlação com a meiose"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 38,
+      "tipo": "objetiva",
+      "enunciado": "A lei 7678 de 1988 define que “vinho é a bebida obtida pela fermentação alcoólica do mosto simples de uva sã, fresca e madura”. Na produção de vinho, são utilizadas leveduras anaeróbicas facultativas. Os pequenos produtores adicionam essas leveduras ao mosto (uvas esmagadas, suco e cascas) com os tanques abertos, para que elas se reproduzam mais rapidamente. Posteriormente, os tanques são hermeticamente fechados. Nessas condições, pode-se afirmar, corretamente, que",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "o vinho se forma somente após o fechamento dos tanques, pois, na fase anterior, os produtos da ação das leveduras são a água e o gás carbônico.",
+        "b": "o vinho começa a ser formado já com os tanques abertos, pois o produto da ação das leveduras, nessa fase, é utilizado depois como substrato para a fermentação.",
+        "c": "a fermentação ocorre principalmente durante a reprodução das leveduras, pois esses organismos necessitam de grande aporte de energia para sua multiplicação.",
+        "d": "a fermentação só é possível se, antes, houver um processo de respiração aeróbica que forneça energia para as etapas posteriores, que são anaeróbicas.",
+        "e": "o vinho se forma somente quando os tanques voltam a ser abertos, após a fermentação se completar, para que as leveduras realizem respiração aeróbica."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Metabolismo energético: fotossíntese, quimiossíntese, respiração aeróbia e fermentação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 39,
+      "tipo": "objetiva",
+      "enunciado": "Nos mamíferos, o tamanho do coração é proporcional ao tamanho do corpo e corresponde a aproximadamente 0,6% da massa corporal.\nO gráfico abaixo mostra a relação entre a frequência cardíaca e a massa corporal de vários mamíferos.\nO quadro abaixo traz uma relação de mamíferos e o resultado da pesagem de indivíduos adultos.\nConsiderando esse conjunto de informações, analise as afirmações seguintes:\nI. No intervalo de um minuto, a cuíca tem mais batimentos cardíacos do que a capivara.\nII. A frequência cardíaca do gambá é maior do que a do bugio e menor do que a do sagui.\nIII. Animais com coração maior têm frequência cardíaca maior.\nEstá correto apenas o que se afirma em",
+      "textos_de_apoio": [
+        "Gráfico de batimentos cardíacos/min versus massa corporal (g).",
+        "Tabela com massas corporais de Cuíca, Sagui, Gambá, Bugio e Capivara."
+      ],
+      "midia": [
+        "Página 11: Gráfico log-log de frequência cardíaca vs. massa corporal.",
+        "Página 11: Tabela de dados de massa corporal de mamíferos."
+      ],
+      "alternativas": {
+        "a": "I.",
+        "b": "II.",
+        "c": "III.",
+        "d": "I e II.",
+        "e": "II e III."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Fisiologia dos sistemas humanos: digestório, cardiovascular, respiratório, excretor, nervoso, endócrino, locomotor e reprodutor"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 40,
+      "tipo": "objetiva",
+      "enunciado": "Frequentemente, os fungos são estudados juntamente com as plantas, na área da Botânica. Em termos biológicos, é correto afirmar que essa aproximação",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "não se justifica, pois a organização dos tecidos nos fungos assemelha-se muito mais à dos animais que à das plantas.",
+        "b": "se justifica, pois as células dos fungos têm o mesmo tipo de revestimento que as células vegetais.",
+        "c": "não se justifica, pois a forma de obtenção e armazenamento de energia nos fungos é diferente da encontrada nas plantas.",
+        "d": "se justifica, pois os fungos possuem as mesmas organelas celulares que as plantas.",
+        "e": "se justifica, pois os fungos e as algas verdes têm o mesmo mecanismo de reprodução."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Reinos Monera, Protista e Fungi: características e importância ecológica/econômica"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 41,
+      "tipo": "objetiva",
+      "enunciado": "A figura representa uma hipótese das relações evolutivas entre alguns grupos animais.\nDe acordo com essa hipótese, a classificação dos animais em Vertebrados e Invertebrados",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 11: Cladograma mostrando relações evolutivas entre Poríferos, Cnidários, Moluscos, Anelídeos, Nematódeos, Artrópodes, Equinodermes e Cordados."
+      ],
+      "alternativas": {
+        "a": "está justificada, pois há um ancestral comum para todos os vertebrados e outro diferente para todos os invertebrados.",
+        "b": "não está justificada, pois separa um grupo que reúne vários filos de outro que é apenas parte de um filo.",
+        "c": "está justificada, pois a denominação de Vertebrado pode ser considerada como sinônima de Cordado.",
+        "d": "não está justificada, pois, evolutivamente, os vertebrados estão igualmente distantes de todos os invertebrados.",
+        "e": "está justificada, pois separa um grupo que possui muitos filos com poucos representantes de outro com poucos filos e muitos representantes."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Níveis de organização da vida, taxonomia de Lineu e cladogramas modernos",
+            "Reino Animalia: características evolutivas dos principais filos (simetria, folhetos embrionários, celoma)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 42,
+      "tipo": "objetiva",
+      "enunciado": "A prática conhecida como Anel de Malpighi consiste na retirada de um anel contendo alguns tecidos do caule ou dos ramos de uma angiosperma. Essa prática leva à morte da planta nas seguintes condições:",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 11: Tabela com tipos de plantas, partes retiradas no anel e órgão de remoção."
+      ],
+      "alternativas": {
+        "a": "Eudicotiledônea | Periderme, parênquima e floema | Caule",
+        "b": "Eudicotiledônea | Epiderme, parênquima e xilema | Ramo",
+        "c": "Monocotiledônea | Epiderme e parênquima | Caule ou ramo",
+        "d": "Eudicotiledônea / Monocotiledônea | Periderme, parênquima e floema | Caule ou ramo",
+        "e": "Eudicotiledônea / Monocotiledônea | Periderme, parênquima e xilema | Caule"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Anatomia e fisiologia vegetal: tecidos, condução de seivas, transpiração e fitormônios/tropismos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 43,
+      "tipo": "objetiva",
+      "enunciado": "No morango, os frutos verdadeiros são as estruturas escuras e rígidas que se encontram sobre a parte vermelha e suculenta. Cada uma dessas estruturas resulta, diretamente,",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "da fecundação do óvulo pelo núcleo espermático do grão de pólen.",
+        "b": "do desenvolvimento do ovário, que contém a semente com o embrião.",
+        "c": "da fecundação de várias flores de uma mesma inflorescência.",
+        "d": "da dupla fecundação, que é exclusiva das angiospermas.",
+        "e": "do desenvolvimento do endosperma que nutrirá o embrião."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Reino Plantae: características e ciclos de vida de briófitas, pteridófitas, gimnospermas e angiospermas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 44,
+      "tipo": "objetiva",
+      "enunciado": "O gráfico mostra uma estimativa do número de espécies marinhas e dos níveis de oxigênio atmosférico, desde 550 milhões de anos atrás até os dias de hoje.\nAnalise as seguintes afirmativas:\nI. Houve eventos de extinção que reduziram em mais de 50% o número de espécies existentes.\nII. A diminuição na atividade fotossintética foi a causa das grandes extinções.\nIII. A extinção dos grandes répteis aquáticos no final do Cretáceo, há cerca de 65 milhões de anos, foi, percentualmente, o maior evento de extinção ocorrido.\nDe acordo com o gráfico, está correto apenas o que se afirma em",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 12: Gráfico temporal de O₂ atmosférico e número de espécies marinhas ao longo de 550 milhões de anos."
+      ],
+      "alternativas": {
+        "a": "I.",
+        "b": "II.",
+        "c": "III.",
+        "d": "I e II.",
+        "e": "II e III."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Evidências da evolução e especiação",
+            "Impactos antrópicos: poluição, bioacumulação trófica, espécies exóticas, pegada ecológica e unidades de conservação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 45,
+      "tipo": "objetiva",
+      "enunciado": "Nos versos da canção dos paulistas Tonico e Tinoco, o termo “sertão” deve ser compreendido como",
+      "textos_de_apoio": [
+        "São Paulo gigante, torrão adorado\nEstou abraçado com meu violão\nFeito de pinheiro da mata selvagem\nQue enfeita a paisagem lá do meu sertão\nTonico e Tinoco, São Paulo Gigante."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "descritivo da paisagem e da vegetação típicas do sertão existente na região Nordeste do país.",
+        "b": "contraposição ao litoral, na concepção dada pelos caiçaras, que identificam o sertão com a presença dos pinheiros.",
+        "c": "analogia à paisagem predominante no Centro-Oeste brasileiro, tal como foi encontrada pelos bandeirantes no século XVII.",
+        "d": "metáfora da cidade-metrópole, referindo-se à aridez do concreto e das construções.",
+        "e": "generalização do ambiente rural, independentemente das características de sua vegetação."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Domínios morfoclimáticos e biomas mundiais e brasileiros"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 46,
+      "tipo": "objetiva",
+      "enunciado": "A escravidão na Roma antiga",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "permaneceu praticamente inalterada ao longo dos séculos, mas foi abolida com a introdução do cristianismo.",
+        "b": "previa a possibilidade de alforria do escravo apenas no caso da morte de seu proprietário.",
+        "c": "era restrita ao meio rural e associada ao trabalho braçal, não ocorrendo em áreas urbanas, nem atingindo funções intelectuais ou administrativas.",
+        "d": "pressupunha que os escravos eram humanos e, por isso, era proibida toda forma de castigo físico.",
+        "e": "variou ao longo do tempo, mas era determinada por três critérios: nascimento, guerra e direito civil."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Antiguidade Clássica: democracia ateniense, República/Império Romano e escravismo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 47,
+      "tipo": "objetiva",
+      "enunciado": "O texto mostra um aspecto importante da conquista da América pelos espanhóis, a saber,",
+      "textos_de_apoio": [
+        "Quando Bernal Díaz avistou pela primeira vez a capital asteca, ficou sem palavras. Anos mais tarde, as palavras viriam: ele escreveu um alentado relato de suas experiências como membro da expedição espanhola liderada por Hernán Cortés rumo ao Império Asteca. Naquela tarde de novembro de 1519, porém, quando Díaz e seus companheiros de conquista emergiram do desfiladeiro e depararam-se pela primeira vez com o Vale do México lá embaixo, viram um cenário que, anos depois, assim descreveram: “vislumbramos tamanhas maravilhas que não sabíamos o que dizer, nem se o que se nos apresentava diante dos olhos era real”.\nMatthew Restall. Sete mitos da conquista espanhola. Rio de Janeiro: Civilização Brasileira, 2006, p. 15-16. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "a superioridade cultural dos nativos americanos em relação aos europeus.",
+        "b": "o caráter amistoso do primeiro encontro e da posterior convivência entre conquistadores e conquistados.",
+        "c": "a surpresa dos conquistadores diante de manifestações culturais dos nativos americanos.",
+        "d": "o reconhecimento, pelos nativos, da importância dos contatos culturais e comerciais com os europeus.",
+        "e": "a rápida desaparição das culturas nativas da América Espanhola."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Colonização espanhola, inglesa, francesa e holandesa na América",
+            "Povos pré-colombianos na América (Maias, Astecas e Incas)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 48,
+      "tipo": "objetiva",
+      "enunciado": "O texto apresenta o diálogo de um inquisidor com um homem (Menocchio) processado, em 1599, pelo Santo Ofício. A posição de Menocchio indica",
+      "textos_de_apoio": [
+        "“O senhor acredita, então”, insistiu o inquisidor, “que não se saiba qual a melhor lei?” Menocchio respondeu: “Senhor, eu penso que cada um acha que sua fé seja a melhor, mas não se sabe qual é a melhor; mas, porque meu avô, meu pai e os meus são cristãos, eu quero continuar cristão e acreditar que essa seja a melhor fé”.\nCarlo Ginzburg. O queijo e os vermes. São Paulo: Companhia das Letras, 1987, p. 113."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "uma percepção da variedade de crenças, passíveis de serem consideradas, pela Igreja Católica, como heréticas.",
+        "b": "uma crítica à incapacidade da Igreja Católica de combater e eliminar suas dissidências internas.",
+        "c": "um interesse de conhecer outras religiões e formas de culto, atitude estimulada, à época, pela Igreja Católica.",
+        "d": "um apoio às iniciativas reformistas dos protestantes, que defendiam a completa liberdade de opção religiosa.",
+        "e": "uma perspectiva ateísta, baseada na sua experiência familiar."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Renascimento Cultural, Reformas Religiosas e formação dos Estados Nacionais"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 49,
+      "tipo": "objetiva",
+      "enunciado": "A notícia acima apresenta",
+      "textos_de_apoio": [
+        "A população indígena brasileira aumentou 150% na década de 1990, passando de 294 mil pessoas para 734 mil, de acordo com uma pesquisa divulgada pelo Instituto Brasileiro de Geografia e Estatística (IBGE). O crescimento médio anual foi de 10,8%, quase seis vezes maior do que o da população brasileira em geral.\nhttp://webradiobrasilindigena.wordpress.com, 21/11/2007."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "dado pouco relevante, já que a maioria das populações indígenas do Brasil encontra-se em fase de extinção, não subsistindo, inclusive, mais nenhuma população originária dos tempos da colonização portuguesa da América.",
+        "b": "discrepância em relação a uma forte tendência histórica observada no Brasil, desde o século XVI, mas que não é uniforme e absoluta, já que nas últimas décadas não apenas tais populações indígenas têm crescido, mas também o próprio número de indivíduos que se autodenominam indígenas.",
+        "c": "um consenso em torno do reconhecimento da importância dos indígenas para o conjunto da população brasileira, que se revela na valorização histórica e cultural que tais elementos sempre mereceram das instituições nacionais.",
+        "d": "resultado de políticas públicas que provocaram o fim dos conflitos entre os habitantes de reservas indígenas e demais agentes sociais ao seu redor, como proprietários rurais e pequenos trabalhadores.",
+        "e": "natural continuidade da tendência observada desde a criação das primeiras políticas governamentais de proteção às populações indígenas, no começo do século XIX, que permitiram a reversão do anterior quadro de extermínio observado até aquele momento."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Brasil Colônia: primeiros habitantes indígenas, ocupação territorial, ciclos econômicos (açúcar e ouro) e escravidão",
+            "Redemocratização do Brasil, Constituição de 1988 e crises políticas recentes"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 50,
+      "tipo": "objetiva",
+      "enunciado": "O texto é parte de uma carta enviada por Graco Babeuf à sua mulher, no início da Revolução Francesa de 1789. O autor",
+      "textos_de_apoio": [
+        "Oh! Aquela alegria me deu náuseas. Sentia-me ao mesmo tempo satisfeito e descontente. E eu disse: tanto melhor e tanto pior. Eu entendia que o povo comum estava tomando a justiça em suas mãos. Aprovo essa justiça, mas poderia não ser cruel? Castigos de todos os tipos, arrastamentos e esquartejamentos, tortura, a roda, o cavalete, a fogueira, verdugos proliferando por toda parte trouxeram tanto prejuízo aos nossos costumes! Nossos senhores colherão o que semearam.\nGraco Babeuf, citado por R. Darnton. O beijo de Lamourette. Mídia, cultura e revolução. São Paulo: Companhia das Letras, 1990, p. 31. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "discorda dos propósitos revolucionários e defende a continuidade do Antigo Regime, seus métodos e costumes políticos.",
+        "b": "apoia incondicionalmente as ações dos revolucionários por acreditar que não havia outra maneira de transformar o país.",
+        "c": "defende a criação de um poder judiciário, que atue junto ao rei.",
+        "d": "caracteriza a violência revolucionária como uma reação aos castigos e à repressão antes existentes na França.",
+        "e": "aceita os meios de tortura empregados pelos revolucionários e os considera uma novidade na história francesa."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Revolução Francesa e a Era Napoleônica"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 51,
+      "tipo": "objetiva",
+      "enunciado": "A economia das possessões coloniais portuguesas na América foi marcada por mercadorias que, uma vez exportadas para outras regiões do mundo, podiam alcançar alto valor e garantir, aos envolvidos em seu comércio, grandes lucros. Além do açúcar, explorado desde meados do século XVI, e do ouro, extraído regularmente desde fins do XVII, merecem destaque, como elementos de exportação presentes nessa economia:",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "tabaco, algodão e derivados da pecuária.",
+        "b": "ferro, sal e tecidos.",
+        "c": "escravos indígenas, arroz e diamantes.",
+        "d": "animais exóticos, cacau e embarcações.",
+        "e": "drogas do sertão, frutos do mar e cordoaria."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Brasil Colônia: primeiros habitantes indígenas, ocupação territorial, ciclos econômicos (açúcar e ouro) e escravidão"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 52,
+      "tipo": "objetiva",
+      "enunciado": "O trecho acima, extraído de uma obra literária publicada pela primeira vez em 1818, pode ser lido corretamente como uma",
+      "textos_de_apoio": [
+        "Maldito, maldito criador! Por que eu vivo? Por que não extingui, naquele instante, a centelha de vida que você tão desumanamente me concedeu? Não sei! O desespero ainda não se apoderara de mim. Meus sentimentos eram de raiva e vingança. Quando a noite caiu, deixei meu abrigo e vagueei pelos bosques. (...) Oh! Que noite miserável passei eu! Sentia um inferno devorar-me, e desejava despedaçar as árvores, devastar e assolar tudo o que me cercava, para depois sentar-me e contemplar satisfeito a destruição. Declarei uma guerra sem quartel à espécie humana e, acima de tudo, contra aquele que me havia criado e me lançara a esta insuportável desgraça!\nMary Shelley. Frankenstein. 2ª ed. Porto Alegre: LPM, 1985."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "apologia à guerra imperialista, incorporando o desenvolvimento tecnológico do período.",
+        "b": "crítica à condição humana em uma sociedade industrializada e de grandes avanços científicos.",
+        "c": "defesa do clericalismo em meio à crescente laicização do mundo ocidental.",
+        "d": "recusa do evolucionismo, bastante em voga no período.",
+        "e": "adesão a ideias e formulações humanistas de igualdade social."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Iluminismo, Liberalismo e a 1ª Revolução Industrial"
+          ]
+        },
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Literatura Brasileira: Quinhentismo, Barroco (Gregório de Matos), Arcadismo, Romantismo, Realismo/Naturalismo (Machado de Assis), Parnasianismo e Simbolismo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 53,
+      "tipo": "objetiva",
+      "enunciado": "A partir do texto acima, pode-se afirmar corretamente que",
+      "textos_de_apoio": [
+        "Durante os primeiros tempos de sua existência, o PCB prosseguiu em seu processo de diferenciação ideológica com o anarquismo, de onde provinha parte significativa de sua liderança e de sua militância. Nesse curso, foi necessário, no que se refere à questão parlamentar, também proceder a uma homogeneização de sua própria militância. Houve algumas tentativas de participação em eleições e de formulação de propostas a serem apresentadas à sociedade que se revelaram infrutíferas por questões conjunturais. A primeira vez em que isso ocorreu foi, em 1925, no município portuário paulista de Santos, onde os comunistas locais, apresentando-se pela legenda da Coligação Operária, tiveram um resultado pífio. No entanto, como todos os atos pioneiros, essa participação deixou uma importante herança: a presença na cena política brasileira dos trabalhadores e suas reivindicações. Estas, em particular, expressavam um acúmulo de anos de lutas do movimento operário brasileiro.\nDainis Karepovs. A classe operária vai ao Parlamento. São Paulo: Alameda, 2006, p.169."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "as eleições de representantes parlamentares advindos de grupos comunistas e anarquistas foram frequentes, desde a Proclamação da República, e provocaram, inclusive, a chamada Revolução de 1930.",
+        "b": "comunistas, anarquistas e outros grupos de representantes de trabalhadores eram formalmente proibidos de participar de eleições no Brasil desde a proclamação da República, cenário que só se modificaria com a Constituição de 1988.",
+        "c": "as primeiras décadas do século XX representam um período de grande diversidade político-partidária no Brasil, o que favoreceu a emergência de variados grupos de esquerda, cuja excessiva divisão impediu-os de obter resultados eleitorais expressivos.",
+        "d": "as experiências parlamentares envolvendo operários e camponeses, no Brasil da década de 1920, resultaram em sua presença dominante no cenário político nacional, após o colapso do primeiro regime encabeçado por Getúlio Vargas.",
+        "e": "as primeiras participações eleitorais de candidatos trabalhadores ganharam importância histórica, uma vez que a política partidária brasileira da chamada Primeira República era dominada por grupos oriundos de grandes elites econômicas."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Brasil República: República Velha (oligarquias), Era Vargas (1930-1945), Período Democrático (1945-1964) e Ditadura Civil-Militar (1964-1985)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 54,
+      "tipo": "objetiva",
+      "enunciado": "Entre os exemplos do alongamento dos conflitos internos nos países africanos em função de “interesses extracontinentais”, a que se refere o texto, pode-se citar a participação",
+      "textos_de_apoio": [
+        "Fosse com militares ou civis, a África esteve por vários anos entregue a ditadores. Em alguns países, vigorava uma espécie de semidemocracia, com uma oposição consentida e controlada, um regime que era, em última análise, um governo autoritário. A única saída para os insatisfeitos e também para aqueles que tinham ambições de poder passou a ser a luta armada. Alguns países foram castigados por ferozes guerras civis, que, em certos casos, foram alongadas por interesses extracontinentais.\nAlberto da Costa e Silva. A África explicada aos meus filhos. Rio de Janeiro: Agir, 2008, p. 139."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "da Holanda e da Itália na guerra civil do Zaire, na década de 1960, motivada pelo controle sobre a mineração de cobre na região.",
+        "b": "dos Estados Unidos na implantação do apartheid na África do Sul, na década de 1970, devido às tensões decorrentes do movimento pelos direitos civis.",
+        "c": "da França no apoio à luta de independência na Argélia e no Marrocos, na década de 1950, motivada pelo interesse em controlar as reservas de gás natural desses países.",
+        "d": "da China na luta pela estabilização política no Sudão e na Etiópia, na década de 1960, motivada pelas necessidades do governo Mao Tse-Tung em obter fornecedores de petróleo.",
+        "e": "da União Soviética e Cuba nas guerras civis de Angola e Moçambique, na década de 1970, motivada pelas rivalidades e interesses geopolíticos característicos da Guerra Fria."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Guerra Fria, corrida armamentista e descolonização da África e Ásia"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 55,
+      "tipo": "objetiva",
+      "enunciado": "O trecho acima, extraído de uma obra literária, alude a um acontecimento diretamente relacionado",
+      "textos_de_apoio": [
+        "O que acontece quando a gente se vê duplicado na televisão? (...) Aprendemos não só durante os anos de formação mas também na prática a lidar com nós mesmos com esse “eu” duplo. E, mais tarde, (...) em 1974, ainda detido para averiguação na penitenciária de Colônia-Ossendorf, quando me foi atendida, sem problemas, a solicitação de um aparelho de televisão na cela, apenas durante o período da Copa do Mundo, os acontecimentos na tela me dividiram em vários sentidos. Não quando os poloneses jogaram uma partida fantástica sob uma chuva torrencial, não quando a partida contra a Austrália foi vitoriosa e houve um empate contra o Chile, aconteceu quando a Alemanha jogou contra a Alemanha. Torcer para quem? Eu ou eu torci para quem? Para que lado vibrar? Qual Alemanha venceu?\nGunter Grass. Meu século. Rio de Janeiro: Record, 2000, p. 237. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "à política nazista de fomento aos esportes considerados “arianos” na Alemanha.",
+        "b": "ao aumento da criminalidade na Alemanha, com o fim da Segunda Guerra Mundial.",
+        "c": "à Guerra Fria e à divisão política da Alemanha em duas partes, a “ocidental” e a “oriental”.",
+        "d": "ao recente aumento da população de imigrantes na Alemanha e reforço de sentimentos xenófobos.",
+        "e": "ao caráter despolitizado dos esportes em um contexto de capitalismo globalizado."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Guerra Fria, corrida armamentista e descolonização da África e Ásia"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 56,
+      "tipo": "objetiva",
+      "enunciado": "O correto entendimento do texto acima permite afirmar que",
+      "textos_de_apoio": [
+        "Quando a guerra mundial de 1914-1918 se iniciou, a ciência médica tinha feito progressos tão grandes que se esperava uma conflagração sem a interferência de grandes epidemias. Isso sucedeu na frente ocidental, mas à leste o tifo precisou de apenas três meses para aparecer e se estabelecer como o principal estrategista na região (...). No momento em que a Segunda Guerra Mundial está acontecendo, em territórios em que o tifo é endêmico, o espectro de uma grande epidemia constitui ameaça constante. Enquanto estas linhas estão sendo escritas (primavera de 1942) já foram recebidas notificações de surtos locais, e pequenos, mas a doença parece continuar sob controle e muito provavelmente permanecerá assim por algum tempo.\nHenry E. Sigerist, Civilização e doença. São Paulo: Hucitec, 2010, p. 130-132."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "o tifo, quando a humanidade enfrentou as duas grandes guerras mundiais do século XX, era uma ameaça porque ainda não tinha se desenvolvido a biologia microscópica, que anos depois permitiria identificar a existência da doença.",
+        "b": "parte significativa da pesquisa biológica foi abandonada em prol do atendimento de demandas militares advindas dessas duas guerras, o que causou um generalizado abandono dos recursos necessários ao controle de doenças como o tifo.",
+        "c": "as epidemias, nas duas guerras mundiais, não afetaram os combatentes dos países ricos, já que estes, ao contrário dos combatentes dos países pobres, encontravam-se imunizados contra doenças causadas por vírus.",
+        "d": "a ameaça constante de epidemia de tifo resultava da precariedade das condições de higiene e saneamento decorrentes do enfrentamento de populações humanas submetidas a uma escala de destruição incomum promovida pelas duas guerras mundiais.",
+        "e": "o tifo, principalmente na Primeira Guerra Mundial, foi utilizado como arma letal contra exércitos inimigos no leste europeu, que eram propositadamente contaminados com o vírus da doença."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Belle Époque e Primeira Guerra Mundial",
+            "Segunda Guerra Mundial e criação da Declaração Universal dos Direitos Humanos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 57,
+      "tipo": "objetiva",
+      "enunciado": "Com base nas charges e em seus conhecimentos, assinale a alternativa correta.",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 16: Duas charges políticas satirizando a crise econômica na Grécia e o Monte Olimpo."
+      ],
+      "alternativas": {
+        "a": "Apesar da grave crise econômica que atingiu alguns países da Zona do Euro, entre os quais a Grécia, outras nações ainda pleiteiam sua entrada nesse Bloco.",
+        "b": "A ajuda financeira dirigida aos países da Zona do Euro e, em especial à Grécia, visou evitar o espalhamento, pelo mundo, dos efeitos da bolha imobiliária grega.",
+        "c": "Por causa de exigências dos credores responsáveis pela ajuda financeira à Zona do Euro, a Grécia foi temporariamente suspensa desse Bloco.",
+        "d": "Com a crise econômica na Zona do Euro, houve uma sensível diminuição dos fluxos turísticos internacionais para a Europa, causando desemprego em massa, sobretudo na Grécia.",
+        "e": "Graças à rápida intervenção dos países membros, a grave crise econômica que atingiu a Zona do Euro restringiu-se à Grécia, França e Reino Unido."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Globalização, comércio internacional, blocos econômicos e a posição do Brasil no comércio global"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 58,
+      "tipo": "objetiva",
+      "enunciado": "Grandes lagos artificiais de barragens, como o Nasser, no Rio Nilo, o Three Gorges, na China, e o de Itaipu, no Brasil, resultantes do represamento de rios, estão entre as obras de engenharia espalhadas pelo mundo, com importantes efeitos socioambientais.\nAcerca dos efeitos socioambientais de grandes lagos de barragens, considere as afirmações abaixo:\nI. Enquanto no passado, grandes lagos de barragem restrinjam-se a áreas de planície, atualmente, graças a progressos tecnológicos, situam-se, invariavelmente, em regiões planálticas, com significativos desníveis topográficos.\nII. A abertura das comportas que represam as águas dos lagos de barragens impede a ocorrência de processos de sedimentação, assim como provoca grandes enchentes a montante.\nIII. Frequentes desalojamentos de pessoas para a implantação de lagos de barragens levaram ao surgimento, no Brasil, do Movimento dos Atingidos por Barragens – MAB.\nIV. Por se constituírem como extensos e, muitas vezes, profundos reservatórios de água, grandes lagos de barragens provocam alterações microclimáticas nas suas proximidades.\nEstá correto o que se afirma em",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "I e II, apenas.",
+        "b": "I, II e III, apenas.",
+        "c": "II, III e IV, apenas.",
+        "d": "III e IV, apenas.",
+        "e": "I, II, III e IV."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Hidrografia: bacias hidrográficas mundiais e brasileiras e geopolítica da água",
+            "Impactos ambientais: mudanças climáticas, efeito estufa, desmatamento, degradação de solos e conferências internacionais do clima"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 59,
+      "tipo": "objetiva",
+      "enunciado": "Observe a Carta Topográfica abaixo, que representa a área adquirida por um produtor rural.\nEm parte da área acima representada, onde predominam menores declividades, o produtor rural pretende desenvolver uma atividade agrícola mecanizada. Em outra parte, com maiores declividades, esse produtor deseja plantar eucalipto.\nConsiderando os objetivos desse produtor rural, as áreas que apresentam, respectivamente, características mais apropriadas a uma atividade mecanizada e ao plantio de eucaliptos estão nos quadrantes",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 16: Carta topográfica com curvas de nível e indicação de quadrantes."
+      ],
+      "alternativas": {
+        "a": "sudeste e nordeste.",
+        "b": "nordeste e noroeste.",
+        "c": "noroeste e sudeste.",
+        "d": "sudeste e sudoeste.",
+        "e": "sudoeste e noroeste."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Leitura e interpretação de mapas temáticos, cartas e anamorfoses",
+            "Espaço Rural: sistemas agrícolas, modernização do campo e estrutura agrária brasileira"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 60,
+      "tipo": "objetiva",
+      "enunciado": "Com base no mapa e nas informações acima, considere a seguinte situação: João, que vive na cidade de Pequim, China, recebe uma ligação telefônica, às 9h da manhã de uma segunda-feira, de Maria, que vive na cidade de Manaus, Brasil. A que horas e em que dia da semana Maria telefonou?",
+      "textos_de_apoio": [
+        "Em 1884, durante um congresso internacional, em Washington, EUA, estabeleceu-se um padrão mundial de tempo. A partir de então, ficou convencionado que o tempo padrão teórico, nos diversos países do mundo, seria definido por meridianos espaçados a cada 15º, tendo como origem o meridiano de Greenwich, Inglaterra (Reino Unido)."
+      ],
+      "midia": [
+        "Página 17: Mapa mundial de fusos horários."
+      ],
+      "alternativas": {
+        "a": "21h do domingo.",
+        "b": "17h do domingo.",
+        "c": "21h da segunda-feira.",
+        "d": "17h da terça-feira.",
+        "e": "21h da terça-feira."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Coordenadas geográficas, localização, fusos horários e projeções cartográficas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 61,
+      "tipo": "objetiva",
+      "enunciado": "Com respeito às áreas indicadas no mapa acima, assinale a alternativa que relaciona corretamente sistemas logísticos e produtos de exportação.",
+      "textos_de_apoio": [
+        "Observe o mapa da Malha Ferroviária do Brasil com três áreas destacadas (I, II, III)."
+      ],
+      "midia": [
+        "Página 17: Mapa da malha ferroviária do Brasil com as regiões I, II e III."
+      ],
+      "alternativas": {
+        "a": "I: Portos de Belém e de São Luís (minério de ferro, papel e celulose) | II: Portos do Rio de Janeiro e de Niterói (trigo e fertilizantes) | III: Portos de Paranaguá e de Itajaí (soja e carnes congeladas)",
+        "b": "I: Portos de São Luís e de Natal (pescados e carvão mineral) | II: Portos de Tubarão e de Vitória (minério de ferro, papel e celulose) | III: Portos de São Francisco do Sul e de Florianópolis (minério de ferro, papel e celulose)",
+        "c": "I: Portos de Itaqui e de Pecém (minério de ferro, manganês e frutas) | II: Portos de Tubarão e de Vitória (minério de ferro, papel e celulose) | III: Portos de Paranaguá e de Itajaí (soja e carnes congeladas)",
+        "d": "I: Portos de Belém e de São Luís (minério de ferro, papel e celulose) | II: Portos do Rio de Janeiro e de Niterói (pescados e carvão mineral) | III: Portos de São Francisco do Sul e de Florianópolis (minério de ferro, papel e celulose)",
+        "e": "I: Portos de Itaqui e de Pecém (minério de ferro, manganês e frutas) | II: Portos de Tubarão e do Rio de Janeiro (soja e carnes congeladas) | III: Portos de Paranaguá e de Itajaí (trigo e fertilizantes)"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Redes de transporte, comunicações e circulação espacial",
+            "Divisão regional do Brasil (IBGE e complexos geoeconômicos)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 62,
+      "tipo": "objetiva",
+      "enunciado": "Considere as afirmações sobre o Sistema Aquífero Guarani.\n\nI. Trata-se de um corpo hídrico subterrâneo e transfronteiriço que abrange parte da Argentina, do Brasil, do Paraguai e do Uruguai.\nII. Representa o mais importante aquífero da porção meridional do continente sul-americano e está associado às rochas cristalinas do Pré-Cambriano.\nIII. A grande incidência de poços que se observa na região A é explicada por sua menor profundidade e intensa atividade econômica nessa região.\nIV. A baixa incidência de poços na região indicada pela letra B deve-se à existência, aí, de uma área de cerrado com predomínio de planaltos.\n\nEstá correto o que se afirma em",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 17: Mapa do Sistema Aquífero Guarani indicando as regiões A e B."
+      ],
+      "alternativas": {
+        "a": "I, II e III, apenas.",
+        "b": "I e III, apenas.",
+        "c": "II, III e IV, apenas.",
+        "d": "II e IV, apenas.",
+        "e": "I, II, III e IV."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Hidrografia: bacias hidrográficas mundiais e brasileiras e geopolítica da água",
+            "Estrutura geológica da Terra, tectonismo, vulcanismo e eras geológicas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 63,
+      "tipo": "objetiva",
+      "enunciado": "Com base nos gráficos e em seus conhecimentos, assinale a alternativa correta.",
+      "textos_de_apoio": [
+        "Gráficos sobre a distribuição do investimento externo direto (IED) da China na África (2000-2009) por setores e comércio China-África em bilhões de US$."
+      ],
+      "midia": [
+        "Página 18: Gráfico de pizza de investimentos da China na África e gráfico de barras de comércio bilateral."
+      ],
+      "alternativas": {
+        "a": "O comércio bilateral entre China e África cresceu timidamente no período e envolveu, principalmente, bens de capital africanos e bens de consumo chineses.",
+        "b": "As exportações chinesas para a África restringem-se a bens de consumo e produtos primários destinados a atender ao pequeno e estagnado mercado consumidor africano.",
+        "c": "A implantação de grandes obras de engenharia, com destaque para rodovias transcontinentais, ferrovias e hidrovias, associa-se ao investimento chinês no setor da construção civil na África.",
+        "d": "O agronegócio foi o principal investimento da China na África em função do exponencial crescimento da população chinesa e de sua grande demanda por alimentos.",
+        "e": "O investimento chinês no setor minerador, na África, associa-se ao crescimento industrial da China e sua consequente demanda por petróleo e outros minérios."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Matrizes energéticas mundiais e do Brasil (fontes renováveis e não renováveis)",
+            "Globalização, comércio internacional, blocos econômicos e a posição do Brasil no comércio global"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 64,
+      "tipo": "objetiva",
+      "enunciado": "Considere a imagem e a citação do geógrafo Aziz Ab’Saber na análise das afirmações abaixo:\n\nI. O processo de verticalização e a impermeabilização dos solos nas proximidades das vias marginais ao rio Tietê aumentam a sua susceptibilidade a enchentes.\nII. A retificação de um trecho urbano do rio Tietê e a construção de marginais sobre a várzea do rio potencializaram o problema das enchentes na região.\nIII. A extinção da Mata Atlântica na região da nascente do rio Tietê, no passado, contribui, até hoje, para agravar o problema com enchentes nas vias marginais.\nIV. A várzea do rio Tietê é um ambiente susceptível à inundação, pois constitui espaço de ocupação natural do rio durante períodos de cheias.\n\nEstá correto o que se afirma em",
+      "textos_de_apoio": [
+        "Por muitos anos, as várzeas paulistanas foram uma espécie de quintal geral dos bairros encarapitados nas colinas. Serviram de pastos para os animais das antigas carroças que povoaram as ruas da cidade. Serviram de terreno baldio para o esporte dos humildes, tendo assistido a uma proliferação incrível de campos de futebol. Durante as cheias, tais campos improvisados ficam com o nível das águas até o meio das traves de gol.\n\nAziz Ab’Saber, 1956."
+      ],
+      "midia": [
+        "Página 18: Imagem de arquivo das margens do Rio Tietê."
+      ],
+      "alternativas": {
+        "a": "I, II e III, apenas.",
+        "b": "I, II e IV, apenas.",
+        "c": "I, III e IV, apenas.",
+        "d": "II, III e IV, apenas.",
+        "e": "I, II, III e IV."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Geografia Urbana: industrialização, urbanização, metropolização, conurbação, megalópoles e segregação socioespacial",
+            "Impactos ambientais: mudanças climáticas, efeito estufa, desmatamento, degradação de solos e conferências internacionais do clima"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 65,
+      "tipo": "objetiva",
+      "enunciado": "Com base nos gráficos e em seus conhecimentos, assinale a alternativa correta.",
+      "textos_de_apoio": [
+        "Gráficos de população urbana e rural do Brasil (em milhões de habitantes) divididos por regiões (Nordeste, Norte, Sudeste, Centro-Oeste, Sul) entre 1950 e 2010."
+      ],
+      "midia": [
+        "Página 18: Gráficos de população urbana e rural por regiões brasileiras."
+      ],
+      "alternativas": {
+        "a": "Em função de políticas de reforma agrária levadas a cabo no Norte do país, durante as últimas décadas, a população rural da região superou, timidamente, sua população urbana.",
+        "b": "O aumento significativo da população urbana do Sudeste, a partir da década de 1950, decorreu do desenvolvimento expressivo do setor de serviços em pequenas cidades da região.",
+        "c": "O avanço do agronegócio no Centro-Oeste, a partir da década de 1970, fixou a população no meio rural, fazendo com que esta superasse a população urbana na região, a partir desse período.",
+        "d": "Em função da migração de retorno de nordestinos, antes radicados no chamado Centro-Sul, a população urbana do Nordeste superou a população rural, a partir da década de 1970.",
+        "e": "A maior industrialização na região Sul, a partir dos anos 1970, contribuiu para um maior crescimento de sua população urbana, a partir desse período, acompanhado do decréscimo da população rural."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Demografia: conceitos populacionais, transição demográfica, pirâmides etárias e fluxos migratórios",
+            "Espaço Rural: sistemas agrícolas, modernização do campo e estrutura agrária brasileira"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 66,
+      "tipo": "objetiva",
+      "enunciado": "Os períodos do ano que oferecem as melhores condições para a produção de energia hidrelétrica no Sudeste e energia eólica no Nordeste são aqueles em que predominam, nessas regiões, respectivamente,",
+      "textos_de_apoio": [
+        "Mapas de médias climatológicas de precipitação e de velocidade de vento no Brasil (Períodos I a IV)."
+      ],
+      "midia": [
+        "Página 19: Quatro mapas de médias climatológicas de precipitação e vento no Brasil."
+      ],
+      "alternativas": {
+        "a": "primavera e verão.",
+        "b": "verão e outono.",
+        "c": "outono e inverno.",
+        "d": "verão e inverno.",
+        "e": "inverno e primavera."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Climatologia: fatores/elementos do clima, dinâmica das massas de ar e climas do Brasil e do mundo",
+            "Matrizes energéticas mundiais e do Brasil (fontes renováveis e não renováveis)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 67,
+      "tipo": "objetiva",
+      "enunciado": "Com base no mapa e em seus conhecimentos, assinale a alternativa correta.",
+      "textos_de_apoio": [
+        "Mapa: “Caminhos das Minas à Bahia - Século XVIII” mostrando capitanias e rotas."
+      ],
+      "midia": [
+        "Página 19: Mapa histórico dos caminhos das minas à Bahia."
+      ],
+      "alternativas": {
+        "a": "O rio São Francisco foi caminho natural para a expansão da cana-de-açúcar e do algodão da Zona da Mata, na Bahia, até a Capitania de São Paulo e Minas de Ouro.",
+        "b": "A ocupação territorial de parte significativa dessa região foi marcada por duas características geomorfológicas: a serra do Espinhaço e o vale do rio São Francisco.",
+        "c": "Essa região caracterizava-se, nesse período, por paisagens onde predominavam as minas e os currais, mas no século XIX a mineração sobrepujou as outras atividades econômicas dessas capitanias.",
+        "d": "O caminho pelo rio São Francisco foi estabelecido pelas bandeiras paulistas para penetração na região aurífera da Chapada dos Parecis e posterior pagamento do “quinto” na sede da capitania, em Salvador.",
+        "e": "As bandeiras que partiam da Capitania da Bahia de Todos os Santos para a Capitania de São Paulo e Minas de Ouro propiciaram o surgimento de localidades com economia baseada na agricultura monocultora de exportação."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Brasil Colônia: primeiros habitantes indígenas, ocupação territorial, ciclos econômicos (açúcar e ouro) e escravidão"
+          ]
+        },
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Estrutura geológica da Terra, tectonismo, vulcanismo e eras geológicas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 68,
+      "tipo": "objetiva",
+      "enunciado": "A palavra que o cronista omite no título, substituindo-a por reticências, ele a emprega no último parágrafo, na posição marcada com pontilhado. Tendo em vista o contexto, conclui-se que se trata da palavra",
+      "textos_de_apoio": [
+        "Texto “Vivendo e...” de Luís F. Veríssimo (Comédias para se ler na escola)."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "desanimando.",
+        "b": "crescendo.",
+        "c": "inventando.",
+        "d": "brincando.",
+        "e": "desaprendendo."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação",
+            "Mecanismos de coesão textual (lexical, referencial, anafórica) e coerência"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 69,
+      "tipo": "objetiva",
+      "enunciado": "Um dos contrastes entre passado e presente que caracterizam o desenvolvimento do texto manifesta-se na oposição entre as seguintes expressões:",
+      "textos_de_apoio": [
+        "Texto “Vivendo e...” de Luís F. Veríssimo."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "“precisão” (L. 4) / “fórmula” (L. 10).",
+        "b": "“muita confusão” (L. 12) / “distância exata” (L. 16).",
+        "c": "“trajetória elíptica” (L. 22) / “mínima margem de erro” (L. 23).",
+        "d": "“puro instinto” (L. 23-24) / “complicados cálculos” (L. 24-25).",
+        "e": "“habilidade perdida” (L. 26) / “artes que nos abandonaram” (L. 32-33)."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Figuras de linguagem (metáfora, metonímia, antítese, paradoxo, hipérbole, ironia)",
+            "Significação explícita e implícita, denotação e conotação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 70,
+      "tipo": "objetiva",
+      "enunciado": "Considere as seguintes substituições propostas para diferentes trechos do texto:\n\nI. “o número a que chegasse” (L. 14-15) = o número a que alcançasse.\nII. “Lembro o orgulho” (L. 18) = Recordo-me do orgulho.\nIII. “coisas que deixamos de fazer” (L. 28-29) = coisas que nos descartamos.\nIV. “não há mais bondes” (L. 31) = não existe mais bondes.\n\nA correção gramatical está preservada apenas no que foi proposto em",
+      "textos_de_apoio": [
+        "Vivendo e...\n\nEu sabia fazer pipa e hoje não sei mais. Duvido que se hoje pegasse uma bola de gude conseguisse equilibrá-la na dobra do dedo indicador sobre a unha do polegar, quanto mais jogá-la com a precisão que tinha quando era garoto. (...)\nJuntando-se as duas mãos de um determinado jeito, com os polegares para dentro, e assoprando pelo buraquinho, tirava-se um silvo bonito que inclusive variava de tom conforme o posicionamento das mãos. Hoje não sei mais que jeito é esse. Eu sabia a fórmula de fazer cola caseira. Algo envolvendo farinha e água e muita confusão na cozinha, de onde éramos expulsos sob ameaças. Hoje não sei mais. A gente começava a contar depois de ver um relâmpago e o número a que chegasse quando ouvia a trovoada, multiplicado por outro número, dava a distância exata do relâmpago. Não me lembro mais dos números. (...)\nLembro o orgulho com que consegui, pela primeira vez, cuspir corretamente pelo espaço adequado entre os dentes de cima e a ponta da língua de modo que o cuspe ganhasse distância e pudesse ser mirado. Com prática, conseguia-se controlar a trajetória elíptica da cusparada com uma mínima margem de erro. Era puro instinto. Hoje o mesmo feito requereria complicados cálculos de balística, e eu provavelmente só acertaria a frente da minha camisa. Outra habilidade perdida.\nNa verdade, deve-se revisar aquela antiga frase. É vivendo e .................... . Não falo daquelas coisas que deixamos de fazer porque não temos mais as condições físicas e a coragem de antigamente, como subir em bonde andando – mesmo porque não há mais bondes andando. Falo da sabedoria desperdiçada, das artes que nos abandonaram. Algumas até úteis. Quem nunca desejou ainda ter o cuspe certeiro de garoto para acertar em algum alvo contemporâneo, bem no olho, e depois sair correndo? Eu já.\n\nLuís F. Veríssimo, Comédias para se ler na escola."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "I.",
+        "b": "II.",
+        "c": "III.",
+        "d": "II e IV.",
+        "e": "I, III e IV."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Regência verbal e nominal (emprego do sinal indicativo de crase)",
+            "Concordância verbal e nominal"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 71,
+      "tipo": "objetiva",
+      "enunciado": "De acordo com o texto, a sociedade será democrática quando",
+      "textos_de_apoio": [
+        "A essência da teoria democrática é a supressão de qualquer imposição de classe, fundada no postulado ou na crença de que os conflitos e problemas humanos — econômicos, políticos, ou sociais — são solucionáveis pela educação, isto é, pela cooperação voluntária, mobilizada pela opinião pública esclarecida. Está claro que essa opinião pública terá de ser formada à luz dos melhores conhecimentos existentes e, assim, a pesquisa científica nos campos das ciências naturais e das chamadas ciências sociais deverá se fazer a mais ampla, a mais vigorosa, a mais livre, e a difusão desses conhecimentos, a mais completa, a mais imparcial e em termos que os tornem acessíveis a todos.\nAnísio Teixeira, Educação é um direito. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "sua base for a educação sólida do povo, realizada por meio da ampla difusão do conhecimento.",
+        "b": "a parcela do público que detém acesso ao conhecimento científico e político passar a controlar a opinião pública.",
+        "c": "a opinião pública se formar com base tanto no respeito às crenças religiosas de todos quanto no conhecimento científico.",
+        "d": "a desigualdade econômica for eliminada, criando-se, assim, a condição necessária para que o povo seja livremente educado.",
+        "e": "a propriedade dos meios de comunicação e difusão do conhecimento se tornar pública."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Filosofia e Sociologia",
+          "assuntos": [
+            "Concepção liberal do Estado e críticas marxistas",
+            "Estado, representação política, partidos e movimentos sociais"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 72,
+      "tipo": "objetiva",
+      "enunciado": "No trecho “chamadas ciências sociais”, o emprego do termo “chamadas” indica que o autor",
+      "textos_de_apoio": [
+        "Excerto de Anísio Teixeira, Educação é um direito."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "vê, nas “ciências sociais”, uma panaceia, não uma análise crítica da sociedade.",
+        "b": "considera utópicos os objetivos dessas ciências.",
+        "c": "prefere a denominação “teoria social” à denominação “ciências sociais”.",
+        "d": "discorda dos pressupostos teóricos dessas ciências.",
+        "e": "utiliza com reserva a denominação “ciências sociais”."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 73,
+      "tipo": "objetiva",
+      "enunciado": "Dos seguintes comentários linguísticos sobre diferentes trechos do texto, o único correto é:",
+      "textos_de_apoio": [
+        "Excerto de Anísio Teixeira, Educação é um direito."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "Os prefixos das palavras “imposição” e “imparcial” têm o mesmo sentido.",
+        "b": "As palavras “postulado” e “crença” foram usadas no texto como sinônimas.",
+        "c": "A norma-padrão condena o uso de “essa”, no trecho “essa opinião”, pois, nesse caso, o correto seria usar “esta”.",
+        "d": "A vírgula empregada no trecho “e a difusão desses conhecimentos, a mais completa” indica que, aí, ocorre a elipse de um verbo.",
+        "e": "O pronome sublinhado em “que os tornem” tem como referente o substantivo “termos”."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Mecanismos de coesão textual (lexical, referencial, anafórica) e coerência",
+            "Estrutura e processos de formação de palavras (derivação e composição)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 74,
+      "tipo": "objetiva",
+      "enunciado": "Para adequar a linguagem ao assunto, o autor lança mão também de um léxico popular, como atestam todas as palavras listadas na alternativa",
+      "textos_de_apoio": [
+        "José de Alencar, Til (excerto do capítulo V – O samba)."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "saracoteio, brasido, rabanar, senzalas.",
+        "b": "esperneiam, senzalas, pincham, delírio.",
+        "c": "saracoteio, rabanar, cangote, pincham.",
+        "d": "fazenda, rabanar, cinzas, esperneiam.",
+        "e": "delírio, cambalhotas, cangote, fazenda."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Variações linguísticas e níveis de formalidade/informalidade",
+            "Literatura Brasileira: Quinhentismo, Barroco (Gregório de Matos), Arcadismo, Romantismo, Realismo/Naturalismo (Machado de Assis), Parnasianismo e Simbolismo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 75,
+      "tipo": "objetiva",
+      "enunciado": "Na composição do texto, foram usados, reiteradamente,\n\nI. sujeitos pospostos;\nII. termos que intensificam a ideia de movimento;\nIII. verbos no presente histórico.\n\nEstá correto o que se indica em",
+      "textos_de_apoio": [
+        "V – O samba\n\nÀ direita do terreiro, adumbra-se* na escuridão um maciço de construções, ao qual às vezes recortam no azul do céu os trêmulos vislumbres das labaredas fustigadas pelo vento.\n(...)\nÉ aí o quartel ou quadrado da fazenda, nome que tem um grande pátio cercado de senzalas, às vezes com alpendrada corrida em volta, e um ou dois portões que o fecham como praça d’armas.\nEm torno da fogueira, já esbarrondada pelo chão, que ela cobriu de brasido e cinzas, dançam os pretos o samba com um frenesi que toca o delírio. Não se descreve, nem se imagina esse desesperado saracoteio, no qual todo o corpo estremece, pula, sacode, gira, bamboleia, como se quisesse desgrudar-se.\nTudo salta, até os crioulinhos que esperneiam no cangote das mães, ou se enrolam nas saias das raparigas. Os mais taludos viram cambalhotas e pincham à guisa de sapos em roda do terreiro. Um desses corta jaca no espinhaço do pai, negro fornido, que não sabendo mais como desconjuntar-se, atirou consigo ao chão e começou de rabanar como um peixe em seco. (...)\n\nJosé de Alencar, Til.\n\n(*) “adumbra-se” = delineia-se, esboça-se."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "I, apenas.",
+        "b": "II, apenas.",
+        "c": "III, apenas.",
+        "d": "I e II, apenas.",
+        "e": "I, II e III."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Sintaxe do período simples (termos essenciais, integrantes e acessórios da oração)",
+            "Tipologias textuais (narração, descrição, dissertação) e gêneros textuais variados"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 76,
+      "tipo": "objetiva",
+      "enunciado": "Ao comentar o romance Til e, inclusive, a cena do capítulo “O samba”, aqui reproduzida, Araripe Jr., parente do autor e estudioso de sua obra, observou que esses são provavelmente os textos em que Alencar “mais se quis aproximar dos padrões” de uma “nova escola”, deixando, neles, reconhecível que, “no momento” em que os escreveu, “algum livro novo o impressionara, levando-o pelo estímulo até superfetar* a sua verdadeira índole de poeta”. Alguns dos procedimentos estilísticos empregados na cena aqui reproduzida indicam que a “nova escola” e o “livro novo” a que se refere o crítico pertencem ao que historiadores da literatura chamaram de",
+      "textos_de_apoio": [
+        "(*) “superfetar” = exceder, sobrecarregar, acrescentar-se (uma coisa a outra)."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "Romantismo-Condoreirismo.",
+        "b": "Idealismo-Determinismo.",
+        "c": "Realismo-Naturalismo.",
+        "d": "Parnasianismo-Simbolismo.",
+        "e": "Positivismo-Impressionismo."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Literatura Brasileira: Quinhentismo, Barroco (Gregório de Matos), Arcadismo, Romantismo, Realismo/Naturalismo (Machado de Assis), Parnasianismo e Simbolismo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 77,
+      "tipo": "objetiva",
+      "enunciado": "Considerada no contexto histórico a que se refere Til, a desenvoltura com que os escravos, no excerto, se entregam à dança é representativa do fato de que",
+      "textos_de_apoio": [
+        "José de Alencar, Til (excerto do capítulo V – O samba)."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "a escravidão, no Brasil, tal como ocorreu na América do Norte e no Caribe, foi branda.",
+        "b": "se permitia a eles, em ocasiões especiais e sob vigilância, que festejassem a seu modo.",
+        "c": "teve início nas fazendas de café o sincretismo das culturas negra e branca, que viria a caracterizar a cultura brasileira.",
+        "d": "o narrador entendia que o samba de terreiro era, em realidade, um ritual umbandista disfarçado.",
+        "e": "foi a generalização, entre eles, do alcoolismo, que tornou antieconômica a exploração da mão de obra escrava nos cafezais paulistas."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Brasil Imperial: Independência, Primeiro Reinado, Período Regencial e Segundo Reinado",
+            "Economia cafeeira, Guerra do Paraguai, imigração e abolição da escravidão no Brasil"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 78,
+      "tipo": "objetiva",
+      "enunciado": "Em Viagens na minha terra, assim como em",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "Memórias de um sargento de milícias, embora se situem ambas as obras no Romantismo, criticam-se os exageros de idealização e de expressão que ocorrem nessa escola literária.",
+        "b": "A cidade e as serras, a preferência pelo mundo rural português tem como contraponto a ojeriza às cidades estrangeiras – Paris, em particular.",
+        "c": "Vidas secas, os discursos dos intelectuais são vistos como “a prosa vil da nação”, ao passo que a sabedoria popular “procede da síntese transcendente, superior e inspirada pelas grandes e eternas verdades”.",
+        "d": "Memórias póstumas de Brás Cubas, a prática da divagação e da digressão exerce sobre todos os valores uma ação dissolvente, que culmina, em ambos os casos, em puro niilismo.",
+        "e": "O cortiço, manifestam-se, respectivamente, tanto o antibrasileirismo do escritor português quanto o antilusitanismo do seu par brasileiro, assim como o absolutismo do primeiro e o liberalismo do segundo."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Literatura Brasileira: Quinhentismo, Barroco (Gregório de Matos), Arcadismo, Romantismo, Realismo/Naturalismo (Machado de Assis), Parnasianismo e Simbolismo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 79,
+      "tipo": "objetiva",
+      "enunciado": "Da leitura do texto, depreende-se que",
+      "textos_de_apoio": [
+        "Texto “Ata” (Carta de Carlos Drummond de Andrade, Gilberto de Mendonça Teles, Plínio Doyle e outros)."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "o anfitrião carioca, embora gentil, é cioso de sua biblioteca.",
+        "b": "o anfitrião paulista recebeu com honrarias os amigos cariocas, que visitaram a sua biblioteca.",
+        "c": "os cariocas não se sentiram à vontade na casa do paulista, a qual, na verdade, era uma mansão.",
+        "d": "os cariocas preferiram ficar no Rio de Janeiro, embora a recepção em São Paulo fosse convidativa.",
+        "e": "o fracasso da visita dos cariocas a São Paulo abalou a amizade dos bibliófilos."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 80,
+      "tipo": "objetiva",
+      "enunciado": "As expressões “ares aristocráticos” e “descamisados” relacionam-se, respectivamente,",
+      "textos_de_apoio": [
+        "Texto “Ata”."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "aos “sabadoyleanos” e a Plínio Doyle.",
+        "b": "a José Mindlin e a seus amigos cariocas.",
+        "c": "a “gentilezas” e a “camaradescamente”.",
+        "d": "aos signatários do documento e aos amigos de São Paulo.",
+        "e": "a “reuniões cariocas” e a “tradição bandeirante”."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Mecanismos de coesão textual (lexical, referencial, anafórica) e coerência"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 81,
+      "tipo": "objetiva",
+      "enunciado": "Leia o seguinte texto:\nO autor pensava estar romanceando o processo brasileiro de guerra e acomodação entre as raças, em conformidade com as teorias racistas da época, mas, na verdade, conduzido pela lógica da ficção, mostrava um processo primitivo de exploração econômica e formação de classes, que se encaminhava de um modo passavelmente bárbaro e desmentia as ilusões do romancista.\nRoberto Schwarz. Adaptado.\nEsse texto crítico refere-se ao livro",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "Memórias de um sargento de milícias.",
+        "b": "Til.",
+        "c": "O cortiço.",
+        "d": "Vidas secas.",
+        "e": "Capitães da areia."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Literatura Brasileira: Quinhentismo, Barroco (Gregório de Matos), Arcadismo, Romantismo, Realismo/Naturalismo (Machado de Assis), Parnasianismo e Simbolismo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 82,
+      "tipo": "objetiva",
+      "enunciado": "Em quatro das alternativas abaixo, registram-se alguns dos aspectos que, para bem caracterizar o gênero e o estilo das Memórias póstumas de Brás Cubas, o crítico J. G. Merquior pôs em relevo nessa obra de Machado de Assis. A única alternativa que, invertendo, aliás, o juízo do mencionado crítico, aponta uma característica que NÃO se aplica à obra em questão é:",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "ausência praticamente completa de distanciamento enobrecedor na figuração das personagens e de suas ações.",
+        "b": "mistura do sério e do cômico, de que resulta uma abordagem humorística das questões mais cruciais.",
+        "c": "am ampla liberdade do texto em relação aos ditames da verossimilhança.",
+        "d": "emprego de uma linguagem que evita chamar a atenção sobre si mesma, apagando-se, assim, por detrás da coisa narrada.",
+        "e": "uso frequente de gêneros intercalados — por exemplo, cartas ou bilhetes, historietas etc. — embutidos no conjunto da obra global."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Literatura Brasileira: Quinhentismo, Barroco (Gregório de Matos), Arcadismo, Romantismo, Realismo/Naturalismo (Machado de Assis), Parnasianismo e Simbolismo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 83,
+      "tipo": "objetiva",
+      "enunciado": "Os momentos históricos em que se desenvolvem os enredos de Viagens na minha terra, Memórias de um sargento de milícias e Memórias póstumas de Brás Cubas (quanto a este último, em particular no que se refere à primeira juventude do narrador) são, todos, determinados de modo decisivo por um antecedente histórico comum – menos ou mais imediato, conforme o caso. Trata-se da",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "invasão de Portugal pelas tropas napoleônicas.",
+        "b": "turbulência social causada pelas revoltas regenciais.",
+        "c": "volta de D. Pedro I a Portugal.",
+        "d": "proclamação da independência do Brasil.",
+        "e": "antecipação da maioridade de D. Pedro II."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Revolução Francesa e a Era Napoleônica",
+            "Processos de Independência nas Américas: EUA, Revolução Haitiana e América Espanhola"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 84,
+      "tipo": "objetiva",
+      "enunciado": "Leia as seguintes afirmações sobre o poema de Drummond, considerado no contexto do livro a que pertence:\n\nI. No conjunto formado pelos poemas do livro, a referência ao Morro da Babilônia – feita no título do texto – mais as menções ao Leblon e ao Méier, a Copacabana, a São Cristóvão e ao Mangue, – presentes em outros poemas –, sendo todas, ao mesmo tempo, espaciais e de classe, constituem uma espécie de discreta topografia social do Rio de Janeiro.\nII. Nesse poema, assim como ocorre em outros textos do livro, a atenção à vida presente abre-se também para a dimensão do passado, seja ele dado no registro da história ou da memória.\nIII. A menção ao “cavaquinho bem afinado”, ao cabo do poema, revela ter sido nesse livro que o poeta finalmente assumiu as canções da música popular brasileira como o modelo definitivo de sua lírica, superando, assim, seu antigo vínculo com a poesia de matriz culta ou erudita.\n\nEstá correto o que se afirma em",
+      "textos_de_apoio": [
+        "Morro da Babilônia\n\nÀ noite, do morro\ndescem vozes que criam o terror\n(terror urbano, cinquenta por cento de cinema,\ne o resto que veio de Luanda ou se perdeu na língua\n [geral).\n\nQuando houve revolução, os soldados se espalharam\n [no morro,\no quartel pegou fogo, eles não voltaram.\nAlguns, chumbados, morreram.\nO morro ficou mais encantado.\n\nMas as vozes do morro\nnão são propriamente lúgubres.\nHá mesmo um cavaquinho bem afinado\nque domina os ruídos da pedra e da folhagem\ne desce até nós, modesto e recreativo,\ncomo uma gentileza do morro.\n\nCarlos Drummond de Andrade, Sentimento do mundo."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "I, apenas.",
+        "b": "I e II, apenas.",
+        "c": "III, apenas.",
+        "d": "II e III, apenas.",
+        "e": "I, II e III."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Modernismo Brasileiro: 1ª Fase (1922), 2ª Fase (Geração de 30 - romance regionalista e poesia de 30) e 3ª Fase (Geração de 45/Pós-Modernismo)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 85,
+      "tipo": "objetiva",
+      "enunciado": "Guardadas as diferenças que separam as obras a seguir comparadas, as tensões a que remete o poema de Drummond derivam de um conflito de",
+      "textos_de_apoio": [
+        "Poema “Morro da Babilônia” de Carlos Drummond de Andrade."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "caráter racial, assim como sucede em A cidade e as serras.",
+        "b": "grupos linguísticos rivais, de modo semelhante ao que ocorre em Viagens na minha terra.",
+        "c": "fundo religioso e doutrinário, como o que agita o enredo de Til.",
+        "d": "classes sociais, tal como ocorre em Capitães da areia.",
+        "e": "interesses entre agregados e proprietários, como o que tensiona as Memórias póstumas de Brás Cubas."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Modernismo Brasileiro: 1ª Fase (1922), 2ª Fase (Geração de 30 - romance regionalista e poesia de 30) e 3ª Fase (Geração de 45/Pós-Modernismo)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 86,
+      "tipo": "objetiva",
+      "enunciado": "De acordo com o texto, a indústria publicitária",
+      "textos_de_apoio": [
+        "Time was, advertising was a relatively simple undertaking: buy some print space and airtime, create the spots, and blast them at a captive audience. Today it’s chaos: while passive viewers still exist, mostly we pick and choose what to consume, ignoring ads with a touch of the DVR remote. Ads are forced to become more like content, and the best aim to engage consumers so much that they pass the material on to friends – by email, Twitter, Facebook – who will pass it on to friends, who will… you get the picture. In the industry, “viral” has become a usefully vague way to describe any campaign that spreads from person to person, acquiring its own momentum.\nIt’s not that online advertising has eclipsed TV, but it has become its full partner – and in many ways the more substantive one, a medium in which the audience must be earned, not simply bought.\nNewsweek, March 26 & April 2, 2012. Adaptado."
+      ],
+      "midia": [
+        "Página 24: Duas imagens com capturas de tela e comentários em redes sociais."
+      ],
+      "alternativas": {
+        "a": "passou a criar anúncios mais curtos.",
+        "b": "deixou de comprar tempo na TV devido ao aumento de custo por minuto.",
+        "c": "foi forçada a se modificar em função das novas tecnologias.",
+        "d": "aumentou sua audiência cativa.",
+        "e": "começou a privilegiar a forma em vez de conteúdos."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 87,
+      "tipo": "objetiva",
+      "enunciado": "No texto, a palavra “viral” refere-se a",
+      "textos_de_apoio": [
+        "Excerto da Newsweek."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "campanhas publicitárias divulgadas entre usuários de mídias eletrônicas.",
+        "b": "vírus eletrônicos acoplados a anúncios publicitários.",
+        "c": "mensagens de alerta aos consumidores para os riscos de determinados produtos.",
+        "d": "mídias eletrônicas que têm dificuldade em controlar a disseminação de vírus.",
+        "e": "quantidades de anúncios que congestionam as caixas postais dos usuários de correio eletrônico."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 88,
+      "tipo": "objetiva",
+      "enunciado": "Afirma-se, no texto, que, diferentemente da TV, na publicidade online a audiência tem de ser",
+      "textos_de_apoio": [
+        "Excerto da Newsweek."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "partilhada.",
+        "b": "valorizada.",
+        "c": "comprada.",
+        "d": "multiplicada.",
+        "e": "conquistada."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 89,
+      "tipo": "objetiva",
+      "enunciado": "Segundo o texto, o livro Missing Out: In Praise of the Unlived Life sugere que",
+      "textos_de_apoio": [
+        "Missing Out: In Praise of the Unlived Life is Adam Phillips's 17th book and is a characteristic blend of literary criticism and philosophical reflection packaged around a central idea. The theme here is missed opportunities, roads not taken, alternative versions of our lives and ourselves, all of which, Phillips argues, exert a powerful hold over our imaginations. Using a series of examples and close readings of authors including Philip Larkin and Shakespeare, the book suggests that a broader understanding of life's inevitable disappointments and thwarted desires can enable us to live fuller, richer lives. Good things come to those who wait.\nDoes he see himself as a champion of frustration? “I'm not on the side of frustration exactly, so much as the idea that one has to be able to bear frustration in order for satisfaction to be realistic. I'm interested in how the culture of consumer capitalism depends on the idea that we can't bear frustration, so that every time we feel a bit restless or bored or irritable, we eat, or we shop.”\nguardian.co.uk, 1 June 2012. Adaptado."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "a fantasia deve se sobrepor a nossos planos de vida.",
+        "b": "uma compreensão maior das decepções e dos desejos não realizados pode nos ajudar a viver melhor.",
+        "c": "os relatos de vida dos escritores não nos servem de exemplo.",
+        "d": "um controle maior de nossa imaginação é importante para lidarmos com nossas frustrações.",
+        "e": "as oportunidades perdidas devem ser recuperadas para uma vida satisfatória."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Estratégias de leitura rápida: Skimming (ideia geral) e Scanning (busca de dados específicos)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    },
+    {
+      "numero": 90,
+      "tipo": "objetiva",
+      "enunciado": "No texto, em resposta à pergunta “Does he see himself as a champion of frustration?”, o autor do livro argumenta ser necessário que as pessoas",
+      "textos_de_apoio": [
+        "Excerto do guardian.co.uk sobre Adam Phillips."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "tenham experiências satisfatórias para compreender a frustração.",
+        "b": "entendam cada vez mais a cultura capitalista de consumo.",
+        "c": "se distraiam fazendo compras quando estão irritadas.",
+        "d": "lidem com as frustrações para que suas satisfações sejam realistas.",
+        "e": "percebam o que as deixa frustradas no dia a dia."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false
+    }
+  ]
+}

@@ -1,0 +1,571 @@
+{
+  "exame": "fuvest_2013",
+  "figuras_coordenadas": {
+    "1": [
+      {
+        "pagina": 2,
+        "tipo": "imagem",
+        "elemento": "Esquema da reação química",
+        "bbox": [
+          10,
+          100,
+          90,
+          250
+        ]
+      }
+    ],
+    "2": [
+      {
+        "pagina": 2,
+        "tipo": "grafico",
+        "elemento": "Gráficos de concentração x tempo para os experimentos A e B",
+        "bbox": [
+          10,
+          480,
+          90,
+          770
+        ]
+      }
+    ],
+    "3": [
+      {
+        "pagina": 2,
+        "tipo": "tabela",
+        "elemento": "Tabela de experimentos de cinética química",
+        "bbox": [
+          530,
+          490,
+          890,
+          970
+        ]
+      }
+    ],
+    "4": [
+      {
+        "pagina": 3,
+        "tipo": "figura",
+        "elemento": "Tabela Periódica resumida",
+        "bbox": [
+          10,
+          110,
+          90,
+          240
+        ]
+      }
+    ],
+    "6": [
+      {
+        "pagina": 3,
+        "tipo": "grafico",
+        "elemento": "Gráfico de variação de volume celular",
+        "bbox": [
+          180,
+          520,
+          360,
+          810
+        ]
+      }
+    ],
+    "7": [
+      {
+        "pagina": 3,
+        "tipo": "grafico",
+        "elemento": "Gráfico de poder calorífico de hidrocarbonetos",
+        "bbox": [
+          580,
+          520,
+          780,
+          890
+        ]
+      }
+    ],
+    "8": [
+      {
+        "pagina": 4,
+        "tipo": "figura",
+        "elemento": "Fórmulas estruturais dos polímeros I, II e III",
+        "bbox": [
+          170,
+          150,
+          390,
+          500
+        ]
+      }
+    ],
+    "10": [
+      {
+        "pagina": 4,
+        "tipo": "tabela",
+        "elemento": "Tabela de dados físico-químicos da água",
+        "bbox": [
+          250,
+          500,
+          390,
+          890
+        ]
+      }
+    ],
+    "11": [
+      {
+        "pagina": 5,
+        "tipo": "figura",
+        "elemento": "Estrutura química do betacaroteno",
+        "bbox": [
+          210,
+          130,
+          310,
+          480
+        ]
+      }
+    ],
+    "13": [
+      {
+        "pagina": 5,
+        "tipo": "grafico",
+        "elemento": "Gráfico de aquecimento do etanol (Temperatura x Calor)",
+        "bbox": [
+          230,
+          520,
+          430,
+          890
+        ]
+      }
+    ],
+    "15": [
+      {
+        "pagina": 6,
+        "tipo": "figura",
+        "elemento": "Esquema superior do experimento de raios X",
+        "bbox": [
+          55,
+          295,
+          185,
+          450
+        ]
+      },
+      {
+        "pagina": 6,
+        "tipo": "grafico",
+        "elemento": "Gráficos de intensidade I em função de x e y",
+        "bbox": [
+          390,
+          115,
+          770,
+          480
+        ]
+      }
+    ],
+    "16": [
+      {
+        "pagina": 6,
+        "tipo": "figura",
+        "elemento": "Esquema do circuito elétrico",
+        "bbox": [
+          80,
+          770,
+          220,
+          890
+        ]
+      }
+    ],
+    "18": [
+      {
+        "pagina": 6,
+        "tipo": "figura",
+        "elemento": "Esquema da fibra ótica e microlente",
+        "bbox": [
+          510,
+          630,
+          680,
+          890
+        ]
+      }
+    ],
+    "19": [
+      {
+        "pagina": 7,
+        "tipo": "grafico",
+        "elemento": "Gráfico de energia potencial elétrica versus distância",
+        "bbox": [
+          85,
+          195,
+          235,
+          345
+        ]
+      }
+    ],
+    "21": [
+      {
+        "pagina": 7,
+        "tipo": "figura",
+        "elemento": "Esquema do pêndulo",
+        "bbox": [
+          655,
+          510,
+          770,
+          595
+        ]
+      }
+    ],
+    "22": [
+      {
+        "pagina": 7,
+        "tipo": "figura",
+        "elemento": "Esquema de vetores de momento no plano xy",
+        "bbox": [
+          80,
+          750,
+          180,
+          890
+        ]
+      },
+      {
+        "pagina": 7,
+        "tipo": "figura",
+        "elemento": "Alternativas de vetores pᶠ",
+        "bbox": [
+          190,
+          510,
+          390,
+          890
+        ]
+      }
+    ],
+    "23": [
+      {
+        "pagina": 7,
+        "tipo": "figura",
+        "elemento": "Esquema geométrico da Terra e raios solares",
+        "bbox": [
+          530,
+          680,
+          680,
+          890
+        ]
+      }
+    ],
+    "30": [
+      {
+        "pagina": 8,
+        "tipo": "figura",
+        "elemento": "Figura geométrica da APP",
+        "bbox": [
+          740,
+          710,
+          840,
+          890
+        ]
+      }
+    ],
+    "31": [
+      {
+        "pagina": 9,
+        "tipo": "grafico",
+        "elemento": "Gráficos de função logarítmica",
+        "bbox": [
+          130,
+          160,
+          240,
+          440
+        ]
+      }
+    ],
+    "32": [
+      {
+        "pagina": 9,
+        "tipo": "grafico",
+        "elemento": "Gráfico do imposto de renda",
+        "bbox": [
+          650,
+          110,
+          830,
+          480
+        ]
+      }
+    ],
+    "34": [
+      {
+        "pagina": 9,
+        "tipo": "tabela",
+        "elemento": "Tabela de extensão territorial e população do Brasil",
+        "bbox": [
+          360,
+          500,
+          470,
+          890
+        ]
+      }
+    ],
+    "35": [
+      {
+        "pagina": 10,
+        "tipo": "figura",
+        "elemento": "Esquema da célula vegetal e os estados I, II e III",
+        "bbox": [
+          90,
+          110,
+          360,
+          450
+        ]
+      }
+    ],
+    "36": [
+      {
+        "pagina": 10,
+        "tipo": "figura",
+        "elemento": "Diagrama do ciclo celular",
+        "bbox": [
+          545,
+          185,
+          775,
+          345
+        ]
+      }
+    ],
+    "37": [
+      {
+        "pagina": 10,
+        "tipo": "figura",
+        "elemento": "Heredograma da característica do lobo da orelha",
+        "bbox": [
+          95,
+          520,
+          290,
+          895
+        ]
+      }
+    ],
+    "39": [
+      {
+        "pagina": 11,
+        "tipo": "grafico",
+        "elemento": "Gráfico de frequência cardíaca vs massa",
+        "bbox": [
+          190,
+          130,
+          290,
+          360
+        ]
+      },
+      {
+        "pagina": 11,
+        "tipo": "tabela",
+        "elemento": "Quadro com massa corporal de espécies",
+        "bbox": [
+          330,
+          160,
+          420,
+          330
+        ]
+      }
+    ],
+    "41": [
+      {
+        "pagina": 11,
+        "tipo": "figura",
+        "elemento": "Cladograma de relações filogenéticas animais",
+        "bbox": [
+          95,
+          510,
+          340,
+          800
+        ]
+      }
+    ],
+    "42": [
+      {
+        "pagina": 11,
+        "tipo": "tabela",
+        "elemento": "Tabela de condições do Anel de Malpighi",
+        "bbox": [
+          585,
+          510,
+          895,
+          890
+        ]
+      }
+    ],
+    "44": [
+      {
+        "pagina": 12,
+        "tipo": "grafico",
+        "elemento": "Gráfico de O2 atmosférico e espécies marinhas",
+        "bbox": [
+          320,
+          130,
+          480,
+          480
+        ]
+      }
+    ],
+    "57": [
+      {
+        "pagina": 16,
+        "tipo": "cartum",
+        "elemento": "Charge sobre a crise econômica grega",
+        "bbox": [
+          90,
+          115,
+          300,
+          895
+        ]
+      }
+    ],
+    "59": [
+      {
+        "pagina": 16,
+        "tipo": "figura",
+        "elemento": "Carta topográfica",
+        "bbox": [
+          515,
+          515,
+          680,
+          890
+        ]
+      }
+    ],
+    "60": [
+      {
+        "pagina": 17,
+        "tipo": "mapa",
+        "elemento": "Mapa mundi de fusos horários",
+        "bbox": [
+          85,
+          300,
+          310,
+          895
+        ]
+      }
+    ],
+    "61": [
+      {
+        "pagina": 17,
+        "tipo": "mapa",
+        "elemento": "Mapa da malha ferroviária brasileira",
+        "bbox": [
+          435,
+          275,
+          595,
+          415
+        ]
+      }
+    ],
+    "62": [
+      {
+        "pagina": 17,
+        "tipo": "mapa",
+        "elemento": "Mapa do Sistema Aquífero Guarani",
+        "bbox": [
+          550,
+          520,
+          715,
+          890
+        ]
+      }
+    ],
+    "63": [
+      {
+        "pagina": 18,
+        "tipo": "grafico",
+        "elemento": "Gráficos de IED chinês e comércio com a África",
+        "bbox": [
+          85,
+          110,
+          345,
+          485
+        ]
+      }
+    ],
+    "64": [
+      {
+        "pagina": 18,
+        "tipo": "imagem",
+        "elemento": "Foto de área urbana e várzea",
+        "bbox": [
+          95,
+          520,
+          245,
+          890
+        ]
+      }
+    ],
+    "65": [
+      {
+        "pagina": 18,
+        "tipo": "grafico",
+        "elemento": "Série de gráficos populacionais regionais",
+        "bbox": [
+          645,
+          115,
+          860,
+          485
+        ]
+      }
+    ],
+    "66": [
+      {
+        "pagina": 19,
+        "tipo": "mapa",
+        "elemento": "Mapas de climatologia do Brasil",
+        "bbox": [
+          85,
+          130,
+          620,
+          470
+        ]
+      }
+    ],
+    "67": [
+      {
+        "pagina": 19,
+        "tipo": "mapa",
+        "elemento": "Mapa histórico dos caminhos coloniais",
+        "bbox": [
+          80,
+          520,
+          440,
+          890
+        ]
+      }
+    ],
+    "86": [
+      {
+        "pagina": 24,
+        "tipo": "imagem",
+        "elemento": "Imagens ilustrativas de anúncios e comentários online",
+        "bbox": [
+          80,
+          130,
+          360,
+          480
+        ]
+      }
+    ],
+    "87": [
+      {
+        "pagina": 24,
+        "tipo": "imagem",
+        "elemento": "Anúncios em redes sociais e vídeos online",
+        "bbox": [
+          75,
+          120,
+          360,
+          470
+        ]
+      }
+    ],
+    "88": [
+      {
+        "pagina": 24,
+        "tipo": "imagem",
+        "elemento": "Anúncios em redes sociais e vídeos online",
+        "bbox": [
+          75,
+          120,
+          360,
+          470
+        ]
+      }
+    ]
+  }
+}

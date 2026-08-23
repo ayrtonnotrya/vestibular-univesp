@@ -1,0 +1,616 @@
+{
+  "exame": "fuvest_2019",
+  "figuras_coordenadas": {
+    "1": [
+      {
+        "pagina": 2,
+        "tipo": "imagem",
+        "elemento": "Fotografia de escavação arqueológica de habitação subterrânea indígena",
+        "bbox": [
+          55,
+          60,
+          480,
+          310
+        ]
+      }
+    ],
+    "3": [
+      {
+        "pagina": 2,
+        "tipo": "grafico",
+        "elemento": "Gráficos de temperatura vs precipitação para biomas",
+        "bbox": [
+          510,
+          205,
+          470,
+          480
+        ]
+      }
+    ],
+    "4": [
+      {
+        "pagina": 2,
+        "tipo": "grafico",
+        "elemento": "Gráfico de inversão térmica na atmosfera",
+        "bbox": [
+          670,
+          510,
+          770,
+          600
+        ]
+      }
+    ],
+    "5": [
+      {
+        "pagina": 3,
+        "tipo": "tabela",
+        "elemento": "Tabela de principais países de origem e destino de refugiados",
+        "bbox": [
+          180,
+          50,
+          275,
+          480
+        ]
+      }
+    ],
+    "6": [
+      {
+        "pagina": 3,
+        "tipo": "imagem",
+        "elemento": "Mapas da deriva continental de Wegener (Carbonífero, Terciário, Quaternário)",
+        "bbox": [
+          170,
+          520,
+          480,
+          890
+        ]
+      }
+    ],
+    "7": [
+      {
+        "pagina": 4,
+        "tipo": "tabela",
+        "elemento": "Tabela de percentual de pessoas em estado de insegurança alimentar grave",
+        "bbox": [
+          290,
+          50,
+          420,
+          480
+        ]
+      }
+    ],
+    "8": [
+      {
+        "pagina": 4,
+        "tipo": "grafico",
+        "elemento": "Gráfico de barras da pauta de exportações brasileiras (2000-2017)",
+        "bbox": [
+          70,
+          520,
+          230,
+          900
+        ]
+      }
+    ],
+    "9": [
+      {
+        "pagina": 4,
+        "tipo": "grafico",
+        "elemento": "Gráfico de temperaturas médias mensais de cidades selecionadas",
+        "bbox": [
+          580,
+          510,
+          810,
+          895
+        ]
+      }
+    ],
+    "10": [
+      {
+        "pagina": 5,
+        "tipo": "mapa",
+        "elemento": "Mapa de conjuntos comerciais verticais em São Paulo (1992-2015)",
+        "bbox": [
+          220,
+          520,
+          545,
+          875
+        ]
+      }
+    ],
+    "11": [
+      {
+        "pagina": 5,
+        "tipo": "imagem",
+        "elemento": "Imagem de satélite e perfil topográfico com traçado A-B",
+        "bbox": [
+          105,
+          520,
+          310,
+          890
+        ]
+      }
+    ],
+    "12": [
+      {
+        "pagina": 5,
+        "tipo": "grafico",
+        "elemento": "Esquema de gradiente adiabático e temperatura em relevo montanhoso",
+        "bbox": [
+          585,
+          520,
+          770,
+          895
+        ]
+      }
+    ],
+    "13": [
+      {
+        "pagina": 6,
+        "tipo": "grafico",
+        "elemento": "Gráfico de pressão atmosférica em função da altitude",
+        "bbox": [
+          130,
+          85,
+          310,
+          445
+        ]
+      }
+    ],
+    "14": [
+      {
+        "pagina": 6,
+        "tipo": "grafico",
+        "elemento": "Gráfico de área superficial em função da massa do animal",
+        "bbox": [
+          600,
+          85,
+          775,
+          450
+        ]
+      }
+    ],
+    "16": [
+      {
+        "pagina": 6,
+        "tipo": "imagem",
+        "elemento": "Esquema de trajetos mecânicos de corpos em descida e subida",
+        "bbox": [
+          455,
+          510,
+          570,
+          895
+        ]
+      }
+    ],
+    "18": [
+      {
+        "pagina": 7,
+        "tipo": "imagem",
+        "elemento": "Diagrama de forças entre cargas elétricas em um triângulo",
+        "bbox": [
+          580,
+          160,
+          770,
+          395
+        ]
+      }
+    ],
+    "19": [
+      {
+        "pagina": 7,
+        "tipo": "imagem",
+        "elemento": "Esquema óptico de formação de imagem por lente biconvexa",
+        "bbox": [
+          80,
+          520,
+          195,
+          890
+        ]
+      }
+    ],
+    "20": [
+      {
+        "pagina": 7,
+        "tipo": "imagem",
+        "elemento": "Diagrama de circuito elétrico com gerador real e resistor",
+        "bbox": [
+          325,
+          785,
+          500,
+          895
+        ]
+      }
+    ],
+    "22": [
+      {
+        "pagina": 8,
+        "tipo": "grafico",
+        "elemento": "Diagrama P x V de transformações gasosas A, B e C",
+        "bbox": [
+          90,
+          160,
+          260,
+          360
+        ]
+      }
+    ],
+    "26": [
+      {
+        "pagina": 8,
+        "tipo": "tabela",
+        "elemento": "Tabela de características de biomas brasileiros",
+        "bbox": [
+          585,
+          520,
+          680,
+          895
+        ]
+      }
+    ],
+    "27": [
+      {
+        "pagina": 9,
+        "tipo": "tabela",
+        "elemento": "Tabela de alternativas para itens I e II sobre aquecimento global",
+        "bbox": [
+          220,
+          50,
+          420,
+          500
+        ]
+      }
+    ],
+    "30": [
+      {
+        "pagina": 9,
+        "tipo": "grafico",
+        "elemento": "Gráfico de níveis hormonais durante a gravidez",
+        "bbox": [
+          105,
+          520,
+          275,
+          890
+        ]
+      }
+    ],
+    "32": [
+      {
+        "pagina": 10,
+        "tipo": "grafico",
+        "elemento": "Cladograma filogenético de deuterostômios e vertebrados",
+        "bbox": [
+          180,
+          50,
+          360,
+          480
+        ]
+      }
+    ],
+    "33": [
+      {
+        "pagina": 10,
+        "tipo": "imagem",
+        "elemento": "Heredograma de heredariedade autossômica recessiva",
+        "bbox": [
+          635,
+          140,
+          770,
+          400
+        ]
+      }
+    ],
+    "34": [
+      {
+        "pagina": 10,
+        "tipo": "tabela",
+        "elemento": "Tabela de preenchimento de lacunas sobre vacinação",
+        "bbox": [
+          180,
+          520,
+          395,
+          895
+        ]
+      }
+    ],
+    "35": [
+      {
+        "pagina": 11,
+        "tipo": "imagem",
+        "elemento": "Estruturas químicas de Lewis para o cátion hidrônio",
+        "bbox": [
+          155,
+          60,
+          260,
+          480
+        ]
+      }
+    ],
+    "36": [
+      {
+        "pagina": 11,
+        "tipo": "imagem",
+        "elemento": "Ilustração do método de determinação de densidade de amostra sólida",
+        "bbox": [
+          485,
+          230,
+          600,
+          480
+        ]
+      }
+    ],
+    "37": [
+      {
+        "pagina": 11,
+        "tipo": "tabela",
+        "elemento": "Tabela de tempos de dissolução de pastilha eivada",
+        "bbox": [
+          215,
+          520,
+          315,
+          890
+        ]
+      }
+    ],
+    "39": [
+      {
+        "pagina": 12,
+        "tipo": "imagem",
+        "elemento": "Fórmulas estruturais de aminoácidos e peptídeos",
+        "bbox": [
+          320,
+          240,
+          775,
+          480
+        ]
+      }
+    ],
+    "40": [
+      {
+        "pagina": 12,
+        "tipo": "imagem",
+        "elemento": "Esquema experimental de soluções, filtração e destilação",
+        "bbox": [
+          235,
+          520,
+          320,
+          890
+        ]
+      }
+    ],
+    "41": [
+      {
+        "pagina": 13,
+        "tipo": "grafico",
+        "elemento": "Gráfico de ponto de ebulição de bromoalcanos e tabela de halogênios",
+        "bbox": [
+          135,
+          75,
+          410,
+          480
+        ]
+      }
+    ],
+    "42": [
+      {
+        "pagina": 13,
+        "tipo": "imagem",
+        "elemento": "Equação química da oxidação do cinamaldeído",
+        "bbox": [
+          65,
+          520,
+          140,
+          895
+        ]
+      }
+    ],
+    "43": [
+      {
+        "pagina": 13,
+        "tipo": "imagem",
+        "elemento": "Fotos de gatos em recipientes (meme de internet)",
+        "bbox": [
+          470,
+          520,
+          680,
+          895
+        ]
+      }
+    ],
+    "44": [
+      {
+        "pagina": 14,
+        "tipo": "figura",
+        "elemento": "Estruturas químicas do polímero e monômeros",
+        "bbox": [
+          120,
+          110,
+          800,
+          450
+        ]
+      }
+    ],
+    "45": [
+      {
+        "pagina": 14,
+        "tipo": "figura",
+        "elemento": "Esquema de grão de milho",
+        "bbox": [
+          95,
+          825,
+          180,
+          930
+        ]
+      }
+    ],
+    "49": [
+      {
+        "pagina": 15,
+        "tipo": "grafico",
+        "elemento": "Gráficos de faturamento quinzenal",
+        "bbox": [
+          280,
+          500,
+          570,
+          930
+        ]
+      }
+    ],
+    "51": [
+      {
+        "pagina": 16,
+        "tipo": "figura",
+        "elemento": "Esquema da escada maciça",
+        "bbox": [
+          190,
+          715,
+          335,
+          875
+        ]
+      }
+    ],
+    "52": [
+      {
+        "pagina": 16,
+        "tipo": "figura",
+        "elemento": "Esquema dos prédios e lona",
+        "bbox": [
+          505,
+          715,
+          665,
+          880
+        ]
+      }
+    ],
+    "54": [
+      {
+        "pagina": 16,
+        "tipo": "figura",
+        "elemento": "Esquema do triângulo retângulo e rotação",
+        "bbox": [
+          215,
+          755,
+          305,
+          875
+        ]
+      }
+    ],
+    "55": [
+      {
+        "pagina": 16,
+        "tipo": "figura",
+        "elemento": "Reta numérica com seta",
+        "bbox": [
+          670,
+          715,
+          730,
+          895
+        ]
+      }
+    ],
+    "56": [
+      {
+        "pagina": 17,
+        "tipo": "grafico",
+        "elemento": "Gráficos estatísticos de índices econômicos",
+        "bbox": [
+          215,
+          90,
+          750,
+          915
+        ]
+      }
+    ],
+    "57": [
+      {
+        "pagina": 17,
+        "tipo": "cartum",
+        "elemento": "Cartum de Adão Iturrusgarai",
+        "bbox": [
+          80,
+          565,
+          175,
+          920
+        ]
+      }
+    ],
+    "62": [
+      {
+        "pagina": 18,
+        "tipo": "imagem",
+        "elemento": "Anúncio publicitário institucional",
+        "bbox": [
+          215,
+          520,
+          310,
+          915
+        ]
+      }
+    ],
+    "76": [
+      {
+        "pagina": 22,
+        "tipo": "foto",
+        "elemento": "Migrantes na ponte",
+        "bbox": [
+          245,
+          275,
+          335,
+          385
+        ]
+      }
+    ],
+    "82": [
+      {
+        "pagina": 23,
+        "tipo": "imagem",
+        "elemento": "Pintura Navio de Emigrantes de Lasar Segall",
+        "bbox": [
+          95,
+          520,
+          235,
+          915
+        ]
+      }
+    ],
+    "84": [
+      {
+        "pagina": 24,
+        "tipo": "tabela",
+        "elemento": "Tabela de desempenho econômico do Brasil",
+        "bbox": [
+          95,
+          75,
+          290,
+          480
+        ]
+      }
+    ],
+    "86": [
+      {
+        "pagina": 24,
+        "tipo": "imagem",
+        "elemento": "Pintura A República de Décio Villares",
+        "bbox": [
+          605,
+          520,
+          775,
+          915
+        ]
+      }
+    ],
+    "89": [
+      {
+        "pagina": 25,
+        "tipo": "imagem",
+        "elemento": "Charges de Angelo Agostini",
+        "bbox": [
+          115,
+          520,
+          315,
+          915
+        ]
+      }
+    ]
+  }
+}
