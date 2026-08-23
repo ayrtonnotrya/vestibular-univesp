@@ -2,9 +2,12 @@
 
 Fluxo:
 1. FSRS responde "o que está vencido" (temas com revisão vencida ou novos);
-2. seletor escolhe a questão dentro do tema vencido — habilidade = nível por
+2. tema vencido é sorteado com peso = mistura entre o prior do relatório
+   (frequência real do tema nas provas UNIVESP) e a urgência FSRS; o prior
+   dita no cold start e decai conforme o usuário revisa o tema (α);
+3. seletor escolhe a questão dentro do tema sorteado — habilidade = nível por
    tema (`niveis_usuarios`) se houver dados, senão θ da área (Rasch);
-3. resposta => grava tentativa, atualiza FSRS do(s) tema(s), θ da(s) área(s),
+4. resposta => grava tentativa, atualiza FSRS do(s) tema(s), θ da(s) área(s),
    nível por tema (score/racha/contagem) e o `b` da questão (calibração).
 """
 
@@ -13,10 +16,19 @@ import json
 import random
 import sqlite3
 
+from . import frequencia as frequencia_mod
 from . import fsrs as fsrs_mod
 from . import niveis as niveis_mod
 from . import rasch as rasch_mod
 from . import seletor as seletor_mod
+
+# Fator de decaimento do prior do relatório em favor do FSRS por tema: quanto
+# maior, mais rápido a frequência real perde peso conforme o usuário revisa o
+# tema (0.7 => a cada tentativa o assunto pessoal ganha ~ metade do espaço).
+DECAIMENTO = 0.7
+
+# Piso da urgência FSRS (evita peso zero para tema muito memorizado).
+_URGENCIA_MIN = 0.05
 
 
 def _area_do_tema(con: sqlite3.Connection, tema_id: int) -> int:
@@ -44,6 +56,13 @@ def _json_lista(texto: str | None) -> list:
         return []
 
 
+def _urgencia_fsrs(r: float | None) -> float:
+    """Urgência de revisão do tema em [0.05, 1.0]: novo ou muito esquecido => 1."""
+    if r is None:
+        return 1.0
+    return max(_URGENCIA_MIN, min(1.0, 1.0 - r))
+
+
 def proxima_questao(
     con: sqlite3.Connection,
     usuario: str,
@@ -69,10 +88,11 @@ def proxima_questao(
     if not vencidos:
         return None
 
-    # candidatos: temas vencidos com questão disponível. Revisões atrasadas
-    # (r não-None) têm prioridade, mas o desempate aleatório entre os mais
-    # urgentes + amostra de temas novos faz o estudo alternar de assunto em vez
-    # de prender sempre no mesmo tema (desempate alfabético do vencidos).
+    # candidatos: temas vencidos com questão disponível. O peso final combina o
+    # prior do relatório (frequência real do tema nas provas UNIVESP) com a
+    # urgência FSRS: no cold start (poucas revisões do tema) o relatório dita a
+    # probabilidade; conforme o usuário acumula revisões no tema, o FSRS assume.
+    prior = frequencia_mod.prior_por_tema(con)
     candidatos = []
     for t in vencidos:
         theta = rasch_mod.theta_area(con, usuario, t["area_id"])
@@ -82,20 +102,16 @@ def proxima_questao(
             con, usuario, t["tema_id"], habilidade, rng, excluir_ids
         )
         if q:
-            candidatos.append((t, q, theta, nivel))
+            freq = prior.get(t["tema_id"], frequencia_mod.PRIOR_FLOOR)
+            alfa = 1.0 / (1.0 + DECAIMENTO * nivel["contagem"])
+            peso = alfa * freq + (1.0 - alfa) * _urgencia_fsrs(t["r"])
+            candidatos.append((t, q, theta, nivel, peso))
     if not candidatos:
         return None
 
-    def chave(c):
-        t = c[0]
-        return (
-            0 if t["r"] is not None else 1,
-            t["r"] if t["r"] is not None else 0.0,
-            rng.random(),
-        )
-
-    candidatos.sort(key=chave)
-    t, q, theta, nivel = rng.choice(candidatos[: min(6, len(candidatos))])
+    t, q, theta, nivel, _ = rng.choices(
+        candidatos, weights=[c[4] for c in candidatos], k=1
+    )[0]
     return {
         "questao_id": q["id"],
         "exame_label": q["exame_label"],
