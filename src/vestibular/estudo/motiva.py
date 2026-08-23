@@ -50,8 +50,13 @@ def proxima_questao(
     agora: dt.datetime | None = None,
     seed: int | None = None,
     excluir_ids: set[int] | None = None,
+    area_id: int | None = None,
+    tema_id: int | None = None,
 ) -> dict | None:
     """Devolve a próxima questão (objetiva) ou None se não há nada para estudar.
+
+    `area_id`/`tema_id` (opcionais) restringem os temas considerados; None
+    significa "qualquer área/tema".
 
     Retorna dict com chaves: questao_id, exame_label, numero, enunciado,
     textos_de_apoio, midia, alternativas (dict), gabarito, tema_id, tema_nome,
@@ -60,7 +65,7 @@ def proxima_questao(
     """
     agora = agora or dt.datetime.now(dt.UTC)
     rng = random.Random(seed)
-    vencidos = fsrs_mod.vencidos(con, usuario, agora)
+    vencidos = fsrs_mod.vencidos(con, usuario, agora, area_id, tema_id)
     if not vencidos:
         return None
 

@@ -187,17 +187,70 @@ def modo_explorar():
     _render_questao(q, label, f"explo_{label}_{cur}")
 
 
+@st.cache_data(ttl=300, show_spinner=False)
+def _catalogo():
+    """Áreas e temas do catálogo (IDs + nomes) para os filtros opcionais."""
+    with connect() as con:
+        areas = con.execute("SELECT id, nome FROM areas ORDER BY nome").fetchall()
+        temas = con.execute(
+            "SELECT id, area_id, nome FROM temas ORDER BY area_id, nome"
+        ).fetchall()
+    return [(a["id"], a["nome"]) for a in areas], [
+        (t["id"], t["area_id"], t["nome"]) for t in temas
+    ]
+
+
+def _reset_filtro():
+    st.session_state.pop("estudar_q", None)
+    st.session_state.pop("estudar_fb", None)
+    st.session_state.pop("estudar_aviso", None)
+    st.session_state["estudar_fsrs"] = []
+
+
+def _muda_area():
+    st.session_state["filtro_tema"] = 0
+    _reset_filtro()
+
+
 def modo_estudar():
     sidebar = st.sidebar
     usuario = sidebar.text_input("Usuário", value="eu") or "eu"
+
+    areas, temas = _catalogo()
+    objs_area = {nome: id_ for id_, nome in areas}
+    objs_tema = {nome: (id_, area_id) for id_, area_id, nome in temas}
+    area_labels = ["Todas as áreas", *[nome for _, nome in areas]]
+    area = sidebar.selectbox(
+        "Área (opcional)",
+        area_labels,
+        index=0,
+        key="filtro_area",
+        on_change=_muda_area,
+    )
+    area_id = objs_area.get(area)
+    temas_area = [nome for id_, aid, nome in temas if area_id is None or aid == area_id]
+    tema = sidebar.selectbox(
+        "Tema (opcional)",
+        ["Todos os temas", *temas_area],
+        index=0,
+        key="filtro_tema",
+        on_change=_reset_filtro,
+    )
+    tema_id = objs_tema.get(tema, (None, None))[0]
+
     if sidebar.button("▶ Próxima questão"):
         with connect() as con:
-            q = motiva.proxima_questao(con, usuario)
+            q = motiva.proxima_questao(
+                con, usuario, area_id=area_id, tema_id=tema_id
+            )
         st.session_state["estudar_q"] = q
         st.session_state["estudar_aviso"] = None
         if q is None:
+            filtrado = area_id is not None or tema_id is not None
             st.session_state["estudar_aviso"] = (
-                "Nada vencido para estudar. Responda antes de pedir outra."
+                "Nada vencido para estudar no filtro selecionado."
+                if filtrado
+                else "Nada vencido para estudar. Responda antes de pedir outra."
             )
 
     aviso = st.session_state.get("estudar_aviso")

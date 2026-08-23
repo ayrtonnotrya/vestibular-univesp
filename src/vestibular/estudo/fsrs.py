@@ -84,21 +84,37 @@ def _retrievability(con: sqlite3.Connection, usuario: str, tema_id: int, agora) 
         return 1.0
 
 
-def vencidos(con: sqlite3.Connection, usuario: str, agora: dt.datetime | None = None) -> list[dict]:
+def vencidos(
+    con: sqlite3.Connection,
+    usuario: str,
+    agora: dt.datetime | None = None,
+    area_id: int | None = None,
+    tema_id: int | None = None,
+) -> list[dict]:
     """Temas com revisão vencida (ou nunca iniciados), ordenados por R crescente.
+
+    `area_id`/`tema_id` (opcionais) restringem o escopo do agendamento.
 
     Retorna: [{tema_id, area_id, nome, vencimento, r}].
     """
     agora = agora or dt.datetime.now(dt.UTC)
+    conds = "(f.vencimento IS NULL OR f.vencimento <= ?)"
+    params: list = [usuario, _iso(agora)]
+    if area_id is not None:
+        conds += " AND t.area_id = ?"
+        params.append(area_id)
+    if tema_id is not None:
+        conds += " AND t.id = ?"
+        params.append(tema_id)
     rows = con.execute(
-        """SELECT t.id AS tema_id, t.area_id, t.nome,
+        f"""SELECT t.id AS tema_id, t.area_id, t.nome,
                   f.vencimento AS venc, f.card_json
            FROM temas t
            LEFT JOIN fsrs_estados f
              ON f.tema_id = t.id AND f.usuario = ?
-           WHERE f.vencimento IS NULL OR f.vencimento <= ?
+           WHERE {conds}
            ORDER BY t.nome""",
-        (usuario, _iso(agora)),
+        params,
     ).fetchall()
 
     out = []
