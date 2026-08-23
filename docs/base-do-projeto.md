@@ -265,9 +265,10 @@ recorte/exibição e o app de estudo (ver §6.5):
 > Esse formato é o consumido por `app/panzoom.py` e
 > `tools/gemini/extract_images.py`. Não converter como 0–100.
 
-Acervo atual: 159 figuras mapeadas nos 9 exames (~1 a 20 por exame). As
-paginas de cada questão SEM mídia são localizadas pelo texto do enunciado via
-`question_page()` (§6.5).
+Acervo atual: 159 figuras mapeadas nos 9 exames (~1 a 20 por exame). A página
+de cada questão (com ou sem mídia) é gravada no campo `pagina` de
+`*_questoes.json` por `tools/gemini/fix_paginas.py` (fonte principal; o app não
+lê PDF em runtime).
 
 ### 6.4. Próximos passos (a implementar)
 
@@ -286,27 +287,23 @@ mais robusto (não depende de recorte preciso) e permite ao usuário enquadrar/s
 aproximar como quiser.
 
 - `app/panzoom.py` — viewer pan/zoom da página:
-  - Renderiza a página **na hora do PDF** (PyMuPDF, `get_pixmap`), com o
-    resultado em base64 embutido num `<div>` HTML (`st.iframe`), usando
-    `transform: translate+scale`. Sem PNG pré-renderizado.
+  - Exibe a página a partir do **JPEG pré-renderizado**
+    (`data/paginas/<label>/p<NNN>.jpg`), com o resultado em base64 embutido num
+    `<div>` HTML (`st.iframe`), usando `transform: translate+scale`.
   - **Arrastar** para mover (listeners de mouse no `window`; `<img draggable="false">`
     impede o drag nativo que antes travava).
   - **Zoom** pela roda do mouse, duplo-clique e botões `+`/`−`.
   - Botões "**Página inteira**" (fit) e "**Enquadrar questão**" (volta ao bbox).
-  - Helpers com cache (`@st.cache_data`):
-    - `_page_texts(label)` — textos normalizados das páginas (uma vez/exame).
-    - `question_page(label, enunciado)` — localiza a página da questão buscando
-      o **texto do enunciado** (normalizado) nas páginas; funciona para
-      qualquer exame, mesmo quando o layout do número da questão varia.
-    - `total_pages(label)` — nº de páginas do exame.
 - `app/study.py` — interface de estudo, em um **layout único** para todas as
   questões:
   1. **Questão** (em cima): enunciado, textos de apoio, alternativas
      (`st.radio` + botão Responder) com gabarito.
   2. **Página** (embaixo): viewer pan/zoom; enquadrado no `bbox` se houver,
      página inteira caso contrário.
-  - Página resolvida por: `figs[0]["pagina"]` (se houver `bbox`) **ou**
-    `question_page(label, enunciado)` (questões sem mídia).
+  - Página resolvida por: campo `pagina` do `_questoes.json` (gravado por
+    `tools/gemini/fix_paginas.py`) → página da figura (`bbox`) → `"Página N:"`
+    na `midia` → interpolação pelas páginas conhecidas. **O app não lê PDF em
+    runtime.**
 
 **Como rodar:** `docker compose up vestibular-app` (porta 8501; já na rede
 `web` do nginx-proxy-manager). O serviço usa `app/study.py` como comando.

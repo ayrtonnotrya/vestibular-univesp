@@ -1,4 +1,3 @@
-import os
 import subprocess
 import sys
 import time
@@ -16,8 +15,10 @@ def main():
     for label in only:
         print(f"\n===== {label} =====", flush=True)
         rc = subprocess.call(["python", "extract.py", label])
-        print(f"[runner] {label} rc={rc}", flush=True)
+        print(f"[runner] {label} extract rc={rc}", flush=True)
         time.sleep(15)
+        subprocess.call(["python", "fix_paginas.py", label])
+        print(f"[runner] {label} fix_paginas ok", flush=True)
 
 
 if __name__ == "__main__":

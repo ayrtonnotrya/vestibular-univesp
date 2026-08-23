@@ -9,10 +9,11 @@ Roda no docker-compose:  docker compose up vestibular-app (porta 8501).
 """
 
 import json
+import re
 from pathlib import Path
 
 import streamlit as st
-from panzoom import question_page, view_page
+from panzoom import view_page
 
 from vestibular.estudo import motiva
 from vestibular.estudo.db import connect
@@ -48,16 +49,127 @@ def load_imagens(path):
         return json.load(f)
 
 
-def _page_info(label: str, numero: int, enunciado: str):
-    """Devolve (pagina, bbox) da questão, usando bbox de figuras ou busca de texto."""
+def _midia_pagina(q: dict) -> int | None:
+    """Página informada pelo modelo nas descrições de mídia ("Página N: ...")."""
+    for m in q.get("midia") or []:
+        mh = re.search(r"[Pp]ágina\s*(\d+)", m)
+        if mh:
+            return int(mh.group(1))
+    return None
+
+
+def _interp_pagina(numero: int, imagens: dict) -> int | None:
+    """Interpola a página da questão a partir das páginas conhecidas (figuras),
+    preservando a ordem crescente das questões."""
+    known = sorted(
+        (int(str(n)), recs[0]["pagina"])
+        for n, recs in imagens.items()
+        if recs and recs[0].get("pagina") and recs[0]["pagina"] > 1
+    )
+    if not known:
+        return None
+    antes = [x for x in known if x[0] <= numero]
+    depois = [x for x in known if x[0] >= numero]
+    if antes and depois:
+        (n1, p1), (n2, p2) = antes[-1], depois[0]
+        if n1 == n2:
+            return p1
+        return round(p1 + (numero - n1) * (p2 - p1) / (n2 - n1))
+    return antes[-1][1] if antes else depois[0][1]
+
+
+def _page_info(label: str, numero: int):
+    """Devolve (pagina, bbox) da questão a partir dos JSONs (sem PDF).
+
+    Ordem das fontes: campo `pagina` gravado no JSON da questão → página da
+    figura quando há `bbox` → "Página N:" na descrição de mídia → interpolação
+    pelas páginas conhecidas do exame.
+    """
     ji = JSON_DIR / f"{label}_imagens.json"
     imagens = load_imagens(str(ji))["figuras_coordenadas"] if ji.exists() else {}
+    q = _questao_json(label, numero) or {}
     figs = imagens.get(str(numero), [])
     bbox = (
         figs[0].get("bbox") if figs and isinstance(figs[0].get("bbox"), list) else None
     )
-    pagina = figs[0]["pagina"] if bbox is not None else question_page(label, enunciado)
+    pagina = q.get("pagina")
+    if not isinstance(pagina, int) or pagina <= 1:
+        pagina = figs[0]["pagina"] if bbox is not None else None
+    if not isinstance(pagina, int) or pagina <= 1:
+        pagina = _midia_pagina(q) or _interp_pagina(numero, imagens) or 1
     return pagina, bbox
+
+
+def _param(chave: str) -> str | None:
+    """Valor (string única) de um query param, ou None."""
+    v = st.query_params.get(chave)
+    return v if isinstance(v, str) and v else None
+
+
+def _sync_params(**params):
+    """Persiste os valores na URL em uma única atualização, só se mudou."""
+    alvo = {k: (str(v) if v is not None else "") for k, v in params.items()}
+    diff = {k: v for k, v in alvo.items() if st.query_params.get(k) != v}
+    if diff:
+        st.query_params.update(diff)
+
+
+def _fb_encode(correta, gabarito) -> str:
+    marc = {None: "a", True: "c", False: "e"}.get(correta, "a")
+    return f"{marc}:{gabarito or ''}"
+
+
+def _restaurar_estudar(usuario: str):
+    """Restaura a questão em aberto (modo Estudar) a partir de `?qid=`."""
+    qid = _param("qid")
+    if not qid:
+        return
+    try:
+        qid = int(qid)
+    except ValueError:
+        return
+    with connect() as con:
+        resto = motiva.questao_por_id(con, usuario, qid)
+    if resto:
+        st.session_state["estudar_q"] = resto
+        st.session_state["params_qid"] = str(qid)
+
+
+def _restaurar_fb():
+    """Restaura o feedback da última resposta (modo Estudar) a partir de `?fb=`."""
+    raw = _param("fb") or ""
+    st.session_state["params_fb"] = raw
+    if ":" not in raw:
+        return
+    marc, gab = raw.split(":", 1)
+    texto = {
+        "a": "⚠️ Anulada/sem gabarito oficial",
+        "c": "✅ Correta!",
+        "e": "❌ Errada.",
+    }.get(marc)
+    if texto:
+        st.session_state["estudar_fb"] = (texto, {"gabarito": gab})
+
+
+def _restaurar_do_url():
+    """Na primeira execução após um load (ex.: refresh no celular), restaura os
+    widgets a partir da URL: modo, usuário e a questão em aberto."""
+    if st.session_state.get("_carregado"):
+        return
+    st.session_state.setdefault("usuario", _param("usuario") or "eu")
+    modo = "Estudar" if _param("modo") not in ("Estudar", "Explorar") else _param("modo")
+    st.session_state["modo"] = modo
+    if modo == "Estudar":
+        _restaurar_estudar(st.session_state["usuario"])
+        _restaurar_fb()
+    else:
+        if _param("label") in LABELS:
+            st.session_state["explo_label"] = _param("label")
+        try:
+            st.session_state["explo_cur"] = int(_param("numero"))
+        except (TypeError, ValueError):
+            pass
+    st.session_state["_carregado"] = True
 
 
 _OBS_PREFIXOS = (
@@ -142,7 +254,7 @@ def _render_questao(
     if feedback is not None:
         feedback()
 
-    pagina, bbox = _page_info(label, numero, enunciado)
+    pagina, bbox = _page_info(label, numero)
     with st.container(border=True):
         st.subheader(f"📄 Página {pagina}")
         if bbox is not None:
@@ -177,8 +289,8 @@ def _questao_db_id(label: str, numero: int) -> int | None:
 
 def modo_explorar():
     sidebar = st.sidebar
-    usuario = sidebar.text_input("Usuário", value="eu") or "eu"
-    label = sidebar.selectbox("Exame", LABELS)
+    usuario = sidebar.text_input("Usuário", key="usuario") or "eu"
+    label = sidebar.selectbox("Exame", LABELS, key="explo_label")
     jq = JSON_DIR / f"{label}_questoes.json"
     if not jq.exists():
         st.error(f"Sem {jq}")
@@ -186,7 +298,13 @@ def modo_explorar():
     questoes = load_questoes(str(jq))["questoes"]
 
     qs = [q["numero"] for q in questoes]
-    cur = sidebar.selectbox("Questão", qs, format_func=lambda n: f"Questão {n}")
+    if st.session_state.get("explo_cur") not in qs:
+        st.session_state.pop("explo_cur", None)
+    cur = sidebar.selectbox(
+        "Questão", qs, format_func=lambda n: f"Questão {n}", key="explo_cur"
+    )
+    st.session_state["params_label"] = label
+    st.session_state["params_numero"] = str(cur)
     q = next((x for x in questoes if x["numero"] == cur), None)
     if q is None:
         st.warning("Questão não encontrada.")
@@ -264,6 +382,8 @@ def _reset_filtro():
     st.session_state.pop("estudar_q", None)
     st.session_state.pop("estudar_fb", None)
     st.session_state.pop("estudar_aviso", None)
+    st.session_state.pop("params_qid", None)
+    st.session_state.pop("params_fb", None)
     st.session_state["estudar_fsrs"] = []
 
 
@@ -309,7 +429,7 @@ def _mostrar_progresso(usuario: str):
 
 def modo_estudar():
     sidebar = st.sidebar
-    usuario = sidebar.text_input("Usuário", value="eu") or "eu"
+    usuario = sidebar.text_input("Usuário", key="usuario") or "eu"
 
     areas, temas = _catalogo()
     objs_area = {nome: id_ for id_, nome in areas}
@@ -341,6 +461,8 @@ def modo_estudar():
         st.session_state["estudar_q"] = q
         st.session_state["estudar_aviso"] = None
         st.session_state.pop("estudar_fb", None)
+        st.session_state["params_qid"] = str(q["questao_id"]) if q else ""
+        st.session_state.pop("params_fb", None)
         if q is None:
             filtrado = area_id is not None or tema_id is not None
             st.session_state["estudar_aviso"] = (
@@ -387,6 +509,7 @@ def modo_estudar():
                 False: "❌ Errada.",
             }[r["correta"]]
             st.session_state["estudar_fb"] = (fb, r)
+            st.session_state["params_fb"] = _fb_encode(r["correta"], r["gabarito"])
             for t in r["temas"]:
                 st.session_state.setdefault("estudar_fsrs", []).append(
                     f"{q['tema_nome']} → vencimento {t['vencimento'].isoformat()} ({t['estado']})"
@@ -418,11 +541,25 @@ def modo_estudar():
 
 def main():
     st.title("🎓 Estudo Vestibular")
-    modo = st.sidebar.radio("Modo", ["Estudar", "Explorar"])
+    _restaurar_do_url()
+    modo = st.sidebar.radio("Modo", ["Estudar", "Explorar"], key="modo")
+    params = {
+        "modo": modo,
+        "usuario": st.session_state.get("usuario", "eu"),
+    }
     if modo == "Estudar":
         modo_estudar()
+        params["qid"] = st.session_state.get("params_qid", "")
+        params["fb"] = st.session_state.get("params_fb", "")
+        params["label"] = ""
+        params["numero"] = ""
     else:
         modo_explorar()
+        params["label"] = st.session_state.get("params_label", "")
+        params["numero"] = st.session_state.get("params_numero", "")
+        params["qid"] = ""
+        params["fb"] = ""
+    _sync_params(**params)
 
 
 if __name__ == "__main__":

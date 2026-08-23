@@ -59,6 +59,14 @@ Fluxo implementado em `tools/gemini/` (Python, roda via `gemini-runner`):
    dos JSONs a partir do **texto oficial** do gabarito (`tmp/gabaritos/<label>_gabarito.txt`,
    gerado com `pdftotext -layout`), imprimindo as divergências para conferência.
    Usar depois do `extract` e antes/junto do `repair`.
+7. **fix_paginas**: `fix_paginas.py [labels...]` grava `pagina` (1-indexada,
+   pág. 1 = capa) em cada questão do `_questoes.json` e corrige `pagina` inválida
+   no `_imagens.json`. Fontes: página do bbox (figuras) → localização pelo texto
+   do enunciado no PDF (a extração da FUVEST insere `¬` entre palavras; a
+   normalização converte não-alfanuméricos em espaço, senão a busca falha) →
+   "Página N:" na `midia` → interpolação pelas páginas conhecidas. Roda sozinho
+   no `run_all.py` após o `extract`. **O app NÃO lê PDF em runtime: a página vem
+   dos JSONs.**
 
 ### Particularidades FUVEST (1ª fase — 90 questões, 5 alternativas)
 
@@ -101,12 +109,12 @@ Resultado extraído e validado (gabaritos 100% conferidos):
   - Exibe a página via JPEG pré-renderizado
     (`data/paginas/<label>/p<NNN>.jpg`, gerado por
     `tools/gemini/render_pages.py` — max 1400px, qualidade 75, **JPEG colorido**)
-    num `st.iframe` `<div>` com `transform: translate+scale`. Se o JPEG faltar,
-    cai para renderização na hora do PDF (PyMuPDF, `get_pixmap`).
+    num `st.iframe` `<div>` com `transform: translate+scale`.
   - Arrastar (pan) + zoom (roda, duplo-clique, botões `+`/`−`); botões
     "Página inteira" e "Enquadrar questão".
-  - Helpers com cache: `question_page(label, enunciado)` (localiza a página da
-    questão pelo texto normalizado do PDF), `total_pages`, `_page_texts`.
+  - **Não lê PDF**: a página vem do campo `pagina` dos JSONs (gravado por
+    `fix_paginas.py`); `app/study.py` usa `pagina` do JSON → página do bbox →
+    "Página N:" na `midia` → interpolação pelas páginas conhecidas.
 - **Como rodar:** `docker compose up vestibular-app` → porta `8501` (na rede
   `web` do nginx-proxy-manager). O serviço usa `app/study.py` como comando.
 
@@ -162,7 +170,7 @@ Resultado extraído e validado (gabaritos 100% conferidos):
 docs/              # base do projeto + plano de ação
 src/               # pipeline Python puro (download, extract, parse, db, ia/, estudo)
 app/               # Streamlit (interface de estudo) — study.py + panzoom.py
-tools/gemini/      # toolkit validado: extração via Gemini (Dockerfile, extract/validate/repair/run_all)
+tools/gemini/      # toolkit validado: extração via Gemini (Dockerfile, extract/validate/repair/gabfix/fix_paginas/run_all)
 data/              # QUASE NÃO VERSIONADA: pdfs, json/ e paginas/ (exceção:
                    # assuntos.json, data/json/*_questoes.json + *_imagens.json e
                    # data/paginas/*/*.jpg versionados), imagens/, vestibular.db
@@ -184,6 +192,8 @@ contagem por `(usuario, tema)`) e `tentativas`. Pendente do plano original:
   `tools/gemini/run_all.py <labels...>`
 - Validação dos JSONs: `tools/gemini/validate.py`
 - Reparo dos assuntos: `tools/gemini/repair.py`
+- Gravar `pagina` nas questões (rodar quando o PDF ainda existe; o `run_all.py`
+  já roda ao extrair): `tools/gemini/fix_paginas.py [labels...]`
 - Páginas JPEG do app (re-gerar ao adicionar exame):
   `docker run --rm -v "$PWD/data:/app/data" -w /app vestibular-app:latest \
   python tools/gemini/render_pages.py`

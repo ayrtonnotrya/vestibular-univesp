@@ -1,18 +1,18 @@
 """Viewer pan/zoom de página de prova para o app de estudo.
 
 A página vem de um JPEG pré-renderizado (data/paginas/<label>/p<NNN>.jpg,
-gerado por tools/gemini/render_pages.py); se faltar, cai para renderização
-na hora a partir do PDF (PyMuPDF). Exibida num <div> HTML com transform CSS,
-permitindo:
+gerado por tools/gemini/render_pages.py). Exibida num <div> HTML com transform
+CSS, permitindo:
 - arrastar (pan);
 - zoom in/out pela roda do mouse, double-click e botões + / -;
 - "ver página inteira" (reset) e voltar ao enquadramento da questão (bbox).
 
-Caminhos: /app/data/paginas/<label>/p<NNN>.jpg e /app/data/<label>_questoes.pdf
-(montados pelo docker-compose).
+A página de cada questão vem dos JSONs (campo `pagina`), não do PDF — os PDFs
+são insumo descartável e não são lidos em runtime.
+
+Caminho: /app/data/paginas/<label>/p<NNN>.jpg (montado pelo docker-compose).
 """
 import base64
-import re
 from pathlib import Path
 
 import pymupdf
@@ -20,37 +20,22 @@ import streamlit as st
 
 DATA_DIR = Path("/app/data")
 PAGES_DIR = DATA_DIR / "paginas"
-MAX_SIDE = 1400
-DPI = 200
-
-
-def _norm(s):
-    s = s.lower()
-    s = "".join(c for c in s if c.isalnum() or c == " ")
-    return re.sub(r"\s+", " ", s)
 
 
 @st.cache_data(show_spinner=False)
-def _page_texts(label: str):
-    """Textos normalizados das páginas do exame (uma vez por exame)."""
-    pdf = DATA_DIR / f"{label}_questoes.pdf"
-    if not pdf.exists():
-        return []
-    doc = pymupdf.open(str(pdf))
-    texts = [_norm(p.get_text()) for p in doc]
-    doc.close()
-    return texts
+def _page_jpeg(label: str, page_num: int):
+    """Lê a página pré-renderizada (JPEG) em base64 + dims; None se ausente."""
+    path = PAGES_DIR / label / f"p{int(page_num):03d}.jpg"
+    if not path.exists():
+        return None
+    pix = pymupdf.Pixmap(str(path))
+    w, h = pix.width, pix.height
+    b64 = base64.b64encode(path.read_bytes()).decode()
+    return b64, w, h
 
 
-@st.cache_data(show_spinner=False)
-def total_pages(label: str) -> int:
-    pdf = DATA_DIR / f"{label}_questoes.pdf"
-    if not pdf.exists():
-        return 0
-    doc = pymupdf.open(str(pdf))
-    n = doc.page_count
-    doc.close()
-    return n
+def _page_image(label: str, page_num: int):
+    return _page_jpeg(label, page_num)
 
 
 _JS = r"""
@@ -133,35 +118,6 @@ _JS = r"""
 
 
 @st.cache_data(show_spinner=False)
-def question_page(label: str, enunciado: str) -> int:
-    """Página (1-indexed) em que está a questão de texto `enunciado`.
-
-    Estratégia: localiza o início do enunciado no texto das páginas (normalizado),
-    testando trechos progressivamente menores (para enunciados longos em que o
-    início possa variar). Funciona para qualquer exame, independente do layout.
-    """
-    texts = _page_texts(label)
-    if not texts:
-        return 1
-    needle = _norm(enunciado.strip()[:40])
-    if not needle:
-        return 1
-    for pag, t in enumerate(texts, 1):
-        if needle in t:
-            return pag
-    # fallback: trecho menor (20 chars) sem o início variável
-    for pag, t in enumerate(texts, 1):
-        if _norm(enunciado.strip()[:20]) in t:
-            return pag
-    # fallback: busca por qualquer trecho das alternativas/textos de apoio
-    for pag, t in enumerate(texts, 1):
-        for part in _norm(enunciado).split():
-            if len(part) >= 8 and part in t:
-                return pag
-    return 1
-
-
-@st.cache_data(show_spinner=False)
 def _page_jpeg(label: str, page_num: int):
     """Lê a página pré-renderizada (JPEG) em base64 + dims; None se ausente."""
     path = PAGES_DIR / label / f"p{int(page_num):03d}.jpg"
@@ -173,32 +129,15 @@ def _page_jpeg(label: str, page_num: int):
     return b64, w, h
 
 
-@st.cache_data(show_spinner=False)
-def _render_pdf(label: str, page_num: int):
-    """Fallback: renderiza a página `page_num` do PDF em PNG (base64) + dims."""
-    pdf = DATA_DIR / f"{label}_questoes.pdf"
-    if not pdf.exists():
-        return None
-    doc = pymupdf.open(str(pdf))
-    page = doc[int(page_num) - 1]
-    rect = page.rect
-    scale = min(MAX_SIDE / rect.width, MAX_SIDE / rect.height, DPI / 72)
-    pix = page.get_pixmap(matrix=pymupdf.Matrix(scale, scale))
-    b64 = base64.b64encode(pix.tobytes("png")).decode()
-    w, h = pix.width, pix.height
-    doc.close()
-    return b64, w, h
-
-
 def _page_image(label: str, page_num: int):
-    return _page_jpeg(label, page_num) or _render_pdf(label, page_num)
+    return _page_jpeg(label, page_num)
 
 
 def panzoom_component(label: str, page_num: int, bbox_percent, height=720):
     rendered = _page_image(label, page_num)
     if rendered is None:
         st.error(f"Página não encontrada: {PAGES_DIR / (label + f'/p{page_num:03d}.jpg')} "
-                 f"nem o PDF {DATA_DIR / (label + '_questoes.pdf')}")
+                 f"— rode tools/gemini/render_pages.py para gerá-la.")
         return
     b64, naturalW, naturalH = rendered
     src = "data:image/png;base64," + b64
