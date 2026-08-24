@@ -207,6 +207,15 @@ contagem por `(usuario, tema)`) e `tentativas`. Pendente do plano original:
 - App de estudo (Fase 2 parcial): `docker compose up vestibular-app` → porta 8501.
 - MCP (AnythingLLM): `docker compose up -d vestibular-mcp` →
   `http://vestibular-mcp:8891/sse` (só rede interna `web`).
+- Sincronizar o plano de estudos com o Trilium (`tools/trilium/sync_plano.py`,
+  CLIENTE MCP do Trilium — não confundir com o vestibular-mcp acima, que é o
+  servidor; token ETAPI em `TRILIUM_TOKEN` no `.env`, criar em Opções > ETAPI):
+  ```bash
+  docker run --rm --network host --env-file .env \
+    -v "$PWD":/work -w /work vestibular-app:latest \
+    python tools/trilium/sync_plano.py --dry-run
+  ```
+  Sem `--dry-run` aplica; `--check` valida (exit 0 se consistente).
 - Auto-recorte de figuras (opcional): `tools/gemini/extract_images.py <labels...>`
   → `data/imagens/` (não é usado pelo app).
 - Lint/format (quando adicionado): `ruff check .` e `ruff format .`.
