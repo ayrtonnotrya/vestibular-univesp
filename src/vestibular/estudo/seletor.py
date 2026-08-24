@@ -37,6 +37,27 @@ def _vistas(con: sqlite3.Connection, usuario: str, questao_ids: list[int]) -> di
     return {r["questao_id"]: r["ultima"] for r in rows}
 
 
+def escolher_aleatoria(
+    con: sqlite3.Connection,
+    usuario: str,
+    tema_id: int,
+    rng: random.Random,
+    excluir_ids: set[int] | None = None,
+) -> dict | None:
+    """Questão aleatória do tema (sorteio uniforme), preferindo inéditas.
+
+    Devolve None se o tema não tem questão disponível. Usado na seleção por
+    prioridade do tema (evita repetição das mesmas questões de sempre)."""
+    excluir = excluir_ids or set()
+    questoes = [q for q in _questoes_tema(con, tema_id) if q["id"] not in excluir]
+    if not questoes:
+        return None
+    vistos = _vistas(con, usuario, [q["id"] for q in questoes])
+    ineditas = [q for q in questoes if q["id"] not in vistos]
+    pool = ineditas or questoes
+    return dict(rng.choice(pool))
+
+
 def escolher(
     con: sqlite3.Connection,
     usuario: str,

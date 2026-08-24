@@ -2,11 +2,10 @@
 
 Fluxo:
 1. FSRS responde "o que está vencido" (temas com revisão vencida ou novos);
-2. tema vencido é sorteado com peso = mistura entre o prior do relatório
-   (frequência real do tema nas provas UNIVESP) e a urgência FSRS; o prior
-   dita no cold start e decai conforme o usuário revisa o tema (α);
-3. seletor escolhe a questão dentro do tema sorteado — habilidade = nível por
-   tema (`niveis_usuarios`) se houver dados, senão θ da área (Rasch);
+2. tema vencido é sorteado com peso = prioridade do tema:
+   0,4·frequência real do tema nas provas UNIVESP + 0,4·(1 − score por tema)
+   + 0,2·exploração (inverso das observações — temas pouco vistos sobem);
+3. questão do tema sorteado é sorteada uniformemente, preferindo inéditas;
 4. resposta => grava tentativa, atualiza FSRS do(s) tema(s), θ da(s) área(s),
    nível por tema (score/racha/contagem) e o `b` da questão (calibração).
 """
@@ -22,13 +21,15 @@ from . import niveis as niveis_mod
 from . import rasch as rasch_mod
 from . import seletor as seletor_mod
 
-# Fator de decaimento do prior do relatório em favor do FSRS por tema: quanto
-# maior, mais rápido a frequência real perde peso conforme o usuário revisa o
-# tema (0.7 => a cada tentativa o assunto pessoal ganha ~ metade do espaço).
-DECAIMENTO = 0.7
+# Pesos da prioridade do tema no sorteio da próxima questão: frequência real
+# do tema nas provas UNIVESP, fraqueza do usuário (1 - score por tema) e
+# exploração (inverso do nº de observações).
+PESO_FREQ = 0.4
+PESO_FRAQUEZA = 0.4
+PESO_EXPLORACAO = 0.2
 
-# Piso da urgência FSRS (evita peso zero para tema muito memorizado).
-_URGENCIA_MIN = 0.05
+# Score neutro (1 - score = 0.5) para temas sem tentativas do usuário.
+SCORE_NEUTRO = 0.5
 
 
 def _area_do_tema(con: sqlite3.Connection, tema_id: int) -> int:
@@ -56,13 +57,6 @@ def _json_lista(texto: str | None) -> list:
         return []
 
 
-def _urgencia_fsrs(r: float | None) -> float:
-    """Urgência de revisão do tema em [0.05, 1.0]: novo ou muito esquecido => 1."""
-    if r is None:
-        return 1.0
-    return max(_URGENCIA_MIN, min(1.0, 1.0 - r))
-
-
 def proxima_questao(
     con: sqlite3.Connection,
     usuario: str,
@@ -88,24 +82,26 @@ def proxima_questao(
     if not vencidos:
         return None
 
-    # candidatos: temas vencidos com questão disponível. O peso final combina o
-    # prior do relatório (frequência real do tema nas provas UNIVESP) com a
-    # urgência FSRS: no cold start (poucas revisões do tema) o relatório dita a
-    # probabilidade; conforme o usuário acumula revisões no tema, o FSRS assume.
+    # candidatos: temas vencidos com questão disponível. A prioridade do tema
+    # combina a frequência real nas provas UNIVESP (o que mais cai), a fraqueza
+    # do usuário (1 - score por tema) e a exploração (inverso das observações);
+    # o sorteio ponderado evita temas que insistem em aparecer.
     prior = frequencia_mod.prior_por_tema(con)
     candidatos = []
     for t in vencidos:
         theta = rasch_mod.theta_area(con, usuario, t["area_id"])
         nivel = niveis_mod.habilidade_tema(con, usuario, t["tema_id"])
-        habilidade = nivel["valor"] if nivel["base"] == "tema" else theta
-        q = seletor_mod.escolher(
-            con, usuario, t["tema_id"], habilidade, rng, excluir_ids
-        )
+        q = seletor_mod.escolher_aleatoria(con, usuario, t["tema_id"], rng, excluir_ids)
         if q:
             freq = prior.get(t["tema_id"], frequencia_mod.PRIOR_FLOOR)
-            alfa = 1.0 / (1.0 + DECAIMENTO * nivel["contagem"])
-            peso = alfa * freq + (1.0 - alfa) * _urgencia_fsrs(t["r"])
-            candidatos.append((t, q, theta, nivel, peso))
+            score = nivel["score"] if nivel["score"] is not None else SCORE_NEUTRO
+            exploracao = 1.0 / (1.0 + nivel["contagem"])
+            prioridade = (
+                PESO_FREQ * freq
+                + PESO_FRAQUEZA * (1.0 - score)
+                + PESO_EXPLORACAO * exploracao
+            )
+            candidatos.append((t, q, theta, nivel, prioridade))
     if not candidatos:
         return None
 
