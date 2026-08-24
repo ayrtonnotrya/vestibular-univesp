@@ -5,14 +5,21 @@ acervo (SQLite `data/vestibular.db`). Roda no docker-compose como
 `vestibular-mcp` na rede interna `web`; o AnythingLLM conecta por
 `http://vestibular-mcp:8891/sse`.
 
+A app FastAPI envolve o transport SSE do FastMCP (`/sse`, `/messages/`) e
+acrescenta documentação automática (`/openapi.json`, `/docs`) e a rota REST
+convencional `POST /api/consultar` para clientes que não falam MCP nativo
+(ex.: Gemini Web), com CORS liberado para o navegador.
+
 Toda tool devolve uma STRING JSON (documento único) — o FastMCP entregaria
 listas como blocos separados, o que quebra o parse no cliente.
 """
 
 import datetime as dt
 import json
+from typing import Any, Callable
 
 from mcp.server.fastmcp import FastMCP
+from pydantic import BaseModel, Field
 
 from vestibular.estudo import frequencia, motiva
 from vestibular.estudo.db import connect
@@ -226,8 +233,90 @@ def gabarito_exame(exame: str) -> str:
     return _json([dict(r) for r in rows])
 
 
+class ConsultarRequest(BaseModel):
+    """Corpo do POST /api/consultar: seleciona uma tool pelo nome."""
+
+    tool: str = Field(description="Nome da tool a executar (ver GET /api/tools)")
+    params: dict[str, Any] = Field(
+        default_factory=dict, description="Argumentos da tool, ex.: {'usuario': 'eu'}"
+    )
+
+
+TOOLS: dict[str, Callable[..., str]] = {
+    "proxima_questao": proxima_questao,
+    "responder": responder,
+    "progresso": progresso,
+    "niveis_por_tema": niveis_por_tema,
+    "questoes_respondidas": questoes_respondidas,
+    "relatorio_provas": relatorio_provas,
+    "listar_exames": listar_exames,
+    "buscar_questoes": buscar_questoes,
+    "gabarito_exame": gabarito_exame,
+}
+
+
 def main() -> None:
-    mcp.run(transport="sse")
+    from fastapi import FastAPI, HTTPException
+    from fastapi.middleware.cors import CORSMiddleware
+
+    mcp_app = mcp.sse_app()
+
+    app = FastAPI(
+        title="vestibular-mcp",
+        description=(
+            "Motor de estudo (ZPD) e acervo de vestibulares. "
+            "Clientes MCP nativos usam /sse (SSE); REST convencional em "
+            "POST /api/consultar. Documentação: /docs e /openapi.json."
+        ),
+        version="1.0.0",
+    )
+    app.add_middleware(
+        CORSMiddleware,
+        allow_origins=["*"],
+        allow_methods=["*"],
+        allow_headers=["*"],
+        expose_headers=["*"],
+        allow_credentials=False,
+    )
+
+    @app.get("/.well-known/mcp.json")
+    def well_known() -> dict:
+        """Descoberta do servidor MCP (SSE) para clientes que seguem a spec."""
+        return {
+            "name": "vestibular",
+            "version": "1.0.0",
+            "endpoints": [{"name": "sse", "url": "/sse", "transport": "sse"}],
+        }
+
+    @app.get("/api/tools")
+    def listar_tools() -> list[dict[str, str]]:
+        """Lista as tools disponíveis para POST /api/consultar."""
+        return [
+            {"nome": nome, "descricao": (func.__doc__ or "").strip()}
+            for nome, func in TOOLS.items()
+        ]
+
+    @app.post("/api/consultar", response_model=None)
+    def consultar(req: ConsultarRequest):
+        """Executa uma tool (mesma regra de negócio do MCP) e devolve JSON."""
+        func = TOOLS.get(req.tool)
+        if func is None:
+            raise HTTPException(
+                status_code=404, detail=f"ferramenta desconhecida: {req.tool}"
+            )
+        try:
+            resultado = func(**req.params)
+        except TypeError as exc:
+            raise HTTPException(status_code=400, detail=f"parâmetros inválidos: {exc}")
+        except ValueError as exc:
+            raise HTTPException(status_code=400, detail=str(exc))
+        return json.loads(resultado)
+
+    app.mount("/", mcp_app)
+
+    import uvicorn
+
+    uvicorn.run(app, host="0.0.0.0", port=8891)
 
 
 if __name__ == "__main__":

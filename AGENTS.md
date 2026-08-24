@@ -132,6 +132,13 @@ Resultado extraído e validado (gabaritos 100% conferidos):
 - **Como rodar:** `docker compose up -d vestibular-mcp` → serviço interno na
   rede `web`, URL `http://vestibular-mcp:8891/sse`, **sem porta publicada no
   host** (AnythingLLM alcança só pela rede).
+- **Interface REST (FastAPI):** o `main()` envolve o transport SSE do FastMCP
+  numa app FastAPI — `/sse` e `/messages/` intactos p/ clientes MCP nativos;
+  acrescenta `/openapi.json`, `/docs`, `/.well-known/mcp.json`,
+  `GET /api/tools` e `POST /api/consultar` (`{"tool": "<nome>", "params": {...}}`
+  chama a MESMA tool MCP e devolve o JSON). CORS liberado (`*`, sem credenciais)
+  p/ o Gemini Web conectar pelo navegador. Dependência: extra `.[mcp]` agora
+  inclui `fastapi`.
 - **AnythingLLM:** Workspace → MCP servers → stream/SSE URL acima; provider do
   agente configurado no próprio AnythingLLM. O sistema usa o mesmo
   `data/vestibular.db` (volume `./data` compartilhado com o app).
