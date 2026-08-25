@@ -22,6 +22,7 @@ from vestibular.estudo.db import connect
 
 DATA = Path("/app/data")
 JSON_DIR = DATA / "json"
+PAGES_DIR = DATA / "paginas"
 
 LABELS = [
     *[f"fuvest_{ano}" for ano in range(2026, 2009, -1)],
@@ -103,6 +104,71 @@ def _page_info(label: str, numero: int):
     if not isinstance(pagina, int) or pagina <= 1:
         pagina = _midia_pagina(q) or _interp_pagina(numero, imagens) or 1
     return pagina, bbox
+
+
+def _nome_vestibular(label: str) -> str:
+    """Nome legível do vestibular a partir do label (fuvest_2024, univesp_2019_2s)."""
+    partes = label.split("_")
+    vest = partes[0]
+    ano = sem = ""
+    for p in partes[1:]:
+        if p.isdigit():
+            ano = p
+        elif p.endswith("s"):
+            sem = p
+    nome = {
+        "fuvest": "FUVEST",
+        "univesp": "UNIVESP",
+        "unesp": "UNESP",
+        "unicamp": "UNICAMP",
+    }.get(vest, vest.upper())
+    return nome + (f" {ano}" if ano else "") + (f"/{sem}" if sem else "")
+
+
+@st.cache_data(show_spinner=False)
+def _max_pagina(label: str) -> int:
+    """Maior número de página renderizada (JPEG) disponível para o exame."""
+    d = PAGES_DIR / label
+    if not d.exists():
+        return 1
+    return max((int(p.stem[1:]) for p in d.glob("p*.jpg")), default=1)
+
+
+def _dados_temas(questao_id: int | None, usuario: str) -> list[dict]:
+    """Todos os temas da questão com θ da área e score/nível por tema do usuário."""
+    if not questao_id:
+        return []
+    with connect() as con:
+        rows = con.execute(
+            """SELECT c.area_id, a.nome AS area, t.id AS tema_id, t.nome AS tema
+               FROM classificacoes c
+               JOIN temas t ON t.id = c.tema_id
+               JOIN areas a ON a.id = c.area_id
+               WHERE c.questao_id = ?
+               ORDER BY a.nome, t.nome""",
+            (questao_id,),
+        ).fetchall()
+        out = []
+        for r in rows:
+            nu = con.execute(
+                "SELECT score, contagem FROM niveis_usuarios WHERE usuario=? AND tema_id=?",
+                (usuario, r["tema_id"]),
+            ).fetchone()
+            hab = con.execute(
+                "SELECT theta, n_obs FROM habilidades WHERE usuario=? AND area_id=?",
+                (usuario, r["area_id"]),
+            ).fetchone()
+            out.append(
+                {
+                    "area": r["area"],
+                    "tema": r["tema"],
+                    "score": nu["score"] if nu else None,
+                    "contagem": nu["contagem"] if nu else 0,
+                    "theta": hab["theta"] if hab else None,
+                    "n_obs": hab["n_obs"] if hab else 0,
+                }
+            )
+    return out
 
 
 def _param(chave: str) -> str | None:
@@ -205,20 +271,43 @@ def _separar_observacoes(apoios: list[str]) -> tuple[list[str], list[str]]:
 
 
 def _render_questao(
-    q: dict, label: str, key_suffix: str, on_responder=None, feedback=None
+    q: dict,
+    label: str,
+    key_suffix: str,
+    on_responder=None,
+    feedback=None,
+    questao_id: int | None = None,
+    usuario: str = "eu",
 ):
     """Renderiza questão (em cima) + página pan/zoom (embaixo).
 
     `feedback` (callable ou None) renderiza o resultado da resposta entre a
-    questão e a página, se fornecido."""
+    questão e a página, se fornecido. `questao_id` (opcional) habilita a lista
+    completa de temas da questão."""
     numero, enunciado = q["numero"], q["enunciado"]
     has_midia = bool(q.get("midia") or q.get("_midia"))
     midia = q.get("_midia", [])
     leituras, obs = _separar_observacoes(q.get("_textos_de_apoio", []))
-    st.caption(
-        f"Questão {numero} · {q['tipo']}"
-        + (f" · {len(midia)} figura(s)" if has_midia else " · sem mídia")
+
+    # identificação: vestibular, número, tipo e todos os temas
+    info = f"**{_nome_vestibular(label)}** · Questão {numero} · {q['tipo']}"
+    info += (
+        f" · {len(midia)} figura(s)" if has_midia else " · sem mídia"
     )
+    st.markdown(info)
+    dados = _dados_temas(questao_id, usuario)
+    if dados:
+        st.markdown("**Temas:**")
+        for t in dados:
+            sc = f"{t['score']:.2f}" if t["score"] is not None else "—"
+            th = f"{t['theta']:.2f}" if t["theta"] is not None else "—"
+            st.markdown(
+                f"- **{t['area']} → {t['tema']}** · "
+                f"θ área: {th} · score: {sc} ({t['contagem']} tentativa(s))"
+            )
+    elif q.get("areas"):
+        st.markdown("**Áreas:**")
+        st.markdown("\n".join(f"- **{a['area']}**" for a in q["areas"]))
 
     with st.container(border=True):
         for apoio in leituras:
@@ -261,7 +350,40 @@ def _render_questao(
     if feedback is not None:
         feedback()
 
-    pagina, bbox = _page_info(label, numero)
+    pagina_padrao, bbox_padrao = _page_info(label, numero)
+    pkey = f"pag_{key_suffix}"
+    if pkey not in st.session_state:
+        st.session_state[pkey] = pagina_padrao
+    pagina = st.session_state[pkey]
+    max_pag = _max_pagina(label)
+
+    def _ir_pagina(delta: int):
+        st.session_state[pkey] = max(1, min(max_pag, st.session_state[pkey] + delta))
+
+    nav1, nav2, nav3 = st.columns([1, 1, 3])
+    with nav1:
+        st.button(
+            "⬅ Anterior",
+            key=f"ant_{key_suffix}",
+            disabled=pagina <= 1,
+            on_click=_ir_pagina,
+            args=(-1,),
+        )
+    with nav2:
+        st.button(
+            "Próxima ➡",
+            key=f"prox_{key_suffix}",
+            disabled=pagina >= max_pag,
+            on_click=_ir_pagina,
+            args=(1,),
+        )
+    with nav3:
+        nav_msg = f"Página **{pagina}** de {max_pag}"
+        if pagina != pagina_padrao:
+            nav_msg += " · navegando (enquadramento da questão desativado)"
+        st.caption(nav_msg)
+
+    bbox = bbox_padrao if pagina == pagina_padrao else None
     with st.container(border=True):
         st.subheader(f"📄 Página {pagina}")
         if bbox is not None:
@@ -367,6 +489,8 @@ def modo_explorar():
         f"explo_{label}_{cur}",
         on_responder=on_responder,
         feedback=render_feedback,
+        questao_id=questao_id,
+        usuario=usuario,
     )
 
     _mostrar_progresso(usuario)
@@ -484,15 +608,6 @@ def modo_estudar():
     if q is None:
         st.write("Clique em **Próxima questão** para começar a sessão adaptativa.")
     else:
-        if q.get("nivel_base") == "tema":
-            st.caption(
-                f"Tema: **{q['tema_nome']}** · nível por tema {round(q['nivel_tema'], 2)} "
-                f"({q['nivel_contagem']} tentativas)"
-            )
-        else:
-            st.caption(
-                f"Tema: **{q['tema_nome']}** · θ da área {round(q.get('theta', 0.0), 2)}"
-            )
         extra = _questao_json(q["exame_label"], q["numero"]) or {}
         full = {
             "numero": q["numero"],
@@ -503,6 +618,7 @@ def modo_estudar():
             "midia": extra.get("midia", []),
             "_midia": extra.get("midia", []),
             "_textos_de_apoio": extra.get("textos_de_apoio", []),
+            "questao_id": q["questao_id"],
         }
 
         def on_responder(numero, resp):
@@ -535,6 +651,8 @@ def modo_estudar():
             f"estudar_{q['questao_id']}",
             on_responder=on_responder,
             feedback=render_feedback,
+            questao_id=q["questao_id"],
+            usuario=usuario,
         )
 
         with st.expander("Próximos vencimentos"):
