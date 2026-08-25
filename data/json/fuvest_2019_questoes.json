@@ -46,7 +46,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 2
+      "pagina": 2,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 2,
@@ -78,7 +80,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 2
+      "pagina": 2,
+      "respostas_ia": [
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:20.628227+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:20.664103+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:20.756980+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:20.776845+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:21.769767+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:21.954429+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:23.442680+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "b",
+          "data": "2026-08-25T20:26:11.960492+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "b",
+          "data": "2026-08-25T20:26:12.333589+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "b",
+          "data": "2026-08-25T20:26:12.986865+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 10,
+        "tentativas": 10,
+        "score": 1.0
+      }
     },
     {
       "numero": 3,
@@ -107,7 +166,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 2
+      "pagina": 2,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 4,
@@ -138,7 +199,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 2
+      "pagina": 2,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 5,
@@ -169,7 +232,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 3
+      "pagina": 3,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 6,
@@ -199,7 +264,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 3
+      "pagina": 3,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 7,
@@ -233,7 +300,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 4
+      "pagina": 4,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 8,
@@ -264,7 +333,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 4
+      "pagina": 4,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 9,
@@ -294,7 +365,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 4
+      "pagina": 4,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 10,
@@ -325,7 +398,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 5
+      "pagina": 5,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 11,
@@ -355,7 +430,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 5
+      "pagina": 5,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 12,
@@ -392,7 +469,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 5
+      "pagina": 5,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 13,
@@ -421,7 +500,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 6
+      "pagina": 6,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 14,
@@ -456,7 +537,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 6
+      "pagina": 6,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 15,
@@ -483,7 +566,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 6
+      "pagina": 6,
+      "respostas_ia": [
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:22.683837+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:23.128271+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:23.267451+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:23.276446+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:23.651840+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:23.848400+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:23.912913+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:23.943455+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:24.039887+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:25.603544+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 6,
+        "tentativas": 10,
+        "score": 0.6
+      }
     },
     {
       "numero": 16,
@@ -514,7 +654,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 6
+      "pagina": 6,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 17,
@@ -543,7 +685,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 7
+      "pagina": 7,
+      "respostas_ia": [
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:20.726801+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:20.917448+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:21.358767+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:21.631663+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:23.615099+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:25.240446+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:25.311859+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:25.522275+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:25.576667+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:25.857592+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 10,
+        "tentativas": 10,
+        "score": 1.0
+      }
     },
     {
       "numero": 18,
@@ -574,7 +773,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 7
+      "pagina": 7,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 19,
@@ -603,7 +804,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 7
+      "pagina": 7,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 20,
@@ -632,7 +835,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 7
+      "pagina": 7,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 21,
@@ -660,7 +865,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 7
+      "pagina": 7,
+      "respostas_ia": [
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:21.713661+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:21.956893+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:22.567848+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:22.660493+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:22.811116+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:22.899379+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:23.081158+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:23.097108+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:23.537140+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:24.023885+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 0,
+        "tentativas": 10,
+        "score": 0.0
+      }
     },
     {
       "numero": 22,
@@ -688,7 +950,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 8
+      "pagina": 8,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 23,
@@ -723,7 +987,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 8
+      "pagina": 8,
+      "respostas_ia": [
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:23.260274+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:23.851759+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:24.114421+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:24.248788+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:24.337246+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:24.389768+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:24.764578+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:24.953883+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:25.160964+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:25.161987+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 1,
+        "tentativas": 10,
+        "score": 0.1
+      }
     },
     {
       "numero": 24,
@@ -750,7 +1071,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 8
+      "pagina": 8,
+      "respostas_ia": [
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:24.626585+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:24.637710+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:24.985441+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:25.051279+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:25.149023+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:25.371026+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:25.562137+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:25.769385+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:25.989867+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:26.073424+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 7,
+        "tentativas": 10,
+        "score": 0.7
+      }
     },
     {
       "numero": 25,
@@ -777,7 +1155,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 8
+      "pagina": 8,
+      "respostas_ia": [
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:25.502563+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:25.563706+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:25.581965+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:25.696155+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:25.810299+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:26.144334+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:26.340658+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:26.562817+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:26.598423+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:26.756012+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 10,
+        "tentativas": 10,
+        "score": 1.0
+      }
     },
     {
       "numero": 26,
@@ -813,7 +1248,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 8
+      "pagina": 8,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 27,
@@ -848,7 +1285,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 9
+      "pagina": 9,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 28,
@@ -874,7 +1313,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 9
+      "pagina": 9,
+      "respostas_ia": [
+        {
+          "fonte": "hy3",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:27.159412+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:27.353611+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:27.359394+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:27.537593+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:27.779102+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:28.073150+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:31.006485+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:31.011925+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:31.144884+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:31.151283+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 10,
+        "tentativas": 10,
+        "score": 1.0
+      }
     },
     {
       "numero": 29,
@@ -900,7 +1396,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 9
+      "pagina": 9,
+      "respostas_ia": [
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:27.309893+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:27.588828+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:27.619443+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:27.801090+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:27.849081+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:32.293826+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:26:13.153883+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:26:13.281703+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:26:13.500155+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:26:13.847857+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 10,
+        "tentativas": 10,
+        "score": 1.0
+      }
     },
     {
       "numero": 30,
@@ -929,7 +1482,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 9
+      "pagina": 9,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 31,
@@ -962,7 +1517,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 9
+      "pagina": 9,
+      "respostas_ia": [
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:28.115216+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:28.307948+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:28.319998+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:28.769545+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:28.963889+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:29.225867+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:29.315607+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:29.368212+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:29.555485+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:30.068351+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 0,
+        "tentativas": 10,
+        "score": 0.0
+      }
     },
     {
       "numero": 32,
@@ -992,7 +1604,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 10
+      "pagina": 10,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 33,
@@ -1021,7 +1635,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 10
+      "pagina": 10,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 34,
@@ -1049,7 +1665,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 10
+      "pagina": 10,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 35,
@@ -1078,7 +1696,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 11
+      "pagina": 11,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 36,
@@ -1115,7 +1735,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 11
+      "pagina": 11,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 37,
@@ -1146,7 +1768,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 11
+      "pagina": 11,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 38,
@@ -1173,7 +1797,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 11
+      "pagina": 11,
+      "respostas_ia": [
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:28.900146+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:28.912698+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:29.128693+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:29.141707+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:29.589653+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:29.615273+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:29.857370+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:30.065847+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:30.301711+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:30.452947+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 10,
+        "tentativas": 10,
+        "score": 1.0
+      }
     },
     {
       "numero": 39,
@@ -1210,7 +1891,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 12
+      "pagina": 12,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 40,
@@ -1241,7 +1924,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 12
+      "pagina": 12,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 41,
@@ -1272,7 +1957,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 13
+      "pagina": 13,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 42,
@@ -1305,7 +1992,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 13
+      "pagina": 13,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 43,
@@ -1343,7 +2032,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 13
+      "pagina": 13,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 44,
@@ -1375,7 +2066,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 14
+      "pagina": 14,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 45,
@@ -1409,7 +2102,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 14
+      "pagina": 14,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 46,
@@ -1436,7 +2131,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 15
+      "pagina": 15,
+      "respostas_ia": [
+        {
+          "fonte": "hy3",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:30.507077+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:30.974475+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:31.195590+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:31.235230+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:31.240501+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:31.244452+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:31.308271+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:31.321444+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:31.360408+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:31.570339+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 5,
+        "tentativas": 10,
+        "score": 0.5
+      }
     },
     {
       "numero": 47,
@@ -1463,7 +2215,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 15
+      "pagina": 15,
+      "respostas_ia": [
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:31.723495+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:31.877193+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:32.110689+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:32.374245+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:32.532976+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:33.117228+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:33.137917+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:33.399737+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:36.452545+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:36.617585+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 9,
+        "tentativas": 10,
+        "score": 0.9
+      }
     },
     {
       "numero": 48,
@@ -1490,7 +2299,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 15
+      "pagina": 15,
+      "respostas_ia": [
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:32.233705+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:32.977303+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:33.136203+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:33.267072+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:33.394387+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:33.561149+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:33.586718+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:33.710863+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:33.752702+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:34.889799+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 1,
+        "tentativas": 10,
+        "score": 0.1
+      }
     },
     {
       "numero": 49,
@@ -1519,7 +2385,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 15
+      "pagina": 15,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 50,
@@ -1546,7 +2414,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 15
+      "pagina": 15,
+      "respostas_ia": [
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:33.454568+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:33.905410+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:34.190452+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:34.385767+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:34.531480+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:34.662596+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:34.848235+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:35.113034+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:35.141604+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:35.194619+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 0,
+        "tentativas": 10,
+        "score": 0.0
+      }
     },
     {
       "numero": 51,
@@ -1575,7 +2500,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 16
+      "pagina": 16,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 52,
@@ -1604,7 +2531,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 16
+      "pagina": 16,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 53,
@@ -1631,7 +2560,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 16
+      "pagina": 16,
+      "respostas_ia": [
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:35.095586+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:35.226938+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:35.367080+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:35.555687+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:35.563325+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:35.794961+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:36.028599+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:38.072750+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:38.166351+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:38.266373+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 8,
+        "tentativas": 10,
+        "score": 0.8
+      }
     },
     {
       "numero": 54,
@@ -1661,7 +2647,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 16
+      "pagina": 16,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 55,
@@ -1690,7 +2678,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 16
+      "pagina": 16,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 56,
@@ -1720,7 +2710,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 17
+      "pagina": 17,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 57,
@@ -1749,7 +2741,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 17
+      "pagina": 17,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 58,
@@ -1778,7 +2772,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 17
+      "pagina": 17,
+      "respostas_ia": [
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:35.891959+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:36.327105+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:36.492670+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:36.617570+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:36.688407+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:37.159487+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:37.401020+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:37.573570+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:37.678333+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:37.902854+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 10,
+        "tentativas": 10,
+        "score": 1.0
+      }
     },
     {
       "numero": 59,
@@ -1807,7 +2858,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 17
+      "pagina": 17,
+      "respostas_ia": [
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:37.017185+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:37.228313+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:37.462377+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:37.647281+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:37.672435+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:37.828404+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:37.991494+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:38.229786+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:38.262019+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:39.470833+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 10,
+        "tentativas": 10,
+        "score": 1.0
+      }
     },
     {
       "numero": 60,
@@ -1836,7 +2944,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 18
+      "pagina": 18,
+      "respostas_ia": [
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:38.445565+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:38.491080+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:38.619076+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:38.750660+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:38.800079+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:38.921335+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:39.199990+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:39.213191+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:39.523930+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:46.264823+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 0,
+        "tentativas": 10,
+        "score": 0.0
+      }
     },
     {
       "numero": 61,
@@ -1865,7 +3030,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 18
+      "pagina": 18,
+      "respostas_ia": [
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:39.451817+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:39.485797+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:39.722550+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:39.778858+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:39.830886+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:39.921723+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:39.957985+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:40.192390+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:40.322470+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:40.521353+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 10,
+        "tentativas": 10,
+        "score": 1.0
+      }
     },
     {
       "numero": 62,
@@ -1900,7 +3122,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 18
+      "pagina": 18,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 63,
@@ -1929,7 +3153,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 18
+      "pagina": 18,
+      "respostas_ia": [
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:40.745514+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:40.924411+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:40.929731+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:41.105751+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:41.590529+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:41.829144+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:41.970025+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:42.016419+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:42.431502+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:42.698465+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 0,
+        "tentativas": 10,
+        "score": 0.0
+      }
     },
     {
       "numero": 64,
@@ -1958,7 +3239,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 19
+      "pagina": 19,
+      "respostas_ia": [
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:41.590546+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:41.793124+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:42.019031+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:42.195014+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:42.304181+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:42.593235+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:42.640381+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:42.655365+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:42.672014+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:42.752928+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 10,
+        "tentativas": 10,
+        "score": 1.0
+      }
     },
     {
       "numero": 65,
@@ -1984,7 +3322,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 19
+      "pagina": 19,
+      "respostas_ia": [
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:42.626370+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:42.886012+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:43.199642+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:43.704479+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:43.747834+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:43.789077+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:43.795924+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:44.163611+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:45.894582+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:45.929262+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 0,
+        "tentativas": 10,
+        "score": 0.0
+      }
     },
     {
       "numero": 66,
@@ -2012,7 +3407,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 19
+      "pagina": 19,
+      "respostas_ia": [
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:44.174956+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:44.278564+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:44.283100+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:44.300712+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:44.308979+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:44.480566+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:44.488386+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:44.817956+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:44.817991+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:45.000536+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 10,
+        "tentativas": 10,
+        "score": 1.0
+      }
     },
     {
       "numero": 67,
@@ -2041,7 +3493,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 19
+      "pagina": 19,
+      "respostas_ia": [
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:44.779189+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:44.831599+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:44.956606+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:44.957626+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:45.786136+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:45.843861+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:46.067739+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:46.780202+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:46.828771+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:47.059359+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 0,
+        "tentativas": 10,
+        "score": 0.0
+      }
     },
     {
       "numero": 68,
@@ -2070,7 +3579,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 20
+      "pagina": 20,
+      "respostas_ia": [
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:45.490915+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:45.807047+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:46.202261+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:46.419706+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:46.628659+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:46.647965+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:46.888038+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:46.946012+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:47.089556+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:53.271141+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 10,
+        "tentativas": 10,
+        "score": 1.0
+      }
     },
     {
       "numero": 69,
@@ -2098,7 +3664,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 20
+      "pagina": 20,
+      "respostas_ia": [
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:47.182105+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:47.185817+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:47.262881+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:47.262916+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:47.269444+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:47.574416+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:47.605508+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:47.933961+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:48.164952+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:49.696467+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 10,
+        "tentativas": 10,
+        "score": 1.0
+      }
     },
     {
       "numero": 70,
@@ -2124,7 +3747,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 20
+      "pagina": 20,
+      "respostas_ia": [
+        {
+          "fonte": "hy3",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:48.339241+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:48.344868+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:48.721908+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:48.894761+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:48.996806+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:49.002684+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:49.034821+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:49.108242+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:49.441008+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:53.311232+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 4,
+        "tentativas": 10,
+        "score": 0.4
+      }
     },
     {
       "numero": 71,
@@ -2152,7 +3832,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 21
+      "pagina": 21,
+      "respostas_ia": [
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:49.134463+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:49.159953+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:49.162295+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:49.361982+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:49.426919+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:49.598699+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:49.639849+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:49.755729+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:49.935892+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:52.488349+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 10,
+        "tentativas": 10,
+        "score": 1.0
+      }
     },
     {
       "numero": 72,
@@ -2181,7 +3918,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 21
+      "pagina": 21,
+      "respostas_ia": [
+        {
+          "fonte": "hy3",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:50.376766+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:50.593602+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:50.692818+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:50.895763+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:50.974803+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:51.111950+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:51.237884+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:51.375201+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:54.101504+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:56.158452+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 5,
+        "tentativas": 10,
+        "score": 0.5
+      }
     },
     {
       "numero": 73,
@@ -2210,7 +4004,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 21
+      "pagina": 21,
+      "respostas_ia": [
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:51.536668+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:51.705977+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:51.746479+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:51.813333+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:51.819153+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:51.878591+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:51.902039+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:51.911105+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:51.967354+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:52.003406+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 10,
+        "tentativas": 10,
+        "score": 1.0
+      }
     },
     {
       "numero": 74,
@@ -2238,7 +4089,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 21
+      "pagina": 21,
+      "respostas_ia": [
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:52.742755+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:52.810809+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:52.937862+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:52.988817+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:53.142791+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:53.354881+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:53.609366+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:54.056828+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:55.057369+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:58.814055+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 10,
+        "tentativas": 10,
+        "score": 1.0
+      }
     },
     {
       "numero": 75,
@@ -2266,7 +4174,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 22
+      "pagina": 22,
+      "respostas_ia": [
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:53.446797+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:53.509673+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:53.522917+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:53.872301+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:53.924141+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:53.973065+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:53.980499+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:54.488689+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "a",
+          "data": "2026-08-25T20:25:54.669163+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:55.907197+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 9,
+        "tentativas": 10,
+        "score": 0.9
+      }
     },
     {
       "numero": 76,
@@ -2296,7 +4261,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 22
+      "pagina": 22,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 77,
@@ -2325,7 +4292,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 22
+      "pagina": 22,
+      "respostas_ia": [
+        {
+          "fonte": "hy3",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:54.806985+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:54.974817+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:54.977659+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:54.991856+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:55.232967+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:55.411801+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:55.420434+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:56.857366+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:56.887253+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:57.277178+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 10,
+        "tentativas": 10,
+        "score": 1.0
+      }
     },
     {
       "numero": 78,
@@ -2353,7 +4377,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 22
+      "pagina": 22,
+      "respostas_ia": [
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:55.515227+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:55.685677+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:55.984785+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:56.197906+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:56.529193+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:56.965044+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:57.172952+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:57.244641+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:57.259664+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:57.390651+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 10,
+        "tentativas": 10,
+        "score": 1.0
+      }
     },
     {
       "numero": 79,
@@ -2388,7 +4469,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 22
+      "pagina": 22,
+      "respostas_ia": [
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:57.284022+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:57.332481+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:57.470196+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:57.560291+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:57.576031+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:57.646689+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:57.706322+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:57.899792+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:25:59.647739+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:26:01.346040+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 10,
+        "tentativas": 10,
+        "score": 1.0
+      }
     },
     {
       "numero": 80,
@@ -2414,7 +4552,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 23
+      "pagina": 23,
+      "respostas_ia": [
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:57.485863+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:57.695504+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:58.243744+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:58.304472+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:58.458484+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:58.951027+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:59.138489+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:59.433706+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:59.474476+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "c",
+          "data": "2026-08-25T20:25:59.502223+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 10,
+        "tentativas": 10,
+        "score": 1.0
+      }
     },
     {
       "numero": 81,
@@ -2440,7 +4635,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 23
+      "pagina": 23,
+      "respostas_ia": [
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:58.959010+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:59.799195+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "b",
+          "data": "2026-08-25T20:25:59.813773+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "b",
+          "data": "2026-08-25T20:26:00.009821+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "b",
+          "data": "2026-08-25T20:26:00.028156+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "b",
+          "data": "2026-08-25T20:26:00.029804+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "b",
+          "data": "2026-08-25T20:26:00.677925+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "b",
+          "data": "2026-08-25T20:26:00.683221+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "b",
+          "data": "2026-08-25T20:26:00.692653+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "b",
+          "data": "2026-08-25T20:26:00.785556+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 10,
+        "tentativas": 10,
+        "score": 1.0
+      }
     },
     {
       "numero": 82,
@@ -2469,7 +4721,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 23
+      "pagina": 23,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 83,
@@ -2495,7 +4749,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 23
+      "pagina": 23,
+      "respostas_ia": [
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:59.288022+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:59.464523+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "d",
+          "data": "2026-08-25T20:25:59.793908+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "d",
+          "data": "2026-08-25T20:26:00.497785+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:26:00.604794+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "d",
+          "data": "2026-08-25T20:26:00.697546+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:26:00.840444+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:26:00.934465+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "d",
+          "data": "2026-08-25T20:26:01.076108+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "d",
+          "data": "2026-08-25T20:26:01.247854+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 10,
+        "tentativas": 10,
+        "score": 1.0
+      }
     },
     {
       "numero": 84,
@@ -2525,7 +4836,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 24
+      "pagina": 24,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 85,
@@ -2553,7 +4866,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 24
+      "pagina": 24,
+      "respostas_ia": [
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "b",
+          "data": "2026-08-25T20:26:01.266035+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "b",
+          "data": "2026-08-25T20:26:01.305613+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "b",
+          "data": "2026-08-25T20:26:01.588488+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "b",
+          "data": "2026-08-25T20:26:01.927597+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "b",
+          "data": "2026-08-25T20:26:01.991661+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "b",
+          "data": "2026-08-25T20:26:02.011233+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "b",
+          "data": "2026-08-25T20:26:02.387387+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "b",
+          "data": "2026-08-25T20:26:03.370888+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "b",
+          "data": "2026-08-25T20:26:03.376795+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "b",
+          "data": "2026-08-25T20:26:03.396462+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 10,
+        "tentativas": 10,
+        "score": 1.0
+      }
     },
     {
       "numero": 86,
@@ -2583,7 +4953,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 24
+      "pagina": 24,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 87,
@@ -2611,7 +4983,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 25
+      "pagina": 25,
+      "respostas_ia": [
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:26:02.311015+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:26:02.703397+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:26:02.894070+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:26:02.948837+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "e",
+          "data": "2026-08-25T20:26:03.088507+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:26:06.169948+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:26:06.190920+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:26:06.198321+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:26:06.199354+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "e",
+          "data": "2026-08-25T20:26:06.231846+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 10,
+        "tentativas": 10,
+        "score": 1.0
+      }
     },
     {
       "numero": 88,
@@ -2637,7 +5066,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 25
+      "pagina": 25,
+      "respostas_ia": [
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "a",
+          "data": "2026-08-25T20:26:02.875106+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "a",
+          "data": "2026-08-25T20:26:02.965684+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:26:03.355720+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "a",
+          "data": "2026-08-25T20:26:03.520161+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:26:03.535788+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "a",
+          "data": "2026-08-25T20:26:03.586082+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:26:03.740843+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:26:04.114125+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "a",
+          "data": "2026-08-25T20:26:04.127402+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "a",
+          "data": "2026-08-25T20:26:04.946260+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 10,
+        "tentativas": 10,
+        "score": 1.0
+      }
     },
     {
       "numero": 89,
@@ -2667,7 +5153,9 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 25
+      "pagina": 25,
+      "respostas_ia": [],
+      "score_ia": null
     },
     {
       "numero": 90,
@@ -2693,7 +5181,64 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 25
+      "pagina": 25,
+      "respostas_ia": [
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:26:04.388312+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:26:04.768872+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "d",
+          "data": "2026-08-25T20:26:04.815653+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "d",
+          "data": "2026-08-25T20:26:05.079612+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:26:05.203147+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:26:05.214716+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "d",
+          "data": "2026-08-25T20:26:05.248954+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "d",
+          "data": "2026-08-25T20:26:05.327205+00:00"
+        },
+        {
+          "fonte": "hy3",
+          "alternativa": "d",
+          "data": "2026-08-25T20:26:05.707210+00:00"
+        },
+        {
+          "fonte": "mimo-v2.5",
+          "alternativa": "d",
+          "data": "2026-08-25T20:26:06.324595+00:00"
+        }
+      ],
+      "score_ia": {
+        "acertos": 10,
+        "tentativas": 10,
+        "score": 1.0
+      }
     }
   ]
 }

@@ -12,6 +12,8 @@ import json
 import re
 from pathlib import Path
 
+import estatisticas
+import pandas as pd
 import streamlit as st
 from panzoom import view_page
 
@@ -92,6 +94,9 @@ def _page_info(label: str, numero: int):
     bbox = (
         figs[0].get("bbox") if figs and isinstance(figs[0].get("bbox"), list) else None
     )
+    bboxq = q.get("bbox_questao")
+    if isinstance(bboxq, list) and len(bboxq) == 4:
+        bbox = bboxq
     pagina = q.get("pagina")
     if not isinstance(pagina, int) or pagina <= 1:
         pagina = figs[0]["pagina"] if bbox is not None else None
@@ -157,12 +162,14 @@ def _restaurar_do_url():
     if st.session_state.get("_carregado"):
         return
     st.session_state.setdefault("usuario", _param("usuario") or "eu")
-    modo = "Estudar" if _param("modo") not in ("Estudar", "Explorar") else _param("modo")
+    modo = _param("modo") or "Estudar"
+    if modo not in ("Estudar", "Explorar", "Estatísticas"):
+        modo = "Estudar"
     st.session_state["modo"] = modo
     if modo == "Estudar":
         _restaurar_estudar(st.session_state["usuario"])
         _restaurar_fb()
-    else:
+    elif modo == "Explorar":
         if _param("label") in LABELS:
             st.session_state["explo_label"] = _param("label")
         try:
@@ -455,9 +462,7 @@ def modo_estudar():
 
     if sidebar.button("▶ Próxima questão"):
         with connect() as con:
-            q = motiva.proxima_questao(
-                con, usuario, area_id=area_id, tema_id=tema_id
-            )
+            q = motiva.proxima_questao(con, usuario, area_id=area_id, tema_id=tema_id)
         st.session_state["estudar_q"] = q
         st.session_state["estudar_aviso"] = None
         st.session_state.pop("estudar_fb", None)
@@ -539,26 +544,172 @@ def modo_estudar():
     _mostrar_progresso(usuario)
 
 
+def _df(rows: list[dict]) -> pd.DataFrame:
+    df = pd.DataFrame(rows)
+    return df if not df.empty else pd.DataFrame([{"aviso": "Sem dados"}])
+
+
+def modo_estatisticas():
+    """Painel de estatísticas: visão geral, evolução, áreas, temas, exames,
+    fila de revisão FSRS e histórico detalhado (tudo do usuário no banco)."""
+    usuario = st.session_state.get("usuario", "eu")
+
+    with connect() as con:
+        r = estatisticas.resumo(con, usuario)
+        if r["total"] == 0:
+            st.info(
+                "Sem dados de tentativas para este usuário. Responda questões no "
+                "modo **Estudar** ou **Explorar** para alimentar as estatísticas."
+            )
+            return
+        dias = estatisticas.por_dia(con, usuario)
+        areas = estatisticas.por_area(con, usuario)
+        temas = estatisticas.por_tema(con, usuario)
+        exames = estatisticas.por_exame(con, usuario)
+        rev = estatisticas.revisoes(con, usuario)
+        hist = estatisticas.historico(con, usuario)
+
+    st.header("📊 Estatísticas")
+    c1, c2, c3, c4, c5, c6 = st.columns(6)
+    c1.metric("Tentativas", r["total"])
+    c2.metric("Acertos", r["acertos"])
+    c3.metric("Aproveitamento", f"{r['pct']:.1f}%")
+    c4.metric("Questões distintas", r["distintas"])
+    c5.metric(
+        "Dificuldade média (b)",
+        f"{r['b_medio']:+.2f}" if r["b_medio"] is not None else "—",
+    )
+    c6.metric("Temas vencidos", r["temas_vencidos"])
+    st.caption(
+        f"Período: {r['primeira']} → {r['ultima']} · usuário `{usuario}` · "
+        "b = dificuldade em logit (0 ≈ mediana do acervo; θ da área usa a mesma escala)"
+    )
+
+    st.subheader("Evolução")
+    df_dias = _df(dias)
+    col_a, col_b = st.columns([2, 1])
+    col_a.line_chart(df_dias.set_index("dia")["pct"], y_label="Aproveitamento (%)")
+    col_b.dataframe(
+        df_dias[["dia", "tentativas", "acertos", "pct"]],
+        hide_index=True,
+        use_container_width=True,
+    )
+
+    st.subheader("Por área")
+    df_areas = _df(areas)
+    col1, col2 = st.columns(2)
+    theta_df = df_areas[df_areas["theta"].notna()].set_index("area")
+    pct_df = df_areas[df_areas["pct"].notna()].set_index("area")
+    if not theta_df.empty:
+        col1.bar_chart(theta_df["theta"], y_label="θ (habilidade)")
+    if not pct_df.empty:
+        col2.bar_chart(pct_df["pct"], y_label="Aproveitamento (%)")
+    st.dataframe(
+        df_areas[["area", "theta", "n_obs", "acertos", "tentativas", "pct"]],
+        hide_index=True,
+        use_container_width=True,
+    )
+
+    st.subheader("Por tema")
+    df_temas = _df(temas)
+    st.dataframe(
+        df_temas[
+            [
+                "area",
+                "tema",
+                "score",
+                "racha",
+                "tentativas",
+                "lapses",
+                "estado",
+                "vencimento",
+            ]
+        ],
+        hide_index=True,
+        use_container_width=True,
+        column_config={
+            "score": st.column_config.ProgressColumn(
+                "Score", min_value=0.0, max_value=1.0, format="%.2f"
+            ),
+        },
+    )
+    st.caption(
+        "Ordenado pelo score (mais fraco primeiro). `lapses` = esquecimentos FSRS."
+    )
+
+    st.subheader("Por exame")
+    df_exames = _df(exames)
+    col3, col4 = st.columns([1, 2])
+    col3.dataframe(
+        df_exames[["exame", "tentativas", "acertos", "pct"]],
+        hide_index=True,
+        use_container_width=True,
+    )
+    if not df_exames.empty:
+        col4.bar_chart(
+            df_exames.set_index("exame")["pct"], y_label="Aproveitamento (%)"
+        )
+
+    st.subheader("Fila de revisão (FSRS)")
+    if not rev:
+        st.write("Sem revisões agendadas ainda.")
+    else:
+        df_rev = _df(rev)
+        df_rev["venc"] = pd.to_datetime(
+            df_rev["vencimento"], errors="coerce"
+        ).dt.strftime("%d/%m %H:%M")
+        badge = {"atrasada": "🟠", "hoje": "🟡", "próxima": "🟢"}
+        df_rev["status"] = (
+            df_rev["status"].map(badge).fillna("") + " " + df_rev["status"]
+        )
+        for s in ("atrasada", "hoje", "próxima"):
+            sub = df_rev[df_rev["status"].str.endswith(s)]
+            if not sub.empty:
+                with st.expander(
+                    f"{badge[s]} {s.capitalize()} ({len(sub)})", expanded=s != "próxima"
+                ):
+                    st.dataframe(
+                        sub[
+                            [
+                                "area",
+                                "tema",
+                                "estado",
+                                "repos",
+                                "lapses",
+                                "venc",
+                                "status",
+                            ]
+                        ],
+                        hide_index=True,
+                        use_container_width=True,
+                    )
+
+    with st.expander("Histórico detalhado"):
+        st.dataframe(_df(hist), hide_index=True, use_container_width=True)
+
+
 def main():
     st.title("🎓 Estudo Vestibular")
     _restaurar_do_url()
-    modo = st.sidebar.radio("Modo", ["Estudar", "Explorar"], key="modo")
+    modo = st.sidebar.radio("Modo", ["Estudar", "Explorar", "Estatísticas"], key="modo")
     params = {
         "modo": modo,
         "usuario": st.session_state.get("usuario", "eu"),
+        "label": "",
+        "numero": "",
+        "qid": "",
+        "fb": "",
     }
     if modo == "Estudar":
         modo_estudar()
         params["qid"] = st.session_state.get("params_qid", "")
         params["fb"] = st.session_state.get("params_fb", "")
-        params["label"] = ""
-        params["numero"] = ""
-    else:
+    elif modo == "Explorar":
         modo_explorar()
         params["label"] = st.session_state.get("params_label", "")
         params["numero"] = st.session_state.get("params_numero", "")
-        params["qid"] = ""
-        params["fb"] = ""
+    else:
+        modo_estatisticas()
     _sync_params(**params)
 
 

@@ -1,7 +1,8 @@
 """Rasch 1PL: habilidade θ por área e dificuldade b por item (calibração).
 
-- `b` (item): herdado da IA (logit do score low-thinking), ou 0 neutro;
-  suavizado com respostas reais:  b = (κ·b0 + n_obs·logit(p_emp))/(κ + n_obs).
+- `b` (item): herdado da IA (difficultade = −logit do score low-thinking),
+  ou 0 neutro; suavizado com respostas reais:
+  b = (κ·b0 + n_obs·logit(1−p_emp))/(κ + n_obs)  (p_emp = taxa de acerto).
 - `theta` (área): estimativa MAP com prior gaussiana N(0, 2). Sem solução
   fechada para 1PL -> Newton-Raphson sobre a verossimilhança + prior.
 """
@@ -96,7 +97,7 @@ def atualiza_item_b(con: sqlite3.Connection, questao_id: int) -> dict:
     if n == 0:
         b = b0
     else:
-        b = (KAPPA * b0 + n * _logit(p_emp)) / (KAPPA + n)
+        b = (KAPPA * b0 + n * (-_logit(p_emp))) / (KAPPA + n)
     con.execute(
         "UPDATE item_params SET b = ?, n_obs = ? WHERE questao_id = ?",
         (b, n, questao_id),

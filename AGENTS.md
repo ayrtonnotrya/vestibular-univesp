@@ -22,10 +22,13 @@ Documentação de referência:
   (`python:3.14-slim` + `google-genai` + `requests`, ver `tools/gemini/Dockerfile`).
 - Utilitários PDF (poppler-utils: `pdftotext`, `pdfinfo`, `pdftoppm`) rodam na
   imagem `alpine:latest` via `apk add --no-cache poppler-utils`.
-- Chave de IA: variável `API_KEY` em `.env` (não versionado). Modelo validado:
-  **`gemini-3.5-flash-lite`** (via API REST do Google AI Studio).
-  `gemini-3.7-flash` dispara rate-limit nesta conta (cota ~15 RPM / 250 TPM) e
-  deve ser evitado.
+- **Chave de IA**: variável `API_KEY` em `.env` (não versionado) — Google AI
+  Studio. Modelo validado: **`gemini-3.5-flash-lite`** (via API REST do Google
+  AI Studio). `gemini-3.7-flash` dispara rate-limit nesta conta (cota ~15 RPM /
+  250 TPM) e deve ser evitado. Para o `score_dificuldade` usa-se o router
+  OpenAI-compatível do OpenCode Go: endpoint padrão
+  `OPENCODE_BASE_URL=http://100.90.193.17:18905` (IP Tailscale da LAN — em
+  Docker usar `--network host`; `OPENCODE_API_KEY` opcional no `.env`).
 
 ## O que funciona / o que não funciona na extração
 
@@ -67,6 +70,24 @@ Fluxo implementado em `tools/gemini/` (Python, roda via `gemini-runner`):
    "Página N:" na `midia` → interpolação pelas páginas conhecidas. Roda sozinho
    no `run_all.py` após o `extract`. **O app NÃO lê PDF em runtime: a página vem
    dos JSONs.**
+8. **score_dificuldade**: `score_dificuldade.py` pontua dificuldade via IA em
+   duas passadas sem repetir chamadas no redeploy (as respostas ficam nos JSONs
+   versionados — chaves `respostas_ia`, `score_ia` e `bbox_questao`):
+   - `passada1` (router OpenCode Go / vision; `BACKEND=gemini` volta ao Gemini)
+     é OPCIONAL: envia cada página com figura e devolve o `bbox_questao` (caixa
+     de TODO o bloco da questão, em permil `[y0,x0,y1,x1]`). Os crops saíram
+     pouco confiáveis — não é usado no fluxo padrão.
+   - `passada2` (router OpenCode Go, OpenAI-compatível) — **texto puro**:
+     resolve as questões SEM imagem (`deepseek-v4-flash`), N tentativas por
+     questão, paralelo com backoff (`CONCURRENCY`; `thinking` desligado por
+     padrão — o `smoke` avisa se o router o reativar). Questões com imagem são
+     ignoradas; `--com-imagem` liga a re-resolução via crop do `bbox_questao`
+     verificado (`deepseek-v4-flash-vision-exp`).
+   - `seed`: grava `score_ia` nos JSONs e semeia `dificuldades` +
+     `item_params.b` (logit suavizado, κ=4, só itens com `n_obs=0`) no SQLite.
+     Após um deploy do zero, basta rodar `seed` — sem novas chamadas.
+   - `status`/`smoke`/`qa`: cobertura por exame, teste do router e validação
+     geométrica dos bbox (`--montagem` exporta os crops para conferência).
 
 ### Particularidades FUVEST (1ª fase — 90 questões, 5 alternativas)
 
@@ -104,7 +125,12 @@ Resultado extraído e validado (gabaritos 100% conferidos):
 
 - `app/study.py`: interface — para cada questão, mostra **questão em cima**
   (enunciado, textos de apoio, alternativas + gabarito) e **página embaixo** no
-  viewer pan/zoom.
+  viewer pan/zoom. Modos: **Estudar** (adaptativo), **Explorar** e
+  **Estatísticas** — o painel de estatísticas (`app/estatisticas.py`, SQL
+  direto no `data/vestibular.db`) mostra visão geral (aproveitamento,
+  dificuldade média b, temas vencidos), evolução por dia, desempenho por
+  área/θ, por tema (score/racha/lapses/estado FSRS), por exame, fila de
+  revisão FSRS e o histórico detalhado de tentativas.
 - `app/panzoom.py`:
   - Exibe a página via JPEG pré-renderizado
     (`data/paginas/<label>/p<NNN>.jpg`, gerado por
@@ -204,6 +230,18 @@ contagem por `(usuario, tema)`) e `tentativas`. Pendente do plano original:
 - Páginas JPEG do app (re-gerar ao adicionar exame):
   `docker run --rm -v "$PWD/data:/app/data" -w /app vestibular-app:latest \
   python tools/gemini/render_pages.py`
+- Pontuar dificuldade via IA (passada 2 router, texto puro → seed no DB; os
+  JSONs versionados guardam `respostas_ia`/`score_ia`/`bbox_questao`, então num
+  deploy do zero basta o `seed`, sem chamadas novas). Questões com imagem são
+  ignoradas por padrão (`--com-imagem` liga a pontuação delas):
+  ```bash
+  docker run --rm --network host -v "$PWD":/work -w /work \
+    -e DB_PATH=data/vestibular.db \
+    -e MODEL_TEXT="hy3,mimo-v2.5" -e TEMPERATURE=0.7 \
+    -e MAX_TENTATIVAS=4 -e CONCURRENCY=8 \
+    vestibular-app:latest python tools/gemini/score_dificuldade.py \
+      passada2 fuvest_2024   # ou seed / status / smoke / qa
+  ```
 - App de estudo (Fase 2 parcial): `docker compose up vestibular-app` → porta 8501.
 - MCP (AnythingLLM): `docker compose up -d vestibular-mcp` →
   `http://vestibular-mcp:8891/sse` (só rede interna `web`).
