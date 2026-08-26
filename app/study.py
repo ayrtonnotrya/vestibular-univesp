@@ -701,6 +701,13 @@ def modo_estudar():
     _mostrar_progresso(usuario)
 
 
+def _fase_label(area: str, fase: int | None) -> str:
+    if fase is None:
+        return "Sem fase"
+    nome = _fases_catalogo().get(area, {}).get(fase)
+    return f"Fase {fase}" + (f" · {nome}" if nome else "")
+
+
 def _df(rows: list[dict]) -> pd.DataFrame:
     df = pd.DataFrame(rows)
     return df if not df.empty else pd.DataFrame([{"aviso": "Sem dados"}])
@@ -708,7 +715,9 @@ def _df(rows: list[dict]) -> pd.DataFrame:
 
 def modo_estatisticas():
     """Painel de estatísticas: visão geral, evolução, áreas, temas, exames,
-    fila de revisão FSRS e histórico detalhado (tudo do usuário no banco)."""
+    fila de revisão FSRS e histórico. Com área escolhida, tudo é filtrado ao
+    contexto da área (desempenho/evolução por fase, temas, exames, revisões e
+    histórico sem referências a outras áreas)."""
     usuario = st.session_state.get("usuario", "eu")
 
     with connect() as con:
@@ -719,12 +728,29 @@ def modo_estatisticas():
                 "modo **Estudar** ou **Explorar** para alimentar as estatísticas."
             )
             return
-        dias = estatisticas.por_dia(con, usuario)
         areas = estatisticas.por_area(con, usuario)
+
+    sel = st.sidebar.selectbox(
+        "Área (estatísticas)",
+        ["Todas as áreas", *(a["area"] for a in areas)],
+        index=0,
+        key="stats_area",
+    )
+    area_id = next((a["area_id"] for a in areas if a["area"] == sel), None)
+
+    with connect() as con:
+        dias = estatisticas.por_dia(con, usuario, area_id)
         temas = estatisticas.por_tema(con, usuario)
-        exames = estatisticas.por_exame(con, usuario)
-        rev = estatisticas.revisoes(con, usuario)
-        hist = estatisticas.historico(con, usuario)
+        exames = estatisticas.por_exame(con, usuario, area_id)
+        rev = estatisticas.revisoes(con, usuario, area_id=area_id)
+        hist = estatisticas.historico(con, usuario, area_id)
+        fases = estatisticas.por_fase(con, usuario, area_id)
+        evol = estatisticas.evolucao_por_fase(con, usuario, area_id)
+        vest = estatisticas.por_vestibular(con, usuario, area_id)
+        cob = estatisticas.cobertura_fase(con, usuario, area_id)
+        gaps = estatisticas.gaps(con, usuario, area_id)
+        reta = estatisticas.retencao(con, usuario, area_id=area_id)
+        bvt = estatisticas.b_vs_theta(con, usuario, area_id)
 
     st.header("📊 Estatísticas")
     c1, c2, c3, c4, c5, c6 = st.columns(6)
@@ -742,6 +768,155 @@ def modo_estatisticas():
         "b = dificuldade em logit (0 ≈ mediana do acervo; θ da área usa a mesma escala)"
     )
 
+    if sel != "Todas as áreas":
+        reg = next((a for a in areas if a["area"] == sel), {})
+        reg_bvt = next((b for b in bvt if b["area"] == sel), {})
+        st.subheader(f"Área: {sel}")
+        m1, m2, m3, m4, m5 = st.columns(5)
+        m1.metric(
+            "θ (habilidade)",
+            f"{reg['theta']:+.2f}" if reg.get("theta") is not None else "—",
+        )
+        m2.metric("Tentativas", reg.get("tentativas", 0))
+        m3.metric("Acertos", reg.get("acertos", 0))
+        m4.metric(
+            "Aproveitamento",
+            f"{reg['pct']:.1f}%" if reg.get("pct") is not None else "—",
+        )
+        m5.metric(
+            "Δ (θ−b)",
+            f"{reg_bvt['delta']:+.2f}" if reg_bvt.get("delta") is not None else "—",
+        )
+        if reg_bvt.get("delta") is not None:
+            st.caption(
+                "Δ = θ da área − b médio das questões tentadas. "
+                "Positivo → questões abaixo do seu nível; negativo → acima."
+            )
+
+        st.markdown("#### Desempenho por fase")
+        df_fases = _df(
+            [
+                {
+                    "Fase": _fase_label(fa["area"], fa["fase"]),
+                    "Temas": fa["n_temas"],
+                    "Score médio": fa["score_medio"],
+                    "Tentativas": fa["tentativas"],
+                    "pct": fa["pct"],
+                }
+                for fa in fases
+            ]
+        )
+        if "aviso" not in df_fases.columns:
+            cfa, cfb = st.columns([2, 1])
+            cfa.bar_chart(
+                df_fases.set_index("Fase")["pct"], y_label="Aproveitamento (%)"
+            )
+            cfb.dataframe(df_fases, hide_index=True, use_container_width=True)
+        else:
+            st.write("Sem dados por fase ainda nesta área.")
+
+        st.markdown("#### Evolução por fase")
+        df_ev = _df(
+            [
+                {**_e, "Fase": _fase_label(_e["area"], _e["fase"])}
+                for _e in evol
+            ]
+        )
+        if "aviso" not in df_ev.columns:
+            piv = df_ev.pivot(index="dia", columns="Fase", values="pct").fillna(0)
+            st.line_chart(piv, y_label="Aproveitamento (%)")
+            st.dataframe(
+                df_ev[["dia", "Fase", "acertos", "tentativas", "pct"]],
+                hide_index=True,
+                use_container_width=True,
+            )
+        else:
+            st.write("Sem tentativas por fase ainda nesta área.")
+
+        st.markdown("#### Desempenho por vestibular")
+        df_vest = _df(vest)
+        if "aviso" not in df_vest.columns:
+            cv1, cv2 = st.columns([2, 1])
+            cv1.bar_chart(
+                df_vest.set_index("vestibular")["pct"], y_label="Aproveitamento (%)"
+            )
+            cv2.dataframe(df_vest, hide_index=True, use_container_width=True)
+        else:
+            st.write("Sem tentativas por vestibular ainda.")
+
+        st.markdown("#### Cobertura por fase (provas UNIVESP)")
+        df_cob = _df(
+            [
+                {
+                    "Fase": _fase_label(c["area"], c["fase"]),
+                    "Questões da banca": c["questoes_banca"],
+                    "Tentadas (distintas)": c["tentadas"],
+                    "Cobertura": c["cobertura"],
+                }
+                for c in cob
+            ]
+        )
+        if "aviso" not in df_cob.columns:
+            st.dataframe(
+                df_cob,
+                hide_index=True,
+                use_container_width=True,
+                column_config={
+                    "Cobertura": st.column_config.ProgressColumn(
+                        "Cobertura",
+                        min_value=0.0,
+                        max_value=100.0,
+                        format="%.1f%%",
+                    ),
+                },
+            )
+        else:
+            st.write("Sem dados de cobertura ainda (banco UNIVESP).")
+
+        st.markdown("#### Temas cobrados não iniciados (UNIVESP)")
+        df_gaps = _df(
+            [
+                {
+                    "Fase": _fase_label(g["area"], g["fase"]),
+                    "Tema": g["tema"],
+                    "Questões na banca": g["questoes_banca"],
+                }
+                for g in gaps[:15]
+            ]
+        )
+        if "aviso" not in df_gaps.columns:
+            st.dataframe(df_gaps, hide_index=True, use_container_width=True)
+            st.caption(
+                "Temas com maior recorrência nas provas UNIVESP que ainda não "
+                "foram iniciados — boa pista para a próxima fase do estudo."
+            )
+        else:
+            st.write("Todos os temas desta área já foram iniciados.")
+
+        st.markdown("#### Retenção (R FSRS)")
+        df_ret = _df(
+            [
+                {
+                    "Fase": _fase_label(rr["area"], rr["fase"]),
+                    "Tema": rr["tema"],
+                    "R": rr["r"],
+                    "Estado": rr["estado"],
+                    "Revisões": rr["repos"],
+                    "Lapses": rr["lapses"],
+                    "Revisão": rr["vencimento"],
+                }
+                for rr in reta
+            ]
+        )
+        if "aviso" not in df_ret.columns:
+            st.dataframe(df_ret, hide_index=True, use_container_width=True)
+            st.caption(
+                "R = retrievability do FSRS (prob. de lembrar hoje), do menor "
+                "para o maior. R baixo indica esquecimento próximo."
+            )
+        else:
+            st.write("Sem cartões FSRS ainda nesta área.")
+
     st.subheader("Evolução")
     df_dias = _df(dias)
     col_a, col_b = st.columns([2, 1])
@@ -752,28 +927,51 @@ def modo_estatisticas():
         use_container_width=True,
     )
 
-    st.subheader("Por área")
-    df_areas = _df(areas)
-    col1, col2 = st.columns(2)
-    theta_df = df_areas[df_areas["theta"].notna()].set_index("area")
-    pct_df = df_areas[df_areas["pct"].notna()].set_index("area")
-    if not theta_df.empty:
-        col1.bar_chart(theta_df["theta"], y_label="θ (habilidade)")
-    if not pct_df.empty:
-        col2.bar_chart(pct_df["pct"], y_label="Aproveitamento (%)")
-    st.dataframe(
-        df_areas[["area", "theta", "n_obs", "acertos", "tentativas", "pct"]],
-        hide_index=True,
-        use_container_width=True,
-    )
+    if sel == "Todas as áreas":
+        st.subheader("Por área")
+        df_areas = _df(areas)
+        df_bvt = _df(bvt)
+        if "aviso" not in df_bvt.columns:
+            df_areas = df_areas.merge(
+                df_bvt[["area", "b_medio", "delta"]], on="area", how="left"
+            )
+        col1, col2 = st.columns(2)
+        theta_df = df_areas[df_areas["theta"].notna()].set_index("area")
+        pct_df = df_areas[df_areas["pct"].notna()].set_index("area")
+        if not theta_df.empty:
+            col1.bar_chart(theta_df["theta"], y_label="θ (habilidade)")
+        if not pct_df.empty:
+            col2.bar_chart(pct_df["pct"], y_label="Aproveitamento (%)")
+        cols_areas = ["area", "theta", "n_obs", "acertos", "tentativas", "pct"]
+        if "b_medio" in df_areas.columns:
+            cols_areas = [
+                "area", "theta", "b_medio", "delta",
+                "n_obs", "acertos", "tentativas", "pct",
+            ]
+        st.dataframe(
+            df_areas[cols_areas],
+            hide_index=True,
+            use_container_width=True,
+        )
+        st.caption(
+            "`b_medio` = dificuldade média (logit) das questões tentadas; "
+            "`delta` = θ − b (positivo → estudando abaixo do nível)."
+        )
 
     st.subheader("Por tema")
     df_temas = _df(temas)
+    if "fase" in df_temas.columns:
+        df_temas["Fase"] = df_temas.apply(
+            lambda row: _fase_label(row["area"], row["fase"]), axis=1
+        )
+    if sel != "Todas as áreas":
+        df_temas = df_temas[df_temas["area"] == sel]
     st.dataframe(
         df_temas[
             [
                 "area",
                 "tema",
+                *(["Fase"] if "Fase" in df_temas.columns else []),
                 "score",
                 "racha",
                 "tentativas",
@@ -842,7 +1040,17 @@ def modo_estatisticas():
                     )
 
     with st.expander("Histórico detalhado"):
-        st.dataframe(_df(hist), hide_index=True, use_container_width=True)
+        df_hist = _df(hist)
+        hist_cols = ["data", "exame", "questao", "resposta", "gabarito", "resultado"]
+        if sel == "Todas as áreas":
+            hist_cols += ["areas", "temas"]
+        else:
+            hist_cols += ["temas"]
+        st.dataframe(
+            df_hist[[c for c in hist_cols if c in df_hist.columns]],
+            hide_index=True,
+            use_container_width=True,
+        )
 
 
 def main():
