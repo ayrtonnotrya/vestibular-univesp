@@ -22,6 +22,7 @@ CREATE TABLE IF NOT EXISTS temas (
     id      INTEGER PRIMARY KEY,
     area_id INTEGER NOT NULL REFERENCES areas(id),
     nome    TEXT NOT NULL,
+    fase    INTEGER,                            -- ordem da fase/módulo no catálogo (assuntos.json)
     UNIQUE (area_id, nome)
 );
 
@@ -124,6 +125,17 @@ def _migrar_questoes(con: sqlite3.Connection) -> None:
             con.execute(f"ALTER TABLE questoes ADD COLUMN {nome} TEXT")
 
 
+def _migrar_fase_temas(con: sqlite3.Connection) -> None:
+    """Adiciona `temas.fase` (ordem da fase no catálogo) e preenche a partir de
+    `data/assuntos.json` para bancos já existentes."""
+    cols = {r[1] for r in con.execute("PRAGMA table_info(temas)")}
+    if "fase" not in cols:
+        con.execute("ALTER TABLE temas ADD COLUMN fase INTEGER")
+    from .catalogo import preencher_fase
+
+    preencher_fase(con)
+
+
 def connect(db_path: str | Path | None = None) -> sqlite3.Connection:
     path = Path(db_path) if db_path else DB_PATH
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -131,5 +143,6 @@ def connect(db_path: str | Path | None = None) -> sqlite3.Connection:
     con.row_factory = sqlite3.Row
     con.executescript(SCHEMA)
     _migrar_questoes(con)
+    _migrar_fase_temas(con)
     con.commit()
     return con

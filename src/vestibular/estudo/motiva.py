@@ -65,11 +65,14 @@ def proxima_questao(
     excluir_ids: set[int] | None = None,
     area_id: int | None = None,
     tema_id: int | None = None,
+    fase: int | None = None,
 ) -> dict | None:
     """Devolve a próxima questão (objetiva) ou None se não há nada para estudar.
 
-    `area_id`/`tema_id` (opcionais) restringem os temas considerados; None
-    significa "qualquer área/tema".
+    `area_id`/`tema_id`/`fase` (opcionais) restringem os temas considerados;
+    None significa "qualquer área/tema/fase". `fase` é a ordem da fase/módulo
+    do catálogo (assuntos.json) dentro da área — a questão sai de um dos temas
+    da fase, mantendo as regras de sorteio (FSRS, prioridade, Rasch).
 
     Retorna dict com chaves: questao_id, exame_label, numero, enunciado,
     textos_de_apoio, midia, alternativas (dict), gabarito, tema_id, tema_nome,
@@ -78,7 +81,7 @@ def proxima_questao(
     """
     agora = agora or dt.datetime.now(dt.UTC)
     rng = random.Random(seed)
-    vencidos = fsrs_mod.vencidos(con, usuario, agora, area_id, tema_id)
+    vencidos = fsrs_mod.vencidos(con, usuario, agora, area_id, tema_id, fase)
     if not vencidos:
         return None
 

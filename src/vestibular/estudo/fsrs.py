@@ -90,10 +90,12 @@ def vencidos(
     agora: dt.datetime | None = None,
     area_id: int | None = None,
     tema_id: int | None = None,
+    fase: int | None = None,
 ) -> list[dict]:
     """Temas com revisão vencida (ou nunca iniciados), ordenados por R crescente.
 
-    `area_id`/`tema_id` (opcionais) restringem o escopo do agendamento.
+    `area_id`/`tema_id`/`fase` (opcionais) restringem o escopo do agendamento;
+    `fase` filtra pela ordem da fase/módulo do catálogo dentro da área.
 
     Retorna: [{tema_id, area_id, nome, vencimento, r}].
     """
@@ -106,6 +108,9 @@ def vencidos(
     if tema_id is not None:
         conds += " AND t.id = ?"
         params.append(tema_id)
+    if fase is not None:
+        conds += " AND t.fase = ?"
+        params.append(fase)
     rows = con.execute(
         f"""SELECT t.id AS tema_id, t.area_id, t.nome,
                   f.vencimento AS venc, f.card_json

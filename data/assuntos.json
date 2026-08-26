@@ -9,7 +9,7 @@
         "modulos": [
           {
             "ordem": 1,
-            "fase": "Módulo 0: Nivelamento (Base Essencial)",
+            "fase": "Nivelamento (Base Essencial)",
             "assuntos": [
               "Operações fundamentais com números inteiros e decimais",
               "Operações com frações e simplificação",
@@ -20,7 +20,7 @@
           },
           {
             "ordem": 2,
-            "fase": "Módulo 1: Aritmética e Álgebra Básica",
+            "fase": "Aritmética e Álgebra Básica",
             "assuntos": [
               "Conjuntos numéricos (Naturais, Inteiros, Racionais e Reais)",
               "Ordem na reta numérica e resolução de problemas",
@@ -34,7 +34,7 @@
           },
           {
             "ordem": 3,
-            "fase": "Módulo 2: Sequências e Sistemas Lineares",
+            "fase": "Sequências e Sistemas Lineares",
             "assuntos": [
               "Noção de sequência e lei de formação/recorrência",
               "Progressão Aritmética (PA) - termo geral e soma dos termos",
@@ -46,7 +46,7 @@
           },
           {
             "ordem": 4,
-            "fase": "Módulo 3: Estudo das Funções",
+            "fase": "Estudo das Funções",
             "assuntos": [
               "Conceito de função e relações entre grandezas",
               "Gráficos de funções por uma ou várias sentenças",
@@ -61,7 +61,7 @@
           },
           {
             "ordem": 5,
-            "fase": "Módulo 4: Trigonometria",
+            "fase": "Trigonometria",
             "assuntos": [
               "Arcos e ângulos: medidas (graus e radianos) e relações entre arcos",
               "Trigonometria no triângulo retângulo (seno, cosseno e tangente)",
@@ -72,7 +72,7 @@
           },
           {
             "ordem": 6,
-            "fase": "Módulo 5: Geometria Plana e Espacial",
+            "fase": "Geometria Plana e Espacial",
             "assuntos": [
               "Geometria Plana: ponto, reta, plano, segmentos e ângulos",
               "Congruência de figuras planas e semelhança de triângulos",
@@ -89,7 +89,7 @@
           },
           {
             "ordem": 7,
-            "fase": "Módulo 6: Análise Combinatória, Probabilidade e Estatística",
+            "fase": "Análise Combinatória, Probabilidade e Estatística",
             "assuntos": [
               "Princípios multiplicativo e aditivo da contagem",
               "Arranjos, permutações e combinações simples",
@@ -110,7 +110,7 @@
         "modulos": [
           {
             "ordem": 1,
-            "fase": "Fase 1: Matéria, Estados Físicos e Estrutura Atômica",
+            "fase": "Matéria, Estados Físicos e Estrutura Atômica",
             "assuntos": [
               "Propriedades gerais e específicas dos materiais",
               "Misturas homogêneas/heterogêneas e processos de separação",
@@ -122,7 +122,7 @@
           },
           {
             "ordem": 2,
-            "fase": "Fase 2: Ligações Químicas e Funções Inorgânicas",
+            "fase": "Ligações Químicas e Funções Inorgânicas",
             "assuntos": [
               "Ligação iônica e características dos compostos iônicos",
               "Ligação covalente, estruturas de Lewis, regra do octeto e geometria molecular",
@@ -137,7 +137,7 @@
           },
           {
             "ordem": 3,
-            "fase": "Fase 3: Transformações Químicas, Gases e Estequiometria",
+            "fase": "Transformações Químicas, Gases e Estequiometria",
             "assuntos": [
               "Evidências macroscópicas de transformações químicas",
               "Fórmulas químicas: mínima, centesimal e molecular",
@@ -149,7 +149,7 @@
           },
           {
             "ordem": 4,
-            "fase": "Fase 4: Físico-Química",
+            "fase": "Físico-Química",
             "assuntos": [
               "Termoquímica: reações exotérmicas e endotérmicas, entalpia e equações termoquímicas",
               "Lei de Hess e entalpia de ligação",
@@ -163,7 +163,7 @@
           },
           {
             "ordem": 5,
-            "fase": "Fase 5: Química Orgânica, Radioatividade e Meio Ambiente",
+            "fase": "Química Orgânica, Radioatividade e Meio Ambiente",
             "assuntos": [
               "Características do carbono, cadeias carbônicas, ligações e hibridização",
               "Isomeria plana e espacial",
@@ -184,7 +184,7 @@
         "modulos": [
           {
             "ordem": 1,
-            "fase": "Fase 1: Bioquímica Celular, Citologia e Biotecnologia",
+            "fase": "Bioquímica Celular, Citologia e Biotecnologia",
             "assuntos": [
               "Componentes químicos celulares: água, sais minerais, carboidratos, lipídios, proteínas e vitaminas",
               "Organização celular: diferenças entre procariontes e eucariontes (animal e vegetal)",
@@ -199,7 +199,7 @@
           },
           {
             "ordem": 2,
-            "fase": "Fase 2: Classificação Biológica, Seres Vivos e Doenças",
+            "fase": "Classificação Biológica, Seres Vivos e Doenças",
             "assuntos": [
               "Níveis de organização da vida, taxonomia de Lineu e cladogramas modernos",
               "Vírus: estrutura, replicação e principais viroses humanas",
@@ -211,7 +211,7 @@
           },
           {
             "ordem": 3,
-            "fase": "Fase 3: Botânica e Fisiologia Animal/Humana",
+            "fase": "Botânica e Fisiologia Animal/Humana",
             "assuntos": [
               "Reino Plantae: características e ciclos de vida de briófitas, pteridófitas, gimnospermas e angiospermas",
               "Anatomia e fisiologia vegetal: tecidos, condução de seivas, transpiração e fitormônios/tropismos",
@@ -223,7 +223,7 @@
           },
           {
             "ordem": 4,
-            "fase": "Fase 4: Genética e Evolução",
+            "fase": "Genética e Evolução",
             "assuntos": [
               "1ª e 2ª Leis de Mendel e correlação com a meiose",
               "Heredogramas e probabilidades genéticas",
@@ -237,7 +237,7 @@
           },
           {
             "ordem": 5,
-            "fase": "Fase 5: Ecologia",
+            "fase": "Ecologia",
             "assuntos": [
               "Conceitos ecológicos fundamentais (habitat, nicho ecológico, população, comunidade e ecossistema)",
               "Cadeias e teias alimentares, níveis tróficos, pirâmides ecológicas e fluxo de energia",
@@ -256,7 +256,7 @@
         "modulos": [
           {
             "ordem": 1,
-            "fase": "Fase 1: Fundamentos e Cinemática",
+            "fase": "Fundamentos e Cinemática",
             "assuntos": [
               "Grandezas fundamentais e derivadas, Sistema Internacional de Unidades (SI) e análise dimensional",
               "Grandezas escalares e vetoriais (operações com vetores e decomposição)",
@@ -270,7 +270,7 @@
           },
           {
             "ordem": 2,
-            "fase": "Fase 2: Dinâmica e Leis de Newton",
+            "fase": "Dinâmica e Leis de Newton",
             "assuntos": [
               "As 3 Leis de Newton e conceito de força resultante",
               "Massa, peso e forças de atrito (estático e cinético)",
@@ -285,7 +285,7 @@
           },
           {
             "ordem": 3,
-            "fase": "Fase 3: Gravitação e Hidrostática",
+            "fase": "Gravitação e Hidrostática",
             "assuntos": [
               "Modelos de Universo (geocêntrico e heliocêntrico)",
               "Leis de Kepler e Lei da Gravitação Universal de Newton",
@@ -299,7 +299,7 @@
           },
           {
             "ordem": 4,
-            "fase": "Fase 4: Termologia e Termodinâmica",
+            "fase": "Termologia e Termodinâmica",
             "assuntos": [
               "Temperatura, termômetros e conversão de escalas termométricas (Celsius, Fahrenheit, Kelvin)",
               "Dilatação térmica de sólidos (linear, superficial, volumétrica) e líquidos",
@@ -312,7 +312,7 @@
           },
           {
             "ordem": 5,
-            "fase": "Fase 5: Óptica e Ondulatória",
+            "fase": "Óptica e Ondulatória",
             "assuntos": [
               "Princípios da óptica geométrica e formação de sombras/penumbras",
               "Reflexão da luz: espelhos planos e espelhos esféricos (construção gráfica e estudo analítico)",
@@ -327,7 +327,7 @@
           },
           {
             "ordem": 6,
-            "fase": "Fase 6: Eletricidade, Eletromagnetismo e Física Moderna",
+            "fase": "Eletricidade, Eletromagnetismo e Física Moderna",
             "assuntos": [
               "Eletrostática: carga elétrica, processos de eletrização, Lei de Coulomb, campo e potencial elétrico",
               "Eletrodinâmica: corrente elétrica, ddp, Leis de Ohm, resistividade e potência elétrica (kWh)",
@@ -347,7 +347,7 @@
         "modulos": [
           {
             "ordem": 1,
-            "fase": "Bloco 1: Da Pré-História ao Medievo",
+            "fase": "Da Pré-História ao Medievo",
             "assuntos": [
               "Origem humana, processos de sedentarização e registros rupestres",
               "Antiguidade Oriental e África Antiga (Mesopotâmia, Egito, Núbia e Reino de Axum)",
@@ -357,7 +357,7 @@
           },
           {
             "ordem": 2,
-            "fase": "Bloco 2: Mundo Moderno e Colonização das Américas",
+            "fase": "Mundo Moderno e Colonização das Américas",
             "assuntos": [
               "Renascimento Cultural, Reformas Religiosas e formação dos Estados Nacionais",
               "Povos pré-colombianos na América (Maias, Astecas e Incas)",
@@ -369,7 +369,7 @@
           },
           {
             "ordem": 3,
-            "fase": "Bloco 3: Era das Revoluções e o Século XIX",
+            "fase": "Era das Revoluções e o Século XIX",
             "assuntos": [
               "Iluminismo, Liberalismo e a 1ª Revolução Industrial",
               "Revolução Francesa e a Era Napoleônica",
@@ -381,7 +381,7 @@
           },
           {
             "ordem": 4,
-            "fase": "Bloco 4: O Século XX - Guerras, Totalitarismos e Conflitos",
+            "fase": "O Século XX - Guerras, Totalitarismos e Conflitos",
             "assuntos": [
               "Belle Époque e Primeira Guerra Mundial",
               "Revolução Russa, Crise de 1929 e ascensão do Nazifascismo",
@@ -393,7 +393,7 @@
           },
           {
             "ordem": 5,
-            "fase": "Bloco 5: O Mundo Contemporâneo e o Século XXI",
+            "fase": "O Mundo Contemporâneo e o Século XXI",
             "assuntos": [
               "Colapso da URSS, Nova Ordem Mundial, Globalização e Neoliberalismo",
               "Organismos internacionais (FMI, OMC, Banco Mundial) e ascensão da China",
@@ -410,7 +410,7 @@
         "modulos": [
           {
             "ordem": 1,
-            "fase": "Fase 1: Cartografia e Tecnologias de Representação",
+            "fase": "Cartografia e Tecnologias de Representação",
             "assuntos": [
               "Coordenadas geográficas, localização, fusos horários e projeções cartográficas",
               "Escala cartográfica numérica e gráfica (cálculo de distâncias)",
@@ -420,7 +420,7 @@
           },
           {
             "ordem": 2,
-            "fase": "Fase 2: Geografia Física e Meio Ambiente",
+            "fase": "Geografia Física e Meio Ambiente",
             "assuntos": [
               "Estrutura geológica da Terra, tectonismo, vulcanismo e eras geológicas",
               "Classificação das rochas, formação de solos e relevo (agentes internos e externos/intemperismo)",
@@ -432,7 +432,7 @@
           },
           {
             "ordem": 3,
-            "fase": "Fase 3: Geografia Humana, Econômica e Geopolítica",
+            "fase": "Geografia Humana, Econômica e Geopolítica",
             "assuntos": [
               "Demografia: conceitos populacionais, transição demográfica, pirâmides etárias e fluxos migratórios",
               "Geografia Urbana: industrialização, urbanização, metropolização, conurbação, megalópoles e segregação socioespacial",
@@ -451,7 +451,7 @@
         "modulos": [
           {
             "ordem": 1,
-            "fase": "Eixo 1: Interpretação de Texto e Semântica (Prática Contínua)",
+            "fase": "Interpretação de Texto e Semântica (Prática Contínua)",
             "assuntos": [
               "Significação explícita e implícita, denotação e conotação",
               "Mecanismos de coesão textual (lexical, referencial, anafórica) e coerência",
@@ -463,7 +463,7 @@
           },
           {
             "ordem": 2,
-            "fase": "Eixo 2: Gramática Normativa e Morfossintaxe",
+            "fase": "Gramática Normativa e Morfossintaxe",
             "assuntos": [
               "Norma ortográfica oficial (regras de acentuação e Novo Acordo Ortográfico)",
               "Variações linguísticas e níveis de formalidade/informalidade",
@@ -478,7 +478,7 @@
           },
           {
             "ordem": 3,
-            "fase": "Eixo 3: Literatura Brasileira, Portuguesa, Africana e Indígena",
+            "fase": "Literatura Brasileira, Portuguesa, Africana e Indígena",
             "assuntos": [
               "Literatura Portuguesa: Trovadorismo, Humanismo, Classicismo (Camões), Realismo (Eça de Queirós) e Modernismo (Fernando Pessoa)",
               "Literatura Brasileira: Quinhentismo, Barroco (Gregório de Matos), Arcadismo, Romantismo, Realismo/Naturalismo (Machado de Assis), Parnasianismo e Simbolismo",
@@ -495,7 +495,7 @@
         "modulos": [
           {
             "ordem": 1,
-            "fase": "Fase Única: Leitura Instrumental e Vocabulário Contextualizado",
+            "fase": "Leitura Instrumental e Vocabulário Contextualizado",
             "assuntos": [
               "Estratégias de leitura rápida: Skimming (ideia geral) e Scanning (busca de dados específicos)",
               "Identificação do gênero textual, propósito comunicativo e público-alvo",
@@ -515,7 +515,7 @@
         "modulos": [
           {
             "ordem": 1,
-            "fase": "Filosofia: Módulo 1 (Origens, Epistemologia e Política)",
+            "fase": "Filosofia: Origens, Epistemologia e Política",
             "assuntos": [
               "Surgimento da Filosofia: passagem do pensamento mítico ao discurso racional (Logos)",
               "Filosofia Antiga: Sócrates, Platão e Aristóteles",
@@ -527,7 +527,7 @@
           },
           {
             "ordem": 2,
-            "fase": "Filosofia: Módulo 2 (Ética, Estética e Contemporaneidade)",
+            "fase": "Filosofia: Ética, Estética e Contemporaneidade",
             "assuntos": [
               "Concepções sobre a ação ética: liberdade, determinismo e compatibilismo",
               "Teorias éticas: Ética das Virtudes, Utilitarismo e Ética do Dever (Kant)",
@@ -538,7 +538,7 @@
           },
           {
             "ordem": 3,
-            "fase": "Sociologia: Módulo 1 (Fundamentos e Pensadores Clássicos)",
+            "fase": "Sociologia: Fundamentos e Pensadores Clássicos",
             "assuntos": [
               "A constituição da sociedade moderna e o surgimento da Sociologia",
               "Émile Durkheim: o método sociológico, fato social, solidariedade e anomia",
@@ -548,7 +548,7 @@
           },
           {
             "ordem": 4,
-            "fase": "Sociologia: Módulo 2 (Cultura, Trabalho e Sociedade Brasileira)",
+            "fase": "Sociologia: Cultura, Trabalho e Sociedade Brasileira",
             "assuntos": [
               "Indivíduo e sociedade: instituições sociais, socialização e construção de identidades",
               "Conceito antropológico de cultura, etnocentrismo e relativismo cultural",
@@ -566,7 +566,7 @@
         "modulos": [
           {
             "ordem": 1,
-            "fase": "Etapa 1: Estrutura Dissertativo-Argumentativa e Critérios VUNESP",
+            "fase": "Estrutura Dissertativo-Argumentativa e Critérios VUNESP",
             "assuntos": [
               "Gênero dissertativo-argumentativo: impessoalidade (3ª pessoa) e defesa de ponto de vista claro",
               "Macroestrutura padrão em 4 parágrafos (Introdução com tese, D1, D2 e Conclusão reflexiva)",
@@ -579,7 +579,7 @@
           },
           {
             "ordem": 2,
-            "fase": "Etapa 2: Rotina de Produção e Repertórios Temáticos",
+            "fase": "Rotina de Produção e Repertórios Temáticos",
             "assuntos": [
               "Eixo Temático 1: Tecnologia, privacidade e transformações nas relações humanas",
               "Eixo Temático 2: Meio ambiente, sustentabilidade e crises ecológicas",

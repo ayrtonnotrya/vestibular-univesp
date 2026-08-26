@@ -233,7 +233,7 @@ def _restaurar_do_url():
         modo = "Estudar"
     st.session_state["modo"] = modo
     if modo == "Estudar":
-        _restaurar_estudar(st.session_state["usuario"])
+        _restaurar_estudar("eu")
         _restaurar_fb()
     elif modo == "Explorar":
         if _param("label") in LABELS:
@@ -498,15 +498,29 @@ def modo_explorar():
 
 @st.cache_data(ttl=300, show_spinner=False)
 def _catalogo():
-    """Áreas e temas do catálogo (IDs + nomes) para os filtros opcionais."""
+    """Áreas e temas do catálogo (IDs + nomes + fase) para os filtros opcionais."""
     with connect() as con:
         areas = con.execute("SELECT id, nome FROM areas ORDER BY nome").fetchall()
         temas = con.execute(
-            "SELECT id, area_id, nome FROM temas ORDER BY area_id, nome"
+            "SELECT id, area_id, nome, fase FROM temas ORDER BY area_id, nome"
         ).fetchall()
     return [(a["id"], a["nome"]) for a in areas], [
-        (t["id"], t["area_id"], t["nome"]) for t in temas
+        (t["id"], t["area_id"], t["nome"], t["fase"]) for t in temas
     ]
+
+
+@st.cache_data(ttl=300, show_spinner=False)
+def _fases_catalogo():
+    """Fases/módulos do catálogo por área: {area: {ordem: nome_da_fase}}."""
+    path = DATA / "assuntos.json"
+    if not path.exists():
+        return {}
+    with open(path, encoding="utf-8") as f:
+        cat = json.load(f)["plano_de_estudos_vestibular"]
+    return {
+        disc["area"]: {m["ordem"]: m["fase"] for m in disc.get("modulos", [])}
+        for disc in cat["disciplinas"]
+    }
 
 
 def _reset_filtro():
@@ -519,6 +533,12 @@ def _reset_filtro():
 
 
 def _muda_area():
+    st.session_state["filtro_fase"] = 0
+    st.session_state["filtro_tema"] = 0
+    _reset_filtro()
+
+
+def _muda_fase():
     st.session_state["filtro_tema"] = 0
     _reset_filtro()
 
@@ -560,11 +580,11 @@ def _mostrar_progresso(usuario: str):
 
 def modo_estudar():
     sidebar = st.sidebar
-    usuario = sidebar.text_input("Usuário", key="usuario") or "eu"
+    usuario = "eu"
 
     areas, temas = _catalogo()
     objs_area = {nome: id_ for id_, nome in areas}
-    objs_tema = {nome: (id_, area_id) for id_, area_id, nome in temas}
+    objs_tema = {nome: (id_, area_id) for id_, area_id, nome, _ in temas}
     area_labels = ["Todas as áreas", *[nome for _, nome in areas]]
     area = sidebar.selectbox(
         "Área (opcional)",
@@ -574,7 +594,24 @@ def modo_estudar():
         on_change=_muda_area,
     )
     area_id = objs_area.get(area)
-    temas_area = [nome for id_, aid, nome in temas if area_id is None or aid == area_id]
+
+    fases_area = sorted(_fases_catalogo().get(area, {}).items())
+    fase_map = {f"Fase {o} · {n}": o for o, n in fases_area}
+    fase = sidebar.selectbox(
+        "Fase (opcional)",
+        ["Todas as fases", *fase_map],
+        index=0,
+        key="filtro_fase",
+        disabled=area_id is None or not fases_area,
+        on_change=_muda_fase,
+    )
+    fase_id = fase_map.get(fase)
+
+    temas_area = [
+        nome
+        for id_, aid, nome, tf in temas
+        if (area_id is None or aid == area_id) and (fase_id is None or tf == fase_id)
+    ]
     tema = sidebar.selectbox(
         "Tema (opcional)",
         ["Todos os temas", *temas_area],
@@ -586,14 +623,16 @@ def modo_estudar():
 
     if sidebar.button("▶ Próxima questão"):
         with connect() as con:
-            q = motiva.proxima_questao(con, usuario, area_id=area_id, tema_id=tema_id)
+            q = motiva.proxima_questao(
+                con, usuario, area_id=area_id, tema_id=tema_id, fase=fase_id
+            )
         st.session_state["estudar_q"] = q
         st.session_state["estudar_aviso"] = None
         st.session_state.pop("estudar_fb", None)
         st.session_state["params_qid"] = str(q["questao_id"]) if q else ""
         st.session_state.pop("params_fb", None)
         if q is None:
-            filtrado = area_id is not None or tema_id is not None
+            filtrado = area_id is not None or tema_id is not None or fase_id is not None
             st.session_state["estudar_aviso"] = (
                 "Nada vencido para estudar no filtro selecionado."
                 if filtrado
