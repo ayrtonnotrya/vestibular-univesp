@@ -1,0 +1,512 @@
+{
+  "exame": "enem_2013_2dia",
+  "figuras_coordenadas": {
+    "91": [
+      {
+        "pagina": 3,
+        "tipo": "cartum",
+        "elemento": "Tirinha de Calvin e Hobbes",
+        "bbox": [
+          181,
+          83,
+          423,
+          918
+        ]
+      }
+    ],
+    "94": [
+      {
+        "pagina": 6,
+        "tipo": "cartum",
+        "elemento": "Charge de Tute (Tutelandia) sobre um duelo de videogame",
+        "bbox": [
+          100,
+          120,
+          331,
+          500
+        ]
+      }
+    ],
+    "96": [
+      {
+        "pagina": 6,
+        "tipo": "imagem",
+        "elemento": "Manuscrito escolar com desenho da bandeira do Brasil",
+        "bbox": [
+          520,
+          75,
+          875,
+          670
+        ]
+      }
+    ],
+    "97": [
+      {
+        "pagina": 7,
+        "tipo": "imagem",
+        "elemento": "Pintura 'O descobrimento do Brasil' de Cândido Portinari",
+        "bbox": [
+          210,
+          110,
+          605,
+          625
+        ]
+      }
+    ],
+    "102": [
+      {
+        "pagina": 8,
+        "tipo": "imagem",
+        "elemento": "Ilustração de Pawel Kuczynski sobre trabalho infantil",
+        "bbox": [
+          610,
+          495,
+          830,
+          670
+        ]
+      }
+    ],
+    "107": [
+      {
+        "pagina": 10,
+        "tipo": "cartum",
+        "elemento": "Cartum de Caulos sobre pensamento coletivo",
+        "bbox": [
+          100,
+          155,
+          245,
+          415
+        ]
+      }
+    ],
+    "116": [
+      {
+        "pagina": 12,
+        "tipo": "imagem",
+        "elemento": "Cartaz publicitário sobre aquecimento global com urso polar",
+        "bbox": [
+          420,
+          570,
+          750,
+          830
+        ]
+      }
+    ],
+    "119": [
+      {
+        "pagina": 13,
+        "tipo": "cartum",
+        "elemento": "Charge da Mafalda e sua mãe escrevendo no quadro",
+        "bbox": [
+          90,
+          140,
+          230,
+          830
+        ]
+      }
+    ],
+    "120": [
+      {
+        "pagina": 13,
+        "tipo": "cartum",
+        "elemento": "Charge sobre trânsito urbano e Parmênides",
+        "bbox": [
+          250,
+          530,
+          730,
+          880
+        ]
+      }
+    ],
+    "125": [
+      {
+        "pagina": 15,
+        "tipo": "cartum",
+        "elemento": "Tirinha de C. Cury sobre mundo conectado",
+        "bbox": [
+          95,
+          110,
+          245,
+          830
+        ]
+      }
+    ],
+    "127": [
+      {
+        "pagina": 16,
+        "tipo": "imagem",
+        "elemento": "Fotografia da performance de Paulo Nazareth",
+        "bbox": [
+          90,
+          75,
+          345,
+          335
+        ]
+      }
+    ],
+    "128": [
+      {
+        "pagina": 16,
+        "tipo": "cartum",
+        "elemento": "Tirinha 'Quadrinho quadrado' de C. Xavier",
+        "bbox": [
+          370,
+          120,
+          740,
+          500
+        ]
+      }
+    ],
+    "129": [
+      {
+        "pagina": 16,
+        "tipo": "imagem",
+        "elemento": "Poema visual 'brasilidade em construção' com anotações",
+        "bbox": [
+          365,
+          510,
+          750,
+          890
+        ]
+      }
+    ],
+    "130": [
+      {
+        "pagina": 17,
+        "tipo": "imagem",
+        "elemento": "Ilustração de cabeça humana vendada conectada a cabos digitais",
+        "bbox": [
+          205,
+          110,
+          550,
+          495
+        ]
+      }
+    ],
+    "132": [
+      {
+        "pagina": 17,
+        "tipo": "grafico",
+        "elemento": "Gráficos estatísticos de casamentos e mercado de trabalho",
+        "bbox": [
+          520,
+          500,
+          750,
+          885
+        ]
+      }
+    ],
+    "136": [
+      {
+        "pagina": 19,
+        "tipo": "figura",
+        "elemento": "Esquema da taça e parábola no plano cartesiano",
+        "bbox": [
+          180,
+          160,
+          365,
+          395
+        ]
+      }
+    ],
+    "138": [
+      {
+        "pagina": 19,
+        "tipo": "figura",
+        "elemento": "Esquema de satélites em órbita da Terra e gráficos associados",
+        "bbox": [
+          230,
+          500,
+          875,
+          915
+        ]
+      }
+    ],
+    "139": [
+      {
+        "pagina": 20,
+        "tipo": "grafico",
+        "elemento": "Gráfico de barras de crescimento industrial",
+        "bbox": [
+          210,
+          60,
+          420,
+          485
+        ]
+      }
+    ],
+    "140": [
+      {
+        "pagina": 20,
+        "tipo": "figura",
+        "elemento": "Esquema de assentos do setor 3 do teatro",
+        "bbox": [
+          720,
+          60,
+          970,
+          485
+        ]
+      }
+    ],
+    "141": [
+      {
+        "pagina": 20,
+        "tipo": "grafico",
+        "elemento": "Gráfico de compradores dos produtos A e B",
+        "bbox": [
+          370,
+          500,
+          560,
+          885
+        ]
+      }
+    ],
+    "142": [
+      {
+        "pagina": 21,
+        "tipo": "figura",
+        "elemento": "Alternativas com representações gráficas no plano cartesiano",
+        "bbox": [
+          340,
+          60,
+          750,
+          915
+        ]
+      }
+    ],
+    "145": [
+      {
+        "pagina": 22,
+        "tipo": "figura",
+        "elemento": "Esquema da piscina e ilha de lazer em vista superior",
+        "bbox": [
+          70,
+          610,
+          215,
+          860
+        ]
+      }
+    ],
+    "149": [
+      {
+        "pagina": 23,
+        "tipo": "grafico",
+        "elemento": "Gráfico de custo de postagem por massa",
+        "bbox": [
+          230,
+          60,
+          420,
+          485
+        ]
+      }
+    ],
+    "150": [
+      {
+        "pagina": 23,
+        "tipo": "grafico",
+        "elemento": "Gráfico de setores das diárias dos hotéis",
+        "bbox": [
+          210,
+          500,
+          380,
+          885
+        ]
+      }
+    ],
+    "152": [
+      {
+        "pagina": 24,
+        "tipo": "figura",
+        "elemento": "Esquema do terreno a ser cercado",
+        "bbox": [
+          180,
+          60,
+          335,
+          485
+        ]
+      }
+    ],
+    "156": [
+      {
+        "pagina": 25,
+        "tipo": "figura",
+        "elemento": "Foto e esquema das Torres Puerta de Europa",
+        "bbox": [
+          180,
+          190,
+          415,
+          360
+        ]
+      }
+    ],
+    "157": [
+      {
+        "pagina": 25,
+        "tipo": "grafico",
+        "elemento": "Gráfico de notas atribuídas pelos avaliadores",
+        "bbox": [
+          760,
+          60,
+          970,
+          485
+        ]
+      }
+    ],
+    "160": [
+      {
+        "pagina": 26,
+        "tipo": "figura",
+        "elemento": "Figura original e alternativas de simetria em relação a O",
+        "bbox": [
+          140,
+          60,
+          875,
+          275
+        ]
+      }
+    ],
+    "161": [
+      {
+        "pagina": 26,
+        "tipo": "figura",
+        "elemento": "Esquema da joia em formato de losango",
+        "bbox": [
+          230,
+          600,
+          440,
+          750
+        ]
+      }
+    ],
+    "167": [
+      {
+        "pagina": 27,
+        "tipo": "figura",
+        "elemento": "Mapas do Rio de Janeiro em diferentes escalas",
+        "bbox": [
+          380,
+          500,
+          750,
+          915
+        ]
+      }
+    ],
+    "168": [
+      {
+        "pagina": 28,
+        "tipo": "grafico",
+        "elemento": "Plano cartesiano com as antenas A, B e C",
+        "bbox": [
+          295,
+          60,
+          475,
+          430
+        ]
+      }
+    ],
+    "169": [
+      {
+        "pagina": 28,
+        "tipo": "figura",
+        "elemento": "Desenho 3D de uma forma de bolo",
+        "bbox": [
+          130,
+          580,
+          245,
+          830
+        ]
+      }
+    ],
+    "170": [
+      {
+        "pagina": 28,
+        "tipo": "grafico",
+        "elemento": "Gráfico de notas do Pisa versus horas de estudo",
+        "bbox": [
+          570,
+          500,
+          795,
+          915
+        ]
+      }
+    ],
+    "171": [
+      {
+        "pagina": 29,
+        "tipo": "figura",
+        "elemento": "Esquema do copo e medidas",
+        "bbox": [
+          180,
+          200,
+          335,
+          345
+        ]
+      }
+    ],
+    "172": [
+      {
+        "pagina": 29,
+        "tipo": "figura",
+        "elemento": "Esquema dos postes, haste e cabos de aço",
+        "bbox": [
+          830,
+          60,
+          965,
+          485
+        ]
+      }
+    ],
+    "173": [
+      {
+        "pagina": 29,
+        "tipo": "figura",
+        "elemento": "Esquema da gangorra e opções de projeção ortogonal",
+        "bbox": [
+          375,
+          500,
+          750,
+          915
+        ]
+      }
+    ],
+    "178": [
+      {
+        "pagina": 31,
+        "tipo": "figura",
+        "elemento": "Esquema dos canos e cano maior",
+        "bbox": [
+          530,
+          225,
+          670,
+          365
+        ]
+      }
+    ],
+    "180": [
+      {
+        "pagina": 31,
+        "tipo": "figura",
+        "elemento": "Mapa quadriculado do trajeto casa-escola",
+        "bbox": [
+          570,
+          500,
+          760,
+          885
+        ]
+      }
+    ],
+    "181": [
+      {
+        "pagina": 2,
+        "tipo": "infografico",
+        "elemento": "Infográficos e textos motivadores da proposta de redação",
+        "bbox": [
+          180,
+          60,
+          800,
+          875
+        ]
+      }
+    ]
+  }
+}

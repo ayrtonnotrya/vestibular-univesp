@@ -31,8 +31,16 @@ DATA = "/work/data"
 JK = "/work/data/json"
 
 LABELS = [f"univesp_{y}" for y in ("2017_2s", "2018_1s", "2018_2s", "2019_2")]
-LABELS += [f"univesp_{ano}" for ano in range(2020, 2025)]
+LABELS += [f"univesp_{ano}" for ano in range(2020, 2027)]
 LABELS += [f"fuvest_{ano}" for ano in range(2010, 2027)]
+LABELS += ["enem_2011_2dia"]
+LABELS += [f"enem_{ano}_{dia}" for ano in range(2012, 2026) for dia in ("1dia", "2dia")]
+LABELS += ["fatec_2010_1S", "fatec_2010_2S", "fatec_2011_2S"]
+LABELS += [f"fatec_{ano}_{dia}" for ano in range(2012, 2021) for dia in ("1S", "2S")]
+LABELS += ["fatec_2020_1S", "fatec_2023_1S", "fatec_2023_2S"]
+LABELS += [f"unesp_{ano}" for ano in range(2010, 2021)]
+LABELS += [f"unesp_{ano}_{dia}" for ano in (2021, 2022) for dia in ("1dia", "2dia")]
+LABELS += [f"unesp_{ano}" for ano in range(2023, 2027)]
 
 
 def norm(s):

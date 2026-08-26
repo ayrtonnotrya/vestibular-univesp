@@ -1,0 +1,1614 @@
+{
+  "exame": "fatec_2019_2S_questoes",
+  "ano": 2019,
+  "semestre": 2,
+  "fonte_questoes": "data/fatec_2019_2S_questoes.pdf",
+  "fonte_gabarito": "data/fatec_2019_2S_gabarito.pdf",
+  "total_questoes": 55,
+  "questoes": [
+    {
+      "numero": 1,
+      "tipo": "objetiva",
+      "enunciado": "Potosi e Vila Rica foram duas cidades economicamente importantes das Américas espanhola e portuguesa, respectivamente, uma vez que, do entorno delas, foram extraídos metais preciosos. A acumulação desses e de outros metais, o controle da balança comercial e o monopólio do comércio colonial foram parte de uma política econômica que fortaleceu Estados europeus e garantiu o seu desenvolvimento econômico posterior.\n\nAssinale a alternativa que apresenta, corretamente, os metais extraídos do entorno dessas duas cidades coloniais e a política econômica à qual o texto se refere.",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 2: Tabela com as colunas Metais extraídos e Política econômica, contendo 5 opções de associação."
+      ],
+      "alternativas": {
+        "a": "Diamante e cobre | Monetarismo",
+        "b": "Ouro e diamante | Monetarismo",
+        "c": "Cobre e níquel | Metalismo",
+        "d": "Prata e ouro | Mercantilismo",
+        "e": "Níquel e prata | Mercantilismo"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Grandes Navegações, espaço atlântico, reinos africanos e tráfico de escravizados",
+            "Brasil Colônia: primeiros habitantes indígenas, ocupação territorial, ciclos econômicos (açúcar e ouro) e escravidão"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 2
+    },
+    {
+      "numero": 2,
+      "tipo": "objetiva",
+      "enunciado": "Durante o século XX, a temperatura global da superfície terrestre aumentou mais de 0,6 °C e, de acordo com estudos da ONU, o planeta poderá estar 2 °C mais quente até o ano de 2100. Os cientistas não têm mais dúvidas de que, a longo prazo, a intensificação do efeito estufa transformará a vida no planeta e consideram como principal fator causador dessas mudanças climáticas",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "a diminuição da taxa de oxigênio atmosférico.",
+        "b": "a diminuição da taxa do gás metano na atmosfera.",
+        "c": "o aumento da taxa de dióxido de carbono na atmosfera.",
+        "d": "o aumento da quantidade de petróleo derramado no mar.",
+        "e": "a diminuição da taxa de clorofluorcarbono (CFC) na atmosfera."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Impactos ambientais: mudanças climáticas, efeito estufa, desmatamento, degradação de solos e conferências internacionais do clima"
+          ]
+        },
+        {
+          "area": "Química",
+          "assuntos": [
+            "Química Ambiental: parâmetros de qualidade ambiental, poluição de ar/água/solo e ciclos biogeoquímicos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 2
+    },
+    {
+      "numero": 3,
+      "tipo": "objetiva",
+      "enunciado": "As duas maiores esperanças para as fontes de energia do futuro são as células a combustível por hidrogênio e as células por energia solar. O uso combinado das duas células, no qual usa-se a energia solar para quebrar moléculas de água na produção de gás hidrogênio e, posteriormente, abastecer células a combustível por hidrogênio, seria ideal, por ser particularmente limpo.\n\nEsta é a chamada fotossíntese artificial, que vem sendo alvo de pesquisa de vários grupos de cientistas, ao redor do mundo.\n\nSobre o processo descrito, assinale a alternativa correta.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "A fotossíntese artificial é igual à fotossíntese natural, produzindo glicose e oxigênio.",
+        "b": "O processo apresenta, como desvantagem, a produção de metais pesados tóxicos.",
+        "c": "A quebra da molécula de água não necessita de energia, pois é um processo exotérmico.",
+        "d": "Uma das finalidades do processo é produzir hidrogênio para ser utilizado em células a combustível.",
+        "e": "Os cientistas conseguiram reproduzir, em laboratório, glicose e oxigênio a partir de gás carbônico e água."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Termoquímica: reações exotérmicas e endotérmicas, entalpia e equações termoquímicas"
+          ]
+        },
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Metabolismo energético: fotossíntese, quimiossíntese, respiração aeróbia e fermentação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 2
+    },
+    {
+      "numero": 4,
+      "tipo": "objetiva",
+      "enunciado": "Nos quadrinhos, pode-se observar que Alice se sente um tanto quanto decepcionada com a formação do novo líder porque ele",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 3: Tira de quadrinhos em 8 quadros mostrando Alice conversando com um novo membro da equipe de gerenciamento."
+      ],
+      "alternativas": {
+        "a": "é bom em matemática, mas não tem competência linguística.",
+        "b": "tem domínio na motivação de parceiros, mas tem problemas em finanças.",
+        "c": "sabe avaliar e contratar profissionais competentes, mas não tem graduação na área.",
+        "d": "tem mestrado em Administração de Empresas, mas não tem competência comunicativa.",
+        "e": "tem qualificação econômica e administrativa, mas não tem habilidades socio-emocionais."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Intertextualidade, interdiscursividade e análise de textos verbais e não verbais (charges, cartuns)",
+            "Significação explícita e implícita, denotação e conotação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 3
+    },
+    {
+      "numero": 5,
+      "tipo": "objetiva",
+      "enunciado": "Em uma aula do curso de Logística Aeroportuária, o professor propõe aos alunos que determinem a quantidade de movimento da aeronave tipo 737–800 em voo de cruzeiro, considerando condições ideais. Para isso ele apresenta valores aproximados, fornecidos pelo fabricante da aeronave.\n\nCom base nos dados apresentados no quadro, o resultado aproximado esperado é, em kg·m/s,",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 3: Tabela com Informação (Massa Máxima de Decolagem: 79 000 kg; Velocidade média de cruzeiro: 720 km/h)."
+      ],
+      "alternativas": {
+        "a": "1,6 × 10⁷",
+        "b": "2,0 × 10⁷",
+        "c": "2,6 × 10⁷",
+        "d": "3,0 × 10⁷",
+        "e": "3,6 × 10⁷"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Grandezas fundamentais e derivadas, Sistema Internacional de Unidades (SI) e análise dimensional",
+            "Impulso, quantidade de movimento e conservação da quantidade de movimento (colisões)"
+          ]
+        },
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Notação científica, algarismos significativos e noção de erro",
+            "Sistema Internacional de Medidas (conversões e unidades de informática)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 3
+    },
+    {
+      "numero": 6,
+      "tipo": "objetiva",
+      "enunciado": "O humor dos quadrinhos apresentados constrói-se por meio de",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 4: Charge em 4 quadros com um cérebro exercitando-se em uma esteira."
+      ],
+      "alternativas": {
+        "a": "antítese, constituída pela oposição entre \"corpo\" e \"mente\".",
+        "b": "catacrese, presente na caracterização do cérebro como \"mente saudável\".",
+        "c": "aliteração, decorrente da incoerência entre o conceito de \"movimento\" e \"observação\".",
+        "d": "prosopopeia, decorrente da representação da mente como um ser animado.",
+        "e": "silepse, composta pela repetição do termo \"vai\" na mesma posição."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Figuras de linguagem (metáfora, metonímia, antítese, paradoxo, hipérbole, ironia)",
+            "Intertextualidade, interdiscursividade e análise de textos verbais e não verbais (charges, cartuns)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 4
+    },
+    {
+      "numero": 7,
+      "tipo": "objetiva",
+      "enunciado": "De acordo com o texto, é correto afirmar que no Brasil",
+      "textos_de_apoio": [
+        "Mais de três mil gerentes de operações de companhias de diversos países, inclusive do Brasil, indicaram funções na área de administração e negócios, que ganham destaque no mercado de trabalho e demanda devido aos avanços tecnológicos. Entre essas funções, destacam-se as de Especialista em e-commerce, Gerente de compras on-line, Gerente de e-learning, Consultor de transformação digital e Assistente virtual.\nAlém do impacto de inovações e ferramentas, em comum entre as funções mais citadas, há a dificuldade de recrutamento, sobretudo no Brasil. \"Por serem novas funções, a oferta de pessoas qualificadas e bem preparadas é baixa\", diz uma diretora de recrutamento.\nMultinacionais e empresas de tecnologia ditam a tendência por aqui, mas a demanda deve se espalhar, nos próximos anos, para companhias das mais diversas áreas.\nNo Brasil, funções ligadas ao e-commerce e à área de e-learning se destacam pelo volume de vagas."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "os empregos vinculados às atividades que utilizam a internet estão em queda face ao excesso de mão de obra disponível.",
+        "b": "os avanços tecnológicos contribuem para o aumento do desemprego, por não promoverem a criação de novas oportunidades de trabalho.",
+        "c": "o desemprego se concentra entre os trabalhadores qualificados, uma vez que os salários destes tendem a ser maiores do que os de trabalhadores de menor qualificação.",
+        "d": "as vagas de trabalho, em áreas de administração e negócios em ambientes digitais, são difíceis de serem preenchidas, pois existem poucos profissionais preparados para assumi-las.",
+        "e": "a área tecnológica, apesar de utilizar muita mão de obra sem qualificação, está entre os ramos empresariais que menos remuneram seus profissionais, daí a falta de mão de obra para esse setor."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação",
+            "Tipologias textuais (narração, descrição, dissertação) e gêneros textuais variados"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 4
+    },
+    {
+      "numero": 8,
+      "tipo": "objetiva",
+      "enunciado": "De acordo com o texto, a amostra correspondeu a cerca de N% da população estudada.\n\nNessas condições, o valor de N é",
+      "textos_de_apoio": [
+        "A Pesquisa de Inovação (Pintec), realizada pelo Instituto Brasileiro de Geografia e Estatística (IBGE), tem como objetivo levantar informações que visem à construção de indicadores nacionais e regionais das atividades de inovação nas empresas brasileiras com 10 ou mais pessoas ocupadas, tendo como universo de investigação as atividades das Indústrias, dos setores de Eletricidade e gás e dos Serviços selecionados.\nA Pintec, do triênio 2012–2014, cobriu uma amostra de cerca de 17 mil empresas representativa de um universo de cerca de 130 mil empresas no Brasil.\nA Pintec 2014 apresentou a incidência de pesquisadores mulheres nas atividades de Pesquisa e Desenvolvimento (P&D) das empresas que implementaram inovações no Brasil em 2014 nas atividades da Indústria, de Eletricidade e gás e de Serviços selecionados, conforme o gráfico."
+      ],
+      "midia": [
+        "Página 5: Gráficos circulares da Pintec mostrando proporções de pesquisadores homens e mulheres em Indústria, Eletricidade e gás e Serviços selecionados."
+      ],
+      "alternativas": {
+        "a": "11.",
+        "b": "13.",
+        "c": "15.",
+        "d": "17.",
+        "e": "19."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Matemática Financeira: porcentagem, juros simples, juros compostos, taxas e índices",
+            "Razões e proporções diretas e inversas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 5
+    },
+    {
+      "numero": 9,
+      "tipo": "objetiva",
+      "enunciado": "Analisando os gráficos, é correto afirmar que,",
+      "textos_de_apoio": [
+        "A Pesquisa de Inovação (Pintec), realizada pelo Instituto Brasileiro de Geografia e Estatística (IBGE), tem como objetivo levantar informações que visem à construção de indicadores nacionais e regionais das atividades de inovação nas empresas brasileiras com 10 ou mais pessoas ocupadas, tendo como universo de investigação as atividades das Indústrias, dos setores de Eletricidade e gás e dos Serviços selecionados.\nA Pintec, do triênio 2012–2014, cobriu uma amostra de cerca de 17 mil empresas representativa de um universo de cerca de 130 mil empresas no Brasil.\nA Pintec 2014 apresentou a incidência de pesquisadores mulheres nas atividades de Pesquisa e Desenvolvimento (P&D) das empresas que implementaram inovações no Brasil em 2014 nas atividades da Indústria, de Eletricidade e gás e de Serviços selecionados, conforme o gráfico."
+      ],
+      "midia": [
+        "Página 5: Gráficos circulares da Pintec mostrando proporções de pesquisadores homens e mulheres em Indústria, Eletricidade e gás e Serviços selecionados."
+      ],
+      "alternativas": {
+        "a": "nas empresas da Indústria, a participação de pesquisadores homens, percentualmente, foi maior do que a participação masculina nos demais segmentos estudados.",
+        "b": "nos Serviços selecionados, a participação de pesquisadores mulheres foi de 16,1%, portanto, menor do que na Indústria.",
+        "c": "nas empresas de Eletricidade e gás, a participação de pesquisadores mulheres foi de 159%.",
+        "d": "nos três setores estudados, o número de mulheres pesquisadas foi maior do que 20 000.",
+        "e": "nas empresas de Eletricidade e gás, havia cerca de cinco homens para cada mulher."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Interpretação de gráficos (barras, setores, histogramas, box-plot, ramos e folhas)",
+            "Razões e proporções diretas e inversas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 5
+    },
+    {
+      "numero": 10,
+      "tipo": "objetiva",
+      "enunciado": "Em Lógica Clássica, uma determinada frase é uma proposição quando é uma oração declarativa que pode ser classificada como ou verdadeira ou falsa, mas não as duas. Neste sentido, as proposições transmitem pensamentos ao afirmarem fatos ou revelarem juízos que se formam a respeito de determinados acontecimentos, pessoas e objetos.\n\nDentre as frases apresentadas, assinale aquela que pode ser classificada como uma proposição lógica.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "Que bela prova de raciocínio lógico!",
+        "b": "Uma primorosa prova de raciocínio lógico.",
+        "c": "Toda prova de raciocínio lógico é fabulosa.",
+        "d": "Quem não gosta de uma prova de raciocínio lógico?",
+        "e": "Leia atenciosamente as questões da prova de raciocínio lógico."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Filosofia e Sociologia",
+          "assuntos": [
+            "Surgimento da Filosofia: passagem do pensamento mítico ao discurso racional (Logos)"
+          ]
+        },
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Tipologias textuais (narração, descrição, dissertação) e gêneros textuais variados"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 6
+    },
+    {
+      "numero": 11,
+      "tipo": "objetiva",
+      "enunciado": "A divisão é uma das quatro operações fundamentais da Aritmética e pode ser representada utilizando o algoritmo:\n\nConsidere que, no conjunto dos números naturais, a divisão de 43 por 5 tem quociente q. Seja N o número natural tal que (N + 43) dividido por 5 tem como quociente (q + 500).\n\nNessas condições, o menor valor de N é",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 6: Esquema do algoritmo da divisão indicando Dividendo, Divisor, Quociente e Resto."
+      ],
+      "alternativas": {
+        "a": "2 497.",
+        "b": "2 498.",
+        "c": "2 499.",
+        "d": "2 500.",
+        "e": "2 501."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Operações fundamentais com números inteiros e decimais",
+            "Conjuntos numéricos (Naturais, Inteiros, Racionais e Reais)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 6
+    },
+    {
+      "numero": 12,
+      "tipo": "objetiva",
+      "enunciado": "Uma fábrica deve produzir diariamente 523 canetas. Contudo, o encarregado da linha de produção, após analisar os resultados de 5 dias consecutivos, notou as seguintes quantidades produzidas por dia, apresentadas no quadro.\n\nA partir da análise desses dados, o encarregado concluiu que as máquinas apresentam problemas técnicos.\n\nSe nenhuma providência for tomada, mantendo-se o mesmo padrão da sequência e supondo que as máquinas produzam todos os dias, inclusive aos finais de semana, o menor número de canetas que a fábrica irá conseguir produzir, antes das máquinas paralisarem suas atividades, será",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 6: Tabela com as quantidades de canetas produzidas por dia do Dia 1 ao Dia 5 (523, 520, 517, 514, 511)."
+      ],
+      "alternativas": {
+        "a": "0.",
+        "b": "1.",
+        "c": "2.",
+        "d": "3.",
+        "e": "4."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Noção de sequência e lei de formação/recorrência",
+            "Progressão Aritmética (PA) - termo geral e soma dos termos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 6
+    },
+    {
+      "numero": 13,
+      "tipo": "objetiva",
+      "enunciado": "Ariel, estudante do Ensino Médio, achava que o seu relógio estava 3 minutos atrasado, mas, devido à sua rotina de estudos para a prova de vestibular da Fatec, não viu que, na realidade, seu relógio estava 12 minutos adiantado.\n\nNo dia do vestibular, Ariel achou que tinha perdido a prova, pois julgava que estava 8 minutos atrasada, mas, ao chegar no local do vestibular, o portão ainda estava aberto.\n\nIsso se deve ao fato de que Ariel estava adiantada",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "1 minutos.",
+        "b": "3 minutos.",
+        "c": "5 minutos.",
+        "d": "7 minutos.",
+        "e": "9 minutos."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Operações fundamentais com números inteiros e decimais"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 6
+    },
+    {
+      "numero": 14,
+      "tipo": "objetiva",
+      "enunciado": "Silogismo é uma estrutura lógica que designa uma forma de raciocínio dedutivo, que é exemplificado no cartum.\n\nAssinale a alternativa que apresenta a estrutura tradicional pela qual o silogismo é formado.",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 7: Cartum com pinguins conversando sobre silogismo e premissas."
+      ],
+      "alternativas": {
+        "a": "uma premissa e uma conclusão que se segue da premissa.",
+        "b": "uma premissa e duas conclusões que decorrem da premissa.",
+        "c": "duas premissas e uma conclusão que se segue delas.",
+        "d": "duas premissas e nenhuma conclusão.",
+        "e": "três premissas e nenhuma conclusão."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Filosofia e Sociologia",
+          "assuntos": [
+            "Filosofia Antiga: Sócrates, Platão e Aristóteles"
+          ]
+        },
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Intertextualidade, interdiscursividade e análise de textos verbais e não verbais (charges, cartuns)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 7
+    },
+    {
+      "numero": 15,
+      "tipo": "objetiva",
+      "enunciado": "O Brasil foi o principal destino dos africanos escravizados especialmente no século XIX. Ainda que pressões internacionais pusessem cada vez mais restrições ao tráfico transatlântico, os portos do sudeste do país, vários deles clandestinos, foram o destino de cerca de três quartos das pessoas escravizadas no Brasil entre 1822 e 1866. A escravidão mantinha, dessa forma, o seu papel fundamental na economia brasileira e na formação das relações sociais do país.\n\nAssinale a alternativa que corresponde corretamente ao contexto apresentado no texto.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "O Brasil proibiu oficialmente a entrada de africanos escravizados e a sua comercialização em 1866, o que levou à abolição da escravidão na década seguinte.",
+        "b": "O sudeste brasileiro, cuja economia se baseava principalmente na cafeicultura, recebeu a maior parte dos africanos escravizados no Brasil do século XIX.",
+        "c": "A Inglaterra teve êxito em coibir o tráfico transatlântico em 1888, ano em que ocorreu a abolição da escravidão no Brasil, nos Estados Unidos e no Caribe.",
+        "d": "A escravidão indígena, em detrimento da escravidão africana, foi predominante nos chamados ciclos do ouro e do café nos séculos XIX e XX.",
+        "e": "Os escravizados aportados no Brasil após 1822 vinham, em maior número, do chamado Chifre da África, região menos vigiada pela marinha britânica."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Brasil Imperial: Independência, Primeiro Reinado, Período Regencial e Segundo Reinado",
+            "Economia cafeeira, Guerra do Paraguai, imigração e abolição da escravidão no Brasil"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 7
+    },
+    {
+      "numero": 16,
+      "tipo": "objetiva",
+      "enunciado": "O nome com que foi batizado o maior torneio entre clubes de futebol sul-americano homenageia o conjunto de líderes dos processos de independência dos países da América do Sul. Os principais “libertadores” foram Simón Bolívar e José de San Martín, que atuaram nos processos de independência de diversos países.\n\nSobre esses processos de independência, é correto afirmar que",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "Bolívar foi o responsável pela opção monarquista, adotada nas novas nações independentes.",
+        "b": "Venezuela, Bolívia e Panamá se tornaram, a partir do ideal dos libertadores, uma nação única.",
+        "c": "Bolívar fracassou em seu projeto de formação de uma grande nação pan-americana.",
+        "d": "Argentina, Paraguai e Uruguai se uniram ao Brasil para a criação de uma grande nação monarquista.",
+        "e": "San Martín ficou conhecido como “libertador” por seu papel na abolição da escravidão na Guatemala."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Processos de Independência nas Américas: EUA, Revolução Haitiana e América Espanhola"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 7
+    },
+    {
+      "numero": 17,
+      "tipo": "objetiva",
+      "enunciado": "A Constituição Federal de 1988 revogou a de 1967 que, ao lado dos Atos Institucionais, serviu de base legal para as ações do regime militar.\n\nO primeiro Ato, assinado dias após o início do regime, em 1964",
+      "textos_de_apoio": [
+        "Em outubro de 2018, a Constituição brasileira completou trinta anos.\nPromulgado após quase dois anos de trabalho, o texto que lançava as bases para a nova legislação máxima do país foi resultado do grande envolvimento da sociedade – que enviou cartas, organizou-se em movimentos sociais e realizou eventos – e dos parlamentares eleitos após o término do regime militar.\nAs demandas da população foram consideradas para a construção de uma Constituição que ampliou direitos e liberdades, o que contribuiu para que ela fosse chamada de “Cidadã”."
+      ],
+      "midia": [
+        "Página 8: Charge do cartunista Henfil sobre a Constituinte."
+      ],
+      "alternativas": {
+        "a": "anistiou presos e exilados políticos e instituiu eleições indiretas para governador.",
+        "b": "impediu a concessão de habeas corpus a presos políticos e fechou o Congresso Nacional.",
+        "c": "permitiu a suspensão de direitos políticos e instituiu eleições indiretas para presidente da República.",
+        "d": "instituiu o bipartidarismo e a eleição direta para prefeitos das capitais estaduais.",
+        "e": "decretou estado de sítio e legalizou a tortura de presos políticos."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Brasil República: República Velha (oligarquias), Era Vargas (1930-1945), Período Democrático (1945-1964) e Ditadura Civil-Militar (1964-1985)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 8
+    },
+    {
+      "numero": 18,
+      "tipo": "objetiva",
+      "enunciado": "A Assembleia Nacional Constituinte de 1987–1988, que elaborou as novas leis do Brasil, foi representada por Henfil, na charge, como",
+      "textos_de_apoio": [
+        "Em outubro de 2018, a Constituição brasileira completou trinta anos.\nPromulgado após quase dois anos de trabalho, o texto que lançava as bases para a nova legislação máxima do país foi resultado do grande envolvimento da sociedade – que enviou cartas, organizou-se em movimentos sociais e realizou eventos – e dos parlamentares eleitos após o término do regime militar.\nAs demandas da população foram consideradas para a construção de uma Constituição que ampliou direitos e liberdades, o que contribuiu para que ela fosse chamada de “Cidadã”."
+      ],
+      "midia": [
+        "Página 8: Charge do cartunista Henfil sobre a Constituinte."
+      ],
+      "alternativas": {
+        "a": "a retomada da consciência de proteção ambiental, que existia nas Constituições anteriores e que foi deixada de lado durante o regime militar.",
+        "b": "a reelaboração dos símbolos nacionais, como a bandeira, cujas cores foram alteradas para remeter às riquezas naturais.",
+        "c": "o ressurgimento dos estados, que voltaram a ter governadores e não interventores federais escolhidos pelo presidente.",
+        "d": "a reconstrução do país por sua população, após um período autoritário que deixou marcas negativas.",
+        "e": "o resultado do trabalho científico e racional, representado pelos intelectuais que elaboraram o novo texto."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Redemocratização do Brasil, Constituição de 1988 e crises políticas recentes"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 8
+    },
+    {
+      "numero": 19,
+      "tipo": "objetiva",
+      "enunciado": "As condições ideais para o triunfo do nazifascismo foram um Estado com os seus mecanismos dirigentes não mais funcionando; uma massa de cidadãos desencantados, desorientados e descontentes, não mais sabendo a quem ser leais; a possibilidade de uma revolução social e movimentos socialistas fortes, mas que não estavam de fato em posição de realizá-la; e uma inclinação do ressentimento nacionalista contra os tratados de paz de 1918–1920. Sob essas condições, as velhas elites governantes sentiram-se tentadas a aliar-se aos ultrarradicais: os liberais italianos se aliaram aos fascistas de Mussolini e os alemães aos nazistas de Hitler.\n\nDe acordo com o texto e com o contexto ao qual o autor se refere, é correto afirmar que",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "as economias europeias viveram um período de prosperidade após os tratados de paz que puseram fim à Primeira Guerra Mundial.",
+        "b": "os grupos ultranacionalistas nazistas e fascistas aliaram-se a socialistas e comunistas para governar Alemanha e Itália.",
+        "c": "a chamada “grande depressão” foi causada pelo descontentamento da sociedade com os grupos de ultradireita.",
+        "d": "o pleno funcionamento das instituições fortaleceu o nacionalismo alemão e contribuiu para a queda do nazismo.",
+        "e": "a Segunda Guerra Mundial e o holocausto estão entre as principais consequências do processo descrito."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Revolução Russa, Crise de 1929 e ascensão do Nazifascismo",
+            "Segunda Guerra Mundial e criação da Declaração Universal dos Direitos Humanos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 9
+    },
+    {
+      "numero": 20,
+      "tipo": "objetiva",
+      "enunciado": "A produção do aço ocorre nas usinas siderúrgicas em ______, e tem como principais matérias-primas minérios de ______ e ______.\n\nAssinale a alternativa que completa, corretamente, o texto.",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 9: Tabela com lacunas (I, II, III) preenchendo o texto sobre produção de aço."
+      ],
+      "alternativas": {
+        "a": "altos-fornos | ferro | carvão",
+        "b": "altos-fornos | ferro | cobre",
+        "c": "altos-fornos | cobre | zinco",
+        "d": "cubas eletrolíticas | ferro | carvão",
+        "e": "cubas eletrolíticas | cobre | zinco"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Eletroquímica: reações de oxirredução, números de oxidação (NOX) e agentes oxidantes/redutores",
+            "Combustíveis fósseis (carvão, petróleo, gás natural) e destilação fracionada"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 9
+    },
+    {
+      "numero": 21,
+      "tipo": "objetiva",
+      "enunciado": "Hidrocarbonetos podem ser usados como combustível, por exemplo o gás but-1-eno.\n\nAssinale a alternativa que apresenta a fórmula molecular e a quantidade mínima, em kg, de gás oxigênio necessária para a combustão completa de 5,6 kg desse combustível.",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 9: Tabela com massas molares e tabela de opções de fórmulas e massas em kg."
+      ],
+      "alternativas": {
+        "a": "C₃H₆ | 19,2",
+        "b": "C₄H₈ | 19,2",
+        "c": "C₄H₈ | 3,2",
+        "d": "C₃H₆ | 3,2",
+        "e": "C₄H₁₀ | 19,2"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Cálculos estequiométricos: relações de massa, volume, mols e pureza/rendimento",
+            "Principais funções orgânicas: hidrocarbonetos, álcoois, fenóis, éteres, ésteres, aldeídos, cetonas, ácidos carboxílicos, aminas e amidas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 9
+    },
+    {
+      "numero": 22,
+      "tipo": "objetiva",
+      "enunciado": "A escala de pH que varia de 0 a 14 é válida apenas para sistemas aquosos a 25 °C. Variando-se a temperatura, a escala de pH também varia.\n\nO quadro fornece valores de Kw e de pH da água pura em diferentes temperaturas.\n\nAnalisando-se os dados, pode-se afirmar, corretamente, que a",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 9: Tabela com valores de Temperatura (°C), Kw e pH da água pura."
+      ],
+      "alternativas": {
+        "a": "concentração de íons OH⁻(aq) na água pura diminui com o aumento de temperatura.",
+        "b": "concentração de íons H⁺(aq) na água pura diminui com o aumento de temperatura.",
+        "c": "água pura é ácida em temperaturas superiores a 25 °C.",
+        "d": "água pura é ácida em temperaturas inferiores a 25 °C.",
+        "e": "água pura é neutra em qualquer temperatura."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Equilíbrio iônico da água, escala de pH, pOH e hidrólise de sais"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 9
+    },
+    {
+      "numero": 23,
+      "tipo": "objetiva",
+      "enunciado": "Examinando o quadro, identifique as duas substâncias simples nele presentes pelos seus nomes antigos.",
+      "textos_de_apoio": [
+        "Em seu livro Tratado Elementar de Química, publicado em 1789, Antonie Lavoisier estabeleceu uma nova nomenclatura para diversas substâncias químicas. Alguns exemplos, extraídos desse livro, são dados no quadro."
+      ],
+      "midia": [
+        "Página 10: Tabela com Nome antigo, Nome proposto por Lavoisier e Nome atual."
+      ],
+      "alternativas": {
+        "a": "ar vital e ar fixo",
+        "b": "ar vital e ar inflamável",
+        "c": "sal marinho e soda aerada",
+        "d": "ácido vitriólico e ácido muriático",
+        "e": "vitríolo azul e soda efervescente"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Propriedades gerais e específicas dos materiais",
+            "Funções inorgânicas: ácidos, bases, sais e óxidos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 10
+    },
+    {
+      "numero": 24,
+      "tipo": "objetiva",
+      "enunciado": "A reação química que ocorre entre as substâncias denominadas por Lavoisier como carbonato de soda e ácido muriático é evidenciada pela formação rápida de um gás que é muito conhecido por ser um dos responsáveis pela intensificação do efeito estufa e por ser indispensável à realização da fotossíntese vegetal.\n\nEsse gás é o que, antigamente, era chamado de",
+      "textos_de_apoio": [
+        "Em seu livro Tratado Elementar de Química, publicado em 1789, Antonie Lavoisier estabeleceu uma nova nomenclatura para diversas substâncias químicas. Alguns exemplos, extraídos desse livro, são dados no quadro."
+      ],
+      "midia": [
+        "Página 10: Tabela com Nome antigo, Nome proposto por Lavoisier e Nome atual."
+      ],
+      "alternativas": {
+        "a": "ácido vitriólico.",
+        "b": "vitríolo azul.",
+        "c": "sal marinho.",
+        "d": "ar inflamável.",
+        "e": "ar fixo."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Evidências macroscópicas de transformações químicas",
+            "Funções inorgânicas: ácidos, bases, sais e óxidos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 10
+    },
+    {
+      "numero": 25,
+      "tipo": "objetiva",
+      "enunciado": "Para o autor, devido à contínua evolução da tecnologia e às mudanças constantes no mundo do trabalho, os profissionais do século XXI precisam permanecer em modo de aprendizagem para",
+      "textos_de_apoio": [
+        "The Most Important Skill For 21st–Century Success\nBy Kevin H. Johnson\nThe world of work is changing so rapidly, as emerging technologies like artificial intelligence, machine learning, and automation change job requirements. As technologies continue to evolve and business conditions shift, employees must stay in learning mode so their skills don’t lose currency.\nIt’s one thing to keep up with skills as they’re changing in the here and now. It’s a whole different challenge to prepare yourself for tools and technologies that may exist only in the minds of engineers, if at all.\nThere’s so much uncertainty and ambiguity around the future of work, it doesn’t matter your industry or job function. That’s why, when anyone asks what the next “hot” skill will be, I say it’s the same skill that will serve people today, tomorrow, and far into the future — the ability to learn.\nWhen people embrace lifelong learning, assimilating new skills isn’t a source of fear and stress — it’s just another part of their career journey. Separating process from outcome will make you a better learner too, as you get less fixated on immediate mastery of a skill and more appreciative of how moving outside your comfort zone helps you grow as a person.\nA learning mindset also makes it less likely you’ll be thrown off or immobilized when a project changes scope or a job function undergoes transformation. While others scramble to figure out where to go from here, lifelong learners maintain momentum and productivity."
+      ],
+      "midia": [
+        "Página 11: Infográfico ilustrando conceitos de carreira, aprendizado e relacionamentos profissionais."
+      ],
+      "alternativas": {
+        "a": "automatizar suas habilidades.",
+        "b": "evitar o trabalho em home office.",
+        "c": "estratificar suas habilidades correntes.",
+        "d": "continuar imprescindíveis no mercado.",
+        "e": "compreender melhor o pensamento dos engenheiros."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 11
+    },
+    {
+      "numero": 26,
+      "tipo": "objetiva",
+      "enunciado": "O verbo may, na oração do segundo parágrafo \"It’s a whole different challenge to prepare yourself for tools and technologies that may exist only in the minds of engineers, if at all\", indica",
+      "textos_de_apoio": [
+        "The Most Important Skill For 21st–Century Success\nBy Kevin H. Johnson\nThe world of work is changing so rapidly, as emerging technologies like artificial intelligence, machine learning, and automation change job requirements. As technologies continue to evolve and business conditions shift, employees must stay in learning mode so their skills don’t lose currency.\nIt’s one thing to keep up with skills as they’re changing in the here and now. It’s a whole different challenge to prepare yourself for tools and technologies that may exist only in the minds of engineers, if at all.\nThere’s so much uncertainty and ambiguity around the future of work, it doesn’t matter your industry or job function. That’s why, when anyone asks what the next “hot” skill will be, I say it’s the same skill that will serve people today, tomorrow, and far into the future — the ability to learn.\nWhen people embrace lifelong learning, assimilating new skills isn’t a source of fear and stress — it’s just another part of their career journey. Separating process from outcome will make you a better learner too, as you get less fixated on immediate mastery of a skill and more appreciative of how moving outside your comfort zone helps you grow as a person.\nA learning mindset also makes it less likely you’ll be thrown off or immobilized when a project changes scope or a job function undergoes transformation. While others scramble to figure out where to go from here, lifelong learners maintain momentum and productivity."
+      ],
+      "midia": [
+        "Página 11: Infográfico ilustrando conceitos de carreira, aprendizado e relacionamentos profissionais."
+      ],
+      "alternativas": {
+        "a": "recomendação.",
+        "b": "probabilidade.",
+        "c": "habilidade.",
+        "d": "obrigação.",
+        "e": "conclusão."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Verbos modais e seus valores semânticos (can, could, should, must, may, might)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 11
+    },
+    {
+      "numero": 27,
+      "tipo": "objetiva",
+      "enunciado": "Na oração do terceiro parágrafo \"... when anyone asks what the next 'hot' skill will be\", entende-se a expressão grifada como",
+      "textos_de_apoio": [
+        "The Most Important Skill For 21st–Century Success\nBy Kevin H. Johnson\nThe world of work is changing so rapidly, as emerging technologies like artificial intelligence, machine learning, and automation change job requirements. As technologies continue to evolve and business conditions shift, employees must stay in learning mode so their skills don’t lose currency.\nIt’s one thing to keep up with skills as they’re changing in the here and now. It’s a whole different challenge to prepare yourself for tools and technologies that may exist only in the minds of engineers, if at all.\nThere’s so much uncertainty and ambiguity around the future of work, it doesn’t matter your industry or job function. That’s why, when anyone asks what the next “hot” skill will be, I say it’s the same skill that will serve people today, tomorrow, and far into the future — the ability to learn.\nWhen people embrace lifelong learning, assimilating new skills isn’t a source of fear and stress — it’s just another part of their career journey. Separating process from outcome will make you a better learner too, as you get less fixated on immediate mastery of a skill and more appreciative of how moving outside your comfort zone helps you grow as a person.\nA learning mindset also makes it less likely you’ll be thrown off or immobilized when a project changes scope or a job function undergoes transformation. While others scramble to figure out where to go from here, lifelong learners maintain momentum and productivity."
+      ],
+      "midia": [
+        "Página 11: Infográfico ilustrando conceitos de carreira, aprendizado e relacionamentos profissionais."
+      ],
+      "alternativas": {
+        "a": "experiência resultante de muito investimento em formação acadêmica.",
+        "b": "certificação capaz de abrir portas para a pesquisa.",
+        "c": "conhecimento das novas tecnologias.",
+        "d": "tendência de forte apelo emocional.",
+        "e": "habilidade inovadora e desejada."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 11
+    },
+    {
+      "numero": 28,
+      "tipo": "objetiva",
+      "enunciado": "No texto, a expressão lifelong learning, presente no quarto parágrafo do texto, significa a habilidade de",
+      "textos_de_apoio": [
+        "The Most Important Skill For 21st–Century Success\nBy Kevin H. Johnson\nThe world of work is changing so rapidly, as emerging technologies like artificial intelligence, machine learning, and automation change job requirements. As technologies continue to evolve and business conditions shift, employees must stay in learning mode so their skills don’t lose currency.\nIt’s one thing to keep up with skills as they’re changing in the here and now. It’s a whole different challenge to prepare yourself for tools and technologies that may exist only in the minds of engineers, if at all.\nThere’s so much uncertainty and ambiguity around the future of work, it doesn’t matter your industry or job function. That’s why, when anyone asks what the next “hot” skill will be, I say it’s the same skill that will serve people today, tomorrow, and far into the future — the ability to learn.\nWhen people embrace lifelong learning, assimilating new skills isn’t a source of fear and stress — it’s just another part of their career journey. Separating process from outcome will make you a better learner too, as you get less fixated on immediate mastery of a skill and more appreciative of how moving outside your comfort zone helps you grow as a person.\nA learning mindset also makes it less likely you’ll be thrown off or immobilized when a project changes scope or a job function undergoes transformation. While others scramble to figure out where to go from here, lifelong learners maintain momentum and productivity."
+      ],
+      "midia": [
+        "Página 11: Infográfico ilustrando conceitos de carreira, aprendizado e relacionamentos profissionais."
+      ],
+      "alternativas": {
+        "a": "separar o processo do resultado.",
+        "b": "adaptar-se ao medo e ao estresse.",
+        "c": "aprender continuamente ao longo da vida.",
+        "d": "ter longevidade devido às novas tecnologias.",
+        "e": "fixar-se no domínio imediato de conhecimento."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 11
+    },
+    {
+      "numero": 29,
+      "tipo": "objetiva",
+      "enunciado": "Na oração \"A learning mindset also makes it less likely you’ll be thrown off or immobilized when a project changes scope or a job function undergoes transformation\", presente no quinto parágrafo do texto, o autor afirma que as pessoas que têm disposição para aprender têm menor chance de",
+      "textos_de_apoio": [
+        "The Most Important Skill For 21st–Century Success\nBy Kevin H. Johnson\nThe world of work is changing so rapidly, as emerging technologies like artificial intelligence, machine learning, and automation change job requirements. As technologies continue to evolve and business conditions shift, employees must stay in learning mode so their skills don’t lose currency.\nIt’s one thing to keep up with skills as they’re changing in the here and now. It’s a whole different challenge to prepare yourself for tools and technologies that may exist only in the minds of engineers, if at all.\nThere’s so much uncertainty and ambiguity around the future of work, it doesn’t matter your industry or job function. That’s why, when anyone asks what the next “hot” skill will be, I say it’s the same skill that will serve people today, tomorrow, and far into the future — the ability to learn.\nWhen people embrace lifelong learning, assimilating new skills isn’t a source of fear and stress — it’s just another part of their career journey. Separating process from outcome will make you a better learner too, as you get less fixated on immediate mastery of a skill and more appreciative of how moving outside your comfort zone helps you grow as a person.\nA learning mindset also makes it less likely you’ll be thrown off or immobilized when a project changes scope or a job function undergoes transformation. While others scramble to figure out where to go from here, lifelong learners maintain momentum and productivity."
+      ],
+      "midia": [
+        "Página 11: Infográfico ilustrando conceitos de carreira, aprendizado e relacionamentos profissionais."
+      ],
+      "alternativas": {
+        "a": "gostar de mudanças em suas funções.",
+        "b": "ter novos projetos e funções atribuídas.",
+        "c": "projetar mudanças no escopo de um projeto.",
+        "d": "aceitar transformações no escopo de um projeto.",
+        "e": "sair da equipe no caso de mudanças no escopo de um projeto."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 11
+    },
+    {
+      "numero": 30,
+      "tipo": "objetiva",
+      "enunciado": "Um grupo de cinco amigos resolveu passar o final de semana em um hotel fazenda no interior do estado de São Paulo. Todos foram juntos no mesmo carro e decidiram dividir, igualmente, a despesa total da viagem entre os cinco participantes.\n\nDados da viagem de carro:\n• a distância percorrida ida e volta foi de 432 km;\n• o consumo de gasolina do veículo foi de 9 km/L;\n• o preço da gasolina foi de R$ 4,50/L;\n• o valor de cada pedágio foi de\n  ◦ P1: R$ 10,00\n  ◦ P2: R$ 2,50\n  ◦ P3: R$ 4,40\n  ◦ P4: R$ 2,70\n\nSabendo que todos os pedágios foram pagos na ida e na volta, cada amigo gastou em transporte, considerando apenas a gasolina e os pedágios, a quantia de",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 13: Quadro com dados da viagem de carro (distância, consumo, preço da gasolina e valores dos pedágios)."
+      ],
+      "alternativas": {
+        "a": "R$ 43,20.",
+        "b": "R$ 45,24.",
+        "c": "R$ 47,12.",
+        "d": "R$ 51,04.",
+        "e": "R$ 53,08."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Matemática Financeira: porcentagem, juros simples, juros compostos, taxas e índices",
+            "Operações fundamentais com números inteiros e decimais"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 13
+    },
+    {
+      "numero": 31,
+      "tipo": "objetiva",
+      "enunciado": "De um paralelepípedo retorretângulo de 30 cm, 4 cm e 15 cm, é removido um semicilindro circular reto de altura 4 cm e base de diâmetro 20 cm, obtendo-se uma peça como mostra a figura.\n\nAssim sendo, o volume da peça é, em centímetros cúbicos,",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 13: Figura geométrica ilustrando o paralelepípedo com o semicilindro removido e caixa com indicação de Adote π = 3."
+      ],
+      "alternativas": {
+        "a": "1 100.",
+        "b": "1 200.",
+        "c": "1 300.",
+        "d": "1 400.",
+        "e": "1 500."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Geometria Espacial: vistas ortogonais e planificação",
+            "Cilindro, cone e esfera (área, volume e capacidade)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 13
+    },
+    {
+      "numero": 32,
+      "tipo": "objetiva",
+      "enunciado": "De uma caixa com 50 cartões numerados de 1 a 50, sorteia-se aleatoriamente um cartão. A probabilidade de que o número sorteado seja divisor de 30 é um valor",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "entre 1/7 e 1/5.",
+        "b": "igual a 1/5.",
+        "c": "entre 1/5 e 1/2.",
+        "d": "igual a 1/2.",
+        "e": "maior que 1/2."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Espaço amostral (discreto e contínuo) e conceito de probabilidade"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 14
+    },
+    {
+      "numero": 33,
+      "tipo": "objetiva",
+      "enunciado": "O Teorema de Stevin relaciona a pressão atmosférica e a pressão nos líquidos. Para um líquido homogêneo, em equilíbrio, cuja superfície está sob ação da pressão atmosférica, a pressão (P) exercida em um ponto submerso qualquer do líquido em relação à altura da coluna de líquido (h) é dada por uma função polinomial do 1º grau.\n\nO gráfico apresenta a variação da pressão (P) em função da altura da coluna de líquido (h) em um tanque de combustível.\n\nNessas condições, a pressão (P) exercida em um ponto desse líquido que se encontra a 4 m de profundidade é, em Pa,",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 14: Gráfico da pressão P em função da altura da coluna de líquido h."
+      ],
+      "alternativas": {
+        "a": "1,3 × 10⁰",
+        "b": "1,6 × 10⁰",
+        "c": "1,3 × 10³",
+        "d": "1,3 × 10⁵",
+        "e": "1,6 × 10⁵"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Pressão e pressão hidrostática (Teorema de Stevin e experiência de Torricelli)"
+          ]
+        },
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Função polinomial do 1º grau e função constante",
+            "Gráficos de funções por uma ou várias sentenças"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 14
+    },
+    {
+      "numero": 34,
+      "tipo": "objetiva",
+      "enunciado": "Considere que será construída uma escada para vencer uma distância vertical de 126 cm. No projeto, todos os degraus têm as mesmas dimensões, conforme a figura 1. A figura 2 apresenta um esquema da escada.\n\nAssim sendo, o comprimento horizontal da escada (x) é, em metros,",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 14: Figura 1 (detalhe das dimensões de um degrau: 18 cm de altura e 28 cm de largura) e Figura 2 (esquema geral da escada com altura total de 126 cm e comprimento horizontal x)."
+      ],
+      "alternativas": {
+        "a": "140.",
+        "b": "156.",
+        "c": "168.",
+        "d": "184.",
+        "e": "192."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Razões e proporções diretas e inversas",
+            "Geometria Plana: ponto, reta, plano, segmentos e ângulos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 14
+    },
+    {
+      "numero": 35,
+      "tipo": "objetiva",
+      "enunciado": "A linha 1 (Azul) do metrô de São Paulo foi inaugurada em setembro de 1974 e opera hoje com uma extensão aproximada de 21 000 metros distribuídos por 23 estações, da estação Jabaquara à estação Tucuruvi. O tempo médio, para percorrer o trajeto entre as duas estações terminais citadas, é de, aproximadamente, 45 minutos.\n\nSe um passageiro entra no vagão de um trem (metrô) na estação Jabaquara e desce apenas na estação Tucuruvi, podemos afirmar corretamente que a sua velocidade escalar média, em km/h, é, mais próxima de",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "20.",
+        "b": "30.",
+        "c": "40.",
+        "d": "50.",
+        "e": "60."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Cinemática escalar: velocidade e aceleração escalar média e instantânea",
+            "Grandezas fundamentais e derivadas, Sistema Internacional de Unidades (SI) e análise dimensional"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 15
+    },
+    {
+      "numero": 36,
+      "tipo": "objetiva",
+      "enunciado": "Em uma aula de laboratório de calorimetria, um aluno da Fatec precisa determinar o calor específico de um material desconhecido de massa 1,0 kg. Para isso, ele usa, por 1 min, um forno elétrico que opera em 220 V e 10 A. Após decorrido esse tempo, ele observa uma variação de temperatura de 220 °C.\n\nConsiderando que o forno funciona de acordo com as características apresentadas, podemos afirmar que o calor específico determinado, em J/kg·K, foi de",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 15: Caixa com fórmula de calorimetria Q = m · c · Δθ."
+      ],
+      "alternativas": {
+        "a": "4,2 × 10³",
+        "b": "8,4 × 10²",
+        "c": "6,0 × 10²",
+        "d": "4,9 × 10²",
+        "e": "1,5 × 10²"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Calorimetria: calor sensível, capacidade térmica, calor latente e trocas de calor",
+            "Eletrodinâmica: corrente elétrica, ddp, Leis de Ohm, resistividade e potência elétrica (kWh)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 15
+    },
+    {
+      "numero": 37,
+      "tipo": "objetiva",
+      "enunciado": "Um professor do curso de Materiais da Fatec apresentou aos alunos a seguinte citação:\n\n\"As fibras ópticas podem ser usadas para guiar a luz ao longo de um determinado caminho. A ideia é fazer um raio de luz percorrer uma fibra transparente, ricocheteando entre as suas paredes. Desde que o ângulo de incidência do raio na parede da fibra seja sempre maior que o ângulo crítico, o raio permanecerá sempre dentro dela mesmo que ela esteja curva\".\n\nKIRK, Tim. Physics for the IB Diploma. Oxford University Press, 2003. Livre tradução.\n\nEm seguida, pediu para que os alunos respondessem, de maneira assertiva, à qual conceito físico a citação se refere.\n\nA resposta correta esperada pelo professor é",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "difração.",
+        "b": "polarização.",
+        "c": "ângulo limite.",
+        "d": "espalhamento.",
+        "e": "dispersão luminosa."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Refração luminosa: Lei de Snell-Descartes, ângulo limite, reflexão total e dioptro plano"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 15
+    },
+    {
+      "numero": 38,
+      "tipo": "objetiva",
+      "enunciado": "Para explicar o efeito Doppler, um professor do curso de Mecânica brinca com o uso de personagens de um desenho animado. Ele projeta uma figura do carro de Fred Flintstone no episódio em que ele e Barney Rubble eram policiais. A figura mostra a representação do carro visto de cima se deslocando para a direita com velocidade constante em módulo.\n\nNa figura ainda, ele representa, em outra perspectiva, as personagens Betty Rubble e Wilma Flintstone. Os círculos representam as frentes de ondas sonoras de \"YABBA DABBA DOO\" emitidas pela sirene.\n\nConsidere que as observadoras Betty Rubble e Wilma Flintstone estejam em repouso na posição apresentada na figura.\n\nEm relação ao som emitido do carro de Fred e Barney, é correto afirmar que",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 16: Ilustração do carro de Fred Flintstone com frentes de onda sonoras e as personagens Betty Rubble e Wilma Flintstone."
+      ],
+      "alternativas": {
+        "a": "Wilma o escutará com uma frequência menor que a de Betty.",
+        "b": "Wilma o escutará com uma frequência maior que a de Betty.",
+        "c": "Betty o escutará mais intenso que Wilma.",
+        "d": "Betty o escutará mais agudo que Wilma.",
+        "e": "Betty o escutará mais alto que Wilma."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Acústica: velocidade do som, qualidades fisiológicas (altura, timbre, intensidade), tubos sonoros e Efeito Doppler"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 16
+    },
+    {
+      "numero": 39,
+      "tipo": "objetiva",
+      "enunciado": "Dois fios condutores idênticos, paralelos entre si, e de comprimento infinito são percorridos simultaneamente por correntes elétricas de mesmo sentido e de mesma intensidade. Considere que eles estejam dispostos perpendiculares ao plano do papel desta prova.\n\nNessas condições, é correto afirmar que",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "geram campos magnéticos perpendiculares ao plano do papel.",
+        "b": "geram campos magnéticos circulares ao plano do papel.",
+        "c": "geram campos magnéticos repulsivos entre si.",
+        "d": "sofrem entre si uma força de repulsão.",
+        "e": "sofrem entre si uma força de atração."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Campo magnético de ímãs e correntes elétricas (fio, espira e solenoide)",
+            "Força magnética sobre cargas em movimento e condutores"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 16
+    },
+    {
+      "numero": 40,
+      "tipo": "objetiva",
+      "enunciado": "Com uma área de cerca de 250 mil km², tem-se um bioma que se estende pela Bolívia, Paraguai e Brasil, sendo aproximadamente 62% no Brasil. Inserido na parte central da bacia hidrográfica do Alto Paraguai, é influenciado pelo rio Paraguai e por seus vários afluentes que alagam a região, formando extensas áreas alagadiças.\n\nÉ caracterizado pela alternância entre períodos de muita chuva, que acontecem de outubro a março, e períodos de seca entre os meses de abril e setembro. Seu relevo é plano, levemente ondulado, com alguns raros morros isolados e com muitas depressões rasas. As altitudes não ultrapassam 200 metros acima do nível do mar e a declividade é quase nula.\n\nEssa descrição caracteriza corretamente o bioma",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "Amazônia.",
+        "b": "Cerrado.",
+        "c": "Caatinga.",
+        "d": "Pampa.",
+        "e": "Pantanal."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Domínios morfoclimáticos e biomas mundiais e brasileiros"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 17
+    },
+    {
+      "numero": 41,
+      "tipo": "objetiva",
+      "enunciado": "O Brasil é um dos maiores exportadores de commodities do mundo.\n\nChamamos de commodities produtos de base",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "primária, principalmente pesqueira e do setor têxtil.",
+        "b": "primária, principalmente agrícola e de extração mineral.",
+        "c": "secundária, principalmente industrial e eletroeletrônica.",
+        "d": "secundária, principalmente siderúrgica e metalúrgica.",
+        "e": "terciária, principalmente bancária e de produtos hospitalares."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Globalização, comércio internacional, blocos econômicos e a posição do Brasil no comércio global"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 17
+    },
+    {
+      "numero": 42,
+      "tipo": "objetiva",
+      "enunciado": "O carvão mineral é a segunda fonte de energia mais usada no planeta, representando mais de 30% do consumo energético mundial.\n\nSobre essa fonte de energia, podemos afirmar corretamente que é",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "conseguida a partir da destilação do petróleo e do gás liquefeito.",
+        "b": "considerada limpa, pois é transformada por meio de fissão nuclear.",
+        "c": "obtida pela queima de troncos e de galhos de árvores extraídas de áreas tropicais.",
+        "d": "de origem metamórfica, cuja formação se iniciou há milhões de anos a partir do soterramento de materiais inorgânicos.",
+        "e": "de origem sedimentar, pois é uma rocha resultante de um processo de milhões de anos, quando formações florestais foram soterradas."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Matrizes energéticas mundiais e do Brasil (fontes renováveis e não renováveis)"
+          ]
+        },
+        {
+          "area": "Química",
+          "assuntos": [
+            "Combustíveis fósseis (carvão, petróleo, gás natural) e destilação fracionada"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 17
+    },
+    {
+      "numero": 43,
+      "tipo": "objetiva",
+      "enunciado": "Poucos anos após a Independência do Brasil, o Império brasileiro estimulou a vinda de famílias europeias para o sul do país, principalmente para áreas onde hoje se situam os estados do Rio Grande do Sul e de Santa Catarina.\n\nAs famílias de imigrantes, que foram enviadas para o sul do país, no contexto citado, foram assentadas em",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "colônias adquiridas por cooperativas agrícolas estrangeiras, para introduzir a cultura do algodão, em sistema de colonato.",
+        "b": "pequenas propriedades doadas pelo governo, para garantir a soberania nacional em um território pouco povoado.",
+        "c": "grandes latifúndios controlados pela elite estrangeira, para trabalhar nas lavouras de café destinadas à exportação.",
+        "d": "minifúndios monocultores de cana-de-açúcar, para substituir a mão de obra de pessoas escravizadas.",
+        "e": "sesmarias controladas pelo governo imperial, para atuar na implantação da cultura da soja no Brasil."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Brasil Imperial: Independência, Primeiro Reinado, Período Regencial e Segundo Reinado"
+          ]
+        },
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Demografia: conceitos populacionais, transição demográfica, pirâmides etárias e fluxos migratórios"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 17
+    },
+    {
+      "numero": 44,
+      "tipo": "objetiva",
+      "enunciado": "No final da década de 1940, a Alemanha foi dividida em duas: a República Federal Alemã (RFA), ou Alemanha Ocidental, capitalista; e a República Democrática Alemã (RDA), ou Alemanha Oriental, socialista. No início dos anos 1960, a cidade de Berlim, na Alemanha, foi dividida por um muro.\n\nA construção desse muro",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "aumentou as disputas geopolíticas, econômicas e militares entre a França e o Reino Unido, principais adversários durante a Guerra Fria.",
+        "b": "dividiu a Europa em dois blocos distintos: a Europa do Leste, aliada dos Estados Unidos; e a Europa do Oeste, aliada da União Soviética.",
+        "c": "separou fisicamente as Alemanhas e foi construído para impedir o contrabando de livros e de armamentos entre os lados Ocidental e Oriental.",
+        "d": "reforçou a divisão da cidade de Berlim em dois lados distintos e tinha a intenção de coibir a fuga de alemães orientais para a Alemanha Ocidental.",
+        "e": "inviabilizou o governo nazista, até então presente na Alemanha Oriental, obrigando seus líderes a pedirem asilo político na Alemanha Ocidental."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Guerra Fria, corrida armamentista e descolonização da África e Ásia"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 18
+    },
+    {
+      "numero": 45,
+      "tipo": "objetiva",
+      "enunciado": "No heredograma, os símbolos preenchidos representam pessoas afetadas por uma doença hereditária. Os homens são representados pelos quadrados e as mulheres, pelos círculos.\n\nO padrão de herança observado por essa doença é",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 18: Heredograma com gerações I, II e III e legenda de afetados e normais."
+      ],
+      "alternativas": {
+        "a": "recessivo autossômico, porque pais (II–4 e II–5) tiveram filhas normais.",
+        "b": "recessivo ligado ao cromossomo X, porque a filha (II–2) do homem afetado (I–1) não é afetada.",
+        "c": "recessivo ligado ao cromossomo Y, pois a doença se manifesta apenas nos indivíduos do sexo masculino.",
+        "d": "dominante autossômica, porque os pais afetados (I–1 e I–2) tiveram uma filha normal (II–2).",
+        "e": "dominante ligado ao cromossomo X, pois todas as filhas de homens afetados também apresentam a doença."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Heredogramas e probabilidades genéticas",
+            "1ª e 2ª Leis de Mendel e correlação com a meiose"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 18
+    },
+    {
+      "numero": 46,
+      "tipo": "objetiva",
+      "enunciado": "Em relação a essa doença, é correto que",
+      "textos_de_apoio": [
+        "A leishmaniose é uma doença não contagiosa, causada por parasitas, que são transmitidos por vetores hematófagos, conhecidos por mosquito-palha ou birigui. O vetor se contamina com o sangue de pessoas e de animais doentes, principalmente cães, e transmite o parasita às pessoas e animais sadios.\nExistem dois tipos de leishmaniose, a tegumentar (conhecida como úlcera de bauru) e a visceral (conhecida como calazar), capazes de causar sérios danos às pessoas afetadas.\nA leishmaniose tegumentar caracteriza-se por feridas na pele e nas mucosas das vias aéreas superiores.\nA leishmaniose visceral é uma doença sistêmica, pois acomete vários órgãos internos, principalmente o fígado, o baço e a medula óssea.\nAtualmente, existem cerca de 12 milhões de pessoas infectadas por leishmaniose em 88 países. Um deles é o Brasil, o mais afetado ao lado da Índia, Etiópia e Sudão. A doença está entre as mais negligenciadas no mundo, de acordo com a Organização Mundial de Saúde (OMS), atingindo em sua maioria, as populações mais pobres."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "pode apresentar, em alguns casos, picos de febre alta, entre 39 °C e 40 °C, que coincidem com a ruptura de órgãos afetados e a consequente liberação de novos vírus no sangue.",
+        "b": "pode ser prevenida evitando a proliferação dos transmissores, usando mosquiteiros ao redor das camas e telas nas portas e janelas.",
+        "c": "é causada por bactérias que atacam células do sangue (hemácias) e órgãos, como o fígado, o baço e a medula vermelha dos ossos.",
+        "d": "é transmitida pela ingestão de água e alimentos contaminados com cistos dos agentes etiológicos.",
+        "e": "caracteriza-se por ser uma doença infecciosa causada por protozoários do gênero Trypanosoma."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Saúde e Parasitologia: bacterioses, protozooses (malária, Chagas, leishmaniose) e verminoses (teníase, esquistossomose, ascaridíase)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 19
+    },
+    {
+      "numero": 47,
+      "tipo": "objetiva",
+      "enunciado": "O “leite” do mamão verde contém uma enzima, a papaína, que catalisa a hidrólise de proteínas.\n\nPor essa razão, esse “leite” pode ser utilizado para",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "acentuar a cor de vegetais.",
+        "b": "cozinhar macarrão.",
+        "c": "temperar saladas.",
+        "d": "preparar bolos.",
+        "e": "amaciar carne."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Componentes químicos celulares: água, sais minerais, carboidratos, lipídios, proteínas e vitaminas"
+          ]
+        },
+        {
+          "area": "Química",
+          "assuntos": [
+            "Polímeros sintéticos (PE, PS, PET, PVC, teflon, náilon) e biomoléculas (glicídios, lipídios, proteínas)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 19
+    },
+    {
+      "numero": 48,
+      "tipo": "objetiva",
+      "enunciado": "Quando analisamos as paredes abertas de um coração humano, observamos que a cavidade cardíaca apresenta septos. São esses septos que dividem o coração em quatro câmaras. Um desses septos, o interventricular, representa um septo sagital que divide a porção inferior do coração em duas câmaras, ou seja, dois ventrículos (direito e esquerdo). No entanto, em alguns casos, crianças podem nascer com um defeito no coração denominado comunicação interventricular, ou seja, uma abertura no septo interventricular, que permite a comunicação entre os dois ventrículos.\n\nA consequência imediata que esse defeito trará para a circulação sanguínea da criança será",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "o bloqueio das vias respiratórias superiores, impedindo a passagem do ar para a traqueia.",
+        "b": "a mistura dos sangues arterial e venoso, prejudicando a oxigenação dos tecidos.",
+        "c": "a ausência total da oxigenação do sangue nos alvéolos pulmonares.",
+        "d": "o coração não receber mais sangue arterial dos pulmões.",
+        "e": "a produção excessiva de muco nas vias respiratórias."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Fisiologia dos sistemas humanos: digestório, cardiovascular, respiratório, excretor, nervoso, endócrino, locomotor e reprodutor"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 19
+    },
+    {
+      "numero": 49,
+      "tipo": "objetiva",
+      "enunciado": "Em uma região de mata, foi observada uma cadeia alimentar formada por gafanhotos que se alimentam de plantas e servem de alimento para passarinhos, que, por sua vez, são predados por gaviões.\n\nSobre essa cadeia alimentar, assinale a alternativa correta.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "Os passarinhos pertencem ao nível trófico dos consumidores primários, pois se alimentam dos gafanhotos.",
+        "b": "O aumento da população de gaviões, nessa região, acarretará a consequente redução populacional das plantas.",
+        "c": "Os gafanhotos atuam na fixação do gás nitrogênio da atmosfera, transformando-o em nitratos aproveitados pelos vegetais.",
+        "d": "A diminuição da população de passarinhos, nessa região, acarretará a consequente redução populacional dos gafanhotos.",
+        "e": "As bactérias atuam como decompositores dos gafanhotos, transformando a matéria orgânica morta em carboidratos."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Cadeias e teias alimentares, níveis tróficos, pirâmides ecológicas e fluxo de energia",
+            "Dinâmica de populações e relações ecológicas (intraespecíficas e interespecíficas)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 19
+    },
+    {
+      "numero": 50,
+      "tipo": "objetiva",
+      "enunciado": "Ao analisar o cartum, conclui-se corretamente que",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 20: Cartum mostrando uma mãe conversando pelo WhatsApp com a filha que está na mesma casa após sete meses sem visitá-la."
+      ],
+      "alternativas": {
+        "a": "as falas da personagem são incoerentes com a contextualização temporal exposta no título, pois o uso das tecnologias apontadas se desenvolveu posteriormente.",
+        "b": "a ironia presente no texto decorre da oposição entre a afirmação “a tecnologia aproximava as pessoas” e a oração “...estou há sete meses sem visitá-la”.",
+        "c": "a personagem se dirige ao seu próprio eu no futuro, sugerindo-lhe que usasse mais as redes sociais para se aproximar de sua família.",
+        "d": "o humor é construído a partir da constatação de proximidade real e exagerada entre mãe e filha, iniciada pelo uso das redes sociais.",
+        "e": "a crítica social existente no texto aborda a busca da felicidade por meio do consumo de bens pouco valorizados socialmente."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Intertextualidade, interdiscursividade e análise de textos verbais e não verbais (charges, cartuns)",
+            "Figuras de linguagem (metáfora, metonímia, antítese, paradoxo, hipérbole, ironia)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 20
+    },
+    {
+      "numero": 51,
+      "tipo": "objetiva",
+      "enunciado": "De acordo com as informações do texto, é correto afirmar que",
+      "textos_de_apoio": [
+        "Empresa transforma seu laptop escolar em ‘e-book’\nOs fabricantes de produtos eletrônicos deram mais um passo na evolução do mercado dos laptops escolares. Uma empresa americana apresentou um protótipo da nova versão de seu Classmate, um computador portátil criado especialmente para uso em sala de aula. O jornal Valor Econômico teve acesso com exclusividade ao equipamento, que começará a chegar ao mercado no segundo trimestre de 2010.\nA bateria do equipamento, que na versão atual dura no máximo seis horas, foi estendida para até oito horas e meia. A principal novidade, no entanto, é a capacidade de converter o equipamento em um suporte diferenciado de livros digitais. O aluno pode girar a tela e, com a ponta do dedo, “folhear” as páginas do livro; pode também fazer anotações usando uma caneta acoplada ao computador. Um software de colaboração permite que os estudantes compartilhem, instantaneamente, os arquivos e o conteúdo mostrados na tela.\nEnquanto olha para licitações públicas, a empresa também corre para fechar acordo com fabricantes e redes varejistas, que deverão colocar os novos laptops da empresa nas prateleiras nos próximos meses."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "a empresa criadora do Classmate é pioneira na comercialização de apostilas escolares.",
+        "b": "o Classmate é um computador exclusivo do jornal Valor Econômico.",
+        "c": "o novo laptop foi projetado para ser também um bloco de anotações.",
+        "d": "a principal diferença entre as duas versões do laptop é a duração da bateria.",
+        "e": "o diferencial do Classmate é que o aluno poderá converter livros impressos em digitais."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação",
+            "Tipologias textuais (narração, descrição, dissertação) e gêneros textuais variados"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 20
+    },
+    {
+      "numero": 52,
+      "tipo": "objetiva",
+      "enunciado": "No trecho “O jornal Valor Econômico teve acesso com exclusividade ao equipamento, que começará a chegar ao mercado no segundo trimestre de 2010”, a palavra grifada refere-se à seguinte informação:",
+      "textos_de_apoio": [
+        "Empresa transforma seu laptop escolar em ‘e-book’\nOs fabricantes de produtos eletrônicos deram mais um passo na evolução do mercado dos laptops escolares. Uma empresa americana apresentou um protótipo da nova versão de seu Classmate, um computador portátil criado especialmente para uso em sala de aula. O jornal Valor Econômico teve acesso com exclusividade ao equipamento, que começará a chegar ao mercado no segundo trimestre de 2010.\nA bateria do equipamento, que na versão atual dura no máximo seis horas, foi estendida para até oito horas e meia. A principal novidade, no entanto, é a capacidade de converter o equipamento em um suporte diferenciado de livros digitais. O aluno pode girar a tela e, com a ponta do dedo, “folhear” as páginas do livro; pode também fazer anotações usando uma caneta acoplada ao computador. Um software de colaboração permite que os estudantes compartilhem, instantaneamente, os arquivos e o conteúdo mostrados na tela.\nEnquanto olha para licitações públicas, a empresa também corre para fechar acordo com fabricantes e redes varejistas, que deverão colocar os novos laptops da empresa nas prateleiras nos próximos meses."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "mercado",
+        "b": "equipamento",
+        "c": "segundo trimestre",
+        "d": "jornal Valor Econômico",
+        "e": "acesso com exclusividade"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Mecanismos de coesão textual (lexical, referencial, anafórica) e coerência"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 21
+    },
+    {
+      "numero": 53,
+      "tipo": "objetiva",
+      "enunciado": "Observe o trecho:\nO aluno pode girar a tela e, com a ponta do dedo, “folhear” as páginas do livro...\n\nA intenção do autor, ao destacar a palavra “folhear” com aspas, é",
+      "textos_de_apoio": [
+        "Empresa transforma seu laptop escolar em ‘e-book’\nOs fabricantes de produtos eletrônicos deram mais um passo na evolução do mercado dos laptops escolares. Uma empresa americana apresentou um protótipo da nova versão de seu Classmate, um computador portátil criado especialmente para uso em sala de aula. O jornal Valor Econômico teve acesso com exclusividade ao equipamento, que começará a chegar ao mercado no segundo trimestre de 2010.\nA bateria do equipamento, que na versão atual dura no máximo seis horas, foi estendida para até oito horas e meia. A principal novidade, no entanto, é a capacidade de converter o equipamento em um suporte diferenciado de livros digitais. O aluno pode girar a tela e, com a ponta do dedo, “folhear” as páginas do livro; pode também fazer anotações usando uma caneta acoplada ao computador. Um software de colaboração permite que os estudantes compartilhem, instantaneamente, os arquivos e o conteúdo mostrados na tela.\nEnquanto olha para licitações públicas, a empresa também corre para fechar acordo com fabricantes e redes varejistas, que deverão colocar os novos laptops da empresa nas prateleiras nos próximos meses."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "gerar o sentido de ação repetitiva.",
+        "b": "impor um sentido pejorativo.",
+        "c": "indicar o erro gráfico.",
+        "d": "sinalizar o sentido conotativo.",
+        "e": "assinalar seu valor onomatopaico."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação",
+            "Figuras de linguagem (metáfora, metonímia, antítese, paradoxo, hipérbole, ironia)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 21
+    },
+    {
+      "numero": 54,
+      "tipo": "objetiva",
+      "enunciado": "Assinale a alternativa em que o trecho do último parágrafo do texto esteja corretamente interpretado.",
+      "textos_de_apoio": [
+        "Empresa transforma seu laptop escolar em ‘e-book’\nOs fabricantes de produtos eletrônicos deram mais um passo na evolução do mercado dos laptops escolares. Uma empresa americana apresentou um protótipo da nova versão de seu Classmate, um computador portátil criado especialmente para uso em sala de aula. O jornal Valor Econômico teve acesso com exclusividade ao equipamento, que começará a chegar ao mercado no segundo trimestre de 2010.\nA bateria do equipamento, que na versão atual dura no máximo seis horas, foi estendida para até oito horas e meia. A principal novidade, no entanto, é a capacidade de converter o equipamento em um suporte diferenciado de livros digitais. O aluno pode girar a tela e, com a ponta do dedo, “folhear” as páginas do livro; pode também fazer anotações usando uma caneta acoplada ao computador. Um software de colaboração permite que os estudantes compartilhem, instantaneamente, os arquivos e o conteúdo mostrados na tela.\nEnquanto olha para licitações públicas, a empresa também corre para fechar acordo com fabricantes e redes varejistas, que deverão colocar os novos laptops da empresa nas prateleiras nos próximos meses."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "“Enquanto olha para licitações públicas...” equivale a: ao mesmo tempo em que a empresa americana faz suas compras no setor público.",
+        "b": "“Enquanto olha para licitações públicas, a empresa também corre para fechar acordo com fabricantes...” equivale a: a empresa americana tem vendido o Classmate ao governo e “por isso” quer buscar novas fábricas para aumentar a produção.",
+        "c": "“...a empresa também corre para fechar acordo...” equivale a: a empresa americana planeja encerrar alguns contratos, por não mais possuir produtos disponíveis para venda.",
+        "d": "“...que deverão colocar os novos laptops da empresa...” equivale a: o governo deverá adquirir os computadores portáteis da empresa.",
+        "e": "“...colocar os novos laptops da empresa nas prateleiras...” equivale a: colocar à venda os computadores portáteis fabricados pela referida empresa."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação",
+            "Mecanismos de coesão textual (lexical, referencial, anafórica) e coerência"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 21
+    },
+    {
+      "numero": 55,
+      "tipo": "redacao",
+      "enunciado": "Texto I\nNa era digital, a opinião predomina sobre a ação. Passamos a viver no reino das opiniões: todos têm alguma opinião formada sobre tudo e se sentem na obrigação de opinar sobre qualquer coisa. Esse fenômeno é consequência direta da hiperconectividade e, em particular, do modelo de negócios das empresas detentoras de redes sociais: a venda de dados de usuários para marketing. A fim de obter um perfil completo e apurado de cada usuário, é preciso estimulá-lo a revelar suas preferências sobre o maior número possível de temas.\n[...]\nCom isso, tudo se tornou opinião e se confunde com ela, numa arena em que não existem hierarquias. A análise política de um especialista equivale à opinião de qualquer pessoa que nunca abriu um livro sobre política. Trata-se de uma perversão do direito à liberdade de expressão: muito embora cada um tenha o direito de opinar sobre o que quiser, e uma opinião não se sobreponha à outra, nem tudo é da ordem da opinião. Análises, pesquisas e evidências são de outra esfera. Não se questiona o resultado de uma pesquisa científica dizendo simplesmente que não se concorda com ela, mas analisando sua metodologia ou apresentando uma pesquisa sobre o mesmo tema que possa colocar em xeque as conclusões.\nNa era do Facebook, entretanto, é como se isso não fosse necessário, pois basta concordar ou discordar, clicar like ou dislike. A ação, o trabalho, a especialidade, tudo perde lugar para a opinião. No reino da opinião não existe mais espaço para a autoridade. No perfil do papa no Twitter, internautas brasileiros se sentem no direito de contradizer as análises teológicas dele. As redes sociais tornam o dono de botequim um especialista em exegese bíblica do mesmo quilate que o chefe da Igreja Católica.\n\nTexto II\n[Mundo Avesso - Carlos Ruas]\n- ANTES: [Indivíduos em fila] INSTRUÍ-LOS! INFORMAÇÃO [Seta de informação]\n- HOJE: INFORMAÇÃO [Chuva de dados] (Personagens na chuva: \"Ensina a gente a nadar?\" / \"Olha, a terra é plana!\")\n\nA partir da coletânea apresentada, elabore um texto narrativo ou um texto dissertativo-argumentativo explorando o seguinte tema:\nTecnologia e informação: como transformar opinião em conhecimento?\n\nOrientações:\n• Narração – explore adequadamente os elementos desse gênero: fato(s), personagem(ns), tempo e lugar.\n• Dissertação – selecione, organize e relacione os argumentos, fatos e opiniões para sustentar suas ideias e pontos de vista.\nAo elaborar seu texto:\n✓ Atribua um título para sua redação;\n✓ Não o redija em versos;\n✓ Organize-o em parágrafos;\n✓ Empregue apenas a norma-padrão da língua portuguesa;\n✓ Não copie os textos apresentados na coletânea e na prova;\n✓ Utilize apenas caneta de tinta azul ou preta para elaborar a versão definitiva; e\n✓ Faça um rascunho antes de passar para a Folha de Redação.\nNão assine ou se identifique na Folha de Redação.",
+      "textos_de_apoio": [
+        "Na era digital, a opinião predomina sobre a ação. Passamos a viver no reino das opiniões: todos têm alguma opinião formada sobre tudo e se sentem na obrigação de opinar sobre qualquer coisa. Esse fenômeno é consequência direta da hiperconectividade e, em particular, do modelo de negócios das empresas detentoras de redes sociais: a venda de dados de usuários para marketing. A fim de obter um perfil completo e apurado de cada usuário, é preciso estimulá-lo a revelar suas preferências sobre o maior número possível de temas.\n[...]\nCom isso, tudo se tornou opinião e se confunde com ela, numa arena em que não existem hierarquias. A análise política de um especialista equivale à opinião de qualquer pessoa que nunca abriu um livro sobre política. Trata-se de uma perversão do direito à liberdade de expressão: muito embora cada um tenha o direito de opinar sobre o que quiser, e uma opinião não se sobreponha à outra, nem tudo é da ordem da opinião. Análises, pesquisas e evidências são de outra esfera. Não se questiona o resultado de uma pesquisa científica dizendo simplesmente que não se concorda com ela, mas analisando sua metodologia ou apresentando uma pesquisa sobre o mesmo tema que possa colocar em xeque as conclusões.\nNa era do Facebook, entretanto, é como se isso não fosse necessário, pois basta concordar ou discordar, clicar like ou dislike. A ação, o trabalho, a especialidade, tudo perde lugar para a opinião. No reino da opinião não existe mais espaço para a autoridade. No perfil do papa no Twitter, internautas brasileiros se sentem no direito de contradizer as análises teológicas dele. As redes sociais tornam o dono de botequim um especialista em exegese bíblica do mesmo quilate que o chefe da Igreja Católica.",
+        "Charge 'Mundo Avesso' de Carlos Ruas abordando o contraste entre a transmissão de instrução/informação no passado e a avalanche de informações e opiniões na atualidade."
+      ],
+      "midia": [
+        "Página 21-22: Textos de apoio I e II (cartum 'Mundo Avesso' de Carlos Ruas)."
+      ],
+      "areas": [
+        {
+          "area": "Redação",
+          "assuntos": [
+            "Gênero dissertativo-argumentativo: impessoalidade (3ª pessoa) e defesa de ponto de vista claro",
+            "Macroestrutura padrão em 4 parágrafos (Introdução com tese, D1, D2 e Conclusão reflexiva)",
+            "Eixo Temático 1: Tecnologia, privacidade e transformações nas relações humanas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 22
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "exame": "enem_2024_1dia",
+  "figuras_coordenadas": {
+    "1": [
+      {
+        "pagina": 2,
+        "tipo": "imagem",
+        "elemento": "Interface simulada de computador mostrando a exclusão de árvores/elementos naturais",
+        "bbox": [
+          181,
+          64,
+          396,
+          468
+        ]
+      }
+    ],
+    "3": [
+      {
+        "pagina": 2,
+        "tipo": "imagem",
+        "elemento": "Cartazes contendo rostos e frases de Albert Einstein e Bob Marley",
+        "bbox": [
+          118,
+          507,
+          642,
+          939
+        ]
+      }
+    ],
+    "4": [
+      {
+        "pagina": 3,
+        "tipo": "imagem",
+        "elemento": "Carta datilografada da editora The Viking Press recusando a publicação de The Color Purple",
+        "bbox": [
+          191,
+          73,
+          438,
+          484
+        ]
+      }
+    ],
+    "19": [
+      {
+        "pagina": 9,
+        "tipo": "figura",
+        "elemento": "Esculturas comparadas: Cabeça de uma figura feminina (Antiguidade) e Cabeça de mulher (Modigliani)",
+        "bbox": [
+          510,
+          50,
+          865,
+          950
+        ]
+      }
+    ],
+    "20": [
+      {
+        "pagina": 10,
+        "tipo": "imagem",
+        "elemento": "Foto de diadema da etnia Kayapó",
+        "bbox": [
+          310,
+          200,
+          490,
+          500
+        ]
+      }
+    ],
+    "79": [
+      {
+        "pagina": 28,
+        "tipo": "imagem",
+        "elemento": "Capas da revista Travel in Brazil publicadas pelo DIP",
+        "bbox": [
+          568,
+          120,
+          780,
+          875
+        ]
+      }
+    ]
+  }
+}

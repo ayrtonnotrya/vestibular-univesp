@@ -1,0 +1,473 @@
+{
+  "exame": "enem_2014_2dia",
+  "figuras_coordenadas": {
+    "91": [
+      {
+        "pagina": 3,
+        "tipo": "imagem",
+        "elemento": "Interface do site WeFeedback",
+        "bbox": [
+          183,
+          283,
+          500,
+          648
+        ]
+      }
+    ],
+    "96": [
+      {
+        "pagina": 6,
+        "tipo": "imagem",
+        "elemento": "Cartaz de doação de órgãos",
+        "bbox": [
+          370,
+          500,
+          670,
+          900
+        ]
+      }
+    ],
+    "99": [
+      {
+        "pagina": 7,
+        "tipo": "charge",
+        "elemento": "Robô em Marte tirando foto",
+        "bbox": [
+          254,
+          580,
+          646,
+          915
+        ]
+      }
+    ],
+    "101": [
+      {
+        "pagina": 8,
+        "tipo": "imagem",
+        "elemento": "Campanha contra violência sexual infantil",
+        "bbox": [
+          600,
+          67,
+          885,
+          490
+        ]
+      }
+    ],
+    "106": [
+      {
+        "pagina": 10,
+        "tipo": "charge",
+        "elemento": "Charge Guernica no trânsito",
+        "bbox": [
+          110,
+          88,
+          345,
+          440
+        ]
+      }
+    ],
+    "111": [
+      {
+        "pagina": 11,
+        "tipo": "imagem",
+        "elemento": "Escultura Bicho de bolso de Lygia Clark",
+        "bbox": [
+          310,
+          600,
+          670,
+          930
+        ]
+      }
+    ],
+    "121": [
+      {
+        "pagina": 14,
+        "tipo": "imagem",
+        "elemento": "Anúncio Viva a Nova TV!",
+        "bbox": [
+          110,
+          500,
+          330,
+          915
+        ]
+      }
+    ],
+    "124": [
+      {
+        "pagina": 15,
+        "tipo": "imagem",
+        "elemento": "Anúncio de recrutamento Scientific American Brasil",
+        "bbox": [
+          110,
+          500,
+          495,
+          915
+        ]
+      }
+    ],
+    "131": [
+      {
+        "pagina": 17,
+        "tipo": "imagem",
+        "elemento": "Propaganda Voz da Comunidade",
+        "bbox": [
+          650,
+          550,
+          885,
+          915
+        ]
+      }
+    ],
+    "136": [
+      {
+        "pagina": 19,
+        "tipo": "figura",
+        "elemento": "Esquema da gravura e da folha de papel",
+        "bbox": [
+          210,
+          64,
+          495,
+          445
+        ]
+      }
+    ],
+    "137": [
+      {
+        "pagina": 19,
+        "tipo": "figura",
+        "elemento": "Ilustração do canudo de diploma",
+        "bbox": [
+          222,
+          580,
+          335,
+          815
+        ]
+      }
+    ],
+    "139": [
+      {
+        "pagina": 20,
+        "tipo": "grafico",
+        "elemento": "Escultura e gráficos de altura em função do tempo",
+        "bbox": [
+          185,
+          60,
+          915,
+          495
+        ]
+      }
+    ],
+    "140": [
+      {
+        "pagina": 20,
+        "tipo": "figura",
+        "elemento": "Opções de formas de adesivo",
+        "bbox": [
+          260,
+          508,
+          915,
+          730
+        ]
+      }
+    ],
+    "141": [
+      {
+        "pagina": 21,
+        "tipo": "grafico",
+        "elemento": "Gráfico de taxas de desemprego",
+        "bbox": [
+          180,
+          64,
+          345,
+          440
+        ]
+      }
+    ],
+    "142": [
+      {
+        "pagina": 21,
+        "tipo": "tabela",
+        "elemento": "Taxa de fecundidade no Brasil",
+        "bbox": [
+          210,
+          500,
+          270,
+          915
+        ]
+      }
+    ],
+    "143": [
+      {
+        "pagina": 21,
+        "tipo": "tabela",
+        "elemento": "Taxa de doação de sangue, por região, em 2010",
+        "bbox": [
+          420,
+          500,
+          600,
+          915
+        ]
+      }
+    ],
+    "145": [
+      {
+        "pagina": 22,
+        "tipo": "figura",
+        "elemento": "Planificação da caixa",
+        "bbox": [
+          625,
+          120,
+          800,
+          440
+        ]
+      }
+    ],
+    "146": [
+      {
+        "pagina": 22,
+        "tipo": "figura",
+        "elemento": "Lata de tinta",
+        "bbox": [
+          160,
+          620,
+          335,
+          830
+        ]
+      }
+    ],
+    "148": [
+      {
+        "pagina": 23,
+        "tipo": "grafico",
+        "elemento": "Gráficos de distribuição salarial e funcionários",
+        "bbox": [
+          310,
+          75,
+          625,
+          480
+        ]
+      }
+    ],
+    "150": [
+      {
+        "pagina": 23,
+        "tipo": "tabela",
+        "elemento": "Quadro de notas dos finalistas",
+        "bbox": [
+          795,
+          508,
+          865,
+          885
+        ]
+      }
+    ],
+    "153": [
+      {
+        "pagina": 24,
+        "tipo": "figura",
+        "elemento": "Esquema dos radares e placas de trânsito",
+        "bbox": [
+          185,
+          508,
+          915,
+          915
+        ]
+      }
+    ],
+    "154": [
+      {
+        "pagina": 25,
+        "tipo": "figura",
+        "elemento": "Escada caracol e opções de projeção",
+        "bbox": [
+          210,
+          64,
+          915,
+          495
+        ]
+      }
+    ],
+    "155": [
+      {
+        "pagina": 25,
+        "tipo": "tabela",
+        "elemento": "Resultados dos experimentos dos reagentes",
+        "bbox": [
+          230,
+          508,
+          360,
+          915
+        ]
+      }
+    ],
+    "156": [
+      {
+        "pagina": 25,
+        "tipo": "tabela",
+        "elemento": "Faixas de consumo e Cosip",
+        "bbox": [
+          650,
+          508,
+          760,
+          915
+        ]
+      }
+    ],
+    "157": [
+      {
+        "pagina": 26,
+        "tipo": "grafico",
+        "elemento": "Gráfico de planos de telefonia celular",
+        "bbox": [
+          210,
+          64,
+          465,
+          440
+        ]
+      }
+    ],
+    "161": [
+      {
+        "pagina": 27,
+        "tipo": "tabela",
+        "elemento": "Estatísticas sobre as numerações dos sapatos com defeito",
+        "bbox": [
+          520,
+          64,
+          580,
+          440
+        ]
+      }
+    ],
+    "162": [
+      {
+        "pagina": 27,
+        "tipo": "tabela",
+        "elemento": "Quadro do teste diagnóstico",
+        "bbox": [
+          455,
+          508,
+          535,
+          885
+        ]
+      }
+    ],
+    "166": [
+      {
+        "pagina": 28,
+        "tipo": "figura",
+        "elemento": "Triângulo de palitos",
+        "bbox": [
+          185,
+          550,
+          305,
+          815
+        ]
+      }
+    ],
+    "167": [
+      {
+        "pagina": 28,
+        "tipo": "figura",
+        "elemento": "Criança no balanço",
+        "bbox": [
+          575,
+          530,
+          750,
+          915
+        ]
+      }
+    ],
+    "169": [
+      {
+        "pagina": 29,
+        "tipo": "tabela",
+        "elemento": "Tabela de consumo moderado de água",
+        "bbox": [
+          710,
+          64,
+          815,
+          490
+        ]
+      }
+    ],
+    "170": [
+      {
+        "pagina": 29,
+        "tipo": "tabela",
+        "elemento": "Notas dos candidatos nas disciplinas",
+        "bbox": [
+          255,
+          508,
+          335,
+          915
+        ]
+      }
+    ],
+    "171": [
+      {
+        "pagina": 29,
+        "tipo": "figura",
+        "elemento": "Esquema do silo",
+        "bbox": [
+          455,
+          508,
+          610,
+          915
+        ]
+      }
+    ],
+    "172": [
+      {
+        "pagina": 30,
+        "tipo": "grafico",
+        "elemento": "Bactérias das espécies I e II",
+        "bbox": [
+          210,
+          64,
+          420,
+          440
+        ]
+      }
+    ],
+    "173": [
+      {
+        "pagina": 30,
+        "tipo": "figura",
+        "elemento": "Depósito de leite cúbico",
+        "bbox": [
+          670,
+          190,
+          865,
+          440
+        ]
+      }
+    ],
+    "177": [
+      {
+        "pagina": 31,
+        "tipo": "figura",
+        "elemento": "Esquema de quipus incas",
+        "bbox": [
+          250,
+          230,
+          500,
+          485
+        ]
+      }
+    ],
+    "181": [
+      {
+        "pagina": 2,
+        "tipo": "infografico",
+        "elemento": "Mapa mundi com a publicidade para crianças no mundo",
+        "bbox": [
+          185,
+          130,
+          490,
+          750
+        ]
+      }
+    ]
+  }
+}

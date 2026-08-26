@@ -1,0 +1,720 @@
+{
+  "exame": "fatec_2015_2S",
+  "figuras_coordenadas": {
+    "1": [
+      {
+        "pagina": 2,
+        "tipo": "figura",
+        "elemento": "Bloco completo da Questão 1 com texto de apoio e alternativas",
+        "bbox": [
+          91,
+          75,
+          500,
+          500
+        ]
+      }
+    ],
+    "2": [
+      {
+        "pagina": 2,
+        "tipo": "figura",
+        "elemento": "Bloco completo da Questão 2 com texto e alternativas",
+        "bbox": [
+          505,
+          75,
+          860,
+          500
+        ]
+      }
+    ],
+    "3": [
+      {
+        "pagina": 2,
+        "tipo": "figura",
+        "elemento": "Bloco completo da Questão 3 com texto e alternativas",
+        "bbox": [
+          395,
+          520,
+          860,
+          935
+        ]
+      }
+    ],
+    "4": [
+      {
+        "pagina": 3,
+        "tipo": "cartum",
+        "elemento": "Cartum de Randy Glasbergen e texto da questão",
+        "bbox": [
+          80,
+          75,
+          415,
+          495
+        ]
+      }
+    ],
+    "5": [
+      {
+        "pagina": 3,
+        "tipo": "grafico",
+        "elemento": "Gráfico de setores e enunciado da questão 5",
+        "bbox": [
+          420,
+          75,
+          880,
+          500
+        ]
+      }
+    ],
+    "6": [
+      {
+        "pagina": 3,
+        "tipo": "grafico",
+        "elemento": "Gráfico de setores e enunciado da questão 6",
+        "bbox": [
+          420,
+          510,
+          680,
+          935
+        ]
+      }
+    ],
+    "7": [
+      {
+        "pagina": 3,
+        "tipo": "figura",
+        "elemento": "Enunciado, texto de apoio e alternativas da Questão 7",
+        "bbox": [
+          685,
+          510,
+          935,
+          935
+        ]
+      }
+    ],
+    "8": [
+      {
+        "pagina": 4,
+        "tipo": "figura",
+        "elemento": "Textos de apoio, audiograma, tabela e enunciados das questões 8 e 9",
+        "bbox": [
+          90,
+          75,
+          785,
+          935
+        ]
+      }
+    ],
+    "9": [
+      {
+        "pagina": 4,
+        "tipo": "figura",
+        "elemento": "Textos de apoio, audiograma, tabela e enunciados das questões 8 e 9",
+        "bbox": [
+          90,
+          75,
+          785,
+          935
+        ]
+      }
+    ],
+    "10": [
+      {
+        "pagina": 5,
+        "tipo": "tabela",
+        "elemento": "Tabela de disponibilidade dos alunos e enunciado da questão 10",
+        "bbox": [
+          80,
+          75,
+          275,
+          500
+        ]
+      }
+    ],
+    "11": [
+      {
+        "pagina": 5,
+        "tipo": "tabela",
+        "elemento": "Tabela de símbolos e texto explicativo da questão 11",
+        "bbox": [
+          290,
+          75,
+          550,
+          935
+        ]
+      }
+    ],
+    "12": [
+      {
+        "pagina": 5,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da Questão 12",
+        "bbox": [
+          560,
+          75,
+          800,
+          935
+        ]
+      }
+    ],
+    "13": [
+      {
+        "pagina": 5,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da Questão 13",
+        "bbox": [
+          805,
+          75,
+          935,
+          935
+        ]
+      }
+    ],
+    "14": [
+      {
+        "pagina": 6,
+        "tipo": "figura",
+        "elemento": "Imagem do tetraedro e opções de planificação (A a E)",
+        "bbox": [
+          75,
+          75,
+          575,
+          935
+        ]
+      }
+    ],
+    "15": [
+      {
+        "pagina": 6,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da Questão 15",
+        "bbox": [
+          595,
+          75,
+          880,
+          935
+        ]
+      }
+    ],
+    "16": [
+      {
+        "pagina": 7,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da Questão 16",
+        "bbox": [
+          75,
+          75,
+          335,
+          935
+        ]
+      }
+    ],
+    "17": [
+      {
+        "pagina": 7,
+        "tipo": "figura",
+        "elemento": "Mapas da África (1880 e 1913) e alternativas da Questão 17",
+        "bbox": [
+          340,
+          75,
+          935,
+          935
+        ]
+      }
+    ],
+    "18": [
+      {
+        "pagina": 8,
+        "tipo": "figura",
+        "elemento": "Texto de apoio e enunciado da Questão 18",
+        "bbox": [
+          75,
+          75,
+          500,
+          935
+        ]
+      }
+    ],
+    "19": [
+      {
+        "pagina": 8,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da Questão 19",
+        "bbox": [
+          610,
+          75,
+          935,
+          935
+        ]
+      }
+    ],
+    "20": [
+      {
+        "pagina": 9,
+        "tipo": "figura",
+        "elemento": "Texto de apoio, imagem do Google Doodle e enunciado da Questão 20",
+        "bbox": [
+          75,
+          75,
+          775,
+          935
+        ]
+      }
+    ],
+    "21": [
+      {
+        "pagina": 9,
+        "tipo": "figura",
+        "elemento": "Texto de apoio, imagem e enunciado da Questão 21",
+        "bbox": [
+          75,
+          75,
+          935,
+          935
+        ]
+      }
+    ],
+    "22": [
+      {
+        "pagina": 9,
+        "tipo": "figura",
+        "elemento": "Texto de apoio e contexto das questões 20 a 23",
+        "bbox": [
+          75,
+          75,
+          935,
+          935
+        ]
+      }
+    ],
+    "23": [
+      {
+        "pagina": 9,
+        "tipo": "figura",
+        "elemento": "Texto de apoio e contexto das questões 20 a 23",
+        "bbox": [
+          75,
+          75,
+          935,
+          935
+        ]
+      }
+    ],
+    "24": [
+      {
+        "pagina": 10,
+        "tipo": "figura",
+        "elemento": "Texto e alternativas da Questão 24",
+        "bbox": [
+          560,
+          75,
+          935,
+          500
+        ]
+      }
+    ],
+    "25": [
+      {
+        "pagina": 10,
+        "tipo": "figura",
+        "elemento": "Texto em inglês e alternativas da Questão 25",
+        "bbox": [
+          75,
+          530,
+          935,
+          935
+        ]
+      }
+    ],
+    "26": [
+      {
+        "pagina": 11,
+        "tipo": "figura",
+        "elemento": "Questões de inglês baseadas no mesmo texto",
+        "bbox": [
+          75,
+          75,
+          380,
+          500
+        ]
+      }
+    ],
+    "27": [
+      {
+        "pagina": 11,
+        "tipo": "figura",
+        "elemento": "Questões de inglês baseadas no mesmo texto",
+        "bbox": [
+          75,
+          75,
+          380,
+          500
+        ]
+      }
+    ],
+    "28": [
+      {
+        "pagina": 11,
+        "tipo": "figura",
+        "elemento": "Questões de inglês baseadas no mesmo texto",
+        "bbox": [
+          75,
+          75,
+          380,
+          500
+        ]
+      }
+    ],
+    "29": [
+      {
+        "pagina": 11,
+        "tipo": "figura",
+        "elemento": "Questões de inglês baseadas no mesmo texto",
+        "bbox": [
+          75,
+          75,
+          380,
+          500
+        ]
+      }
+    ],
+    "30": [
+      {
+        "pagina": 11,
+        "tipo": "tabela",
+        "elemento": "Texto introdutório, tabela de dados do Twitter e enunciados das questões 30 e 31",
+        "bbox": [
+          385,
+          510,
+          935,
+          935
+        ]
+      }
+    ],
+    "31": [
+      {
+        "pagina": 11,
+        "tipo": "tabela",
+        "elemento": "Texto introdutório, tabela de dados do Twitter e enunciados das questões 30 e 31",
+        "bbox": [
+          385,
+          510,
+          935,
+          935
+        ]
+      }
+    ],
+    "32": [
+      {
+        "pagina": 12,
+        "tipo": "figura",
+        "elemento": "Texto de apoio e enunciado da Questão 32",
+        "bbox": [
+          75,
+          75,
+          285,
+          935
+        ]
+      }
+    ],
+    "33": [
+      {
+        "pagina": 12,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da Questão 33",
+        "bbox": [
+          290,
+          75,
+          530,
+          935
+        ]
+      }
+    ],
+    "34": [
+      {
+        "pagina": 12,
+        "tipo": "figura",
+        "elemento": "Diagrama de quadriláteros e enunciado da Questão 34",
+        "bbox": [
+          535,
+          75,
+          935,
+          935
+        ]
+      }
+    ],
+    "35": [
+      {
+        "pagina": 13,
+        "tipo": "tabela",
+        "elemento": "Enunciado, tabela de consumo elétrico e alternativas da Questão 35",
+        "bbox": [
+          75,
+          75,
+          440,
+          935
+        ]
+      }
+    ],
+    "36": [
+      {
+        "pagina": 13,
+        "tipo": "figura",
+        "elemento": "Enunciado, mapa do Sambódromo e alternativas da Questão 36",
+        "bbox": [
+          445,
+          75,
+          935,
+          935
+        ]
+      }
+    ],
+    "37": [
+      {
+        "pagina": 13,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da Questão 37",
+        "bbox": [
+          785,
+          75,
+          935,
+          935
+        ]
+      }
+    ],
+    "38": [
+      {
+        "pagina": 14,
+        "tipo": "figura",
+        "elemento": "Texto de apoio, imagem do carregador portátil e enunciado da Questão 38",
+        "bbox": [
+          75,
+          75,
+          335,
+          935
+        ]
+      }
+    ],
+    "39": [
+      {
+        "pagina": 14,
+        "tipo": "figura",
+        "elemento": "Gráfico de conversão de escalas e enunciado da Questão 39",
+        "bbox": [
+          340,
+          75,
+          550,
+          935
+        ]
+      }
+    ],
+    "40": [
+      {
+        "pagina": 14,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da Questão 40",
+        "bbox": [
+          595,
+          75,
+          935,
+          500
+        ]
+      }
+    ],
+    "41": [
+      {
+        "pagina": 14,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da Questão 41",
+        "bbox": [
+          595,
+          510,
+          935,
+          935
+        ]
+      }
+    ],
+    "42": [
+      {
+        "pagina": 15,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da Questão 42",
+        "bbox": [
+          75,
+          75,
+          335,
+          935
+        ]
+      }
+    ],
+    "43": [
+      {
+        "pagina": 15,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da Questão 43",
+        "bbox": [
+          340,
+          75,
+          640,
+          935
+        ]
+      }
+    ],
+    "44": [
+      {
+        "pagina": 15,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da Questão 44",
+        "bbox": [
+          645,
+          75,
+          935,
+          935
+        ]
+      }
+    ],
+    "45": [
+      {
+        "pagina": 16,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da Questão 45",
+        "bbox": [
+          75,
+          75,
+          420,
+          935
+        ]
+      }
+    ],
+    "46": [
+      {
+        "pagina": 16,
+        "tipo": "figura",
+        "elemento": "Texto de apoio, imagem do experimento com plantas e alternativas da Questão 46",
+        "bbox": [
+          425,
+          75,
+          935,
+          935
+        ]
+      }
+    ],
+    "47": [
+      {
+        "pagina": 17,
+        "tipo": "figura",
+        "elemento": "Texto, cladograma e alternativas da Questão 47",
+        "bbox": [
+          75,
+          75,
+          550,
+          935
+        ]
+      }
+    ],
+    "48": [
+      {
+        "pagina": 17,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da Questão 48",
+        "bbox": [
+          555,
+          75,
+          935,
+          935
+        ]
+      }
+    ],
+    "49": [
+      {
+        "pagina": 18,
+        "tipo": "figura",
+        "elemento": "Enunciado e opções de heredogramas (A a E)",
+        "bbox": [
+          75,
+          75,
+          935,
+          935
+        ]
+      }
+    ],
+    "50": [
+      {
+        "pagina": 20,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da Questão 50",
+        "bbox": [
+          575,
+          75,
+          795,
+          935
+        ]
+      }
+    ],
+    "51": [
+      {
+        "pagina": 20,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da Questão 51",
+        "bbox": [
+          800,
+          75,
+          935,
+          935
+        ]
+      }
+    ],
+    "52": [
+      {
+        "pagina": 21,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da Questão 52",
+        "bbox": [
+          75,
+          75,
+          240,
+          935
+        ]
+      }
+    ],
+    "53": [
+      {
+        "pagina": 21,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da Questão 53",
+        "bbox": [
+          245,
+          75,
+          485,
+          935
+        ]
+      }
+    ],
+    "54": [
+      {
+        "pagina": 21,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da Questão 54",
+        "bbox": [
+          490,
+          75,
+          935,
+          935
+        ]
+      }
+    ],
+    "55": [
+      {
+        "pagina": 22,
+        "tipo": "figura",
+        "elemento": "Proposta de redação e coletânea",
+        "bbox": [
+          75,
+          75,
+          935,
+          935
+        ]
+      }
+    ]
+  }
+}

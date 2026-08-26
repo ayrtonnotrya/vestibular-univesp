@@ -1,0 +1,694 @@
+{
+  "exame": "enem_2017_2dia",
+  "figuras_coordenadas": {
+    "92": [
+      {
+        "pagina": 2,
+        "tipo": "tabela",
+        "elemento": "Esquema comparativo entre os sistemas de classificação de Whittaker (1969) e Woese (1990).",
+        "bbox": [
+          181,
+          116,
+          363,
+          487
+        ]
+      }
+    ],
+    "93": [
+      {
+        "pagina": 2,
+        "tipo": "grafico",
+        "elemento": "Gráfico de aceleração versus tempo para cinco modelos de cinto de segurança.",
+        "bbox": [
+          376,
+          116,
+          574,
+          487
+        ]
+      }
+    ],
+    "95": [
+      {
+        "pagina": 3,
+        "tipo": "diagrama",
+        "elemento": "Fluxograma do processo de separação dos componentes da farinha de linhaça.",
+        "bbox": [
+          291,
+          161,
+          461,
+          502
+        ]
+      }
+    ],
+    "98": [
+      {
+        "pagina": 3,
+        "tipo": "esquema",
+        "elemento": "Esquema ilustrando as etapas da fusão celular e marcação de proteínas com anticorpos fluorescentes.",
+        "bbox": [
+          516,
+          511,
+          749,
+          902
+        ]
+      }
+    ],
+    "99": [
+      {
+        "pagina": 4,
+        "tipo": "grafico",
+        "elemento": "Gráficos de emissão de radiação eletromagnética para cinco tipos de lâmpada.",
+        "bbox": [
+          426,
+          122,
+          735,
+          480
+        ]
+      }
+    ],
+    "101": [
+      {
+        "pagina": 4,
+        "tipo": "grafico",
+        "elemento": "Gráfico de perda óptica versus comprimento de onda em fibra óptica.",
+        "bbox": [
+          535,
+          510,
+          680,
+          903
+        ]
+      }
+    ],
+    "103": [
+      {
+        "pagina": 5,
+        "tipo": "diagrama",
+        "elemento": "Diagrama do funcionamento da estação híbrida de energia eólica, biogás e hidrogênio.",
+        "bbox": [
+          321,
+          149,
+          725,
+          843
+        ]
+      }
+    ],
+    "104": [
+      {
+        "pagina": 6,
+        "tipo": "esquema",
+        "elemento": "Esquema da célula eletroquímica para eletrólise de NaCl.",
+        "bbox": [
+          190,
+          335,
+          520,
+          715
+        ]
+      }
+    ],
+    "106": [
+      {
+        "pagina": 7,
+        "tipo": "tabela",
+        "elemento": "Quadro de pesticidas e valores de DL50.",
+        "bbox": [
+          323,
+          194,
+          396,
+          421
+        ]
+      }
+    ],
+    "108": [
+      {
+        "pagina": 7,
+        "tipo": "grafico",
+        "elemento": "Gráfico de corrente versus diferença de potencial da polianilina.",
+        "bbox": [
+          287,
+          513,
+          442,
+          706
+        ]
+      }
+    ],
+    "111": [
+      {
+        "pagina": 8,
+        "tipo": "diagrama",
+        "elemento": "Circuito elétrico com resistores e fusível.",
+        "bbox": [
+          538,
+          235,
+          765,
+          497
+        ]
+      }
+    ],
+    "113": [
+      {
+        "pagina": 8,
+        "tipo": "esquema",
+        "elemento": "Esquema do dispositivo experimental Trompone de Quincke.",
+        "bbox": [
+          595,
+          542,
+          856,
+          807
+        ]
+      }
+    ],
+    "117": [
+      {
+        "pagina": 10,
+        "tipo": "diagrama",
+        "elemento": "Tabela de semirreações e esquemas de circuitos de pilhas conectadas a um LED.",
+        "bbox": [
+          140,
+          114,
+          765,
+          874
+        ]
+      }
+    ],
+    "119": [
+      {
+        "pagina": 11,
+        "tipo": "ilustracao",
+        "elemento": "Esquemas comparativos do piso tradicional de concreto e piso concregrama.",
+        "bbox": [
+          538,
+          145,
+          755,
+          482
+        ]
+      }
+    ],
+    "120": [
+      {
+        "pagina": 11,
+        "tipo": "figura",
+        "elemento": "Estrutura química do lapachol.",
+        "bbox": [
+          287,
+          563,
+          403,
+          735
+        ]
+      }
+    ],
+    "123": [
+      {
+        "pagina": 12,
+        "tipo": "grafico",
+        "elemento": "Gráfico de absorção de luz por melanina, oxi-hemoglobina e água em função do comprimento de onda.",
+        "bbox": [
+          201,
+          143,
+          401,
+          487
+        ]
+      }
+    ],
+    "124": [
+      {
+        "pagina": 12,
+        "tipo": "grafico",
+        "elemento": "Gráficos de energia cinética em função da altura.",
+        "bbox": [
+          390,
+          486,
+          903,
+          831
+        ]
+      }
+    ],
+    "128": [
+      {
+        "pagina": 13,
+        "tipo": "esquema",
+        "elemento": "Esquemas de reações de ozonólise de alcenos.",
+        "bbox": [
+          291,
+          513,
+          508,
+          770
+        ]
+      }
+    ],
+    "131": [
+      {
+        "pagina": 14,
+        "tipo": "figura",
+        "elemento": "Estruturas químicas dos pigmentos licopeno, carotenos, capsorubina e criptoxantina.",
+        "bbox": [
+          553,
+          190,
+          770,
+          905
+        ]
+      }
+    ],
+    "132": [
+      {
+        "pagina": 15,
+        "tipo": "figura",
+        "elemento": "Segmentos de sequências de DNA das alternativas.",
+        "bbox": [
+          334,
+          116,
+          493,
+          497
+        ]
+      }
+    ],
+    "134": [
+      {
+        "pagina": 15,
+        "tipo": "grafico",
+        "elemento": "Gráfico de elevação de temperatura em função da vazão para três condições de ducha.",
+        "bbox": [
+          291,
+          513,
+          442,
+          903
+        ]
+      }
+    ],
+    "136": [
+      {
+        "pagina": 16,
+        "tipo": "grafico",
+        "elemento": "Gráfico de velocidade em função do tempo.",
+        "bbox": [
+          291,
+          107,
+          417,
+          417
+        ]
+      }
+    ],
+    "137": [
+      {
+        "pagina": 16,
+        "tipo": "ilustracao",
+        "elemento": "Desenho de uma taça de espumante.",
+        "bbox": [
+          650,
+          195,
+          822,
+          348
+        ]
+      }
+    ],
+    "140": [
+      {
+        "pagina": 17,
+        "tipo": "tabela",
+        "elemento": "Quadro com opções de formato de senha.",
+        "bbox": [
+          215,
+          143,
+          331,
+          381
+        ]
+      }
+    ],
+    "141": [
+      {
+        "pagina": 17,
+        "tipo": "tabela",
+        "elemento": "Tabela de quantidade de jogadores e número de partidas.",
+        "bbox": [
+          732,
+          95,
+          800,
+          318
+        ]
+      }
+    ],
+    "146": [
+      {
+        "pagina": 18,
+        "tipo": "ilustracao",
+        "elemento": "Esquema de raios de sol incidindo na superfície do lago.",
+        "bbox": [
+          676,
+          680,
+          804,
+          880
+        ]
+      }
+    ],
+    "147": [
+      {
+        "pagina": 19,
+        "tipo": "ilustracao",
+        "elemento": "Ilustrações da tela girada na parede.",
+        "bbox": [
+          264,
+          187,
+          563,
+          370
+        ]
+      }
+    ],
+    "148": [
+      {
+        "pagina": 19,
+        "tipo": "tabela",
+        "elemento": "Quadros de critérios de avaliação e notas das disciplinas.",
+        "bbox": [
+          223,
+          506,
+          526,
+          903
+        ]
+      }
+    ],
+    "149": [
+      {
+        "pagina": 20,
+        "tipo": "ilustracao",
+        "elemento": "Ilustração do caminhão-cegonha com carrinhos.",
+        "bbox": [
+          180,
+          93,
+          291,
+          461
+        ]
+      }
+    ],
+    "151": [
+      {
+        "pagina": 20,
+        "tipo": "tabela",
+        "elemento": "Tabela de dados das pesquisas P1 a P5.",
+        "bbox": [
+          287,
+          563,
+          373,
+          765
+        ]
+      }
+    ],
+    "153": [
+      {
+        "pagina": 21,
+        "tipo": "grafico",
+        "elemento": "Gráfico de registro de profundidade do rio.",
+        "bbox": [
+          259,
+          100,
+          370,
+          482
+        ]
+      }
+    ],
+    "154": [
+      {
+        "pagina": 21,
+        "tipo": "fotografia",
+        "elemento": "Fotografia da cabana e esquema geométrico de sua estrutura.",
+        "bbox": [
+          611,
+          98,
+          804,
+          497
+        ]
+      }
+    ],
+    "155": [
+      {
+        "pagina": 21,
+        "tipo": "imagem",
+        "elemento": "Tabuleiro do jogo Campo Minado.",
+        "bbox": [
+          287,
+          513,
+          608,
+          903
+        ]
+      }
+    ],
+    "156": [
+      {
+        "pagina": 22,
+        "tipo": "esquema",
+        "elemento": "Esquema de reservatórios de água interligados e gráficos de altura em função do volume.",
+        "bbox": [
+          190,
+          95,
+          750,
+          804
+        ]
+      }
+    ],
+    "157": [
+      {
+        "pagina": 23,
+        "tipo": "fotografia",
+        "elemento": "Foto do caminhão preso sob o viaduto e ilustração dos tubos.",
+        "bbox": [
+          287,
+          134,
+          550,
+          480
+        ]
+      }
+    ],
+    "158": [
+      {
+        "pagina": 23,
+        "tipo": "mapa",
+        "elemento": "Mapa esquemático de ruas e quadras com pontos de interesse.",
+        "bbox": [
+          291,
+          513,
+          538,
+          903
+        ]
+      }
+    ],
+    "159": [
+      {
+        "pagina": 23,
+        "tipo": "tabela",
+        "elemento": "Tabela de notas de alunos em cinco provas.",
+        "bbox": [
+          650,
+          513,
+          765,
+          903
+        ]
+      }
+    ],
+    "160": [
+      {
+        "pagina": 24,
+        "tipo": "tabela",
+        "elemento": "Tabela de tipos de curva associadas à equação.",
+        "bbox": [
+          287,
+          194,
+          396,
+          482
+        ]
+      }
+    ],
+    "161": [
+      {
+        "pagina": 24,
+        "tipo": "esquema",
+        "elemento": "Ilustração dos mirantes e teleférico.",
+        "bbox": [
+          755,
+          170,
+          895,
+          417
+        ]
+      }
+    ],
+    "163": [
+      {
+        "pagina": 25,
+        "tipo": "esquema",
+        "elemento": "Ilustração do compasso no plano cartesiano e tabela de materiais.",
+        "bbox": [
+          287,
+          102,
+          650,
+          487
+        ]
+      }
+    ],
+    "164": [
+      {
+        "pagina": 25,
+        "tipo": "fotografia",
+        "elemento": "Fotografia de uma pulseira com pérola faltando.",
+        "bbox": [
+          190,
+          506,
+          396,
+          903
+        ]
+      }
+    ],
+    "166": [
+      {
+        "pagina": 26,
+        "tipo": "ilustracao",
+        "elemento": "Esquema e tabela de marchas e engrenagens de bicicleta.",
+        "bbox": [
+          190,
+          93,
+          538,
+          497
+        ]
+      }
+    ],
+    "167": [
+      {
+        "pagina": 26,
+        "tipo": "imagem",
+        "elemento": "Logomarca da Copa do Mundo de 2014.",
+        "bbox": [
+          243,
+          626,
+          396,
+          775
+        ]
+      }
+    ],
+    "168": [
+      {
+        "pagina": 26,
+        "tipo": "ilustracao",
+        "elemento": "Ilustração do viveiro de lagostas.",
+        "bbox": [
+          680,
+          563,
+          831,
+          749
+        ]
+      }
+    ],
+    "170": [
+      {
+        "pagina": 27,
+        "tipo": "grafico",
+        "elemento": "Gráfico de taxa de desemprego mensal.",
+        "bbox": [
+          595,
+          114,
+          822,
+          497
+        ]
+      }
+    ],
+    "173": [
+      {
+        "pagina": 28,
+        "tipo": "grafico",
+        "elemento": "Gráfico de volume armazenado nos reservatórios A e B.",
+        "bbox": [
+          215,
+          143,
+          626,
+          880
+        ]
+      }
+    ],
+    "174": [
+      {
+        "pagina": 29,
+        "tipo": "esquema",
+        "elemento": "Ilustração do termômetro de máxima e mínima.",
+        "bbox": [
+          223,
+          194,
+          608,
+          487
+        ]
+      }
+    ],
+    "175": [
+      {
+        "pagina": 29,
+        "tipo": "ilustracao",
+        "elemento": "Esquema do sistema de pivô central com torres T1, T2, T3.",
+        "bbox": [
+          287,
+          513,
+          680,
+          903
+        ]
+      }
+    ],
+    "176": [
+      {
+        "pagina": 30,
+        "tipo": "ilustracao",
+        "elemento": "Fotos e esquema geométrico de abóbada parabólica.",
+        "bbox": [
+          190,
+          194,
+          342,
+          796
+        ]
+      }
+    ],
+    "177": [
+      {
+        "pagina": 30,
+        "tipo": "grafico",
+        "elemento": "Gráficos de setores com tempos de acesso na sexta-feira e sábado.",
+        "bbox": [
+          608,
+          223,
+          804,
+          765
+        ]
+      }
+    ],
+    "178": [
+      {
+        "pagina": 31,
+        "tipo": "grafico",
+        "elemento": "Gráficos de barras 1 e 2 de pesquisa eleitoral.",
+        "bbox": [
+          215,
+          114,
+          550,
+          480
+        ]
+      }
+    ],
+    "179": [
+      {
+        "pagina": 31,
+        "tipo": "tabela",
+        "elemento": "Tabela de dados cardiovasculares do paciente.",
+        "bbox": [
+          287,
+          563,
+          373,
+          903
+        ]
+      }
+    ],
+    "180": [
+      {
+        "pagina": 31,
+        "tipo": "ilustracao",
+        "elemento": "Esquema geométrico do corte da esfera representando o melão.",
+        "bbox": [
+          587,
+          513,
+          856,
+          903
+        ]
+      }
+    ]
+  }
+}

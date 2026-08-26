@@ -1,0 +1,1578 @@
+{
+  "exame": "univesp_2025_questoes",
+  "ano": 2025,
+  "semestre": "2",
+  "fonte_questoes": "data/univesp_2025_questoes.pdf",
+  "fonte_gabarito": "data/univesp_2025_gabarito.pdf",
+  "total_questoes": 57,
+  "questoes": [
+    {
+      "numero": 1,
+      "tipo": "objetiva",
+      "enunciado": "Em uma livraria, no setor responsável por preparar presentes, havia 63 livros. Após embalar parte deles, a razão do número de exemplares prontos para o número de exemplares não prontos era 4/5. O número de livros que ainda deveriam ser embalados era",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "25.",
+        "b": "28.",
+        "c": "30.",
+        "d": "32.",
+        "e": "35."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Razões e proporções diretas e inversas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 3
+    },
+    {
+      "numero": 2,
+      "tipo": "objetiva",
+      "enunciado": "Uma empresa fabricou, em um mesmo dia, o total de 900 peças, sendo algumas do tipo P e outras do tipo Q, de modo que o número de peças fabricadas do tipo Q foi igual a 80% do número de peças fabricadas do tipo P. Sabendo que 5% das peças do tipo P e 8% das peças do tipo Q apresentaram defeitos, o número total de peças defeituosas foi",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "57.",
+        "b": "65.",
+        "c": "78.",
+        "d": "86.",
+        "e": "93."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Matemática Financeira: porcentagem, juros simples, juros compostos, taxas e índices"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 3
+    },
+    {
+      "numero": 3,
+      "tipo": "objetiva",
+      "enunciado": "Uma pessoa comprou 5 números de uma rifa beneficente, que formavam uma progressão aritmética de razão 6, sendo que o maior número era o quádruplo do menor. Sabendo que o preço de cada número comprado foi o mesmo, e que o valor total gasto nessa compra foi numericamente igual à soma dos 5 números da progressão, o valor de cada número comprado foi",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "R$ 10,00.",
+        "b": "R$ 15,00.",
+        "c": "R$ 20,00.",
+        "d": "R$ 25,00.",
+        "e": "R$ 30,00."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Progressão Aritmética (PA) - termo geral e soma dos termos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 3
+    },
+    {
+      "numero": 4,
+      "tipo": "objetiva",
+      "enunciado": "Considere as funções f(x) = 2^x + k, em que k é um número real, e g(x) = x + 3. Sabendo que o ponto P (1, 4) pertence às duas funções, o valor de f(– 2) – g(– k) é",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "– 1,5.",
+        "b": "– 1,0.",
+        "c": "0.",
+        "d": "1,0.",
+        "e": "1,5."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Conceito de função e relações entre grandezas",
+            "Função exponencial e propriedades"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 3
+    },
+    {
+      "numero": 5,
+      "tipo": "objetiva",
+      "enunciado": "Uma pessoa comprou 4 livros de ficção e 3 livros técnicos, todos distintos entre si, e irá separar 2 livros de ficção e 1 livro técnico para ler nas férias. Sabendo que essa pessoa não tem preferência pelos livros comprados, o número de maneiras distintas de ela escolher os 3 livros que irá ler nas férias é",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "2.",
+        "b": "6.",
+        "c": "9.",
+        "d": "15.",
+        "e": "18."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Arranjos, permutações e combinações simples"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 3
+    },
+    {
+      "numero": 6,
+      "tipo": "objetiva",
+      "enunciado": "Em um plano cartesiano, o ponto M (2, 3) pertence à reta r de equação y = 2x + b, em que b é um número real. Sabendo que a reta r intersecta a reta s, de equação y = – 2x + 3, no ponto P, a soma das coordenadas do ponto P é",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "0.",
+        "b": "1.",
+        "c": "2.",
+        "d": "3.",
+        "e": "4."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Equação da reta: forma reduzida, coeficientes angular/linear e intersecção",
+            "Geometria Analítica Básica: coordenadas, plano cartesiano, distância e ponto médio"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 3
+    },
+    {
+      "numero": 7,
+      "tipo": "objetiva",
+      "enunciado": "O quadrado ABCD é formado por 4 lajotas retangulares idênticas, L₁, L₂, L₃ e L₄, e pela lajota L₅. As medidas, em centímetros, dos lados das quatro lajotas idênticas são x e 3x, conforme mostra a figura.\n\nSabendo que a área da lajota L₅, destacada na figura, é 16 cm², a área do quadrado ABCD é",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 4: Figura esquemática mostrando o quadrado ABCD dividido em 4 lajotas retangulares dispostas nas bordas (L₁, L₂, L₃, L₄) com dimensões x por 3x, e uma lajota central quadrada/retangular L₅."
+      ],
+      "alternativas": {
+        "a": "36 cm².",
+        "b": "64 cm².",
+        "c": "81 cm².",
+        "d": "100 cm².",
+        "e": "144 cm²."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Geometria Plana: ponto, reta, plano, segmentos e ângulos",
+            "Cálculo de áreas (polígonos, círculos, coroas e setores circulares)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 4
+    },
+    {
+      "numero": 8,
+      "tipo": "objetiva",
+      "enunciado": "Em uma caixa, há somente livros de física e de matemática, totalizando 14 unidades. Se nessa caixa for acrescentado 1 livro de matemática, a probabilidade de se retirar, aleatoriamente, um livro de matemática será de 3/5. O número de livros de física que há nessa caixa é",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "9.",
+        "b": "8.",
+        "c": "7.",
+        "d": "6.",
+        "e": "5."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Espaço amostral (discreto e contínuo) e conceito de probabilidade"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 4
+    },
+    {
+      "numero": 9,
+      "tipo": "objetiva",
+      "enunciado": "Um recipiente no formato de cilindro circular reto, com raio de base R e altura H, foi preenchido com água até uma altura h, conforme mostra a figura, em que as medidas indicadas estão em centímetros.\n\nSabendo que R = 2 cm, h = 2/3 H e que o volume ocupado pela água é 16π cm³, a medida da altura H é",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 4: Desenho esquemático de um cilindro circular reto com indicação do raio da base R, altura total H e altura do líquido h."
+      ],
+      "alternativas": {
+        "a": "4 cm.",
+        "b": "6 cm.",
+        "c": "8 cm.",
+        "d": "10 cm.",
+        "e": "12 cm."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Cilindro, cone e esfera (área, volume e capacidade)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 4
+    },
+    {
+      "numero": 10,
+      "tipo": "objetiva",
+      "enunciado": "Em uma loja, a média aritmética do número de unidades vendidas de determinado produto, em 3 dias consecutivos, foi 14 unidades. Sabendo que, no 1º e no 2º dia, foi vendido o mesmo número de unidades desse produto e que no 3º dia foram vendidas 18 unidades a mais do que no 1º dia, o número de unidades vendidas no 3º dia foi",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "32.",
+        "b": "30.",
+        "c": "28.",
+        "d": "26.",
+        "e": "24."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Estatística: medidas de tendência central (média, moda e mediana)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 4
+    },
+    {
+      "numero": 11,
+      "tipo": "objetiva",
+      "enunciado": "Depreende-se da análise do cartum que as propagandas são",
+      "textos_de_apoio": [
+        "Analise o cartum de André Dahmer, publicado na rede social X em 05.01.2025, para responder às questões 11 e 12."
+      ],
+      "midia": [
+        "Página 5: Cartum mostrando uma pessoa ao celular com a mensagem na tela: \"AGUARDE MAIS ALGUNS INSTANTES. SUA LIGAÇÃO É MUITO IMPORTANTE PARA NÓS\". Acima, o letreiro diz: \"O HOMEM QUE ACREDITAVA EM PROPAGANDAS\"."
+      ],
+      "alternativas": {
+        "a": "empáticas.",
+        "b": "comedidas.",
+        "c": "manipuladoras.",
+        "d": "fidedignas.",
+        "e": "detalhistas."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação",
+            "Intertextualidade, interdiscursividade e análise de textos verbais e não verbais (charges, cartuns)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 5
+    },
+    {
+      "numero": 12,
+      "tipo": "objetiva",
+      "enunciado": "As duas orações contidas na fala do cartum podem ser articuladas, sem prejuízo do seu sentido original, pelo conectivo:",
+      "textos_de_apoio": [
+        "Analise o cartum de André Dahmer, publicado na rede social X em 05.01.2025, para responder às questões 11 e 12."
+      ],
+      "midia": [
+        "Página 5: Cartum mostrando uma pessoa ao celular com a mensagem na tela: \"AGUARDE MAIS ALGUNS INSTANTES. SUA LIGAÇÃO É MUITO IMPORTANTE PARA NÓS\". Acima, o letreiro diz: \"O HOMEM QUE ACREDITAVA EM PROPAGANDAS\"."
+      ],
+      "alternativas": {
+        "a": "portanto.",
+        "b": "pois.",
+        "c": "mas.",
+        "d": "enquanto.",
+        "e": "contudo."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Mecanismos de coesão textual (lexical, referencial, anafórica) e coerência",
+            "Sintaxe do período composto (coordenação e subordinação)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 5
+    },
+    {
+      "numero": 13,
+      "tipo": "objetiva",
+      "enunciado": "Para obter seu efeito de humor, o microconto explora a polissemia do termo “Nada”, o qual pode ser interpretado como pronome (significando “coisa nenhuma”) ou como",
+      "textos_de_apoio": [
+        "Leia o microconto de Lygia Fagundes Telles para responder às questões 13 e 14.\n\nConfissão\n— Fui me confessar ao mar.\n— O que ele disse?\n— Nada.\n(Marcelino Freire (org.), Os cem menores contos brasileiros do século, 2023.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "verbo.",
+        "b": "adjetivo.",
+        "c": "conjunção.",
+        "d": "advérbio.",
+        "e": "substantivo."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação",
+            "Classes gramaticais: substantivo, adjetivo, artigo, numeral, pronome, verbo, advérbio, preposição, conjunção e interjeição"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 5
+    },
+    {
+      "numero": 14,
+      "tipo": "objetiva",
+      "enunciado": "Ao se adaptar a fala “— Fui me confessar ao mar.” para o discurso indireto, uma redação adequada seria a seguinte:",
+      "textos_de_apoio": [
+        "Leia o microconto de Lygia Fagundes Telles para responder às questões 13 e 14.\n\nConfissão\n— Fui me confessar ao mar.\n— O que ele disse?\n— Nada.\n(Marcelino Freire (org.), Os cem menores contos brasileiros do século, 2023.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "Ela disse: — Eu ia me confessar ao mar.",
+        "b": "Ela disse que teria ido se confessar ao mar.",
+        "c": "Ela disse que iria se confessar ao mar.",
+        "d": "Ela disse que tinha ido se confessar ao mar.",
+        "e": "Ela disse: — Eu irei me confessar ao mar."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Discurso direto, indireto e indireto livre",
+            "Flexão nominal e flexão verbal (tempos, modos, vozes e correlação verbal)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 5
+    },
+    {
+      "numero": 15,
+      "tipo": "objetiva",
+      "enunciado": "Entre as características da estética romântica, destaca-se no trecho",
+      "textos_de_apoio": [
+        "Leia o trecho do romance Cinco Minutos, de José de Alencar (1829-1877), para responder às questões de 15 a 18.\n\n1 É uma história curiosa a que lhe vou contar, minha prima. Mas é uma história e não um romance.\nHá mais de dois anos, seriam seis horas da tarde, dirigi-me ao Rocio¹ para tomar o ônibus de Andaraí.\nSabe que sou o homem menos pontual que há neste mundo; entre os meus imensos defeitos e as minhas poucas qualidades, não conto a pontualidade, essa virtude dos reis e esse mau costume dos ingleses.\nEntusiasta da liberdade, não posso admitir de modo algum que um homem se escravize ao seu relógio e regule as suas ações pelo movimento de uma pequena agulha de aço ou pelas oscilações de uma pêndula².\n5 Tudo isto quer dizer que, chegando ao Rocio, não vi mais ônibus algum; o empregado a quem dirigi-me respondeu:\n— Partiu há cinco minutos.\nResignei-me³, e esperei pelo ônibus de sete horas.\nAnoiteceu.\nFazia uma noite de inverno fresca e úmida: o céu estava calmo, mas sem estrelas.\n10 À hora marcada chegou o ônibus, e apressei-me a ir tomar o meu lugar.\nProcurei, como costumo, o fundo do carro, a fim de ficar livre das conversas monótonas dos recebedores, que de ordinário têm sempre uma anedota insípida⁴ a contar, ou uma queixa a fazer sobre o mau estado dos caminhos.\nO canto já estava ocupado por um monte de sedas, que deixou escapar-se um ligeiro farfalhar, conchegando-se para dar-me lugar.\nSentei-me; prefiro sempre o contato da seda à vizinhança da casimira⁵ ou do pano.\nO meu primeiro cuidado foi ver se conseguia descobrir o rosto e as formas que se escondiam nessas nuvens de seda e de rendas.\n15 Era impossível.\nAlém de a noite estar escura, um maldito véu que caía de um chapeuzinho de palha não me deixava a menor esperança.\nResignei-me, e assentei que o melhor era cuidar de outra coisa.\nJá o meu pensamento tinha-se lançado a galope pelo mundo da fantasia, quando de repente fui obrigado a voltar por uma circunstância bem simples.\nSenti no meu braço o contato suave de um outro braço, que me parecia macio e aveludado como uma folha de rosa.\n20 Quis recuar, mas não tive ânimo; deixei-me ficar na mesma posição, e cismei que estava sentado perto de uma mulher que me amava e que se apoiava sobre mim.\nPouco a pouco fui cedendo àquela atração irresistível e reclinando-me insensivelmente: a pressão tornou-se mais forte; senti o seu ombro tocar de leve o meu peito; e a minha mão impaciente encontrou uma mãozinha delicada e mimosa, que deixou-se apertar a medo.\nAssim, fascinado ao mesmo tempo pela minha ilusão e por este contato voluptuoso, esqueci-me, a ponto que, sem saber o que fazia, inclinei a cabeça e colei os meus lábios ardentes nesse ombro, que estremecia de emoção.\n(Cinco minutos, 2011.)\n\n¹ Rocio: nome antigo da Praça Tiradentes, no Rio de Janeiro.\n² pêndula: parte de um relógio.\n³ resignar-se: conformar-se.\n⁴ insípido: sem graça.\n⁵ casimira: tecido simples feito de lã."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "o culto à natureza.",
+        "b": "a crítica social.",
+        "c": "a fuga da realidade.",
+        "d": "a fantasia amorosa.",
+        "e": "o tema fúnebre."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Literatura Brasileira: Quinhentismo, Barroco (Gregório de Matos), Arcadismo, Romantismo, Realismo/Naturalismo (Machado de Assis), Parnasianismo e Simbolismo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 6
+    },
+    {
+      "numero": 16,
+      "tipo": "objetiva",
+      "enunciado": "Com o comentário “prefiro sempre o contato da seda à vizinhança da casimira ou do pano” (13º parágrafo), o narrador sugere que prefere",
+      "textos_de_apoio": [
+        "Leia o trecho do romance Cinco Minutos, de José de Alencar (1829-1877), para responder às questões de 15 a 18.\n\n1 É uma história curiosa a que lhe vou contar, minha prima. Mas é uma história e não um romance.\nHá mais de dois anos, seriam seis horas da tarde, dirigi-me ao Rocio¹ para tomar o ônibus de Andaraí.\nSabe que sou o homem menos pontual que há neste mundo; entre os meus imensos defeitos e as minhas poucas qualidades, não conto a pontualidade, essa virtude dos reis e esse mau costume dos ingleses.\nEntusiasta da liberdade, não posso admitir de modo algum que um homem se escravize ao seu relógio e regule as suas ações pelo movimento de uma pequena agulha de aço ou pelas oscilações de uma pêndula².\n5 Tudo isto quer dizer que, chegando ao Rocio, não vi mais ônibus algum; o empregado a quem dirigi-me respondeu:\n— Partiu há cinco minutos.\nResignei-me³, e esperei pelo ônibus de sete horas.\nAnoiteceu.\nFazia uma noite de inverno fresca e úmida: o céu estava calmo, mas sem estrelas.\n10 À hora marcada chegou o ônibus, e apressei-me a ir tomar o meu lugar.\nProcurei, como costumo, o fundo do carro, a fim de ficar livre das conversas monótonas dos recebedores, que de ordinário têm sempre uma anedota insípida⁴ a contar, ou uma queixa a fazer sobre o mau estado dos caminhos.\nO canto já estava ocupado por um monte de sedas, que deixou escapar-se um ligeiro farfalhar, conchegando-se para dar-me lugar.\nSentei-me; prefiro sempre o contato da seda à vizinhança da casimira⁵ ou do pano.\nO meu primeiro cuidado foi ver se conseguia descobrir o rosto e as formas que se escondiam nessas nuvens de seda e de rendas.\n15 Era impossível.\nAlém de a noite estar escura, um maldito véu que caía de um chapeuzinho de palha não me deixava a menor esperança.\nResignei-me, e assentei que o melhor era cuidar de outra coisa.\nJá o meu pensamento tinha-se lançado a galope pelo mundo da fantasia, quando de repente fui obrigado a voltar por uma circunstância bem simples.\nSenti no meu braço o contato suave de um outro braço, que me parecia macio e aveludado como uma folha de rosa.\n20 Quis recuar, mas não tive ânimo; deixei-me ficar na mesma posição, e cismei que estava sentado perto de uma mulher que me amava e que se apoiava sobre mim.\nPouco a pouco fui cedendo àquela atração irresistível e reclinando-me insensivelmente: a pressão tornou-se mais forte; senti o seu ombro tocar de leve o meu peito; e a minha mão impaciente encontrou uma mãozinha delicada e mimosa, que deixou-se apertar a medo.\nAssim, fascinado ao mesmo tempo pela minha ilusão e por este contato voluptuoso, esqueci-me, a ponto que, sem saber o que fazia, inclinei a cabeça e colei os meus lábios ardentes nesse ombro, que estremecia de emoção.\n(Cinco minutos, 2011.)\n\n¹ Rocio: nome antigo da Praça Tiradentes, no Rio de Janeiro.\n² pêndula: parte de um relógio.\n³ resignar-se: conformar-se.\n⁴ insípido: sem graça.\n⁵ casimira: tecido simples feito de lã."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "usar roupas de um tecido específico.",
+        "b": "frequentar ambientes confortáveis.",
+        "c": "evitar conversas monótonas.",
+        "d": "imitar os demais passageiros.",
+        "e": "sentar-se ao lado de mulheres."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação",
+            "Literatura Brasileira: Quinhentismo, Barroco (Gregório de Matos), Arcadismo, Romantismo, Realismo/Naturalismo (Machado de Assis), Parnasianismo e Simbolismo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 6
+    },
+    {
+      "numero": 17,
+      "tipo": "objetiva",
+      "enunciado": "No trecho “À hora marcada chegou o ônibus” (10º parágrafo), a expressão sublinhada exerce a mesma função sintática da expressão sublinhada em:",
+      "textos_de_apoio": [
+        "Leia o trecho do romance Cinco Minutos, de José de Alencar (1829-1877), para responder às questões de 15 a 18.\n\n1 É uma história curiosa a que lhe vou contar, minha prima. Mas é uma história e não um romance.\nHá mais de dois anos, seriam seis horas da tarde, dirigi-me ao Rocio¹ para tomar o ônibus de Andaraí.\nSabe que sou o homem menos pontual que há neste mundo; entre os meus imensos defeitos e as minhas poucas qualidades, não conto a pontualidade, essa virtude dos reis e esse mau costume dos ingleses.\nEntusiasta da liberdade, não posso admitir de modo algum que um homem se escravize ao seu relógio e regule as suas ações pelo movimento de uma pequena agulha de aço ou pelas oscilações de uma pêndula².\n5 Tudo isto quer dizer que, chegando ao Rocio, não vi mais ônibus algum; o empregado a quem dirigi-me respondeu:\n— Partiu há cinco minutos.\nResignei-me³, e esperei pelo ônibus de sete horas.\nAnoiteceu.\nFazia uma noite de inverno fresca e úmida: o céu estava calmo, mas sem estrelas.\n10 À hora marcada chegou o ônibus, e apressei-me a ir tomar o meu lugar.\nProcurei, como costumo, o fundo do carro, a fim de ficar livre das conversas monótonas dos recebedores, que de ordinário têm sempre uma anedota insípida⁴ a contar, ou uma queixa a fazer sobre o mau estado dos caminhos.\nO canto já estava ocupado por um monte de sedas, que deixou escapar-se um ligeiro farfalhar, conchegando-se para dar-me lugar.\nSentei-me; prefiro sempre o contato da seda à vizinhança da casimira⁵ ou do pano.\nO meu primeiro cuidado foi ver se conseguia descobrir o rosto e as formas que se escondiam nessas nuvens de seda e de rendas.\n15 Era impossível.\nAlém de a noite estar escura, um maldito véu que caía de um chapeuzinho de palha não me deixava a menor esperança.\nResignei-me, e assentei que o melhor era cuidar de outra coisa.\nJá o meu pensamento tinha-se lançado a galope pelo mundo da fantasia, quando de repente fui obrigado a voltar por uma circunstância bem simples.\nSenti no meu braço o contato suave de um outro braço, que me parecia macio e aveludado como uma folha de rosa.\n20 Quis recuar, mas não tive ânimo; deixei-me ficar na mesma posição, e cismei que estava sentado perto de uma mulher que me amava e que se apoiava sobre mim.\nPouco a pouco fui cedendo àquela atração irresistível e reclinando-me insensivelmente: a pressão tornou-se mais forte; senti o seu ombro tocar de leve o meu peito; e a minha mão impaciente encontrou uma mãozinha delicada e mimosa, que deixou-se apertar a medo.\nAssim, fascinado ao mesmo tempo pela minha ilusão e por este contato voluptuoso, esqueci-me, a ponto que, sem saber o que fazia, inclinei a cabeça e colei os meus lábios ardentes nesse ombro, que estremecia de emoção.\n(Cinco minutos, 2011.)\n\n¹ Rocio: nome antigo da Praça Tiradentes, no Rio de Janeiro.\n² pêndula: parte de um relógio.\n³ resignar-se: conformar-se.\n⁴ insípido: sem graça.\n⁵ casimira: tecido simples feito de lã."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "“Fazia uma noite de inverno fresca e úmida” (9º parágrafo).",
+        "b": "“Procurei, como costumo, o fundo do carro” (11º parágrafo).",
+        "c": "“Senti no meu braço o contato suave de um outro braço” (19º parágrafo).",
+        "d": "“a minha mão impaciente encontrou uma mãozinha delicada e mimosa” (21º parágrafo).",
+        "e": "“colei os meus lábios ardentes nesse ombro” (22º parágrafo)."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Sintaxe do período simples (termos essenciais, integrantes e acessórios da oração)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 7
+    },
+    {
+      "numero": 18,
+      "tipo": "objetiva",
+      "enunciado": "Identifica-se um termo formado com prefixo que expressa negação, como em “impossível” (15º parágrafo), no trecho:",
+      "textos_de_apoio": [
+        "Leia o trecho do romance Cinco Minutos, de José de Alencar (1829-1877), para responder às questões de 15 a 18.\n\n1 É uma história curiosa a que lhe vou contar, minha prima. Mas é uma história e não um romance.\nHá mais de dois anos, seriam seis horas da tarde, dirigi-me ao Rocio¹ para tomar o ônibus de Andaraí.\nSabe que sou o homem menos pontual que há neste mundo; entre os meus imensos defeitos e as minhas poucas qualidades, não conto a pontualidade, essa virtude dos reis e esse mau costume dos ingleses.\nEntusiasta da liberdade, não posso admitir de modo algum que um homem se escravize ao seu relógio e regule as suas ações pelo movimento de uma pequena agulha de aço ou pelas oscilações de uma pêndula².\n5 Tudo isto quer dizer que, chegando ao Rocio, não vi mais ônibus algum; o empregado a quem dirigi-me respondeu:\n— Partiu há cinco minutos.\nResignei-me³, e esperei pelo ônibus de sete horas.\nAnoiteceu.\nFazia uma noite de inverno fresca e úmida: o céu estava calmo, mas sem estrelas.\n10 À hora marcada chegou o ônibus, e apressei-me a ir tomar o meu lugar.\nProcurei, como costumo, o fundo do carro, a fim de ficar livre das conversas monótonas dos recebedores, que de ordinário têm sempre uma anedota insípida⁴ a contar, ou uma queixa a fazer sobre o mau estado dos caminhos.\nO canto já estava ocupado por um monte de sedas, que deixou escapar-se um ligeiro farfalhar, conchegando-se para dar-me lugar.\nSentei-me; prefiro sempre o contato da seda à vizinhança da casimira⁵ ou do pano.\nO meu primeiro cuidado foi ver se conseguia descobrir o rosto e as formas que se escondiam nessas nuvens de seda e de rendas.\n15 Era impossível.\nAlém de a noite estar escura, um maldito véu que caía de um chapeuzinho de palha não me deixava a menor esperança.\nResignei-me, e assentei que o melhor era cuidar de outra coisa.\nJá o meu pensamento tinha-se lançado a galope pelo mundo da fantasia, quando de repente fui obrigado a voltar por uma circunstância bem simples.\nSenti no meu braço o contato suave de um outro braço, que me parecia macio e aveludado como uma folha de rosa.\n20 Quis recuar, mas não tive ânimo; deixei-me ficar na mesma posição, e cismei que estava sentado perto de uma mulher que me amava e que se apoiava sobre mim.\nPouco a pouco fui cedendo àquela atração irresistível e reclinando-me insensivelmente: a pressão tornou-se mais forte; senti o seu ombro tocar de leve o meu peito; e a minha mão impaciente encontrou uma mãozinha delicada e mimosa, que deixou-se apertar a medo.\nAssim, fascinado ao mesmo tempo pela minha ilusão e por este contato voluptuoso, esqueci-me, a ponto que, sem saber o que fazia, inclinei a cabeça e colei os meus lábios ardentes nesse ombro, que estremecia de emoção.\n(Cinco minutos, 2011.)\n\n¹ Rocio: nome antigo da Praça Tiradentes, no Rio de Janeiro.\n² pêndula: parte de um relógio.\n³ resignar-se: conformar-se.\n⁴ insípido: sem graça.\n⁵ casimira: tecido simples feito de lã."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "“essa virtude dos reis e esse mau costume dos ingleses” (3º parágrafo).",
+        "b": "“Fazia uma noite de inverno fresca e úmida” (9º parágrafo).",
+        "c": "“e apressei-me a ir tomar o meu lugar” (10º parágrafo).",
+        "d": "“Resignei-me, e assentei que o melhor era cuidar de outra coisa” (17º parágrafo).",
+        "e": "“Pouco a pouco fui cedendo àquela atração irresistível” (21º parágrafo)."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Estrutura e processos de formação de palavras (derivação e composição)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 7
+    },
+    {
+      "numero": 19,
+      "tipo": "objetiva",
+      "enunciado": "Ao se debruçar sobre o próprio poema, o eu lírico recorre ao recurso expressivo denominado",
+      "textos_de_apoio": [
+        "Leia o poema de Hilda Hilst (1930-2004) para responder às questões 19 e 20.\n\nQue não se leve a sério este poema\nPorque não fala do amor, fala da pena¹.\nE nele se percebe o meu cansaço\nRestos de um mar antigo e de sargaço².\n\nDifícil dizer amor quando se ama\nE na memória aprisionar o instante.\nDifícil tirar os olhos de uma chama\nE de repente sabê-los na constante\nE mesma e igual procura. E de repente\nEsquecidos de tudo que já viram\nSonharem que são olhos inocentes.\n\nAh, o mundo que os meus olhos assistiram...\nNa noite com espanto eles se abriram.\nNa noite se fecharam, de repente.\n(Hilda Hilst. Da poesia, 2017.)\n\n¹ pena: martírio, pesar.\n² sargaço: alga que se acumula nas praias."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "metalinguagem.",
+        "b": "eufemismo.",
+        "c": "intertextualidade.",
+        "d": "metáfora.",
+        "e": "paradoxo."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Figuras de linguagem (metáfora, metonímia, antítese, paradoxo, hipérbole, ironia)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 7
+    },
+    {
+      "numero": 20,
+      "tipo": "objetiva",
+      "enunciado": "Uma das marcas da poesia moderna é a utilização de linguagem informal, que se afasta da norma culta, como ocorre no verso “Ah, o mundo que os meus olhos assistiram...” (4ª estrofe). Reescrito de acordo com a regência verbal padrão e sem prejuízo do seu sentido original, o verso assume a seguinte redação:",
+      "textos_de_apoio": [
+        "Leia o poema de Hilda Hilst (1930-2004) para responder às questões 19 e 20.\n\nQue não se leve a sério este poema\nPorque não fala do amor, fala da pena¹.\nE nele se percebe o meu cansaço\nRestos de um mar antigo e de sargaço².\n\nDifícil dizer amor quando se ama\nE na memória aprisionar o instante.\nDifícil tirar os olhos de uma chama\nE de repente sabê-los na constante\nE mesma e igual procura. E de repente\nEsquecidos de tudo que já viram\nSonharem que são olhos inocentes.\n\nAh, o mundo que os meus olhos assistiram...\nNa noite com espanto eles se abriram.\nNa noite se fecharam, de repente.\n(Hilda Hilst. Da poesia, 2017.)\n\n¹ pena: martírio, pesar.\n² sargaço: alga que se acumula nas praias."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "Ah, ao mundo que os meus olhos assistiram.",
+        "b": "Ah, do mundo que os meus olhos assistiram.",
+        "c": "Ah, o mundo a que os meus olhos assistiram.",
+        "d": "Ah, o mundo de que os meus olhos assistiram.",
+        "e": "Ah, o mundo em que os meus olhos assistiram."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Regência verbal e nominal (emprego do sinal indicativo de crase)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 7
+    },
+    {
+      "numero": 21,
+      "tipo": "objetiva",
+      "enunciado": "The main purpose of the text is to",
+      "textos_de_apoio": [
+        "Leia o texto para responder às questões de 21 a 26.\n\nYou’re probably well aware that nuts have exceptional nutritional properties. Almonds, hazelnuts¹, cashews²: they’re all high on the list of nutritionists’ favourite anti-inflammatory foods. That said, it’s entirely possible that you may be missing out on one of the nut world’s most nutrient-packed superstars: Brazil nuts.\n\nRich in healthy fats, antioxidants, minerals, and vitamins, Brazil nuts are one of the most nutritious nuts around. Recently, they’ve started to gain popularity on TikTok thanks to wellness influencers who say that eating just a few Brazil nuts a day can improve everything from hair thickness to skin quality.\n\nBrazil nuts are very high in selenium, a trace mineral which some studies show regulates metabolism and may help maintain a healthy weight by helping to burn fat, increase lean muscle mass³, and improve blood sugar levels. Selenium also supports a ton of other functions, including but not limited to thyroid health, the immune system, brain health, and heart health. It has been shown to support fertility and mood, and even protect against certain cancers. Just one Brazil nut contains more than enough selenium to meet the daily recommended requirement of 55 micrograms.\n\nBrazil nuts also contain nutrients like vitamin E, vitamin B6, zinc, and omega 3 and 6 — all of which support healthy, glowing skin. They likewise contain minerals such as magnesium, which regulates melatonin to promote a peaceful night’s sleep and support bone health, as well as powerful antioxidants such as ellagic acid, which is beneficial for brain cells and protecting against neurodegenerative diseases.\n\n(Alessandra Signorelli. www.vogue.co.uk, 28.09.2024. Adaptado.)\n\n¹hazelnuts: avelãs.\n²cashews: castanhas-de-caju.\n³lean muscle mass: massa muscular magra."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "alert readers to the possible dangers of consuming too many Brazil nuts.",
+        "b": "suggest ways for readers to incorporate Brazil nuts into a healthy diet.",
+        "c": "highlight the numerous health benefits of consuming Brazil nuts.",
+        "d": "compare the nutritional value of Brazil nuts with other types of nuts.",
+        "e": "discuss the environmental impact of harvesting Brazil nuts."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Identificação do gênero textual, propósito comunicativo e público-alvo",
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 8
+    },
+    {
+      "numero": 22,
+      "tipo": "objetiva",
+      "enunciado": "O trecho sublinhado que introduz um motivo em relação à informação apresentada anteriormente é:",
+      "textos_de_apoio": [
+        "Leia o texto para responder às questões de 21 a 26.\n\nYou’re probably well aware that nuts have exceptional nutritional properties. Almonds, hazelnuts¹, cashews²: they’re all high on the list of nutritionists’ favourite anti-inflammatory foods. That said, it’s entirely possible that you may be missing out on one of the nut world’s most nutrient-packed superstars: Brazil nuts.\n\nRich in healthy fats, antioxidants, minerals, and vitamins, Brazil nuts are one of the most nutritious nuts around. Recently, they’ve started to gain popularity on TikTok thanks to wellness influencers who say that eating just a few Brazil nuts a day can improve everything from hair thickness to skin quality.\n\nBrazil nuts are very high in selenium, a trace mineral which some studies show regulates metabolism and may help maintain a healthy weight by helping to burn fat, increase lean muscle mass³, and improve blood sugar levels. Selenium also supports a ton of other functions, including but not limited to thyroid health, the immune system, brain health, and heart health. It has been shown to support fertility and mood, and even protect against certain cancers. Just one Brazil nut contains more than enough selenium to meet the daily recommended requirement of 55 micrograms.\n\nBrazil nuts also contain nutrients like vitamin E, vitamin B6, zinc, and omega 3 and 6 — all of which support healthy, glowing skin. They likewise contain minerals such as magnesium, which regulates melatonin to promote a peaceful night’s sleep and support bone health, as well as powerful antioxidants such as ellagic acid, which is beneficial for brain cells and protecting against neurodegenerative diseases.\n\n(Alessandra Signorelli. www.vogue.co.uk, 28.09.2024. Adaptado.)\n\n¹hazelnuts: avelãs.\n²cashews: castanhas-de-caju.\n³lean muscle mass: massa muscular magra."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "“It has been shown to support fertility and mood, and even protect against certain cancers” (3º parágrafo).",
+        "b": "“they’ve started to gain popularity on TikTok thanks to wellness influencers” (2º parágrafo).",
+        "c": "“You’re probably well aware that nuts have exceptional nutritional properties” (1º parágrafo).",
+        "d": "“it’s entirely possible that you may be missing out on one of the nut world’s most nutrient-packed superstars” (1º parágrafo).",
+        "e": "“Almonds, hazelnuts, cashews: they’re all high on the list of nutritionists’ favourite anti-inflammatory foods” (1º parágrafo)."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Marcadores discursivos e conectivos (conjunções de adição, contraste, causa, consequência e condição)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 8
+    },
+    {
+      "numero": 23,
+      "tipo": "objetiva",
+      "enunciado": "No trecho do primeiro parágrafo “you may be missing out on one of the nut world’s most nutrient-packed superstars”, o termo “you” refere-se",
+      "textos_de_apoio": [
+        "Leia o texto para responder às questões de 21 a 26.\n\nYou’re probably well aware that nuts have exceptional nutritional properties. Almonds, hazelnuts¹, cashews²: they’re all high on the list of nutritionists’ favourite anti-inflammatory foods. That said, it’s entirely possible that you may be missing out on one of the nut world’s most nutrient-packed superstars: Brazil nuts.\n\nRich in healthy fats, antioxidants, minerals, and vitamins, Brazil nuts are one of the most nutritious nuts around. Recently, they’ve started to gain popularity on TikTok thanks to wellness influencers who say that eating just a few Brazil nuts a day can improve everything from hair thickness to skin quality.\n\nBrazil nuts are very high in selenium, a trace mineral which some studies show regulates metabolism and may help maintain a healthy weight by helping to burn fat, increase lean muscle mass³, and improve blood sugar levels. Selenium also supports a ton of other functions, including but not limited to thyroid health, the immune system, brain health, and heart health. It has been shown to support fertility and mood, and even protect against certain cancers. Just one Brazil nut contains more than enough selenium to meet the daily recommended requirement of 55 micrograms.\n\nBrazil nuts also contain nutrients like vitamin E, vitamin B6, zinc, and omega 3 and 6 — all of which support healthy, glowing skin. They likewise contain minerals such as magnesium, which regulates melatonin to promote a peaceful night’s sleep and support bone health, as well as powerful antioxidants such as ellagic acid, which is beneficial for brain cells and protecting against neurodegenerative diseases.\n\n(Alessandra Signorelli. www.vogue.co.uk, 28.09.2024. Adaptado.)\n\n¹hazelnuts: avelãs.\n²cashews: castanhas-de-caju.\n³lean muscle mass: massa muscular magra."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "aos nutricionistas.",
+        "b": "aos influenciadores digitais.",
+        "c": "aos pesquisadores científicos.",
+        "d": "aos médicos dermatologistas.",
+        "e": "aos leitores do texto."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Coesão textual em inglês: referência pronominal e elipses"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 8
+    },
+    {
+      "numero": 24,
+      "tipo": "objetiva",
+      "enunciado": "No trecho do terceiro parágrafo “Brazil nuts are very high in selenium, a trace mineral which some studies show regulates metabolism and may help maintain a healthy weight”, o termo sublinhado pode ser substituído, sem alteração de sentido, por:",
+      "textos_de_apoio": [
+        "Leia o texto para responder às questões de 21 a 26.\n\nYou’re probably well aware that nuts have exceptional nutritional properties. Almonds, hazelnuts¹, cashews²: they’re all high on the list of nutritionists’ favourite anti-inflammatory foods. That said, it’s entirely possible that you may be missing out on one of the nut world’s most nutrient-packed superstars: Brazil nuts.\n\nRich in healthy fats, antioxidants, minerals, and vitamins, Brazil nuts are one of the most nutritious nuts around. Recently, they’ve started to gain popularity on TikTok thanks to wellness influencers who say that eating just a few Brazil nuts a day can improve everything from hair thickness to skin quality.\n\nBrazil nuts are very high in selenium, a trace mineral which some studies show regulates metabolism and may help maintain a healthy weight by helping to burn fat, increase lean muscle mass³, and improve blood sugar levels. Selenium also supports a ton of other functions, including but not limited to thyroid health, the immune system, brain health, and heart health. It has been shown to support fertility and mood, and even protect against certain cancers. Just one Brazil nut contains more than enough selenium to meet the daily recommended requirement of 55 micrograms.\n\nBrazil nuts also contain nutrients like vitamin E, vitamin B6, zinc, and omega 3 and 6 — all of which support healthy, glowing skin. They likewise contain minerals such as magnesium, which regulates melatonin to promote a peaceful night’s sleep and support bone health, as well as powerful antioxidants such as ellagic acid, which is beneficial for brain cells and protecting against neurodegenerative diseases.\n\n(Alessandra Signorelli. www.vogue.co.uk, 28.09.2024. Adaptado.)\n\n¹hazelnuts: avelãs.\n²cashews: castanhas-de-caju.\n³lean muscle mass: massa muscular magra."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "has to.",
+        "b": "can.",
+        "c": "used to.",
+        "d": "will.",
+        "e": "must."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Verbos modais e seus valores semânticos (can, could, should, must, may, might)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 9
+    },
+    {
+      "numero": 25,
+      "tipo": "objetiva",
+      "enunciado": "De acordo com o terceiro e o quarto parágrafos, um nutriente presente na castanha do Brasil, essencial para a formação e manutenção dos ossos, é o",
+      "textos_de_apoio": [
+        "Leia o texto para responder às questões de 21 a 26.\n\nYou’re probably well aware that nuts have exceptional nutritional properties. Almonds, hazelnuts¹, cashews²: they’re all high on the list of nutritionists’ favourite anti-inflammatory foods. That said, it’s entirely possible that you may be missing out on one of the nut world’s most nutrient-packed superstars: Brazil nuts.\n\nRich in healthy fats, antioxidants, minerals, and vitamins, Brazil nuts are one of the most nutritious nuts around. Recently, they’ve started to gain popularity on TikTok thanks to wellness influencers who say that eating just a few Brazil nuts a day can improve everything from hair thickness to skin quality.\n\nBrazil nuts are very high in selenium, a trace mineral which some studies show regulates metabolism and may help maintain a healthy weight by helping to burn fat, increase lean muscle mass³, and improve blood sugar levels. Selenium also supports a ton of other functions, including but not limited to thyroid health, the immune system, brain health, and heart health. It has been shown to support fertility and mood, and even protect against certain cancers. Just one Brazil nut contains more than enough selenium to meet the daily recommended requirement of 55 micrograms.\n\nBrazil nuts also contain nutrients like vitamin E, vitamin B6, zinc, and omega 3 and 6 — all of which support healthy, glowing skin. They likewise contain minerals such as magnesium, which regulates melatonin to promote a peaceful night’s sleep and support bone health, as well as powerful antioxidants such as ellagic acid, which is beneficial for brain cells and protecting against neurodegenerative diseases.\n\n(Alessandra Signorelli. www.vogue.co.uk, 28.09.2024. Adaptado.)\n\n¹hazelnuts: avelãs.\n²cashews: castanhas-de-caju.\n³lean muscle mass: massa muscular magra."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "zinco.",
+        "b": "ácido elágico.",
+        "c": "selênio.",
+        "d": "magnésio.",
+        "e": "ômega 3."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 9
+    },
+    {
+      "numero": 26,
+      "tipo": "objetiva",
+      "enunciado": "De acordo com o terceiro e o quarto parágrafos, o selênio, além de regular o metabolismo, também é responsável por",
+      "textos_de_apoio": [
+        "Leia o texto para responder às questões de 21 a 26.\n\nYou’re probably well aware that nuts have exceptional nutritional properties. Almonds, hazelnuts¹, cashews²: they’re all high on the list of nutritionists’ favourite anti-inflammatory foods. That said, it’s entirely possible that you may be missing out on one of the nut world’s most nutrient-packed superstars: Brazil nuts.\n\nRich in healthy fats, antioxidants, minerals, and vitamins, Brazil nuts are one of the most nutritious nuts around. Recently, they’ve started to gain popularity on TikTok thanks to wellness influencers who say that eating just a few Brazil nuts a day can improve everything from hair thickness to skin quality.\n\nBrazil nuts are very high in selenium, a trace mineral which some studies show regulates metabolism and may help maintain a healthy weight by helping to burn fat, increase lean muscle mass³, and improve blood sugar levels. Selenium also supports a ton of other functions, including but not limited to thyroid health, the immune system, brain health, and heart health. It has been shown to support fertility and mood, and even protect against certain cancers. Just one Brazil nut contains more than enough selenium to meet the daily recommended requirement of 55 micrograms.\n\nBrazil nuts also contain nutrients like vitamin E, vitamin B6, zinc, and omega 3 and 6 — all of which support healthy, glowing skin. They likewise contain minerals such as magnesium, which regulates melatonin to promote a peaceful night’s sleep and support bone health, as well as powerful antioxidants such as ellagic acid, which is beneficial for brain cells and protecting against neurodegenerative diseases.\n\n(Alessandra Signorelli. www.vogue.co.uk, 28.09.2024. Adaptado.)\n\n¹hazelnuts: avelãs.\n²cashews: castanhas-de-caju.\n³lean muscle mass: massa muscular magra."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "aumentar a produção de vitaminas no organismo.",
+        "b": "melhorar a irrigação sanguínea nos músculos.",
+        "c": "fortalecer o sistema imunológico do corpo.",
+        "d": "proporcionar ao indivíduo uma boa noite de sono.",
+        "e": "proteger o organismo contra doenças neurodegenerativas."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 9
+    },
+    {
+      "numero": 27,
+      "tipo": "objetiva",
+      "enunciado": "[...] as áreas progressivamente anexadas por Roma eram integradas em seu sistema político e seus habitantes admitidos, em maior ou menor grau, na cidadania romana. Isso ocorria no quadro de uma complexa escala de relações, indo da preservação da autonomia municipal, com a integração ao direito público e privado romano (direito de votar e ser eleito, de comércio e matrimônio), até formas intermediárias [...].\n(Norberto Luiz Guarinello. Imperialismo greco-romano, 1994.)\n\nDe acordo com o excerto, no processo de expansão romana era comum ocorrer a",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "hierarquização entre as regiões conquistadas.",
+        "b": "incorporação das regiões dominadas.",
+        "c": "democratização das áreas anexadas.",
+        "d": "escravização das populações conquistadas.",
+        "e": "imposição da estrutura republicana às áreas dominadas."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Antiguidade Clássica: democracia ateniense, República/Império Romano e escravismo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 9
+    },
+    {
+      "numero": 28,
+      "tipo": "objetiva",
+      "enunciado": "Analise a imagem produzida no século XIV.\n\nA imagem retrata a cerimônia de homenagem entre suseranos e vassalos que",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 9: Ilustração medieval retratando uma cerimônia de suserania e vassalagem (investidura/homenagem com aperto de mãos entre figuras nobres)."
+      ],
+      "alternativas": {
+        "a": "regulamentava a criação das ordens de cavalaria.",
+        "b": "tornava sagrada a igualdade entre os participantes.",
+        "c": "formalizava a relação entre os senhores feudais.",
+        "d": "justificava a dominação senhorial sobre os servos.",
+        "e": "consolidava a autoridade da Igreja na sociedade."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Período Medieval: feudalismo, diversidade religiosa (cristianismo, islamismo, judaísmo) e vida cultural no Medievo europeu e africano"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 9
+    },
+    {
+      "numero": 29,
+      "tipo": "objetiva",
+      "enunciado": "Não se pode numerar nem compreender a multidão de bárbaro gentio que semeou a natureza por toda esta terra do Brasil; porque ninguém pode pelo sertão dentro caminhar seguro, nem passar por terra onde não acha povoações de índios armados contra todas as nações humanas, e assim como são muitos permitiu Deus que fossem contrários uns dos outros, e que houvesse entre eles grandes ódios e discórdias, porque se assim não fosse os portugueses não poderiam viver na terra nem seria possível conquistar tamanho poder de gente.\n(Pero de Magalhães Gandavo. Tratado da Terra do Brasil, 2008.)\n\nO excerto, produzido em meados do século XVI, destaca",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "a tranquilidade portuguesa em lidar com a resistência indígena.",
+        "b": "os indígenas como um obstáculo à ampliação do território português.",
+        "c": "a importância da catequese para a dominação dos indígenas.",
+        "d": "as rivalidades entre os indígenas como fator favorável à colonização.",
+        "e": "a passividade das populações indígenas no processo de colonização."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Brasil Colônia: primeiros habitantes indígenas, ocupação territorial, ciclos econômicos (açúcar e ouro) e escravidão"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 9
+    },
+    {
+      "numero": 30,
+      "tipo": "objetiva",
+      "enunciado": "O fim do século XVIII era, pelos padrões medievais ou do século XVI, uma época de comunicações rápidas e abundantes, e mesmo antes da revolução das ferrovias, eram notáveis os aperfeiçoamentos nas estradas, nos veículos puxados a cavalo e no serviço postal. Entre a década de 1760 e o fim do século, a viagem de Londres a Glasgow foi reduzida de 10 ou 12 dias para 62 horas. O sistema de carruagens postais ou diligências, instituído na segunda metade do século XVIII, expandiu-se consideravelmente entre o fim das guerras napoleônicas e o surgimento da ferrovia, proporcionando não só uma relativa velocidade — o serviço postal de Paris a Strasburgo levava 36 horas em 1833 — como também regularidade.\n(Eric J. Hobsbawm. A era das revoluções, 1789-1848, 2010.)\n\nA dinâmica registrada pelo historiador está diretamente relacionada",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "à persistência das tradições técnicas da época moderna.",
+        "b": "à exclusividade do acesso tecnológico entre os ingleses.",
+        "c": "à democratização do acesso aos meios de comunicação.",
+        "d": "à facilidade na concessão de patentes dos meios de transporte.",
+        "e": "aos avanços tecnológicos decorrentes da industrialização."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Iluminismo, Liberalismo e a 1ª Revolução Industrial"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 10
+    },
+    {
+      "numero": 31,
+      "tipo": "objetiva",
+      "enunciado": "Leia os trechos da Constituição de 1824 do Brasil.\n\nArt. 13. O Poder Legislativo é delegado à Assembleia Geral [...].\nArt. 14. A Assembleia Geral compõe-se de duas Câmaras: Câmara de Deputados, e Câmara dos Senadores, ou Senado.\nArt. 15. É da atribuição da Assembleia Geral [...]\nVIII. Fazer Leis, interpretá-las, suspendê-las e revogá-las. [...]\nArt. 17. Cada Legislatura durará quatro anos, e cada Sessão anual quatro meses. [...]\nArt. 35. A Câmara dos Deputados é eletiva e temporária. [...]\nArt. 40. O Senado é composto de Membros vitalícios, e será organizado por eleição Provincial.\n(https://planalto.gov.br. Adaptado.)\n\nO excerto indica que, no século XIX, o Brasil tinha uma monarquia",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "constitucional, com divisão de poderes políticos.",
+        "b": "absolutista, sob o controle do imperador.",
+        "c": "parlamentarista, com exclusão do poder executivo.",
+        "d": "representativa, com governo exercido pelo Parlamento.",
+        "e": "dual, sob o comando de deputados e senadores."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Brasil Imperial: Independência, Primeiro Reinado, Período Regencial e Segundo Reinado"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 10
+    },
+    {
+      "numero": 32,
+      "tipo": "objetiva",
+      "enunciado": "Examine a tabela, que apresenta a taxa de crescimento de variáveis para a economia brasileira.\n\n[Tabela de taxas de crescimento de 1999 a 2010 para Salário mínimo, Preço das commodities e Rendimentos das exportações]\n\nOs dados da tabela demonstram",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 10: Tabela econômica contendo três períodos (1999-2002, 2003-2005, 2006-2010) e variáveis: Salário mínimo (1,8 / 6,8 / 5,9), Preço das commodities - FMI (10,3 / 19,1 / 10,5) e Rendimentos das exportações (8,5 / 11,7 / 2,5)."
+      ],
+      "alternativas": {
+        "a": "a independência do setor exportador do Brasil em relação às flutuações dos valores das commodities.",
+        "b": "a relação direta entre o preço das commodities e os rendimentos reais do setor exportador brasileiro.",
+        "c": "a desvalorização do salário mínimo para compensar as perdas financeiras dos exportadores brasileiros.",
+        "d": "o decréscimo das exportações brasileiras a partir do incremento do salário mínimo no país.",
+        "e": "o descompasso entre o aumento dos lucros da exportação brasileira e os valores das commodities."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Globalização, comércio internacional, blocos econômicos e a posição do Brasil no comércio global"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 10
+    },
+    {
+      "numero": 33,
+      "tipo": "objetiva",
+      "enunciado": "No dia 04 de fevereiro de 2025, a China anunciou que vai impor tarifas sobre algumas importações americanas, incluindo petróleo bruto, máquinas agrícolas e gás natural liquefeito. As medidas, anunciadas pelo Ministério das Finanças da China, cobram uma taxa sobre certos tipos de carvão e gás natural liquefeito, e uma tarifa sobre petróleo bruto, máquinas agrícolas, carros de grande cilindrada e caminhonetes.\n(Patrick Fuentes. www.cnnbrasil.com.br, 04.02.2025. Adaptado.)\n\nAs medidas anunciadas no excerto apontam que a China está",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "reduzindo barreiras comerciais para incentivar a importação de produtos dos Estados Unidos.",
+        "b": "fortalecendo a economia americana ao facilitar a entrada de produtos chineses no mercado dos Estado Unidos.",
+        "c": "diminuindo sua dependência do mercado interno com o aumento das importações de bens essenciais.",
+        "d": "eliminando tarifas sobre produtos estratégicos para estimular o comércio internacional.",
+        "e": "adotando medidas protecionistas para taxar produtos estrangeiros e favorecer a produção nacional."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Globalização, comércio internacional, blocos econômicos e a posição do Brasil no comércio global"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 10
+    },
+    {
+      "numero": 34,
+      "tipo": "objetiva",
+      "enunciado": "Conhecida como ‘Dubai Brasileira’ pela imponência das construções, Balneário Camboriú, umas das principais cidades do Litoral Norte de Santa Catarina, tem apartamentos ocupando 94,3% dos domicílios de uso ocasional na cidade — que são aqueles que não são utilizados para moradia fixa ou reservados para férias e fins de semana. O percentual é o maior do país. Além dos domicílios ocasionais, a vida em apartamentos também é predominante em Balneário Camboriú. Outro recorte do Censo 2022, publicado em fevereiro deste ano, detalha que 57,22% da população vive em apartamentos.\n(John Pacheco. https://g1.globo.com, 06.09.2024. Adaptado.)\n\nA situação descrita no excerto indica que Balneário Camboriú passa por um processo de",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "predominância de moradias unifamiliares.",
+        "b": "desconcentração urbana.",
+        "c": "acelerada verticalização urbana.",
+        "d": "estagnação no desenvolvimento imobiliário.",
+        "e": "crescimento de aglomerados subnormais."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Geografia Urbana: industrialização, urbanização, metropolização, conurbação, megalópoles e segregação socioespacial"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 11
+    },
+    {
+      "numero": 35,
+      "tipo": "objetiva",
+      "enunciado": "Analise o mapa intitulado “Tempo médio (em minutos) de deslocamento por transporte público”.\n\nConsiderando as características socioeconômicas do Município de São Paulo, afirma-se que os distritos com os maiores tempos de deslocamento são os que",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 11: Mapa temático do Município de São Paulo mostrando o tempo médio de deslocamento por transporte público (com legenda variando de 25 a 73 minutos e desigualtômetro 2,9x)."
+      ],
+      "alternativas": {
+        "a": "possuem a maior oferta de transporte público.",
+        "b": "concentram a maior quantidade de empregos formais.",
+        "c": "possuem os maiores índices de desenvolvimento humano.",
+        "d": "possibilitam o menor número de migrantes pendulares.",
+        "e": "apresentam maior vulnerabilidade socioeconômica."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Geografia Urbana: industrialização, urbanização, metropolização, conurbação, megalópoles e segregação socioespacial"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 11
+    },
+    {
+      "numero": 36,
+      "tipo": "objetiva",
+      "enunciado": "Os sistemas cársticos formam paisagens espetaculares, como as cavernas e os cânions, por exemplo. São produzidos pela ação geológica da água subterrânea sobre rochas solúveis, como as calcárias.\n\nA água, na imagem representativa desse sistema, age",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 11: Esquema geológico ilustrando um relevo cárstico com cavernas, estalactites, estalagmites, colunas, calcário e regolito."
+      ],
+      "alternativas": {
+        "a": "retendo a sedimentação.",
+        "b": "dissolvendo os minerais.",
+        "c": "estimulando a lixiviação.",
+        "d": "retraindo o processo erosivo.",
+        "e": "intensificado a laterização."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Classificação das rochas, formação de solos e relevo (agentes internos e externos/intemperismo)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 11
+    },
+    {
+      "numero": 37,
+      "tipo": "objetiva",
+      "enunciado": "Na maior parte do Brasil, o primeiro semestre não costuma ser marcado por grandes incêndios florestais ou focos de fogo na vegetação. No entanto, os primeiros seis meses e meio de 2024 contam uma história diferente. Entre 1º de janeiro e 16 de julho deste ano, houve cerca de 42300 focos de fogo em todo o território nacional, 50% a mais do que nesse mesmo período em 2023.\n(Marcos Pivetta. https://revistapesquisa.fapesp.br, agosto de 2024. Adaptado.)\n\nEntre os motivos que justificam o aumento de casos de incêndio indicados no excerto, está",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "a redução da intensidade da estação seca nos biomas brasileiros.",
+        "b": "a diminuição das temperaturas médias no Brasil.",
+        "c": "o aumento dos períodos de baixa umidade.",
+        "d": "a ampliação do volume de águas dos rios no território nacional.",
+        "e": "a intensificação da umidade do solo em todo país."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Impactos ambientais: mudanças climáticas, efeito estufa, desmatamento, degradação de solos e conferências internacionais do clima"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 12
+    },
+    {
+      "numero": 38,
+      "tipo": "objetiva",
+      "enunciado": "Analise o mapa a intitulado “Indústrias existentes até 1920 (por município)”.\n\nOs círculos apresentados no mapa indicam uma relação",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 12: Mapa do Brasil mostrando a distribuição de indústrias até 1920 por município, com círculos proporcionais de tamanhos variados indicando o total de indústrias (de 50 a 1537)."
+      ],
+      "alternativas": {
+        "a": "qualitativa, pois distinguem diferentes fenômenos entre os municípios.",
+        "b": "quantitativa, pois representam a proporção de indústrias nos municípios.",
+        "c": "de ordem, pois representam a hierarquia de importância entre os municípios.",
+        "d": "de movimento, pois expressam o deslocamento de mercadorias entre indústrias nos municípios.",
+        "e": "de densidade, pois expressam a proporção entre área e quantidade nos municípios."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Leitura e interpretação de mapas temáticos, cartas e anamorfoses"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 12
+    },
+    {
+      "numero": 39,
+      "tipo": "objetiva",
+      "enunciado": "O trióxido de enxofre (SO₃) é um poluente atmosférico secundário, produzido pela oxidação do dióxido de enxofre (SO₂), que, por sua vez, é emitido pelo escapamento de automóveis e caminhões. Esses óxidos de enxofre, ao entrarem em contato com o vapor d’água (H₂O) presente na atmosfera, produzem substâncias causadoras da chuva ácida, conforme as equações a seguir:\n\nSO₂ (g) + H₂O (v) → H₂SO₃ (aq)\nSO₃ (g) + H₂O (v) → H₂SO₄ (aq)\n\nAnalisando as equações, verifica-se que possuem a mesma geometria as moléculas",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "SO₂ e SO₃",
+        "b": "SO₂ e H₂SO₃",
+        "c": "SO₃ e H₂O",
+        "d": "SO₂ e H₂O",
+        "e": "H₂SO₃ e H₂SO₄"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Ligação covalente, estruturas de Lewis, regra do octeto e geometria molecular",
+            "Polaridade de ligações e de moléculas (uso da eletronegatividade)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 12
+    },
+    {
+      "numero": 40,
+      "tipo": "objetiva",
+      "enunciado": "O quadro apresenta três átomos genéricos, F, G e H, e seus respectivos números atômicos (Z) e números de massa (A).\n\nConsiderando que F e G são isótopos, G e H são isóbaros e F e H são isótonos, os valores de x, y e w são, respectivamente,",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 12: Tabela com colunas: Átomo Genérico (F, G, H), Número Atômico (40, x, w), Número de Massa (76, y, 80)."
+      ],
+      "alternativas": {
+        "a": "80, 76 e 40.",
+        "b": "44, 80 e 36.",
+        "c": "40, 76 e 80.",
+        "d": "36, 80 e 44.",
+        "e": "40, 80 e 44."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Número atômico, número de massa, isótopos, isóbaros e isótonos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 12
+    },
+    {
+      "numero": 41,
+      "tipo": "objetiva",
+      "enunciado": "A energia, geralmente proveniente de fenômenos físicos e químicos, é uma grandeza fundamental para a vida dos seres vivos. Para que esses fenômenos ocorram, é necessário liberação ou absorção de energia na forma de calor.\n\nConsidere os 6 processos a seguir:\n(1) Cozimento de alimentos.\n(2) Queima de gás de cozinha.\n(3) Solidificação da cera de uma vela.\n(4) Derretimento de um cubo de gelo.\n(5) Fotossíntese das plantas.\n(6) Explosão de dinamite.\n\nOs processos considerados fenômenos exotérmicos são os de números",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "1, 4 e 5.",
+        "b": "2, 3 e 6.",
+        "c": "1, 2 e 4.",
+        "d": "2, 3 e 5.",
+        "e": "3, 5 e 6."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Termoquímica: reações exotérmicas e endotérmicas, entalpia e equações termoquímicas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 13
+    },
+    {
+      "numero": 42,
+      "tipo": "objetiva",
+      "enunciado": "A purina é um composto orgânico nitrogenado que está presente nos ácidos nucleicos adenina e guanina. A fórmula estrutural da purina está apresentada na figura.\n\nA fórmula molecular da purina é:",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 13: Fórmula estrutural plana da molécula de purina (anel bicíclico contendo átomos de carbono e nitrogênio)."
+      ],
+      "alternativas": {
+        "a": "C₄HN₄",
+        "b": "C₅HN₄",
+        "c": "C₅H₄N₄",
+        "d": "C₆H₄N₄",
+        "e": "C₆H₅N₄"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Fórmulas químicas: mínima, centesimal e molecular",
+            "Características do carbono, cadeias carbônicas, ligações e hibridização"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 13
+    },
+    {
+      "numero": 43,
+      "tipo": "objetiva",
+      "enunciado": "A fermentação alcoólica da glicose (C₆H₁₂O₆; M = 180 g/mol) é um processo biológico por meio do qual certos microrganismos obtêm sua energia celular. Nesse processo, a glicose é convertida em etanol (C₂H₅OH; M = 46 g/mol) e dióxido de carbono (CO₂; M = 44 g/mol), de acordo com a equação:\n\nC₆H₁₂O₆ → 2C₂H₅OH + 2CO₂\n\nConsiderando que 500 g de farinha de trigo contêm, em média, 45 g de glicose, a massa máxima de etanol, em gramas, produzida na fermentação alcoólica de 500 g de farinha de trigo, é igual a",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "255,5 g.",
+        "b": "127,8 g.",
+        "c": "92,0 g.",
+        "d": "23,0 g.",
+        "e": "11,5 g."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Cálculos estequiométricos: relações de massa, volume, mols e pureza/rendimento"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 13
+    },
+    {
+      "numero": 44,
+      "tipo": "objetiva",
+      "enunciado": "O elemento químico X, considerado o 5º elemento mais abundante na crosta terrestre, é encontrado em vários minerais, como na gipsita, e também nas células musculares do corpo humano. É um elemento químico muito reativo e está localizado no 4º período da Classificação Periódica, tendo 2 elétrons em sua camada de valência.\n\nO nome do elemento X e o número de prótons no núcleo de um átomo desse elemento são, respectivamente,",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "potássio e 39.",
+        "b": "potássio e 19.",
+        "c": "magnésio e 12.",
+        "d": "cálcio e 40.",
+        "e": "cálcio e 20."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Tabela Periódica: organização, famílias, períodos e propriedades periódicas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 13
+    },
+    {
+      "numero": 45,
+      "tipo": "objetiva",
+      "enunciado": "Analise a figura que ilustra uma cadeia alimentar.\n\nEm uma cadeia alimentar, cada integrante desempenha um papel que está relacionado com os demais níveis tróficos.\nCom relação aos papéis ecológicos desempenhados pelos integrantes dessa cadeia, afirma-se que",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 14: Ilustração de uma cadeia alimentar composta por uma planta (produtor), um roedor (consumidor primário), uma serpente (consumidor secundário) e uma ave de rapina (consumidor terciário)."
+      ],
+      "alternativas": {
+        "a": "a planta é um organismo heterótrofo produtor de matéria orgânica.",
+        "b": "o roedor é consumidor primário e secundário.",
+        "c": "a serpente é predadora do roedor e da ave.",
+        "d": "a ave é consumidora terciária, quarto nível trófico.",
+        "e": "os consumidores atuam como recicladores da matéria orgânica e de energia."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Cadeias e teias alimentares, níveis tróficos, pirâmides ecológicas e fluxo de energia"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 14
+    },
+    {
+      "numero": 46,
+      "tipo": "objetiva",
+      "enunciado": "A imagem a seguir foi obtida a partir da microscopia eletrônica de varredura de um embrião na etapa de nêurula.\n\nAs estruturas nomeadas na imagem estão presentes",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 14: Eletromicrografia de varredura colorida de um embrião em estágio de nêurula, destacando tubo neural, crista neural, ectoderme, notocorda e endoderme."
+      ],
+      "alternativas": {
+        "a": "em todos os animais.",
+        "b": "apenas em vermes.",
+        "c": "em todos os animais invertebrados.",
+        "d": "apenas em insetos.",
+        "e": "em todos os animais vertebrados."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Craniados e vertebrados: adaptações morfológicas",
+            "Embriologia humana e reprodução (gametogênese, fecundação, anexos embrionários, métodos contraceptivos e ISTs)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 14
+    },
+    {
+      "numero": 47,
+      "tipo": "objetiva",
+      "enunciado": "A transpiração das árvores na Amazônia libera grandes quantidades de vapor d’água na atmosfera. Esse processo contribui para a elevação da umidade de grandes volumes de massa de ar que são transportados pelos ventos, dando origem aos chamados “rios voadores”. Essas correntes atmosféricas carregam umidade para outras regiões do Brasil e da América do Sul, influenciando o regime de chuvas.\n\nPara que a transpiração das árvores ocorra de forma bastante efetiva, é essencial",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "a abertura dos estômatos foliares.",
+        "b": "o bombeamento ativo da seiva bruta.",
+        "c": "o transporte em massa da seiva elaborada.",
+        "d": "o fluxo de sais minerais pela epiderme foliar.",
+        "e": "a produção de uma espessa camada de cutícula foliar."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Anatomia e fisiologia vegetal: tecidos, condução de seivas, transpiração e fitormônios/tropismos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 14
+    },
+    {
+      "numero": 48,
+      "tipo": "objetiva",
+      "enunciado": "A fotografia a seguir, aumentada em 40 vezes, mostra um ovo de Ascaris lumbricoides.\n\nA ascaridíase é a infecção por nematódeos mais comum em pessoas, aparecendo em cerca de 500 milhões de pessoas em todo o mundo, contribuindo para a desnutrição em áreas com más condições sanitárias. Cerca de 2000 a 10000 pessoas morrem todos os anos de ascaridíase.\n(www.msdmanuals.com)\n\nUma medida preventiva para a ascaridíase é",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 14: Fotografia microscópica com aumento de 40x de um ovo de Ascaris lumbricoides com escala métrica ao lado."
+      ],
+      "alternativas": {
+        "a": "usar calçados quando em solos úmidos.",
+        "b": "higienizar as frutas e verduras.",
+        "c": "cozinhar as carnes por longo tempo.",
+        "d": "receber a vacina específica.",
+        "e": "combater o mosquito transmissor."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Saúde e Parasitologia: bacterioses, protozooses (malária, Chagas, leishmaniose) e verminoses (teníase, esquistossomose, ascaridíase)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 14
+    },
+    {
+      "numero": 49,
+      "tipo": "objetiva",
+      "enunciado": "Dois porquinhos-da-índia de pelagem marrom foram cruzados entre si e geraram três filhotes, dos quais dois tinham pelagem marrom e um deles tinha pelagem totalmente branca. O heredograma a seguir indica o cruzamento e os filhotes gerados.\n\nConsiderando que a pelagem dos porquinhos-da-índia seja condicionada por um par de alelos autossômicos (BB, Bb ou bb), afirma-se que",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 15: Heredograma mostrando dois genitores (I-1 e I-2) de pelagem marrom gerando três filhotes (II-1, II-2 e II-3), sendo dois marrons e um branco (II-3)."
+      ],
+      "alternativas": {
+        "a": "o indivíduo I-2 é BB.",
+        "b": "o indivíduo II-1 é bb.",
+        "c": "o indivíduo II-2 é bb.",
+        "d": "os indivíduos II-1 e II-3 são bb.",
+        "e": "os indivíduos I-1 e II-2 são Bb."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "1ª e 2ª Leis de Mendel e correlação com a meiose",
+            "Heredogramas e probabilidades genéticas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 15
+    },
+    {
+      "numero": 50,
+      "tipo": "objetiva",
+      "enunciado": "O estudo da evolução por meio da comparação de características anatômicas e genéticas permite a construção de relações evolutivas entre as espécies, conforme mostra a ilustração a seguir.\n\nA formação de novas espécies a partir de um ancestral comum a todas elas é denominada",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 15: Ilustração de uma árvore genealógica de treze espécies de tentilhões das Ilhas Galápagos."
+      ],
+      "alternativas": {
+        "a": "convergência evolutiva.",
+        "b": "irradiação adaptativa.",
+        "c": "origem polifilética.",
+        "d": "seleção artificial.",
+        "e": "hibridação reprodutiva."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Evidências da evolução e especiação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 15
+    },
+    {
+      "numero": 51,
+      "tipo": "objetiva",
+      "enunciado": "Um ônibus saiu da cidade de São Paulo às 14h de determinado dia e chegou a Porto Alegre às 10h do dia seguinte, percorrendo a distância de 1140 km. A velocidade escalar média desse ônibus, nesse percurso, foi de",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "47,5 km/h.",
+        "b": "51,8 km/h.",
+        "c": "57,0 km/h.",
+        "d": "63,3 km/h.",
+        "e": "71,3 km/h."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Cinemática escalar: velocidade e aceleração escalar média e instantânea"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 15
+    },
+    {
+      "numero": 52,
+      "tipo": "objetiva",
+      "enunciado": "Uma pessoa puxa um carrinho por meio de uma haste, a qual aplica no carrinho uma força F, como mostra a figura.\n\nSabe-se que o carrinho se move sobre uma superfície horizontal com velocidade constante e, portanto, com aceleração igual a zero. Nessa situação, a resultante das forças aplicadas sobre o carrinho",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 15: Desenho esquemático de uma pessoa puxando um carrinho por meio de uma haste inclinada aplicando uma força F."
+      ],
+      "alternativas": {
+        "a": "é nula.",
+        "b": "tem direção horizontal.",
+        "c": "tem direção vertical.",
+        "d": "tem direção da força F.",
+        "e": "tem direção perpendicular à da força F."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "As 3 Leis de Newton e conceito de força resultante"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 15
+    },
+    {
+      "numero": 53,
+      "tipo": "objetiva",
+      "enunciado": "A energia solar é uma energia renovável e seu aproveitamento tem se intensificado nos últimos anos. A energia proveniente do Sol e que é coletada na superfície da Terra propaga-se até a Terra por meio",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "do vento solar.",
+        "b": "de partículas subatômicas.",
+        "c": "de ondas mecânicas.",
+        "d": "de ondas eletromagnéticas.",
+        "e": "de ondas gravitacionais."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Processos de propagação de calor (condução, convecção e irradiação)",
+            "Ondulatória: características das ondas e Equação Fundamental da Ondulatória (v = λ * f)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 16
+    },
+    {
+      "numero": 54,
+      "tipo": "objetiva",
+      "enunciado": "A figura mostra uma câmara escura de orifício, que consiste em uma caixa com um orifício em uma de suas faces. Ao penetrar por esse orifício, a luz proveniente de um objeto externo atravessa o interior da caixa e incide na superfície interna oposta ao orifício, formando uma imagem daquele objeto.\n\nO funcionamento de uma câmara escura de orifício baseia-se",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 16: Esquema de raios luminosos atravessando uma câmara escura de orifício e formando imagem invertida."
+      ],
+      "alternativas": {
+        "a": "no princípio da propagação retilínea dos raios de luz e nas leis da refração.",
+        "b": "nos princípios da propagação retilínea e da reversibilidade dos raios de luz.",
+        "c": "nos princípios da reversibilidade e da independência dos raios de luz.",
+        "d": "no princípio da reversibilidade dos raios de luz e nas leis da refração.",
+        "e": "nos princípios da independência e da propagação retilínea dos raios de luz."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Princípios da óptica geométrica e formação de sombras/penumbras"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 16
+    },
+    {
+      "numero": 55,
+      "tipo": "objetiva",
+      "enunciado": "A figura mostra um trecho de um eletrocardiograma, exame que registra os batimentos cardíacos do paciente. Na imagem, cada pulso corresponde a um batimento cardíaco.\n\nSabendo que a duração de cada pulso mostrado na imagem é de 0,80 s, o número de batimentos cardíacos por minuto do paciente que realizou esse eletrocardiograma era de",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 16: Gráfico de eletrocardiograma mostrando pulsos com intervalo de 0,80 s."
+      ],
+      "alternativas": {
+        "a": "70.",
+        "b": "75.",
+        "c": "80.",
+        "d": "85.",
+        "e": "90."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Movimento Harmônico Simples (MHS) e pêndulo simples",
+            "Ondulatória: características das ondas e Equação Fundamental da Ondulatória (v = λ * f)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 16
+    },
+    {
+      "numero": 56,
+      "tipo": "objetiva",
+      "enunciado": "Cada unidade geradora da Usina Hidrelétrica de Itaipu opera com potência de 720000 kW. Considerando que cada hora tem 3600 s, a energia elétrica produzida por uma dessas unidades em 1,0 s é suficiente para um chuveiro de 5,0 kW funcionar por um período de",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "40 horas.",
+        "b": "680 horas.",
+        "c": "2400 horas.",
+        "d": "16800 horas.",
+        "e": "32000 horas."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Eletrodinâmica: corrente elétrica, ddp, Leis de Ohm, resistividade e potência elétrica (kWh)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 16
+    },
+    {
+      "numero": 57,
+      "tipo": "redacao",
+      "enunciado": "Com base nos textos apresentados e em seus próprios conhecimentos, escreva um texto dissertativo-argumentativo, empregando a norma-padrão da língua portuguesa, sobre o tema:\n\nREGULAÇÃO DAS REDES SOCIAIS NO BRASIL: NECESSIDADE OU AMEAÇA À LIBERDADE DE EXPRESSÃO?",
+      "textos_de_apoio": [
+        "Texto 1\nAs grandes empresas de tecnologia que dominam o mercado digital, chamadas de big techs, prestaram grandes serviços ao democratizar a informatização e a participação política dos cidadãos. Porém, paralelamente, trouxeram novos problemas que exigem respostas satisfatórias. A intolerância, o discurso de ódio, a xenofobia e o preconceito se espalharam pelo mundo, potencializados pelos algoritmos.\nÉ difícil um país, isoladamente, fazer respeitar suas leis e decisões em uma realidade na qual as empresas tecnológicas operam sem barreiras físicas ou fronteiras. As big techs têm operado no sentido de inviabilizar qualquer monitoramento externo de dados de suas redes, reduzindo seus mecanismos de autorregulação. Essa tendência se justifica sob o argumento de que, por ser absoluta, a liberdade de expressão não pode ter elementos de controle. Daí decorrem dois problemas: as redes sociais se transformam em terra sem lei e operam como uma espécie de poder global, acima dos governos e instituições nacionais.\n(Hubert Alquéres. “Redes Sociais e Liberdade de Expressão”. www.metropoles.com, 01.05.2024. Adaptado.)",
+        "Texto 2\n[Charge de Galvão Bertazzi mostrando uma erva daninha espinhosa num vaso sendo regada e podada, com os dizeres: \"VEJAM SÓ! UM DISCURSINHO DE ÓDIO... CRESCEU AQUI.. TÃO FORA DO CONTEXTO / ERVA DANINHA CHEIA DE ESPINHOS E INCOMPREENDIDA / COLOCA NUM VASO BONITINHO, PATROCINA COM ADUBINHO E MUITA ÁGUA... / NÃO É PORQUE SUFOCA E MATA QUE PRECISA PODAR... / LOGO ALGUÉM TE COMPRA\"]\n(Galvão Bertazzi. www.blogs.unicamp.br, 05.11.2021.)",
+        "Texto 3\nElon Musk, CEO da plataforma X, elogiou a decisão de Mark Zuckerberg de pôr fim ao “fact checking” (verificação de fatos) nos aplicativos da Meta. Em um vídeo de cinco minutos publicado no perfil do Instagram, o executivo afirmou que é essencial defender a liberdade de expressão e que a empresa retornará ao seu formato “original”. “Governos e a mídia tradicional têm pressionado para censurar cada vez mais. Nós construímos muitos sistemas complexos para moderar conteúdo. Mesmo que acidentalmente censurem apenas 1% das postagens, isso significa censurar milhões de pessoas, e chegamos a um ponto em que há muitos erros e muita censura. Ao reduzir os serviços de checagem, vamos reduzir drasticamente a quantidade de censura em nossas plataformas. Isso significa que reduziremos postagens e contas de pessoas inocentes que removemos acidentalmente”, disse o empresário.\nLogo que o vídeo foi ao ar, Musk o republicou em sua rede social e comentou: “Isto é legal”. Agora, o Facebook e o Instagram também não terão sistemas próprios para checar conteúdos — delegando essa função para os próprios usuários, mesma maneira de checagem aderida pelo X em 2023.\n(Mafê Firpo. “O que diz Elon Musk sobre Zuckerberg acabar com serviço de checagem”. https://veja.abril.com.br, 07.01.2025. Adaptado.)",
+        "Texto 4\nTentar regular as redes sociais para combater a desinformação advinda de fake news sempre envolve riscos. Essa regulação tenta conter o poderio econômico das grandes empresas de tecnologia e responsabilizar plataformas como Facebook, Google, Telegram e Twitter pela disseminação de conteúdo criminoso. Há importantes problemas apontados pela literatura a respeito desses riscos. Como definir, em termos práticos, a diferença entre opinião e notícia equivocada? Quando se justifica a tomada de medidas contra quem dissemina fake news de modo consciente e deliberado? Quem está formalmente apto a tomar essas medidas? Além disso, há uma tensão entre a liberdade de expressão assegurada pela Constituição e a dificuldade de definir objetivamente a distinção entre o que é apenas uma informação equivocada e o que é uma informação falsa e de má fé.\n(José Eduardo Campos Faria. “Fake news e liberdade de expressão”. https://jornal.usp.br, 13.06.2023. Adaptado.)"
+      ],
+      "midia": [
+        "Página 18: Charge de Galvão Bertazzi sobre o discurso de ódio tratado como erva daninha."
+      ],
+      "areas": [
+        {
+          "area": "Redação",
+          "assuntos": [
+            "Gênero dissertativo-argumentativo: impessoalidade (3ª pessoa) e defesa de ponto de vista claro",
+            "Eixo Temático 1: Tecnologia, privacidade e transformações nas relações humanas",
+            "Eixo Temático 4: Ética, liberdade de expressão e dilemas morais contemporâneos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 18
+    }
+  ]
+}

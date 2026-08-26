@@ -1,0 +1,382 @@
+{
+  "exame": "unesp_2010",
+  "figuras_coordenadas": {
+    "21": [
+      {
+        "pagina": 8,
+        "tipo": "imagem",
+        "elemento": "Texto de propaganda Introducing E-Jets com imagem de aeronave",
+        "bbox": [
+          110,
+          512,
+          523,
+          900
+        ]
+      }
+    ],
+    "22": [
+      {
+        "pagina": 8,
+        "tipo": "imagem",
+        "elemento": "Texto de propaganda Introducing E-Jets com imagem de aeronave",
+        "bbox": [
+          110,
+          512,
+          523,
+          900
+        ]
+      }
+    ],
+    "23": [
+      {
+        "pagina": 8,
+        "tipo": "imagem",
+        "elemento": "Texto de propaganda Introducing E-Jets com imagem de aeronave",
+        "bbox": [
+          110,
+          512,
+          523,
+          900
+        ]
+      }
+    ],
+    "24": [
+      {
+        "pagina": 8,
+        "tipo": "imagem",
+        "elemento": "Texto de propaganda Introducing E-Jets com imagem de aeronave",
+        "bbox": [
+          110,
+          512,
+          523,
+          900
+        ]
+      }
+    ],
+    "25": [
+      {
+        "pagina": 8,
+        "tipo": "imagem",
+        "elemento": "Texto de propaganda Introducing E-Jets com imagem de aeronave",
+        "bbox": [
+          110,
+          512,
+          523,
+          900
+        ]
+      }
+    ],
+    "32": [
+      {
+        "pagina": 10,
+        "tipo": "imagem",
+        "elemento": "Pintura bizantina 'Madona e Filho'",
+        "bbox": [
+          471,
+          577,
+          883,
+          883
+        ]
+      }
+    ],
+    "35": [
+      {
+        "pagina": 11,
+        "tipo": "mapa",
+        "elemento": "Mapa do território inca nos Andes",
+        "bbox": [
+          76,
+          554,
+          415,
+          884
+        ]
+      }
+    ],
+    "36": [
+      {
+        "pagina": 12,
+        "tipo": "imagem",
+        "elemento": "Pintura Guernica de Pablo Picasso",
+        "bbox": [
+          79,
+          538,
+          248,
+          898
+        ]
+      }
+    ],
+    "37": [
+      {
+        "pagina": 12,
+        "tipo": "mapa",
+        "elemento": "Mapa da África Colonial",
+        "bbox": [
+          180,
+          512,
+          500,
+          900
+        ]
+      }
+    ],
+    "46": [
+      {
+        "pagina": 15,
+        "tipo": "mapa",
+        "elemento": "Mapas das projeções de Mercator e Peters",
+        "bbox": [
+          68,
+          510,
+          380,
+          898
+        ]
+      }
+    ],
+    "47": [
+      {
+        "pagina": 16,
+        "tipo": "mapa",
+        "elemento": "Mapa das Unidades Hidrográficas de Gerenciamento de Recursos Hídricos do Estado de São Paulo",
+        "bbox": [
+          181,
+          126,
+          388,
+          368
+        ]
+      }
+    ],
+    "49": [
+      {
+        "pagina": 16,
+        "tipo": "mapa",
+        "elemento": "Mapa mundial de usuários da internet",
+        "bbox": [
+          181,
+          510,
+          382,
+          898
+        ]
+      }
+    ],
+    "52": [
+      {
+        "pagina": 18,
+        "tipo": "grafico",
+        "elemento": "Gráficos de setores da Produção Energética Mundial (1973 e 2005)",
+        "bbox": [
+          171,
+          128,
+          335,
+          418
+        ]
+      }
+    ],
+    "55": [
+      {
+        "pagina": 19,
+        "tipo": "grafico",
+        "elemento": "Gráficos de setores de área, PIB e população do Brasil por região",
+        "bbox": [
+          577,
+          75,
+          786,
+          431
+        ]
+      }
+    ],
+    "56": [
+      {
+        "pagina": 19,
+        "tipo": "mapa",
+        "elemento": "Mapas mundiais em área e anamorfose populacional",
+        "bbox": [
+          145,
+          534,
+          439,
+          933
+        ]
+      }
+    ],
+    "67": [
+      {
+        "pagina": 23,
+        "tipo": "cartum",
+        "elemento": "Tirinhas de Fernando Gonsales com larva, borboleta e minhoca",
+        "bbox": [
+          68,
+          534,
+          165,
+          898
+        ]
+      }
+    ],
+    "69": [
+      {
+        "pagina": 24,
+        "tipo": "figura",
+        "elemento": "Esquema mecânico de carro em pista inclinada",
+        "bbox": [
+          490,
+          165,
+          615,
+          418
+        ]
+      }
+    ],
+    "70": [
+      {
+        "pagina": 24,
+        "tipo": "figura",
+        "elemento": "Esquema experimental de termoscópio",
+        "bbox": [
+          111,
+          512,
+          248,
+          898
+        ]
+      }
+    ],
+    "71": [
+      {
+        "pagina": 24,
+        "tipo": "figura",
+        "elemento": "Esquema da experiência óptica em sala escura",
+        "bbox": [
+          589,
+          512,
+          816,
+          898
+        ]
+      }
+    ],
+    "75": [
+      {
+        "pagina": 25,
+        "tipo": "figura",
+        "elemento": "Esquema de equilíbrio estático com esfera e fios",
+        "bbox": [
+          534,
+          512,
+          687,
+          898
+        ]
+      }
+    ],
+    "76": [
+      {
+        "pagina": 26,
+        "tipo": "figura",
+        "elemento": "Esquema da pilha eletroquímica com lâmpada e chave",
+        "bbox": [
+          298,
+          126,
+          462,
+          418
+        ]
+      }
+    ],
+    "78": [
+      {
+        "pagina": 26,
+        "tipo": "grafico",
+        "elemento": "Curvas de aquecimento de chumbo, estanho e mistura eutética",
+        "bbox": [
+          528,
+          512,
+          681,
+          898
+        ]
+      }
+    ],
+    "81": [
+      {
+        "pagina": 27,
+        "tipo": "tabela",
+        "elemento": "Tabela de dados experimentais da dissolução de mármore",
+        "bbox": [
+          490,
+          512,
+          610,
+          898
+        ]
+      }
+    ],
+    "82": [
+      {
+        "pagina": 28,
+        "tipo": "figura",
+        "elemento": "Montagem experimental para obtenção de gás cloro",
+        "bbox": [
+          126,
+          181,
+          238,
+          386
+        ]
+      }
+    ],
+    "83": [
+      {
+        "pagina": 28,
+        "tipo": "tabela",
+        "elemento": "Tabela de entalpias de combustão e massas molares",
+        "bbox": [
+          622,
+          126,
+          723,
+          418
+        ]
+      }
+    ],
+    "86": [
+      {
+        "pagina": 29,
+        "tipo": "figura",
+        "elemento": "Planta quadriculada do bairro com os pontos A e B",
+        "bbox": [
+          140,
+          643,
+          247,
+          898
+        ]
+      }
+    ],
+    "87": [
+      {
+        "pagina": 29,
+        "tipo": "figura",
+        "elemento": "Esquema geométrico de iluminação pública por elipses",
+        "bbox": [
+          591,
+          512,
+          723,
+          898
+        ]
+      }
+    ],
+    "88": [
+      {
+        "pagina": 30,
+        "tipo": "grafico",
+        "elemento": "Gráficos de regiões viáveis para programação linear",
+        "bbox": [
+          79,
+          512,
+          581,
+          898
+        ]
+      }
+    ],
+    "90": [
+      {
+        "pagina": 31,
+        "tipo": "figura",
+        "elemento": "Triângulo ABC com seção transversal por reta paralela",
+        "bbox": [
+          534,
+          201,
+          667,
+          442
+        ]
+      }
+    ]
+  }
+}

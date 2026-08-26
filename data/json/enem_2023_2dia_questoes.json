@@ -1,0 +1,2499 @@
+{
+  "exame": "enem_2023_2dia_questoes",
+  "ano": 2023,
+  "semestre": 2,
+  "fonte_questoes": "data/enem_2023_2dia_questoes.pdf",
+  "fonte_gabarito": "data/enem_2023_2dia_gabarito.pdf",
+  "total_questoes": 90,
+  "questoes": [
+    {
+      "numero": 91,
+      "tipo": "objetiva",
+      "enunciado": "Na tirinha de Mauricio de Sousa, os personagens Cebolinha e Cascão fazem uma brincadeira utilizando duas latas e um barbante. Ao perceberem que o som pode ser transmitido através do barbante, resolvem alterar o comprimento do barbante para ficar cada vez mais extenso. As demais condições permaneceram inalteradas durante a brincadeira.\n\n[IMAGEM]\n\nNa prática, à medida que se aumenta o comprimento do barbante, ocorre a redução de qual característica da onda sonora?",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 2: Tirinha de Mauricio de Sousa mostrando Cebolinha e Cascão usando um telefone de lata com barbante."
+      ],
+      "alternativas": {
+        "a": "Altura.",
+        "b": "Período.",
+        "c": "Amplitude.",
+        "d": "Velocidade.",
+        "e": "Comprimento de onda."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Ondulatória: características das ondas e Equação Fundamental da Ondulatória (v = λ * f)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 2
+    },
+    {
+      "numero": 92,
+      "tipo": "objetiva",
+      "enunciado": "Informações digitais — dados — são gravadas em discos ópticos, como CD e DVD, na forma de cavidades microscópicas. A gravação e a leitura óptica dessas informações são realizadas por um laser (fonte de luz monocromática). Quanto menores as dimensões dessas cavidades, mais dados são armazenados na mesma área do disco. O fator limitante para a leitura de dados é o espalhamento da luz pelo efeito de difração, fenômeno que ocorre quando a luz atravessa um obstáculo com dimensões da ordem de seu comprimento de onda. Essa limitação motivou o desenvolvimento de lasers com emissão em menores comprimentos de onda, possibilitando armazenar e ler dados em cavidades cada vez menores.\n\nEm qual região espectral se situa o comprimento de onda do laser que otimiza o armazenamento e a leitura de dados em discos de uma mesma área?",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "Violeta.",
+        "b": "Azul.",
+        "c": "Verde.",
+        "d": "Vermelho.",
+        "e": "Infravermelho."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Fenômenos ondulatórios: reflexão, refração, difração, interferência, polarização e ressonância",
+            "Física Moderna: fótons, modelo de Bohr, efeito fotoelétrico, dualidade onda-partícula e noções de relatividade"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 2
+    },
+    {
+      "numero": 93,
+      "tipo": "objetiva",
+      "enunciado": "O bluetooth é uma tecnologia de comunicação sem fio, de curto alcance, presente em diferentes dispositivos eletrônicos de consumo. Ela permite que aparelhos eletrônicos diferentes se conectem e troquem dados entre si. No padrão bluetooth, denominado de Classe 2, as antenas transmitem sinais de potência igual a 2,4 mW e possibilitam conectar dois dispositivos distanciados até 10 m. Considere que essas antenas se comportam como fontes puntiformes que emitem ondas eletromagnéticas esféricas e que a intensidade do sinal é calculada pela potência por unidade de área. Considere 3 como valor aproximado para π.\n\nPara que o sinal de bluetooth seja detectado pelas antenas, o valor mínimo de sua intensidade, em W/m², é mais próximo de",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "2,0 × 10⁻⁶.",
+        "b": "2,0 × 10⁻⁵.",
+        "c": "2,4 × 10⁻⁵.",
+        "d": "2,4 × 10⁻³.",
+        "e": "2,4 × 10⁻¹."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Eletrodinâmica: corrente elétrica, ddp, Leis de Ohm, resistividade e potência elétrica (kWh)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 2
+    },
+    {
+      "numero": 94,
+      "tipo": "objetiva",
+      "enunciado": "Os solos amazônicos, ricos em silicato, não são apropriados para o cultivo por serem incapazes de reter nutrientes. Contudo, descobertas arqueológicas têm demonstrado que os antigos habitantes da Amazônia dominavam a técnica de preparo de um insumo agrícola natural, denominado terra preta. Esse insumo era constituído principalmente de uma espécie de biocarvão (biochar) obtido da queima de matéria orgânica, como troncos de árvores, pedaços de ossos e esterco, capaz de manter um solo fértil por anos.\n\nAdmite-se que o efeito do biocarvão na fertilização do solo estava, em parte, relacionado à presença de grupos orgânicos do tipo carboxilato em sua superfície, carregados negativamente (—COO⁻). Esses grupos atraem íons positivos necessários como nutrientes, tais quais os provenientes do potássio (K), do cálcio (Ca) e do magnésio (Mg), além de micronutrientes, como zinco (Zn) e ferro (Fe). Essa ligação no solo fertilizado é predominantemente iônica, conforme ilustra a figura, em que Mⁿ⁺ representa os cátions metálicos. De acordo com a escala de Pauling, a eletronegatividade do elemento oxigênio é igual a 3,44.\n\n[IMAGEM]\n\nO quadro apresenta os valores de eletronegatividade desses cinco elementos metálicos.\n\n[TABELA]\n\nO cátion que resultará em uma interação de maior caráter iônico com o ânion carboxilato será aquele proveniente do elemento",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 3: Figura representando a estrutura do solo com biocarvão e solo fertilizado com ligações iônicas entre o grupo carboxilato e o cátion metálico.",
+        "Página 3: Quadro contendo os valores de eletronegatividade para os elementos K (0,82), Ca (1,00), Mg (1,31), Zn (1,65) e Fe (1,83)."
+      ],
+      "alternativas": {
+        "a": "potássio.",
+        "b": "cálcio.",
+        "c": "magnésio.",
+        "d": "zinco.",
+        "e": "ferro."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Tabela Periódica: organização, famílias, períodos e propriedades periódicas",
+            "Ligação iônica e características dos compostos iônicos",
+            "Polaridade de ligações e de moléculas (uso da eletronegatividade)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 3
+    },
+    {
+      "numero": 95,
+      "tipo": "objetiva",
+      "enunciado": "Em uma indústria alimentícia, para produção de doce de leite, utiliza-se um tacho de parede oca com uma entrada para vapor de água a 120 °C e uma saída para água líquida em equilíbrio com o vapor a 100 °C. Ao passar pela parte oca do tacho, o vapor de água transforma-se em líquido, liberando energia. A parede transfere essa energia para o interior do tacho, resultando na evaporação de água e consequente concentração do produto.\n\nNo processo de concentração do produto, é utilizada energia proveniente",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "somente do calor latente de vaporização.",
+        "b": "somente do calor latente de condensação.",
+        "c": "do calor sensível e do calor latente de vaporização.",
+        "d": "do calor sensível e do calor latente de condensação.",
+        "e": "do calor latente de condensação e do calor latente de vaporização."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Calorimetria: calor sensível, capacidade térmica, calor latente e trocas de calor"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 3
+    },
+    {
+      "numero": 96,
+      "tipo": "objetiva",
+      "enunciado": "A gasolina é uma mistura de hidrocarbonetos de cadeias saturadas contendo de 8 a 12 átomos de carbono. Além disso, a gasolina de alto desempenho deve conter elevados teores de hidrocarbonetos de cadeias ramificadas, de forma a resistir à compressão e entrar em ignição apenas quando a vela aciona uma centelha elétrica no motor. No quadro, estão apresentados compostos que podem ser utilizados como combustíveis.\n\n[TABELA]\n\nEntre esses compostos, aquele que conferirá maior desempenho como combustível é o",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 4: Tabela com compostos e suas nomenclaturas: I (n-decano), II (n-heptano), III (2,2,4-trimetilpentano), IV (3-etil-4-metilex-1-eno), V (3-etil-2-metilpentan-1-ol)."
+      ],
+      "alternativas": {
+        "a": "I.",
+        "b": "II.",
+        "c": "III.",
+        "d": "IV.",
+        "e": "V."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Características do carbono, cadeias carbônicas, ligações e hibridização",
+            "Principais funções orgânicas: hidrocarbonetos, álcoois, fenóis, éteres, ésteres, aldeídos, cetonas, ácidos carboxílicos, aminas e amidas",
+            "Combustíveis fósseis (carvão, petróleo, gás natural) e destilação fracionada"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 4
+    },
+    {
+      "numero": 97,
+      "tipo": "objetiva",
+      "enunciado": "De acordo com a Constituição Federal, é competência dos municípios o gerenciamento dos serviços de limpeza e coleta dos resíduos urbanos (lixo). No entanto, há relatos de que parte desse lixo acaba sendo incinerado, liberando substâncias tóxicas para o ambiente e causando acidentes por explosões, principalmente quando ocorre a incineração de frascos de aerossóis (por exemplo: desodorantes, inseticidas e repelentes). A temperatura elevada provoca a vaporização de todo o conteúdo dentro desse tipo de frasco, aumentando a pressão em seu interior até culminar na explosão da embalagem.\n\nSuponha um frasco metálico de um aerossol de capacidade igual a 100 mL, contendo 0,1 mol de produtos gasosos à temperatura de 650 °C, no momento da explosão.\n\nConsidere: R = 0,082 (atm·L)/(mol·K)\n\nA pressão, em atm, dentro do frasco, no momento da explosão, é mais próxima de",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "756.",
+        "b": "533.",
+        "c": "76.",
+        "d": "53.",
+        "e": "13."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Estudo dos gases: teoria cinética, leis dos gases e Equação de Clapeyron"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 4
+    },
+    {
+      "numero": 98,
+      "tipo": "objetiva",
+      "enunciado": "O circuito com três lâmpadas incandescentes idênticas, representado na figura, consiste em uma associação mista de resistores. Cada lâmpada (L₁, L₂ e L₃) é associada, em paralelo, a um resistor de resistência R, formando um conjunto. Esses conjuntos são associados em série, tendo todas as lâmpadas o mesmo brilho quando ligadas à fonte de energia. Após vários dias em uso, apenas a lâmpada L₂ queima, enquanto as demais permanecem acesas.\n\n[IMAGEM]\n\nEm relação à situação em que todas as lâmpadas funcionam, após a queima de L₂, os brilhos das lâmpadas serão",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 4: Diagrama do circuito elétrico com lâmpadas e resistores."
+      ],
+      "alternativas": {
+        "a": "os mesmos.",
+        "b": "mais intensos.",
+        "c": "menos intensos.",
+        "d": "menos intenso para L₁ e o mesmo para L₃.",
+        "e": "mais intenso para L₁ e menos intenso para L₃."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Associação de resistores, geradores, receptores e circuitos elétricos (Leis de Kirchhoff)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 4
+    },
+    {
+      "numero": 99,
+      "tipo": "objetiva",
+      "enunciado": "A tecnologia de vacinas de RNA mensageiro (RNAm) é investigada há anos. Avanços científicos em genética molecular permitiram desenvolver uma vacina para controle da pandemia da covid-19 causada pelo vírus de RNA SARS-CoV-2. A vacina de RNAm tem sequências de genes do vírus. Entretanto, por ser muito instável, o RNAm deve ser recoberto por uma capa de lipídios que evita sua degradação e favorece sua ação. Dessa forma, o RNAm desempenhará sua função específica atuando no mesmo compartimento celular de sempre.\n\nA imunização produzida por esse tipo de vacina é alcançada por meio da",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "estimulação de leucócitos induzida pela capa lipídica contendo RNAm.",
+        "b": "atuação do RNAm como sequestrador do vírus para o meio extracelular.",
+        "c": "tradução do RNAm em proteína viral, desencadeando a resposta antigênica.",
+        "d": "competição entre o RNAm vacinal e o RNA viral pelos sítios dos ribossomos.",
+        "e": "incorporação do RNAm viral ao genoma do hospedeiro, gerando novo fenótipo."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Estrutura molecular do DNA e RNA, transcrição gênica e síntese proteica (código genético)",
+            "Conceitos de saúde pública, SUS, vacinas, soros terapêuticos e dinâmica epidemiológica (endemia, surto, epidemia, pandemia)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 5
+    },
+    {
+      "numero": 100,
+      "tipo": "objetiva",
+      "enunciado": "Na fertilização in vitro, espermatozoides são adicionados aos gametas femininos retirados de uma mulher. Após o período de incubação, a fecundação é favorecida pela ação de enzimas. Em um procedimento realizado, observou-se que nenhum dos gametas femininos foi fertilizado e, posteriormente, verificou-se que havia sido adicionado, equivocadamente, um coquetel de inibidores das enzimas do acrossomo, no lugar de um dos nutrientes constituintes do meio de cultura.\n\nO coquetel de inibidores impediu o(a)",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "formação do pronúcleo masculino.",
+        "b": "início da divisão mitótica do zigoto.",
+        "c": "término da segunda divisão meiótica do ovócito.",
+        "d": "passagem do espermatozoide pela corona radiata e zona pelúcida.",
+        "e": "fusão das membranas plasmáticas do ovócito e do espermatozoide."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Embriologia humana e reprodução (gametogênese, fecundação, anexos embrionários, métodos contraceptivos e ISTs)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 5
+    },
+    {
+      "numero": 101,
+      "tipo": "objetiva",
+      "enunciado": "O fogão por indução funciona a partir do surgimento de uma corrente elétrica induzida no fundo da panela, com consequente transformação de energia elétrica em calor por efeito Joule. A principal vantagem desses fogões é a eficiência energética, que é substancialmente maior que a dos fogões convencionais.\n\nA corrente elétrica mencionada é induzida por",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "radiação.",
+        "b": "condução.",
+        "c": "campo elétrico variável.",
+        "d": "campo magnético variável.",
+        "e": "ressonância eletromagnética."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Indução eletromagnética: Lei de Lenz, Lei de Faraday-Neumann e transformadores"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 5
+    },
+    {
+      "numero": 102,
+      "tipo": "objetiva",
+      "enunciado": "Uma academia decide trocar gradualmente seus aparelhos de musculação. Agora, os frequentadores que utilizam os aparelhos do tipo 1 podem também utilizar os aparelhos do tipo 2, representados na figura, para elevar cargas correspondentes às massas M₁ e M₂, com velocidade constante. A fim de que o exercício seja realizado com a mesma força F, os usuários devem ser orientados a respeito da relação entre as cargas nos dois tipos de aparelhos, já que as polias fixas apenas mudam a direção das forças, enquanto a polia móvel divide as forças.\n\nEm ambos os aparelhos, considere as cordas inextensíveis, as massas das polias e das cordas desprezíveis e que não há dissipação de energia.\n\n[IMAGEM]\n\nPara essa academia, qual deve ser a razão M₂/M₁ informada aos usuários?",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 5: Ilustração dos aparelhos de musculação tipo 1 e tipo 2 com polias e massas M1 e M2."
+      ],
+      "alternativas": {
+        "a": "1/4",
+        "b": "1/2",
+        "c": "1",
+        "d": "2",
+        "e": "4"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "As 3 Leis de Newton e conceito de força resultante",
+            "Aplicações das Leis de Newton (planos inclinados, máquinas de Atwood com polias)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 5
+    },
+    {
+      "numero": 103,
+      "tipo": "objetiva",
+      "enunciado": "Um garoto comprou vários abacates na feira, mas descobriu que eles não estavam maduros o suficiente para serem consumidos. Sua mãe recomendou que ele colocasse os abacates em um recipiente fechado, pois isso aceleraria seu amadurecimento. Com certa dúvida, o garoto realizou esta experiência: colocou alguns abacates no recipiente e deixou os demais em uma fruteira aberta. Surpreendendo-se, ele percebeu que os frutos que estavam no recipiente fechado amadureceram mais rapidamente.\n\nA aceleração desse processo é causada por",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "acúmulo de gás etileno.",
+        "b": "redução da umidade do ar.",
+        "c": "aumento da concentração de CO₂.",
+        "d": "diminuição da intensidade luminosa.",
+        "e": "isolamento do contato com O₂ atmosférico."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Anatomia e fisiologia vegetal: tecidos, condução de seivas, transpiração e fitormônios/tropismos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 6
+    },
+    {
+      "numero": 104,
+      "tipo": "objetiva",
+      "enunciado": "Há muito tempo são conhecidas espécies de lesmas-do-mar com uma capacidade ímpar: guardar parte da maquinaria das células das algas que consomem — os cloroplastos — e mantê-los funcionais dentro das suas próprias células, obtendo assim parte do seu alimento. Investigadores portugueses descobriram que essas lesmas-do-mar podem ser mais eficientes nesse processo do que as próprias algas que consomem.\n\nEssa adaptação confere a esse organismo a capacidade de obter primariamente",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "ácidos nucleicos.",
+        "b": "carboidratos.",
+        "c": "proteínas.",
+        "d": "vitaminas.",
+        "e": "lipídios."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Metabolismo energético: fotossíntese, quimiossíntese, respiração aeróbia e fermentação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 6
+    },
+    {
+      "numero": 105,
+      "tipo": "objetiva",
+      "enunciado": "A leishmaniose visceral é uma zoonose causada por um protozoário do gênero Leishmania que é encontrado em diversos tecidos. Ela é transmitida ao homem de forma indireta, por vetores do ambiente doméstico. O cão é considerado um importante hospedeiro desse protozoário, podendo ou não apresentar os sintomas da doença, como perda de peso, anemia, ferimentos na pele, diarreia, conjuntivite e insuficiência renal. Em uma região que sofre com alta incidência dessa doença, uma campanha do centro de zoonoses buscou verificar a presença desse protozoário nos cães para tentar controlar a doença.\n\nEm qual material biológico dos cães a presença desse protozoário representa risco de transmissão dessa zoonose?",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "Urina.",
+        "b": "Saliva.",
+        "c": "Fezes.",
+        "d": "Sangue.",
+        "e": "Secreção ocular."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Saúde e Parasitologia: bacterioses, protozooses (malária, Chagas, leishmaniose) e verminoses (teníase, esquistossomose, ascaridíase)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 6
+    },
+    {
+      "numero": 106,
+      "tipo": "objetiva",
+      "enunciado": "Um professor lança uma esfera verticalmente para cima, a qual retorna, depois de alguns segundos, ao ponto de lançamento. Em seguida, lista em um quadro todas as possibilidades para as grandezas cinemáticas.\n\n[TABELA]\n\nEle solicita aos alunos que analisem as grandezas cinemáticas no instante em que a esfera atinge a altura máxima, escolhendo uma combinação para os módulos e sentidos da velocidade e da aceleração.\n\nA escolha que corresponde à combinação correta é",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 6: Quadro contendo as possibilidades para velocidade e aceleração cinemáticas."
+      ],
+      "alternativas": {
+        "a": "v = 0 e a ≠ 0 para cima.",
+        "b": "v ≠ 0 para cima e a = 0.",
+        "c": "v = 0 e a ≠ 0 para baixo.",
+        "d": "v ≠ 0 para cima e a ≠ 0 para cima.",
+        "e": "v ≠ 0 para baixo e a ≠ 0 para baixo."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Cinemática escalar: velocidade e aceleração escalar média e instantânea",
+            "Queda livre e lançamento vertical"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 6
+    },
+    {
+      "numero": 107,
+      "tipo": "objetiva",
+      "enunciado": "Muitas mulheres sofrem com desconfortos nos dias que antecedem a menstruação, a chamada tensão pré-menstrual. Entre outros sintomas, podem ocorrer alterações de humor. Atualmente, acredita-se que os sintomas são resultado da queda na concentração do neurotransmissor serotonina, que, por sua vez, está relacionado com a diminuição na produção dos hormônios ovarianos estrógeno e progesterona, observada nessa fase do ciclo feminino.\n\nA redução da produção desses hormônios nessa fase está relacionada com o(a)",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "regressão do corpo lúteo ovariano.",
+        "b": "diminuição na produção de ocitocina.",
+        "c": "liberação do gameta feminino na ovulação.",
+        "d": "aumento nos níveis dos hormônios LH e FSH.",
+        "e": "elevação nos níveis sorológicos de adrenalina."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Fisiologia dos sistemas humanos: digestório, cardiovascular, respiratório, excretor, nervoso, endócrino, locomotor e reprodutor"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 7
+    },
+    {
+      "numero": 108,
+      "tipo": "objetiva",
+      "enunciado": "As cetonas fazem parte de famílias olfativas encontradas em muitos alimentos. A molécula de hexan-3-ona é um exemplo desses compostos voláteis responsáveis pelo aroma, podendo ser obtida por processos energéticos realizados em meio ácido, na presença de oxidantes como o permanganato de potássio.\n\nPara se produzir esse composto volátil em laboratório, deve-se oxidar a molécula de",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "hexanal.",
+        "b": "hexan-1-ol.",
+        "c": "hexan-3-ol.",
+        "d": "hex-1-en-1-ol.",
+        "e": "ácido hexanoico."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Principais funções orgânicas: hidrocarbonetos, álcoois, fenóis, éteres, ésteres, aldeídos, cetonas, ácidos carboxílicos, aminas e amidas",
+            "Reações orgânicas fundamentais: substituição, adição, eliminação, oxidação e esterificação/saponificação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 7
+    },
+    {
+      "numero": 109,
+      "tipo": "objetiva",
+      "enunciado": "Durante a evolução das plantas, ocorreu uma transição do ambiente aquático para o ambiente terrestre graças ao surgimento de algumas estruturas que as tornaram independentes da água. Esse fato permitiu maior dispersão desse grupo de seres vivos, sendo possível observá-los em diferentes ambientes na atualidade.\n\nQual estrutura possibilitou a independência da água para a fecundação dos seres vivos citados acima?",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "Fruto.",
+        "b": "Esporo.",
+        "c": "Semente.",
+        "d": "Tubo polínico.",
+        "e": "Vaso condutor."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Reino Plantae: características e ciclos de vida de briófitas, pteridófitas, gimnospermas e angiospermas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 7
+    },
+    {
+      "numero": 110,
+      "tipo": "objetiva",
+      "enunciado": "O vidro contendo alumínio em sua composição é um excelente material para acondicionar medicamentos e suplementos, porque pode ser esterilizado por aquecimento. No entanto, quando o medicamento ou suplemento contém substâncias que se ligam fortemente ao íon desse metal, a dissolução do alumínio é promovida em função do deslocamento do equilíbrio químico estabelecido entre a espécie imobilizada no vidro e a espécie em solução. Por essa razão, recomenda-se que suplementos de nutrição de recém-nascidos contendo gluconato de cálcio sejam acondicionados em embalagens plásticas, e não nesse tipo de vidro.\n\nCaso esse suplemento seja acondicionado em embalagem desse tipo de vidro, o risco de contaminação por alumínio será maior se o(a)",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "vidro do frasco for translúcido.",
+        "b": "concentração de gluconato de cálcio for alta.",
+        "c": "frasco de vidro apresentar uma maior espessura.",
+        "d": "vidro for previamente esterilizado em altas temperaturas.",
+        "e": "reação do alumínio com gluconato de cálcio for endotérmica."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Equilíbrio Químico: constante Kc e Kp, Princípio de Le Chatelier"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 7
+    },
+    {
+      "numero": 111,
+      "tipo": "objetiva",
+      "enunciado": "Barbatimão é o nome popular de uma árvore cuja casca é utilizada para fins medicinais. Essa casca é constituída principalmente de dois tecidos vegetais: periderme e floema. A extração da casca tem levado à morte muitos indivíduos dessa espécie, quando o corte retira um anel completo ao longo da circunferência do tronco. Aqueles que têm parte da casca retirada sem completar essa circunferência podem sobreviver.\n\nA morte desses indivíduos, decorrente da retirada do anel completo da casca, é provocada pela interrupção da",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "fotossíntese.",
+        "b": "transpiração.",
+        "c": "troca de gases.",
+        "d": "formação de brotos.",
+        "e": "nutrição das raízes."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Anatomia e fisiologia vegetal: tecidos, condução de seivas, transpiração e fitormônios/tropismos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 7
+    },
+    {
+      "numero": 112,
+      "tipo": "objetiva",
+      "enunciado": "O descarte de detergentes comuns nos esgotos domésticos ocasiona a formação de uma camada de espuma que impede a entrada de oxigênio na água. Os microrganismos que vivem nessas águas não são capazes de quebrar moléculas ramificadas, ocorrendo assim um desequilíbrio ambiental nos rios. A fórmula a seguir representa a estrutura química de um tensoativo presente na composição de um detergente não biodegradável.\n\n[IMAGEM]\n\nQual modificação química na estrutura desse tensoativo o tornaria um detergente biodegradável?",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 8: Estrutura química do tensoativo não biodegradável."
+      ],
+      "alternativas": {
+        "a": "Retirar a parte polar da molécula.",
+        "b": "Eliminar as insaturações do anel aromático.",
+        "c": "Trocar o grupo aniônico por um grupo neutro.",
+        "d": "Alterar o grupo aniônico por um grupo catiônico.",
+        "e": "Modificar a cadeia carbônica para cadeia normal."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Química Ambiental: parâmetros de qualidade ambiental, poluição de ar/água/solo e ciclos biogeoquímicos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 8
+    },
+    {
+      "numero": 113,
+      "tipo": "objetiva",
+      "enunciado": "Avaliação de substâncias genotóxicas\n\nO ensaio de micronúcleos é um teste de avaliação de genotoxicidade que associa a presença de micronúcleos (pequenos núcleos que aparecem próximo aos núcleos das células) com lesões genéticas. Os micronúcleos são fragmentos de DNA encapsulados, provenientes do fuso mitótico durante a divisão celular.\n\nDIAS, V. M. Micronúcleos em células tumorais: biologia e implicações para a tumorigênese. Dissertação de Mestrado. USP, 2006 (adaptado).\n\nOs micronúcleos se originam dos(as)",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "nucléolos.",
+        "b": "lisossomos.",
+        "c": "ribossomos.",
+        "d": "mitocôndrias.",
+        "e": "cromossomos."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Núcleo celular, ciclo celular e divisões celulares (Mitose e Meiose)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 8
+    },
+    {
+      "numero": 114,
+      "tipo": "objetiva",
+      "enunciado": "O petróleo é uma matéria-prima muito valiosa e métodos geofísicos são úteis na sua prospecção. É possível identificar a composição de materiais estratificados medindo-se a velocidade de propagação do som (onda mecânica) através deles. Considere que uma camada de 450 m de um líquido se encontra presa no subsolo entre duas camadas rochosas, conforme o esquema. Um pulso acústico (que gera uma vibração mecânica) é emitido a partir da superfície do solo, onde são posteriormente recebidas duas vibrações refletidas (ecos). A primeira corresponde à reflexão do pulso na interface superior do líquido com a camada rochosa. A segunda vibração deve-se à reflexão do pulso na interface inferior. O tempo entre a emissão do pulso e a chegada do primeiro eco é de 0,5 s. O segundo eco chega 1,1 s após a emissão do pulso.\n\n[IMAGEM]\n\nA velocidade do som na camada líquida, em metro por segundo, é",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 8: Esquema das camadas rochosas, camada líquida e emissor/detector de pulsos."
+      ],
+      "alternativas": {
+        "a": "270.",
+        "b": "540.",
+        "c": "818.",
+        "d": "1 500.",
+        "e": "1 800."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Ondulatória: características das ondas e Equação Fundamental da Ondulatória (v = λ * f)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 8
+    },
+    {
+      "numero": 115,
+      "tipo": "objetiva",
+      "enunciado": "É comum em viagens de avião sermos solicitados a desligar aparelhos cujo funcionamento envolva a emissão ou a recepção de ondas eletromagnéticas, como celulares. A justificativa dada para esse procedimento é, entre outras coisas, a necessidade de eliminar fontes de sinais eletromagnéticos que possam interferir nas comunicações, via rádio, dos pilotos com a torre de controle.\n\nEssa interferência poderá ocorrer somente se as ondas emitidas pelo celular e as recebidas pelo rádio do avião",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "forem ambas audíveis.",
+        "b": "tiverem a mesma potência.",
+        "c": "tiverem a mesma frequência.",
+        "d": "tiverem a mesma intensidade.",
+        "e": "propagarem-se com velocidades diferentes."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Fenômenos ondulatórios: reflexão, refração, difração, interferência, polarização e ressonância"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 9
+    },
+    {
+      "numero": 116,
+      "tipo": "objetiva",
+      "enunciado": "O Aldrin é um inseticida agrícola organoclorado sintético de baixa polaridade, cuja estrutura molecular simétrica, de fórmula C₁₂H₈Cl₆, está representada na figura. Introduzido na agricultura a partir da década de 1950, esse composto apresenta alta persistência no meio ambiente e acumulação nos organismos, sendo danoso para a saúde.\n\n[IMAGEM]\n\nUm pesquisador coletou fluidos biológicos de indivíduos de uma população contaminada por esse inseticida agrícola. Ele analisou amostras de saliva, sangue, lágrima, urina e leite quanto à presença dessa substância.\n\nEm qual dos fluidos o pesquisador provavelmente encontrou a maior concentração dessa substância?",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 9: Estrutura química do Aldrin."
+      ],
+      "alternativas": {
+        "a": "Saliva, por consequência da atividade de enzimas.",
+        "b": "Sangue, em função das hemácias e leucócitos.",
+        "c": "Lágrima, em razão da concentração de sais.",
+        "d": "Urina, pela presença de moléculas de ureia.",
+        "e": "Leite, por causa do alto teor de gorduras."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Componentes químicos celulares: água, sais minerais, carboidratos, lipídios, proteínas e vitaminas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 9
+    },
+    {
+      "numero": 117,
+      "tipo": "objetiva",
+      "enunciado": "Uma cafeteria adotou copos fabricados a partir de uma composição de 50% de plástico reciclado não biodegradável e 50% de casca de café. O copo é reutilizável e retornável, pois o material, semelhante a uma cerâmica, suporta a lavagem. Embora ele seja comercializado por um preço considerado alto quando comparado ao de um copo de plástico descartável, essa cafeteria possibilita aos clientes retornarem o copo sujo e levarem o café quente servido em outro copo já limpo e higienizado. O material desse copo oferece também o conforto de não esquentar na parte externa.\n\nQuais duas vantagens esse copo apresenta em comparação ao copo descartável?",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "Ter a durabilidade de uma cerâmica e ser totalmente biodegradável.",
+        "b": "Ser tão durável quanto uma cerâmica e ter alta condutividade térmica.",
+        "c": "Ser um mau condutor térmico e aumentar o resíduo biodegradável na natureza.",
+        "d": "Ter baixa condutividade térmica e reduzir o resíduo não biodegradável na natureza.",
+        "e": "Ter alta condutividade térmica e possibilitar a degradação do material no meio ambiente."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Processos de propagação de calor (condução, convecção e irradiação)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 9
+    },
+    {
+      "numero": 118,
+      "tipo": "objetiva",
+      "enunciado": "O consumo exagerado de refrigerantes é preocupante, pois contribui para o aumento de casos de obesidade e diabetes. Considere dois refrigerantes enlatados, um comum e um diet, e que ambos possuam a mesma quantidade de aditivos, exceto pela presença de açúcar. O refrigerante comum contém basicamente água carbonatada e grande quantidade de açúcar; já o refrigerante diet tem água carbonatada e adoçantes, cujas massas são muito pequenas.\n\nEntre as duas versões apresentadas, o refrigerante comum possui",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "maior densidade.",
+        "b": "menor viscosidade.",
+        "c": "maior volume de gás dissolvido.",
+        "d": "menor massa de solutos dissolvidos.",
+        "e": "maior temperatura de congelamento."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Água e soluções aquosas: solubilidade, tipos de concentração (g/L, mol/L, ppm) e diluição"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 9
+    },
+    {
+      "numero": 119,
+      "tipo": "objetiva",
+      "enunciado": "O manual de um automóvel alerta sobre os cuidados em relação à pressão do ar no interior dos pneus. Recomenda-se que a pressão seja verificada com os pneus frios (à temperatura ambiente). Um motorista, desatento a essa informação, realizou uma viagem longa sobre o asfalto quente e, em seguida, verificou que a pressão P₀ no interior dos pneus não era a recomendada pelo fabricante. Na ocasião, a temperatura dos pneus era T₀. Após um longo período em repouso, os pneus do carro atingiram a temperatura ambiente T. Durante o resfriamento, não há alteração no volume dos pneus e na quantidade de ar no seu interior. Considere o ar dos pneus um gás perfeito (também denominado gás ideal).\n\nDurante o processo de resfriamento, os valores de pressão em relação à temperatura (P × T) são representados pelo gráfico:",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 10: Gráficos de pressão versus temperatura (A, B, C, D, E)."
+      ],
+      "alternativas": {
+        "a": "[Gráfico A]",
+        "b": "[Gráfico B]",
+        "c": "[Gráfico C]",
+        "d": "[Gráfico D]",
+        "e": "[Gráfico E]"
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Gases perfeitos: Equação de Clapeyron e transformações gasosas (isotérmica, isobárica, isocórica)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 10
+    },
+    {
+      "numero": 120,
+      "tipo": "objetiva",
+      "enunciado": "Pais com síndrome de Down\n\nA síndrome de Down é uma alteração genética associada à trissomia do cromossomo 21, ou seja, o indivíduo possui três cromossomos 21 e não um par, como é normal. Isso ocorre pela união de um gameta contendo um cromossomo 21 com um gameta possuidor de dois cromossomos 21. Embora, normalmente, as mulheres com a síndrome sejam estéreis, em 2008, no interior de São Paulo, uma delas deu à luz uma menina sem a síndrome de Down.\n\nSabendo disso, um jovem casal, ambos com essa síndrome, procura um médico especialista para aconselhamento genético porque querem ter um bebê.\n\nO médico informa ao casal que, com relação ao cromossomo 21, os zigotos formados serão",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "todos normais.",
+        "b": "todos tetrassômicos.",
+        "c": "apenas normais ou tetrassômicos.",
+        "d": "apenas trissômicos ou tetrassômicos.",
+        "e": "normais, trissômicos ou tetrassômicos."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "1ª e 2ª Leis de Mendel e correlação com a meiose",
+            "Heredogramas e probabilidades genéticas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 11
+    },
+    {
+      "numero": 121,
+      "tipo": "objetiva",
+      "enunciado": "Para que uma molécula dê origem a um medicamento de administração oral, além de apresentar atividade farmacológica, deve ser capaz de atingir o local de ação. Para tanto, essa molécula não deve se degradar no estômago (onde o meio é fortemente ácido e há várias enzimas que reagem mediante catálise ácida), deve ser capaz de atravessar as membranas celulares e ser solúvel no plasma sanguíneo (sistema aquoso). Para os fármacos cujas estruturas são formadas por cadeias carbônicas longas contendo pelo menos um grupamento amino, um recurso tecnológico empregado é sua conversão no cloridrato correspondente. Essa conversão é representada, de forma genérica, pela equação química:\n\nR₃N + HCl ⇌ (R₃NH)⁺Cl⁻\n\nO aumento da eficiência de circulação do fármaco no sangue, promovido por essa conversão, deve-se ao incremento de seu(sua)",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "basicidade.",
+        "b": "lipofilicidade.",
+        "c": "caráter iônico.",
+        "d": "cadeia carbônica.",
+        "e": "estado de oxidação."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Ligação iônica e características dos compostos iônicos",
+            "Água e soluções aquosas: solubilidade, tipos de concentração (g/L, mol/L, ppm) e diluição"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 11
+    },
+    {
+      "numero": 122,
+      "tipo": "objetiva",
+      "enunciado": "Toxicidade do cianeto\n\nA produção de ATP depende do gradiente de prótons gerado pela cadeia respiratória. Nessas reações, os elétrons provenientes da oxidação do NADH em NAD⁺ percorrem a cadeia até chegarem à citocromo c oxidase reduzindo o Fe³⁺ a Fe²⁺. O oxigênio atua como aceptor final desses elétrons formando água. O cianeto é uma espécie química altamente tóxica que tem grande afinidade pelo Fe³⁺. Quando células são expostas ao cianeto, ele se liga ao sítio de Fe³⁺ da citocromo c oxidase, impedindo a sua conversão em Fe²⁺ e bloqueando a cadeia respiratória.\n\n[IMAGEM]\n\nEsse bloqueio aumenta a concentração celular de",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 11: Esquema da cadeia respiratória e o bloqueio pelo cianeto."
+      ],
+      "alternativas": {
+        "a": "ATP.",
+        "b": "água.",
+        "c": "NADH.",
+        "d": "dióxido de carbono.",
+        "e": "citocromo c oxidase."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Metabolismo energético: fotossíntese, quimiossíntese, respiração aeróbia e fermentação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 11
+    },
+    {
+      "numero": 123,
+      "tipo": "objetiva",
+      "enunciado": "O número de abelhas encontra-se em declínio em várias regiões do mundo, inclusive no Brasil, sendo que vários fatores contribuem para o colapso de suas colmeias. Nos Estados Unidos, bombas de sementes de espécies vegetais nativas têm sido utilizadas para combater o desaparecimento desses insetos. Elas são pequenas bolinhas recheadas com sementes, adubo e argila. Quando são arremessadas e ficam expostas ao sol e à chuva, germinam até mesmo em solo pouco fértil.\n\nEsse método contribui para a preservação das abelhas porque",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "reduz sua predação.",
+        "b": "reduz o uso de pesticidas.",
+        "c": "reduz a competição por abrigo.",
+        "d": "aumenta a oferta de alimento.",
+        "e": "aumenta os locais de reprodução."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Conceitos ecológicos fundamentais (habitat, nicho ecológico, população, comunidade e ecossistema)",
+            "Impactos antrópicos: poluição, bioacumulação trófica, espécies exóticas, pegada ecológica e unidades de conservação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 12
+    },
+    {
+      "numero": 124,
+      "tipo": "objetiva",
+      "enunciado": "Os mais antigos cozinhavam o feijão na panela de ferro a fim de acabar com a palidez de seus filhos. Alguns chegavam até a colocar um prego enferrujado nesse cozimento para liberar o ferro contido nele. Sabe-se que esse elemento pode ser encontrado na sua forma metálica ou iônica, sendo essencial para a manutenção da vida humana.\n\nAs estratégias citadas eram utilizadas com o objetivo de",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "tratar a diarreia.",
+        "b": "prevenir a anemia.",
+        "c": "evitar as verminoses.",
+        "d": "remediar o raquitismo.",
+        "e": "combater a febre amarela."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Componentes químicos celulares: água, sais minerais, carboidratos, lipídios, proteínas e vitaminas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 12
+    },
+    {
+      "numero": 125,
+      "tipo": "objetiva",
+      "enunciado": "A utilização de tecnologia nuclear é um tema bastante controverso, por causa do risco de acidentes graves, como aqueles ocorridos em Chernobyl (1986), em Goiânia (1987) e em Fukushima (2011). Apesar de muitas desvantagens, como a geração de resíduos tóxicos, a descontaminação ambiental dispendiosa em caso de acidentes e a utilização em armas nucleares, a geração de energia nuclear apresenta vantagens em comparação a outras fontes de energia.\n\nA geração dessa energia tem com característica:",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "Formar resíduos facilmente recicláveis.",
+        "b": "Promover o aumento do desmatamento.",
+        "c": "Contribuir para a produção de chuva ácida.",
+        "d": "Emitir gases tóxicos que são lançados no ambiente.",
+        "e": "Produzir calor sem o consumo de combustíveis fósseis."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Radioatividade: emissões nucleares, meia-vida, datação, fissão e fusão nuclear"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 12
+    },
+    {
+      "numero": 126,
+      "tipo": "objetiva",
+      "enunciado": "Em uma indústria, o controle da dureza da água é importante quando ela é utilizada em caldeiras, uma vez que sais pouco solúveis, formados a partir de sulfatos e carbonatos, podem acumular-se no interior das tubulações, causando obstruções. Para avaliar a água utilizada nessa indústria, foram realizados testes de qualidade que consideraram os seguintes parâmetros:\n\n[TABELA]\n\nQual teste deve ser considerado para controlar a formação desse tipo de obstrução de tubulações?",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 12: Tabela de parâmetros medidos (Cálcio, Cloreto, Turbidez, Coliformes totais, Sólidos sedimentáveis)."
+      ],
+      "alternativas": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4",
+        "e": "5"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Água e soluções aquosas: solubilidade, tipos de concentração (g/L, mol/L, ppm) e diluição"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 12
+    },
+    {
+      "numero": 127,
+      "tipo": "objetiva",
+      "enunciado": "As aves apresentam dois tipos de músculos em seus corpos: vermelhos e brancos. Aves migratórias como garças, gansos e patos selvagens têm os músculos vermelhos bem desenvolvidos, com ampla rede de vasos sanguíneos. Nas viagens por grandes distâncias, tais músculos são fundamentais, pois favorecem o(a)",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "execução de manobras.",
+        "b": "metabolismo corpóreo elevado.",
+        "c": "manutenção da aerodinâmica.",
+        "d": "deslocamento a grandes velocidades.",
+        "e": "capacidade de voo em grandes altitudes."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Craniados e vertebrados: adaptações morfológicas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 12
+    },
+    {
+      "numero": 128,
+      "tipo": "objetiva",
+      "enunciado": "Existe no comércio um produto antimofo constituído por uma embalagem com tampa perfurada contendo cloreto de cálcio anidro, CaCl₂. Uma vez aberto o lacre, essa substância absorve a umidade ambiente, transformando-se em cloreto de cálcio di-hidratado, CaCl₂·2H₂O.\n\nConsidere a massa molar da água igual a 18 g mol⁻¹, e a massa molar do cloreto de cálcio anidro igual a 111 g mol⁻¹.\n\nNa hidratação da substância presente no antimofo, o ganho percentual, em massa, é mais próximo de",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "14%",
+        "b": "16%",
+        "c": "24%",
+        "d": "32%",
+        "e": "75%"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Fórmulas químicas: mínima, centesimal e molecular",
+            "Cálculos estequiométricos: relações de massa, volume, mols e pureza/rendimento"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 12
+    },
+    {
+      "numero": 129,
+      "tipo": "objetiva",
+      "enunciado": "Um assistente de laboratório precisou descartar sete frascos contendo solução de nitrato de mercúrio(I) que não foram utilizados em uma aula prática. Cada frasco continha 5,25 g de Hg₂(NO₃)₂ dissolvidos em água. Temendo a toxidez do mercúrio e sabendo que o Hg₂Cl₂ tem solubilidade muito baixa, o assistente optou por retirar o mercúrio da solução por precipitação com cloreto de sódio (NaCl), conforme a equação química:\n\nHg₂(NO₃)₂ (aq) + 2 NaCl (aq) → Hg₂Cl₂ (s) + 2 NaNO₃ (aq)\n\nNa dúvida sobre a massa de NaCl a ser utilizada, o assistente aumentou gradativamente a quantidade adicionada em cada frasco, como apresentado no quadro.\n\n[TABELA]\n\nO produto obtido em cada experimento foi filtrado, secado e teve sua massa aferida. O assistente organizou os resultados na forma de um gráfico que correlaciona a massa de NaCl adicionada com a massa de Hg₂Cl₂ obtida em cada frasco. A massa molar do Hg₂(NO₃)₂ é 525 g mol⁻¹, a do NaCl é 58 g mol⁻¹ e a do Hg₂Cl₂ é 472 g mol⁻¹.\n\nQual foi o gráfico obtido pelo assistente de laboratório?",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 13: Quadro de massas de NaCl por frasco (I a VII).",
+        "Página 13: Gráficos de massa de Hg2Cl2 versus massa de NaCl (A, B, C, D, E)."
+      ],
+      "alternativas": {
+        "a": "[Gráfico A]",
+        "b": "[Gráfico B]",
+        "c": "[Gráfico C]",
+        "d": "[Gráfico D]",
+        "e": "[Gráfico E]"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Equações químicas e métodos de balanceamento",
+            "Cálculos estequiométricos: relações de massa, volume, mols e pureza/rendimento"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 13
+    },
+    {
+      "numero": 130,
+      "tipo": "objetiva",
+      "enunciado": "Uma equipe de segurança do transporte de uma empresa avalia o comportamento das tensões que aparecem em duas cordas, 1 e 2, usadas para prender uma carga de massa M = 200 kg na carroceria, conforme a ilustração. Quando o caminhão parte do repouso, sua aceleração é constante e igual a 3 m/s² e, quando ele é freado bruscamente, sua frenagem é constante e igual a 5 m/s². Em ambas as situações, a carga encontra-se na iminência de movimento, e o sentido do movimento do caminhão está indicado na figura. O coeficiente de atrito estático entre a caixa e o assoalho da carroceria é igual a 0,2. Considere a aceleração da gravidade igual a 10 m/s², as tensões iniciais nas cordas iguais a zero e as duas cordas ideais.\n\n[IMAGEM]\n\nNas situações de aceleração e frenagem do caminhão, as tensões nas cordas 1 e 2, em newton, serão",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 14: Ilustração do caminhão com a carga presa por cordas 1 e 2."
+      ],
+      "alternativas": {
+        "a": "aceleração: T₁ = 0 e T₂ = 200; frenagem: T₁ = 600 e T₂ = 0.",
+        "b": "aceleração: T₁ = 0 e T₂ = 200; frenagem: T₁ = 1 400 e T₂ = 0.",
+        "c": "aceleração: T₁ = 0 e T₂ = 600; frenagem: T₁ = 600 e T₂ = 0.",
+        "d": "aceleração: T₁ = 560 e T₂ = 0; frenagem: T₁ = 0 e T₂ = 960.",
+        "e": "aceleração: T₁ = 640 e T₂ = 0; frenagem: T₁ = 0 e T₂ = 1 040."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "As 3 Leis de Newton e conceito de força resultante",
+            "Massa, peso e forças de atrito (estático e cinético)",
+            "Aplicações das Leis de Newton (planos inclinados, máquinas de Atwood com polias)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 14
+    },
+    {
+      "numero": 131,
+      "tipo": "objetiva",
+      "enunciado": "A biorremediação designa tratamentos que usam organismos para reduzir a quantidade de substâncias tóxicas no ambiente ou degradá-las em substâncias não tóxicas ou de menor toxicidade. Uma planta aquática, o aguapé, tem sido utilizada para a biorremediação de ambientes contaminados por metais tóxicos. Sabe-se que esses poluentes serão captados para dentro do corpo do vegetal.\n\nDentro do corpo do vegetal, esses contaminantes serão",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "digeridos por enzimas.",
+        "b": "acumulados nos tecidos.",
+        "c": "eliminados pelos estômatos.",
+        "d": "metabolizados por glândulas.",
+        "e": "utilizados como fonte energética."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Impactos antrópicos: poluição, bioacumulação trófica, espécies exóticas, pegada ecológica e unidades de conservação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 14
+    },
+    {
+      "numero": 132,
+      "tipo": "objetiva",
+      "enunciado": "O ciclo do nitrogênio é composto por várias etapas, conforme a figura, sendo cada uma desempenhada por um grupo específico de microrganismos.\n\n[IMAGEM]\n\nSe o grupo dos microrganismos decompositores fosse exterminado, qual etapa não ocorreria?",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 14: Esquema do ciclo do nitrogênio com etapas numeradas de 1 a 5."
+      ],
+      "alternativas": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4",
+        "e": "5"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Ciclos biogeoquímicos (água, carbono, oxigênio e nitrogênio)",
+            "Reinos Monera, Protista e Fungi: características e importância ecológica/econômica"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 14
+    },
+    {
+      "numero": 133,
+      "tipo": "objetiva",
+      "enunciado": "Os raios cósmicos são fontes de radiação ionizante potencialmente perigosas para o organismo humano. Para quantificar a dose de radiação recebida, utiliza-se o sievert (Sv), definido como a unidade de energia recebida por unidade de massa. A exposição à radiação proveniente de raios cósmicos aumenta com a altitude, o que pode representar um problema para as tripulações de aeronaves. Recentemente, foram realizadas medições acuradas das doses de radiação ionizante para voos entre Rio de Janeiro e Roma. Os resultados têm indicado que a dose média de radiação recebida na fase de cruzeiro (que geralmente representa 80% do tempo total de voo) desse trecho intercontinental é 2 μSv/h. As normas internacionais da aviação civil limitam em 1 000 horas por ano o tempo de trabalho para as tripulações que atuem em voos intercontinentais. Considere que a dose de radiação ionizante para uma radiografia torácica é estimada em 0,2 mSv.\n\nRUAS, A. C. O tripulante de aeronaves e a radiação ionizante. São Paulo: Edição do Autor, 2019 (adaptado).\n\nA quantas radiografias torácicas corresponde a dose de radiação ionizante à qual um tripulante que atue no trecho Rio de Janeiro−Roma é exposto ao longo de um ano?",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "8",
+        "b": "10",
+        "c": "80",
+        "d": "100",
+        "e": "1 000"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Grandezas fundamentais e derivadas, Sistema Internacional de Unidades (SI) e análise dimensional"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 14
+    },
+    {
+      "numero": 134,
+      "tipo": "objetiva",
+      "enunciado": "Entre os medicamentos mais comuns consumidos para o alívio da dor está o ibuprofeno, um composto quiral com ação anti-inflamatória e efeito analgésico, que é comercializado como fármaco opticamente puro, ou seja, sem a mistura com outro isômero óptico. A fórmula estrutural plana do ibuprofeno é:\n\n[IMAGEM]\n\nAlém do ibuprofeno, destacam-se também os princípios ativos a seguir, presentes em outros medicamentos para o alívio da dor:\n\n[IMAGEM]\n\nO princípio ativo que apresenta o mesmo tipo de isomeria espacial que o ibuprofeno é o(a)",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 15: Fórmula estrutural plana do ibuprofeno.",
+        "Página 15: Fórmulas estruturais da fenacetina, paracetamol, dipirona sódica, diclofenaco sódico e butilbrometo de escopolamina."
+      ],
+      "alternativas": {
+        "a": "fenacetina.",
+        "b": "paracetamol.",
+        "c": "dipirona sódica.",
+        "d": "diclofenaco sódico.",
+        "e": "butilbrometo de escopolamina."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Isomeria plana e espacial"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 15
+    },
+    {
+      "numero": 135,
+      "tipo": "objetiva",
+      "enunciado": "Uma concessionária é responsável por um trecho de 480 quilômetros de uma rodovia. Nesse trecho, foram construídas 10 praças de pedágio, onde funcionários recebem os pagamentos nas cabines de cobrança. Também existe o serviço automático, em que os veículos providos de um dispositivo passam por uma cancela, que se abre automaticamente, evitando filas e diminuindo o tempo de viagem. Segundo a concessionária, o tempo médio para efetuar a passagem em uma cabine é de 3 minutos, e as velocidades máximas permitidas na rodovia são 100 km/h, para veículos leves, e 80 km/h, para veículos de grande porte.\n\nConsidere um carro e um caminhão viajando, ambos com velocidades constantes e iguais às máximas permitidas, e que somente o caminhão tenha o serviço automático de cobrança.\n\nComparado ao caminhão, quantos minutos a menos o carro leva para percorrer toda a rodovia?",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "30",
+        "b": "42",
+        "c": "72",
+        "d": "288",
+        "e": "360"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Operações fundamentais com números inteiros e decimais",
+            "Razões e proporções diretas e inversas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 15
+    },
+    {
+      "numero": 136,
+      "tipo": "objetiva",
+      "enunciado": "Alguns estudos comprovam que os carboidratos fornecem energia ao corpo, preservam as proteínas estruturais dos músculos durante a prática de atividade física e ainda dão força para o cérebro coordenar os movimentos, o que de fato tem impacto positivo no desenvolvimento do praticante. O ideal é consumir 1 grama de carboidrato para cada minuto de caminhada.\n\nCIRINO, C. Boa pergunta: consumir carboidratos antes dos exercícios melhora o desempenho do atleta? Revista Saúde! É Vital, n. 330, nov. 2010 (adaptado).\n\nUm casal realizará diariamente 30 minutos de caminhada, ingerindo, antes dessa atividade, a quantidade ideal de carboidratos recomendada. Para ter o consumo ideal apenas por meio do consumo de pão de fôrma integral, o casal planeja garantir o suprimento de pães para um período de 30 dias ininterruptos. Sabe-se que cada pacote desse pão vem com 18 fatias, e que cada uma delas tem 15 gramas de carboidratos.\n\nA quantidade mínima de pacotes de pão de fôrma necessários para prover o suprimento a esse casal é",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "1.",
+        "b": "4.",
+        "c": "6.",
+        "d": "7.",
+        "e": "8."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Operações fundamentais com números inteiros e decimais"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 16
+    },
+    {
+      "numero": 137,
+      "tipo": "objetiva",
+      "enunciado": "O mastro de uma bandeira foi instalado perpendicularmente ao solo em uma região plana. Devido aos fortes ventos, três cabos de aço, de mesmo comprimento, serão instalados para dar sustentação ao mastro. Cada cabo de aço ficará perfeitamente esticado, com uma extremidade num ponto P do mastro, a uma altura h do solo, e a outra extremidade, num ponto no chão, como mostra a figura.\n\n[IMAGEM]\n\nOs cabos de aço formam um ângulo α com o plano do chão.\n\nPor medida de segurança, há apenas três opções de instalação:\n• opção I: h = 11 m e α = 30°\n• opção II: h = 12 m e α = 45°\n• opção III: h = 18 m e α = 60°\n\nA opção a ser escolhida é aquela em que a medida dos cabos seja a menor possível.\n\nQual será a medida, em metro, de cada um dos cabos a serem instalados?",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 16: Ilustração do mastro da bandeira com cabos de aço esticados formando ângulo alfa."
+      ],
+      "alternativas": {
+        "a": "(22√3)/3",
+        "b": "11√2",
+        "c": "12√2",
+        "d": "12√3",
+        "e": "22"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Trigonometria no triângulo retângulo (seno, cosseno e tangente)",
+            "Relações métricas no triângulo retângulo, polígonos regulares e círculos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 16
+    },
+    {
+      "numero": 138,
+      "tipo": "objetiva",
+      "enunciado": "Um controlador de voo dispõe de um instrumento que descreve a altitude de uma aeronave em voo, em função da distância em solo. Essa distância em solo é a medida na horizontal entre o ponto de origem do voo até o ponto que representa a projeção ortogonal da posição da aeronave, em voo, no solo. Essas duas grandezas são dadas numa mesma unidade de medida.\n\nA tela do instrumento representa proporcionalmente as dimensões reais das distâncias associadas ao voo. A figura apresenta a tela do instrumento depois de concluída a viagem de um avião, sendo a medida do lado de cada quadradinho da malha igual a 1 cm.\n\n[IMAGEM]\n\nEssa tela apresenta os dados de um voo cuja maior altitude alcançada foi de 5 km.\n\nA escala em que essa tela representa as medidas reais é",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 16: Tela do instrumento com o gráfico altitude versus distância em malha quadriculada."
+      ],
+      "alternativas": {
+        "a": "1 : 5.",
+        "b": "1 : 11.",
+        "c": "1 : 55.",
+        "d": "1 : 5 000.",
+        "e": "1 : 500 000."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Razões e proporções diretas e inversas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 16
+    },
+    {
+      "numero": 139,
+      "tipo": "objetiva",
+      "enunciado": "Uma pessoa pratica quatro atividades físicas — caminhar, correr, andar de bicicleta e jogar futebol — como parte de seu programa de emagrecimento. Essas atividades são praticadas semanalmente de acordo com o quadro, que apresenta o número de horas diárias por atividade.\n\n[TABELA]\n\nEla deseja comemorar seu aniversário e escolhe o dia da semana em que o gasto calórico com as atividades físicas praticadas for o maior. Para tanto, considera que os valores dos gastos calóricos das atividades por hora (cal/h) são os seguintes:\n\n[TABELA]\n\nO dia da semana em que será comemorado o aniversário é",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 17: Tabela de horas diárias por atividade física em cada dia da semana.",
+        "Página 17: Tabela de gasto calórico por hora para cada atividade física."
+      ],
+      "alternativas": {
+        "a": "segunda-feira.",
+        "b": "terça-feira.",
+        "c": "quarta-feira.",
+        "d": "quinta-feira.",
+        "e": "sexta-feira."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Operações fundamentais com números inteiros e decimais"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 17
+    },
+    {
+      "numero": 140,
+      "tipo": "objetiva",
+      "enunciado": "A cada bimestre, a diretora de uma escola compra uma quantidade de folhas de papel ofício proporcional ao número de alunos matriculados. No bimestre passado, ela comprou 6 000 folhas para serem utilizadas pelos 1 200 alunos matriculados. Neste bimestre, alguns alunos cancelaram suas matrículas e a escola tem, agora, 1 150 alunos. A diretora só pode gastar R$ 220,00 nessa compra, e sabe que o fornecedor da escola vende as folhas de papel ofício em embalagens de 100 unidades a R$ 4,00 a embalagem. Assim, será preciso convencer o fornecedor a dar um desconto à escola, de modo que seja possível comprar a quantidade total de papel ofício necessária para o bimestre.\n\nO desconto necessário no preço final da compra, em porcentagem, pertence ao intervalo",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "(5,0 ; 5,5).",
+        "b": "(8,0 ; 8,5).",
+        "c": "(11,5 ; 12,5).",
+        "d": "(19,5 ; 20,5).",
+        "e": "(3,5 ; 4,0)."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Matemática Financeira: porcentagem, juros simples, juros compostos, taxas e índices",
+            "Razões e proporções diretas e inversas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 17
+    },
+    {
+      "numero": 141,
+      "tipo": "objetiva",
+      "enunciado": "O calendário maia apresenta duas contagens simultâneas de anos, o chamado ano Tzolkim, composto por 260 dias e que determinava o calendário religioso, e o ano Haab, composto por 365 dias e que determinava o calendário agrícola. Um historiador encontrou evidências de que gerações de uma mesma família governaram certa comunidade maia pelo período de 20 ciclos, sendo cada ciclo formado por 52 anos Haab.\n\nDisponível em: www.suapesquisa.com. Acesso em: 20 ago. 2014.\n\nDe acordo com as informações fornecidas, durante quantos anos Tzolkim aquela comunidade maia foi governada por tal família?",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "741",
+        "b": "1 040",
+        "c": "1 460",
+        "d": "2 100",
+        "e": "5 200"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Razões e proporções diretas e inversas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 18
+    },
+    {
+      "numero": 142,
+      "tipo": "objetiva",
+      "enunciado": "Sejam a, b e c as medidas dos lados de um triângulo retângulo, tendo a como medida da hipotenusa. Esses valores a, b e c são, respectivamente, os diâmetros dos círculos C₁, C₂ e C₃, como apresentados na figura.\n\n[IMAGEM]\n\nObserve que essa construção assegura, pelo teorema de Pitágoras, que área(C₁) = área(C₂) + área(C₃).\n\nUm professor de matemática era conhecedor dessa construção e, confraternizando com dois amigos em uma pizzaria onde são vendidas pizzas somente em formato de círculo, lançou um desafio: mesmo sem usar um instrumento de medição, poderia afirmar com certeza se a área do círculo correspondente à pizza que ele pedisse era maior, igual ou menor do que a soma das áreas das pizzas dos dois amigos. Assim, foram pedidas três pizzas. O professor as dividiu ao meio e formou um triângulo com os diâmetros das pizzas, conforme indicado na figura.\n\n[IMAGEM]\n\nA partir da medida do ângulo α, o professor afirmou que a área de sua pizza é maior do que a soma das áreas das outras duas pizzas.\n\nA área da pizza do professor de matemática é maior do que a soma das áreas das outras duas pizzas, pois",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 18: Círculos C1, C2 e C3 cujos diâmetros formam triângulo retângulo.",
+        "Página 18: Meias pizzas dos amigos e do professor formando triângulo com ângulo alfa."
+      ],
+      "alternativas": {
+        "a": "0° < α < 90°",
+        "b": "α = 90°",
+        "c": "90° < α < 180°",
+        "d": "α = 180°",
+        "e": "180° < α < 360°"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Teorema dos Senos e Teorema dos Cossenos (triângulos quaisquer e obtusângulos)",
+            "Relações métricas no triângulo retângulo, polígonos regulares e círculos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 18
+    },
+    {
+      "numero": 143,
+      "tipo": "objetiva",
+      "enunciado": "Entre maratonistas, um parâmetro utilizado é o de economia de corrida (EC). O valor desse parâmetro é calculado pela razão entre o consumo de oxigênio, em mililitro (mL) por minuto (min), e a massa, em quilograma (kg), do atleta correndo a uma velocidade constante.\n\nDisponível em: www.treinamentoonline.com.br. Acesso em: 23 out. 2019 (adaptado).\n\nUm maratonista, visando melhorar sua performance, auxiliado por um médico, mensura o seu consumo de oxigênio por minuto a velocidade constante. Com base nesse consumo e na massa do atleta, o médico calcula o EC do atleta.\n\nA unidade de medida da grandeza descrita pelo parâmetro EC é",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "min / (mL · kg)",
+        "b": "mL / (min · kg)",
+        "c": "(min · mL) / kg",
+        "d": "(min · kg) / mL",
+        "e": "(mL · kg) / min"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Grandezas fundamentais e derivadas, Sistema Internacional de Unidades (SI) e análise dimensional"
+          ]
+        },
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Razões e proporções diretas e inversas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 18
+    },
+    {
+      "numero": 144,
+      "tipo": "objetiva",
+      "enunciado": "O gerente de uma fábrica pretende comparar a evolução das vendas de dois produtos similares (I e II). Para isso, passou a verificar o número de unidades vendidas de cada um desses produtos em cada mês. Os resultados dessa verificação, para os meses de abril a junho, são apresentados na tabela.\n\n[TABELA]\n\nO gerente estava decidido a cessar a produção do produto II no mês seguinte àquele em que as vendas do produto I superassem as do produto II.\n\nSuponha que a variação na quantidade de unidades vendidas dos produtos I e II se manteve, mês a mês, como no período representado na tabela.\n\nEm qual mês o produto II parou de ser produzido?",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 19: Tabela de vendas dos produtos I e II nos meses de abril, maio e junho."
+      ],
+      "alternativas": {
+        "a": "Junho.",
+        "b": "Julho.",
+        "c": "Agosto.",
+        "d": "Setembro.",
+        "e": "Outubro."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Noção de sequência e lei de formação/recorrência",
+            "Progressão Aritmética (PA) - termo geral e soma dos termos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 19
+    },
+    {
+      "numero": 145,
+      "tipo": "objetiva",
+      "enunciado": "Uma empresa de transporte faz regularmente um levantamento do número de viagens realizadas durante o dia por todos os 160 motoristas cadastrados em seu aplicativo. Em um certo dia, foi gerado um relatório, por meio de um gráfico de barras, no qual se relacionaram a quantidade de motoristas com a quantidade de viagens realizadas até aquele instante do dia.\n\n[GRÁFICO]\n\nComparando os valores da média, da mediana e da moda da distribuição das quantidades de viagens realizadas pelos motoristas cadastrados nessa empresa, obtém-se",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 19: Gráfico de barras relacionando a quantidade de viagens com a quantidade de motoristas."
+      ],
+      "alternativas": {
+        "a": "mediana = média < moda.",
+        "b": "mediana = moda < média.",
+        "c": "mediana < média < moda.",
+        "d": "moda < média < mediana.",
+        "e": "moda < mediana < média."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Estatística: medidas de tendência central (média, moda e mediana)",
+            "Interpretação de gráficos (barras, setores, histogramas, box-plot, ramos e folhas)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 19
+    },
+    {
+      "numero": 146,
+      "tipo": "objetiva",
+      "enunciado": "A foto mostra a construção de uma cisterna destinada ao armazenamento de água. Uma cisterna como essa, na forma de cilindro circular reto com 3 m² de área da base, foi abastecida por um curso-d’água com vazão constante. O seu proprietário registrou a altura do nível da água no interior da cisterna durante o abastecimento em diferentes momentos de um mesmo dia, conforme o quadro.\n\n[IMAGEM]\n\n[TABELA]\n\nQual foi a vazão, em metro cúbico por hora, do curso-d’água que abasteceu a cisterna?",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 20: Foto da construção de uma cisterna.",
+        "Página 20: Quadro de horários e níveis da água na cisterna."
+      ],
+      "alternativas": {
+        "a": "0,3",
+        "b": "0,5",
+        "c": "0,9",
+        "d": "1,8",
+        "e": "2,7"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Geometria Espacial: vistas ortogonais e planificação",
+            "Cilindro, cone e esfera (área, volume e capacidade)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 20
+    },
+    {
+      "numero": 147,
+      "tipo": "objetiva",
+      "enunciado": "Num certo momento de um jogo digital, a tela apresenta a imagem representada na figura. O ponto Q₁ representa a posição de um jogador que está com a bola, os pontos Q₂, Q₃, Q₄, Q₅ e Q₆ também indicam posições de jogadores da mesma equipe, e os pontos A e B indicam os dois pés da trave mais próxima deles. No momento da partida retratado, o jogador Q₁ tem a posse da bola, que será passada para um dos outros jogadores das posições Qₙ, n ∈ {2, 3, 4, 5, 6}, cujo ângulo AQₙB tenha a mesma medida do ângulo AQ₁B.\n\n[IMAGEM]\n\nQual é o jogador que receberá a bola?",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 20: Tela do jogo digital mostrando a posição dos jogadores Q1 a Q6 e as traves A e B."
+      ],
+      "alternativas": {
+        "a": "Q₂",
+        "b": "Q₃",
+        "c": "Q₄",
+        "d": "Q₅",
+        "e": "Q₆"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Relações métricas no triângulo retângulo, polígonos regulares e círculos",
+            "Arcos e ângulos: medidas (graus e radianos) e relações entre arcos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 20
+    },
+    {
+      "numero": 148,
+      "tipo": "objetiva",
+      "enunciado": "O triângulo da figura é denominado triângulo mágico. Nos círculos, escrevem-se os números de 1 a 6, sem repetição, com um número em cada círculo. O objetivo é distribuir os números de forma que as somas dos números em cada lado do triângulo sejam iguais.\n\n[IMAGEM]\n\nConsidere que os números colocados nos vértices do triângulo estejam em progressão aritmética de razão igual a 2.\n\nNas condições propostas, quais as possíveis soluções para as somas dos números que formam os lados do triângulo?",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 20: Esquema do triângulo mágico com círculos nos vértices e lados."
+      ],
+      "alternativas": {
+        "a": "Há somente uma solução possível, e as somas em cada lado do triângulo são iguais a 7.",
+        "b": "Há somente uma solução possível, e as somas em cada lado do triângulo são iguais a 9.",
+        "c": "Há somente duas soluções possíveis, uma em que as somas em cada lado do triângulo são iguais a 7 e outra em que as somas são iguais a 9.",
+        "d": "Há somente duas soluções possíveis, uma em que as somas em cada lado do triângulo são iguais a 9 e outra em que as somas são iguais a 12.",
+        "e": "Há somente duas soluções possíveis, uma em que as somas em cada lado do triângulo são iguais a 10 e outra em que as somas são iguais a 11."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Progressão Aritmética (PA) - termo geral e soma dos termos",
+            "Princípios multiplicativo e aditivo da contagem"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 20
+    },
+    {
+      "numero": 149,
+      "tipo": "objetiva",
+      "enunciado": "No alojamento de uma universidade, há alguns quartos com o padrão superior ao dos demais. Um desses quartos ficou disponível, e muitos estudantes se candidataram para morar no local. Para escolher quem ficará com o quarto, um sorteio será realizado. Para esse sorteio, cartões individuais com os nomes de todos os estudantes inscritos serão depositados em uma urna, sendo que, para cada estudante de primeiro ano, será depositado um único cartão com seu nome; para cada estudante de segundo ano, dois cartões com seu nome; e, para cada estudante de terceiro ano, três cartões com seu nome. Foram inscritos 200 estudantes de primeiro ano, 150 de segundo ano e 100 de terceiro ano. Todos os cartões têm a mesma probabilidade de serem sorteados.\n\nQual a probabilidade de o vencedor do sorteio ser um estudante de terceiro ano?",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "1/2",
+        "b": "1/3",
+        "c": "1/8",
+        "d": "2/9",
+        "e": "3/8"
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Espaço amostral (discreto e contínuo) e conceito de probabilidade"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 21
+    },
+    {
+      "numero": 150,
+      "tipo": "objetiva",
+      "enunciado": "A água utilizada pelos 75 moradores de um vilarejo provém de um reservatório de formato cilíndrico circular reto cujo raio da base mede 5 metros, sempre abastecido no primeiro dia de cada mês por caminhões-pipa. Cada morador desse vilarejo consome, em média, 200 litros de água por dia.\n\nNo mês de junho de um determinado ano, o vilarejo festejou o dia do seu padroeiro e houve um gasto extra de água nos primeiros 20 dias. Passado esse período, as pessoas verificaram a quantidade de água presente no reservatório e constataram que o nível da coluna de água estava em 1,5 metro. Decidiram, então, fazer um racionamento de água durante os 10 dias seguintes. Considere 3 como aproximação para π.\n\nQual é a quantidade mínima de água, em litro, que cada morador, em média, deverá economizar por dia, de modo que o reservatório não fique sem água nos próximos 10 dias?",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "50",
+        "b": "60",
+        "c": "80",
+        "d": "140",
+        "e": "150"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Sistema Internacional de Medidas (conversões e unidades de informática)",
+            "Cilindro, cone e esfera (área, volume e capacidade)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 21
+    },
+    {
+      "numero": 151,
+      "tipo": "objetiva",
+      "enunciado": "Em janeiro do ano passado, a direção de uma fábrica abriu uma creche para os filhos de seus funcionários, com 10 salas, cada uma com capacidade para atender 10 crianças a cada ano. As vagas são sorteadas entre os filhos dos funcionários inscritos, enquanto os não contemplados pelo sorteio formam uma lista de espera. No ano passado, a lista de espera teve 400 nomes e, neste ano, esse número cresceu 10%.\n\nA direção da fábrica realizou uma pesquisa e constatou que a lista de espera para o próximo ano terá a mesma quantidade de nomes da lista de espera deste ano. Decidiu, então, construir, ao longo desse ano, novas salas para a creche, também com capacidade de atendimento para 10 crianças cada, de modo que o número de nomes na lista de espera no próximo ano seja 25% menor que o deste ano.\n\nO número mínimo de salas que deverão ser construídas é",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "10.",
+        "b": "11.",
+        "c": "13.",
+        "d": "30.",
+        "e": "33."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Matemática Financeira: porcentagem, juros simples, juros compostos, taxas e índices",
+            "Razões e proporções diretas e inversas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 21
+    },
+    {
+      "numero": 152,
+      "tipo": "objetiva",
+      "enunciado": "Os números figurados pentagonais provavelmente foram introduzidos pelos pitagóricos por volta do século V a.C. As figuras ilustram como obter os seis primeiros deles, sendo os demais obtidos seguindo o mesmo padrão geométrico.\n\n[IMAGEM]\n\nO oitavo número pentagonal é",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 22: Ilustração dos números figurados pentagonais (1, 5, 12, 22, 35, 51)."
+      ],
+      "alternativas": {
+        "a": "59.",
+        "b": "83.",
+        "c": "86.",
+        "d": "89.",
+        "e": "92."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Noção de sequência e lei de formação/recorrência",
+            "Progressão Aritmética (PA) - termo geral e soma dos termos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 22
+    },
+    {
+      "numero": 153,
+      "tipo": "objetiva",
+      "enunciado": "A figura ilustra uma roda-gigante no exato instante em que a cadeira onde se encontra a pessoa P está no ponto mais alto dessa roda-gigante.\n\n[IMAGEM]\n\nCom o passar do tempo, à medida que a roda-gigante gira, com velocidade angular constante e no sentido horário, a altura da cadeira onde se encontra a pessoa P, em relação ao solo, vai se alterando.\n\nO gráfico que melhor representa a variação dessa altura, em função do tempo, contado a partir do instante em que a cadeira da pessoa P se encontra na posição mais alta da roda-gigante, é",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 22: Ilustração da roda-gigante com a pessoa P no topo.",
+        "Página 22: Gráficos de variação da altura em função do tempo (A, B, C, D, E)."
+      ],
+      "alternativas": {
+        "a": "[Gráfico A]",
+        "b": "[Gráfico B]",
+        "c": "[Gráfico C]",
+        "d": "[Gráfico D]",
+        "e": "[Gráfico E]"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Círculo trigonométrico e funções periódicas (seno e cosseno)",
+            "Gráficos de funções por uma ou várias sentenças"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 22
+    },
+    {
+      "numero": 154,
+      "tipo": "objetiva",
+      "enunciado": "Um professor, para promover a aprendizagem dos estudantes em estatística, propôs uma atividade. O objetivo era verificar o percentual de estudantes com massa corporal abaixo da média e altura acima da média de um grupo de estudantes. Para isso, usando uma balança e uma fita métrica, avaliou uma amostra de dez estudantes, anotando as medidas observadas. O gráfico apresenta a massa corporal, em quilograma, e a altura, em metro, obtidas na atividade.\n\n[GRÁFICO]\n\nApós a coleta dos dados, os estudantes calcularam a média dos valores obtidos, referentes à massa corporal e à altura, obtendo, respectivamente, 80 kg e 1,65 m.\n\nQual é o percentual de estudantes dessa amostra com massa corporal abaixo da média e altura acima da média?",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 23: Gráfico de dispersão de massa corporal versus altura de estudantes."
+      ],
+      "alternativas": {
+        "a": "10",
+        "b": "20",
+        "c": "30",
+        "d": "50",
+        "e": "70"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Estatística: medidas de tendência central (média, moda e mediana)",
+            "Interpretação de gráficos (barras, setores, histogramas, box-plot, ramos e folhas)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 23
+    },
+    {
+      "numero": 155,
+      "tipo": "objetiva",
+      "enunciado": "Um pescador tem um custo fixo diário de R$ 900,00 com combustível, iscas, manutenção de seu barco e outras pequenas despesas. Ele vende cada quilograma de peixe por R$ 5,00. Sua meta é obter um lucro mínimo de R$ 800,00 por dia. Sozinho, ele consegue, ao final de um dia de trabalho, pescar 180 kg de peixe, o que é suficiente apenas para cobrir o custo fixo diário. Portanto, precisa contratar ajudantes, pagando para cada um R$ 250,00 por dia de trabalho. Além desse valor, 4% da receita obtida pela venda de peixe é repartida igualmente entre os ajudantes. Considerando o tamanho de seu barco, ele pode contratar até 5 ajudantes. Ele sabe que com um ajudante a pesca diária é de 300 kg e que, a partir do segundo ajudante contratado, aumenta-se em 100 kg a quantidade de peixe pescada por ajudante em um dia de trabalho.\n\nA quantidade mínima de ajudantes que esse pescador precisa contratar para conseguir o lucro diário pretendido é",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "1.",
+        "b": "2.",
+        "c": "3.",
+        "d": "4.",
+        "e": "5."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Matemática Financeira: porcentagem, juros simples, juros compostos, taxas e índices",
+            "Equações e inequações lineares, quadráticas, exponenciais, logarítmicas e modulares"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 23
+    },
+    {
+      "numero": 156,
+      "tipo": "objetiva",
+      "enunciado": "Um agricultor é informado sobre um método de proteção para sua lavoura que consiste em inserir larvas específicas, de rápida reprodução. A reprodução dessas larvas faz com que sua população multiplique-se por 10 a cada 3 dias e, para evitar eventuais desequilíbrios, é possível cessar essa reprodução aplicando-se um produto X. O agricultor decide iniciar esse método com 100 larvas e dispõe de 5 litros do produto X, cuja aplicação recomendada é de exatamente 1 litro para cada população de 200 000 larvas. A quantidade total do produto X de que ele dispõe deverá ser aplicada de uma única vez.\n\nQuantos dias após iniciado esse método o agricultor deverá aplicar o produto X?",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "2",
+        "b": "4",
+        "c": "6",
+        "d": "12",
+        "e": "18"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Função exponencial e propriedades",
+            "Taxa de variação: crescimento linear, quadrático e exponencial"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 23
+    },
+    {
+      "numero": 157,
+      "tipo": "objetiva",
+      "enunciado": "Ao realizar o cadastro em um aplicativo de investimentos, foi solicitado ao usuário que criasse uma senha, sendo permitido o uso somente dos seguintes caracteres:\n• algarismos de 0 a 9;\n• 26 letras minúsculas do alfabeto;\n• 26 letras maiúsculas do alfabeto;\n• 6 caracteres especiais !, @, #, $, *, &.\n\nTrês tipos de estruturas para senha foram apresentadas ao usuário:\n• tipo I: formada por quaisquer quatro caracteres distintos, escolhidos dentre os permitidos;\n• tipo II: formada por cinco caracteres distintos, iniciando por três letras, seguidas por um algarismo e, ao final, um caractere especial;\n• tipo III: formada por seis caracteres distintos, iniciando por duas letras, seguidas por dois algarismos e, ao final, dois caracteres especiais.\n\nConsidere p₁, p₂ e p₃ as probabilidades de se descobrirem ao acaso, na primeira tentativa, as senhas dos tipos I, II e III, respectivamente.\n\nNessas condições, o tipo de senha que apresenta a menor probabilidade de ser descoberta ao acaso, na primeira tentativa, é o",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "tipo I, pois p₁ < p₂ < p₃.",
+        "b": "tipo I, pois tem menor quantidade de caracteres.",
+        "c": "tipo II, pois tem maior quantidade de letras.",
+        "d": "tipo III, pois p₃ < p₂ < p₁.",
+        "e": "tipo III, pois tem maior quantidade de caracteres."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Princípios multiplicativo e aditivo da contagem",
+            "Arranjos, permutações e combinações simples",
+            "Espaço amostral (discreto e contínuo) e conceito de probabilidade"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 23
+    },
+    {
+      "numero": 158,
+      "tipo": "objetiva",
+      "enunciado": "Em um colégio público, a admissão no primeiro ano se dá por sorteio. Neste ano há 55 candidatos, cujas inscrições são numeradas de 01 a 55. O sorteio de cada número de inscrição será realizado em etapas, utilizando-se duas urnas. Da primeira urna será sorteada uma bola, dentre bolas numeradas de 0 a 9, que representará o algarismo das unidades do número de inscrição a ser sorteado e, em seguida, da segunda urna, será sorteada uma bola para representar o algarismo das dezenas desse número. Depois do primeiro sorteio, e antes de se sortear o algarismo das dezenas, as bolas que estarão presentes na segunda urna serão apenas aquelas cujos números formam, com o algarismo já sorteado, um número de 01 a 55.\n\nAs probabilidades de os candidatos de inscrição número 50 e 02 serem sorteados são, respectivamente,",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "1/50 e 1/60",
+        "b": "1/50 e 1/50",
+        "c": "1/50 e 1/10",
+        "d": "1/55 e 1/54",
+        "e": "1/100 e 1/100"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Espaço amostral (discreto e contínuo) e conceito de probabilidade",
+            "Probabilidade condicional e eventos independentes"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 24
+    },
+    {
+      "numero": 159,
+      "tipo": "objetiva",
+      "enunciado": "O esquema mostra como a intensidade luminosa decresce com o aumento da profundidade em um rio, sendo L₀ a intensidade na sua superfície.\n\n[IMAGEM]\n\nConsidere que a intensidade luminosa diminui, a cada metro acrescido na profundidade, segundo o mesmo padrão do esquema.\n\nA intensidade luminosa correspondente à profundidade de 6 m é igual a",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 24: Esquema da diminuição da intensidade luminosa em função da profundidade."
+      ],
+      "alternativas": {
+        "a": "1/9 L₀",
+        "b": "16/27 L₀",
+        "c": "32/243 L₀",
+        "d": "64/729 L₀",
+        "e": "128/2187 L₀"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Progressão Geométrica (PG) - termo geral e soma dos termos",
+            "Função exponencial e propriedades"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 24
+    },
+    {
+      "numero": 160,
+      "tipo": "objetiva",
+      "enunciado": "Analisando as vendas de uma empresa, o gerente concluiu que o montante diário arrecadado, em milhar de real, poderia ser calculado pela expressão V(x) = x²/4 - 10x + 105, em que os valores de x representam os dias do mês, variando de 1 a 30.\n\nUm dos fatores para avaliar o desempenho mensal da empresa é verificar qual é o menor montante diário V₀ arrecadado ao longo do mês e classificar o desempenho conforme as categorias apresentadas a seguir, em que as quantidades estão expressas em milhar de real.\n• Ótimo: V₀ ≥ 24\n• Bom: 20 ≤ V₀ < 24\n• Normal: 10 ≤ V₀ < 20\n• Ruim: 4 ≤ V₀ < 10\n• Péssimo: V₀ < 4\n\nNo caso analisado, qual seria a classificação do desempenho da empresa?",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "Ótimo.",
+        "b": "Bom.",
+        "c": "Normal.",
+        "d": "Ruim.",
+        "e": "Péssimo."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Função quadrática: raízes, gráfico da parábola e pontos de máximo/mínimo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 24
+    },
+    {
+      "numero": 161,
+      "tipo": "objetiva",
+      "enunciado": "Dirigir após ingerir bebidas alcoólicas é uma atitude extremamente perigosa, uma vez que, a partir da primeira dose, a pessoa já começa a ter perda de sensibilidade de movimentos e de reflexos. Apesar de a eliminação e absorção do álcool depender de cada pessoa e de como o organismo consegue metabolizar a substância, ao final da primeira hora após a ingestão, a concentração de álcool (C) no sangue corresponde a aproximadamente 90% da quantidade (q) de álcool ingerida, e a eliminação total dessa concentração pode demorar até 12 horas.\n\nDisponível em: http://g1.globo.com. Acesso em: 1 dez. 2018 (adaptado).\n\nNessas condições, ao final da primeira hora após a ingestão da quantidade q de álcool, a concentração C dessa substância no sangue é expressa algebricamente por",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "C = 0,9q",
+        "b": "C = 0,1q",
+        "c": "C = 1 − 0,1q",
+        "d": "C = 1 − 0,9q",
+        "e": "C = q − 10"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Conceito de função e relações entre grandezas",
+            "Função polinomial do 1º grau e função constante"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 25
+    },
+    {
+      "numero": 162,
+      "tipo": "objetiva",
+      "enunciado": "Um investidor iniciante observou o gráfico que apresenta a evolução dos valores de duas criptomoedas A e B em relação ao tempo.\n\n[GRÁFICO]\n\nDurante horas consecutivas, esses valores foram observados em nove instantes, representados por horas exatas.\n\nEm quantos desses instantes a criptomoeda A estava mais valorizada do que a criptomoeda B?",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 25: Gráfico de evolução de valores das criptomoedas A e B."
+      ],
+      "alternativas": {
+        "a": "3",
+        "b": "4",
+        "c": "6",
+        "d": "7",
+        "e": "9"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Gráficos de funções por uma ou várias sentenças",
+            "Interpretação de gráficos (barras, setores, histogramas, box-plot, ramos e folhas)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 25
+    },
+    {
+      "numero": 163,
+      "tipo": "objetiva",
+      "enunciado": "A exposição a alguns níveis sonoros pode causar lesões auditivas. Por isso, em uma indústria, são adotadas medidas preventivas de acordo com a máquina que o funcionário opera e o nível N de intensidade do som, medido em decibel (dB), a que o operário é exposto, sendo N = log₁₀(I / I₀), I a intensidade do som e I₀ = 10⁻¹² W/m².\n\nDisponível em: www.sofisica.com.br. Acesso em: 8 jul. 2015 (adaptado).\n\nQuando o som é considerado baixo, ou seja, N = 48 dB ou menos, deve ser utilizada a medida preventiva I. No caso de o som ser moderado, quando N está no intervalo (48 dB, 55 dB), deve ser utilizada a medida preventiva II. Quando o som é moderado alto, que equivale a N no intervalo (55 dB, 80 dB), a medida preventiva a ser usada é a III. Se N estiver no intervalo (80 dB, 115 dB), quando o som é considerado alto, deve ser utilizada a medida preventiva IV. E se o som é considerado muito alto, com N maior que 115 dB, deve-se utilizar a medida preventiva V.\n\nUma nova máquina, com I = 8 × 10⁻⁸ W/m², foi adquirida e será classificada de acordo com o nível de ruído que produz.\n\nConsidere 0,3 como aproximação para log₁₀2.\n\nO funcionário que operará a nova máquina deverá adotar a medida preventiva",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "I.",
+        "b": "II.",
+        "c": "III.",
+        "d": "IV.",
+        "e": "V."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Teoria dos logaritmos, propriedades e função logarítmica"
+          ]
+        },
+        {
+          "area": "Física",
+          "assuntos": [
+            "Acústica: velocidade do som, qualidades fisiológicas (altura, timbre, intensidade), tubos sonoros e Efeito Doppler"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 25
+    },
+    {
+      "numero": 164,
+      "tipo": "objetiva",
+      "enunciado": "Um artista plástico esculpe uma escultura a partir de um bloco de madeira de lei, em etapas. Inicialmente, esculpe um cone reto com 36 cm de altura e diâmetro da base medindo 18 cm. Em seguida, remove desse cone um cone menor, cujo diâmetro da base mede 6 cm, obtendo, assim, um tronco de cone, conforme ilustrado na figura.\n\n[IMAGEM]\n\nEm seguida, perfura esse tronco de cone, removendo um cilindro reto, de diâmetro 6 cm, cujo eixo de simetria é o mesmo do cone original. Dessa forma, ao final, a escultura tem a forma de um tronco de cone com uma perfuração cilíndrica de base a base.\n\nO tipo de madeira utilizada para produzir essa escultura tem massa igual a 0,6 g por centímetro cúbico de volume. Utilize 3 como aproximação para π.\n\nQual é a massa, em grama, dessa escultura?",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 26: Ilustração do cone e do tronco de cone com medidas."
+      ],
+      "alternativas": {
+        "a": "1 198,8",
+        "b": "1 296,0",
+        "c": "1 360,8",
+        "d": "4 665,6",
+        "e": "4 860,0"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Geometria Espacial: vistas ortogonais e planificação",
+            "Poliedros, corpos redondos, prismas, pirâmides e troncos (área e volume)",
+            "Cilindro, cone e esfera (área, volume e capacidade)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 26
+    },
+    {
+      "numero": 165,
+      "tipo": "objetiva",
+      "enunciado": "Os 100 funcionários de uma empresa estão distribuídos em dois setores: Produção e Administração. Os funcionários de um mesmo setor recebem salários com valores iguais. O quadro apresenta a quantidade de funcionários por setor e seus respectivos salários.\n\n[TABELA]\n\nA média dos salários dos 100 funcionários dessa empresa, em real, é",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 26: Tabela com quantidade de funcionários por setor e salários."
+      ],
+      "alternativas": {
+        "a": "2 000,00.",
+        "b": "2 500,00.",
+        "c": "3 250,00.",
+        "d": "4 500,00.",
+        "e": "9 000,00."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Estatística: medidas de tendência central (média, moda e mediana)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 26
+    },
+    {
+      "numero": 166,
+      "tipo": "objetiva",
+      "enunciado": "Visando atrair mais clientes, o gerente de uma loja anunciou uma promoção em que cada cliente que realizar uma compra pode ganhar um voucher para ser usado em sua próxima compra. Para ganhar seu voucher, o cliente precisa retirar, ao acaso, uma bolinha de dentro de cada uma das duas urnas A e B disponibilizadas pelo gerente, nas quais há apenas bolinhas pretas e brancas. Atualmente, a probabilidade de se escolher, ao acaso, uma bolinha preta na urna A é igual a 20% e a probabilidade de se escolher uma bolinha preta na urna B é 25%.\n\nGanha o voucher o cliente que retirar duas bolinhas pretas, uma de cada urna.\n\nCom o passar dos dias, o gerente percebeu que, para a promoção ser viável aos negócios, era preciso alterar a probabilidade de acerto do cliente sem alterar a regra da promoção. Para isso, resolveu alterar a quantidade de bolinhas brancas na urna B de forma que a probabilidade de um cliente ganhar o voucher passasse a ser menor ou igual a 1%. Sabe-se que a urna B tem 4 bolinhas pretas e que, em ambas as urnas, todas as bolinhas têm a mesma probabilidade de serem retiradas.\n\nQual é o número mínimo de bolinhas brancas que o gerente deve adicionar à urna B?",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "20",
+        "b": "60",
+        "c": "64",
+        "d": "68",
+        "e": "80"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Espaço amostral (discreto e contínuo) e conceito de probabilidade",
+            "Probabilidade da união e da intersecção de eventos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 26
+    },
+    {
+      "numero": 167,
+      "tipo": "objetiva",
+      "enunciado": "Estudantes trabalhando com robótica criaram uma “torneira inteligente” que automatiza sua abertura e seu fechamento durante a limpeza das mãos. A tecnologia funciona da seguinte forma: ao se colocarem as mãos sob a torneira, ela libera água durante 3 segundos para que a pessoa possa molhá-las. Em seguida, interrompe o fornecimento de água por 5 segundos, enquanto a pessoa ensaboa suas mãos, e finaliza o ciclo liberando água para o enxágue por mais 3 segundos. Considere o tempo (t), em segundo, contado a partir do instante em que se inicia o ciclo. A vazão de água nessa torneira é constante.\n\nUm esboço de gráfico que descreve o volume de água acumulado, em litro, liberado por essa torneira durante um ciclo de lavagem das mãos, em função do tempo (t), em segundo, é",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 27: Esboços de gráficos (A, B, C, D, E) do volume de água em função do tempo."
+      ],
+      "alternativas": {
+        "a": "[Gráfico A]",
+        "b": "[Gráfico B]",
+        "c": "[Gráfico C]",
+        "d": "[Gráfico D]",
+        "e": "[Gráfico E]"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Gráficos de funções por uma ou várias sentenças",
+            "Conceito de função e relações entre grandezas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 27
+    },
+    {
+      "numero": 168,
+      "tipo": "objetiva",
+      "enunciado": "As características culturais variam de povo para povo. Há notícias de um povo que possuía formas de contar diferentes das nossas, como indicado no quadrinho a seguir.\n\n[IMAGEM]\n\nSegundo o padrão de contagem indicado na figura, as representações dos numerais cinco e sete, nessa cultura, devem ser, respectivamente,",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 27: Quadrinho ilustrando o sistema de contagem indígena/alternativo para os números 1 a 6."
+      ],
+      "alternativas": {
+        "a": "okosa urapum urapum urapum e okosa okosa urapum urapum urapum.",
+        "b": "okosa okosa urapum e okosa okosa okosa okosa urapum.",
+        "c": "okosa okosa urapum e okosa okosa okosa urapum.",
+        "d": "okosa urapum urapum e okosa urapum okosa urapum urapum.",
+        "e": "okosa okosa urapum e okosa okosa okosa okosa."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Sistemas de contagem: base decimal, binária e sexagesimal",
+            "Noção de sequência e lei de formação/recorrência"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 27
+    },
+    {
+      "numero": 169,
+      "tipo": "objetiva",
+      "enunciado": "Um tipo de semente necessita de bastante água nos dois primeiros meses após o plantio. Um produtor pretende estabelecer o melhor momento para o plantio desse tipo de semente, nos meses de outubro a março. Após consultar a previsão do índice mensal de precipitação de chuva (ImPC) da região onde ocorrerá o plantio, para o período chuvoso de 2020-2021, ele obteve os seguintes dados:\n• outubro/2020: ImPC = 250 mm;\n• novembro/2020: ImPC = 150 mm;\n• dezembro/2020: ImPC = 200 mm;\n• janeiro/2021: ImPC = 450 mm;\n• fevereiro/2021: ImPC = 100 mm;\n• março/2021: ImPC = 200 mm.\n\nCom base nessas previsões, ele precisa escolher dois meses consecutivos em que a média mensal de precipitação seja a maior possível.\n\nNo início de qual desses meses o produtor deverá plantar esse tipo de semente?",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "Outubro.",
+        "b": "Novembro.",
+        "c": "Dezembro.",
+        "d": "Janeiro.",
+        "e": "Fevereiro."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Estatística: medidas de tendência central (média, moda e mediana)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 27
+    },
+    {
+      "numero": 170,
+      "tipo": "objetiva",
+      "enunciado": "Uma loja vende seus produtos de duas formas: à vista ou financiado em três parcelas mensais iguais. Para definir o valor dessas parcelas nas vendas financiadas, a loja aumenta em 20% o valor do produto à vista e divide esse novo valor por 3. A primeira parcela deve ser paga no ato da compra, e as duas últimas, em 30 e 60 dias após a compra.\n\nUm cliente da loja decidiu comprar, de forma financiada, um produto cujo valor à vista é R$ 1 500,00.\n\nUtilize 5,29 como aproximação para √28.\n\nA taxa mensal de juros compostos praticada nesse financiamento é de",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "6,7%",
+        "b": "10%",
+        "c": "20%",
+        "d": "21,5%",
+        "e": "23,3%"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Matemática Financeira: porcentagem, juros simples, juros compostos, taxas e índices"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 28
+    },
+    {
+      "numero": 171,
+      "tipo": "objetiva",
+      "enunciado": "Para concretar a laje de sua residência, uma pessoa contratou uma construtora. Tal empresa informa que o preço y do concreto bombeado é composto de duas partes: uma fixa, chamada de taxa de bombeamento, e uma variável, que depende do volume x de concreto utilizado. Sabe-se que a taxa de bombeamento custa R$ 500,00 e que o metro cúbico do concreto bombeado é de R$ 250,00.\n\nA expressão que representa o preço y em função do volume x, em metro cúbico, é",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "y = 250x",
+        "b": "y = 500x",
+        "c": "y = 750x",
+        "d": "y = 250x + 500",
+        "e": "y = 500x + 250"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Conceito de função e relações entre grandezas",
+            "Função polinomial do 1º grau e função constante"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 28
+    },
+    {
+      "numero": 172,
+      "tipo": "objetiva",
+      "enunciado": "Uma empresa de segurança domiciliar oferece o serviço de patrulha noturna, no qual vigilantes em motocicletas fazem o monitoramento periódico de residências. A empresa conta com uma base, de onde acompanha o trajeto realizado pelos vigilantes durante as patrulhas e orienta o deslocamento de equipes de reforço quando necessário. Numa patrulha rotineira, sem ocorrências, um vigilante conduziu sua motocicleta a uma velocidade constante durante todo o itinerário estabelecido, levando 30 minutos para conclusão. De acordo com os registros do GPS alocado na motocicleta, a distância da posição do vigilante à base, ao longo do tempo de realização do trajeto, é descrita pelo gráfico.\n\n[GRÁFICO]\n\nA vista superior da trajetória realizada pelo vigilante durante a patrulha registrada no gráfico é descrita pela representação",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 28: Gráfico de distância do vigilante em relação à base em função do tempo.",
+        "Página 28: Representações de trajetórias (A, B, C, D, E)."
+      ],
+      "alternativas": {
+        "a": "[Trajetória A]",
+        "b": "[Trajetória B]",
+        "c": "[Trajetória C]",
+        "d": "[Trajetória D]",
+        "e": "[Trajetória E]"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Geometria Analítica Básica: coordenadas, plano cartesiano, distância e ponto médio",
+            "Interpretação de gráficos (barras, setores, histogramas, box-plot, ramos e folhas)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 28
+    },
+    {
+      "numero": 173,
+      "tipo": "objetiva",
+      "enunciado": "Um supermercado conta com cinco caixas disponíveis para pagamento. Foram instaladas telas que apresentam o tempo médio gasto por cada caixa para iniciar e finalizar o atendimento de cada cliente, e o número de pessoas presentes na fila de cada caixa em tempo real. Um cliente, na hora de passar sua compra, sabendo que cada um dos cinco caixas iniciará um novo atendimento naquele momento, pretende gastar o menor tempo possível de espera na fila. Ele observa que as telas apresentavam as informações a seguir.\n\n• Caixa I: atendimento 12 minutos, 5 pessoas na fila.\n• Caixa II: atendimento 6 minutos, 9 pessoas na fila.\n• Caixa III: atendimento 5 minutos, 6 pessoas na fila.\n• Caixa IV: atendimento 15 minutos, 2 pessoas na fila.\n• Caixa V: atendimento 9 minutos, 3 pessoas na fila.\n\nPara alcançar seu objetivo, o cliente deverá escolher o caixa",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "I.",
+        "b": "II.",
+        "c": "III.",
+        "d": "IV.",
+        "e": "V."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Operações fundamentais com números inteiros e decimais",
+            "Ordem na reta numérica e resolução de problemas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 29
+    },
+    {
+      "numero": 174,
+      "tipo": "objetiva",
+      "enunciado": "As figuras pintadas no quadro da sala de estar de uma residência representam as silhuetas de parte das torres de um castelo e, ao fundo, a de uma lua cheia. A lua foi pintada na forma de um círculo, e o telhado da torre mais alta, na forma de triângulo equilátero, foi pintado sobrepondo parte da lua. O centro da lua coincide com um dos vértices do telhado da torre mais alta.\n\nNesse quadro, a parte da lua escondida atrás da torre mais alta do castelo pode ser representada por um",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "cone.",
+        "b": "setor circular.",
+        "c": "segmento circular.",
+        "d": "triângulo isósceles.",
+        "e": "arco de circunferência."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Cálculo de áreas (polígonos, círculos, coroas e setores circulares)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 29
+    },
+    {
+      "numero": 175,
+      "tipo": "objetiva",
+      "enunciado": "Na planta baixa de um clube, a piscina é representada por um quadrado cuja área real mede 400 m². Ao redor dessa piscina, será construída uma calçada, de largura constante igual a 5 m.\n\n[IMAGEM]\n\nQual é a medida da área, em metro quadrado, ocupada pela calçada?",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 29: Planta baixa representando a piscina quadrada e a calçada ao redor."
+      ],
+      "alternativas": {
+        "a": "1 000",
+        "b": "900",
+        "c": "600",
+        "d": "500",
+        "e": "400"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Cálculo de áreas (polígonos, círculos, coroas e setores circulares)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 29
+    },
+    {
+      "numero": 176,
+      "tipo": "objetiva",
+      "enunciado": "Uma pessoa caminha por 30 minutos e utiliza um aplicativo instalado em seu celular para monitorar a variação da intensidade do sinal de internet recebido pelo aparelho durante o deslocamento. Chegando ao seu destino, o aplicativo forneceu este gráfico:\n\n[GRÁFICO]\n\nPor quantos minutos, durante essa caminhada, o celular dessa pessoa ficou sem receber sinal de internet?",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 29: Gráfico da intensidade do sinal de internet em função do tempo."
+      ],
+      "alternativas": {
+        "a": "6",
+        "b": "8",
+        "c": "10",
+        "d": "14",
+        "e": "24"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Interpretação de gráficos (barras, setores, histogramas, box-plot, ramos e folhas)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 29
+    },
+    {
+      "numero": 177,
+      "tipo": "objetiva",
+      "enunciado": "O gráfico expõe alguns números da gripe A-H1N1. Entre as categorias que estão em processo de imunização, uma já está completamente imunizada, a dos trabalhadores da saúde.\n\n[GRÁFICO]\n\nDe acordo com o gráfico, entre as demais categorias, a que está mais exposta ao vírus da gripe A-H1N1 é a categoria de",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 30: Gráfico de barras horizontais sobre números da campanha contra a gripe A-H1N1."
+      ],
+      "alternativas": {
+        "a": "indígenas.",
+        "b": "gestantes.",
+        "c": "doentes crônicos.",
+        "d": "adultos entre 20 e 29 anos.",
+        "e": "crianças de 6 meses a 2 anos."
+      },
+      "gabarito": null,
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Interpretação de gráficos (barras, setores, histogramas, box-plot, ramos e folhas)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": true,
+      "pagina": 30
+    },
+    {
+      "numero": 178,
+      "tipo": "objetiva",
+      "enunciado": "A figura representa uma escada com três degraus, construída em concreto maciço, com suas medidas especificadas.\n\n[IMAGEM]\n\nNessa escada, pisos e espelhos têm formato retangular, e as paredes laterais têm formato de um polígono cujos lados adjacentes são perpendiculares. Pisos, espelhos e paredes laterais serão revestidos em cerâmica.\n\nA área a ser revestida em cerâmica, em metro quadrado, mede",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 30: Ilustração tridimensional de uma escada de três degraus com medidas."
+      ],
+      "alternativas": {
+        "a": "1,20.",
+        "b": "1,35.",
+        "c": "1,65.",
+        "d": "1,80.",
+        "e": "1,95."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Cálculo de áreas (polígonos, círculos, coroas e setores circulares)",
+            "Geometria Espacial: vistas ortogonais e planificação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 30
+    },
+    {
+      "numero": 179,
+      "tipo": "objetiva",
+      "enunciado": "Uma pessoa comprou um ingresso para o cinema em cuja entrada está afixado um mapa com a representação bidimensional do posicionamento das poltronas, conforme a figura. Essa pessoa, após consultar o mapa, começou a subir uma das escadas e parou na posição indicada pela estrela, direcionada para o norte. Ela conferiu seu bilhete e observou que, para encontrar sua poltrona, deveria partir do ponto onde estava, continuar subindo a escada na direção norte por mais quatro fileiras e olhar à sua direita, e sua poltrona será a terceira.\n\n[IMAGEM]\n\nNesse cinema, as poltronas são identificadas por uma letra, que indica a fileira, e um número, que fornece a posição da poltrona na fileira, respectivamente.\n\nA poltrona dessa pessoa é a identificada por",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 31: Mapa do cinema com a disposição de poltronas, fileiras, escadas e rosa dos ventos."
+      ],
+      "alternativas": {
+        "a": "A6.",
+        "b": "H1.",
+        "c": "H6.",
+        "d": "I1.",
+        "e": "I6."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Geometria Analítica Básica: coordenadas, plano cartesiano, distância e ponto médio"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 31
+    },
+    {
+      "numero": 180,
+      "tipo": "objetiva",
+      "enunciado": "O metrô de um município oferece dois tipos de tíquetes com colorações diferentes, azul e vermelha, sendo vendidos em cartelas, cada qual com nove tíquetes da mesma cor e mesmo valor unitário. Duas cartelas de tíquetes azuis e uma cartela de tíquetes vermelhos são vendidas por R$ 32,40. Sabe-se que o preço de um tíquete azul menos o preço de um tíquete vermelho é igual ao preço de um tíquete vermelho mais cinco centavos.\n\nQual o preço, em real, de uma cartela de tíquetes vermelhos?",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "4,68",
+        "b": "6,30",
+        "c": "9,30",
+        "d": "10,50",
+        "e": "10,65"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Sistemas lineares: métodos de resolução algébrica",
+            "Matemática Financeira: porcentagem, juros simples, juros compostos, taxas e índices"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 31
+    }
+  ]
+}

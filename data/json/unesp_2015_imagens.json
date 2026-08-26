@@ -1,0 +1,369 @@
+{
+  "exame": "unesp_2015",
+  "figuras_coordenadas": {
+    "21": [
+      {
+        "pagina": 7,
+        "tipo": "cartum",
+        "elemento": "Charge de garoto lendo jornal e fazendo sátira com a internet",
+        "bbox": [
+          490,
+          510,
+          720,
+          875
+        ]
+      }
+    ],
+    "22": [
+      {
+        "pagina": 8,
+        "tipo": "cartum",
+        "elemento": "Charge sobre leitura de livro vs tweets",
+        "bbox": [
+          75,
+          160,
+          335,
+          365
+        ]
+      }
+    ],
+    "23": [
+      {
+        "pagina": 8,
+        "tipo": "cartum",
+        "elemento": "Charge sobre leitura de livro vs tweets",
+        "bbox": [
+          75,
+          160,
+          335,
+          365
+        ]
+      }
+    ],
+    "41": [
+      {
+        "pagina": 14,
+        "tipo": "cartum",
+        "elemento": "Charge de Getúlio Vargas e Papai Noel",
+        "bbox": [
+          110,
+          605,
+          335,
+          835
+        ]
+      }
+    ],
+    "47": [
+      {
+        "pagina": 16,
+        "tipo": "imagem",
+        "elemento": "Quatro representações de projeções cartográficas",
+        "bbox": [
+          65,
+          555,
+          905,
+          885
+        ]
+      }
+    ],
+    "51": [
+      {
+        "pagina": 18,
+        "tipo": "mapa",
+        "elemento": "Mapa do Brasil com o papel dirigente dos municípios",
+        "bbox": [
+          120,
+          165,
+          415,
+          495
+        ]
+      }
+    ],
+    "52": [
+      {
+        "pagina": 18,
+        "tipo": "mapa",
+        "elemento": "Mapa do Brasil com o papel dirigente dos municípios",
+        "bbox": [
+          120,
+          165,
+          415,
+          495
+        ]
+      }
+    ],
+    "53": [
+      {
+        "pagina": 19,
+        "tipo": "grafico",
+        "elemento": "Gráfico da evolução das exportações brasileiras por tipo de produto",
+        "bbox": [
+          135,
+          65,
+          275,
+          395
+        ]
+      }
+    ],
+    "54": [
+      {
+        "pagina": 19,
+        "tipo": "tabela",
+        "elemento": "Tabela de relação crédito/depósito entre as regiões brasileiras",
+        "bbox": [
+          65,
+          510,
+          160,
+          890
+        ]
+      }
+    ],
+    "64": [
+      {
+        "pagina": 24,
+        "tipo": "imagem",
+        "elemento": "Embalagem de alho triturado",
+        "bbox": [
+          185,
+          195,
+          260,
+          335
+        ]
+      }
+    ],
+    "65": [
+      {
+        "pagina": 24,
+        "tipo": "imagem",
+        "elemento": "Fotos de pratos do cardápio do bar",
+        "bbox": [
+          110,
+          195,
+          365,
+          875
+        ]
+      }
+    ],
+    "66": [
+      {
+        "pagina": 25,
+        "tipo": "grafico",
+        "elemento": "Gráfico da digestão de nutrientes ao longo do tubo digestório",
+        "bbox": [
+          90,
+          55,
+          325,
+          475
+        ]
+      }
+    ],
+    "67": [
+      {
+        "pagina": 25,
+        "tipo": "figura",
+        "elemento": "Esquema da posição da Terra em relação ao Sol nas quatro estações",
+        "bbox": [
+          185,
+          505,
+          365,
+          875
+        ]
+      }
+    ],
+    "74": [
+      {
+        "pagina": 27,
+        "tipo": "imagem",
+        "elemento": "Fórmula estrutural do 1-pentanotiol",
+        "bbox": [
+          530,
+          630,
+          625,
+          800
+        ]
+      }
+    ],
+    "75": [
+      {
+        "pagina": 28,
+        "tipo": "figura",
+        "elemento": "Esquema do sistema de engrenagens nas posições 1 e 2",
+        "bbox": [
+          275,
+          120,
+          645,
+          475
+        ]
+      }
+    ],
+    "76": [
+      {
+        "pagina": 28,
+        "tipo": "figura",
+        "elemento": "Esquema do aparato experimental e gráficos associados",
+        "bbox": [
+          235,
+          530,
+          745,
+          885
+        ]
+      }
+    ],
+    "77": [
+      {
+        "pagina": 29,
+        "tipo": "figura",
+        "elemento": "Ilustração do lance e gráfico de Força versus Tempo",
+        "bbox": [
+          260,
+          120,
+          595,
+          475
+        ]
+      }
+    ],
+    "78": [
+      {
+        "pagina": 29,
+        "tipo": "figura",
+        "elemento": "Desenho de pessoa segurando pedra submersa na água",
+        "bbox": [
+          250,
+          510,
+          385,
+          885
+        ]
+      }
+    ],
+    "79": [
+      {
+        "pagina": 30,
+        "tipo": "tabela",
+        "elemento": "Tabela de Informação Nutricional",
+        "bbox": [
+          275,
+          170,
+          415,
+          385
+        ]
+      }
+    ],
+    "80": [
+      {
+        "pagina": 30,
+        "tipo": "figura",
+        "elemento": "Esquema da câmera fotográfica digital e seus componentes ópticos",
+        "bbox": [
+          300,
+          535,
+          395,
+          875
+        ]
+      }
+    ],
+    "81": [
+      {
+        "pagina": 31,
+        "tipo": "figura",
+        "elemento": "Esquema de frentes de onda se aproximando da praia",
+        "bbox": [
+          215,
+          120,
+          335,
+          475
+        ]
+      }
+    ],
+    "82": [
+      {
+        "pagina": 31,
+        "tipo": "figura",
+        "elemento": "Esquemas de neurônios, polarização de membrana e campo elétrico",
+        "bbox": [
+          235,
+          530,
+          445,
+          885
+        ]
+      }
+    ],
+    "83": [
+      {
+        "pagina": 32,
+        "tipo": "figura",
+        "elemento": "Esquema da mesa de bilhar e trajetória da bola",
+        "bbox": [
+          210,
+          65,
+          385,
+          365
+        ]
+      }
+    ],
+    "85": [
+      {
+        "pagina": 32,
+        "tipo": "tabela",
+        "elemento": "Tabela com estimativas da economia brasileira",
+        "bbox": [
+          455,
+          510,
+          550,
+          895
+        ]
+      }
+    ],
+    "86": [
+      {
+        "pagina": 33,
+        "tipo": "figura",
+        "elemento": "Esquema geométrico e fotos do filme Wolverine Imortal",
+        "bbox": [
+          115,
+          65,
+          555,
+          475
+        ]
+      }
+    ],
+    "88": [
+      {
+        "pagina": 34,
+        "tipo": "figura",
+        "elemento": "Fotos dos aquários, tabela de dados e gráfico de concentração de oxigênio",
+        "bbox": [
+          65,
+          55,
+          385,
+          475
+        ]
+      }
+    ],
+    "89": [
+      {
+        "pagina": 34,
+        "tipo": "figura",
+        "elemento": "Planta simplificada do galpão retangular",
+        "bbox": [
+          110,
+          530,
+          245,
+          875
+        ]
+      }
+    ],
+    "90": [
+      {
+        "pagina": 34,
+        "tipo": "tabela",
+        "elemento": "Tabela de resultados da pesquisa de opinião",
+        "bbox": [
+          575,
+          510,
+          670,
+          875
+        ]
+      }
+    ]
+  }
+}

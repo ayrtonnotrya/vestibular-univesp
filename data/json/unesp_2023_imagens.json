@@ -1,0 +1,577 @@
+{
+  "exame": "unesp_2023",
+  "figuras_coordenadas": {
+    "1": [
+      {
+        "pagina": 3,
+        "tipo": "cartum",
+        "elemento": "Tirinha com personagens conversando e um deles fazendo menção a inspirar ar/inspiração.",
+        "bbox": [
+          181,
+          91,
+          247,
+          495
+        ]
+      }
+    ],
+    "8": [
+      {
+        "pagina": 4,
+        "tipo": "cartum",
+        "elemento": "Cartum de Paul Noth com personagens e plantas.",
+        "bbox": [
+          517,
+          511,
+          723,
+          977
+        ]
+      }
+    ],
+    "13": [
+      {
+        "pagina": 5,
+        "tipo": "cartum",
+        "elemento": "Tirinha de Laerte com um sapo falando sobre a Terra.",
+        "bbox": [
+          599,
+          512,
+          724,
+          977
+        ]
+      }
+    ],
+    "21": [
+      {
+        "pagina": 8,
+        "tipo": "grafico",
+        "elemento": "Gráficos de temperatura e mapa de anomalias na Antártica.",
+        "bbox": [
+          183,
+          67,
+          556,
+          466
+        ]
+      }
+    ],
+    "22": [
+      {
+        "pagina": 8,
+        "tipo": "grafico",
+        "elemento": "Gráficos de temperatura e mapa de anomalias na Antártica.",
+        "bbox": [
+          183,
+          67,
+          556,
+          466
+        ]
+      }
+    ],
+    "23": [
+      {
+        "pagina": 8,
+        "tipo": "grafico",
+        "elemento": "Gráficos de temperatura e mapa de anomalias na Antártica.",
+        "bbox": [
+          183,
+          67,
+          556,
+          466
+        ]
+      }
+    ],
+    "24": [
+      {
+        "pagina": 8,
+        "tipo": "grafico",
+        "elemento": "Gráficos de temperatura e mapa de anomalias na Antártica.",
+        "bbox": [
+          183,
+          67,
+          556,
+          466
+        ]
+      }
+    ],
+    "25": [
+      {
+        "pagina": 8,
+        "tipo": "grafico",
+        "elemento": "Gráficos de temperatura e mapa de anomalias na Antártica.",
+        "bbox": [
+          183,
+          67,
+          556,
+          466
+        ]
+      }
+    ],
+    "26": [
+      {
+        "pagina": 8,
+        "tipo": "grafico",
+        "elemento": "Gráficos de temperatura e mapa de anomalias na Antártica.",
+        "bbox": [
+          183,
+          67,
+          556,
+          466
+        ]
+      }
+    ],
+    "27": [
+      {
+        "pagina": 9,
+        "tipo": "imagem",
+        "elemento": "Foto de pessoas na orla de Helsinque.",
+        "bbox": [
+          111,
+          517,
+          247,
+          977
+        ]
+      }
+    ],
+    "28": [
+      {
+        "pagina": 9,
+        "tipo": "imagem",
+        "elemento": "Foto de pessoas na orla de Helsinque.",
+        "bbox": [
+          111,
+          517,
+          247,
+          977
+        ]
+      }
+    ],
+    "29": [
+      {
+        "pagina": 9,
+        "tipo": "imagem",
+        "elemento": "Foto de pessoas na orla de Helsinque.",
+        "bbox": [
+          111,
+          517,
+          247,
+          977
+        ]
+      }
+    ],
+    "30": [
+      {
+        "pagina": 10,
+        "tipo": "cartum",
+        "elemento": "Tirinha cômica sobre felicidade.",
+        "bbox": [
+          490,
+          513,
+          589,
+          977
+        ]
+      }
+    ],
+    "34": [
+      {
+        "pagina": 11,
+        "tipo": "imagem",
+        "elemento": "Imagens da estátua de Nossa Senhora do Rosário.",
+        "bbox": [
+          89,
+          534,
+          418,
+          919
+        ]
+      }
+    ],
+    "38": [
+      {
+        "pagina": 13,
+        "tipo": "imagem",
+        "elemento": "Anúncio do sabonete Pears.",
+        "bbox": [
+          71,
+          517,
+          466,
+          465
+        ]
+      }
+    ],
+    "44": [
+      {
+        "pagina": 15,
+        "tipo": "mapa",
+        "elemento": "Mapa dos países da ex-Iugoslávia e entorno.",
+        "bbox": [
+          259,
+          512,
+          501,
+          915
+        ]
+      }
+    ],
+    "45": [
+      {
+        "pagina": 16,
+        "tipo": "mapa",
+        "elemento": "Mapa mundi com demarcações numéricas.",
+        "bbox": [
+          87,
+          51,
+          245,
+          486
+        ]
+      }
+    ],
+    "47": [
+      {
+        "pagina": 16,
+        "tipo": "mapa",
+        "elemento": "Mapa das Frentes de Proteção na Amazônia.",
+        "bbox": [
+          79,
+          512,
+          331,
+          966
+        ]
+      }
+    ],
+    "49": [
+      {
+        "pagina": 17,
+        "tipo": "imagem",
+        "elemento": "Imagem de satélite e meteorologia da ZCAS.",
+        "bbox": [
+          87,
+          72,
+          248,
+          475
+        ]
+      }
+    ],
+    "50": [
+      {
+        "pagina": 17,
+        "tipo": "fotografia",
+        "elemento": "Imagens da instalação de geotêxtil em talude.",
+        "bbox": [
+          308,
+          512,
+          500,
+          966
+        ]
+      }
+    ],
+    "52": [
+      {
+        "pagina": 18,
+        "tipo": "infografico",
+        "elemento": "Ícones de componentes da pegada ecológica.",
+        "bbox": [
+          111,
+          513,
+          759,
+          966
+        ]
+      }
+    ],
+    "53": [
+      {
+        "pagina": 19,
+        "tipo": "fotografia",
+        "elemento": "Foto urbana com a inscrição do rio Saracura.",
+        "bbox": [
+          87,
+          72,
+          236,
+          466
+        ]
+      }
+    ],
+    "56": [
+      {
+        "pagina": 20,
+        "tipo": "cartum",
+        "elemento": "Tirinha do Texto 1.",
+        "bbox": [
+          87,
+          72,
+          335,
+          475
+        ]
+      }
+    ],
+    "63": [
+      {
+        "pagina": 22,
+        "tipo": "esquema",
+        "elemento": "Estruturas internas de um ovo embrionado.",
+        "bbox": [
+          319,
+          556,
+          500,
+          915
+        ]
+      }
+    ],
+    "65": [
+      {
+        "pagina": 23,
+        "tipo": "tabela",
+        "elemento": "Tabela com dados de hemograma.",
+        "bbox": [
+          254,
+          511,
+          475,
+          966
+        ]
+      }
+    ],
+    "66": [
+      {
+        "pagina": 24,
+        "tipo": "esquema",
+        "elemento": "Palavras cruzadas sobre biologia celular.",
+        "bbox": [
+          87,
+          72,
+          286,
+          475
+        ]
+      }
+    ],
+    "67": [
+      {
+        "pagina": 24,
+        "tipo": "fotografia",
+        "elemento": "Foto de cogumelo no gramado.",
+        "bbox": [
+          87,
+          512,
+          248,
+          966
+        ]
+      }
+    ],
+    "68": [
+      {
+        "pagina": 25,
+        "tipo": "mapa",
+        "elemento": "Mapa de SP com rodovias e cidades.",
+        "bbox": [
+          219,
+          51,
+          386,
+          475
+        ]
+      }
+    ],
+    "70": [
+      {
+        "pagina": 26,
+        "tipo": "fotografia",
+        "elemento": "Foto de avião.",
+        "bbox": [
+          87,
+          132,
+          201,
+          415
+        ]
+      }
+    ],
+    "75": [
+      {
+        "pagina": 27,
+        "tipo": "formula",
+        "elemento": "Fórmula estrutural do PET.",
+        "bbox": [
+          319,
+          335,
+          442,
+          431
+        ]
+      }
+    ],
+    "76": [
+      {
+        "pagina": 27,
+        "tipo": "figura",
+        "elemento": "Esquema e gráfico do termopar.",
+        "bbox": [
+          111,
+          512,
+          588,
+          977
+        ]
+      }
+    ],
+    "77": [
+      {
+        "pagina": 28,
+        "tipo": "esquema",
+        "elemento": "Diagrama da pista de corrida.",
+        "bbox": [
+          171,
+          132,
+          418,
+          415
+        ]
+      }
+    ],
+    "78": [
+      {
+        "pagina": 28,
+        "tipo": "esquema",
+        "elemento": "Dinamômetro e queda do pacote de café.",
+        "bbox": [
+          233,
+          643,
+          418,
+          759
+        ]
+      }
+    ],
+    "79": [
+      {
+        "pagina": 29,
+        "tipo": "grafico",
+        "elemento": "Gráfico de frequência de oscilação em função do comprimento.",
+        "bbox": [
+          132,
+          51,
+          335,
+          475
+        ]
+      }
+    ],
+    "80": [
+      {
+        "pagina": 29,
+        "tipo": "figura",
+        "elemento": "Esquema de refração, tabela de índices e fórmulas estruturais.",
+        "bbox": [
+          111,
+          512,
+          724,
+          977
+        ]
+      }
+    ],
+    "81": [
+      {
+        "pagina": 30,
+        "tipo": "figura",
+        "elemento": "Detalhes de cordas de violoncelo e esquemas de cordas 1 e 2.",
+        "bbox": [
+          111,
+          132,
+          556,
+          475
+        ]
+      }
+    ],
+    "82": [
+      {
+        "pagina": 30,
+        "tipo": "figura",
+        "elemento": "Circuito elétrico e gráfico de potencial.",
+        "bbox": [
+          201,
+          512,
+          442,
+          977
+        ]
+      }
+    ],
+    "83": [
+      {
+        "pagina": 31,
+        "tipo": "grafico",
+        "elemento": "Gráfico da conta de água residencial.",
+        "bbox": [
+          183,
+          72,
+          418,
+          475
+        ]
+      }
+    ],
+    "84": [
+      {
+        "pagina": 31,
+        "tipo": "figura",
+        "elemento": "Esquema comparativo de Júpiter, Terra e Sol.",
+        "bbox": [
+          111,
+          512,
+          308,
+          977
+        ]
+      }
+    ],
+    "86": [
+      {
+        "pagina": 32,
+        "tipo": "figura",
+        "elemento": "Figura geométrica com losango inscrito em retângulo.",
+        "bbox": [
+          132,
+          512,
+          335,
+          966
+        ]
+      }
+    ],
+    "87": [
+      {
+        "pagina": 33,
+        "tipo": "figura",
+        "elemento": "Geometria da trajetória da partícula na circunferência.",
+        "bbox": [
+          171,
+          163,
+          345,
+          442
+        ]
+      }
+    ],
+    "88": [
+      {
+        "pagina": 33,
+        "tipo": "grafico",
+        "elemento": "Gráfico comparativo de propriedades de metais.",
+        "bbox": [
+          111,
+          512,
+          556,
+          977
+        ]
+      }
+    ],
+    "89": [
+      {
+        "pagina": 34,
+        "tipo": "figura",
+        "elemento": "Representação espacial do paralelepípedo com cubos retirados.",
+        "bbox": [
+          153,
+          163,
+          335,
+          442
+        ]
+      }
+    ],
+    "90": [
+      {
+        "pagina": 34,
+        "tipo": "tabela",
+        "elemento": "Diagrama de chaveamento do torneio.",
+        "bbox": [
+          111,
+          512,
+          275,
+          966
+        ]
+      }
+    ]
+  }
+}

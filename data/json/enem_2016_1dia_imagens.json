@@ -1,0 +1,434 @@
+{
+  "exame": "enem_2016_1dia",
+  "figuras_coordenadas": {
+    "2": [
+      {
+        "pagina": 3,
+        "tipo": "mapa",
+        "elemento": "Mapa da Parceria Transpacífica",
+        "bbox": [
+          150,
+          520,
+          360,
+          890
+        ]
+      }
+    ],
+    "5": [
+      {
+        "pagina": 3,
+        "tipo": "imagem",
+        "elemento": "Ilustração de casa móvel",
+        "bbox": [
+          70,
+          75,
+          290,
+          480
+        ]
+      }
+    ],
+    "7": [
+      {
+        "pagina": 4,
+        "tipo": "imagem",
+        "elemento": "Fotografia da confecção de viola-de-cocho",
+        "bbox": [
+          120,
+          75,
+          345,
+          465
+        ]
+      }
+    ],
+    "12": [
+      {
+        "pagina": 6,
+        "tipo": "imagem",
+        "elemento": "Anúncio do Simca Chambord",
+        "bbox": [
+          80,
+          520,
+          345,
+          875
+        ]
+      }
+    ],
+    "20": [
+      {
+        "pagina": 10,
+        "tipo": "imagem",
+        "elemento": "Anúncio publicitário de 1968",
+        "bbox": [
+          100,
+          520,
+          480,
+          850
+        ]
+      }
+    ],
+    "21": [
+      {
+        "pagina": 11,
+        "tipo": "figura",
+        "elemento": "Logotipo da ONU e tipos de projeção",
+        "bbox": [
+          100,
+          510,
+          680,
+          850
+        ]
+      }
+    ],
+    "26": [
+      {
+        "pagina": 14,
+        "tipo": "imagem",
+        "elemento": "Ilustração de cena franco-brasileira em Paris",
+        "bbox": [
+          90,
+          75,
+          490,
+          480
+        ]
+      }
+    ],
+    "29": [
+      {
+        "pagina": 16,
+        "tipo": "imagem",
+        "elemento": "Fotografia do Apartheid na África do Sul",
+        "bbox": [
+          90,
+          75,
+          330,
+          480
+        ]
+      }
+    ],
+    "32": [
+      {
+        "pagina": 17,
+        "tipo": "mapa",
+        "elemento": "Mapa de dessalinização das águas no mundo",
+        "bbox": [
+          100,
+          500,
+          370,
+          890
+        ]
+      }
+    ],
+    "39": [
+      {
+        "pagina": 21,
+        "tipo": "imagem",
+        "elemento": "Imagem de São Benedito",
+        "bbox": [
+          100,
+          75,
+          410,
+          480
+        ]
+      }
+    ],
+    "41": [
+      {
+        "pagina": 22,
+        "tipo": "grafico",
+        "elemento": "Gráfico de taxa de fecundidade total",
+        "bbox": [
+          100,
+          500,
+          315,
+          870
+        ]
+      }
+    ],
+    "44": [
+      {
+        "pagina": 24,
+        "tipo": "cartum",
+        "elemento": "Quadrinhos de Persépolis",
+        "bbox": [
+          70,
+          75,
+          450,
+          480
+        ]
+      }
+    ],
+    "46": [
+      {
+        "pagina": 25,
+        "tipo": "figura",
+        "elemento": "Esquema do Efeito Doppler e gráficos",
+        "bbox": [
+          160,
+          75,
+          680,
+          480
+        ]
+      }
+    ],
+    "49": [
+      {
+        "pagina": 27,
+        "tipo": "figura",
+        "elemento": "Esquema da aromatização em sauna úmida",
+        "bbox": [
+          180,
+          160,
+          410,
+          400
+        ]
+      }
+    ],
+    "51": [
+      {
+        "pagina": 28,
+        "tipo": "figura",
+        "elemento": "Circuito elétrico com três lâmpadas",
+        "bbox": [
+          220,
+          200,
+          480,
+          320
+        ]
+      }
+    ],
+    "52": [
+      {
+        "pagina": 29,
+        "tipo": "tabela",
+        "elemento": "Tabela de dados do experimento de predação em costões rochosos",
+        "bbox": [
+          280,
+          75,
+          490,
+          460
+        ]
+      }
+    ],
+    "54": [
+      {
+        "pagina": 30,
+        "tipo": "grafico",
+        "elemento": "Alternativas de gráficos de velocidade versus distância",
+        "bbox": [
+          360,
+          75,
+          660,
+          480
+        ]
+      }
+    ],
+    "60": [
+      {
+        "pagina": 33,
+        "tipo": "figura",
+        "elemento": "Esquema comparativo do projeto Park Spark",
+        "bbox": [
+          180,
+          510,
+          530,
+          875
+        ]
+      }
+    ],
+    "61": [
+      {
+        "pagina": 34,
+        "tipo": "figura",
+        "elemento": "Esquemas de circuitos e cálculos de resistores",
+        "bbox": [
+          70,
+          515,
+          305,
+          875
+        ]
+      }
+    ],
+    "65": [
+      {
+        "pagina": 36,
+        "tipo": "grafico",
+        "elemento": "Gráfico de taxa de aquecimento de solventes sob micro-ondas",
+        "bbox": [
+          210,
+          505,
+          415,
+          875
+        ]
+      }
+    ],
+    "68": [
+      {
+        "pagina": 38,
+        "tipo": "tabela",
+        "elemento": "Quadro de feromônios, insetos e cultivos",
+        "bbox": [
+          90,
+          75,
+          420,
+          480
+        ]
+      }
+    ],
+    "69": [
+      {
+        "pagina": 39,
+        "tipo": "figura",
+        "elemento": "Trilho de ar com carrinhos e tabela de dados",
+        "bbox": [
+          90,
+          75,
+          400,
+          480
+        ]
+      }
+    ],
+    "70": [
+      {
+        "pagina": 40,
+        "tipo": "tabela",
+        "elemento": "Tabela de constantes de equilíbrio",
+        "bbox": [
+          90,
+          75,
+          335,
+          480
+        ]
+      }
+    ],
+    "71": [
+      {
+        "pagina": 40,
+        "tipo": "figura",
+        "elemento": "Fórmulas estruturais dos compostos de testosterona",
+        "bbox": [
+          320,
+          520,
+          480,
+          800
+        ]
+      }
+    ],
+    "72": [
+      {
+        "pagina": 41,
+        "tipo": "figura",
+        "elemento": "Esquema de associação de polias",
+        "bbox": [
+          400,
+          75,
+          480,
+          275
+        ]
+      }
+    ],
+    "75": [
+      {
+        "pagina": 42,
+        "tipo": "figura",
+        "elemento": "Esquema de produção de etanol a partir de milho",
+        "bbox": [
+          150,
+          520,
+          310,
+          850
+        ]
+      }
+    ],
+    "77": [
+      {
+        "pagina": 43,
+        "tipo": "grafico",
+        "elemento": "Gráficos de resposta de frequência e espectro sonoro",
+        "bbox": [
+          250,
+          500,
+          500,
+          875
+        ]
+      }
+    ],
+    "80": [
+      {
+        "pagina": 45,
+        "tipo": "figura",
+        "elemento": "Tabela e esquema de engrenagens",
+        "bbox": [
+          270,
+          75,
+          520,
+          480
+        ]
+      }
+    ],
+    "81": [
+      {
+        "pagina": 46,
+        "tipo": "figura",
+        "elemento": "Esquema dos mecanismos de ação de probióticos",
+        "bbox": [
+          200,
+          75,
+          520,
+          480
+        ]
+      }
+    ],
+    "83": [
+      {
+        "pagina": 47,
+        "tipo": "figura",
+        "elemento": "Esquema dos estados físicos da matéria e estrutura espacial",
+        "bbox": [
+          95,
+          510,
+          275,
+          880
+        ]
+      }
+    ],
+    "87": [
+      {
+        "pagina": 49,
+        "tipo": "figura",
+        "elemento": "Ilustração do movimento da seiva xilêmica",
+        "bbox": [
+          100,
+          500,
+          440,
+          875
+        ]
+      }
+    ],
+    "89": [
+      {
+        "pagina": 50,
+        "tipo": "figura",
+        "elemento": "Estrutura e arranjo de tensoativos na água",
+        "bbox": [
+          90,
+          500,
+          480,
+          875
+        ]
+      }
+    ],
+    "90": [
+      {
+        "pagina": 51,
+        "tipo": "figura",
+        "elemento": "Onda estacionária com posições I a V",
+        "bbox": [
+          280,
+          75,
+          430,
+          470
+        ]
+      }
+    ]
+  }
+}

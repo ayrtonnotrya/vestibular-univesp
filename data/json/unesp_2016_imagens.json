@@ -1,0 +1,330 @@
+{
+  "exame": "unesp_2016",
+  "figuras_coordenadas": {
+    "21": [
+      {
+        "pagina": 8,
+        "tipo": "cartum",
+        "elemento": "Cartum sobre agricultor e coelho na plantação",
+        "bbox": [
+          71,
+          124,
+          471,
+          484
+        ]
+      }
+    ],
+    "22": [
+      {
+        "pagina": 8,
+        "tipo": "cartum",
+        "elemento": "Quadrinho Close to Home",
+        "bbox": [
+          80,
+          508,
+          400,
+          885
+        ]
+      }
+    ],
+    "23": [
+      {
+        "pagina": 8,
+        "tipo": "cartum",
+        "elemento": "Quadrinho Close to Home",
+        "bbox": [
+          80,
+          508,
+          400,
+          885
+        ]
+      }
+    ],
+    "32": [
+      {
+        "pagina": 11,
+        "tipo": "imagem",
+        "elemento": "Miniatura do Liber feudorum Ceritaniae",
+        "bbox": [
+          368,
+          512,
+          578,
+          877
+        ]
+      }
+    ],
+    "43": [
+      {
+        "pagina": 14,
+        "tipo": "figura",
+        "elemento": "Esquema de voo de asa-delta",
+        "bbox": [
+          140,
+          508,
+          248,
+          885
+        ]
+      }
+    ],
+    "47": [
+      {
+        "pagina": 15,
+        "tipo": "cartum",
+        "elemento": "Charge sobre IDH",
+        "bbox": [
+          515,
+          508,
+          670,
+          885
+        ]
+      }
+    ],
+    "52": [
+      {
+        "pagina": 17,
+        "tipo": "mapa",
+        "elemento": "Mapa da configuração da questão agrária brasileira",
+        "bbox": [
+          80,
+          508,
+          760,
+          885
+        ]
+      }
+    ],
+    "54": [
+      {
+        "pagina": 18,
+        "tipo": "grafico",
+        "elemento": "Gráfico de colunas de domicílios por características do entorno",
+        "bbox": [
+          110,
+          508,
+          335,
+          885
+        ]
+      }
+    ],
+    "61": [
+      {
+        "pagina": 21,
+        "tipo": "grafico",
+        "elemento": "Gráfico de variação populacional e produção agrícola",
+        "bbox": [
+          310,
+          508,
+          490,
+          885
+        ]
+      }
+    ],
+    "62": [
+      {
+        "pagina": 22,
+        "tipo": "figura",
+        "elemento": "Esquema de célula animal com organelas numeradas",
+        "bbox": [
+          560,
+          508,
+          720,
+          885
+        ]
+      }
+    ],
+    "65": [
+      {
+        "pagina": 23,
+        "tipo": "fotografia",
+        "elemento": "Foto de cogumelos shimeji",
+        "bbox": [
+          80,
+          508,
+          330,
+          885
+        ]
+      }
+    ],
+    "66": [
+      {
+        "pagina": 24,
+        "tipo": "figura",
+        "elemento": "Modelo de sistema respiratório com garrafa PET",
+        "bbox": [
+          90,
+          260,
+          240,
+          730
+        ]
+      }
+    ],
+    "74": [
+      {
+        "pagina": 27,
+        "tipo": "figura",
+        "elemento": "Espectro da luz visível e estruturas químicas",
+        "bbox": [
+          65,
+          110,
+          245,
+          460
+        ]
+      }
+    ],
+    "75": [
+      {
+        "pagina": 26,
+        "tipo": "figura",
+        "elemento": "Mecanismo de bioluminescência e estruturas químicas",
+        "bbox": [
+          370,
+          110,
+          640,
+          885
+        ]
+      }
+    ],
+    "76": [
+      {
+        "pagina": 27,
+        "tipo": "ilustracao",
+        "elemento": "Esquema de veículo longo e carro em ultrapassagem",
+        "bbox": [
+          180,
+          610,
+          380,
+          885
+        ]
+      }
+    ],
+    "77": [
+      {
+        "pagina": 28,
+        "tipo": "figura",
+        "elemento": "Esquema de engrenagens A, B, C e D",
+        "bbox": [
+          205,
+          165,
+          335,
+          475
+        ]
+      }
+    ],
+    "78": [
+      {
+        "pagina": 28,
+        "tipo": "figura",
+        "elemento": "Esquema de caixas empilhadas em elevador",
+        "bbox": [
+          310,
+          625,
+          445,
+          760
+        ]
+      }
+    ],
+    "79": [
+      {
+        "pagina": 29,
+        "tipo": "figura",
+        "elemento": "Esquema do salto do golfinho",
+        "bbox": [
+          210,
+          140,
+          335,
+          415
+        ]
+      }
+    ],
+    "80": [
+      {
+        "pagina": 29,
+        "tipo": "fotografia",
+        "elemento": "Foto do Monte Fuji",
+        "bbox": [
+          110,
+          550,
+          245,
+          885
+        ]
+      }
+    ],
+    "81": [
+      {
+        "pagina": 30,
+        "tipo": "figura",
+        "elemento": "Imagens em espelhos A, B e C",
+        "bbox": [
+          230,
+          55,
+          335,
+          475
+        ]
+      }
+    ],
+    "82": [
+      {
+        "pagina": 30,
+        "tipo": "figura",
+        "elemento": "Perfil de onda e ponto P",
+        "bbox": [
+          210,
+          555,
+          310,
+          865
+        ]
+      }
+    ],
+    "84": [
+      {
+        "pagina": 31,
+        "tipo": "tabela",
+        "elemento": "Tabela de dados populacionais e taxa de analfabetismo",
+        "bbox": [
+          110,
+          508,
+          175,
+          885
+        ]
+      }
+    ],
+    "86": [
+      {
+        "pagina": 32,
+        "tipo": "figura",
+        "elemento": "Esquema da sequência de grades 1, 2 e 3",
+        "bbox": [
+          455,
+          55,
+          525,
+          475
+        ]
+      }
+    ],
+    "88": [
+      {
+        "pagina": 33,
+        "tipo": "figura",
+        "elemento": "Esquema da parede quadrada com divisões",
+        "bbox": [
+          180,
+          140,
+          345,
+          475
+        ]
+      }
+    ],
+    "89": [
+      {
+        "pagina": 33,
+        "tipo": "figura",
+        "elemento": "Paralelepípedo dividido em prismas",
+        "bbox": [
+          110,
+          508,
+          205,
+          885
+        ]
+      }
+    ]
+  }
+}

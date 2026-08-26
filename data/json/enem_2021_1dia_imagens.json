@@ -1,0 +1,96 @@
+{
+  "exame": "enem_2021_1dia",
+  "figuras_coordenadas": {
+    "4": [
+      {
+        "pagina": 5,
+        "tipo": "figura",
+        "elemento": "Bloco da questão 4 contendo texto e alternativas",
+        "bbox": [
+          62,
+          509,
+          559,
+          977
+        ]
+      }
+    ],
+    "5": [
+      {
+        "pagina": 5,
+        "tipo": "figura",
+        "elemento": "Bloco da questão 5 contendo texto e alternativas",
+        "bbox": [
+          566,
+          509,
+          877,
+          977
+        ]
+      }
+    ],
+    "23": [
+      {
+        "pagina": 11,
+        "tipo": "figura",
+        "elemento": "Questão 23 inteira com Texto I (imagem) e Texto II",
+        "bbox": [
+          76,
+          75,
+          335,
+          495
+        ]
+      }
+    ],
+    "28": [
+      {
+        "pagina": 13,
+        "tipo": "figura",
+        "elemento": "Questão 28 completa com texto, imagens da garrafa com formato de cão e alternativas",
+        "bbox": [
+          80,
+          49,
+          670,
+          490
+        ]
+      }
+    ],
+    "29": [
+      {
+        "pagina": 13,
+        "tipo": "cartum",
+        "elemento": "Questão 29 completa com tirinha de Henfil, enunciado e alternativas",
+        "bbox": [
+          680,
+          49,
+          970,
+          490
+        ]
+      }
+    ],
+    "30": [
+      {
+        "pagina": 13,
+        "tipo": "fotografia",
+        "elemento": "Questão 30 completa com texto, foto da instalação submarina e alternativas",
+        "bbox": [
+          275,
+          500,
+          970,
+          950
+        ]
+      }
+    ],
+    "46": [
+      {
+        "pagina": 22,
+        "tipo": "figura",
+        "elemento": "Esquema do movimento de translação da Terra e incidência solar nos solstícios e equinócios.",
+        "bbox": [
+          116,
+          247,
+          383,
+          791
+        ]
+      }
+    ]
+  }
+}

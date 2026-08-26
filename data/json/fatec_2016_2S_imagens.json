@@ -1,0 +1,564 @@
+{
+  "exame": "fatec_2016_2S",
+  "figuras_coordenadas": {
+    "1": [
+      {
+        "pagina": 2,
+        "tipo": "figura",
+        "elemento": "Bloco da questão 1 e texto associado",
+        "bbox": [
+          656,
+          88,
+          875,
+          492
+        ]
+      }
+    ],
+    "2": [
+      {
+        "pagina": 2,
+        "tipo": "figura",
+        "elemento": "Bloco da questão 2",
+        "bbox": [
+          656,
+          512,
+          875,
+          915
+        ]
+      }
+    ],
+    "3": [
+      {
+        "pagina": 3,
+        "tipo": "tabela",
+        "elemento": "Bloco da questão 3 com dados de massa molar",
+        "bbox": [
+          90,
+          68,
+          272,
+          915
+        ]
+      }
+    ],
+    "4": [
+      {
+        "pagina": 3,
+        "tipo": "figura",
+        "elemento": "Bloco da questão 4",
+        "bbox": [
+          295,
+          68,
+          495,
+          915
+        ]
+      }
+    ],
+    "5": [
+      {
+        "pagina": 3,
+        "tipo": "figura",
+        "elemento": "Bloco da questão 5",
+        "bbox": [
+          517,
+          68,
+          670,
+          915
+        ]
+      }
+    ],
+    "6": [
+      {
+        "pagina": 3,
+        "tipo": "figura",
+        "elemento": "Bloco da questão 6",
+        "bbox": [
+          692,
+          68,
+          895,
+          915
+        ]
+      }
+    ],
+    "7": [
+      {
+        "pagina": 4,
+        "tipo": "figura",
+        "elemento": "Bloco da questão 7",
+        "bbox": [
+          79,
+          88,
+          288,
+          915
+        ]
+      }
+    ],
+    "8": [
+      {
+        "pagina": 4,
+        "tipo": "figura",
+        "elemento": "Bloco da questão 8",
+        "bbox": [
+          312,
+          88,
+          418,
+          915
+        ]
+      }
+    ],
+    "9": [
+      {
+        "pagina": 4,
+        "tipo": "figura",
+        "elemento": "Bloco da questão 9",
+        "bbox": [
+          442,
+          88,
+          720,
+          915
+        ]
+      }
+    ],
+    "10": [
+      {
+        "pagina": 5,
+        "tipo": "figura",
+        "elemento": "Diagrama de Euler-Venn da Questão 10",
+        "bbox": [
+          88,
+          96,
+          583,
+          492
+        ]
+      }
+    ],
+    "11": [
+      {
+        "pagina": 5,
+        "tipo": "figura",
+        "elemento": "Ilustração da pulseira formada por setores circulares",
+        "bbox": [
+          88,
+          512,
+          335,
+          915
+        ]
+      }
+    ],
+    "12": [
+      {
+        "pagina": 5,
+        "tipo": "figura",
+        "elemento": "Bloco da questão 12",
+        "bbox": [
+          627,
+          512,
+          786,
+          915
+        ]
+      }
+    ],
+    "13": [
+      {
+        "pagina": 6,
+        "tipo": "figura",
+        "elemento": "Painel pentagonal com lâmpadas numeradas",
+        "bbox": [
+          79,
+          88,
+          335,
+          915
+        ]
+      }
+    ],
+    "14": [
+      {
+        "pagina": 6,
+        "tipo": "figura",
+        "elemento": "Diagramas sequenciais e alternativas",
+        "bbox": [
+          500,
+          88,
+          820,
+          915
+        ]
+      }
+    ],
+    "15": [
+      {
+        "pagina": 7,
+        "tipo": "figura",
+        "elemento": "Bloco da questão 15 e texto associado",
+        "bbox": [
+          110,
+          68,
+          335,
+          915
+        ]
+      }
+    ],
+    "16": [
+      {
+        "pagina": 7,
+        "tipo": "figura",
+        "elemento": "Bloco da questão 16",
+        "bbox": [
+          360,
+          68,
+          625,
+          915
+        ]
+      }
+    ],
+    "17": [
+      {
+        "pagina": 8,
+        "tipo": "figura",
+        "elemento": "Bloco da questão 17",
+        "bbox": [
+          79,
+          88,
+          275,
+          915
+        ]
+      }
+    ],
+    "18": [
+      {
+        "pagina": 8,
+        "tipo": "figura",
+        "elemento": "Bloco da questão 18",
+        "bbox": [
+          295,
+          88,
+          475,
+          915
+        ]
+      }
+    ],
+    "19": [
+      {
+        "pagina": 8,
+        "tipo": "figura",
+        "elemento": "Bloco da questão 19",
+        "bbox": [
+          495,
+          88,
+          680,
+          915
+        ]
+      }
+    ],
+    "20": [
+      {
+        "pagina": 9,
+        "tipo": "figura",
+        "elemento": "Bloco da questão 20",
+        "bbox": [
+          360,
+          68,
+          500,
+          492
+        ]
+      }
+    ],
+    "21": [
+      {
+        "pagina": 9,
+        "tipo": "figura",
+        "elemento": "Bloco da questão 21",
+        "bbox": [
+          360,
+          512,
+          500,
+          915
+        ]
+      }
+    ],
+    "22": [
+      {
+        "pagina": 9,
+        "tipo": "figura",
+        "elemento": "Bloco da questão 22",
+        "bbox": [
+          715,
+          68,
+          895,
+          492
+        ]
+      }
+    ],
+    "23": [
+      {
+        "pagina": 9,
+        "tipo": "figura",
+        "elemento": "Bloco da questão 23",
+        "bbox": [
+          715,
+          512,
+          895,
+          915
+        ]
+      }
+    ],
+    "24": [
+      {
+        "pagina": 10,
+        "tipo": "figura",
+        "elemento": "Bloco da questão 24",
+        "bbox": [
+          79,
+          88,
+          335,
+          915
+        ]
+      }
+    ],
+    "25": [
+      {
+        "pagina": 10,
+        "tipo": "cartum",
+        "elemento": "Tirinha de inglês",
+        "bbox": [
+          520,
+          88,
+          815,
+          915
+        ]
+      }
+    ],
+    "26": [
+      {
+        "pagina": 11,
+        "tipo": "figura",
+        "elemento": "Bloco da questão 26",
+        "bbox": [
+          79,
+          68,
+          275,
+          915
+        ]
+      }
+    ],
+    "27": [
+      {
+        "pagina": 11,
+        "tipo": "figura",
+        "elemento": "Bloco da questão 27",
+        "bbox": [
+          295,
+          68,
+          475,
+          915
+        ]
+      }
+    ],
+    "28": [
+      {
+        "pagina": 11,
+        "tipo": "figura",
+        "elemento": "Bloco da questão 28",
+        "bbox": [
+          495,
+          68,
+          670,
+          915
+        ]
+      }
+    ],
+    "29": [
+      {
+        "pagina": 11,
+        "tipo": "figura",
+        "elemento": "Bloco da questão 29",
+        "bbox": [
+          692,
+          68,
+          895,
+          915
+        ]
+      }
+    ],
+    "30": [
+      {
+        "pagina": 12,
+        "tipo": "figura",
+        "elemento": "Bloco da questão 30",
+        "bbox": [
+          335,
+          68,
+          580,
+          915
+        ]
+      }
+    ],
+    "31": [
+      {
+        "pagina": 12,
+        "tipo": "figura",
+        "elemento": "Bloco da questão 31",
+        "bbox": [
+          600,
+          68,
+          810,
+          915
+        ]
+      }
+    ],
+    "32": [
+      {
+        "pagina": 13,
+        "tipo": "tabela",
+        "elemento": "Tabela de Tempo de Trabalho Semanal (2004 e 2014)",
+        "bbox": [
+          218,
+          145,
+          345,
+          885
+        ]
+      }
+    ],
+    "33": [
+      {
+        "pagina": 13,
+        "tipo": "tabela",
+        "elemento": "Tabela de Tempo de Trabalho Semanal (2004 e 2014)",
+        "bbox": [
+          218,
+          145,
+          345,
+          885
+        ]
+      }
+    ],
+    "34": [
+      {
+        "pagina": 13,
+        "tipo": "grafico",
+        "elemento": "Gráfico cartesiano relacionando diferença de horas e anos",
+        "bbox": [
+          791,
+          90,
+          960,
+          380
+        ]
+      }
+    ],
+    "35": [
+      {
+        "pagina": 14,
+        "tipo": "figura",
+        "elemento": "Esquema da Zona Econômica Exclusiva (ZEE) com as posições dos pontos A e B",
+        "bbox": [
+          180,
+          648,
+          415,
+          925
+        ]
+      }
+    ],
+    "36": [
+      {
+        "pagina": 14,
+        "tipo": "imagem",
+        "elemento": "Foto de avião a jato gerando contrails",
+        "bbox": [
+          602,
+          656,
+          793,
+          928
+        ]
+      }
+    ],
+    "38": [
+      {
+        "pagina": 15,
+        "tipo": "figura",
+        "elemento": "Fluxograma de conversão de energia",
+        "bbox": [
+          577,
+          214,
+          670,
+          786
+        ]
+      }
+    ],
+    "39": [
+      {
+        "pagina": 16,
+        "tipo": "grafico",
+        "elemento": "Gráficos v x t (alternativas A a E)",
+        "bbox": [
+          484,
+          81,
+          945,
+          917
+        ]
+      }
+    ],
+    "45": [
+      {
+        "pagina": 18,
+        "tipo": "figura",
+        "elemento": "Esquema da divisão da população de lagartixas em B e C",
+        "bbox": [
+          653,
+          473,
+          901,
+          929
+        ]
+      }
+    ],
+    "46": [
+      {
+        "pagina": 19,
+        "tipo": "figura",
+        "elemento": "Cladograma de Amniota",
+        "bbox": [
+          116,
+          126,
+          335,
+          863
+        ]
+      }
+    ],
+    "53": [
+      {
+        "pagina": 21,
+        "tipo": "figura",
+        "elemento": "Bloco da questão 53",
+        "bbox": [
+          500,
+          512,
+          750,
+          915
+        ]
+      }
+    ],
+    "54": [
+      {
+        "pagina": 21,
+        "tipo": "figura",
+        "elemento": "Bloco da questão 54",
+        "bbox": [
+          760,
+          512,
+          910,
+          915
+        ]
+      }
+    ],
+    "55": [
+      {
+        "pagina": 22,
+        "tipo": "figura",
+        "elemento": "Proposta de Redação completa",
+        "bbox": [
+          79,
+          88,
+          895,
+          915
+        ]
+      }
+    ]
+  }
+}

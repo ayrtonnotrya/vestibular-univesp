@@ -1,0 +1,473 @@
+{
+  "exame": "enem_2016_2dia",
+  "figuras_coordenadas": {
+    "94": [
+      {
+        "pagina": 7,
+        "tipo": "imagem",
+        "elemento": "Cartaz com texto e emblema do guia de emergência",
+        "bbox": [
+          80,
+          305,
+          335,
+          640
+        ]
+      }
+    ],
+    "97": [
+      {
+        "pagina": 15,
+        "tipo": "infografico",
+        "elemento": "Infográfico 'A ÁGUA INVISÍVEL' com pegada d'água e valores de consumo de produtos",
+        "bbox": [
+          60,
+          305,
+          370,
+          680
+        ]
+      }
+    ],
+    "101": [
+      {
+        "pagina": 19,
+        "tipo": "fotografia",
+        "elemento": "Mosaico figurativo 'Colcha de retalhos' na Estação de Metrô Sé",
+        "bbox": [
+          45,
+          305,
+          275,
+          680
+        ]
+      }
+    ],
+    "109": [
+      {
+        "pagina": 28,
+        "tipo": "fotografia",
+        "elemento": "Instalação artística com letras-vaso de plantas",
+        "bbox": [
+          50,
+          300,
+          275,
+          680
+        ]
+      }
+    ],
+    "118": [
+      {
+        "pagina": 38,
+        "tipo": "cartum",
+        "elemento": "Sequência de imagens mostrando uso de celular e pedestre oculto",
+        "bbox": [
+          65,
+          300,
+          240,
+          680
+        ]
+      }
+    ],
+    "123": [
+      {
+        "pagina": 43,
+        "tipo": "fotografia",
+        "elemento": "Atores encenando ao ar livre em rua",
+        "bbox": [
+          40,
+          295,
+          260,
+          680
+        ]
+      }
+    ],
+    "129": [
+      {
+        "pagina": 49,
+        "tipo": "pintura",
+        "elemento": "Três estudos para um autorretrato de Francis Bacon",
+        "bbox": [
+          45,
+          300,
+          275,
+          680
+        ]
+      }
+    ],
+    "136": [
+      {
+        "pagina": 57,
+        "tipo": "grafico",
+        "elemento": "Gráfico de Altura em função do tempo para os projéteis A e B",
+        "bbox": [
+          230,
+          310,
+          365,
+          595
+        ]
+      }
+    ],
+    "138": [
+      {
+        "pagina": 59,
+        "tipo": "grafico",
+        "elemento": "Gráfico de curvas de crescimento de meninas (OMS)",
+        "bbox": [
+          250,
+          305,
+          440,
+          670
+        ]
+      }
+    ],
+    "139": [
+      {
+        "pagina": 60,
+        "tipo": "grafico",
+        "elemento": "Gráfico de pluviosidade e temperatura ao longo de 12 meses",
+        "bbox": [
+          310,
+          305,
+          500,
+          680
+        ]
+      }
+    ],
+    "140": [
+      {
+        "pagina": 61,
+        "tipo": "grafico",
+        "elemento": "Gráfico de volume de água na cisterna em função do tempo",
+        "bbox": [
+          210,
+          305,
+          350,
+          680
+        ]
+      }
+    ],
+    "141": [
+      {
+        "pagina": 62,
+        "tipo": "tabela",
+        "elemento": "Tabela com dados de pesagem e desvio padrão dos atletas",
+        "bbox": [
+          225,
+          305,
+          380,
+          680
+        ]
+      }
+    ],
+    "142": [
+      {
+        "pagina": 63,
+        "tipo": "figura",
+        "elemento": "Esquema ilustrando largura, altura e diâmetro interno de um pneu",
+        "bbox": [
+          310,
+          305,
+          485,
+          680
+        ]
+      }
+    ],
+    "143": [
+      {
+        "pagina": 65,
+        "tipo": "grafico",
+        "elemento": "Gráfico do nível do reservatório em função dos meses",
+        "bbox": [
+          210,
+          305,
+          355,
+          680
+        ]
+      }
+    ],
+    "146": [
+      {
+        "pagina": 68,
+        "tipo": "figura",
+        "elemento": "Esquema do reservatório do petroleiro com compartimentos",
+        "bbox": [
+          250,
+          305,
+          415,
+          680
+        ]
+      }
+    ],
+    "147": [
+      {
+        "pagina": 69,
+        "tipo": "figura",
+        "elemento": "Mapa esquemático com ramificações de áreas de parque de diversões",
+        "bbox": [
+          205,
+          305,
+          395,
+          680
+        ]
+      }
+    ],
+    "148": [
+      {
+        "pagina": 70,
+        "tipo": "tabela",
+        "elemento": "Tabela de casos confirmados de dengue por região da cidade",
+        "bbox": [
+          195,
+          305,
+          415,
+          680
+        ]
+      }
+    ],
+    "150": [
+      {
+        "pagina": 72,
+        "tipo": "tabela",
+        "elemento": "Tabela de movimentação de pessoas no elevador por andar",
+        "bbox": [
+          185,
+          305,
+          360,
+          680
+        ]
+      }
+    ],
+    "151": [
+      {
+        "pagina": 73,
+        "tipo": "tabela",
+        "elemento": "Tabela de população residente nas grandes regiões 1940/2000",
+        "bbox": [
+          250,
+          305,
+          420,
+          680
+        ]
+      }
+    ],
+    "152": [
+      {
+        "pagina": 74,
+        "tipo": "figura",
+        "elemento": "Gráfico da parábola correspondente à seção do túnel",
+        "bbox": [
+          455,
+          350,
+          600,
+          625
+        ]
+      }
+    ],
+    "154": [
+      {
+        "pagina": 76,
+        "tipo": "grafico",
+        "elemento": "Gráfico de distribuição de massa salarial acumulada",
+        "bbox": [
+          260,
+          305,
+          445,
+          680
+        ]
+      }
+    ],
+    "158": [
+      {
+        "pagina": 81,
+        "tipo": "figura",
+        "elemento": "Ábaco com hastes, argolas e marcações em letras",
+        "bbox": [
+          365,
+          335,
+          495,
+          650
+        ]
+      }
+    ],
+    "159": [
+      {
+        "pagina": 82,
+        "tipo": "figura",
+        "elemento": "Bloco de madeira com perfurações em formatos geométricos",
+        "bbox": [
+          365,
+          415,
+          550,
+          585
+        ]
+      }
+    ],
+    "160": [
+      {
+        "pagina": 85,
+        "tipo": "grafico",
+        "elemento": "Gráfico das substâncias A e B ao longo de 24 horas",
+        "bbox": [
+          270,
+          305,
+          495,
+          680
+        ]
+      }
+    ],
+    "163": [
+      {
+        "pagina": 88,
+        "tipo": "grafico",
+        "elemento": "Gráficos de vazão da torneira e do ralo em função do tempo",
+        "bbox": [
+          180,
+          305,
+          280,
+          680
+        ]
+      }
+    ],
+    "165": [
+      {
+        "pagina": 90,
+        "tipo": "figura",
+        "elemento": "Mapa malha viária com ruas identificadas por letras e números",
+        "bbox": [
+          210,
+          360,
+          420,
+          625
+        ]
+      }
+    ],
+    "166": [
+      {
+        "pagina": 92,
+        "tipo": "figura",
+        "elemento": "Esquemas dos terrenos (Figuras A e B) com dimensões indicadas",
+        "bbox": [
+          230,
+          305,
+          380,
+          680
+        ]
+      }
+    ],
+    "167": [
+      {
+        "pagina": 93,
+        "tipo": "tabela",
+        "elemento": "Tabela de lucros mensais da empresa",
+        "bbox": [
+          260,
+          305,
+          345,
+          680
+        ]
+      }
+    ],
+    "169": [
+      {
+        "pagina": 95,
+        "tipo": "figura",
+        "elemento": "Marcador de combustível do painel do carro",
+        "bbox": [
+          185,
+          425,
+          260,
+          530
+        ]
+      }
+    ],
+    "171": [
+      {
+        "pagina": 97,
+        "tipo": "grafico",
+        "elemento": "Sistema cartesiano xOy com representação dos pontos F e B e rotas",
+        "bbox": [
+          215,
+          305,
+          415,
+          680
+        ]
+      }
+    ],
+    "172": [
+      {
+        "pagina": 98,
+        "tipo": "figura",
+        "elemento": "Globo terrestre com pontos A, B, C e opções de projeção ortogonal",
+        "bbox": [
+          200,
+          300,
+          680,
+          680
+        ]
+      }
+    ],
+    "175": [
+      {
+        "pagina": 102,
+        "tipo": "figura",
+        "elemento": "Esquema de silo cilíndrico com cobertura cônica e cotas de dimensões",
+        "bbox": [
+          180,
+          305,
+          425,
+          680
+        ]
+      }
+    ],
+    "177": [
+      {
+        "pagina": 104,
+        "tipo": "fotografia",
+        "elemento": "Fotografia da roda-gigante London Eye",
+        "bbox": [
+          180,
+          305,
+          395,
+          680
+        ]
+      }
+    ],
+    "178": [
+      {
+        "pagina": 105,
+        "tipo": "fotografia",
+        "elemento": "Cadeira de praia dobrável aberta",
+        "bbox": [
+          135,
+          305,
+          370,
+          680
+        ]
+      }
+    ],
+    "180": [
+      {
+        "pagina": 108,
+        "tipo": "tabela",
+        "elemento": "Tabela de lucros mensais de janeiro a maio",
+        "bbox": [
+          185,
+          305,
+          245,
+          680
+        ]
+      }
+    ],
+    "181": [
+      {
+        "pagina": 2,
+        "tipo": "grafico",
+        "elemento": "Gráfico do Texto IV sobre denúncias de intolerância religiosa no Brasil",
+        "bbox": [
+          40,
+          305,
+          270,
+          680
+        ]
+      }
+    ]
+  }
+}

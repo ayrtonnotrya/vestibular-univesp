@@ -1,0 +1,369 @@
+{
+  "exame": "enem_2013_1dia",
+  "figuras_coordenadas": {
+    "3": [
+      {
+        "pagina": 2,
+        "tipo": "figura",
+        "elemento": "Esquema dos modelos de produção (Modelo 1 e Modelo 2)",
+        "bbox": [
+          90,
+          507,
+          335,
+          937
+        ]
+      }
+    ],
+    "7": [
+      {
+        "pagina": 3,
+        "tipo": "imagem",
+        "elemento": "Pinturas históricas de D. Pedro I e D. Pedro II",
+        "bbox": [
+          90,
+          503,
+          648,
+          937
+        ]
+      }
+    ],
+    "8": [
+      {
+        "pagina": 4,
+        "tipo": "mapa",
+        "elemento": "Mapas 1 e 2: Distribuição espacial da população e conflitos em terras indígenas",
+        "bbox": [
+          90,
+          56,
+          566,
+          937
+        ]
+      }
+    ],
+    "10": [
+      {
+        "pagina": 5,
+        "tipo": "figura",
+        "elemento": "Esquema da chuva ácida",
+        "bbox": [
+          111,
+          57,
+          500,
+          937
+        ]
+      }
+    ],
+    "16": [
+      {
+        "pagina": 7,
+        "tipo": "cartum",
+        "elemento": "Caricatura de Raul Pederneiras sobre a participação eleitoral das mulheres",
+        "bbox": [
+          219,
+          507,
+          431,
+          937
+        ]
+      }
+    ],
+    "18": [
+      {
+        "pagina": 8,
+        "tipo": "grafico",
+        "elemento": "Gráfico da taxa de fecundidade total no Brasil (1940-2010)",
+        "bbox": [
+          116,
+          57,
+          335,
+          487
+        ]
+      }
+    ],
+    "23": [
+      {
+        "pagina": 9,
+        "tipo": "cartum",
+        "elemento": "Charge 'Finados' com siglas de partidos políticos",
+        "bbox": [
+          625,
+          167,
+          838,
+          490
+        ]
+      }
+    ],
+    "28": [
+      {
+        "pagina": 10,
+        "tipo": "cartum",
+        "elemento": "Charge sobre vida social e internet",
+        "bbox": [
+          181,
+          507,
+          423,
+          937
+        ]
+      }
+    ],
+    "31": [
+      {
+        "pagina": 11,
+        "tipo": "imagem",
+        "elemento": "Fotografia de curvas de nível em plantio agrícola",
+        "bbox": [
+          181,
+          507,
+          335,
+          937
+        ]
+      }
+    ],
+    "35": [
+      {
+        "pagina": 12,
+        "tipo": "cartum",
+        "elemento": "Charge 'Meta de Faminto' retratando Jeca e Juscelino Kubitschek",
+        "bbox": [
+          455,
+          161,
+          670,
+          490
+        ]
+      }
+    ],
+    "47": [
+      {
+        "pagina": 15,
+        "tipo": "figura",
+        "elemento": "Ilustração do experimento de William Harvey sobre circulação sanguínea",
+        "bbox": [
+          293,
+          507,
+          538,
+          937
+        ]
+      }
+    ],
+    "48": [
+      {
+        "pagina": 16,
+        "tipo": "figura",
+        "elemento": "Ilustração de garrafa PET com furos e jatos d'água",
+        "bbox": [
+          202,
+          183,
+          455,
+          368
+        ]
+      }
+    ],
+    "49": [
+      {
+        "pagina": 16,
+        "tipo": "figura",
+        "elemento": "Estruturas químicas das alternativas A a E",
+        "bbox": [
+          354,
+          507,
+          768,
+          937
+        ]
+      }
+    ],
+    "53": [
+      {
+        "pagina": 17,
+        "tipo": "figura",
+        "elemento": "Esquema da ola mexicana em estádio",
+        "bbox": [
+          627,
+          548,
+          768,
+          937
+        ]
+      }
+    ],
+    "57": [
+      {
+        "pagina": 18,
+        "tipo": "figura",
+        "elemento": "Fórmula estrutural do PET",
+        "bbox": [
+          727,
+          571,
+          813,
+          838
+        ]
+      }
+    ],
+    "58": [
+      {
+        "pagina": 19,
+        "tipo": "figura",
+        "elemento": "Esquema do dispositivo de músculo artificial",
+        "bbox": [
+          368,
+          159,
+          589,
+          418
+        ]
+      }
+    ],
+    "60": [
+      {
+        "pagina": 20,
+        "tipo": "figura",
+        "elemento": "Esquema do experimento das garrafas PET com lâmpada e termômetros",
+        "bbox": [
+          242,
+          108,
+          382,
+          418
+        ]
+      }
+    ],
+    "66": [
+      {
+        "pagina": 22,
+        "tipo": "figura",
+        "elemento": "Diagrama elétrico e esquemas de ligação dos instrumentos",
+        "bbox": [
+          181,
+          57,
+          838,
+          937
+        ]
+      }
+    ],
+    "67": [
+      {
+        "pagina": 23,
+        "tipo": "figura",
+        "elemento": "Esquema do dispositivo de abertura de porta com mola e campo magnético",
+        "bbox": [
+          212,
+          126,
+          418,
+          884
+        ]
+      }
+    ],
+    "68": [
+      {
+        "pagina": 23,
+        "tipo": "figura",
+        "elemento": "Estruturas químicas do poliacrilato de sódio e da celulose",
+        "bbox": [
+          577,
+          242,
+          759,
+          786
+        ]
+      }
+    ],
+    "69": [
+      {
+        "pagina": 24,
+        "tipo": "figura",
+        "elemento": "Esquemas de montagem P e Q da serra de fita",
+        "bbox": [
+          232,
+          167,
+          335,
+          477
+        ]
+      }
+    ],
+    "71": [
+      {
+        "pagina": 24,
+        "tipo": "figura",
+        "elemento": "Estruturas químicas de herbicidas e alternativas",
+        "bbox": [
+          212,
+          507,
+          937,
+          937
+        ]
+      }
+    ],
+    "73": [
+      {
+        "pagina": 25,
+        "tipo": "figura",
+        "elemento": "Eletroforese de DNA com perfil de 5 casais e do bebê",
+        "bbox": [
+          577,
+          57,
+          838,
+          490
+        ]
+      }
+    ],
+    "77": [
+      {
+        "pagina": 26,
+        "tipo": "figura",
+        "elemento": "Estrutura química do NanoKid",
+        "bbox": [
+          212,
+          539,
+          599,
+          937
+        ]
+      }
+    ],
+    "78": [
+      {
+        "pagina": 27,
+        "tipo": "grafico",
+        "elemento": "Gráfico e tabela do perfil celular das linhagens de microalgas",
+        "bbox": [
+          202,
+          126,
+          477,
+          884
+        ]
+      }
+    ],
+    "79": [
+      {
+        "pagina": 28,
+        "tipo": "grafico",
+        "elemento": "Gráficos das alternativas A a E de força resultante em função do tempo",
+        "bbox": [
+          232,
+          57,
+          898,
+          937
+        ]
+      }
+    ],
+    "84": [
+      {
+        "pagina": 30,
+        "tipo": "figura",
+        "elemento": "Diagrama de circuito elétrico com resistores e voltímetro",
+        "bbox": [
+          252,
+          126,
+          477,
+          490
+        ]
+      }
+    ],
+    "90": [
+      {
+        "pagina": 31,
+        "tipo": "grafico",
+        "elemento": "Gráficos das ondas sonoras do Dó central e Dó maior",
+        "bbox": [
+          687,
+          507,
+          838,
+          937
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,551 @@
+{
+  "exame": "unesp_2025",
+  "figuras_coordenadas": {
+    "8": [
+      {
+        "pagina": 4,
+        "tipo": "imagem",
+        "elemento": "Meme de Instagram com escultura clássica e texto",
+        "bbox": [
+          219,
+          510,
+          380,
+          915
+        ]
+      }
+    ],
+    "12": [
+      {
+        "pagina": 6,
+        "tipo": "cartum",
+        "elemento": "Cartum da América do Sul e África como travesseiros",
+        "bbox": [
+          630,
+          240,
+          815,
+          440
+        ]
+      }
+    ],
+    "15": [
+      {
+        "pagina": 7,
+        "tipo": "imagem",
+        "elemento": "Cinco pinturas clássicas de diferentes movimentos artísticos",
+        "bbox": [
+          90,
+          50,
+          930,
+          940
+        ]
+      }
+    ],
+    "21": [
+      {
+        "pagina": 9,
+        "tipo": "grafico",
+        "elemento": "Gráfico 1 e Gráfico 2 sobre produção e preço do cacau",
+        "bbox": [
+          570,
+          120,
+          810,
+          440
+        ]
+      }
+    ],
+    "22": [
+      {
+        "pagina": 9,
+        "tipo": "grafico",
+        "elemento": "Gráfico 1 e Gráfico 2 sobre produção e preço do cacau",
+        "bbox": [
+          570,
+          120,
+          810,
+          440
+        ]
+      }
+    ],
+    "23": [
+      {
+        "pagina": 9,
+        "tipo": "grafico",
+        "elemento": "Gráfico 1 e Gráfico 2 sobre produção e preço do cacau",
+        "bbox": [
+          570,
+          120,
+          810,
+          440
+        ]
+      }
+    ],
+    "24": [
+      {
+        "pagina": 9,
+        "tipo": "grafico",
+        "elemento": "Gráfico 1 e Gráfico 2 sobre produção e preço do cacau",
+        "bbox": [
+          570,
+          120,
+          810,
+          440
+        ]
+      }
+    ],
+    "25": [
+      {
+        "pagina": 9,
+        "tipo": "grafico",
+        "elemento": "Gráfico 1 e Gráfico 2 sobre produção e preço do cacau",
+        "bbox": [
+          570,
+          120,
+          810,
+          440
+        ]
+      }
+    ],
+    "26": [
+      {
+        "pagina": 9,
+        "tipo": "grafico",
+        "elemento": "Gráfico 1 e Gráfico 2 sobre produção e preço do cacau",
+        "bbox": [
+          570,
+          120,
+          810,
+          440
+        ]
+      }
+    ],
+    "27": [
+      {
+        "pagina": 10,
+        "tipo": "cartum",
+        "elemento": "Tirinha de Alex Hallatt com pinguins e um urso",
+        "bbox": [
+          65,
+          510,
+          380,
+          840
+        ]
+      }
+    ],
+    "28": [
+      {
+        "pagina": 10,
+        "tipo": "cartum",
+        "elemento": "Tirinha de Alex Hallatt com pinguins e um urso",
+        "bbox": [
+          65,
+          510,
+          380,
+          840
+        ]
+      }
+    ],
+    "32": [
+      {
+        "pagina": 12,
+        "tipo": "imagem",
+        "elemento": "Afresco de Giotto da vida de São Francisco de Assis",
+        "bbox": [
+          95,
+          120,
+          490,
+          820
+        ]
+      }
+    ],
+    "40": [
+      {
+        "pagina": 14,
+        "tipo": "fotografia",
+        "elemento": "Fotografia de 1964 sobre o contexto político-militar brasileiro",
+        "bbox": [
+          180,
+          580,
+          335,
+          750
+        ]
+      }
+    ],
+    "44": [
+      {
+        "pagina": 16,
+        "tipo": "imagem",
+        "elemento": "Manchete de jornal de 1991 sobre o Tratado do Mercosul e mapa associado",
+        "bbox": [
+          180,
+          110,
+          470,
+          470
+        ]
+      }
+    ],
+    "46": [
+      {
+        "pagina": 17,
+        "tipo": "fotografia",
+        "elemento": "Sistema de filtragem de água na Amazônia",
+        "bbox": [
+          110,
+          110,
+          270,
+          460
+        ]
+      }
+    ],
+    "48": [
+      {
+        "pagina": 18,
+        "tipo": "esquema",
+        "elemento": "Diagrama das rotas de transporte 1 e 2 com modais, distâncias e velocidades",
+        "bbox": [
+          90,
+          110,
+          310,
+          490
+        ]
+      }
+    ],
+    "50": [
+      {
+        "pagina": 18,
+        "tipo": "fotografia",
+        "elemento": "Praia de Carro Quebrado (falésia)",
+        "bbox": [
+          580,
+          510,
+          775,
+          915
+        ]
+      }
+    ],
+    "52": [
+      {
+        "pagina": 19,
+        "tipo": "esquema",
+        "elemento": "Esquema de brisa marítima e brisa continental",
+        "bbox": [
+          210,
+          80,
+          460,
+          490
+        ]
+      }
+    ],
+    "53": [
+      {
+        "pagina": 19,
+        "tipo": "infografico",
+        "elemento": "Esquema explicativo sobre a serrapilheira e sua importância ecológica",
+        "bbox": [
+          50,
+          510,
+          330,
+          915
+        ]
+      }
+    ],
+    "54": [
+      {
+        "pagina": 20,
+        "tipo": "mapa",
+        "elemento": "Mapa-múndi do IBGE com o Brasil ao centro evidenciando os países do G20",
+        "bbox": [
+          180,
+          75,
+          380,
+          460
+        ]
+      }
+    ],
+    "56": [
+      {
+        "pagina": 21,
+        "tipo": "grafico",
+        "elemento": "Gráfico de projeção de mortes por excesso de calor e adaptação climática",
+        "bbox": [
+          80,
+          75,
+          280,
+          485
+        ]
+      }
+    ],
+    "62": [
+      {
+        "pagina": 22,
+        "tipo": "imagem",
+        "elemento": "Micrografias de partículas poluentes sobre folhas e estômatos",
+        "bbox": [
+          490,
+          510,
+          680,
+          915
+        ]
+      }
+    ],
+    "63": [
+      {
+        "pagina": 23,
+        "tipo": "grafico",
+        "elemento": "Cinco opções de gráficos de crescimento populacional de vírus e bactérias",
+        "bbox": [
+          210,
+          65,
+          860,
+          495
+        ]
+      }
+    ],
+    "66": [
+      {
+        "pagina": 24,
+        "tipo": "figura",
+        "elemento": "Diagrama de diagnóstico da Taenia solium com numeração de 1 a 5",
+        "bbox": [
+          80,
+          110,
+          380,
+          460
+        ]
+      }
+    ],
+    "69": [
+      {
+        "pagina": 25,
+        "tipo": "grafico",
+        "elemento": "Curvas de aquecimento das ligas 63-37 e 60-40",
+        "bbox": [
+          180,
+          90,
+          490,
+          440
+        ]
+      }
+    ],
+    "70": [
+      {
+        "pagina": 25,
+        "tipo": "imagem",
+        "elemento": "Cilindros de gelo-seco (CO₂ sólido)",
+        "bbox": [
+          100,
+          580,
+          245,
+          830
+        ]
+      }
+    ],
+    "72": [
+      {
+        "pagina": 26,
+        "tipo": "figura",
+        "elemento": "Estrutura molecular da adrenalina",
+        "bbox": [
+          90,
+          120,
+          230,
+          400
+        ]
+      }
+    ],
+    "75": [
+      {
+        "pagina": 26,
+        "tipo": "tabela",
+        "elemento": "Tabela de entalpias de ligação química",
+        "bbox": [
+          415,
+          530,
+          510,
+          870
+        ]
+      }
+    ],
+    "76": [
+      {
+        "pagina": 27,
+        "tipo": "figura",
+        "elemento": "Figuras 1 e 2 do secador de saladas e esquema de engrenagens",
+        "bbox": [
+          140,
+          110,
+          625,
+          495
+        ]
+      }
+    ],
+    "77": [
+      {
+        "pagina": 27,
+        "tipo": "grafico",
+        "elemento": "Esquema de trajetória parabólica de lançamento oblíquo",
+        "bbox": [
+          145,
+          530,
+          345,
+          915
+        ]
+      }
+    ],
+    "78": [
+      {
+        "pagina": 27,
+        "tipo": "figura",
+        "elemento": "Ilustração de esteira rolante inclinada",
+        "bbox": [
+          650,
+          530,
+          785,
+          915
+        ]
+      }
+    ],
+    "79": [
+      {
+        "pagina": 28,
+        "tipo": "esquema",
+        "elemento": "Termômetro a gás com sistema de vasos comunicantes e mercúrio",
+        "bbox": [
+          215,
+          75,
+          415,
+          475
+        ]
+      }
+    ],
+    "80": [
+      {
+        "pagina": 28,
+        "tipo": "figura",
+        "elemento": "Figuras 1 e 2 de imagens da lapiseira através de lentes esféricas",
+        "bbox": [
+          110,
+          510,
+          275,
+          915
+        ]
+      }
+    ],
+    "81": [
+      {
+        "pagina": 28,
+        "tipo": "figura",
+        "elemento": "Esquema do garoto propagando pulsos em corda até o pino vertical",
+        "bbox": [
+          575,
+          510,
+          720,
+          915
+        ]
+      }
+    ],
+    "82": [
+      {
+        "pagina": 29,
+        "tipo": "figura",
+        "elemento": "Planta esquemática residencial e tabela de potências elétricas",
+        "bbox": [
+          205,
+          75,
+          475,
+          485
+        ]
+      }
+    ],
+    "83": [
+      {
+        "pagina": 29,
+        "tipo": "grafico",
+        "elemento": "Gráfico de preços versus massa para cinco mercados (I a V)",
+        "bbox": [
+          110,
+          510,
+          335,
+          915
+        ]
+      }
+    ],
+    "84": [
+      {
+        "pagina": 30,
+        "tipo": "grafico",
+        "elemento": "Gráficos de funções modulares A a E",
+        "bbox": [
+          250,
+          75,
+          860,
+          485
+        ]
+      }
+    ],
+    "86": [
+      {
+        "pagina": 30,
+        "tipo": "figura",
+        "elemento": "Pentágono convexo UNESP com ângulos internos e prolongamentos",
+        "bbox": [
+          380,
+          510,
+          550,
+          915
+        ]
+      }
+    ],
+    "87": [
+      {
+        "pagina": 31,
+        "tipo": "figura",
+        "elemento": "Dois quadrados no plano cartesiano (ABCD e AEFG)",
+        "bbox": [
+          90,
+          75,
+          275,
+          485
+        ]
+      }
+    ],
+    "88": [
+      {
+        "pagina": 31,
+        "tipo": "figura",
+        "elemento": "Retângulo ABCD com eixo de rotação na diagonal BD",
+        "bbox": [
+          615,
+          75,
+          815,
+          485
+        ]
+      }
+    ],
+    "89": [
+      {
+        "pagina": 31,
+        "tipo": "grafico",
+        "elemento": "Gráfico da função logarítmica com pontos de intersecção e ponto médio",
+        "bbox": [
+          80,
+          510,
+          275,
+          915
+        ]
+      }
+    ],
+    "90": [
+      {
+        "pagina": 31,
+        "tipo": "figura",
+        "elemento": "Triângulo equilátero ABC com indicação dos lados e vértices",
+        "bbox": [
+          615,
+          510,
+          785,
+          915
+        ]
+      }
+    ]
+  }
+}

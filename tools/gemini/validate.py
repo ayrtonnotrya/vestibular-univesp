@@ -8,12 +8,23 @@ GAB = "/work/tmp/gabaritos"
 JK = "/work/data/json"
 CATALOG = "/work/data/assuntos.json"
 
-LABELS = ["univesp_2017_2s", "univesp_2018_1s", "univesp_2018_2s", "univesp_2019_2",
-          "univesp_2020", "univesp_2021", "univesp_2022", "univesp_2023", "univesp_2024"]
+LABELS = [f"univesp_{y}" for y in ("2017_2s", "2018_1s", "2018_2s", "2019_2")]
+LABELS += [f"univesp_{ano}" for ano in range(2020, 2027)]
 
 FUVEST_LABELS = [f"fuvest_{ano}" for ano in range(2010, 2027)]
 
-ALL = LABELS + FUVEST_LABELS
+ENEM_LABELS = ["enem_2011_2dia"]
+ENEM_LABELS += [f"enem_{ano}_{dia}" for ano in range(2012, 2026) for dia in ("1dia", "2dia")]
+
+FATEC_LABELS = ["fatec_2010_1S", "fatec_2010_2S", "fatec_2011_2S"]
+FATEC_LABELS += [f"fatec_{ano}_{dia}" for ano in range(2012, 2021) for dia in ("1S", "2S")]
+FATEC_LABELS += ["fatec_2020_1S", "fatec_2023_1S", "fatec_2023_2S"]
+
+UNESP_LABELS = [f"unesp_{ano}" for ano in range(2010, 2021)]
+UNESP_LABELS += [f"unesp_{ano}_{dia}" for ano in (2021, 2022) for dia in ("1dia", "2dia")]
+UNESP_LABELS += [f"unesp_{ano}" for ano in range(2023, 2027)]
+
+ALL = LABELS + FUVEST_LABELS + ENEM_LABELS + FATEC_LABELS + UNESP_LABELS
 
 
 def load_catalog():
@@ -120,9 +131,11 @@ def main():
         qs = j["questoes"]
         nums = [q["numero"] for q in qs]
         errs = []
-        # sequential coverage
-        if nums != list(range(1, len(qs) + 1)):
-            errs.append(f"numeracao nao sequencial: {nums[:10]}...")
+        # sequential coverage (sem lacunas; caderno do 2º dia do ENEM começa na 91)
+        if nums != list(range(min(nums), max(nums) + 1)):
+            errs.append(f"numeracao com lacunas/não sequencial: {nums[:5]}...{nums[-3:] if len(nums) > 5 else ''}")
+        if min(nums) not in (1, 91):
+            errs.append(f"numeracao começa em {min(nums)} (esperado 1 ou 91)")
         # metadata
         for field in ["exame", "ano", "fonte_questoes", "fonte_gabarito", "total_questoes"]:
             if field not in j:
@@ -180,6 +193,11 @@ def main():
                     continue
                 if q["tipo"] == "objetiva" and q.get("gabarito") != letter:
                     errs.append(f"gabarito Q{n}: json={q.get('gabarito')} oficial={letter}")
+        # checagem reversa: questão objetiva que o gabarito oficial NÃO lista
+        if g:
+            for q in qs:
+                if q["tipo"] == "objetiva" and q["numero"] not in g:
+                    errs.append(f"Q{q['numero']}: não consta no gabarito oficial (extra/fantasma)")
         status = "OK" if not errs else "ERROS"
         ok = ok and not errs
         print(f"\n[{label}] {status} — {len(qs)} questões; gabarito_oficial_itens={len(g) if g else 'n/a'} semestre={j.get('semestre')}")

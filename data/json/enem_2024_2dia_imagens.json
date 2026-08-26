@@ -1,0 +1,694 @@
+{
+  "exame": "enem_2024_2dia",
+  "figuras_coordenadas": {
+    "91": [
+      {
+        "pagina": 2,
+        "tipo": "figura",
+        "elemento": "Esquema do experimento com amebas e o grupo controle e tratado",
+        "bbox": [
+          110,
+          50,
+          505,
+          500
+        ]
+      }
+    ],
+    "94": [
+      {
+        "pagina": 2,
+        "tipo": "tabela",
+        "elemento": "Equações de equilíbrio químico e quadro com pH e agentes de polimento de cremes dentais",
+        "bbox": [
+          370,
+          500,
+          750,
+          980
+        ]
+      }
+    ],
+    "95": [
+      {
+        "pagina": 3,
+        "tipo": "cartum",
+        "elemento": "Tirinha de humor retratando esquimós e um iglu",
+        "bbox": [
+          185,
+          160,
+          740,
+          385
+        ]
+      }
+    ],
+    "96": [
+      {
+        "pagina": 3,
+        "tipo": "figura",
+        "elemento": "Estruturas químicas dos compostos 1 e 2",
+        "bbox": [
+          230,
+          550,
+          340,
+          880
+        ]
+      }
+    ],
+    "97": [
+      {
+        "pagina": 3,
+        "tipo": "figura",
+        "elemento": "Esquema de três tubos de ensaio com culturas bacterianas",
+        "bbox": [
+          655,
+          625,
+          800,
+          820
+        ]
+      }
+    ],
+    "98": [
+      {
+        "pagina": 4,
+        "tipo": "imagem",
+        "elemento": "Foto de placa de saída de emergência iluminada",
+        "bbox": [
+          180,
+          140,
+          360,
+          395
+        ]
+      }
+    ],
+    "100": [
+      {
+        "pagina": 4,
+        "tipo": "figura",
+        "elemento": "Esquema das linhas de campo elétrico e alternativas com cilindros",
+        "bbox": [
+          195,
+          500,
+          815,
+          915
+        ]
+      }
+    ],
+    "101": [
+      {
+        "pagina": 5,
+        "tipo": "figura",
+        "elemento": "Esquema de célula solar ativada por sol e chuva com camada de grafeno",
+        "bbox": [
+          230,
+          50,
+          495,
+          490
+        ]
+      }
+    ],
+    "103": [
+      {
+        "pagina": 5,
+        "tipo": "grafico",
+        "elemento": "Diagrama P-V do ciclo de Otto e tabela de processos",
+        "bbox": [
+          160,
+          500,
+          670,
+          900
+        ]
+      }
+    ],
+    "104": [
+      {
+        "pagina": 6,
+        "tipo": "figura",
+        "elemento": "Diagrama do circuito de natação com boias e vetores",
+        "bbox": [
+          310,
+          80,
+          530,
+          410
+        ]
+      }
+    ],
+    "106": [
+      {
+        "pagina": 6,
+        "tipo": "cartum",
+        "elemento": "Tirinha de Calvin e opções de vetores",
+        "bbox": [
+          110,
+          510,
+          750,
+          935
+        ]
+      }
+    ],
+    "107": [
+      {
+        "pagina": 7,
+        "tipo": "figura",
+        "elemento": "Esquema de fitorremediação com descrições das técnicas",
+        "bbox": [
+          160,
+          135,
+          490,
+          910
+        ]
+      }
+    ],
+    "109": [
+      {
+        "pagina": 8,
+        "tipo": "figura",
+        "elemento": "Símbolo do LED e alternativas com esquemas de circuitos",
+        "bbox": [
+          225,
+          50,
+          935,
+          275
+        ]
+      }
+    ],
+    "110": [
+      {
+        "pagina": 8,
+        "tipo": "figura",
+        "elemento": "Esquema do circuito da caixa decorativa com lâmpadas e fio resistivo",
+        "bbox": [
+          295,
+          580,
+          725,
+          750
+        ]
+      }
+    ],
+    "112": [
+      {
+        "pagina": 9,
+        "tipo": "figura",
+        "elemento": "Estrutura química da nimesulida com grupos indicados",
+        "bbox": [
+          245,
+          150,
+          465,
+          430
+        ]
+      }
+    ],
+    "114": [
+      {
+        "pagina": 9,
+        "tipo": "figura",
+        "elemento": "Esquema de uma roda com pontos numerados para balanceamento",
+        "bbox": [
+          310,
+          585,
+          495,
+          750
+        ]
+      }
+    ],
+    "116": [
+      {
+        "pagina": 10,
+        "tipo": "figura",
+        "elemento": "Cladograma de mamíferos",
+        "bbox": [
+          175,
+          160,
+          440,
+          465
+        ]
+      }
+    ],
+    "118": [
+      {
+        "pagina": 10,
+        "tipo": "figura",
+        "elemento": "Ilustração e esquema do mirascópio 3D",
+        "bbox": [
+          335,
+          500,
+          630,
+          915
+        ]
+      }
+    ],
+    "119": [
+      {
+        "pagina": 11,
+        "tipo": "figura",
+        "elemento": "Esquema explicativo de crumple zone em carro",
+        "bbox": [
+          335,
+          55,
+          530,
+          475
+        ]
+      }
+    ],
+    "120": [
+      {
+        "pagina": 11,
+        "tipo": "figura",
+        "elemento": "Esquema detalhado de célula a combustível microbiana",
+        "bbox": [
+          275,
+          500,
+          490,
+          915
+        ]
+      }
+    ],
+    "122": [
+      {
+        "pagina": 12,
+        "tipo": "figura",
+        "elemento": "Esquema dos ciclos biogeoquímicos por procariontes",
+        "bbox": [
+          215,
+          60,
+          915,
+          495
+        ]
+      }
+    ],
+    "123": [
+      {
+        "pagina": 12,
+        "tipo": "grafico",
+        "elemento": "Gráfico de emissão de gases por motores",
+        "bbox": [
+          500,
+          500,
+          780,
+          935
+        ]
+      }
+    ],
+    "124": [
+      {
+        "pagina": 13,
+        "tipo": "grafico",
+        "elemento": "Infográfico de nível sonoro versus distância",
+        "bbox": [
+          330,
+          65,
+          500,
+          490
+        ]
+      }
+    ],
+    "126": [
+      {
+        "pagina": 13,
+        "tipo": "figura",
+        "elemento": "Esquema de aquecedor solar",
+        "bbox": [
+          195,
+          500,
+          340,
+          935
+        ]
+      }
+    ],
+    "127": [
+      {
+        "pagina": 13,
+        "tipo": "figura",
+        "elemento": "Fluxograma de relações entre urbanização e arboviroses",
+        "bbox": [
+          655,
+          510,
+          750,
+          915
+        ]
+      }
+    ],
+    "133": [
+      {
+        "pagina": 15,
+        "tipo": "fotografia",
+        "elemento": "Fotos de coral-verdadeira e falsa-coral",
+        "bbox": [
+          305,
+          55,
+          460,
+          485
+        ]
+      }
+    ],
+    "135": [
+      {
+        "pagina": 15,
+        "tipo": "figura",
+        "elemento": "Legenda e esquemas de heredogramas (A a E)",
+        "bbox": [
+          280,
+          500,
+          935,
+          735
+        ]
+      }
+    ],
+    "136": [
+      {
+        "pagina": 16,
+        "tipo": "tabela",
+        "elemento": "Tabela de custos de produção de mochilas",
+        "bbox": [
+          245,
+          85,
+          325,
+          490
+        ]
+      }
+    ],
+    "137": [
+      {
+        "pagina": 16,
+        "tipo": "tabela",
+        "elemento": "Tabela de umidade relativa do ar por mês",
+        "bbox": [
+          560,
+          60,
+          630,
+          490
+        ]
+      }
+    ],
+    "142": [
+      {
+        "pagina": 17,
+        "tipo": "figura",
+        "elemento": "Ilustração de dois telefones celulares e tamanhos de tela",
+        "bbox": [
+          255,
+          550,
+          510,
+          915
+        ]
+      }
+    ],
+    "144": [
+      {
+        "pagina": 18,
+        "tipo": "figura",
+        "elemento": "Esquema geométrico do sistema de polias e correia",
+        "bbox": [
+          625,
+          50,
+          785,
+          490
+        ]
+      }
+    ],
+    "145": [
+      {
+        "pagina": 18,
+        "tipo": "figura",
+        "elemento": "Esquema geométrico da disposição dos postos de saúde e hospital",
+        "bbox": [
+          260,
+          550,
+          505,
+          935
+        ]
+      }
+    ],
+    "146": [
+      {
+        "pagina": 19,
+        "tipo": "grafico",
+        "elemento": "Cinco gráficos de comportamento oscilatório (senoides)",
+        "bbox": [
+          250,
+          50,
+          880,
+          935
+        ]
+      }
+    ],
+    "148": [
+      {
+        "pagina": 20,
+        "tipo": "figura",
+        "elemento": "Esquema do percurso entre os terminais com as câmeras",
+        "bbox": [
+          455,
+          330,
+          510,
+          670
+        ]
+      }
+    ],
+    "149": [
+      {
+        "pagina": 21,
+        "tipo": "figura",
+        "elemento": "Tabela de substituição de letras da Cifra de César",
+        "bbox": [
+          180,
+          50,
+          275,
+          935
+        ]
+      }
+    ],
+    "151": [
+      {
+        "pagina": 22,
+        "tipo": "figura",
+        "elemento": "Esquema de construção de cilindros a partir de lâminas retangulares",
+        "bbox": [
+          275,
+          55,
+          380,
+          485
+        ]
+      }
+    ],
+    "152": [
+      {
+        "pagina": 22,
+        "tipo": "grafico",
+        "elemento": "Gráfico de receitas anuais com reta de tendência",
+        "bbox": [
+          215,
+          500,
+          475,
+          930
+        ]
+      }
+    ],
+    "153": [
+      {
+        "pagina": 23,
+        "tipo": "figura",
+        "elemento": "Esquema do tanque e gráficos correspondentes",
+        "bbox": [
+          155,
+          50,
+          935,
+          925
+        ]
+      }
+    ],
+    "154": [
+      {
+        "pagina": 24,
+        "tipo": "tabela",
+        "elemento": "Tabela com tempos de leitura de contratos de serviços",
+        "bbox": [
+          230,
+          60,
+          395,
+          490
+        ]
+      }
+    ],
+    "155": [
+      {
+        "pagina": 24,
+        "tipo": "figura",
+        "elemento": "Esquema da área de cobertura do sensor em setor circular",
+        "bbox": [
+          715,
+          260,
+          830,
+          490
+        ]
+      }
+    ],
+    "159": [
+      {
+        "pagina": 25,
+        "tipo": "figura",
+        "elemento": "Cartaz com preços de defensivos agrícolas",
+        "bbox": [
+          145,
+          500,
+          380,
+          935
+        ]
+      }
+    ],
+    "161": [
+      {
+        "pagina": 26,
+        "tipo": "grafico",
+        "elemento": "Gráfico de barras empilhadas de funcionários por setor",
+        "bbox": [
+          185,
+          65,
+          495,
+          465
+        ]
+      }
+    ],
+    "162": [
+      {
+        "pagina": 26,
+        "tipo": "figura",
+        "elemento": "Esquema tridimensional e alternativas de projeções ortogonais",
+        "bbox": [
+          225,
+          500,
+          935,
+          930
+        ]
+      }
+    ],
+    "163": [
+      {
+        "pagina": 27,
+        "tipo": "figura",
+        "elemento": "Esquema de microscópio óptico e suas lentes",
+        "bbox": [
+          330,
+          165,
+          590,
+          440
+        ]
+      }
+    ],
+    "165": [
+      {
+        "pagina": 27,
+        "tipo": "figura",
+        "elemento": "Teclado numérico/alfanumérico",
+        "bbox": [
+          365,
+          550,
+          580,
+          865
+        ]
+      }
+    ],
+    "166": [
+      {
+        "pagina": 28,
+        "tipo": "tabela",
+        "elemento": "Tabela de preços de componentes X e Y em lojas I e II",
+        "bbox": [
+          180,
+          60,
+          260,
+          490
+        ]
+      }
+    ],
+    "168": [
+      {
+        "pagina": 28,
+        "tipo": "grafico",
+        "elemento": "Gráficos de interdependência entre as grandezas I, II e III",
+        "bbox": [
+          200,
+          500,
+          720,
+          935
+        ]
+      }
+    ],
+    "169": [
+      {
+        "pagina": 29,
+        "tipo": "tabela",
+        "elemento": "Tabela ilustrativa das etapas da mensagem com ícones",
+        "bbox": [
+          180,
+          55,
+          335,
+          485
+        ]
+      }
+    ],
+    "171": [
+      {
+        "pagina": 29,
+        "tipo": "figura",
+        "elemento": "Esquema de revolução do trapézio retângulo",
+        "bbox": [
+          310,
+          500,
+          495,
+          815
+        ]
+      }
+    ],
+    "173": [
+      {
+        "pagina": 30,
+        "tipo": "figura",
+        "elemento": "Planta baixa da sala com colunas e tabela de orçamentos",
+        "bbox": [
+          250,
+          50,
+          485,
+          490
+        ]
+      }
+    ],
+    "175": [
+      {
+        "pagina": 30,
+        "tipo": "grafico",
+        "elemento": "Gráfico de exportações e importações da balança comercial",
+        "bbox": [
+          250,
+          500,
+          475,
+          935
+        ]
+      }
+    ],
+    "178": [
+      {
+        "pagina": 31,
+        "tipo": "figura",
+        "elemento": "Visor da máquina caça-números com frações e compartimentos",
+        "bbox": [
+          615,
+          85,
+          785,
+          465
+        ]
+      }
+    ],
+    "179": [
+      {
+        "pagina": 31,
+        "tipo": "grafico",
+        "elemento": "Gráfico de resfriamento da caneca com água",
+        "bbox": [
+          195,
+          500,
+          445,
+          935
+        ]
+      }
+    ]
+  }
+}

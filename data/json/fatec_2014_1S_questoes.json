@@ -1,0 +1,1611 @@
+{
+  "exame": "fatec_2014_1S_questoes",
+  "ano": 2014,
+  "semestre": 1,
+  "fonte_questoes": "data/fatec_2014_1S_questoes.pdf",
+  "fonte_gabarito": "data/fatec_2014_1S_gabarito.pdf",
+  "total_questoes": 55,
+  "questoes": [
+    {
+      "numero": 1,
+      "tipo": "objetiva",
+      "enunciado": "De acordo com a mecânica clássica, são reconhecidos três tipos básicos de alavancas: a interfixa, a inter-resistente e a interpotente, definidas de acordo com a posição relativa da força potente (F), da força resistente (R) e do ponto de apoio (P), conforme a figura 1.\n\nOs seres vivos utilizam esse tipo de mecanismo para a realização de diversos movimentos. Isso ocorre com o corpo humano quando, por exemplo, os elementos ósseos e musculares do braço e do antebraço interagem para produzir movimentos e funcionam como uma alavanca, conforme a figura 2.\n\nNessa alavanca, o ponto de apoio está localizado na articulação entre o úmero, o rádio e a ulna. A força potente é aplicada próximo à base do rádio, onde o tendão do bíceps se insere, e a força resistente corresponde ao peso do próprio antebraço.\n\nCom base nessas informações, é possível concluir, corretamente, que a contração do bíceps provoca no membro superior um movimento de",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 2: Figura 1 representando os três tipos de alavancas (interfixa, inter-resistente e interpotente) e Figura 2 mostrando o braço humano funcionando como alavanca (com os ossos úmero, rádio, ulna e o músculo bíceps)."
+      ],
+      "alternativas": {
+        "a": "extensão, por um sistema de alavanca interfixa.",
+        "b": "extensão, por um sistema de alavanca interpotente.",
+        "c": "flexão, por um sistema de alavanca inter-resistente.",
+        "d": "flexão, por um sistema de alavanca interpotente.",
+        "e": "flexão, por um sistema de alavanca interfixa."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Equilíbrio do ponto material e do corpo extenso (Momento ou Torque)"
+          ]
+        },
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Fisiologia dos sistemas humanos: digestório, cardiovascular, respiratório, excretor, nervoso, endócrino, locomotor e reprodutor"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 2
+    },
+    {
+      "numero": 2,
+      "tipo": "objetiva",
+      "enunciado": "Assinale a alternativa que está de acordo com o conceito mecânico ao qual o cartum faz alusão.",
+      "textos_de_apoio": [
+        "Considere o cartum para responder às questões de números 02 e 03."
+      ],
+      "midia": [
+        "Página 2: Cartum mostrando Colombo sob um coqueiro onde um coco cai em sua cabeça, com a legenda 'Two hundred years before Newton, Colombo discovers gravity in the New World'."
+      ],
+      "alternativas": {
+        "a": "Colombo e Newton descobriram ambos o conceito de força de gravidade trabalhando no Novo Mundo.",
+        "b": "A força da gravidade levaria duzentos anos para deslocar o coco da Europa até o Novo Mundo.",
+        "c": "Colombo chegou ao conceito de força de gravidade duzentos anos depois de Newton.",
+        "d": "A força da gravidade é duas vezes maior no Novo Mundo do que no Velho Mundo.",
+        "e": "O coco caiu devido à ação da força gravitacional."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "As 3 Leis de Newton e conceito de força resultante",
+            "Massa, peso e forças de atrito (estático e cinético)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 2
+    },
+    {
+      "numero": 3,
+      "tipo": "objetiva",
+      "enunciado": "Em relação ao cartum apresentado, Colombo, surpreso com a dor causada pela queda do coco em sua cabeça, decidiu levantar o fruto do chão com a sua mão esquerda e equilibrou-o estaticamente por alguns instantes com o braço na posição vertical e o antebraço (OQ) na horizontal. Desse modo, estimou a massa do coco em 1 kg.\n\nUsando o desenho como referência, considere R a força peso do coco e F a força exercida pelo bíceps sobre o osso rádio no ponto P (pertencente ao segmento OQ).\n\nDesconsiderando o peso do antebraço, podemos afirmar que o módulo dessa força F é, em newtons, igual a",
+      "textos_de_apoio": [
+        "Considere o cartum para responder às questões de números 02 e 03."
+      ],
+      "midia": [
+        "Página 3: Desenho esquemático do braço humano levantando um coco (ponto Q), com indicação do ponto de apoio (O), aplicação da força do bíceps (P), e distâncias (5 cm e 30 cm)."
+      ],
+      "alternativas": {
+        "a": "0,6.",
+        "b": "1,7.",
+        "c": "6,0.",
+        "d": "17.",
+        "e": "60."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Equilíbrio do ponto material e do corpo extenso (Momento ou Torque)"
+          ]
+        },
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Operações fundamentais com números inteiros e decimais"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 3
+    },
+    {
+      "numero": 4,
+      "tipo": "objetiva",
+      "enunciado": "Assinale a alternativa em que a relação entre causa e consequência corresponde, corretamente, às ideias expostas pelo autor.",
+      "textos_de_apoio": [
+        "Leia um trecho do texto Espaço para duas pernas, do jornalista Ruy Castro.\n\nParece mentira: Detroit, a cidade-símbolo da cultura do automóvel, quebrou. Deve US$ 20 bilhões, que não tem como pagar, e, de lá, saem agora apenas 5% dos carros montados nos EUA. Sua população passou de 1,8 milhão para 700 mil, dos quais 40% vivem abaixo da linha da pobreza. Além disso, é hoje a cidade mais violenta do país.\n\nAs justificativas apontadas são as crises econômicas e a concorrência da Ásia. Mas há também um fator que me toca mais: o declínio da dita cultura – a do automóvel. Segundo pesquisas, 20% dos jovens americanos hoje, entre 20 e 24 anos, não têm carteira de habilitação. Se essa idade cair para 18 anos, o número sobe para 40%. Isso num país em que, até há pouco, o carro era mais importante para um adolescente do que jogar beisebol ou beijar a coleguinha de classe. Era como se a identidade do indivíduo estivesse atrelada a uma máquina e, sem esta, ele não existisse.\n\nClaro que, nos países novos-ricos e grotões mais atrasados, a obsessão pelo carro continua."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "Detroit deve 20 bilhões de dólares e parte da população vive em extrema pobreza, o que tem levado países novos-ricos e grotões mais atrasados a persistirem na obsessão pelo automóvel.",
+        "b": "A população de Detroit passou de 1,8 milhão para 700 mil habitantes, o que levou a cidade a se tornar a mais violenta dos Estados Unidos.",
+        "c": "O mercado automobilístico dos EUA tem sofrido as interferências da economia instável e da concorrência asiática, o que levou Detroit, cidade-símbolo do automóvel, a ser hoje uma cidade falida.",
+        "d": "Pesquisas entre americanos de 18 anos mostram que 40% desses jovens não se interessam por carro, o que levou o número de jovens entre 20 e 24 anos, interessados por automóveis, a uma diminuição de 20%.",
+        "e": "Muitas pessoas ainda associam a própria identidade à posse de um veículo, o que tem levado ao declínio da cultura do automóvel nos EUA."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação",
+            "Mecanismos de coesão textual (lexical, referencial, anafórica) e coerência"
+          ]
+        },
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Geografia Urbana: industrialização, urbanização, metropolização, conurbação, megalópoles e segregação socioespacial"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 3
+    },
+    {
+      "numero": 5,
+      "tipo": "objetiva",
+      "enunciado": "Com base nos dados apresentados nesse gráfico, podemos afirmar corretamente que",
+      "textos_de_apoio": [
+        "Analise o gráfico a seguir.\n\n[Gráfico: Faturamento líquido da indústria automobilística brasileira (em bilhões de dólares) e participação no PIB industrial brasileiro (em %), 1970-2010]"
+      ],
+      "midia": [
+        "Página 4: Gráfico de linhas e colunas mostrando o faturamento líquido da indústria automobilística (e de máquinas agrícolas) e a participação no PIB industrial brasileiro entre 1970 e 2010."
+      ],
+      "alternativas": {
+        "a": "houve crescimento aproximado de 30% no faturamento líquido da indústria de automóveis de 2005 a 2010, enquanto a participação no PIB industrial passou de, aproximadamente, 14% para 19% nesse mesmo período.",
+        "b": "houve queda aproximada de 5 bilhões de dólares no faturamento líquido da indústria de máquinas agrícolas de 1985 a 1995, acompanhada por uma queda constante da participação no PIB industrial nesse mesmo período.",
+        "c": "a participação no PIB industrial passou de, aproximadamente, 21% para 11% de 1975 a 1990, devido à queda constante no faturamento líquido da indústria de automóveis e de máquinas agrícolas nesse mesmo período.",
+        "d": "houve crescimento aproximado de 57 bilhões de dólares no faturamento líquido da indústria de automóveis de 1990 a 2010, enquanto a participação no PIB industrial passou de, aproximadamente, 11% para 19% nesse mesmo período.",
+        "e": "houve crescimento aproximado de 6 bilhões de dólares no faturamento líquido da indústria de máquinas agrícolas de 2000 a 2010, enquanto a participação no PIB industrial passou de, aproximadamente, 48% para 69% nesse mesmo período."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Leitura e interpretação de mapas temáticos, cartas e anamorfoses"
+          ]
+        },
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Interpretação de gráficos (barras, setores, histogramas, box-plot, ramos e folhas)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 4
+    },
+    {
+      "numero": 6,
+      "tipo": "objetiva",
+      "enunciado": "Refletindo sobre a situação exposta no texto, é correto afirmar que essa fábrica se organiza pelo sistema de produção conhecido como",
+      "textos_de_apoio": [
+        "Para preparar uma caixa de telefone celular com carregador de bateria, fone de ouvido e dois manuais de instrução, o empregado da fábrica dispõe de apenas seis segundos. Finalizada essa etapa, a embalagem é repassada ao funcionário seguinte da linha de montagem, o qual tem a missão de escanear o pacote em dois pontos diferentes e, em seguida, colar uma etiqueta. Em um único dia, a tarefa chega a ser repetida até 6 800 vezes pelo mesmo trabalhador."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "toyotismo, no qual a mecanização do trabalho leva à divisão equitativa dos lucros entre os operários.",
+        "b": "toyotismo, no qual os trabalhadores controlam os meios de produção e produzem no seu próprio ritmo.",
+        "c": "fordismo, no qual cada um dos trabalhadores realiza todas as etapas do processo produtivo nas fábricas.",
+        "d": "fordismo, no qual a livre iniciativa do trabalhador determina o ritmo das fábricas e o volume da produção.",
+        "e": "fordismo, no qual há uma divisão do trabalho, e a mecanização da produção leva à repetição de tarefas."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Filosofia e Sociologia",
+          "assuntos": [
+            "Mundo do trabalho: taylorismo, fordismo, flexibilização produtiva e precarização/trabalho escravo contemporâneo"
+          ]
+        },
+        {
+          "area": "História",
+          "assuntos": [
+            "Iluminismo, Liberalismo e a 1ª Revolução Industrial"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 4
+    },
+    {
+      "numero": 7,
+      "tipo": "objetiva",
+      "enunciado": "Leia o texto e assinale a alternativa que preenche, corretamente, as lacunas com a expressão que se refere ao tipo de indústria que engloba o setor de máquinas e equipamentos.",
+      "textos_de_apoio": [
+        "Atualmente, em todos os ramos da indústria de ___________ instalada no país, exceto máquinas-ferramenta, a liderança cabe a empresas multinacionais. Estas empresas predominam no segmento de ___________ feitos sob encomenda, que envolve um conjunto mais complexo de conhecimentos técnicos e de produção. Elas se aproveitam de algumas vantagens locais, como a disponibilidade de matérias-primas e mão-de-obra a preços baixos."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "bens de consumo duráveis",
+        "b": "bens de consumo não duráveis",
+        "c": "siderurgia",
+        "d": "bens de capital",
+        "e": "petroquímica"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Geografia Urbana: industrialização, urbanização, metropolização, conurbação, megalópoles e segregação socioespacial"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 5
+    },
+    {
+      "numero": 8,
+      "tipo": "objetiva",
+      "enunciado": "Uma indústria necessita conhecer a mecânica das reações para poder otimizar sua produção.\n\nO gráfico representa o mecanismo de uma reação hipotética:\n\nA2 + B2 → 2 AB\n\nA análise do gráfico permite concluir corretamente que",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 5: Gráfico de entalpia versus caminho da reação, mostrando reagentes em 30 kJ, complexo ativado em 60 kJ e produtos em -10 kJ."
+      ],
+      "alternativas": {
+        "a": "temos uma reação endotérmica, pois apresenta ΔH = –10 kJ.",
+        "b": "temos uma reação exotérmica, pois apresenta ΔH = +10 kJ.",
+        "c": "a energia do complexo ativado é 30 kJ.",
+        "d": "a energia de ativação para a reação direta é 30 kJ.",
+        "e": "a energia de ativação para a reação inversa é 40 kJ."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Termoquímica: reações exotérmicas e endotérmicas, entalpia e equações termoquímicas",
+            "Cinética Química: rapidez de reação, teoria das colisões e energia de ativação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 5
+    },
+    {
+      "numero": 9,
+      "tipo": "objetiva",
+      "enunciado": "Em toda produção industrial é comum que alguns itens fabricados estejam fora dos padrões estabelecidos e tenham que ser descartados.\n\nUma fábrica de pregos e parafusos calcula que 5% dos pregos produzidos são menores que o tamanho padronizado e que 3% dos parafusos produzidos são mais finos que a espessura padronizada. O restante da produção atende aos padrões estabelecidos. Do total da produção, 60% são pregos e 40% são parafusos.\n\nEscolhe-se aleatoriamente um item produzido por essa fábrica. A probabilidade de ser um item de tamanho e espessura padronizados é de",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "95,4%.",
+        "b": "95,6%.",
+        "c": "95,8%.",
+        "d": "96,0%.",
+        "e": "96,2%."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Espaço amostral (discreto e contínuo) e conceito de probabilidade",
+            "Probabilidade da união e da intersecção de eventos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 5
+    },
+    {
+      "numero": 10,
+      "tipo": "objetiva",
+      "enunciado": "Um quebra-cabeça é composto por apenas três peças que, quando encaixadas corretamente, formam o retângulo da figura.\n\nAssinale a alternativa que apresenta as três peças que permitem montar esse quebra-cabeça.",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 6: Imagem do retângulo formado por 4x3 quadradinhos e alternativas com diferentes composições de três peças."
+      ],
+      "alternativas": {
+        "a": "Alternativa A",
+        "b": "Alternativa B",
+        "c": "Alternativa C",
+        "d": "Alternativa D",
+        "e": "Alternativa E"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Geometria Plana: ponto, reta, plano, segmentos e ângulos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 6
+    },
+    {
+      "numero": 11,
+      "tipo": "objetiva",
+      "enunciado": "Comparando-se uma palavra de quatro letras distintas com as palavras BIFE, FEIA, FOME, BAFO, MATE e PEMA observa-se que:\n\n- BIFE: não tem letras em comum com ela.\n- FEIA: tem uma única letra em comum com ela, mas que não está na mesma posição.\n- FOME: tem uma única letra em comum com ela, mas que não está na mesma posição.\n- BAFO: tem exatamente duas letras em comum com ela, e essas duas letras estão nas mesmas posições na palavra procurada.\n- MATE: tem exatamente duas letras em comum com ela, e essas duas letras estão nas mesmas posições na palavra procurada.\n- PEMA: tem exatamente duas letras em comum com ela, uma na mesma posição e a outra não.\n\nDe acordo com as informações dadas, é correto concluir que a palavra é o nome de",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "uma ave.",
+        "b": "uma flor.",
+        "c": "uma fruta.",
+        "d": "um peixe.",
+        "e": "um mamífero."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Algoritmos, fluxogramas e lógica básica de programação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 6
+    },
+    {
+      "numero": 12,
+      "tipo": "objetiva",
+      "enunciado": "Considere a sequência formada por figuras compostas por quadradinhos nas cores cinza e preta dispostos de acordo com um determinado critério.\n\nAdmitindo o mesmo padrão de formação das figuras, o número de quadradinhos pretos da figura que ocupa a 96ª posição é",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 7: Imagem da sequência de figuras com quadradinhos cinzas e pretos da 1ª à 9ª posição."
+      ],
+      "alternativas": {
+        "a": "45.",
+        "b": "47.",
+        "c": "49.",
+        "d": "50.",
+        "e": "52."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Noção de sequência e lei de formação/recorrência",
+            "Progressão Aritmética (PA) - termo geral e soma dos termos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 7
+    },
+    {
+      "numero": 13,
+      "tipo": "objetiva",
+      "enunciado": "Em um jogo de tabuleiro, para cada jogada são lançados dois dados, um branco e outro vermelho. Os dados são honestos, têm a forma de tetraedro regular e com um único número em cada face.\nO dado branco tem as faces numeradas por: –1, 0, 1 e 2.\nO dado vermelho tem as faces numeradas por: –2, –1, 0 e 1.\nO jogador lança os dados e observa a face em que cada um deles se apoia, isto é, a que está voltada para baixo.\nPelas regras do jogo, o jogador avança ou retrocede, no tabuleiro, quando o produto dos números obtidos nos dados for positivo ou negativo, respectivamente.\nEm uma jogada, o número de modos distintos em que os resultados dos dados levam a um retrocesso é",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 7: Imagem de um tetraedro regular."
+      ],
+      "alternativas": {
+        "a": "4.",
+        "b": "5.",
+        "c": "6.",
+        "d": "7.",
+        "e": "8."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Princípios multiplicativo e aditivo da contagem",
+            "Espaço amostral (discreto e contínuo) e conceito de probabilidade"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 7
+    },
+    {
+      "numero": 14,
+      "tipo": "objetiva",
+      "enunciado": "As letras a, b e c representam algarismos não nulos e distintos.\nConsidere que\n• ab representa um número inteiro positivo de dois algarismos, sendo a o algarismo das dezenas e b o algarismo das unidades;\n• caab representa um número inteiro positivo de quatro algarismos, sendo c o algarismo das unidades dos milhares, a o algarismo das centenas, a o algarismo das dezenas e b o algarismo das unidades.\n\nNessas condições, se $\\begin{cases} a - b = 1 \\\\ (ab)^2 = caab \\end{cases}$, então o valor da soma $100c + 10b + a$ é igual a",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "457.",
+        "b": "567.",
+        "c": "654.",
+        "d": "756.",
+        "e": "765."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Operações fundamentais com números inteiros e decimais",
+            "Produtos notáveis e fatoração algébrica básica"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 7
+    },
+    {
+      "numero": 15,
+      "tipo": "objetiva",
+      "enunciado": "Nos séculos finais da Baixa Idade Média europeia, a economia de subsistência e de trocas naturais tendia a ser suplantada pela economia monetária, a influência das cidades passou a prevalecer sobre os campos, e a dinâmica de comércio levou à mudança e à ruptura das corporações de ofício medievais.\n(SEVCENKO, Nicolau. O Renascimento. São Paulo: Atual, 1988, p.5. Adaptado)\n\nAnalisando as transformações citadas, conclui-se, corretamente, que elas",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "evidenciaram o surgimento da nova classe social burguesa e a crise do sistema feudal.",
+        "b": "fortaleceram a Igreja Católica, que incentivava a prática comercial no período medieval.",
+        "c": "prejudicaram a burguesia comercial e favoreceram os proprietários das terras feudais.",
+        "d": "demonstraram a força do sistema feudal e dos mecanismos de subsistência no campo.",
+        "e": "enfraqueceram os reis absolutistas que dominaram a Europa durante o período medieval."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Período Medieval: feudalismo, diversidade religiosa (cristianismo, islamismo, judaísmo) e vida cultural no Medievo europeu e africano",
+            "Renascimento Cultural, Reformas Religiosas e formação dos Estados Nacionais"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 8
+    },
+    {
+      "numero": 16,
+      "tipo": "objetiva",
+      "enunciado": "O desenvolvimento de novas tecnologias tornou-se fundamental para o desenvolvimento econômico e reforçou a vantagem de alguns países sobre outros. Quanto mais complexa a tecnologia desenvolvida, mais elaborado e caro era o processo de invenção ou descoberta. O ‘país desenvolvido’ típico tinha mais de mil cientistas e engenheiros para cada milhão de habitantes na década de 1970, mas o Brasil tinha cerca de 250, a Índia 130, o Paquistão uns sessenta, o Quênia e a Nigéria cerca de trinta.\n(HOBSBAWM, Eric. Era dos extremos: o breve século XX. São Paulo: Cia das Letras, 1995, p. 261. Adaptado)\n\nAssinale a alternativa em que há uma análise coerente com as informações fornecidas pelo texto.",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "Devido à Guerra Fria, os países do eixo capitalista impediram o desenvolvimento tecnológico nos países do eixo socialista.",
+        "b": "O investimento em tecnologia do período foi elevado nos países do grupo BRICS, que eram atrelados ao bloco econômico soviético.",
+        "c": "Os países, à época considerados do Primeiro e do Terceiro Mundo, apresentavam desenvolvimento tecnológico desigual.",
+        "d": "No período de Guerra Fria, as disputas se concentravam no aspecto ideológico e dispensavam o uso de tecnologias.",
+        "e": "Com a globalização, observa-se que o avanço tecnológico atingiu o mundo todo de forma equilibrada."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Guerra Fria, corrida armamentista e descolonização da África e Ásia"
+          ]
+        },
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Globalização, comércio internacional, blocos econômicos e a posição do Brasil no comércio global"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 8
+    },
+    {
+      "numero": 17,
+      "tipo": "objetiva",
+      "enunciado": "A partir do final do século XIX, com o início da industrialização e da urbanização no estado de São Paulo, começaram a surgir organizações de operários e jornais sindicais.\nEm um deles, chamado A Voz do Povo, encontramos a seguinte mensagem, publicada no ano de 1890:\n\nAcreditamos que todos sabem que é do interesse comum haver na Constituinte opiniões de todas as classes, de modo que a lei seja uma verdadeira emanação do povo, e não de algumas classes privilegiadas, como foram todas as leis do Império.\n(www2.marilia.unesp.br/revistas/index.php/novosrumos/article/viewFile/2073/1705 Acesso em: 30.08.2013)\n\nAnalisando o conteúdo do texto, encontramos influência das ideias",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "anarquistas, pois se defende a eliminação do Estado civil organizado.",
+        "b": "socialistas, pois se defende a tomada do poder pela revolução operária.",
+        "c": "imperialistas, pois se defende a legislação tal qual era organizada no Império.",
+        "d": "mercantilistas, pois se defende a diminuição das funções do Estado pela lei do mercado.",
+        "e": "iluministas, pois se defende a soberania popular por meio da representação na Constituinte."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Brasil República: República Velha (oligarquias), Era Vargas (1930-1945), Período Democrático (1945-1964) e Ditadura Civil-Militar (1964-1985)"
+          ]
+        },
+        {
+          "area": "Filosofia e Sociologia",
+          "assuntos": [
+            "Filosofia Política: Estado Absoluto, Contratualismo (Hobbes, Locke, Rousseau) e Maquiavel"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 8
+    },
+    {
+      "numero": 18,
+      "tipo": "objetiva",
+      "enunciado": "Ao longo da História, muitas sociedades utilizaram o trabalho de pessoas escravizadas, como, por exemplo, a Grécia Clássica e a América Portuguesa.\nRefletindo sobre essa forma de exploração do trabalho, é correto afirmar que",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "as duas sociedades citadas utilizaram predominantemente o trabalho de escravos africanos da região subsaariana e da África oriental.",
+        "b": "a utilização do trabalho escravo, nas duas sociedades citadas, pode ser considerada a base da organização econômica e produtiva.",
+        "c": "as duas sociedades citadas utilizaram o trabalho de escravos apenas na produção agrícola de exportação e não nas cidades.",
+        "d": "o exercício da cidadania era permitido aos escravos na Grécia Clássica, mas era impedido na América Portuguesa.",
+        "e": "havia, na Grécia, apenas escravos de origem romana e, na América Portuguesa, apenas escravos de origem africana."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Antiguidade Clássica: democracia ateniense, República/Império Romano e escravismo",
+            "Brasil Colônia: primeiros habitantes indígenas, ocupação territorial, ciclos econômicos (açúcar e ouro) e escravidão"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 8
+    },
+    {
+      "numero": 19,
+      "tipo": "objetiva",
+      "enunciado": "Observe a fotografia, que retrata uma manifestação popular no Rio de Janeiro em 1945.\nConsiderando o conteúdo dos cartazes e o período em que a manifestação ocorreu, é correto afirmar que se tratava de",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 9: Fotografia de manifestação popular no Rio de Janeiro em 1945 com cartazes de apoio a Getúlio Vargas."
+      ],
+      "alternativas": {
+        "a": "uma greve de trabalhadores rurais, exigindo o fim da República do Café-com-Leite.",
+        "b": "uma manifestação do Queremismo, que defendia a continuidade de Vargas no poder.",
+        "c": "um comício do Partido Comunista, exigindo que Vargas revogasse as leis trabalhistas.",
+        "d": "um protesto integralista, que criticava Getúlio Vargas pela convocação da Constituinte.",
+        "e": "um comício do candidato Vargas, que concorria pela UDN às eleições para presidente."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Brasil República: República Velha (oligarquias), Era Vargas (1930-1945), Período Democrático (1945-1964) e Ditadura Civil-Militar (1964-1985)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 9
+    },
+    {
+      "numero": 20,
+      "tipo": "objetiva",
+      "enunciado": "Sobre as equações mencionadas, em I e II, é correto afirmar que,",
+      "textos_de_apoio": [
+        "O aumento da demanda de energia é uma das principais preocupações da sociedade contemporânea.\nA seguir, temos equações termoquímicas de dois combustíveis muito utilizados para a produção de energia.\n\nI. $CH_3-CH_2-OH (l) + 3 O_2 (g) \\rightarrow 2 CO_2 (g) + 3 H_2O (l) \\quad \\Delta H = -1366,8 \\text{ kJ}$\n\nII. $\\text{CH}_3-\\text{C}(\\text{CH}_3)_2-\\text{CH}_2-\\text{CH}(\\text{CH}_3)_2 (l) + \\frac{25}{2} O_2 (g) \\rightarrow 8 CO_2 (g) + 9 H_2O (l) \\quad \\Delta H = -5461,0 \\text{ kJ}$"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "em I, temos um combustível de origem vegetal, que pertence à função aldeído.",
+        "b": "em I, temos um combustível de origem fóssil, obtido a partir do petróleo.",
+        "c": "em II, temos etanol, que pode ser obtido da cana-de-açúcar.",
+        "d": "em II, temos a combustão de um componente da gasolina, 2,2,4-trimetilpentano.",
+        "e": "em II, temos a combustão do gás natural, isoctano."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Principais funções orgânicas: hidrocarbonetos, álcoois, fenóis, éteres, ésteres, aldeídos, cetonas, ácidos carboxílicos, aminas e amidas",
+            "Termoquímica: reações exotérmicas e endotérmicas, entalpia e equações termoquímicas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 9
+    },
+    {
+      "numero": 21,
+      "tipo": "objetiva",
+      "enunciado": "Dadas as entalpias de formação dos compostos:\n$CO_2(g) \\quad \\Delta H_f = -393 \\text{ kJ/mol}$\n$H_2O(l) \\quad \\Delta H_f = -286 \\text{ kJ/mol}$\n\nconclui-se, corretamente, que a entalpia de formação do combustível presente em I é, em kJ/mol,",
+      "textos_de_apoio": [
+        "O aumento da demanda de energia é uma das principais preocupações da sociedade contemporânea.\nA seguir, temos equações termoquímicas de dois combustíveis muito utilizados para a produção de energia.\n\nI. $CH_3-CH_2-OH (l) + 3 O_2 (g) \\rightarrow 2 CO_2 (g) + 3 H_2O (l) \\quad \\Delta H = -1366,8 \\text{ kJ}$\n\nII. $\\text{CH}_3-\\text{C}(\\text{CH}_3)_2-\\text{CH}_2-\\text{CH}(\\text{CH}_3)_2 (l) + \\frac{25}{2} O_2 (g) \\rightarrow 8 CO_2 (g) + 9 H_2O (l) \\quad \\Delta H = -5461,0 \\text{ kJ}$"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "–107,5.",
+        "b": "+107,5.",
+        "c": "–277,2.",
+        "d": "+277,2.",
+        "e": "+687,7."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Termoquímica: reações exotérmicas e endotérmicas, entalpia e equações termoquímicas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 9
+    },
+    {
+      "numero": 22,
+      "tipo": "objetiva",
+      "enunciado": "Os motores de combustão são frequentemente responsabilizados por problemas ambientais, como a potencialização do efeito estufa e da chuva ácida, o que tem levado pesquisadores a buscar outras tecnologias.\nUma dessas possibilidades são as células de combustíveis de hidrogênio que, além de maior rendimento, não poluem.\n\nObserve o esquema:\n[Esquema de célula de combustível]\n\nSemirreações do processo:\n• ânodo: $H_2 \\rightarrow 2 H^+ + 2e^–$\n• cátodo: $O_2 + 4 H^+ + 4e^– \\rightarrow 2 H_2O$\n\nSobre a célula de hidrogênio esquematizada, é correto afirmar que",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 10: Esquema de uma célula de combustível de hidrogênio mostrando eletrodos, reagentes X e Y, membrana polimérica e produtos."
+      ],
+      "alternativas": {
+        "a": "ocorre eletrólise durante o processo.",
+        "b": "ocorre consumo de energia no processo.",
+        "c": "o ânodo é o polo positivo da célula combustível.",
+        "d": "a proporção entre os gases reagentes é 2 H₂ : 1 O₂.",
+        "e": "o reagente que deve ser adicionado em X é o oxigênio."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Eletroquímica: reações de oxirredução, números de oxidação (NOX) e agentes oxidantes/redutores",
+            "Pilhas (potencial-padrão de redução) e Eletrólise (Leis de Faraday)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 10
+    },
+    {
+      "numero": 23,
+      "tipo": "objetiva",
+      "enunciado": "Além do problema da escassez de água potável em alguns pontos do planeta, a sociedade também enfrenta as dificuldades de tratamento da água disponível, cada vez mais poluída.\nUma das etapas desse tratamento envolve a adição de compostos químicos que possam facilitar a retirada de partículas suspensas na água.\n\nOs compostos adicionados reagem formando uma substância gelatinosa, hidróxido de alumínio, que aglutina as partículas suspensas.\nA seguir, temos a reação que representa o descrito:\n$3 Ca(OH)_2 + Al_2(SO_4)_3 \\rightarrow 3 CaSO_4 + 2 Al(OH)_3$\n\nA etapa descrita é denominada",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "filtração.",
+        "b": "cloração.",
+        "c": "floculação.",
+        "d": "destilação.",
+        "e": "decantação."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Misturas homogêneas/heterogêneas e processos de separação",
+            "Química Ambiental: parâmetros de qualidade ambiental, poluição de ar/água/solo e ciclos biogeoquímicos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 10
+    },
+    {
+      "numero": 24,
+      "tipo": "objetiva",
+      "enunciado": "Uma indústria compra soda cáustica com teor de pureza de 80%, em NaOH. Antes de mandar o material para o estoque, chama o Técnico em Química para verificar se a informação procede.\nNo laboratório, ele dissolve 1 g do material em água, obtendo 10 mL de solução. Utilizando um indicador apropriado, realiza uma titulação, gastando 20 mL de HCl, a 0,5 mol/L.\n\nDados:\nMassas Molares (g/mol): NaOH = 40 e HCl = 36,5\nReação: NaOH + HCl → NaCl + H₂O\n\nSobre o resultado da titulação, é correto afirmar que a informação",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "não procede, pois o grau de pureza é de 40%.",
+        "b": "não procede, pois o grau de pureza é de 60%.",
+        "c": "procede, pois o grau de pureza é de 80%.",
+        "d": "procede, pois o teor de impurezas é de 80%.",
+        "e": "procede, pois o teor de impurezas é de 40%."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Água e soluções aquosas: solubilidade, tipos de concentração (g/L, mol/L, ppm) e diluição",
+            "Cálculos estequiométricos: relações de massa, volume, mols e pureza/rendimento"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 10
+    },
+    {
+      "numero": 25,
+      "tipo": "objetiva",
+      "enunciado": "De acordo com o texto, é correto afirmar que o bóson de Higgs",
+      "textos_de_apoio": [
+        "Tooth fairy quantum mechanics\nThe reason I can’t show you a Higgs boson is also the solution to a parental dilemma.\nPosted by Jon Butterworth\nSunday 23 December 2012 18.36 GMT, theguardian.com\n\nI do sometimes get asked “If you’ve found a Higgs boson, can you show me a picture of it?” Unfortunately, the answer is no. But the reason for this provides a resolution to a severe parental dilemma, and explains why I am in fact sometimes the tooth fairy. Bear with me.\n\n[Continua nos textos de apoio das questões 26, 27, 28 e 29]"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "teve seu nome tirado da lenda da fada do dente.",
+        "b": "é uma partícula que pode ser observada em fotografias.",
+        "c": "é um elemento muito importante na educação de crianças mais novas.",
+        "d": "pode ser usado para entender por que o autor do texto é, às vezes, a fada do dente.",
+        "e": "teve sua existência comprovada acidentalmente ao se observarem processos dentários."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 11
+    },
+    {
+      "numero": 26,
+      "tipo": "objetiva",
+      "enunciado": "Segundo as indicações do texto, o gráfico apresentado",
+      "textos_de_apoio": [
+        "Tooth fairy quantum mechanics\nThe reason I can’t show you a Higgs boson is also the solution to a parental dilemma.\nPosted by Jon Butterworth\nSunday 23 December 2012 18.36 GMT, theguardian.com\n\nI do sometimes get asked “If you’ve found a Higgs boson, can you show me a picture of it?” Unfortunately, the answer is no. But the reason for this provides a resolution to a severe parental dilemma, and explains why I am in fact sometimes the tooth fairy. Bear with me.\n\n[Continua nos textos de apoio das questões 26, 27, 28 e 29]"
+      ],
+      "midia": [
+        "Página 11: Gráfico de distribuição de massa (ATLAS detector)."
+      ],
+      "alternativas": {
+        "a": "é usado como parâmetro para compor um modelo de educação para muitas crianças.",
+        "b": "traz resultados que são aplicados à redução do consumo de energia luminosa.",
+        "c": "traz resultados que foram obtidos a partir da interpretação de histórias infantis.",
+        "d": "é usado como indicativo da possível existência de uma partícula subatômica.",
+        "e": "é usado, metaforicamente, como modelo do desenvolvimento físico infantil."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 11
+    },
+    {
+      "numero": 27,
+      "tipo": "objetiva",
+      "enunciado": "O autor do texto afirma que",
+      "textos_de_apoio": [
+        "Tooth fairy quantum mechanics\nThe reason I can’t show you a Higgs boson is also the solution to a parental dilemma.\nPosted by Jon Butterworth\nSunday 23 December 2012 18.36 GMT, theguardian.com\n\nI do sometimes get asked “If you’ve found a Higgs boson, can you show me a picture of it?” Unfortunately, the answer is no. But the reason for this provides a resolution to a severe parental dilemma, and explains why I am in fact sometimes the tooth fairy. Bear with me.\n\n[Continua nos textos de apoio das questões 26, 27, 28 e 29]"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "a fada do dente é uma manifestação física do bóson de Higgs.",
+        "b": "as mentiras são essenciais no processo educacional de crianças.",
+        "c": "as crianças que estão perdendo seus dentes de leite colocam os pais em um dilema.",
+        "d": "os pais vivem um dilema quando têm que falar sobre o bóson de Higgs com os filhos.",
+        "e": "os dentistas e a fada do dente oferecem sempre a mesma recompensa pelos dentes das crianças."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 11
+    },
+    {
+      "numero": 28,
+      "tipo": "objetiva",
+      "enunciado": "No segundo parágrafo do texto, o pronome relativo which em – I can’t show you something which is definitely the new boson – pode ser substituído, mantendo-se a sentença gramaticalmente correta, por",
+      "textos_de_apoio": [
+        "Tooth fairy quantum mechanics\nThe reason I can’t show you a Higgs boson is also the solution to a parental dilemma.\nPosted by Jon Butterworth\nSunday 23 December 2012 18.36 GMT, theguardian.com\n\nI do sometimes get asked “If you’ve found a Higgs boson, can you show me a picture of it?” Unfortunately, the answer is no. But the reason for this provides a resolution to a severe parental dilemma, and explains why I am in fact sometimes the tooth fairy. Bear with me.\n\n[Continua nos textos de apoio das questões 26, 27, 28 e 29]"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "whose.",
+        "b": "whom.",
+        "c": "this.",
+        "d": "that.",
+        "e": "who."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Coesão textual em inglês: referência pronominal e elipses"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 12
+    },
+    {
+      "numero": 29,
+      "tipo": "objetiva",
+      "enunciado": "Os pronomes he e they presentes no último parágrafo do texto – he and they are, in a sense, indistinguishable quantum possibilities for the delivery process – substituem, respectivamente, os termos",
+      "textos_de_apoio": [
+        "Tooth fairy quantum mechanics\nThe reason I can’t show you a Higgs boson is also the solution to a parental dilemma.\nPosted by Jon Butterworth\nSunday 23 December 2012 18.36 GMT, theguardian.com\n\nI do sometimes get asked “If you’ve found a Higgs boson, can you show me a picture of it?” Unfortunately, the answer is no. But the reason for this provides a resolution to a severe parental dilemma, and explains why I am in fact sometimes the tooth fairy. Bear with me.\n\n[Continua nos textos de apoio das questões 26, 27, 28 e 29]"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "wrapping paper e Father Christmas.",
+        "b": "Father Christmas e parents.",
+        "c": "wrapping paper e parents.",
+        "d": "Dad e Father Christmas.",
+        "e": "Dad e wrapping paper."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Coesão textual em inglês: referência pronominal e elipses"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 12
+    },
+    {
+      "numero": 30,
+      "tipo": "objetiva",
+      "enunciado": "A fachada do Partenon, famoso templo em Atenas, foi construída segundo o conceito de secção áurea, que consiste na divisão de um segmento em duas partes: a maior de 61,8% e a menor de 38,2%.\nA altura das colunas corresponde à maior parte da secção áurea em relação à altura da fachada dessa edificação.\nAdmitindo-se que a altura de cada coluna meça 10,5 m, a altura da fachada do Partenon é, em metros, mais próxima de",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 12: Fotografia da fachada do Partenon."
+      ],
+      "alternativas": {
+        "a": "15,8.",
+        "b": "16,1.",
+        "c": "16,5.",
+        "d": "17,0.",
+        "e": "17,4."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Razões e proporções diretas e inversas",
+            "Geometria Plana: ponto, reta, plano, segmentos e ângulos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 12
+    },
+    {
+      "numero": 31,
+      "tipo": "objetiva",
+      "enunciado": "A sistematização das notas musicais permitiu a padronização dos instrumentos e, com isso, a universalização da composição musical desde o período renascentista.\nO método adotado para a criação das notas foi o de construir uma sequência de frequências de sons conforme uma Progressão Geométrica.\nUm músico adota a frequência de Dó (1º termo) em 261 Hz, e após 12 intervalos, obtém o próximo Dó (13º termo) em 522 Hz, como vemos na tabela.\n\n[Tabela de notas musicais de Dó a Dó]\n\nEsse músico deseja afinar seu instrumento utilizando a frequência da nota Lá (10º termo). A frequência que ele deverá utilizar, em hertz, é igual a",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 12: Tabela com as notas musicais e suas respectivas frequências (Dó = 261 Hz, Dó#, Ré, etc., até Dó = 522 Hz)."
+      ],
+      "alternativas": {
+        "a": "$261 \\sqrt[4]{4}$.",
+        "b": "$261 \\sqrt[12]{8}$.",
+        "c": "$261 \\sqrt[4]{10}$.",
+        "d": "$261 \\sqrt[4]{8}$.",
+        "e": "$261 \\sqrt[12]{4}$."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Progressão Geométrica (PG) - termo geral e soma dos termos",
+            "Potenciação e radiciação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 12
+    },
+    {
+      "numero": 32,
+      "tipo": "objetiva",
+      "enunciado": "Um consumidor deseja adquirir um apartamento e recorre a um banco para financiar esse imóvel. Após a análise das formas de crédito e da realização dos cálculos, o comprador opta por um financiamento no qual, ao término do prazo, o valor total pago será igual ao dobro do valor inicial financiado.\nSabendo-se que o banco aplicou uma taxa de juros de 8% ao ano, a juros compostos, o prazo em que esse comprador pagará seu apartamento é, em anos, igual a",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "10.",
+        "b": "15.",
+        "c": "20.",
+        "d": "25.",
+        "e": "30."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Matemática Financeira: porcentagem, juros simples, juros compostos, taxas e índices",
+            "Teoria dos logaritmos, propriedades e função logarítmica"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 12
+    },
+    {
+      "numero": 33,
+      "tipo": "objetiva",
+      "enunciado": "A pintura, a seguir, de Kazimir Malevich tem como título Retângulo preto, Triângulo azul e é um exemplo do abstracionismo geométrico do início do século XX, conhecido na Rússia como Suprematismo.\n\n[Imagem da pintura]\n\nConsidere que as três informações a seguir são verdadeiras:\n• O “Triângulo azul” é equilátero, com lados medindo 32 cm.\n• O “Retângulo preto” tem dimensões de 30 cm x 60 cm.\n• Um dos lados do “Retângulo preto” intercepta os pontos médios de dois lados do “Triângulo azul”.\n\nÉ correto afirmar que a área da pintura ocupada pela composição das figuras “Retângulo preto” e “Triângulo azul” é, em cm², igual a",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 13: Imagem da pintura suprematista de Kazimir Malevich."
+      ],
+      "alternativas": {
+        "a": "$1800 + 64\\sqrt{3}$.",
+        "b": "$1800 + 128\\sqrt{3}$.",
+        "c": "$1800 + 192\\sqrt{3}$.",
+        "d": "$1800 + 512\\sqrt{3}$.",
+        "e": "$1800 + 1024\\sqrt{3}$."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Cálculo de áreas (polígonos, círculos, coroas e setores circulares)",
+            "Trigonometria no triângulo retângulo (seno, cosseno e tangente)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 13
+    },
+    {
+      "numero": 34,
+      "tipo": "objetiva",
+      "enunciado": "Um prego é constituído por 3 partes: uma cabeça cilíndrica, um corpo também cilíndrico e uma ponta cônica. Em um prego inteiramente constituído de aço, temos as seguintes especificações:\n\n[Tabela com raio e altura da cabeça, corpo e ponta do prego]\n\nO volume mínimo de aço necessário para produzir 100 pregos é, em mm³,",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 13: Tabela de dimensões de um prego (cabeça, corpo, ponta)."
+      ],
+      "alternativas": {
+        "a": "57 400 π.",
+        "b": "56 200 π.",
+        "c": "54 800 π.",
+        "d": "48 600 π.",
+        "e": "45 400 π."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Geometria Espacial: vistas ortogonais e planificação",
+            "Cilindro, cone e esfera (área, volume e capacidade)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 13
+    },
+    {
+      "numero": 35,
+      "tipo": "objetiva",
+      "enunciado": "O Brasil pretende construir um submarino nuclear que terá massa aproximada de 6 000 toneladas, poderá descer até uma profundidade de 350 metros e desenvolver uma velocidade máxima aproximada de 12 m/s.\nSuponha as duas situações a seguir:\n\n(I) que o submarino descrito esteja completamente estático, totalmente submerso e próximo à lâmina d’água, em uma determinada região do oceano que possui campo gravitacional constante;\n(II) que o submarino descrito esteja navegando à velocidade máxima de forma constante, totalmente submerso e próximo à lâmina d’água, em uma determinada região do oceano que possui campo gravitacional constante.\n\nDesprezando a coluna d’água acima do submarino, podemos afirmar que o empuxo produzido na situação (I) e a quantidade de movimento gerada na situação (II), respectiva e aproximadamente, são",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "$6,0 \\cdot 10^4 \\text{ N e } 7,2 \\cdot 10^4 \\text{ kg}\\cdot\\text{m/s}$.",
+        "b": "$6,0 \\cdot 10^4 \\text{ N e } 7,2 \\cdot 10^5 \\text{ kg}\\cdot\\text{m/s}$.",
+        "c": "$6,0 \\cdot 10^7 \\text{ N e } 7,2 \\cdot 10^6 \\text{ kg}\\cdot\\text{m/s}$.",
+        "d": "$6,0 \\cdot 10^7 \\text{ N e } 7,2 \\cdot 10^7 \\text{ kg}\\cdot\\text{m/s}$.",
+        "e": "$6,0 \\cdot 10^7 \\text{ N e } 7,2 \\cdot 10^8 \\text{ kg}\\cdot\\text{m/s}$."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Princípio de Arquimedes (empuxo e corpos flutuantes)",
+            "Impulso, quantidade de movimento e conservação da quantidade de movimento (colisões)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 13
+    },
+    {
+      "numero": 36,
+      "tipo": "objetiva",
+      "enunciado": "Os aviões voam porque o perfil aerodinâmico de suas asas faz com que o ar que passa por cima e por baixo delas ocasione uma diferença de pressão que gera o empuxo.\nEsta força de empuxo é que permite ao avião se sustentar no ar. Logo, para que o avião voe, as hélices ou turbinas do avião é que empurram o ar para trás, e o ar reage impulsionando a aeronave para a frente. Desta forma, podemos dizer que o avião se sustenta no ar sob a ação de 4 forças:\n- a motora ou propulsão;\n- de resistência do ar ou arrasto;\n- a peso;\n- a de empuxo ou sustentação.\n\nCaso um avião voe em velocidade constante e permaneça à mesma altitude, é correto afirmar que a somatória das",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 14: Esquema das quatro forças atuando em um avião em voo."
+      ],
+      "alternativas": {
+        "a": "forças verticais é nula e a das horizontais, não nula.",
+        "b": "forças horizontais é nula e a das verticais, não nula.",
+        "c": "forças horizontais e verticais é nula.",
+        "d": "forças positivas é nula.",
+        "e": "forças negativas é nula."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "As 3 Leis de Newton e conceito de força resultante",
+            "Equilíbrio do ponto material e do corpo extenso (Momento ou Torque)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 14
+    },
+    {
+      "numero": 37,
+      "tipo": "objetiva",
+      "enunciado": "Em 1895, um trem causou furor na população europeia ao fazer o trecho de aproximadamente 880 quilômetros entre Londres e Aberdeen, na Escócia, no fantástico tempo médio de 8 horas.\nRecentemente, o bilionário Elon Musk, também chamado de Tony Stark da vida real, surpreendeu a população mundial ao apresentar o projeto do trem Hyperloop que, se funcionar como descrito, pode revolucionar o mundo dos transportes.\nO Hyperloop, um trem encapsulado movido a energia solar e trilhos eletromagnéticos, possibilitará que uma viagem entre Los Angeles e San Francisco, nos Estados Unidos, cidades distantes entre si cerca de 610 quilômetros, seja feita em apenas 30 minutos.\n\nConsiderando essas informações, podemos afirmar, corretamente, que a velocidade média do trem britânico equivaleria, em relação à velocidade média do Hyperloop, aproximadamente, a",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "9%.",
+        "b": "15%.",
+        "c": "50%.",
+        "d": "74%.",
+        "e": "121%."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Cinemática escalar: velocidade e aceleração escalar média e instantânea",
+            "Movimento Uniforme (MU) e Movimento Uniformemente Variado (MUV)"
+          ]
+        },
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Razões e proporções diretas e inversas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 14
+    },
+    {
+      "numero": 38,
+      "tipo": "objetiva",
+      "enunciado": "A Fórmula 1 apresentou uma tecnologia denominada como Sistema de Recuperação de Energia Cinética, ou KERS (Kinetic Energy Recovering System), que é um dispositivo usado para converter parte da energia desperdiçada nas frenagens em tipos mais úteis de energia, que então pode ser utilizada para aumentar a potência dos carros.\nParece bastante complicado, mas não é. Tudo se baseia no fato de que a energia não pode ser criada ou destruída, mas pode ser transformada.\n\nPodemos afirmar, portanto, que a energia convertida e armazenada pelo dispositivo KERS, em forma de energia útil, é a energia",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "luminosa.",
+        "b": "térmica.",
+        "c": "solar.",
+        "d": "eólica.",
+        "e": "gravitacional."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Energia cinética, energia potencial (gravitacional e elástica) e conservação da energia mecânica",
+            "Potência mecânica e rendimento"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 14
+    },
+    {
+      "numero": 39,
+      "tipo": "objetiva",
+      "enunciado": "Como foi que um arranha-céus “derreteu” um carro?\n“É uma questão de reflexo. Se um prédio é curvilíneo e tem várias janelas planas, que funcionam como espelhos, os reflexos se convergem em um ponto” diz Chris Shepherd, do Instituto de Física de Londres.\nO edifício de 37 andares, ainda em construção, é de fato um prédio curvilíneo e o carro, um Jaguar, estava estacionado em uma rua próxima ao prédio, exatamente no ponto atingido por luzes refletidas e não foi o único que sofreu estrago.\nO fenômeno é consequência da posição do Sol em um determinado período do ano e permanece nessa posição por duas horas por dia. Assim, seus raios incidem de maneira oblíqua às janelas do edifício.\n\nConsiderando o fato descrito e a figura da pessoa observando o reflexo do Sol no edifício, na mesma posição em que estava o carro quando do incidente, podemos afirmar corretamente que o prédio se assemelha a um espelho",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 15: Fotografia de pessoa observando reflexo do Sol em edifício curvilíneo."
+      ],
+      "alternativas": {
+        "a": "plano e o carro posicionou-se em seu foco infinito.",
+        "b": "convexo e o carro posicionou-se em seu foco principal.",
+        "c": "convexo e o carro posicionou-se em um foco secundário.",
+        "d": "côncavo e o carro posicionou-se em seu foco principal.",
+        "e": "côncavo e o carro posicionou-se em um foco secundário."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Reflexão da luz: espelhos planos e espelhos esféricos (construção gráfica e estudo analítico)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 15
+    },
+    {
+      "numero": 40,
+      "tipo": "objetiva",
+      "enunciado": "O mapa abaixo retrata a territorialização do Brasil num estreito diálogo com a Literatura.\n\n[Mapa: Regionalismo Literário]\n\nConsiderando a geografia econômica brasileira e observando o mapa do regionalismo literário, podemos afirmar que",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 15: Mapa do Brasil indicando o regionalismo literário (Sertão do Cariri, Zona do Cacau, Gerais, Sertão dos Confins, Sertão de Goiás, Campanha Gaúcha)."
+      ],
+      "alternativas": {
+        "a": "a economia canavieira do sul da Bahia foi o contexto em que Jorge Amado ambientou as obras mencionadas.",
+        "b": "a expansão da soja destruiu boa parte do bioma do cerrado, domínio que serviu de cenário para a obra Os sertões de Guimarães Rosa.",
+        "c": "a campanha gaúcha esteve presente nas obras de Érico Veríssimo e foi uma tradicional área de pecuária extensiva.",
+        "d": "a pecuária extensiva caracteriza as propriedades do agreste nordestino, cenário que inspirou as obras de Ariano Suassuna.",
+        "e": "o contexto de coronéis e jagunços foi retratada na obra Chapadão do Bugre, de Mário Palmério, e teve como cenário o sertão nordestino."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Divisão regional do Brasil (IBGE e complexos geoeconômicos)",
+            "Domínios morfoclimáticos e biomas mundiais e brasileiros"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 15
+    },
+    {
+      "numero": 41,
+      "tipo": "objetiva",
+      "enunciado": "A política territorial das corporações automobilísticas a qual até recentemente buscava as benesses das localizações metropolitanas, a estas acrescenta hoje ações de descentralização industrial e coloniza novas porções do território.\nFonte: SANTOS, Milton & SILVEIRA, M.L. O Brasil. Rio de Janeiro, Record, 2001.\n\nSobre a recente “descentralização industrial” no território brasileiro mencionada pelos autores podemos afirmar corretamente que",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "a região Sudeste apresentou uma fuga da indústria automobilística e, nos últimos anos, não conheceu instalação de novas unidades.",
+        "b": "o estado de Minas Gerais conheceu, no século XXI, a instalação das primeiras indústrias automobilísticas.",
+        "c": "a concentração de indústrias no centro-sul do país exclui a região Nordeste desse processo.",
+        "d": "o estado de Pernambuco prepara a instalação de importante fábrica automobilística no contexto do aquecimento econômico pelo qual passa a região Nordeste.",
+        "e": "o estado de São Paulo monopoliza a instalação das novas unidades automotivas, reafirmando sua hegemonia automobilística."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Geografia Urbana: industrialização, urbanização, metropolização, conurbação, megalópoles e segregação socioespacial",
+            "Divisão regional do Brasil (IBGE e complexos geoeconômicos)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 16
+    },
+    {
+      "numero": 42,
+      "tipo": "objetiva",
+      "enunciado": "Observe os mapas:\n\n[Dois mapas: um detalhando adutoras/eixos e outro bacias hidrográficas do Brasil]\n\nPodemos relacionar corretamente esses mapas a um projeto que tem suscitado calorosas discussões sobre",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 16: Dois mapas, um detalhando o projeto de transposição do Rio São Francisco (Eixos Norte e Leste) e outro mostrando as bacias hidrográficas do Brasil."
+      ],
+      "alternativas": {
+        "a": "a construção da usina de Belo Monte junto à Bacia hidrográfica I.",
+        "b": "a transposição do principal rio da Bacia hidrográfica III.",
+        "c": "sistemas de agricultura de irrigação junto à Bacia hidrográfica II.",
+        "d": "a mais nova usina hidrelétrica construída junto à Bacia hidrográfica IV.",
+        "e": "a construção da usina de Belo Monte no rio Xingu, na Bacia hidrográfica II."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Hidrografia: bacias hidrográficas mundiais e brasileiras e geopolítica da água"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 16
+    },
+    {
+      "numero": 43,
+      "tipo": "objetiva",
+      "enunciado": "Dentre as alternativas a seguir, a que melhor explica a séria crise econômica que atingiu duramente alguns membros da União Europeia, como Grécia, Irlanda, Portugal e Espanha em anos recente é:",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "O aumento do preço das commodities, que provocou déficits comerciais.",
+        "b": "A alta generalizada do euro, que comprometeu as exportações intrabloco.",
+        "c": "A alta internacional do petróleo, que afetou a capacidade energética européia.",
+        "d": "A ingerência do FMI na gestão monetária desses países.",
+        "e": "A dívida fiscal provocada pelo excesso de gasto público."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Globalização, comércio internacional, blocos econômicos e a posição do Brasil no comércio global"
+          ]
+        },
+        {
+          "area": "História",
+          "assuntos": [
+            "Colapso da URSS, Nova Ordem Mundial, Globalização e Neoliberalismo",
+            "Organismos internacionais (FMI, OMC, Banco Mundial) e ascensão da China"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 17
+    },
+    {
+      "numero": 44,
+      "tipo": "objetiva",
+      "enunciado": "Sobre as manifestações que reconfiguraram a geopolítica do Oriente Médio e Mundo Árabe e que ficaram conhecidas como A Primavera Árabe, está correto afirmar que",
+      "textos_de_apoio": [
+        "Os recentes distúrbios no Egito formam um capítulo do processo deflagrado ainda em dezembro de 2010, quando o mundo árabe foi varrido por uma série de manifestações populares, derrubando governos e reconfigurando a geopolítica do Oriente Médio e Norte da África.\n(SILVA, Edilson Adão C. Futuro incerto. Carta na Escola, agosto de 2013)."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "a Tunísia foi pioneira no processo ao derrubar um regime fundamentalista e posteriormente eleger um regime laico.",
+        "b": "a queda de Bashar Assad na Síria foi produto de um conflito religioso entre a maioria alauíta e a minoria sunita.",
+        "c": "a pressão popular levou à queda da ditadura de Mubarak e à eleição do primeiro presidente eleito da história do Egito, presidente este igualmente derrubado.",
+        "d": "Muammar Kadafi, mesmo com o apoio ocidental, não resistiu à insatisfação popular e foi executado na Líbia o que levou a uma nova crise do petróleo.",
+        "e": "tiveram como ápice a traumática derrubada de Saddam Husseim, no Iraque, após décadas de tirania, e que pôs fim à hegemonia dos xiitas no país."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Globalização, comércio internacional, blocos econômicos e a posição do Brasil no comércio global"
+          ]
+        },
+        {
+          "area": "História",
+          "assuntos": [
+            "Conflitos étnicos e religiosos atuais no Oriente Médio e África"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 17
+    },
+    {
+      "numero": 45,
+      "tipo": "objetiva",
+      "enunciado": "O manuseio de equipamentos de radiologia envolve riscos à saúde, e o Tecnólogo em Radiologia segue uma série de normas de biossegurança para evitar a exposição desnecessária à radiação ionizante.\nEsse tipo de radiação pode danificar suas células, levando-as a se reproduzir de modo desordenado e descontrolado, gerando inúmeras novas células por meio do mesmo processo de divisão celular que ocorre nas células somáticas. Desse modo, basta que uma única célula do corpo se danifique e torne-se uma célula cancerígena para que surja um tumor. Isso ocorre porque a célula cancerígena inicial divide-se por",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "mitose, gerando células com o mesmo número de cromossomos e a mesma capacidade de duplicação.",
+        "b": "mitose, gerando células com metade do número de cromossomos, porém ainda com capacidade de duplicação.",
+        "c": "mitose, gerando células com o dobro do número de cromossomos e uma capacidade ainda maior de duplicação.",
+        "d": "meiose, gerando células com o mesmo número de cromossomos e a mesma capacidade de duplicação.",
+        "e": "meiose, gerando células com metade do número de cromossomos, porém ainda com capacidade de duplicação."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Núcleo celular, ciclo celular e divisões celulares (Mitose e Meiose)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 17
+    },
+    {
+      "numero": 46,
+      "tipo": "objetiva",
+      "enunciado": "Mapas conceituais são diagramas que organizam informações sobre um determinado assunto por meio da interligação de conceitos através de frases de ligação.\nOs conceitos geralmente são destacados por molduras e são utilizadas setas para indicar o sentido das proposições.\nO mapa conceitual a seguir refere-se à relação entre cromossomos e proteínas, e nele quatro conceitos foram omitidos.\n\n[Mapa conceitual com os conceitos I, II, III e IV]\n\nOs conceitos I, II, III e IV podem ser substituídos, correta e respectivamente, por",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 18: Mapa conceitual relacionando cromossomos, DNA, RNA, nucleotídeos, aminoácidos e proteínas."
+      ],
+      "alternativas": {
+        "a": "RNA, DNA, aminoácidos e nucleotídeos.",
+        "b": "RNA, DNA, nucleotídeos e aminoácidos.",
+        "c": "DNA, RNA, nucleotídeos e aminoácidos.",
+        "d": "DNA, RNA, monossacarídeos e aminoácidos.",
+        "e": "DNA, RNA, monossacarídeos e nucleotídeos."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Estrutura molecular do DNA e RNA, transcrição gênica e síntese proteica (código genético)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 18
+    },
+    {
+      "numero": 47,
+      "tipo": "objetiva",
+      "enunciado": "Outro fator que possibilitou o crescimento dos fungos, no interior da biblioteca, foi a disponibilidade de",
+      "textos_de_apoio": [
+        "Falta de espaço, problemas de armazenamento e umidade. Esses foram os três fatores que levaram ao descarte de 20 mil dos 35 mil livros da Biblioteca Pública Municipal Professor Bruno Enei, em Ponta Grossa (PR). Depois de dois laudos, que comprovaram a existência de fungos nos livros, todos os exemplares contaminados serão incinerados.\n(http://tinyurl.com/l2pt6vz Acesso em: 09.09.2013. Adaptado)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "matéria inorgânica, empregada na impressão dos livros, a qual é utilizada para a produção de alimento pelos fungos, visto que eles são seres autotróficos quimiossintetizantes.",
+        "b": "calor, fornecido pelo microambiente interno dos livros, necessário para o desencadeamento de reações químicas, visto que os fungos são seres autotróficos quimiossintetizantes.",
+        "c": "luminosidade, fornecida pelas lâmpadas do local, a qual é necessária para a síntese de compostos utilizados como alimento, visto que os fungos são seres autotróficos fotossintetizantes.",
+        "d": "matéria orgânica, fornecida pelas próprias páginas dos livros, a qual é necessária para a sobrevivência desses organismos, visto que os fungos são seres heterotróficos.",
+        "e": "gás carbônico, presente no ar que circula pela biblioteca, o qual fornece energia e alimento aos fungos, visto que os fungos são seres heterotróficos."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Reinos Monera, Protista e Fungi: características e importância ecológica/econômica",
+            "Conceitos ecológicos fundamentais (habitat, nicho ecológico, população, comunidade e ecossistema)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 18
+    },
+    {
+      "numero": 48,
+      "tipo": "objetiva",
+      "enunciado": "Eduardo e Mônica decidiram recorrer a um procedimento de útero em substituição (ou barriga de aluguel) para gerar um filho.\nDesse modo, um óvulo de Mônica foi fecundado, in vitro, por um espermatozoide de Eduardo, e o embrião foi posteriormente implantado no útero de outra mulher, definida como receptora.\n\nNessas condições, as características genéticas da criança gerada serão determinadas pelas características genéticas",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "de Eduardo, de Mônica e da receptora.",
+        "b": "de Eduardo e da receptora, apenas.",
+        "c": "de Eduardo e de Mônica, apenas.",
+        "d": "da receptora, apenas.",
+        "e": "de Mônica, apenas."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Embriologia humana e reprodução (gametogênese, fecundação, anexos embrionários, métodos contraceptivos e ISTs)",
+            "1ª e 2ª Leis de Mendel e correlação com a meiose"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 19
+    },
+    {
+      "numero": 49,
+      "tipo": "objetiva",
+      "enunciado": "Na filogenia estão representadas, de acordo com as propostas mais aceitas atualmente para a evolução dos Vertebrados, as relações evolutivas entre alguns grupos de animais.\n\n[Cladograma de vertebrados]\n\nDe acordo com as informações contidas na filogenia, é correto afirmar que",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 19: Cladograma mostrando a filogenia de Peixes, Anfíbios, Aves, Crocodilos, Lagartos, Tartarugas e Mamíferos."
+      ],
+      "alternativas": {
+        "a": "os répteis possuem um ancestral exclusivo não compartilhado com nenhum outro grupo de animal.",
+        "b": "os lagartos são tão próximos evolutivamente dos crocodilos quanto são das tartarugas.",
+        "c": "as tartarugas são mais próximas evolutivamente dos mamíferos do que das aves.",
+        "d": "os peixes e os anfíbios compartilham um ancestral único e exclusivo.",
+        "e": "as aves são o grupo mais próximo evolutivamente dos crocodilos."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Níveis de organização da vida, taxonomia de Lineu e cladogramas modernos",
+            "Teorias evolutivas: fixismo, lamarckismo, darwinismo e teoria sintética da evolução (neodarwinismo)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 19
+    },
+    {
+      "numero": 50,
+      "tipo": "objetiva",
+      "enunciado": "O trecho refere-se à personagem",
+      "textos_de_apoio": [
+        "Leia o trecho a seguir adaptado de um importante romance da literatura brasileira.\n\nVeio para a biblioteca, sentou-se a uma cadeira de balanço, descansando.\nEstava num vasto aposento. Quem examinasse vagarosamente aquela grande coleção de livros havia de espantar-se ao perceber o espírito que presidia a sua reunião.\nNa ficção, havia unicamente autores nacionais ou tidos como tais: o Bento Teixeira, da Prosopopeia; o Gregório de Matos, o Basílio da Gama, o Santa Rita Durão, o José de Alencar (todo), o Macedo, o Gonçalves Dias (todo), além de muitos outros. Podia-se afiançar que nem um dos autores nacionais ou nacionalizados faltava nas estantes do major.\nA razão tinha de ser encontrada numa disposição particular de seu espírito, no forte sentimento que guiava sua vida: era um patriota."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "Leonardo Pataca, ambicioso sargento que vai usar de meios inescrupulosos para chegar à sonhada patente de major. (Memórias de um sargento de milícias – Manuel Antônio de Almeida)",
+        "b": "João Romão, português culto e refinado, que se casa com a brasileira Bertoleza, e ambos enriquecem como proprietários de um cortiço no Rio de Janeiro. (O cortiço – Aluísio Azevedo)",
+        "c": "Bentinho, advogado pedante, que tem o hábito de receber, em sua rica residência, pessoas da Corte que poderão ajudá-lo a ascender politicamente. (Dom Casmurro – Machado de Assis)",
+        "d": "Policarpo, um cidadão honesto e dedicado a exaltar o Brasil, que, no entanto, se vê frequentemente menosprezado pela sociedade. (Triste fim de Policarpo Quaresma – Lima Barreto)",
+        "e": "Paulo Honório, homem do campo e proprietário de terras, que tenta esconder sua origem rústica fingindo ser uma pessoa letrada. (São Bernardo – Graciliano Ramos)"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Literatura Brasileira: Quinhentismo, Barroco (Gregório de Matos), Arcadismo, Romantismo, Realismo/Naturalismo (Machado de Assis), Parnasianismo e Simbolismo",
+            "Modernismo Brasileiro: 1ª Fase (1922), 2ª Fase (Geração de 30 - romance regionalista e poesia de 30) e 3ª Fase (Geração de 45/Pós-Modernismo)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 19
+    },
+    {
+      "numero": 51,
+      "tipo": "objetiva",
+      "enunciado": "Assinale a alternativa em que a afirmação sobre o texto está corretamente associada ao trecho selecionado.",
+      "textos_de_apoio": [
+        "Aptidão\n– Bom dia, Senhor Pacheco. Sente-se, por favor. Temos uma ótima notícia. Como o senhor deve saber, contratamos uma firma de psicomputocratas para fazer testes de aptidão nos dez mil empregados desta firma. Precisamos nos atualizar. Acompanhar os tempos.\n– Sim, senhor.\n– Os dez mil testes foram submetidos a um computador, e os resultados estão aqui. O senhor é o primeiro a ser chamado porque o computador nos forneceu os resultados em rigorosa ordem alfabética.\n– Mas o meu nome começa com P.\n– Hum, sim, deixa ver. Pacheco. Sim, sim. Deve ser por ordem alfabética do primeiro nome, então. Este computador é de última geração. Nunca erra. Como é seu primeiro nome?\n– Xisto.\n– Bom, isso não tem importância. Vamos adiante. Vejo aqui pela sua ficha que o senhor está conosco há vinte e oito anos. Sempre na seção de entorte de fresos. O senhor nunca falhou no serviço, nunca tirou férias e já recebeu várias vezes nosso prêmio de produção.\n– Sim, senhor.\n– O senhor começou na seção de entorte de fresos como faxineiro, depois passou a assistente de entortador, depois entortador, e hoje é o chefe de entorte. Me diga uma coisa, o senhor nunca se sentiu atraído para outra função, além do entorte de fresos? Nunca achou que entortar não era bem sua vocação?\n– Nunca, não senhor.\n– Pois veja só! O computador nos revela que a sua verdadeira vocação não é o entorte de fresos e sim o bistoque de tronas! O senhor é um bistocador de tronas nato, segundo o computador. Não é fantástico? E ainda tem gente que critica a tecnologia. O senhor era um homem deslocado no entorte de fresos e não sabia. Se não fosse o teste, nunca ficaria sabendo. Claro que essa situação vai ser corrigida. O senhor, a partir deste minuto, deixa de entortar.\n– Sim, senhor.\n– Só tem uma coisa, Senhor Pacheco. Nossa firma não trabalha com tronas. Pensando bem, ninguém trabalha com tronas, hoje em dia.\n– Olha, tanto faz. Eu estou perfeitamente satisfeito no entorte e faltam só vinte anos pra me aposentar...\n– Então a firma gasta um dinheirão para descobrir a sua verdadeira vocação e o senhor quer jogá-la fora? Reconheço que o senhor tem sido um chefe de entorte perfeito. Aliás, o computador não descobriu ninguém com aptidão para o entorte. Vai ser um problema substituí-lo. Mas não podemos contestar a tecnologia. O senhor está despedido. Por favor, mande entrar o seguinte e passe bem.\n(VERÍSSIMO, Luís Fernando. O nariz e outras crônicas. São Paulo: Ática, 2003. Adaptado)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "O Senhor Pacheco ascendeu na empresa trabalhando no mesmo departamento:\n– Os dez mil testes foram submetidos a um computador, e os resultados estão aqui.",
+        "b": "O computador organizou os dados alfabéticos de forma rápida e acurada:\nEste computador é de última geração. Nunca erra.",
+        "c": "O chefe não é pessoa criteriosa, pois considera o computador infalível:\nVai ser um problema substituí-lo. Mas não podemos contestar a tecnologia.",
+        "d": "O Senhor Pacheco sempre omitiu o desejo de mudar para outra seção:\nO senhor era um homem deslocado no entorte de fresos e não sabia.",
+        "e": "O patrão não sabe aferir a dedicação do funcionário à empresa:\nReconheço que o senhor tem sido um chefe de entorte perfeito."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação",
+            "Mecanismos de coesão textual (lexical, referencial, anafórica) e coerência"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 21
+    },
+    {
+      "numero": 52,
+      "tipo": "objetiva",
+      "enunciado": "O leitor pode identificar as personagens porque, entre outros recursos, empregou-se o discurso",
+      "textos_de_apoio": [
+        "Aptidão\n– Bom dia, Senhor Pacheco. Sente-se, por favor. Temos uma ótima notícia. Como o senhor deve saber, contratamos uma firma de psicomputocratas para fazer testes de aptidão nos dez mil empregados desta firma. Precisamos nos atualizar. Acompanhar os tempos.\n– Sim, senhor.\n– Os dez mil testes foram submetidos a um computador, e os resultados estão aqui. O senhor é o primeiro a ser chamado porque o computador nos forneceu os resultados em rigorosa ordem alfabética.\n– Mas o meu nome começa com P.\n– Hum, sim, deixa ver. Pacheco. Sim, sim. Deve ser por ordem alfabética do primeiro nome, então. Este computador é de última geração. Nunca erra. Como é seu primeiro nome?\n– Xisto.\n– Bom, isso não tem importância. Vamos adiante. Vejo aqui pela sua ficha que o senhor está conosco há vinte e oito anos. Sempre na seção de entorte de fresos. O senhor nunca falhou no serviço, nunca tirou férias e já recebeu várias vezes nosso prêmio de produção.\n– Sim, senhor.\n– O senhor começou na seção de entorte de fresos como faxineiro, depois passou a assistente de entortador, depois entortador, e hoje é o chefe de entorte. Me diga uma coisa, o senhor nunca se sentiu atraído para outra função, além do entorte de fresos? Nunca achou que entortar não era bem sua vocação?\n– Nunca, não senhor.\n– Pois veja só! O computador nos revela que a sua verdadeira vocação não é o entorte de fresos e sim o bistoque de tronas! O senhor é um bistocador de tronas nato, segundo o computador. Não é fantástico? E ainda tem gente que critica a tecnologia. O senhor era um homem deslocado no entorte de fresos e não sabia. Se não fosse o teste, nunca ficaria sabendo. Claro que essa situação vai ser corrigida. O senhor, a partir deste minuto, deixa de entortar.\n– Sim, senhor.\n– Só tem uma coisa, Senhor Pacheco. Nossa firma não trabalha com tronas. Pensando bem, ninguém trabalha com tronas, hoje em dia.\n– Olha, tanto faz. Eu estou perfeitamente satisfeito no entorte e faltam só vinte anos pra me aposentar...\n– Então a firma gasta um dinheirão para descobrir a sua verdadeira vocação e o senhor quer jogá-la fora? Reconheço que o senhor tem sido um chefe de entorte perfeito. Aliás, o computador não descobriu ninguém com aptidão para o entorte. Vai ser um problema substituí-lo. Mas não podemos contestar a tecnologia. O senhor está despedido. Por favor, mande entrar o seguinte e passe bem.\n(VERÍSSIMO, Luís Fernando. O nariz e outras crônicas. São Paulo: Ática, 2003. Adaptado)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "direto, já que o narrador, embora interfira no enredo, permite que as personagens expressem-se com liberdade.",
+        "b": "direto, pois as personagens interagem exteriorizando suas reações e pontos de vista diante dos acontecimentos.",
+        "c": "indireto, pois o relato, feito pelo narrador, remete a eventos iniciados e concluídos, no passado, pelas personagens.",
+        "d": "indireto, já que a presença do narrador é essencial à organização da sequência de ações que envolve as personagens.",
+        "e": "indireto livre, visto que o chefe e o funcionário, embora hesitantes no início, terminam convictos de que a tecnologia é incontestável."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Discurso direto, indireto e indireto livre",
+            "Tipologias textuais (narração, descrição, dissertação) e gêneros textuais variados"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 21
+    },
+    {
+      "numero": 53,
+      "tipo": "objetiva",
+      "enunciado": "Assinale a alternativa que apresenta a afirmação correta sobre o trecho selecionado do texto.",
+      "textos_de_apoio": [
+        "Aptidão\n– Bom dia, Senhor Pacheco. Sente-se, por favor. Temos uma ótima notícia. Como o senhor deve saber, contratamos uma firma de psicomputocratas para fazer testes de aptidão nos dez mil empregados desta firma. Precisamos nos atualizar. Acompanhar os tempos.\n– Sim, senhor.\n– Os dez mil testes foram submetidos a um computador, e os resultados estão aqui. O senhor é o primeiro a ser chamado porque o computador nos forneceu os resultados em rigorosa ordem alfabética.\n– Mas o meu nome começa com P.\n– Hum, sim, deixa ver. Pacheco. Sim, sim. Deve ser por ordem alfabética do primeiro nome, então. Este computador é de última geração. Nunca erra. Como é seu primeiro nome?\n– Xisto.\n– Bom, isso não tem importância. Vamos adiante. Vejo aqui pela sua ficha que o senhor está conosco há vinte e oito anos. Sempre na seção de entorte de fresos. O senhor nunca falhou no serviço, nunca tirou férias e já recebeu várias vezes nosso prêmio de produção.\n– Sim, senhor.\n– O senhor começou na seção de entorte de fresos como faxineiro, depois passou a assistente de entortador, depois entortador, e hoje é o chefe de entorte. Me diga uma coisa, o senhor nunca se sentiu atraído para outra função, além do entorte de fresos? Nunca achou que entortar não era bem sua vocação?\n– Nunca, não senhor.\n– Pois veja só! O computador nos revela que a sua verdadeira vocação não é o entorte de fresos e sim o bistoque de tronas! O senhor é um bistocador de tronas nato, segundo o computador. Não é fantástico? E ainda tem gente que critica a tecnologia. O senhor era um homem deslocado no entorte de fresos e não sabia. Se não fosse o teste, nunca ficaria sabendo. Claro que essa situação vai ser corrigida. O senhor, a partir deste minuto, deixa de entortar.\n– Sim, senhor.\n– Só tem uma coisa, Senhor Pacheco. Nossa firma não trabalha com tronas. Pensando bem, ninguém trabalha com tronas, hoje em dia.\n– Olha, tanto faz. Eu estou perfeitamente satisfeito no entorte e faltam só vinte anos pra me aposentar...\n– Então a firma gasta um dinheirão para descobrir a sua verdadeira vocação e o senhor quer jogá-la fora? Reconheço que o senhor tem sido um chefe de entorte perfeito. Aliás, o computador não descobriu ninguém com aptidão para o entorte. Vai ser um problema substituí-lo. Mas não podemos contestar a tecnologia. O senhor está despedido. Por favor, mande entrar o seguinte e passe bem.\n(VERÍSSIMO, Luís Fernando. O nariz e outras crônicas. São Paulo: Ática, 2003. Adaptado)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "– Bom dia, Senhor Pacheco. Sente-se, por favor. (1º parágrafo): usa-se o imperativo, pois esse modo verbal é característico da linguagem literária.",
+        "b": "– Mas o meu nome começa com P. (4º parágrafo): a conjunção mas expressa ideia de conclusão.",
+        "c": "Vejo aqui pela sua ficha que o senhor está conosco há vinte e oito anos. (7º parágrafo): de acordo com a gramática normativa, a forma verbal há pode ser substituída por fazem.",
+        "d": "Me diga uma coisa, o senhor nunca se sentiu atraído para outra função... (9º parágrafo): a colocação do pronome oblíquo me na oração é considerada marca de linguagem falada.",
+        "e": "– Então a firma gasta um dinheirão para descobrir a sua verdadeira vocação e o senhor quer jogá-la fora? (último parágrafo): de acordo com a gramática normativa, a expressão jogá-la pode ser substituída no texto por jogar-lhe."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Variações linguísticas e níveis de formalidade/informalidade",
+            "Classes gramaticais: substantivo, adjetivo, artigo, numeral, pronome, verbo, advérbio, preposição, conjunção e interjeição"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 21
+    },
+    {
+      "numero": 54,
+      "tipo": "objetiva",
+      "enunciado": "Considere o trecho a seguir.\n\nHaviam _______ ao conhecimento do chefe os resultados dos testes de aptidão que os psicomputocratas ______-se a aplicar aos funcionários, visto que _____ à empresa manter-se atualizada. Os testes foram submetidos a um computador, e este forneceu resultados que _____ informações sobre os funcionários.\n\nDe acordo com a gramática normativa, o trecho deve ser preenchido, respectivamente, por",
+      "textos_de_apoio": [
+        "Aptidão\n– Bom dia, Senhor Pacheco. Sente-se, por favor. Temos uma ótima notícia. Como o senhor deve saber, contratamos uma firma de psicomputocratas para fazer testes de aptidão nos dez mil empregados desta firma. Precisamos nos atualizar. Acompanhar os tempos.\n– Sim, senhor.\n– Os dez mil testes foram submetidos a um computador, e os resultados estão aqui. O senhor é o primeiro a ser chamado porque o computador nos forneceu os resultados em rigorosa ordem alfabética.\n– Mas o meu nome começa com P.\n– Hum, sim, deixa ver. Pacheco. Sim, sim. Deve ser por ordem alfabética do primeiro nome, então. Este computador é de última geração. Nunca erra. Como é seu primeiro nome?\n– Xisto.\n– Bom, isso não tem importância. Vamos adiante. Vejo aqui pela sua ficha que o senhor está conosco há vinte e oito anos. Sempre na seção de entorte de fresos. O senhor nunca falhou no serviço, nunca tirou férias e já recebeu várias vezes nosso prêmio de produção.\n– Sim, senhor.\n– O senhor começou na seção de entorte de fresos como faxineiro, depois passou a assistente de entortador, depois entortador, e hoje é o chefe de entorte. Me diga uma coisa, o senhor nunca se sentiu atraído para outra função, além do entorte de fresos? Nunca achou que entortar não era bem sua vocação?\n– Nunca, não senhor.\n– Pois veja só! O computador nos revela que a sua verdadeira vocação não é o entorte de fresos e sim o bistoque de tronas! O senhor é um bistocador de tronas nato, segundo o computador. Não é fantástico? E ainda tem gente que critica a tecnologia. O senhor era um homem deslocado no entorte de fresos e não sabia. Se não fosse o teste, nunca ficaria sabendo. Claro que essa situação vai ser corrigida. O senhor, a partir deste minuto, deixa de entortar.\n– Sim, senhor.\n– Só tem uma coisa, Senhor Pacheco. Nossa firma não trabalha com tronas. Pensando bem, ninguém trabalha com tronas, hoje em dia.\n– Olha, tanto faz. Eu estou perfeitamente satisfeito no entorte e faltam só vinte anos pra me aposentar...\n– Então a firma gasta um dinheirão para descobrir a sua verdadeira vocação e o senhor quer jogá-la fora? Reconheço que o senhor tem sido um chefe de entorte perfeito. Aliás, o computador não descobriu ninguém com aptidão para o entorte. Vai ser um problema substituí-lo. Mas não podemos contestar a tecnologia. O senhor está despedido. Por favor, mande entrar o seguinte e passe bem.\n(VERÍSSIMO, Luís Fernando. O nariz e outras crônicas. São Paulo: Ática, 2003. Adaptado)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "chegado ... propuseram ... convêm ... contêm.",
+        "b": "chegado ... propuseram ... convêm ... contém.",
+        "c": "chegado ... proporam ... convêm ... contêm.",
+        "d": "chego ... proporam ... convêm ... contém.",
+        "e": "chego ... propuseram ... convêm ... contém."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Flexão nominal e flexão verbal (tempos, modos, vozes e correlação verbal)",
+            "Concordância verbal e nominal"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 21
+    },
+    {
+      "numero": 55,
+      "tipo": "redacao",
+      "enunciado": "Após a leitura dos textos 1 e 2, elabore uma dissertação, de acordo com as normas gramaticais da língua portuguesa, sobre o tema:\n\nVida profissional: ter um negócio próprio ou trabalhar como empregado de uma empresa?",
+      "textos_de_apoio": [
+        "Texto 1\nUma pesquisa da União Europeia, realizada com países que lideram as maiores economias do mundo, colocou o Brasil como um dos países com maior tendência para o empreendedorismo.\nA pesquisa, de julho de 2012, apontou que 63% dos brasileiros preferem trabalhar em um negócio próprio. O índice dos que preferem trabalhar como empregados ficou em 33%. O resultado deixou o Brasil em segundo lugar entre as nações pesquisadas.\nRenato Fonseca, gerente do Sebrae-SP, afirma que nosso país passou por uma mudança na motivação dos empreendedores, indo da necessidade de sobrevivência para a identificação de uma oportunidade. “O que norteia a abertura de empresa no Brasil hoje é a oportunidade. O empreendedorismo por necessidade é frágil”, afirma.\n(Daniel Tremel, Folha de S. Paulo, 14.01.2013. Adaptado)",
+        "Texto 2\nQuantas vezes alguém teve vontade de largar seu emprego? Nestes momentos, a primeira coisa que vem à mente dessa pessoa é: “vou deixar o emprego nessa empresa e vou partir para o meu negócio próprio, daí não precisarei mais dar satisfação para ninguém e serei dono do meu próprio nariz”.\nPorém, uma decisão por impulso leva o indivíduo a desconsiderar vários aspectos importantes, que podem fazer com que se tome uma decisão errada.\nMuitos erram já em um primeiro momento, quando decidem investir em algo para o qual não estão preparados e que pode exigir muito mais de sua capacidade. Na sequência, onde ele irá se instalar, qual estrutura terá, com quem irá se associar, onde captar recursos financeiros adicionais etc. E com o negócio já em andamento, surgem outras dificuldades...\nAí bate a saudade dos tempos em que essa pessoa trabalhava para uma empresa. Lá o seu salário era depositado todo final de mês, tinha plano de saúde, férias, bonificações e nem precisava trabalhar tanto. “Eu era feliz e não sabia...”\nPortanto, se alguém estiver pensando em se tornar um empreendedor, deve avaliar com cuidado todos os detalhes e exigências do novo empreendimento. Só valerá a pena se essa pessoa se sentir muito preparada para enfrentar todas as situações que poderão surgir no seu caminho.\n(Nelson Fukuyama. Disponível em: www.catho.com.br/carreira-sucesso/colunistas/nelson-fukuyama/vale-a-pena-largar-o-seu-emprego-e-ter-um-negocio-proprio Acesso em: 27.08.2013. Adaptado)"
+      ],
+      "midia": [],
+      "areas": [
+        {
+          "area": "Redação",
+          "assuntos": [
+            "Gênero dissertativo-argumentativo: impessoalidade (3ª pessoa) e defesa de ponto de vista claro",
+            "Macroestrutura padrão em 4 parágrafos (Introdução com tese, D1, D2 e Conclusão reflexiva)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 22
+    }
+  ]
+}

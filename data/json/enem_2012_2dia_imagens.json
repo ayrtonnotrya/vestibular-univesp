@@ -1,0 +1,590 @@
+{
+  "exame": "enem_2012_2dia",
+  "figuras_coordenadas": {
+    "91": [
+      {
+        "pagina": 3,
+        "tipo": "figura",
+        "elemento": "Box de citação contendo o texto Quotes of the Day e as falas de David Cameron",
+        "bbox": [
+          181,
+          53,
+          418,
+          495
+        ]
+      }
+    ],
+    "92": [
+      {
+        "pagina": 3,
+        "tipo": "imagem",
+        "elemento": "Imagem com a citação de Jimi Hendrix sobre amor e poder",
+        "bbox": [
+          727,
+          50,
+          915,
+          495
+        ]
+      }
+    ],
+    "93": [
+      {
+        "pagina": 3,
+        "tipo": "cartum",
+        "elemento": "Cartum com dois personagens conversando sobre o uso da língua inglesa",
+        "bbox": [
+          386,
+          502,
+          670,
+          945
+        ]
+      }
+    ],
+    "94": [
+      {
+        "pagina": 4,
+        "tipo": "figura",
+        "elemento": "Bloco contendo o poema I, too de Langston Hughes",
+        "bbox": [
+          62,
+          50,
+          475,
+          495
+        ]
+      }
+    ],
+    "95": [
+      {
+        "pagina": 4,
+        "tipo": "imagem",
+        "elemento": "Notícia jornalística da BBC com retrato da autora J.K. Rowling",
+        "bbox": [
+          116,
+          502,
+          682,
+          945
+        ]
+      }
+    ],
+    "96": [
+      {
+        "pagina": 7,
+        "tipo": "cartum",
+        "elemento": "Charge de Ivan Cabral relacionando rede social de internet com redes de descanso em comunidade",
+        "bbox": [
+          50,
+          50,
+          335,
+          495
+        ]
+      }
+    ],
+    "99": [
+      {
+        "pagina": 8,
+        "tipo": "cartum",
+        "elemento": "Tirinha de Laerte em quatro quadrinhos sobre vendas e persuasão",
+        "bbox": [
+          50,
+          50,
+          268,
+          495
+        ]
+      }
+    ],
+    "100": [
+      {
+        "pagina": 8,
+        "tipo": "imagem",
+        "elemento": "Foto de um macaco segurando um jornal com a legenda \"Extra, extra. Este macaco é humano.\"",
+        "bbox": [
+          425,
+          81,
+          750,
+          360
+        ]
+      }
+    ],
+    "106": [
+      {
+        "pagina": 10,
+        "tipo": "cartum",
+        "elemento": "Anúncio publicitário sobre sustentabilidade e sacola retornável",
+        "bbox": [
+          512,
+          168,
+          816,
+          495
+        ]
+      }
+    ],
+    "112": [
+      {
+        "pagina": 12,
+        "tipo": "cartum",
+        "elemento": "Cartaz da UFG utilizando a obra de Salvador Dalí para alertar sobre prazos de livros",
+        "bbox": [
+          50,
+          123,
+          427,
+          495
+        ]
+      }
+    ],
+    "114": [
+      {
+        "pagina": 12,
+        "tipo": "imagem",
+        "elemento": "Pintura \"A mulher com o unicórnio\" de Rafael Sanzio",
+        "bbox": [
+          455,
+          502,
+          670,
+          945
+        ]
+      }
+    ],
+    "115": [
+      {
+        "pagina": 13,
+        "tipo": "tabela",
+        "elemento": "Tabela com glossário de expressões antigas (\"Palavras do arco da velha\")",
+        "bbox": [
+          500,
+          110,
+          750,
+          495
+        ]
+      }
+    ],
+    "116": [
+      {
+        "pagina": 13,
+        "tipo": "cartum",
+        "elemento": "Tirinha de Hagar em dois quadrinhos com personagens em um barco",
+        "bbox": [
+          50,
+          500,
+          248,
+          945
+        ]
+      }
+    ],
+    "123": [
+      {
+        "pagina": 16,
+        "tipo": "imagem",
+        "elemento": "Reprodução da pintura cubista Les Demoiselles d’Avignon de Pablo Picasso",
+        "bbox": [
+          50,
+          123,
+          260,
+          495
+        ]
+      }
+    ],
+    "124": [
+      {
+        "pagina": 16,
+        "tipo": "imagem",
+        "elemento": "Capa do álbum musical da banda Os Mutantes",
+        "bbox": [
+          528,
+          150,
+          750,
+          495
+        ]
+      }
+    ],
+    "131": [
+      {
+        "pagina": 18,
+        "tipo": "imagem",
+        "elemento": "Foto de escultura de Aleijadinho (Os Profetas, Congonhas - MG)",
+        "bbox": [
+          368,
+          502,
+          552,
+          945
+        ]
+      }
+    ],
+    "132": [
+      {
+        "pagina": 19,
+        "tipo": "figura",
+        "elemento": "Esquema ilustrando os efeitos fisiológicos do exercício físico no corpo humano",
+        "bbox": [
+          50,
+          85,
+          345,
+          495
+        ]
+      }
+    ],
+    "133": [
+      {
+        "pagina": 19,
+        "tipo": "cartum",
+        "elemento": "Anúncio publicitário oferecendo assinatura de revistas impressas e digitais",
+        "bbox": [
+          370,
+          85,
+          750,
+          495
+        ]
+      }
+    ],
+    "137": [
+      {
+        "pagina": 20,
+        "tipo": "figura",
+        "elemento": "Ilustração de cinco árvores em malha quadriculada com escalas",
+        "bbox": [
+          275,
+          50,
+          475,
+          495
+        ]
+      }
+    ],
+    "138": [
+      {
+        "pagina": 20,
+        "tipo": "tabela",
+        "elemento": "Tabela indicando a quantidade de bolas por cor nas urnas 1 e 2",
+        "bbox": [
+          520,
+          50,
+          625,
+          495
+        ]
+      }
+    ],
+    "139": [
+      {
+        "pagina": 20,
+        "tipo": "figura",
+        "elemento": "Ilustração de um hidrômetro com mostrador e relógios indicadores",
+        "bbox": [
+          565,
+          505,
+          768,
+          945
+        ]
+      }
+    ],
+    "140": [
+      {
+        "pagina": 21,
+        "tipo": "grafico",
+        "elemento": "Gráfico de linha da evolução de vendas mensais em 2011",
+        "bbox": [
+          150,
+          60,
+          280,
+          495
+        ]
+      }
+    ],
+    "141": [
+      {
+        "pagina": 21,
+        "tipo": "figura",
+        "elemento": "Três planificações de sólidos geométricos diferentes",
+        "bbox": [
+          515,
+          60,
+          650,
+          495
+        ]
+      }
+    ],
+    "143": [
+      {
+        "pagina": 21,
+        "tipo": "grafico",
+        "elemento": "Gráfico da extensão de gelo marítimo de 1995 a 2007",
+        "bbox": [
+          610,
+          505,
+          785,
+          945
+        ]
+      }
+    ],
+    "144": [
+      {
+        "pagina": 22,
+        "tipo": "tabela",
+        "elemento": "Tabela com horas dedicadas a atividades semanais e de fim de semana por jovens",
+        "bbox": [
+          260,
+          60,
+          475,
+          495
+        ]
+      }
+    ],
+    "145": [
+      {
+        "pagina": 22,
+        "tipo": "grafico",
+        "elemento": "Cinco gráficos de funções afins por partes representando comissões de vendas",
+        "bbox": [
+          135,
+          502,
+          918,
+          945
+        ]
+      }
+    ],
+    "147": [
+      {
+        "pagina": 23,
+        "tipo": "figura",
+        "elemento": "Ilustração de um tanque retangular com dimensões e nível de água",
+        "bbox": [
+          370,
+          50,
+          512,
+          495
+        ]
+      }
+    ],
+    "148": [
+      {
+        "pagina": 23,
+        "tipo": "figura",
+        "elemento": "Planta baixa dividida em setores com medidas para cálculo de área",
+        "bbox": [
+          90,
+          502,
+          335,
+          945
+        ]
+      }
+    ],
+    "149": [
+      {
+        "pagina": 23,
+        "tipo": "figura",
+        "elemento": "Geometria plana de um vitral com quadrado e áreas sombreadas",
+        "bbox": [
+          512,
+          502,
+          768,
+          945
+        ]
+      }
+    ],
+    "151": [
+      {
+        "pagina": 24,
+        "tipo": "figura",
+        "elemento": "Retângulo com indicação de medidas originais e encolhimento",
+        "bbox": [
+          648,
+          50,
+          768,
+          495
+        ]
+      }
+    ],
+    "153": [
+      {
+        "pagina": 24,
+        "tipo": "figura",
+        "elemento": "Ilustração de uma viga de madeira com indicação de largura, altura e comprimento",
+        "bbox": [
+          575,
+          505,
+          750,
+          945
+        ]
+      }
+    ],
+    "154": [
+      {
+        "pagina": 25,
+        "tipo": "figura",
+        "elemento": "Pirâmide com vértices A, B, C, D, E e ponto M na aresta BC, junto com opções de projeção",
+        "bbox": [
+          50,
+          60,
+          495,
+          495
+        ]
+      }
+    ],
+    "158": [
+      {
+        "pagina": 26,
+        "tipo": "figura",
+        "elemento": "Gráfico de variação de ações e tabela de investidores",
+        "bbox": [
+          210,
+          50,
+          450,
+          495
+        ]
+      }
+    ],
+    "159": [
+      {
+        "pagina": 26,
+        "tipo": "grafico",
+        "elemento": "Gráfico de linhas mostrando reclamações recebidas e resolvidas por dia da semana",
+        "bbox": [
+          230,
+          505,
+          427,
+          945
+        ]
+      }
+    ],
+    "162": [
+      {
+        "pagina": 27,
+        "tipo": "figura",
+        "elemento": "Figura 1 e Figura 2 ilustrando circunferências tangentes e losangos formados por seus centros",
+        "bbox": [
+          450,
+          230,
+          830,
+          495
+        ]
+      }
+    ],
+    "164": [
+      {
+        "pagina": 27,
+        "tipo": "grafico",
+        "elemento": "Gráfico de barras horizontais indicando a opinião dos visitantes sobre Contos de Halloween",
+        "bbox": [
+          600,
+          505,
+          785,
+          945
+        ]
+      }
+    ],
+    "166": [
+      {
+        "pagina": 28,
+        "tipo": "figura",
+        "elemento": "Figura 1 (foto), Figura 2 (esquema da esfera) e opções de projeção no solo",
+        "bbox": [
+          595,
+          505,
+          816,
+          945
+        ]
+      }
+    ],
+    "167": [
+      {
+        "pagina": 28,
+        "tipo": "figura",
+        "elemento": "Esquema com limites de altura para alcance de cadeirante",
+        "bbox": [
+          605,
+          505,
+          816,
+          945
+        ]
+      }
+    ],
+    "168": [
+      {
+        "pagina": 29,
+        "tipo": "figura",
+        "elemento": "Ilustração da órbita do asteroide YU 55 entre a Terra e a Lua",
+        "bbox": [
+          50,
+          50,
+          440,
+          495
+        ]
+      }
+    ],
+    "170": [
+      {
+        "pagina": 29,
+        "tipo": "tabela",
+        "elemento": "Tabela com receitas brutas anuais de cinco microempresas",
+        "bbox": [
+          140,
+          505,
+          335,
+          945
+        ]
+      }
+    ],
+    "171": [
+      {
+        "pagina": 29,
+        "tipo": "tabela",
+        "elemento": "Quadro de referência para taxas de glicose sanguínea",
+        "bbox": [
+          575,
+          505,
+          720,
+          945
+        ]
+      }
+    ],
+    "175": [
+      {
+        "pagina": 30,
+        "tipo": "grafico",
+        "elemento": "Gráfico de barras do emprego formal surgido de jan a out de 2010",
+        "bbox": [
+          210,
+          505,
+          335,
+          945
+        ]
+      }
+    ],
+    "178": [
+      {
+        "pagina": 31,
+        "tipo": "tabela",
+        "elemento": "Tabela de notas bimestrais de 4 disciplinas e opções de matrizes de multiplicação",
+        "bbox": [
+          350,
+          50,
+          768,
+          495
+        ]
+      }
+    ],
+    "179": [
+      {
+        "pagina": 31,
+        "tipo": "grafico",
+        "elemento": "Cinco gráficos relacionando energia consumida e corrente elétrica",
+        "bbox": [
+          275,
+          502,
+          512,
+          945
+        ]
+      }
+    ],
+    "181": [
+      {
+        "pagina": 2,
+        "tipo": "figura",
+        "elemento": "Mapa da rota de migração de haitianos para o Brasil",
+        "bbox": [
+          335,
+          75,
+          575,
+          380
+        ]
+      }
+    ]
+  }
+}

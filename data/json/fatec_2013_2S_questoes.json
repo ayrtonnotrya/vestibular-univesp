@@ -1,0 +1,1584 @@
+{
+  "exame": "fatec_2013_2S_questoes",
+  "ano": 2013,
+  "semestre": 2,
+  "fonte_questoes": "data/fatec_2013_2S_questoes.pdf",
+  "fonte_gabarito": "data/fatec_2013_2S_gabarito.pdf",
+  "total_questoes": 55,
+  "questoes": [
+    {
+      "numero": 1,
+      "tipo": "objetiva",
+      "enunciado": "A demanda pela água tem crescido para satisfazer os mais diversos tipos de necessidades humanas. Sobre a água e seu uso, é correto afirmar que",
+      "textos_de_apoio": [
+        "Por que cooperação pela água?\n\nA água é essencial para a vida no planeta e para o desenvolvimento socioeconômico, porém é um recurso limitado e distribuído de maneira desigual no tempo e no espaço.\n\nPor isso, foi criada a campanha “Water Cooperation 2013”, que abrange o Ano Internacional de Cooperação pela Água e o Dia Mundial da Água 2013.\n\nEssa campanha visa sensibilizar a sociedade sobre os potenciais da cooperação pela água e seus desafios e facilitar o diálogo entre os atores, promovendo soluções inovadoras que favoreçam a cooperação pela água.\n(ambiente.sp.gov.br/acontece/2013-ano-internacional-de-cooperacao-pela-agua/ Acesso em: 04.04.2013. Adaptado)"
+      ],
+      "midia": [
+        "Página 2: Logotipo oficial da campanha 'Water Cooperation 2013 - Ano Internacional de cooperação pela água'."
+      ],
+      "alternativas": {
+        "a": "a constante irrigação promove a dessalinização do solo, pois o uso da água de rios aumenta a evaporação dos sais existentes no solo.",
+        "b": "a rápida urbanização e as mudanças climáticas aliviam a pressão por esse recurso e fazem a distribuição ocorrer de maneira igual no tempo e no espaço.",
+        "c": "o Aquífero Guarani, que fica exclusivamente em território brasileiro, tem capacidade plena para abastecer as cinco regiões do país.",
+        "d": "a água é um solvente importante nos laboratórios, nas indústrias e na agricultura e, nesta última, os fertilizantes NPK são dissolvidos e levados como nutrientes às plantas.",
+        "e": "a água é um solvente apolar, por isso dissolve principalmente os compostos que apresentam características polares."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Água e soluções aquosas: solubilidade, tipos de concentração (g/L, mol/L, ppm) e diluição"
+          ]
+        },
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Hidrografia: bacias hidrográficas mundiais e brasileiras e geopolítica da água"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 2
+    },
+    {
+      "numero": 2,
+      "tipo": "objetiva",
+      "enunciado": "Em relação aos recursos hídricos no Brasil, é correto afirmar que",
+      "textos_de_apoio": [
+        "Por que cooperação pela água?\n\nA água é essencial para a vida no planeta e para o desenvolvimento socioeconômico, porém é um recurso limitado e distribuído de maneira desigual no tempo e no espaço.\n\nPor isso, foi criada a campanha “Water Cooperation 2013”, que abrange o Ano Internacional de Cooperação pela Água e o Dia Mundial da Água 2013.\n\nEssa campanha visa sensibilizar a sociedade sobre os potenciais da cooperação pela água e seus desafios e facilitar o diálogo entre os atores, promovendo soluções inovadoras que favoreçam a cooperação pela água.\n(ambiente.sp.gov.br/acontece/2013-ano-internacional-de-cooperacao-pela-agua/ Acesso em: 04.04.2013. Adaptado)"
+      ],
+      "midia": [
+        "Página 2: Logotipo oficial da campanha 'Water Cooperation 2013 - Ano Internacional de cooperação pela água'."
+      ],
+      "alternativas": {
+        "a": "a captação e a distribuição hídrica são uniformes por todo o território, garantindo à população o acesso à água de qualidade.",
+        "b": "a preocupação ambiental está cada vez maior, por isso todo o esgoto coletado é tratado antes de ser devolvido ao meio ambiente.",
+        "c": "a oferta hídrica é abundante, não havendo a necessidade de preocupação com uma futura situação de estresse ou escassez de água.",
+        "d": "os rios que passam pelas principais regiões metropolitanas têm águas consideradas de boa qualidade e são adequados para o abastecimento das cidades.",
+        "e": "o setor primário é o que mais utiliza os recursos hídricos, pois a agricultura irrigada é a atividade humana que demanda maior quantidade de água."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Hidrografia: bacias hidrográficas mundiais e brasileiras e geopolítica da água"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 2
+    },
+    {
+      "numero": 3,
+      "tipo": "objetiva",
+      "enunciado": "De acordo com as informações contidas no texto, é correto afirmar que",
+      "textos_de_apoio": [
+        "Como fazíamos sem água tratada\n\nEssencial para os seres vivos, a água é ao mesmo tempo responsável pela transmissão de muitas doenças, algumas até fatais. Cientes desse paradoxo, os habitantes do antigo Egito desenvolveram princípios básicos que foram usados durante séculos por vários povos para deixar a água pura. O principal deles era a fervura, ainda hoje um jeito seguro para garantir a potabilidade da água. Os líderes recomendavam que o líquido fosse fervido sobre o fogo, esquentado sob o sol ou aquecido com um pedaço de ferro em brasa mergulhado dentro de um recipiente com água.\n\nEm Roma, no século I a.C., o arquiteto Marcus Vitruvius Pollio levantou questões sobre a distribuição da água: sendo uma bebida vital, era preciso levá-la limpa às casas abastadas e às fontes públicas, onde os mais pobres se abasteciam. Vitruvius também se preocupou com a qualidade dos canos, estabelecendo que eles deveriam ser de cerâmica, em vez de chumbo, para diminuir o risco de a água ser contaminada por metais pesados.\n\nO primeiro tratamento de água em massa foi realizado em Londres, a partir de 1829. A atenção à pureza foi redobrada quando se confirmou, no meio do século XIX, que a água transmitia a cólera. O tratamento tornou-se obrigatório em muitas cidades, e uma das técnicas mais comuns passou a ser a cloração para deixar a água pronta para consumo.\n\nAtualmente, a água da torneira, além de matar a sede, ganhou também a função de prevenir as cáries devido ao acréscimo de flúor.\n(Daniel Cardoso, revista Aventuras na História, editora Abril, março de 2011. Adaptado)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "as cidades romanas usavam canos de distribuição feitos de cerâmica, porque eles eram mais apropriados para preservar o cloro adicionado à água.",
+        "b": "a fervura da água sob o sol era a prática mais utilizada pelos egípcios, devido à rapidez desse processo para dar potabilidade à água destinada ao consumo.",
+        "c": "o arquiteto Vitruvius prestigiou a elite ao construir aquedutos que levavam água para as casas dos nobres romanos, enquanto os pobres deveriam retirá-la dos rios.",
+        "d": "os egípcios foram os primeiros a desenvolver métodos de fervura para tornar a água potável, pois precisavam de água de qualidade para manter férteis os campos agrícolas.",
+        "e": "as pessoas, cientes de que a água pode disseminar enfermidades, estabeleceram práticas sanitárias, como o tratamento e a cloração, para tornar a água adequada ao consumo."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Antiguidade Clássica: democracia ateniense, República/Império Romano e escravismo"
+          ]
+        },
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Conceitos de saúde pública, SUS, vacinas, soros terapêuticos e dinâmica epidemiológica (endemia, surto, epidemia, pandemia)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 3
+    },
+    {
+      "numero": 4,
+      "tipo": "objetiva",
+      "enunciado": "O texto menciona algumas técnicas de tratamento de água para torná-la potável. Essas medidas, além de evitar o contágio pela cólera, podem contribuir para a prevenção de outras doenças, como",
+      "textos_de_apoio": [
+        "Como fazíamos sem água tratada\n\nEssencial para os seres vivos, a água é ao mesmo tempo responsável pela transmissão de muitas doenças, algumas até fatais. Cientes desse paradoxo, os habitantes do antigo Egito desenvolveram princípios básicos que foram usados durante séculos por vários povos para deixar a água pura. O principal deles era a fervura, ainda hoje um jeito seguro para garantir a potabilidade da água. Os líderes recomendavam que o líquido fosse fervido sobre o fogo, esquentado sob o sol ou aquecido com um pedaço de ferro em brasa mergulhado dentro de um recipiente com água.\n\nEm Roma, no século I a.C., o arquiteto Marcus Vitruvius Pollio levantou questões sobre a distribuição da água: sendo uma bebida vital, era preciso levá-la limpa às casas abastadas e às fontes públicas, onde os mais pobres se abasteciam. Vitruvius também se preocupou com a qualidade dos canos, estabelecendo que eles deveriam ser de cerâmica, em vez de chumbo, para diminuir o risco de a água ser contaminada por metais pesados.\n\nO primeiro tratamento de água em massa foi realizado em Londres, a partir de 1829. A atenção à pureza foi redobrada quando se confirmou, no meio do século XIX, que a água transmitia a cólera. O tratamento tornou-se obrigatório em muitas cidades, e uma das técnicas mais comuns passou a ser a cloração para deixar a água pronta para consumo.\n\nAtualmente, a água da torneira, além de matar a sede, ganhou também a função de prevenir as cáries devido ao acréscimo de flúor.\n(Daniel Cardoso, revista Aventuras na História, editora Abril, março de 2011. Adaptado)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "dengue e teníase.",
+        "b": "elefantíase e malária.",
+        "c": "amebíase e ascaridíase.",
+        "d": "leptospirose e leishmaniose.",
+        "e": "doença de Chagas e toxoplasmose."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Saúde e Parasitologia: bacterioses, protozooses (malária, Chagas, leishmaniose) e verminoses (teníase, esquistossomose, ascaridíase)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 3
+    },
+    {
+      "numero": 5,
+      "tipo": "objetiva",
+      "enunciado": "De acordo com o texto, para se deixar a água pura, “os líderes recomendavam que o líquido fosse fervido sobre o fogo (I), esquentado sob o Sol (II) ou aquecido com um pedaço de ferro em brasa mergulhado dentro de um recipiente com água (III)”.\nNa sequência que aparece no texto, podemos afirmar que, em cada uma das maneiras destacadas no trecho como (I), (II) e (III), a água recebe energia térmica, inicialmente por",
+      "textos_de_apoio": [
+        "Como fazíamos sem água tratada\n\nEssencial para os seres vivos, a água é ao mesmo tempo responsável pela transmissão de muitas doenças, algumas até fatais. Cientes desse paradoxo, os habitantes do antigo Egito desenvolveram princípios básicos que foram usados durante séculos por vários povos para deixar a água pura. O principal deles era a fervura, ainda hoje um jeito seguro para garantir a potabilidade da água. Os líderes recomendavam que o líquido fosse fervido sobre o fogo, esquentado sob o sol ou aquecido com um pedaço de ferro em brasa mergulhado dentro de um recipiente com água.\n\nEm Roma, no século I a.C., o arquiteto Marcus Vitruvius Pollio levantou questões sobre a distribuição da água: sendo uma bebida vital, era preciso levá-la limpa às casas abastadas e às fontes públicas, onde os mais pobres se abasteciam. Vitruvius também se preocupou com a qualidade dos canos, estabelecendo que eles deveriam ser de cerâmica, em vez de chumbo, para diminuir o risco de a água ser contaminada por metais pesados.\n\nO primeiro tratamento de água em massa foi realizado em Londres, a partir de 1829. A atenção à pureza foi redobrada quando se confirmou, no meio do século XIX, que a água transmitia a cólera. O tratamento tornou-se obrigatório em muitas cidades, e uma das técnicas mais comuns passou a ser a cloração para deixar a água pronta para consumo.\n\nAtualmente, a água da torneira, além de matar a sede, ganhou também a função de prevenir as cáries devido ao acréscimo de flúor.\n(Daniel Cardoso, revista Aventuras na História, editora Abril, março de 2011. Adaptado)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "(I) condução, (II) condução, (III) convecção",
+        "b": "(I) condução, (II) radiação, (III) condução",
+        "c": "(I) radiação, (II) radiação, (III) convecção",
+        "d": "(I) radiação, (II) condução, (III) condução",
+        "e": "(I) radiação, (II) convecção, (III) condução"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Processos de propagação de calor (condução, convecção e irradiação)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 3
+    },
+    {
+      "numero": 6,
+      "tipo": "objetiva",
+      "enunciado": "A água líquida e o gelo apresentam densidades volumétricas diferentes. Ao colocar um recipiente com água num congelador, após certo tempo, ela se solidificará, sua massa permanecerá constante e seu volume se alterará.\nQuando colocamos 100 g de água líquida num congelador, ao transformar-se em gelo, seu volume",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 3: Tabela com densidades da água líquida (1,00 g/cm³) e do gelo (0,92 g/cm³)."
+      ],
+      "alternativas": {
+        "a": "aumentará para, aproximadamente, 192 cm³.",
+        "b": "aumentará para, aproximadamente, 145 cm³.",
+        "c": "aumentará para, aproximadamente, 109 cm³.",
+        "d": "diminuirá para, aproximadamente, 96 cm³.",
+        "e": "diminuirá para, aproximadamente, 92 cm³."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Massa específica e densidade"
+          ]
+        },
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Razões e proporções diretas e inversas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 3
+    },
+    {
+      "numero": 7,
+      "tipo": "objetiva",
+      "enunciado": "O website Work for Water oferece oportunidades de empregos para aqueles interessados em “green careers” (carreiras verdes), um setor do mercado de trabalho em franca ascensão atualmente no cenário econômico mundial.\nDe acordo com o texto, é correto afirmar que",
+      "textos_de_apoio": [
+        "Welcome to Work for Water! It’s the place where students and job seekers can explore green careers, and utilities¹ will find a clearinghouse of resources for recruiting in the wonderful world of water. Developed by the American Water Works Association and Water Environment Federation, the world’s leading technical experts on drinking water and water quality, this site is packed with resources to find jobs or prepare for rewarding careers in protecting public health and the environment. Learn about what it takes to work for water and get a great job for a great cause!\n(workforwater.org Acesso em 13.03.2013. Adaptado)\n\n¹utilities: refere-se ao setor de serviços públicos, como fornecimento de gás, eletricidade ou transporte."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "o setor de serviços é o único que ainda não pode se beneficiar do site para o recrutamento de mão de obra.",
+        "b": "o setor de saúde pública ainda não é contemplado com os recursos disponíveis no site, mas passará a ser em breve.",
+        "c": "o site se destina especificamente a empresas que pretendem contratar empregados para trabalhar nas carreiras verdes.",
+        "d": "o site se destina unicamente a estudantes, já que aqueles que procuram empregos só encontrarão ofertas de atividades não remuneradas.",
+        "e": "o site oferece uma grande variedade de recursos para encontrar empregos ou mesmo se preparar para atuar profissionalmente em “green careers”."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 4
+    },
+    {
+      "numero": 8,
+      "tipo": "objetiva",
+      "enunciado": "O rio Tietê é muito importante para o estado de São Paulo. Segundo o historiador Célio Turino, “foi pelo rio que os paulistas adentraram o território além da linha de Tordesilhas e foi em torno do rio que se produziu toda uma vida social em São Paulo, dos piqueniques ao remo, das competições de natação aos campos de futebol de várzea. Tudo isso se perdeu. Sinto que não haverá felicidade enquanto a cidade não se reencontrar com seu rio”.\n(revistaforum.com.br/brasilvivo/2012/07/16/meditacao-sobre-o-rio-tiete/ Acesso em: 08.03.2013. Adaptado)\n\nConsiderando as informações apresentadas, é correto afirmar que",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "a vida social em torno do rio Tietê era inviável devido às constantes enchentes.",
+        "b": "o rio Tietê sofreu um processo de degradação devido às práticas de lazer e esportes.",
+        "c": "a prática da navegação urbana no Tietê foi a maior responsável pela atual poluição do rio.",
+        "d": "os paulistas ampliaram as fronteiras do território colonial através da navegação do Tietê.",
+        "e": "o fornecimento de água para consumo doméstico na cidade de São Paulo vem do rio Tietê."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Brasil Colônia: primeiros habitantes indígenas, ocupação territorial, ciclos econômicos (açúcar e ouro) e escravidão"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 4
+    },
+    {
+      "numero": 9,
+      "tipo": "objetiva",
+      "enunciado": "Suponha que, em determinada cidade, o valor da conta de água residencial em função do seu consumo seja dado pelo gráfico.\nEm uma residência, o valor da conta de água no mês de junho foi de R$ 50,00. Diante dos gastos, os moradores resolveram economizar e reduzir o valor da conta à metade. Para tanto, a redução de consumo deve ser, em metros cúbicos, de",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 4: Gráfico cartesiano relacionando o consumo de água (em m³) no eixo horizontal e a conta de água (em R$) no eixo vertical."
+      ],
+      "alternativas": {
+        "a": "5.",
+        "b": "10.",
+        "c": "15.",
+        "d": "20.",
+        "e": "25."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Gráficos de funções por uma ou várias sentenças",
+            "Interpretação de gráficos (barras, setores, histogramas, box-plot, ramos e folhas)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 4
+    },
+    {
+      "numero": 10,
+      "tipo": "objetiva",
+      "enunciado": "Uma folha de papel retangular foi dobrada em três partes congruentes, conforme a sequência apresentada na figura 1. Do retângulo obtido, foram recortados um semicírculo e um triângulo retângulo isósceles, conforme figura 2.\nDesdobrando e esticando a folha de papel, na qual esses recortes foram feitos, obtém-se",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 5: Figura 1 ilustrando a sequência de dobradura de um retângulo em três partes congruentes. Figura 2 mostrando os recortes efetuados (um semicírculo e um triângulo retângulo isósceles nas bordas)."
+      ],
+      "alternativas": {
+        "a": "(A)",
+        "b": "(B)",
+        "c": "(C)",
+        "d": "(D)",
+        "e": "(E)"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Transformações isométricas (translação, reflexão, rotação) e homotéticas",
+            "Geometria Espacial: vistas ortogonais e planificação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 5
+    },
+    {
+      "numero": 11,
+      "tipo": "objetiva",
+      "enunciado": "Victor ganhou uma caixa com N bombons. Desses bombons, ele come um e dá metade dos bombons que sobraram para Pedro. Dos bombons que recebeu, Pedro come um e dá metade dos bombons que sobraram para Ana. Dos bombons que recebeu, Ana come um e dá metade dos bombons que sobraram para Beatriz.\nSabendo-se que Beatriz recebeu dois bombons, então a soma dos algarismos de N é",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "5.",
+        "b": "6.",
+        "c": "7.",
+        "d": "8.",
+        "e": "9."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Operações fundamentais com números inteiros e decimais",
+            "Equações e inequações lineares, quadráticas, exponenciais, logarítmicas e modulares"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 5
+    },
+    {
+      "numero": 12,
+      "tipo": "objetiva",
+      "enunciado": "Fábio, Mário e Tiago são três amigos que estudam em uma Fatec. Cada um deles faz um único curso: um dos rapazes faz o curso de Alimentos, outro faz o curso de Logística e outro faz o curso de Soldagem, não necessariamente nessa ordem.\nSabe-se que todas as afirmações a seguir são verdadeiras:\n• ou é Fábio que estuda Logística, ou é Mário que estuda Logística;\n• ou é Tiago que estuda Soldagem, ou é Mário que estuda Soldagem;\n• ou é Mário que estuda Alimentos, ou é Tiago que estuda Alimentos;\n• ou é Fábio que estuda Soldagem, ou é Tiago que estuda Alimentos.\n\nAssim sendo, pode-se concluir corretamente que os cursos de Fábio, Mário e Tiago são, respectivamente,",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "Alimentos, Logística e Soldagem.",
+        "b": "Alimentos, Soldagem e Logística.",
+        "c": "Logística, Alimentos e Soldagem.",
+        "d": "Logística, Soldagem e Alimentos.",
+        "e": "Soldagem, Alimentos e Logística."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Filosofia e Sociologia",
+          "assuntos": [
+            "Surgimento da Filosofia: passagem do pensamento mítico ao discurso racional (Logos)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 5
+    },
+    {
+      "numero": 13,
+      "tipo": "objetiva",
+      "enunciado": "Numa pesquisa com alunos das Fatecs foram feitas, entre outras, duas perguntas:\n• Você se declara afrodescendente? [Sim] [Não]\n• Você fez o ensino médio integralmente em escola pública? [Sim] [Não]\n\nCom os dados obtidos na pesquisa, foi construído o diagrama de Euler-Venn da figura.\nNo diagrama, considere que:\n• U é o conjunto universo da pesquisa;\n• A é o conjunto dos alunos que se declaram afrodescendentes; e\n• P é o conjunto dos alunos que fizeram o ensino médio integralmente em escola pública.\n\nDe acordo com os dados do diagrama, o número de alunos consultados que responderam “Sim” às duas perguntas e o número dos que responderam “Não” às duas perguntas são, respectivamente,",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 6: Diagrama de Venn contendo um retângulo U com o número 48 no canto superior esquerdo, e dois conjuntos interceptantes A e P, com os valores 12 na parte exclusiva de A, 78 na intersecção, e 162 na parte exclusiva de P."
+      ],
+      "alternativas": {
+        "a": "78 e 162.",
+        "b": "78 e 48.",
+        "c": "90 e 60.",
+        "d": "90 e 210.",
+        "e": "174 e 270."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Conjuntos numéricos (Naturais, Inteiros, Racionais e Reais)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 6
+    },
+    {
+      "numero": 14,
+      "tipo": "objetiva",
+      "enunciado": "Em uma sequência numérica, sabe-se que:\n• o 1º termo é igual a 10;\n• o 5º termo é igual a 31;\n• a soma do 1º, do 2º e do 3º termos é igual a 45;\n• a soma do 2º, do 3º e do 4º termos é igual a 60; e\n• a soma do 3º, do 4º e do 5º termos é igual a 75.\n\nNessas condições, o produto do 2º pelo 4º termo dessa sequência é",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "300.",
+        "b": "304.",
+        "c": "325.",
+        "d": "400.",
+        "e": "475."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Noção de sequência e lei de formação/recorrência",
+            "Sistemas lineares: métodos de resolução algébrica"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 6
+    },
+    {
+      "numero": 15,
+      "tipo": "objetiva",
+      "enunciado": "Quando a esquadra de Cabral chegou ao território que hoje chamamos de Brasil, o escrivão Pero Vaz de Caminha registrou, em uma longa carta ao rei, os principais acontecimentos. Entre eles, Caminha destacou:\n\n“Nesta terra, até agora, não pudemos saber que haja ouro, nem prata, nem coisa alguma de metal ou ferro. Águas são muitas, infindas. E em tal maneira é graciosa que, querendo aproveitar, dar-se-á nesta terra tudo, por bem das águas que tem.”\n(pt.scribd.com/doc/7011303/Marilena-Chaui-Brasil-Mito-Fundador-e-Sociedade-Autoritaria Acesso em: 08.03.2013. Adaptado)\n\nRelacionando esse trecho da carta de Caminha aos objetivos da colonização portuguesa na América, é correto afirmar que essa colonização foi",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "de povoamento, pois se encontraram ouro e prata na primeira viagem às novas terras.",
+        "b": "de povoamento, já que havia pouca possibilidade de as terras serem produtivas ou férteis.",
+        "c": "de exploração, pois se pretendiam utilizar as águas dos rios para a produção de energia elétrica.",
+        "d": "mercantilista, pois se demonstrava interesse em metais preciosos e exploração da agricultura.",
+        "e": "mercantilista, já que a beleza do local era ideal para a exploração do mercado turístico."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Grandes Navegações, espaço atlântico, reinos africanos e tráfico de escravizados",
+            "Brasil Colônia: primeiros habitantes indígenas, ocupação territorial, ciclos econômicos (açúcar e ouro) e escravidão"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 6
+    },
+    {
+      "numero": 16,
+      "tipo": "objetiva",
+      "enunciado": "A industrialização no Brasil teve início nas últimas décadas do século XIX. De acordo com o historiador Boris Fausto, “as atividades industriais nasceram na região vinculada aos negócios cafeeiros ou aos serviços ligados a eles, sendo impulsionados pela criação de um mercado que tinha idêntica origem”.\n(FAUSTO, Boris. “A Primeira República”. In: Cadernos Cebrap nº 10. Adaptado)\n\nConsiderando as informações apresentadas, é correto afirmar que o início da industrialização no Brasil ocorreu",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "nas regiões Norte e Nordeste, graças ao investimento dos lucros da produção açucareira de exportação.",
+        "b": "na região Sudeste, onde havia o crescimento da exportação cafeeira e uma grande circulação de capitais.",
+        "c": "durante o governo de Getúlio Vargas, que implantou o programa de valorização do café no período do Estado Novo.",
+        "d": "após o plano de metas de Juscelino Kubitschek, que trouxe empresas multinacionais e montadoras de veículos ao país.",
+        "e": "em todo o território nacional de forma equilibrada, devido aos incentivos do governo imperial aos engenhos de açúcar."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Economia cafeeira, Guerra do Paraguai, imigração e abolição da escravidão no Brasil"
+          ]
+        },
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Geografia Urbana: industrialização, urbanização, metropolização, conurbação, megalópoles e segregação socioespacial"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 6
+    },
+    {
+      "numero": 17,
+      "tipo": "objetiva",
+      "enunciado": "Para os antigos romanos, o banho era um assunto sério e a higiene da população, uma questão pública. Onde estiveram, os romanos construíram termas e, assim como aprenderam dos gregos, ensinaram aos habitantes locais o hábito cotidiano do banho.\nPara os romanos, ir às termas era bem mais do que se banhar ou praticar esportes aquáticos. Para o cidadão comum, as termas eram um ambiente em que se apresentavam oradores e poetas, onde se sabiam as últimas notícias, portanto eram tão importantes quanto o anfiteatro e o fórum. As termas eram estabelecimentos públicos, já que a maioria das casas não dispunha de instalações sanitárias apropriadas.\n(arq.ufsc.br/arq5661/trabalhos_2003-1/piscinas/historico.htm Acesso em: 08.03.2013. Adaptado)\n\nConsiderando as informações do texto, é correto afirmar que as termas romanas",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 7: Fotografia em preto e branco de ruínas de termas romanas."
+      ],
+      "alternativas": {
+        "a": "eram espaços de sociabilidade que reuniam tanto atividades físicas como culturais.",
+        "b": "eram espaços privados nos quais não havia interferência dos poderes públicos.",
+        "c": "concentravam-se nas casas dos imperadores, sendo inacessíveis aos cidadãos.",
+        "d": "tinham pouca relevância nas cidades quando comparadas ao fórum e ao anfiteatro.",
+        "e": "tinham sido impostas pelos gregos quando conquistaram as terras do Império Romano."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Antiguidade Clássica: democracia ateniense, República/Império Romano e escravismo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 7
+    },
+    {
+      "numero": 18,
+      "tipo": "objetiva",
+      "enunciado": "Analisando as características da imagem, assinale a alternativa que preenche, correta e respectivamente, o texto a seguir.\n\nA obra O Homem Vitruviano, de Leonardo da Vinci (c. 1490), pode ser classificada como típica do ___________ , pois é uma imagem ___________.",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 7: Reprodução da obra 'O Homem Vitruviano', de Leonardo da Vinci."
+      ],
+      "alternativas": {
+        "a": "Feudalismo... teocêntrica",
+        "b": "Feudalismo... aristocrática",
+        "c": "Renascimento... antropocêntrica",
+        "d": "Renascimento... teocrática",
+        "e": "Realismo... majestática"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Renascimento Cultural, Reformas Religiosas e formação dos Estados Nacionais"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 7
+    },
+    {
+      "numero": 19,
+      "tipo": "objetiva",
+      "enunciado": "A máquina a vapor desenvolvida por James Watt (1736-1819) não só revolucionou o mundo da indústria mas também o do transporte, pois permitiu o desenvolvimento das estradas de ferro e de navios a vapor mais velozes. Em 1775, com o apoio financeiro de um industrial, Watt iniciou a fabricação de suas máquinas, aperfeiçoando-as e adaptando-as a todo tipo de uso. A indústria têxtil inglesa começava a mecanizar-se e, graças a novas invenções, inclusive às máquinas de Watt, a produção inglesa cresceu consideravelmente.\n(sapientia.pucsp.br//tde_busca/arquivo.php?codArquivo=7935 Acesso em: 15.03.2013. Adaptado)\n\nÉ correto afirmar que o desenvolvimento da tecnologia mencionada no texto",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "levou à redução da escala produtiva nas indústrias e diminuiu as jornadas de trabalho.",
+        "b": "ampliou o conhecimento científico, mas trouxe prejuízos econômicos para a Inglaterra.",
+        "c": "ficou restrito às áreas das fábricas, tendo pouca influência no cotidiano das populações.",
+        "d": "agilizou as redes de comunicação e de transporte, contribuindo com outros setores industriais.",
+        "e": "foi um fenômeno isolado numa época em que houve baixos índices de inovação tecnológica."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Iluminismo, Liberalismo e a 1ª Revolução Industrial"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 7
+    },
+    {
+      "numero": 20,
+      "tipo": "objetiva",
+      "enunciado": "A adição de soluto não volátil à água interfere em suas propriedades como, por exemplo, densidade, pressão de vapor, ponto de ebulição e de congelamento.\nA imagem ilustra uma experiência a partir da qual podemos observar a interferência da adição de sal na densidade da solução.\n\nSobre essas propriedades, é correto afirmar que a água pura, em relação à solução aquosa de NaCl, apresenta",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 8: Imagem contendo dois béquer (Bequer 1 com um ovo afundando em água pura e Bequer 2 com um ovo flutuando em água com NaCl)."
+      ],
+      "alternativas": {
+        "a": "maior densidade e maior pressão de vapor.",
+        "b": "maior temperatura de ebulição e menor densidade.",
+        "c": "menor densidade e maior temperatura de congelamento.",
+        "d": "menor temperatura de ebulição e menor pressão de vapor.",
+        "e": "menor temperatura de congelamento e maior pressão de vapor."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Água e soluções aquosas: solubilidade, tipos de concentração (g/L, mol/L, ppm) e diluição"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 8
+    },
+    {
+      "numero": 21,
+      "tipo": "objetiva",
+      "enunciado": "Em depósitos subterrâneos, a água pode entrar em contato com certos materiais como o calcário (CaCO₃) ou a dolomita (CaCO₃ . MgCO₃).\nDessa forma, passa a existir em sua composição uma quantidade excessiva de íons Ca²⁺ e Mg²⁺, passando a ser denominada água dura e tornando-a imprópria para consumo humano.\nNa indústria, quando exposta ao aumento de temperatura, ocorre cristalização do calcário, criando incrustações que exigem altos custos para reparação e manutenção dos equipamentos, levando à menor produtividade e ao risco de explosões das caldeiras.\n(uenf.br/uenf/centros/cct/qambiental/ag_dura.html Acesso em: 03.05.2013. Adaptado)\n\nConsidere a tabela de classificação da água:\n[Tabela com Classificação: dura (> 150 mg/L), moderada (entre 75 e 150 mg/L), mole (< 75 mg/L)]\n\nAnalisando a tabela, conclui-se, corretamente, que a água é considerada",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 8: Tabela de classificação da água quanto ao teor de cátions."
+      ],
+      "alternativas": {
+        "a": "moderada, quando a concentração está entre 7,5 e 15 ppm (m/m).",
+        "b": "moderada, quando a concentração está entre 75 e 150 ppb (m/m).",
+        "c": "mole, quando a concentração está abaixo de 0,75 ppm (m/m).",
+        "d": "dura, quando a concentração está acima de 150 ppm (m/m).",
+        "e": "dura, quando a concentração está acima de 150 ppb (m/m)."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Água e soluções aquosas: solubilidade, tipos de concentração (g/L, mol/L, ppm) e diluição"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 8
+    },
+    {
+      "numero": 22,
+      "tipo": "objetiva",
+      "enunciado": "A solução de NaOH, descrita no texto, apresenta concentração em mol/L, aproximadamente, de",
+      "textos_de_apoio": [
+        "O hidróxido de sódio, NaOH (soda cáustica), é bastante solúvel em água e utilizado para a remoção de resíduos de matéria orgânica na limpeza dos equipamentos usados na fabricação de alimentos.\n(anvisa.gov.br/alimentos/informes/33_251007.htm Acesso em: 03.05.2013.)\n\nUma empresa alimentícia usou uma solução de hidróxido de sódio (soda cáustica) a 2,5% (m/v) para a limpeza de seus equipamentos.\nEssa solução apresenta pH elevado, aproximadamente 13, a 25°C, e que pode representar risco de queimadura ou sensação de forte ardência na boca, caso venha a ser ingerida."
+      ],
+      "midia": [
+        "Página 8: Quadro com dados de massas molares (H = 1 g/mol, O = 16 g/mol, Na = 23 g/mol)."
+      ],
+      "alternativas": {
+        "a": "0,6.",
+        "b": "1,0.",
+        "c": "2,5.",
+        "d": "13.",
+        "e": "25."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Água e soluções aquosas: solubilidade, tipos de concentração (g/L, mol/L, ppm) e diluição"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 8
+    },
+    {
+      "numero": 23,
+      "tipo": "objetiva",
+      "enunciado": "Considerando o pH, a 25°C, da solução mencionada no texto, temos meio",
+      "textos_de_apoio": [
+        "O hidróxido de sódio, NaOH (soda cáustica), é bastante solúvel em água e utilizado para a remoção de resíduos de matéria orgânica na limpeza dos equipamentos usados na fabricação de alimentos.\n(anvisa.gov.br/alimentos/informes/33_251007.htm Acesso em: 03.05.2013.)\n\nUma empresa alimentícia usou uma solução de hidróxido de sódio (soda cáustica) a 2,5% (m/v) para a limpeza de seus equipamentos.\nEssa solução apresenta pH elevado, aproximadamente 13, a 25°C, e que pode representar risco de queimadura ou sensação de forte ardência na boca, caso venha a ser ingerida."
+      ],
+      "midia": [
+        "Página 9: Quadro com dado do produto iônico da água (Kw = 1,0 . 10⁻¹⁴, a 25°C)."
+      ],
+      "alternativas": {
+        "a": "básico, onde a [OH⁻] = 10⁻¹³ mol/L.",
+        "b": "básico, onde a [OH⁻] = 10⁻¹ mol/L.",
+        "c": "neutro, onde a [H⁺] = [OH⁻] = 10⁻⁷ mol/L.",
+        "d": "ácido, onde a [H⁺] = 10⁻¹³ mol/L.",
+        "e": "ácido, onde a [H⁺] = 10⁻¹ mol/L."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Equilíbrio iônico da água, escala de pH, pOH e hidrólise de sais"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 9
+    },
+    {
+      "numero": 24,
+      "tipo": "objetiva",
+      "enunciado": "O Brasil é o terceiro produtor mundial de perfumes e cosméticos e ocupa o primeiro lugar no consumo de perfumes.\n(fapesp.br/eventos/2011/08/química/Claudia_Rezende.pdf Acesso em: 04.05.2013.)\n\nOs compostos geranial, linalol e neral, representados a seguir, estão presentes na grande maioria dos perfumes disponíveis no mercado.\n[Fórmulas estruturais de I. GERANIAL, II. LINALOL, III. NERAL]\n\nSobre os compostos representados, é correto afirmar que",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 9: Fórmulas estruturais dos compostos I. GERANIAL, II. LINALOL e III. NERAL."
+      ],
+      "alternativas": {
+        "a": "o composto II é um aldeído.",
+        "b": "o composto III é saturado.",
+        "c": "os compostos I e II são isômeros.",
+        "d": "os compostos I e III são isômeros.",
+        "e": "os compostos I, II e III são álcoois."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Isomeria plana e espacial",
+            "Principais funções orgânicas: hidrocarbonetos, álcoois, fenóis, éteres, ésteres, aldeídos, cetonas, ácidos carboxílicos, aminas e amidas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 9
+    },
+    {
+      "numero": 25,
+      "tipo": "objetiva",
+      "enunciado": "No primeiro parágrafo do artigo, o autor afirma que",
+      "textos_de_apoio": [
+        "Finally, a Billboard That Creates Drinkable Water Out of Thin Air\n\nI’ve never cared much for billboards. Not in the city, not out of the city — not anywhere, really. It’s like the saying in that old Five Man Electrical Band song. So when the creative director of an ad agency in Peru sent me a picture of what he claimed was the first billboard that produces potable water from air, my initial reaction was: gotta be a hoax, or at best, a gimmick.\n\nExcept it’s neither: the billboard pictured here is real, it’s located in Lima, Peru, and it produces around 100 liters of water a day (about 26 gallons) from nothing more than humidity, a basic filtration system and a little gravitational ingenuity.\n\nLet’s talk about Lima for a moment, the largest city in Peru and the fifth largest in all of the Americas, with some 7.6 million people (closer to 9 million when you factor in the surrounding metro area). Because it sits along the southern Pacific Ocean, the humidity in the city averages 83% (it’s actually closer to 100% in the mornings). But Lima is also part of what’s called a coastal desert: it lies at the northern edge of the Atacama, the driest desert in the world, meaning the city sees perhaps half an inch of precipitation annually (Lima is the second largest desert city in the world after Cairo). Lima thus depends on drainage from the Andes as well as runoff from glacier melt — both sources on the decline because of climate change. (...)"
+      ],
+      "midia": [
+        "Página 9: Imagem de um outdoor ('billboard') no Peru."
+      ],
+      "alternativas": {
+        "a": "é mais fácil encontrar água nas cidades do que fora delas.",
+        "b": "as cidades é que pagam o preço pela produção de água no Peru.",
+        "c": "já tinha ouvido falar do anúncio publicitário capaz de produzir água.",
+        "d": "o anúncio publicitário capaz de produzir água é definitivamente uma forma de propaganda enganosa.",
+        "e": "não acreditou quando recebeu a notícia de que havia um anúncio publicitário capaz de produzir água."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 9
+    },
+    {
+      "numero": 26,
+      "tipo": "objetiva",
+      "enunciado": "A forma verbal gotta, presente ao final do primeiro parágrafo, é",
+      "textos_de_apoio": [
+        "Finally, a Billboard That Creates Drinkable Water Out of Thin Air\n\nI’ve never cared much for billboards. Not in the city, not out of the city — not anywhere, really. It’s like the saying in that old Five Man Electrical Band song. So when the creative director of an ad agency in Peru sent me a picture of what he claimed was the first billboard that produces potable water from air, my initial reaction was: gotta be a hoax, or at best, a gimmick.\n\nExcept it’s neither: the billboard pictured here is real, it’s located in Lima, Peru, and it produces around 100 liters of water a day (about 26 gallons) from nothing more than humidity, a basic filtration system and a little gravitational ingenuity.\n\nLet’s talk about Lima for a moment, the largest city in Peru and the fifth largest in all of the Americas, with some 7.6 million people (closer to 9 million when you factor in the surrounding metro area). Because it sits along the southern Pacific Ocean, the humidity in the city averages 83% (it’s actually closer to 100% in the mornings). But Lima is also part of what’s called a coastal desert: it lies at the northern edge of the Atacama, the driest desert in the world, meaning the city sees perhaps half an inch of precipitation annually (Lima is the second largest desert city in the world after Cairo). Lima thus depends on drainage from the Andes as well as runoff from glacier melt — both sources on the decline because of climate change. (...)"
+      ],
+      "midia": [
+        "Página 9: Imagem de um outdoor ('billboard') no Peru."
+      ],
+      "alternativas": {
+        "a": "usada somente no plural.",
+        "b": "uma conjugação do verbo go.",
+        "c": "uma contração equivalente a has got to.",
+        "d": "usada para transmitir a ideia de um tempo futuro.",
+        "e": "um exemplo de registro mais formal da linguagem."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 9
+    },
+    {
+      "numero": 27,
+      "tipo": "objetiva",
+      "enunciado": "De acordo com o texto, é correto afirmar que o anúncio publicitário capaz de produzir água",
+      "textos_de_apoio": [
+        "Finally, a Billboard That Creates Drinkable Water Out of Thin Air\n\nI’ve never cared much for billboards. Not in the city, not out of the city — not anywhere, really. It’s like the saying in that old Five Man Electrical Band song. So when the creative director of an ad agency in Peru sent me a picture of what he claimed was the first billboard that produces potable water from air, my initial reaction was: gotta be a hoax, or at best, a gimmick.\n\nExcept it’s neither: the billboard pictured here is real, it’s located in Lima, Peru, and it produces around 100 liters of water a day (about 26 gallons) from nothing more than humidity, a basic filtration system and a little gravitational ingenuity.\n\nLet’s talk about Lima for a moment, the largest city in Peru and the fifth largest in all of the Americas, with some 7.6 million people (closer to 9 million when you factor in the surrounding metro area). Because it sits along the southern Pacific Ocean, the humidity in the city averages 83% (it’s actually closer to 100% in the mornings). But Lima is also part of what’s called a coastal desert: it lies at the northern edge of the Atacama, the driest desert in the world, meaning the city sees perhaps half an inch of precipitation annually (Lima is the second largest desert city in the world after Cairo). Lima thus depends on drainage from the Andes as well as runoff from glacier melt — both sources on the decline because of climate change. (...)"
+      ],
+      "midia": [
+        "Página 9: Imagem de um outdoor ('billboard') no Peru."
+      ],
+      "alternativas": {
+        "a": "necessita de aproximadamente 26 galões de água para iniciar o seu funcionamento.",
+        "b": "é visto pelo autor do texto como uma invenção em cuja eficiência é ingênuo acreditar.",
+        "c": "não funciona apropriadamente em regiões de umidade relativa do ar muito elevada, ao contrário do esperado.",
+        "d": "usa um sistema básico de filtragem como parte do processo para que a invenção produza 100 litros de água diariamente.",
+        "e": "é considerado uma exceção em Lima por ser uma das poucas invenções que realmente funcionam dentre as divulgadas pelas agências de publicidade."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 9
+    },
+    {
+      "numero": 28,
+      "tipo": "objetiva",
+      "enunciado": "Sobre o sistema de abastecimento de água em Lima é correto afirmar, de acordo com o texto, que",
+      "textos_de_apoio": [
+        "Finally, a Billboard That Creates Drinkable Water Out of Thin Air\n\nI’ve never cared much for billboards. Not in the city, not out of the city — not anywhere, really. It’s like the saying in that old Five Man Electrical Band song. So when the creative director of an ad agency in Peru sent me a picture of what he claimed was the first billboard that produces potable water from air, my initial reaction was: gotta be a hoax, or at best, a gimmick.\n\nExcept it’s neither: the billboard pictured here is real, it’s located in Lima, Peru, and it produces around 100 liters of water a day (about 26 gallons) from nothing more than humidity, a basic filtration system and a little gravitational ingenuity.\n\nLet’s talk about Lima for a moment, the largest city in Peru and the fifth largest in all of the Americas, with some 7.6 million people (closer to 9 million when you factor in the surrounding metro area). Because it sits along the southern Pacific Ocean, the humidity in the city averages 83% (it’s actually closer to 100% in the mornings). But Lima is also part of what’s called a coastal desert: it lies at the northern edge of the Atacama, the driest desert in the world, meaning the city sees perhaps half an inch of precipitation annually (Lima is the second largest desert city in the world after Cairo). Lima thus depends on drainage from the Andes as well as runoff from glacier melt — both sources on the decline because of climate change. (...)"
+      ],
+      "midia": [
+        "Página 9: Imagem de um outdoor ('billboard') no Peru."
+      ],
+      "alternativas": {
+        "a": "a cidade obtém água por meio das massas de ar úmido que vêm do oceano, assim como ocorre na cidade do Cairo.",
+        "b": "a cidade obtém toda a água de que necessita por meio das chuvas resultantes da umidade elevada, apesar do clima desértico.",
+        "c": "a dependência do processo de drenagem dos Andes ocorre porque os índices de precipitação em Lima são muito baixos.",
+        "d": "o derretimento de geleiras, apesar de muito importante em outras cidades andinas, não contribui para o abastecimento de água em Lima.",
+        "e": "Lima vem se tornando uma cidade com umidade relativa do ar cada vez maior em virtude das mudanças climáticas, favorecendo o fornecimento de água para a população."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 9
+    },
+    {
+      "numero": 29,
+      "tipo": "objetiva",
+      "enunciado": "No terceiro parágrafo, o pronome it em – Because it sits along the southern Pacific Ocean – pode ser substituído, de maneira a manter o sentido original do texto, por",
+      "textos_de_apoio": [
+        "Finally, a Billboard That Creates Drinkable Water Out of Thin Air\n\nI’ve never cared much for billboards. Not in the city, not out of the city — not anywhere, really. It’s like the saying in that old Five Man Electrical Band song. So when the creative director of an ad agency in Peru sent me a picture of what he claimed was the first billboard that produces potable water from air, my initial reaction was: gotta be a hoax, or at best, a gimmick.\n\nExcept it’s neither: the billboard pictured here is real, it’s located in Lima, Peru, and it produces around 100 liters of water a day (about 26 gallons) from nothing more than humidity, a basic filtration system and a little gravitational ingenuity.\n\nLet’s talk about Lima for a moment, the largest city in Peru and the fifth largest in all of the Americas, with some 7.6 million people (closer to 9 million when you factor in the surrounding metro area). Because it sits along the southern Pacific Ocean, the humidity in the city averages 83% (it’s actually closer to 100% in the mornings). But Lima is also part of what’s called a coastal desert: it lies at the northern edge of the Atacama, the driest desert in the world, meaning the city sees perhaps half an inch of precipitation annually (Lima is the second largest desert city in the world after Cairo). Lima thus depends on drainage from the Andes as well as runoff from glacier melt — both sources on the decline because of climate change. (...)"
+      ],
+      "midia": [
+        "Página 9: Imagem de um outdoor ('billboard') no Peru."
+      ],
+      "alternativas": {
+        "a": "Lima.",
+        "b": "water.",
+        "c": "metro.",
+        "d": "Americas.",
+        "e": "billboard."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Coesão textual em inglês: referência pronominal e elipses"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 9
+    },
+    {
+      "numero": 30,
+      "tipo": "objetiva",
+      "enunciado": "Planta baixa de uma construção é a projeção ortogonal das paredes de sua edificação sobre o plano de seu piso.\nEm um anúncio de vendas, encontra-se a planta baixa de um galpão de armazenamento, cujas paredes externas apresentam as medidas indicadas na figura a seguir.\n\nConsiderando-se a altura máxima de 4 metros para o armazenamento nas salas de depósitos e desprezando-se a espessura das paredes, o volume máximo para o armazenamento nos depósitos nessas condições é, em metros cúbicos,",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 11: Planta baixa do galpão de armazenamento com dimensões indicadas e compartimentos (Área de Serviço, Refeitório, W.C., Escritório, Depósito 1, Depósito 2 e Depósito 3)."
+      ],
+      "alternativas": {
+        "a": "13 800.",
+        "b": "15 400.",
+        "c": "18 600.",
+        "d": "20 600.",
+        "e": "21 800."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Cálculo de áreas (polígonos, círculos, coroas e setores circulares)",
+            "Geometria Espacial: vistas ortogonais e planificação",
+            "Poliedros, corpos redondos, prismas, pirâmides e troncos (área e volume)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 11
+    },
+    {
+      "numero": 31,
+      "tipo": "objetiva",
+      "enunciado": "Em um trecho reto e plano de uma praia, um topógrafo que está situado em uma rocha (ponto B) observa uma árvore à beira de uma ilha (ponto A).\nPara estimar a distância entre essa ilha e a praia, ele usa um teodolito, instrumento de medição de ângulos. Primeiramente, ele se situa no ponto B e mede um ângulo de 90º entre a praia e a linha de visão da árvore. Depois disso, ele sai do ponto B, desloca-se em linha reta 160 metros pela praia e mede, de um ponto C, um ângulo de 50º também entre a praia e a linha de visão da árvore, conforme a figura.\n\nConsiderando que essa parte da praia se situa no mesmo nível que a ilha, a distância da rocha (ponto B) até a árvore usada como referencial (ponto A) é, em metros,",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 11: Esquema ilustrando a posição da ilha (A), da rocha (B) e do ponto C na praia, formando um triângulo retângulo."
+      ],
+      "alternativas": {
+        "a": "250.",
+        "b": "230.",
+        "c": "210.",
+        "d": "190.",
+        "e": "170."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Trigonometria no triângulo retângulo (seno, cosseno e tangente)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 11
+    },
+    {
+      "numero": 32,
+      "tipo": "objetiva",
+      "enunciado": "Quando a Lua, a Terra e o Sol alinham-se ocorre um eclipse. Se a Lua está entre os outros dois, dizemos que é um eclipse solar.\nObservando da Terra, os diâmetros aparentes da Lua e do Sol podem ser considerados iguais.\nSuponha que, em um determinado momento de um eclipse solar, um ponto da borda da Lua esteja exatamente no centro aparente do círculo do Sol, como mostra a figura.\n\nConsiderando o Sol e a Lua com raios aparentes iguais, a medida do arco de circunferência da parte eclipsada do Sol é",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 12: Desenho esquemático mostrando a sobreposição entre os círculos da Lua e do Sol."
+      ],
+      "alternativas": {
+        "a": "90º.",
+        "b": "120º.",
+        "c": "135º.",
+        "d": "150º.",
+        "e": "165º."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Arcos e ângulos: medidas (graus e radianos) e relações entre arcos",
+            "Relações métricas no triângulo retângulo, polígonos regulares e círculos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 12
+    },
+    {
+      "numero": 33,
+      "tipo": "objetiva",
+      "enunciado": "Uma pessoa financiou a compra de uma casa pelo Sistema de Amortização Constante (SAC), em que as prestações são decrescentes. A primeira prestação é de R$ 600,00; a segunda é de R$ 597,00; a terceira é de R$ 594,00; a quarta é de R$ 591,00; e as demais obedecerão ao mesmo critério de cálculo.\nNessas condições, o valor da 100ª parcela será, em reais,",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "297,00.",
+        "b": "300,00.",
+        "c": "303,00.",
+        "d": "306,00.",
+        "e": "309,00."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Progressão Aritmética (PA) - termo geral e soma dos termos",
+            "Matemática Financeira: porcentagem, juros simples, juros compostos, taxas e índices"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 12
+    },
+    {
+      "numero": 34,
+      "tipo": "objetiva",
+      "enunciado": "Um campeonato de futebol segue as seguintes regras: o time que vence marca 3 pontos, o que empata marca 1 ponto e o que perde não marca ponto. Ao final dos jogos, é campeão o time com mais pontos. Em caso de empate na pontuação geral, o critério de desempate é o saldo de gols, que é a quantidade de gols marcados subtraída da quantidade de gols sofridos, nessa ordem.\nQuatro times participaram desse campeonato e todos os times jogaram contra todos uma única vez. Considere a tabela em que foram registrados os resultados dos jogos.\n\n[Tabela de resultados]\nDefensores 0 X 2 Estudantes\nContundidos 4 X 2 Armadores\nEstudantes 3 X 3 Armadores\nDefensores 2 X 2 Contundidos\nArmadores 4 X 0 Defensores\nEstudantes 0 X 1 Contundidos\n\nAnalisando as informações dadas, conclui-se corretamente que a ordem de classificação desse campeonato foi",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 12: Tabela com os resultados dos confrontos entre os times Defensores, Estudantes, Contundidos e Armadores."
+      ],
+      "alternativas": {
+        "a": "1º lugar: Estudantes | 2º lugar: Contundidos | 3º lugar: Armadores | 4º lugar: Defensores",
+        "b": "1º lugar: Estudantes | 2º lugar: Armadores | 3º lugar: Contundidos | 4º lugar: Defensores",
+        "c": "1º lugar: Contundidos | 2º lugar: Estudantes | 3º lugar: Armadores | 4º lugar: Defensores",
+        "d": "1º lugar: Contundidos | 2º lugar: Armadores | 3º lugar: Estudantes | 4º lugar: Defensores",
+        "e": "1º lugar: Contundidos | 2º lugar: Armadores | 3º lugar: Defensores | 4º lugar: Estudantes"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Operações fundamentais com números inteiros e decimais",
+            "Ordem na reta numérica e resolução de problemas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 12
+    },
+    {
+      "numero": 35,
+      "tipo": "objetiva",
+      "enunciado": "Esportes de aventura têm cada vez mais se popularizado e profissionais desse ramo, ao mesmo tempo em que atuam como guias turísticos, fazem um trabalho de conscientização ambiental. Um desses esportes é o rafting, que consiste basicamente em um grupo de pessoas descer uma corredeira dentro de um bote inflável.\nCerta vez, a guia Camile, treinando para um rali de aventura, pediu ao seu amigo Matteo que medisse a velocidade média do bote utilizado por ela em um certo trecho do rio. Matteo, como bom estudante de Física, observou que a trajetória do bote era paralela às margens, e que sua velocidade de descida em relação às margens era de 8 m/s.\nSupondo que essa situação não sofresse alteração e considerando a velocidade constante em todo o trecho do rali com extensão de 36 km, Camile e seu grupo percorreriam, descendo o rio, o trajeto em, aproximadamente,",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "1 h 15 min.",
+        "b": "2 h 25 min.",
+        "c": "4 h 35 min.",
+        "d": "5 h 45 min.",
+        "e": "6 h 55 min."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Cinemática escalar: velocidade e aceleração escalar média e instantânea",
+            "Movimento Uniforme (MU) e Movimento Uniformemente Variado (MUV)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 13
+    },
+    {
+      "numero": 36,
+      "tipo": "objetiva",
+      "enunciado": "O funcionamento de um chuveiro elétrico depende de um resistor elétrico interno, cuja função é transferir calor para a água que passa por dentro do chuveiro.\nO resistor elétrico sofre aquecimento após a passagem de uma corrente elétrica i, devido a uma diferença de potencial U. A potência elétrica P do chuveiro está relacionada com a energia dissipada pelo resistor por efeito joule durante certo intervalo de tempo. Portanto, quanto maior a potência elétrica dissipada, maior o aquecimento da água e maior o consumo de energia elétrica do chuveiro.\nSabendo-se que potência e corrente elétricas são grandezas físicas diretamente proporcionais, podemos afirmar que a intensidade da corrente elétrica nominal que passa por um resistor elétrico de um chuveiro cujos valores nominais são 5 400 W e 220 V é, em ampère, aproximadamente,",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "4,00 . 10⁻².",
+        "b": "2,45 . 10¹.",
+        "c": "5,18 . 10³.",
+        "d": "5,62 . 10³.",
+        "e": "1,19 . 10⁶."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Eletrodinâmica: corrente elétrica, ddp, Leis de Ohm, resistividade e potência elétrica (kWh)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 13
+    },
+    {
+      "numero": 37,
+      "tipo": "objetiva",
+      "enunciado": "A relação entre a quantidade de energia transferida para que uma porção de água mude a sua temperatura é dada por Q = m . c . Δθ. Sendo assim, baseando-se nos dados apresentados, podemos concluir que a quantidade de energia total dissipada pelo chuveiro durante um banho será, em kcal,",
+      "textos_de_apoio": [
+        "Uma determinada pesquisa teve como objetivo principal analisar a utilização de chuveiros elétricos e o conforto que ofereciam aos seus usuários. Para isso, anotaram-se os seguintes valores médios aproximados:\n• Número de banhos observados: 1 625;\n• Temperatura média da água que entra no chuveiro: 18°C;\n• Temperatura média da água que sai do chuveiro: 38°C;\n• Tempo médio de cada banho: 10 min;\n• Vazão média do chuveiro: 0,06 L/s.\n(sites.unifra.br/Portals/35/Artigos/2004/41/parametros.pdf Acesso em: 01.02.2013. Adaptado)"
+      ],
+      "midia": [
+        "Página 13: Quadro com dados: O calor específico da água: 1,0 cal/g°C; Densidade da água: 1,0 kg/L."
+      ],
+      "alternativas": {
+        "a": "0,360.",
+        "b": "7,20.",
+        "c": "72,0.",
+        "d": "720.",
+        "e": "3 600."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Calorimetria: calor sensível, capacidade térmica, calor latente e trocas de calor"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 13
+    },
+    {
+      "numero": 38,
+      "tipo": "objetiva",
+      "enunciado": "Como funciona uma usina nuclear?\nA fissão dos átomos de urânio dentro das varetas do elemento combustível aquece a água que passa pelo reator a uma temperatura de 320 graus Celsius. Para que não entre em ebulição – o que ocorreria normalmente aos 100 graus Celsius – esta água é mantida sob uma pressão 157 vezes maior que a pressão atmosférica.\nO gerador de vapor realiza uma troca de calor entre as águas de um primeiro circuito e as águas de um circuito secundário, os quais são independentes entre si. Com essa troca de calor, as águas do circuito secundário se transformam em vapor e movimentam a turbina, que, por sua vez, aciona o gerador elétrico.\n(eletronuclear.gov.br/Saibamais/Espa%C3%A7odoConhecimento/Pesquisaescolar/EnergiaNuclear.aspx Acesso em: 15.02.2013. Adaptado)\n\nUsando como base apenas o texto apresentado, identificam-se, independentemente da ordem, além da energia nuclear, três outros tipos de energia:",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "elétrica, luminosa e eólica.",
+        "b": "elétrica, eólica e mecânica.",
+        "c": "elétrica, mecânica e térmica.",
+        "d": "térmica, mecânica e luminosa.",
+        "e": "térmica, mecânica e eólica."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Energia cinética, energia potencial (gravitacional e elástica) e conservação da energia mecânica"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 13
+    },
+    {
+      "numero": 39,
+      "tipo": "objetiva",
+      "enunciado": "A figura 1 apresenta quatro camadas: pré-sal, sal, pós-sal e água, sendo que o petróleo (a mancha escura na parte inferior da figura 1) encontra-se incrustado na rocha do pré-sal.\nSuponha, para esse caso, que as densidades (d) dessas camadas na região explorada obedecessem à relação:\n d_ÁGUA < d_PETRÓLEO < d_PÓS-SAL < d_SAL < d_PRÉ-SAL\ne que as condições de pressão, temperatura e salinidade do oceano nessa região em análise fossem consideradas normais, ou seja, causando pouca variação na velocidade da onda sonora.\nDesta forma, em relação às velocidades das ondas sonoras e aos pontos destacados no gráfico, representado na figura 2, podemos afirmar que",
+      "textos_de_apoio": [
+        "Uma área profissional que tem tido muita oferta de trabalho é a exploração do petróleo no fundo do mar. Para se efetuar uma exploração petrolífera, é necessária uma pesquisa sísmica. Essa pesquisa é como uma ultrassonografia da região oceânica, pois permite reconhecer e mapear as várias camadas que constituem o subsolo marinho.\nPara isso, um navio emite, por meio de canhões de ar comprimido à alta pressão, ondas sonoras. Essas ondas comportam-se de maneira diferente em meios de propagação diferentes (sólidos, líquidos mais densos, líquidos menos densos, gases etc.), produzindo, assim, uma mudança de velocidade na propagação da onda. No oceano, essa mudança de velocidade depende basicamente da salinidade, da temperatura e da densidade do meio.\nDesta forma, comparando-se os dados gerados e recebidos com o retorno dessas ondas sonoras (sísmicas), é possível a confirmação da existência de reservas de óleo e gás no subsolo marinho e da distância destas do nível da superfície do mar (profundidade)."
+      ],
+      "midia": [
+        "Página 14: Figura 1 apresentando as camadas do subsolo marinho (água, pós-sal, sal, pré-sal) e a reserva de petróleo. Figura 2 apresentando um gráfico de profundidade versus velocidade do som com pontos I, II, III, IV e V."
+      ],
+      "alternativas": {
+        "a": "I e II referem-se à camada pré-sal.",
+        "b": "III e IV referem-se ao oceano.",
+        "c": "II refere-se à camada sal.",
+        "d": "IV refere-se à camada pós-sal.",
+        "e": "V refere-se ao petróleo."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Acústica: velocidade do som, qualidades fisiológicas (altura, timbre, intensidade), tubos sonoros e Efeito Doppler"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 14
+    },
+    {
+      "numero": 40,
+      "tipo": "objetiva",
+      "enunciado": "Observando o mapa, a área em que predominam os biomas do Cerrado e do Pantanal localiza-se na bacia do",
+      "textos_de_apoio": [
+        "Em geografia, o mapa é um recurso que permite perceber e estudar uma série de características de uma região como, por exemplo, a localização das bacias hidrográficas.\nBacia hidrográfica é usualmente definida como a área na qual ocorre a captação de água (drenagem) para um rio principal e seus afluentes devido às suas características geográficas e topográficas."
+      ],
+      "midia": [
+        "Página 15: Mapa das Regiões Hidrográficas Brasileiras."
+      ],
+      "alternativas": {
+        "a": "Uruguai.",
+        "b": "Parnaíba.",
+        "c": "Paraguai.",
+        "d": "Atlântico Sul.",
+        "e": "São Francisco."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Hidrografia: bacias hidrográficas mundiais e brasileiras e geopolítica da água",
+            "Domínios morfoclimáticos e biomas mundiais e brasileiros"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 15
+    },
+    {
+      "numero": 41,
+      "tipo": "objetiva",
+      "enunciado": "Este rio era morto, mas hoje está despoluído graças à iniciativa privada e do governo dos países banhados por suas águas. Ele nasce na Suíça, flui em direção à Áustria, passando por Liechtenstein, França, Alemanha e Holanda, e sua foz está no Mar do Norte. Esse rio cumpre um papel importante na integração regional por ser uma hidrovia de grande relevância para o escoamento da produção europeia.\nO rio descrito é o",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "Sena, navegável em toda a sua extensão e utilizado também para a geração de energia elétrica.",
+        "b": "Sena, importante por ser intermitente, sendo o principal e o mais extenso da Europa Setentrional.",
+        "c": "Sena, referência cultural internacional, e um dos destinos turísticos mais procurados do mundo.",
+        "d": "Reno, em cujas margens se encontra uma das zonas mais densamente povoadas e ricas da Europa.",
+        "e": "Reno, que percorre territórios de clima tropical, em cujas margens as florestas foram totalmente desmatadas."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Hidrografia: bacias hidrográficas mundiais e brasileiras e geopolítica da água"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 15
+    },
+    {
+      "numero": 42,
+      "tipo": "objetiva",
+      "enunciado": "Em 2012, segundo o então presidente da Venezuela Hugo Chávez, uma estratégia para diminuir a dependência do setor petrolífero e impulsionar o desenvolvimento agrícola e industrial em seu país seria",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "intensificar as negociações com a União Europeia (UE).",
+        "b": "aderir como membro pleno ao Mercado do Cone Sul (MERCOSUL).",
+        "c": "tornar-se membro oficial da Organização dos Estados Americanos (OEA).",
+        "d": "passar a ser membro integrante da Área de Livre Comércio das Américas (ALCA).",
+        "e": "associar-se como membro oficial do Tratado Norte-Americano de Livre Comércio (NAFTA)."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Globalização, comércio internacional, blocos econômicos e a posição do Brasil no comércio global"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 15
+    },
+    {
+      "numero": 43,
+      "tipo": "objetiva",
+      "enunciado": "O continente africano apresenta grande diversidade social, cultural, étnica e política.\nA região destacada no mapa da África é denominada",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 16: Mapa do continente africano com destaque para a região do Sahel."
+      ],
+      "alternativas": {
+        "a": "Sahel, que tem sido palco de longos períodos de seca e, consequentemente, de fome crônica.",
+        "b": "Sahel, região mais desenvolvida de todo o continente e possuidora de uma considerável industrialização.",
+        "c": "Sahel, onde prevalece o clima mediterrâneo, com economia baseada no sistema agrícola Plantation.",
+        "d": "África Branca, onde o clima é equatorial e a economia se baseia principalmente na exploração mineral.",
+        "e": "África Branca, que possui povos de origem árabe e apresenta os melhores índices econômicos do continente."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Climatologia: fatores/elementos do clima, dinâmica das massas de ar e climas do Brasil e do mundo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 16
+    },
+    {
+      "numero": 44,
+      "tipo": "objetiva",
+      "enunciado": "Baseando-se no texto, é correto concluir que",
+      "textos_de_apoio": [
+        "Israel é um país semidesértico, com várias regiões consideradas realmente desérticas, nas quais não há fontes abundantes de água nem grandes reservatórios de água subterrânea. A agricultura israelense, por meio do desenvolvimento de eficiente método de irrigação e da adequação de novos cultivos, conseguiu resultados impressionantes e constitui, hoje, um exemplo para muitos países do mundo.\nO sucesso de Israel nesse setor ocorre pela combinação de quatro fatores principais: a atuação do agricultor; a ação no campo da pesquisa e do ensino; a capacitação agrícola eficaz; e o apoio intenso do Estado.\n(29november.org/upload/1327221604.pdf Acesso em: 19.04.2013. Adaptado)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "um bom desenvolvimento no setor agrícola é impossível em regiões onde há o predomínio de clima semiárido.",
+        "b": "Israel só conseguiu um bom desenvolvimento agrícola por contar com as favoráveis condições naturais da região.",
+        "c": "esse país tem tecnologia para transformar o clima desértico em um clima mediterrâneo úmido favorável à agricultura.",
+        "d": "a baixa umidade relativa do ar nesse país, apesar dos elevados índices pluviométricos mensais, faz com que o clima seja considerado desértico.",
+        "e": "diversos fatores, como o empenho do governo, da sociedade e o uso de tecnologia adequada, possibilitam o cultivo em regiões de climas semiárido e árido."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Espaço Rural: sistemas agrícolas, modernização do campo e estrutura agrária brasileira"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 16
+    },
+    {
+      "numero": 45,
+      "tipo": "objetiva",
+      "enunciado": "A filogenia a seguir representa as relações evolutivas entre os principais grupos de plantas (reino Plantae) e as algas verdes.\n\nCom base nas informações apresentadas na figura, é correto afirmar que",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 17: Árvore filogenética relacionando algas verdes, briófitas, pteridófitas, gimnospermas e angiospermas."
+      ],
+      "alternativas": {
+        "a": "as gimnospermas são evolutivamente mais próximas das angiospermas que das briófitas.",
+        "b": "as flores e os frutos teriam se originado no ancestral comum das espermatófitas.",
+        "c": "a presença de parede celular é uma característica exclusiva das plantas.",
+        "d": "as angiospermas correspondem ao único grupo a apresentar sementes.",
+        "e": "todas as plantas apresentam vasos condutores de seiva."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Níveis de organização da vida, taxonomia de Lineu e cladogramas modernos",
+            "Reino Plantae: características e ciclos de vida de briófitas, pteridófitas, gimnospermas e angiospermas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 17
+    },
+    {
+      "numero": 46,
+      "tipo": "objetiva",
+      "enunciado": "O governo brasileiro decidiu aumentar, a partir do dia 1 de maio de 2013, o percentual de etanol na gasolina de 20% para 25%.\nLevando-se em conta os esforços atuais de diversos países para reduzir a concentração de gás carbônico na atmosfera, essa decisão do governo brasileiro pode ser considerada eficiente, pois",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "as plantas utilizadas na produção do etanol retiram parte do CO₂ atmosférico pelo processo da respiração celular.",
+        "b": "no processo de produção do álcool combustível na usina, a partir do caldo da cana-de-açúcar, ocorre a retirada de parte do CO₂ da atmosfera.",
+        "c": "o CO₂ liberado pela combustão do etanol é mais facilmente absorvido que o CO₂ proveniente da queima de combustíveis fósseis.",
+        "d": "o etanol, ao contrário da gasolina, é um combustível derivado de compostos orgânicos e sua combustão libera, portanto, uma menor quantidade de CO₂.",
+        "e": "parte do CO₂ liberado pela queima do etanol é retirada da atmosfera ao longo do crescimento de novas safras de cana pelo processo da fotossíntese."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Metabolismo energético: fotossíntese, quimiossíntese, respiração aeróbia e fermentação",
+            "Ciclos biogeoquímicos (água, carbono, oxigênio e nitrogênio)"
+          ]
+        },
+        {
+          "area": "Química",
+          "assuntos": [
+            "Combustíveis fósseis (carvão, petróleo, gás natural) e destilação fracionada"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 17
+    },
+    {
+      "numero": 47,
+      "tipo": "objetiva",
+      "enunciado": "Os gráficos a seguir representam a proporção entre o número de espécies conhecidas dos diferentes grupos de seres vivos. Na figura 1, está representada a relação entre os cinco reinos (de acordo com a classificação de Whittaker) e, na figura 2, a proporção entre os principais filos de animais.\n\nCom base nas informações contidas nesses gráficos, é correto afirmar que",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 18: Figura 1 (gráfico de setores dos reinos) e Figura 2 (gráfico de setores dos filos de animais)."
+      ],
+      "alternativas": {
+        "a": "o número de espécies conhecidas de cordados é aproximadamente igual ao de animais invertebrados.",
+        "b": "o filo que inclui mais espécies conhecidas é o dos organismos com exoesqueleto de quitina.",
+        "c": "são conhecidas mais espécies de organismos autotróficos do que de heterotróficos.",
+        "d": "os seres unicelulares representam um quarto das espécies conhecidas.",
+        "e": "metade das espécies conhecidas é de organismos procariontes."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Reino Animalia: características evolutivas dos principais filos (simetria, folhetos embrionários, celoma)",
+            "Interpretação de gráficos (barras, setores, histogramas, box-plot, ramos e folhas)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 18
+    },
+    {
+      "numero": 48,
+      "tipo": "objetiva",
+      "enunciado": "A partir do desenvolvimento do conhecimento acerca das relações entre as características morfológicas de um organismo (fenótipo) e suas informações genéticas (genótipo), a teoria lamarquista de evolução por uso e desuso e transmissão das características adquiridas passou a ser questionada.\nAtualmente, a maior parte da comunidade científica aceita como correta a teoria neodarwinista, a qual incorpora à proposta original de Darwin os conhecimentos da genética moderna.\n\nDe acordo com a teoria neodarwinista, é correto afirmar que ao longo da vida de um organismo",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "apenas as modificações fenotípicas surgidas em situações de luta pela sobrevivência são incorporadas ao genótipo.",
+        "b": "as modificações surgidas no fenótipo não causam uma modificação correspondente no genótipo.",
+        "c": "ocorre apenas a remoção do genótipo das informações relativas às estruturas não utilizadas.",
+        "d": "apenas as modificações benéficas no fenótipo são incorporadas ao genótipo.",
+        "e": "todas as modificações ocorridas no fenótipo são incorporadas ao genótipo."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Teorias evolutivas: fixismo, lamarckismo, darwinismo e teoria sintética da evolução (neodarwinismo)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 18
+    },
+    {
+      "numero": 49,
+      "tipo": "objetiva",
+      "enunciado": "Um agricultor, desprezando as orientações de um tecnólogo em agronegócio, resolveu aplicar um pesticida em alta concentração em sua plantação, com a intenção de eliminar totalmente uma população de gafanhotos que vinha atacando sua lavoura. Considere que outras espécies também ocorrem nessa região e que essas interagem de acordo com a teia alimentar apresentada.\n\nEspera-se que, com a remoção dos gafanhotos, ao longo do tempo,",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 19: Teia alimentar mostrando interações entre planta, gafanhoto, roedor, lagarto, sapo, pássaro, aranha, cobra e gavião."
+      ],
+      "alternativas": {
+        "a": "não ocorra qualquer impacto sobre a população de roedores.",
+        "b": "nenhuma das populações de consumidores terciários seja afetada.",
+        "c": "somente as populações de consumidores secundários sejam afetadas.",
+        "d": "ocorra uma diminuição no número de indivíduos na população de cobras.",
+        "e": "somente os produtores sejam afetados, com um aumento no número de indivíduos."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Cadeias e teias alimentares, níveis tróficos, pirâmides ecológicas e fluxo de energia",
+            "Dinâmica de populações e relações ecológicas (intraespecíficas e interespecíficas)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 19
+    },
+    {
+      "numero": 50,
+      "tipo": "objetiva",
+      "enunciado": "De acordo com as informações do texto, é correto afirmar que",
+      "textos_de_apoio": [
+        "Feito em casa\n\nNa era digital, as empresas de tecnologia costumam desbravar novos territórios. No entanto, há duas semanas, uma decisão do Yahoo! causou polêmica: a empresa de tecnologia decidiu banir o home office de todas as suas filiais. A justificativa enviada aos funcionários foi a de que “a velocidade e a qualidade são muitas vezes sacrificadas quando se trabalha em casa”.\nNo Brasil, continua-se a defender a prática, mas com ressalvas: há vários cuidados necessários para torná-la realmente eficiente.\nDiego Gomes, paulistano, funcionário de uma instituição bancária, trabalha dois dias por semana em casa. Ele optou pelo trabalho remoto no dia do rodízio de seu carro e na sexta-feira, quando o trânsito é pior.\nApesar de reconhecer os benefícios, ele afirma que precisou tomar precauções para sua produtividade não ser afetada, como criar um ambiente de escritório em casa e conversar com sua família. “[Com a família] precisa ser duro: das 9 h às 18 h, estou trabalhando: não vou ao mercado e não vou consertar chuveiro. Tem que deixar claro.”\nNo banco onde Diego atua, os funcionários que se interessam pelo teletrabalho têm de participar de um workshop e precisam fazer uma autoavaliação. Eles precisam verificar, por exemplo, se trabalham com independência e se sabem cumprir metas diárias ou se sua performance precisa de acompanhamento constante.\nAs empresas também procuram descartar certos funcionários na hora de escolher quem fará home office. A diretora de RH Edna Bedani afirma que estagiários não devem atuar em casa. “São pessoas em formação, que precisam de orientação”, afirma.\nEspecialistas também destacam a necessidade de disciplina do profissional que fica em casa. “É preciso manter a rotina como se você fosse para o escritório: acordar, tomar banho, tomar café, vestir-se etc., afirma Jorge Matos, presidente de uma agência especializada em gestão de pessoas e carreiras.\n(Felipe Maia com a colaboração de Reinaldo Chaves, Folha de S. Paulo, 10.03.2013. Adaptado)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "os benefícios de se trabalhar em casa são maiores para os profissionais que não têm autodisciplina porque o ambiente descontraído da própria casa favorece o cumprimento dos compromissos.",
+        "b": "o teletrabalho é prática ideal para funcionários que precisam de supervisão direta dos superiores, pois têm dificuldades para cumprir as metas diárias impostas pela empresa.",
+        "c": "Diego Gomes, que mora em São Paulo, preferiu trabalhar a maior parte da semana em casa, pois, dessa forma, pôde se liberar do rodízio de veículos e ter as sextas-feiras livres.",
+        "d": "a decisão do Yahoo! surpreendeu o mercado de trabalho, pois essa empresa foi a primeira a incentivar e a garantir a prática do home office para a maioria dos funcionários.",
+        "e": "o trabalho remoto não é produtivo para estagiários, porque eles são profissionais em início de carreira e necessitam de orientação constante para se aperfeiçoar."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação",
+            "Tipologias textuais (narração, descrição, dissertação) e gêneros textuais variados"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 20
+    },
+    {
+      "numero": 51,
+      "tipo": "objetiva",
+      "enunciado": "O trecho em destaque pode ser substituído, corretamente e sem alteração do sentido do texto, por",
+      "textos_de_apoio": [
+        "Feito em casa\n\nNa era digital, as empresas de tecnologia costumam desbravar novos territórios. No entanto, há duas semanas, uma decisão do Yahoo! causou polêmica: a empresa de tecnologia decidiu banir o home office de todas as suas filiais. A justificativa enviada aos funcionários foi a de que “a velocidade e a qualidade são muitas vezes sacrificadas quando se trabalha em casa”.\nNo Brasil, continua-se a defender a prática, mas com ressalvas: há vários cuidados necessários para torná-la realmente eficiente.\nDiego Gomes, paulistano, funcionário de uma instituição bancária, trabalha dois dias por semana em casa. Ele optou pelo trabalho remoto no dia do rodízio de seu carro e na sexta-feira, quando o trânsito é pior.\nApesar de reconhecer os benefícios, ele afirma que precisou tomar precauções para sua produtividade não ser afetada, como criar um ambiente de escritório em casa e conversar com sua família. “[Com a família] precisa ser duro: das 9 h às 18 h, estou trabalhando: não vou ao mercado e não vou consertar chuveiro. Tem que deixar claro.”\nNo banco onde Diego atua, os funcionários que se interessam pelo teletrabalho têm de participar de um workshop e precisam fazer uma autoavaliação. Eles precisam verificar, por exemplo, se trabalham com independência e se sabem cumprir metas diárias ou se sua performance precisa de acompanhamento constante.\nAs empresas também procuram descartar certos funcionários na hora de escolher quem fará home office. A diretora de RH Edna Bedani afirma que estagiários não devem atuar em casa. “São pessoas em formação, que precisam de orientação”, afirma.\nEspecialistas também destacam a necessidade de disciplina do profissional que fica em casa. “É preciso manter a rotina como se você fosse para o escritório: acordar, tomar banho, tomar café, vestir-se etc., afirma Jorge Matos, presidente de uma agência especializada em gestão de pessoas e carreiras.\n(Felipe Maia com a colaboração de Reinaldo Chaves, Folha de S. Paulo, 10.03.2013. Adaptado)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "e com indagações: existe...",
+        "b": "ou com condições: existem...",
+        "c": "porém com vantagens: existem...",
+        "d": "todavia com restrições: existem...",
+        "e": "embora com exceções: existe..."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Mecanismos de coesão textual (lexical, referencial, anafórica) e coerência"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 20
+    },
+    {
+      "numero": 52,
+      "tipo": "objetiva",
+      "enunciado": "Considere as frases a seguir reescritas a partir das ideias do texto.\n\nHá uma rotina _____ que o profissional deve se adequar ao trabalhar em casa: acordar, vestir-se, estabelecer horários, cumprir metas etc.\nOs familiares _____ quem se predispõe a fazer home office devem colaborar para criar um ambiente propício para esse profissional.\nO visitante, _____ quem nosso diretor foi muito solícito, trabalha em uma agência especializada em gestão de pessoas e carreiras.\n\nDe acordo com a norma do padrão culto, as preposições que preenchem, correta e respectivamente, as lacunas das frases são:",
+      "textos_de_apoio": [
+        "Feito em casa\n\nNa era digital, as empresas de tecnologia costumam desbravar novos territórios. No entanto, há duas semanas, uma decisão do Yahoo! causou polêmica: a empresa de tecnologia decidiu banir o home office de todas as suas filiais. A justificativa enviada aos funcionários foi a de que “a velocidade e a qualidade são muitas vezes sacrificadas quando se trabalha em casa”.\nNo Brasil, continua-se a defender a prática, mas com ressalvas: há vários cuidados necessários para torná-la realmente eficiente.\nDiego Gomes, paulistano, funcionário de uma instituição bancária, trabalha dois dias por semana em casa. Ele optou pelo trabalho remoto no dia do rodízio de seu carro e na sexta-feira, quando o trânsito é pior.\nApesar de reconhecer os benefícios, ele afirma que precisou tomar precauções para sua produtividade não ser afetada, como criar um ambiente de escritório em casa e conversar com sua família. “[Com a família] precisa ser duro: das 9 h às 18 h, estou trabalhando: não vou ao mercado e não vou consertar chuveiro. Tem que deixar claro.”\nNo banco onde Diego atua, os funcionários que se interessam pelo teletrabalho têm de participar de um workshop e precisam fazer uma autoavaliação. Eles precisam verificar, por exemplo, se trabalham com independência e se sabem cumprir metas diárias ou se sua performance precisa de acompanhamento constante.\nAs empresas também procuram descartar certos funcionários na hora de escolher quem fará home office. A diretora de RH Edna Bedani afirma que estagiários não devem atuar em casa. “São pessoas em formação, que precisam de orientação”, afirma.\nEspecialistas também destacam a necessidade de disciplina do profissional que fica em casa. “É preciso manter a rotina como se você fosse para o escritório: acordar, tomar banho, tomar café, vestir-se etc., afirma Jorge Matos, presidente de uma agência especializada em gestão de pessoas e carreiras.\n(Felipe Maia com a colaboração de Reinaldo Chaves, Folha de S. Paulo, 10.03.2013. Adaptado)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "a ... de ... com",
+        "b": "a ... com ... em",
+        "c": "para ... em ... com",
+        "d": "para ... de ... em",
+        "e": "em ... com ... para"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Regência verbal e nominal (emprego do sinal indicativo de crase)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 20
+    },
+    {
+      "numero": 53,
+      "tipo": "objetiva",
+      "enunciado": "Considerando o título da tirinha e interpretando os quadrinhos, é correto afirmar que as personagens",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 21: Tirinha intitulada 'MUNDO MONSTRO' de Adão Iturrusgarai, mostrando personagens em um ambiente de degustação de vinhos com jargões e piadas visuais."
+      ],
+      "alternativas": {
+        "a": "optam por se expressar por meio de uma linguagem formal, porém cometem erros de concordância e utilizam gírias.",
+        "b": "demonstram que enologia, filosofia e artes gráficas são áreas de estudo afins e que se relacionam em vários aspectos.",
+        "c": "expressam-se por meio da repetição excessiva de uma mesma palavra no momento em que verbalizam suas ideias.",
+        "d": "são profissionais de marketing que visam, por meio de um discurso convencional, persuadir os ouvintes a comprar determinado produto.",
+        "e": "comprovam que a ausência de vocabulário específico da área de estudo não compromete a exposição aprofundada e objetiva de um tema."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Intertextualidade, interdiscursividade e análise de textos verbais e não verbais (charges, cartuns)",
+            "Variações linguísticas e níveis de formalidade/informalidade"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 21
+    },
+    {
+      "numero": 54,
+      "tipo": "objetiva",
+      "enunciado": "Leia o poema do escritor Alberto de Oliveira (1857-1937).\n\nNum trem de subúrbio\nNo trem de ferro vimo-nos, um dia,\nE amarmo-nos foi obra de um momento,\nTudo rápido, como a ventania,\nComo a locomotiva ou o pensamento.\n– “Amo-te!”\n– “Adoro-te!”\nA estação primeira\nSurge. Saltamos nela ao som de um berro.\nNosso amor, numa nuvem de poeira,\nTinha passado, como o trem de ferro.\n(CAMPOS, Geir. Alberto de Oliveira – Poesia, Rio de Janeiro: Agir Editora, 1969.)\n\nInterpretando o poema, é correto afirmar que nessa obra está presente a",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "crise existencial própria do Barroco, que se manifesta pela extrema infelicidade do eu lírico, vivenciada em decorrência do fim do romance.",
+        "b": "oposição ao amor idealizado do Romantismo, pois o poema ressalta a brevidade e a finitude do amor vivido pelos protagonistas.",
+        "c": "crítica social característica do Realismo, pois o eu lírico descreve a existência sofrida e miserável dos subúrbios.",
+        "d": "valorização da forma pelo Parnasianismo, o que se comprova pela rígida metrificação dos versos e pela presença de rimas.",
+        "e": "exaltação da tecnologia, marca do Simbolismo, pois o trem e sua alta velocidade surpreendem o eu lírico e sua amada."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Literatura Brasileira: Quinhentismo, Barroco (Gregório de Matos), Arcadismo, Romantismo, Realismo/Naturalismo (Machado de Assis), Parnasianismo e Simbolismo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 21
+    },
+    {
+      "numero": 55,
+      "tipo": "redacao",
+      "enunciado": "Reflita sobre as informações dos textos e redija um texto dissertativo sobre o tema:\n\nBoa aparência: critério justo ou injusto para a contratação de profissionais.\n\nInstruções:\n1. Selecione, organize e relacione argumentos, fatos e opiniões para sustentar suas ideias e pontos de vista.\n2. Não copie o texto dado.\n3. Empregue em seu texto apenas a variedade culta da língua portuguesa.\n4. Não redija o texto em versos;\n5. Organize seu texto em parágrafos;\n6. Dê um título a seu texto;\n7. A versão definitiva da redação deve ser apresentada em folha específica e a tinta.",
+      "textos_de_apoio": [
+        "Texto 1\nInveja barra candidata bonita, diz estudo\nA beleza pode ser um inimigo na hora de procurar emprego.\nEssa é a conclusão de um estudo de dois pesquisadores israelenses, que ficaram surpresos ao descobrir que mulheres atraentes que incluem fotos no currículo têm menos chances de ser selecionadas.\nContrariando o senso comum de que a beleza é uma alavanca social infalível, o estudo mostrou que pode ser uma desvantagem para candidatas a uma entrevista.\nA extensa pesquisa (realizada por Zeev Shtudiner e Bradley Ruffle), cujo objetivo era testar estudos que apontam a boa aparência como um fator certeiro de ascensão, identificou que o motivo principal por trás da rejeição é demasiado humano: a inveja.\nOcorre que mulheres costumam ser maioria na área de recursos humanos, e a pesquisa comprovou que, em 93% dos casos, a triagem dos candidatos era feita por mulheres, as quais engavetaram os currículos das mulheres atraentes.\nShtudiner e Ruffle mandaram 5 312 currículos fictícios para 2 656 vagas reais de emprego. Para cada vaga foram enviados dois currículos idênticos, um com foto, outro sem. Os currículos de mulheres com aparência comum tiveram duas vezes mais convites para entrevistas que as bonitas.\n(Marcelo Ninio, Folha de S. Paulo, 13.05.2012. Adaptado)\n\nTexto 2\nNo Brasil, beleza ainda abre portas, dizem especialistas\nA máxima de que beleza abre portas, pelo menos no Brasil, continua em pleno vigor. Especialistas em recursos humanos afirmam que a boa aparência é um aspecto valorizado não apenas na seleção inicial, mas em promoções e avaliações internas dentro das empresas. Ou seja: ao menos no mercado de trabalho, os bonitos levam vantagem.\nSegundo Silvia Gerson, consultora de RH, candidatas bonitas costumam sobressair-se, aos olhos dos avaliadores, em relação a outras menos atraentes.\nNas seleções entre candidatos do sexo masculino, porém, não é tão comum que isso aconteça. “É um sinal claro de que o fator beleza é mais determinante para a mulher do que para o homem.”\n(Marianna Aragão, Folha de S. Paulo, 13.05.2012. Adaptado)"
+      ],
+      "midia": [],
+      "areas": [
+        {
+          "area": "Redação",
+          "assuntos": [
+            "Gênero dissertativo-argumentativo: impessoalidade (3ª pessoa) e defesa de ponto de vista claro",
+            "Macroestrutura padrão em 4 parágrafos (Introdução com tese, D1, D2 e Conclusão reflexiva)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 22
+    }
+  ]
+}

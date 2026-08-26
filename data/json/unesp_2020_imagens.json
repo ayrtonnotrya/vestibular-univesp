@@ -1,0 +1,499 @@
+{
+  "exame": "unesp_2020",
+  "figuras_coordenadas": {
+    "1": [
+      {
+        "pagina": 2,
+        "tipo": "cartum",
+        "elemento": "Cartum de Steinberg",
+        "bbox": [
+          68,
+          49,
+          335,
+          491
+        ]
+      }
+    ],
+    "7": [
+      {
+        "pagina": 3,
+        "tipo": "cartum",
+        "elemento": "Tira de André Dahmer",
+        "bbox": [
+          643,
+          127,
+          915,
+          380
+        ]
+      }
+    ],
+    "14": [
+      {
+        "pagina": 4,
+        "tipo": "grafico",
+        "elemento": "Gráficos climáticos 1 e 2",
+        "bbox": [
+          552,
+          539,
+          919,
+          819
+        ]
+      }
+    ],
+    "18": [
+      {
+        "pagina": 5,
+        "tipo": "cartum",
+        "elemento": "Cartum de Pia Guerra",
+        "bbox": [
+          627,
+          509,
+          865,
+          892
+        ]
+      }
+    ],
+    "20": [
+      {
+        "pagina": 6,
+        "tipo": "imagem",
+        "elemento": "Questão com imagens de pinturas",
+        "bbox": [
+          36,
+          44,
+          865,
+          875
+        ]
+      }
+    ],
+    "21": [
+      {
+        "pagina": 7,
+        "tipo": "mapa",
+        "elemento": "Mapas do Cerrado (Map 1 e Map 2)",
+        "bbox": [
+          36,
+          501,
+          670,
+          929
+        ]
+      }
+    ],
+    "25": [
+      {
+        "pagina": 8,
+        "tipo": "grafico",
+        "elemento": "Gráfico de população urbana e rural",
+        "bbox": [
+          135,
+          511,
+          273,
+          918
+        ]
+      }
+    ],
+    "26": [
+      {
+        "pagina": 8,
+        "tipo": "cartum",
+        "elemento": "Charge do mosquito",
+        "bbox": [
+          552,
+          509,
+          670,
+          925
+        ]
+      }
+    ],
+    "32": [
+      {
+        "pagina": 10,
+        "tipo": "imagem",
+        "elemento": "Catedral de Notre-Dame",
+        "bbox": [
+          68,
+          512,
+          295,
+          915
+        ]
+      }
+    ],
+    "34": [
+      {
+        "pagina": 11,
+        "tipo": "mapa",
+        "elemento": "Mapa das rotas do Atlântico Sul",
+        "bbox": [
+          374,
+          53,
+          670,
+          481
+        ]
+      }
+    ],
+    "39": [
+      {
+        "pagina": 13,
+        "tipo": "imagem",
+        "elemento": "Gravura Caveira revolucionária",
+        "bbox": [
+          68,
+          87,
+          335,
+          471
+        ]
+      }
+    ],
+    "46": [
+      {
+        "pagina": 15,
+        "tipo": "mapa",
+        "elemento": "Mapa da hinterlândia do Porto do Itaqui",
+        "bbox": [
+          68,
+          50,
+          442,
+          495
+        ]
+      }
+    ],
+    "49": [
+      {
+        "pagina": 16,
+        "tipo": "figura",
+        "elemento": "Diagramas de intemperismo",
+        "bbox": [
+          68,
+          50,
+          335,
+          495
+        ]
+      }
+    ],
+    "50": [
+      {
+        "pagina": 16,
+        "tipo": "figura",
+        "elemento": "Esquema do pluviômetro",
+        "bbox": [
+          181,
+          508,
+          335,
+          760
+        ]
+      }
+    ],
+    "51": [
+      {
+        "pagina": 17,
+        "tipo": "figura",
+        "elemento": "Mapas de fragmentação de hábitat em três momentos",
+        "bbox": [
+          68,
+          50,
+          335,
+          930
+        ]
+      }
+    ],
+    "54": [
+      {
+        "pagina": 18,
+        "tipo": "mapa",
+        "elemento": "Mapas temáticos hipotéticos 1, 2 e 3",
+        "bbox": [
+          68,
+          76,
+          183,
+          461
+        ]
+      }
+    ],
+    "61": [
+      {
+        "pagina": 20,
+        "tipo": "imagem",
+        "elemento": "Foto do Rio Tietê",
+        "bbox": [
+          119,
+          49,
+          245,
+          481
+        ]
+      }
+    ],
+    "63": [
+      {
+        "pagina": 21,
+        "tipo": "figura",
+        "elemento": "Símbolo de combate ao Aedes aegypti",
+        "bbox": [
+          91,
+          68,
+          181,
+          242
+        ]
+      }
+    ],
+    "64": [
+      {
+        "pagina": 21,
+        "tipo": "figura",
+        "elemento": "Estruturas químicas das alternativas",
+        "bbox": [
+          308,
+          508,
+          627,
+          875
+        ]
+      }
+    ],
+    "66": [
+      {
+        "pagina": 22,
+        "tipo": "tabela",
+        "elemento": "Tabela de horários do Sol em São Paulo",
+        "bbox": [
+          36,
+          508,
+          153,
+          898
+        ]
+      }
+    ],
+    "67": [
+      {
+        "pagina": 23,
+        "tipo": "figura",
+        "elemento": "Esquema da caixa d'água",
+        "bbox": [
+          254,
+          165,
+          442,
+          427
+        ]
+      }
+    ],
+    "68": [
+      {
+        "pagina": 23,
+        "tipo": "grafico",
+        "elemento": "Gráficos de fenótipos",
+        "bbox": [
+          295,
+          508,
+          643,
+          919
+        ]
+      }
+    ],
+    "69": [
+      {
+        "pagina": 24,
+        "tipo": "tabela",
+        "elemento": "Tabela de concentrações de sais dissolvidos",
+        "bbox": [
+          119,
+          50,
+          245,
+          495
+        ]
+      }
+    ],
+    "70": [
+      {
+        "pagina": 24,
+        "tipo": "imagem",
+        "elemento": "Foto do Parque Eólico de Osório",
+        "bbox": [
+          316,
+          111,
+          471,
+          434
+        ]
+      }
+    ],
+    "71": [
+      {
+        "pagina": 24,
+        "tipo": "figura",
+        "elemento": "Fórmulas estruturais das clorofilas a e b",
+        "bbox": [
+          68,
+          508,
+          295,
+          919
+        ]
+      }
+    ],
+    "73": [
+      {
+        "pagina": 25,
+        "tipo": "figura",
+        "elemento": "Cubo de 1 cm",
+        "bbox": [
+          591,
+          206,
+          716,
+          335
+        ]
+      }
+    ],
+    "76": [
+      {
+        "pagina": 26,
+        "tipo": "grafico",
+        "elemento": "Gráfico de velocidade em função do tempo",
+        "bbox": [
+          181,
+          76,
+          308,
+          462
+        ]
+      }
+    ],
+    "78": [
+      {
+        "pagina": 26,
+        "tipo": "figura",
+        "elemento": "Esquema da montanha-russa",
+        "bbox": [
+          89,
+          508,
+          335,
+          919
+        ]
+      }
+    ],
+    "79": [
+      {
+        "pagina": 26,
+        "tipo": "tabela",
+        "elemento": "Tabela de entalpias-padrão",
+        "bbox": [
+          627,
+          552,
+          743,
+          875
+        ]
+      }
+    ],
+    "80": [
+      {
+        "pagina": 27,
+        "tipo": "figura",
+        "elemento": "Esquema do balão e sensoriamento remoto",
+        "bbox": [
+          145,
+          165,
+          335,
+          335
+        ]
+      }
+    ],
+    "81": [
+      {
+        "pagina": 27,
+        "tipo": "tabela",
+        "elemento": "Tabela de comprimentos de onda da luz visível",
+        "bbox": [
+          360,
+          610,
+          462,
+          875
+        ]
+      }
+    ],
+    "82": [
+      {
+        "pagina": 28,
+        "tipo": "figura",
+        "elemento": "Esquemas de eletroplacas",
+        "bbox": [
+          119,
+          152,
+          716,
+          462
+        ]
+      }
+    ],
+    "83": [
+      {
+        "pagina": 28,
+        "tipo": "tabela",
+        "elemento": "Tabela de chamadas spam por país",
+        "bbox": [
+          234,
+          508,
+          397,
+          919
+        ]
+      }
+    ],
+    "84": [
+      {
+        "pagina": 29,
+        "tipo": "figura",
+        "elemento": "Linhas do tempo dos modelos atômicos",
+        "bbox": [
+          316,
+          68,
+          627,
+          481
+        ]
+      }
+    ],
+    "85": [
+      {
+        "pagina": 29,
+        "tipo": "grafico",
+        "elemento": "Gráfico de velocidade média do tráfego",
+        "bbox": [
+          215,
+          508,
+          335,
+          875
+        ]
+      }
+    ],
+    "86": [
+      {
+        "pagina": 30,
+        "tipo": "figura",
+        "elemento": "Gráfico de densidade populacional e alternativas em colunas",
+        "bbox": [
+          91,
+          68,
+          865,
+          471
+        ]
+      }
+    ],
+    "88": [
+      {
+        "pagina": 31,
+        "tipo": "figura",
+        "elemento": "Ilustrações de gota de sangue e tabela trigonométrica",
+        "bbox": [
+          68,
+          50,
+          681,
+          495
+        ]
+      }
+    ],
+    "90": [
+      {
+        "pagina": 31,
+        "tipo": "figura",
+        "elemento": "Determinantes matriciais p(x) e q(x)",
+        "bbox": [
+          716,
+          508,
+          813,
+          815
+        ]
+      }
+    ]
+  }
+}

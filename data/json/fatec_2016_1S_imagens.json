@@ -1,0 +1,720 @@
+{
+  "exame": "fatec_2016_1S",
+  "figuras_coordenadas": {
+    "1": [
+      {
+        "pagina": 2,
+        "tipo": "figura",
+        "elemento": "Texto de apoio sobre Vanderlei Cordeiro de Lima",
+        "bbox": [
+          94,
+          98,
+          485,
+          497
+        ]
+      }
+    ],
+    "2": [
+      {
+        "pagina": 2,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da questão 2",
+        "bbox": [
+          94,
+          526,
+          321,
+          925
+        ]
+      }
+    ],
+    "3": [
+      {
+        "pagina": 2,
+        "tipo": "tabela",
+        "elemento": "Tabela com tempos de atletas de natação nos Jogos de Londres 2012",
+        "bbox": [
+          337,
+          526,
+          680,
+          925
+        ]
+      }
+    ],
+    "4": [
+      {
+        "pagina": 3,
+        "tipo": "fotografia",
+        "elemento": "Atletas Tommie Smith e John Carlos no pódio em 1968",
+        "bbox": [
+          92,
+          97,
+          442,
+          915
+        ]
+      }
+    ],
+    "5": [
+      {
+        "pagina": 3,
+        "tipo": "imagem",
+        "elemento": "Imagens da tocha olímpica Rio 2016",
+        "bbox": [
+          555,
+          97,
+          788,
+          915
+        ]
+      }
+    ],
+    "6": [
+      {
+        "pagina": 4,
+        "tipo": "figura",
+        "elemento": "Texto sobre ozônio e cloraminas",
+        "bbox": [
+          92,
+          97,
+          421,
+          497
+        ]
+      }
+    ],
+    "7": [
+      {
+        "pagina": 4,
+        "tipo": "figura",
+        "elemento": "Enunciado e fórmula da questão 7",
+        "bbox": [
+          555,
+          87,
+          853,
+          497
+        ]
+      }
+    ],
+    "8": [
+      {
+        "pagina": 4,
+        "tipo": "figura",
+        "elemento": "Enunciado da questão 8",
+        "bbox": [
+          92,
+          526,
+          321,
+          925
+        ]
+      }
+    ],
+    "9": [
+      {
+        "pagina": 4,
+        "tipo": "figura",
+        "elemento": "Esquema de um alvo de tiro com arco",
+        "bbox": [
+          337,
+          526,
+          750,
+          925
+        ]
+      }
+    ],
+    "10": [
+      {
+        "pagina": 5,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da questão 10",
+        "bbox": [
+          92,
+          69,
+          360,
+          488
+        ]
+      }
+    ],
+    "11": [
+      {
+        "pagina": 5,
+        "tipo": "figura",
+        "elemento": "Figura geométrica da questão 11",
+        "bbox": [
+          376,
+          69,
+          747,
+          488
+        ]
+      }
+    ],
+    "12": [
+      {
+        "pagina": 5,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da questão 12",
+        "bbox": [
+          92,
+          510,
+          310,
+          929
+        ]
+      }
+    ],
+    "13": [
+      {
+        "pagina": 5,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da questão 13",
+        "bbox": [
+          326,
+          510,
+          526,
+          929
+        ]
+      }
+    ],
+    "14": [
+      {
+        "pagina": 5,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da questão 14",
+        "bbox": [
+          542,
+          510,
+          779,
+          929
+        ]
+      }
+    ],
+    "15": [
+      {
+        "pagina": 6,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da questão 15",
+        "bbox": [
+          108,
+          77,
+          344,
+          922
+        ]
+      }
+    ],
+    "16": [
+      {
+        "pagina": 6,
+        "tipo": "cartum",
+        "elemento": "Charge sobre o rádio e Getúlio Vargas",
+        "bbox": [
+          360,
+          77,
+          911,
+          922
+        ]
+      }
+    ],
+    "17": [
+      {
+        "pagina": 7,
+        "tipo": "imagem",
+        "elemento": "Recorte de jornal Gazeta de Notícias de 1888",
+        "bbox": [
+          92,
+          70,
+          672,
+          917
+        ]
+      }
+    ],
+    "18": [
+      {
+        "pagina": 8,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da questão 18",
+        "bbox": [
+          92,
+          77,
+          483,
+          922
+        ]
+      }
+    ],
+    "19": [
+      {
+        "pagina": 8,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da questão 19",
+        "bbox": [
+          499,
+          77,
+          922,
+          922
+        ]
+      }
+    ],
+    "20": [
+      {
+        "pagina": 9,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da questão 20",
+        "bbox": [
+          587,
+          72,
+          878,
+          488
+        ]
+      }
+    ],
+    "21": [
+      {
+        "pagina": 9,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da questão 21",
+        "bbox": [
+          587,
+          510,
+          779,
+          929
+        ]
+      }
+    ],
+    "22": [
+      {
+        "pagina": 10,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da questão 22",
+        "bbox": [
+          92,
+          72,
+          287,
+          488
+        ]
+      }
+    ],
+    "23": [
+      {
+        "pagina": 10,
+        "tipo": "figura",
+        "elemento": "Equilíbrio químico e alternativas da questão 23",
+        "bbox": [
+          303,
+          72,
+          606,
+          488
+        ]
+      }
+    ],
+    "24": [
+      {
+        "pagina": 10,
+        "tipo": "figura",
+        "elemento": "Estrutura da fenolftaleína e alternativas da questão 24",
+        "bbox": [
+          622,
+          72,
+          922,
+          488
+        ]
+      }
+    ],
+    "25": [
+      {
+        "pagina": 11,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da questão 25",
+        "bbox": [
+          92,
+          70,
+          203,
+          917
+        ]
+      }
+    ],
+    "26": [
+      {
+        "pagina": 11,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da questão 26",
+        "bbox": [
+          219,
+          70,
+          362,
+          917
+        ]
+      }
+    ],
+    "27": [
+      {
+        "pagina": 11,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da questão 27",
+        "bbox": [
+          378,
+          70,
+          563,
+          917
+        ]
+      }
+    ],
+    "28": [
+      {
+        "pagina": 11,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da questão 28",
+        "bbox": [
+          579,
+          70,
+          680,
+          917
+        ]
+      }
+    ],
+    "29": [
+      {
+        "pagina": 11,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da questão 29",
+        "bbox": [
+          696,
+          70,
+          797,
+          917
+        ]
+      }
+    ],
+    "30": [
+      {
+        "pagina": 12,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da questão 30",
+        "bbox": [
+          655,
+          77,
+          836,
+          577
+        ]
+      }
+    ],
+    "31": [
+      {
+        "pagina": 12,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da questão 31",
+        "bbox": [
+          92,
+          603,
+          303,
+          917
+        ]
+      }
+    ],
+    "32": [
+      {
+        "pagina": 12,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da questão 32",
+        "bbox": [
+          321,
+          603,
+          521,
+          917
+        ]
+      }
+    ],
+    "33": [
+      {
+        "pagina": 12,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da questão 33",
+        "bbox": [
+          538,
+          603,
+          856,
+          917
+        ]
+      }
+    ],
+    "34": [
+      {
+        "pagina": 13,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da questão 34",
+        "bbox": [
+          92,
+          70,
+          317,
+          917
+        ]
+      }
+    ],
+    "35": [
+      {
+        "pagina": 13,
+        "tipo": "figura",
+        "elemento": "Enunciado e tabela da questão 35",
+        "bbox": [
+          333,
+          70,
+          680,
+          917
+        ]
+      }
+    ],
+    "36": [
+      {
+        "pagina": 13,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da questão 36",
+        "bbox": [
+          696,
+          70,
+          917,
+          917
+        ]
+      }
+    ],
+    "37": [
+      {
+        "pagina": 14,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da questão 37",
+        "bbox": [
+          203,
+          70,
+          483,
+          917
+        ]
+      }
+    ],
+    "38": [
+      {
+        "pagina": 14,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da questão 38",
+        "bbox": [
+          500,
+          70,
+          680,
+          917
+        ]
+      }
+    ],
+    "39": [
+      {
+        "pagina": 14,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da questão 39",
+        "bbox": [
+          696,
+          70,
+          917,
+          917
+        ]
+      }
+    ],
+    "40": [
+      {
+        "pagina": 15,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da questão 40",
+        "bbox": [
+          92,
+          70,
+          362,
+          917
+        ]
+      }
+    ],
+    "41": [
+      {
+        "pagina": 15,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da questão 41",
+        "bbox": [
+          378,
+          70,
+          656,
+          917
+        ]
+      }
+    ],
+    "42": [
+      {
+        "pagina": 15,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da questão 42",
+        "bbox": [
+          672,
+          70,
+          917,
+          917
+        ]
+      }
+    ],
+    "43": [
+      {
+        "pagina": 16,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da questão 43",
+        "bbox": [
+          92,
+          77,
+          344,
+          922
+        ]
+      }
+    ],
+    "44": [
+      {
+        "pagina": 16,
+        "tipo": "mapa",
+        "elemento": "Mapa das Treze Colônias",
+        "bbox": [
+          360,
+          77,
+          917,
+          922
+        ]
+      }
+    ],
+    "45": [
+      {
+        "pagina": 17,
+        "tipo": "figura",
+        "elemento": "Ilustração de continentes hipotéticos e cladogramas",
+        "bbox": [
+          92,
+          70,
+          922,
+          917
+        ]
+      }
+    ],
+    "46": [
+      {
+        "pagina": 18,
+        "tipo": "tabela",
+        "elemento": "Tabela de tipos sanguíneos da questão 46",
+        "bbox": [
+          92,
+          70,
+          483,
+          917
+        ]
+      }
+    ],
+    "47": [
+      {
+        "pagina": 18,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da questão 47",
+        "bbox": [
+          500,
+          70,
+          917,
+          917
+        ]
+      }
+    ],
+    "48": [
+      {
+        "pagina": 19,
+        "tipo": "tabela",
+        "elemento": "Tabela de delineamento do experimento da questão 48",
+        "bbox": [
+          92,
+          70,
+          608,
+          917
+        ]
+      }
+    ],
+    "49": [
+      {
+        "pagina": 19,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da questão 49",
+        "bbox": [
+          625,
+          70,
+          917,
+          917
+        ]
+      }
+    ],
+    "50": [
+      {
+        "pagina": 20,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da questão 50",
+        "bbox": [
+          587,
+          70,
+          783,
+          917
+        ]
+      }
+    ],
+    "51": [
+      {
+        "pagina": 20,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da questão 51",
+        "bbox": [
+          798,
+          70,
+          917,
+          917
+        ]
+      }
+    ],
+    "52": [
+      {
+        "pagina": 21,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da questão 52",
+        "bbox": [
+          92,
+          70,
+          271,
+          917
+        ]
+      }
+    ],
+    "53": [
+      {
+        "pagina": 21,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da questão 53",
+        "bbox": [
+          287,
+          70,
+          483,
+          917
+        ]
+      }
+    ],
+    "54": [
+      {
+        "pagina": 21,
+        "tipo": "figura",
+        "elemento": "Enunciado e alternativas da questão 54",
+        "bbox": [
+          500,
+          70,
+          917,
+          917
+        ]
+      }
+    ],
+    "55": [
+      {
+        "pagina": 22,
+        "tipo": "figura",
+        "elemento": "Proposta de redação e textos motivadores",
+        "bbox": [
+          92,
+          70,
+          917,
+          917
+        ]
+      }
+    ]
+  }
+}

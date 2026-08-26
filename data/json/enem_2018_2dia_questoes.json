@@ -1,0 +1,1862 @@
+{
+  "exame": "enem_2018_2dia_questoes",
+  "ano": 2018,
+  "semestre": 2,
+  "fonte_questoes": "data/enem_2018_2dia_questoes.pdf",
+  "fonte_gabarito": "data/enem_2018_2dia_gabarito.pdf",
+  "total_questoes": 66,
+  "questoes": [
+    {
+      "numero": 91,
+      "tipo": "objetiva",
+      "enunciado": "Para serem absorvidos pelas células do intestino humano, os lipídios ingeridos precisam ser primeiramente emulsionados. Nessa etapa da digestão, torna-se necessária a ação dos ácidos biliares, visto que os lipídios apresentam uma natureza apolar e são insolúveis em água.\nEsses ácidos atuam no processo de modo a",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "hidrolisar os lipídios.",
+        "b": "agir como detergentes.",
+        "c": "tornar os lipídios anfifílicos.",
+        "d": "promover a secreção de lipases.",
+        "e": "estimular o trânsito intestinal dos lipídios."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Componentes químicos celulares: água, sais minerais, carboidratos, lipídios, proteínas e vitaminas",
+            "Fisiologia dos sistemas humanos: digestório, cardiovascular, respiratório, excretor, nervoso, endócrino, locomotor e reprodutor"
+          ]
+        },
+        {
+          "area": "Química",
+          "assuntos": [
+            "Interações intermoleculares (forças de London, dipolo-dipolo e ligação de hidrogênio)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 2
+    },
+    {
+      "numero": 92,
+      "tipo": "objetiva",
+      "enunciado": "A tecnologia de comunicação da etiqueta RFID (chamada de etiqueta inteligente) é usada há anos para rastrear gado, vagões de trem, bagagem aérea e carros nos pedágios. Um modelo mais barato dessas etiquetas pode funcionar sem baterias e é constituído por três componentes: um microprocessador de silício; uma bobina de metal, feita de cobre ou de alumínio, que é enrolada em um padrão circular; e um encapsulador, que é um material de vidro ou polímero envolvendo o microprocessador e a bobina. Na presença de um campo de radiofrequência gerado pelo leitor, a etiqueta transmite sinais. A distância de leitura é determinada pelo tamanho da bobina e pela potência da onda de rádio emitida pelo leitor.\nDisponível em: http://eletronicos.hsw.uol.com.br. Acesso em: 27 fev. 2012 (adaptado).\nA etiqueta funciona sem pilhas porque o campo",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 2: Texto explicativo sobre etiquetas RFID."
+      ],
+      "alternativas": {
+        "a": "elétrico da onda de rádio agita elétrons da bobina.",
+        "b": "elétrico da onda de rádio cria uma tensão na bobina.",
+        "c": "magnético da onda de rádio induz corrente na bobina.",
+        "d": "magnético da onda de rádio aquece os fios da bobina.",
+        "e": "magnético da onda de rádio diminui a ressonância no interior da bobina."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Indução eletromagnética: Lei de Lenz, Lei de Faraday-Neumann e transformadores"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 2
+    },
+    {
+      "numero": 93,
+      "tipo": "objetiva",
+      "enunciado": "Corredores ecológicos visam mitigar os efeitos da fragmentação dos ecossistemas promovendo a ligação entre diferentes áreas, com o objetivo de proporcionar o deslocamento de animais, a dispersão de sementes e o aumento da cobertura vegetal. São instituídos com base em informações como estudos sobre o deslocamento de espécies, sua área de vida (área necessária para o suprimento de suas necessidades vitais e reprodutivas) e a distribuição de suas populações.\nDisponível em: www.mma.gov.br. Acesso em: 30 nov. 2011 (adaptado).\nNessa estratégia, a recuperação da biodiversidade é efetiva porque",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "propicia o fluxo gênico.",
+        "b": "intensifica o manejo de espécies.",
+        "c": "amplia o processo de ocupação humana.",
+        "d": "aumenta o número de indivíduos nas populações.",
+        "e": "favorece a formação de ilhas de proteção integral."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Conceitos ecológicos fundamentais (habitat, nicho ecológico, população, comunidade e ecossistema)",
+            "Impactos antrópicos: poluição, bioacumulação trófica, espécies exóticas, pegada ecológica e unidades de conservação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 2
+    },
+    {
+      "numero": 94,
+      "tipo": "objetiva",
+      "enunciado": "A identificação de riscos de produtos perigosos para o transporte rodoviário é obrigatória e realizada por meio da sinalização composta por um painel de segurança, de cor alaranjada, e um rótulo de risco. As informações inseridas no painel de segurança e no rótulo de risco, conforme determina a legislação, permitem que se identifique o produto transportado e os perigos a ele associados.\nA sinalização mostrada identifica uma substância que está sendo transportada em um caminhão.\nOs três algarismos da parte superior do painel indicam o “Número de risco”. O número 268 indica tratar-se de um gás (2), tóxico (6) e corrosivo (8). Os quatro dígitos da parte inferior correspondem ao “Número ONU”, que identifica o produto transportado.\nBRASIL. Resolução n. 420, de 12/02/2004, da Agência Nacional de Transportes Terrestres (ANTT)/Ministério dos Transportes (adaptado).\nABNT. NBR 7500: Identificação para o transporte terrestre, manuseio, movimentação e armazenamento de produtos. Rio de Janeiro, 2004 (adaptado).\nConsiderando a identificação apresentada no caminhão, o código 1005 corresponde à substância",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 2: Desenho do painel de sinalização de perigo contendo o número 268 na parte superior e 1005 na parte inferior, além do símbolo de gás tóxico."
+      ],
+      "alternativas": {
+        "a": "eteno (C₂H₄).",
+        "b": "nitrogênio (N₂).",
+        "c": "amônia (NH₃).",
+        "d": "propano (C₃H₈).",
+        "e": "dióxido de carbono (CO₂)."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Funções inorgânicas: ácidos, bases, sais e óxidos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 2
+    },
+    {
+      "numero": 95,
+      "tipo": "objetiva",
+      "enunciado": "No ciclo celular atuam moléculas reguladoras. Dentre elas, a proteína p53 é ativada em resposta a mutações no DNA, evitando a progressão do ciclo até que os danos sejam reparados, ou induzindo a célula à autodestruição.\nALBERTS, B. et al. Fundamentos da biologia celular. Porto Alegre: Artmed, 2011 (adaptado).\nA ausência dessa proteína poderá favorecer a",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "redução da síntese de DNA, acelerando o ciclo celular.",
+        "b": "saída imediata do ciclo celular, antecipando a proteção do DNA.",
+        "c": "ativação de outras proteínas reguladoras, induzindo a apoptose.",
+        "d": "manutenção da estabilidade genética, favorecendo a longevidade.",
+        "e": "proliferação celular exagerada, resultando na formação de um tumor."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Núcleo celular, ciclo celular e divisões celulares (Mitose e Meiose)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 2
+    },
+    {
+      "numero": 101,
+      "tipo": "objetiva",
+      "enunciado": "As abelhas utilizam a sinalização química para distinguir a abelha-rainha de uma operária, sendo capazes de reconhecer diferenças entre moléculas. A rainha produz o sinalizador químico conhecido como ácido 9-hidroxidec-2-enoico, enquanto as abelhas-operárias produzem ácido 10-hidroxidec-2-enoico. Nós podemos distinguir as abelhas-operárias e rainhas por sua aparência, mas, entre si, elas usam essa sinalização química para perceber a diferença. Pode-se dizer que veem por meio da química.\n\nLECOUTEUR, P.; BURRESON, J. Os botões de Napoleão: as 17 moléculas que mudaram a história. Rio de Janeiro: Jorge Zahar, 2006 (adaptado).\n\nAs moléculas dos sinalizadores químicos produzidas pelas abelhas rainha e operária possuem diferença na",
+      "textos_de_apoio": [
+        "As abelhas utilizam a sinalização química para distinguir a abelha-rainha de uma operária, sendo capazes de reconhecer diferenças entre moléculas. A rainha produz o sinalizador químico conhecido como ácido 9-hidroxidec-2-enoico, enquanto as abelhas-operárias produzem ácido 10-hidroxidec-2-enoico. Nós podemos distinguir as abelhas-operárias e rainhas por sua aparência, mas, entre si, elas usam essa sinalização química para perceber a diferença. Pode-se dizer que veem por meio da química.\n\nLECOUTEUR, P.; BURRESON, J. Os botões de Napoleão: as 17 moléculas que mudaram a história. Rio de Janeiro: Jorge Zahar, 2006 (adaptado)."
+      ],
+      "midia": [
+        "Página 5: Nenhum gráfico, figura ou tabela presente nesta questão."
+      ],
+      "alternativas": {
+        "a": "fórmula estrutural.",
+        "b": "fórmula molecular.",
+        "c": "identificação dos tipos de ligação.",
+        "d": "contagem do número de carbonos.",
+        "e": "identificação dos grupos funcionais."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Características do carbono, cadeias carbônicas, ligações e hibridização",
+            "Principais funções orgânicas: hidrocarbonetos, álcoois, fenóis, éteres, ésteres, aldeídos, cetonas, ácidos carboxílicos, aminas e amidas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 5
+    },
+    {
+      "numero": 102,
+      "tipo": "objetiva",
+      "enunciado": "Insetos podem apresentar três tipos de desenvolvimento. Um deles, a holometabolia (desenvolvimento completo), é constituído pelas fases de ovo, larva, pupa e adulto sexuadamente maduro, que ocupam diversos hábitats. Os insetos com holometabolia pertencem às ordens mais numerosas em termos de espécies conhecidas.\n\nEsse tipo de desenvolvimento está relacionado a um maior número de espécies em razão da",
+      "textos_de_apoio": [
+        "Insetos podem apresentar três tipos de desenvolvimento. Um deles, a holometabolia (desenvolvimento completo), é constituído pelas fases de ovo, larva, pupa e adulto sexuadamente maduro, que ocupam diversos hábitats. Os insetos com holometabolia pertencem às ordens mais numerosas em termos de espécies conhecidas."
+      ],
+      "midia": [
+        "Página 5: Nenhum gráfico, figura ou tabela presente nesta questão."
+      ],
+      "alternativas": {
+        "a": "proteção na fase de pupa, favorecendo a sobrevivência de adultos férteis.",
+        "b": "produção de muitos ovos, larvas e pupas, aumentando o número de adultos.",
+        "c": "exploração de diferentes nichos, evitando a competição entre as fases da vida.",
+        "d": "ingestão de alimentos em todas as fases de vida, garantindo o surgimento do adulto.",
+        "e": "utilização do mesmo alimento em todas as fases, otimizando a nutrição do organismo."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Conceitos ecológicos fundamentais (habitat, nicho ecológico, população, comunidade e ecossistema)",
+            "Dinâmica de populações e relações ecológicas (intraespecíficas e interespecíficas)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 5
+    },
+    {
+      "numero": 103,
+      "tipo": "objetiva",
+      "enunciado": "Talvez você já tenha bebido suco usando dois canudinhos iguais. Entretanto, pode-se verificar que, se colocar um canudo imerso no suco e outro do lado de fora do líquido, fazendo a sucção simultaneamente em ambos, você terá dificuldade em bebê-lo.\n\nEssa dificuldade ocorre porque o(a)",
+      "textos_de_apoio": [
+        "Talvez você já tenha bebido suco usando dois canudinhos iguais. Entretanto, pode-se verificar que, se colocar um canudo imerso no suco e outro do lado de fora do líquido, fazendo a sucção simultaneamente em ambos, você terá dificuldade em bebê-lo."
+      ],
+      "midia": [
+        "Página 5: Nenhum gráfico, figura ou tabela presente nesta questão."
+      ],
+      "alternativas": {
+        "a": "força necessária para a sucção do ar e do suco simultaneamente dobra de valor.",
+        "b": "densidade do ar é menor que a do suco, portanto, o volume de ar aspirado é muito maior que o volume de suco.",
+        "c": "velocidade com que o suco sobe deve ser constante nos dois canudos, o que é impossível com um dos canudos de fora.",
+        "d": "peso da coluna de suco é consideravelmente maior que o peso da coluna de ar, o que dificulta a sucção do líquido.",
+        "e": "pressão no interior da boca assume praticamente o mesmo valor daquela que atua sobre o suco."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Pressão e pressão hidrostática (Teorema de Stevin e experiência de Torricelli)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 5
+    },
+    {
+      "numero": 104,
+      "tipo": "objetiva",
+      "enunciado": "O alemão Fritz Haber recebeu o Prêmio Nobel de química de 1918 pelo desenvolvimento de um processo viável para a síntese da amônia (NH₃). Em seu discurso de premiação, Haber justificou a importância do feito dizendo que:\n\n\"Desde a metade do século passado, tornou-se conhecido que um suprimento de nitrogênio é uma necessidade básica para o aumento das safras de alimentos; entretanto, também se sabia que as plantas não podem absorver o nitrogênio em sua forma simples, que é o principal constituinte da atmosfera. Elas precisam que o nitrogênio seja combinado [...] para poderem assimilá-lo.\n\nEconomias agrícolas basicamente mantêm o balanço do nitrogênio ligado. No entanto, com o advento da era industrial, os produtos do solo são levados de onde cresce a colheita para lugares distantes, onde são consumidos, fazendo com que o nitrogênio ligado não retorne à terra da qual foi retirado.\n\nIsso tem gerado a necessidade econômica mundial de abastecer o solo com nitrogênio ligado. [...] A demanda por nitrogênio, tal como a do carvão, indica que um modo diferente no nosso modo de vida se tornou com relação ao das pessoas que, com seus próprios corpos, fertilizam o solo que cultivam.\n\nDesde a metade do último século, nós vínhamos aproveitando o suprimento de nitrogênio do salitre que a natureza tinha depositado nos desertos montanhosos do Chile. Comparando o rápido crescimento da demanda com a extensão calculada desses depósitos, ficou claro que em meados do século atual uma emergência seríssima seria inevitável, a menos que a química encontrasse uma saída.\"\n\nHABER, F. The Synthesis of Ammonia from its Elements. Disponível em: www.nobelprize.org. Acesso em: 13 jul. 2013 (adaptado).\n\nDe acordo com os argumentos de Haber, qual fenômeno teria provocado o desequilíbrio no “balanço do nitrogênio ligado”?",
+      "textos_de_apoio": [
+        "O alemão Fritz Haber recebeu o Prêmio Nobel de química de 1918 pelo desenvolvimento de um processo viável para a síntese da amônia (NH₃). Em seu discurso de premiação, Haber justificou a importância do feito dizendo que:\n\n\"Desde a metade do século passado, tornou-se conhecido que um suprimento de nitrogênio é uma necessidade básica para o aumento das safras de alimentos; entretanto, também se sabia que as plantas não podem absorver o nitrogênio em sua forma simples, que é o principal constituinte da atmosfera. Elas precisam que o nitrogênio seja combinado [...] para poderem assimilá-lo.\n\nEconomias agrícolas basicamente mantêm o balanço do nitrogênio ligado. No entanto, com o advento da era industrial, os produtos do solo são levados de onde cresce a colheita para lugares distantes, onde são consumidos, fazendo com que o nitrogênio ligado não retorne à terra da qual foi retirado.\n\nIsso tem gerado a necessidade econômica mundial de abastecer o solo com nitrogênio ligado. [...] A demanda por nitrogênio, tal como a do carvão, indica que um modo diferente no nosso modo de vida se tornou com relação ao das pessoas que, com seus próprios corpos, fertilizam o solo que cultivam.\n\nDesde a metade do último século, nós vínhamos aproveitando o suprimento de nitrogênio do salitre que a natureza tinha depositado nos desertos montanhosos do Chile. Comparando o rápido crescimento da demanda com a extensão calculada desses depósitos, ficou claro que em meados do século atual uma emergência seríssima seria inevitável, a menos que a química encontrasse uma saída.\"\n\nHABER, F. The Synthesis of Ammonia from its Elements. Disponível em: www.nobelprize.org. Acesso em: 13 jul. 2013 (adaptado)."
+      ],
+      "midia": [
+        "Página 5: Nenhum gráfico, figura ou tabela presente nesta questão."
+      ],
+      "alternativas": {
+        "a": "O esgotamento das reservas de salitre no Chile.",
+        "b": "O aumento da exploração de carvão vegetal e carvão mineral.",
+        "c": "A redução da fertilidade do solo nas economias agrícolas.",
+        "d": "A intensificação no fluxo de pessoas do campo para as cidades.",
+        "e": "A necessidade das plantas de absorverem sais de nitrogênio disponíveis no solo."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Química Ambiental: parâmetros de qualidade ambiental, poluição de ar/água/solo e ciclos biogeoquímicos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 5
+    },
+    {
+      "numero": 110,
+      "tipo": "objetiva",
+      "enunciado": "Ao pesquisar um resistor feito de um novo tipo de material, um cientista observou o comportamento mostrado no gráfico tensão versus corrente.\n\nApós a análise do gráfico, ele concluiu que a tensão em função da corrente é dada pela equação V = 10 i + i².\nO gráfico da resistência elétrica (R) do resistor em função da corrente (i) é",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 7: Gráfico de Tensão (V) versus Corrente (A) mostrando uma curva crescente não linear de 0 a 120 V e 0 a 7 A.",
+        "Página 7: Cinco opções de gráficos de R (Ω) em função de i (A) rotuladas de A a E."
+      ],
+      "alternativas": {
+        "a": "Gráfico de R constante igual a 10 Ω.",
+        "b": "Gráfico de R constante igual a 17 Ω.",
+        "c": "Gráfico de R linear crescente de 10 a 17 Ω.",
+        "d": "Gráfico de R linear crescente de 10 a 18 Ω.",
+        "e": "Gráfico de R parabólico crescente."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Eletrodinâmica: corrente elétrica, ddp, Leis de Ohm, resistividade e potência elétrica (kWh)",
+            "Interpretação de gráficos físicos (área sob a curva e inclinação da reta)"
+          ]
+        },
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Gráficos de funções por uma ou várias sentenças",
+            "Conceito de função e relações entre grandezas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 7
+    },
+    {
+      "numero": 111,
+      "tipo": "objetiva",
+      "enunciado": "A hidroxilamina (NH₂OH) é extremamente reativa em reações de substituição nucleofílica, justificando sua utilização em diversos processos. A reação de substituição nucleofílica entre o anidrido acético e a hidroxilamina está representada.\n\nO produto A é favorecido em relação ao B, por um fator de 10⁵. Em um estudo de possível substituição do uso de hidroxilamina, foram testadas as moléculas numeradas de 1 a 5.\n\nDentre as moléculas testadas, qual delas apresentou menor reatividade?",
+      "textos_de_apoio": [
+        "Esquema reacional entre anidrido acético e NH₂OH gerando Produto A e Produto B.",
+        "Estruturas das moléculas 1 a 5 testadas no estudo."
+      ],
+      "midia": [
+        "Página 7: Esquema químico da reação do anidrido acético com NH₂OH formando os produtos A e B.",
+        "Página 7: Fórmulas estruturais das cinco moléculas numeradas de 1 a 5."
+      ],
+      "alternativas": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4",
+        "e": "5"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Reações orgânicas fundamentais: substituição, adição, eliminação, oxidação e esterificação/saponificação",
+            "Principais funções orgânicas: hidrocarbonetos, álcoois, fenóis, éteres, ésteres, aldeídos, cetonas, ácidos carboxílicos, aminas e amidas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 7
+    },
+    {
+      "numero": 112,
+      "tipo": "objetiva",
+      "enunciado": "Um estudante relatou que o mapeamento do DNA da cevada foi quase todo concluído e seu código genético desvendado. Chamou atenção para o número de genes que compõem esse código genético e que a semente da cevada, apesar de pequena, possui um genoma mais complexo que o humano, sendo boa parte desse código constituída de sequências repetidas. Nesse contexto, o conceito de código genético está abordado de forma equivocada.\n\nCientificamente esse conceito é definido como",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "trincas de nucleotídeos que codificam os aminoácidos.",
+        "b": "localização de todos os genes encontrados em um genoma.",
+        "c": "codificação de sequências repetidas presentes em um genoma.",
+        "d": "conjunto de todos os RNAs mensageiros transcritos em um organismo.",
+        "e": "todas as sequências de pares de bases presentes em um organismo."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Estrutura molecular do DNA e RNA, transcrição gênica e síntese proteica (código genético)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 7
+    },
+    {
+      "numero": 113,
+      "tipo": "objetiva",
+      "enunciado": "Células solares à base de TiO₂ sensibilizadas por corantes (S) são promissoras e poderão vir a substituir as células de silício. Nessas células, o corante adsorvido sobre o TiO₂ é responsável por absorver a energia luminosa (hν), e o corante excitado (S*) é capaz de transferir elétrons para o TiO₂. Um esquema dessa célula e os processos envolvidos estão ilustrados na figura. A conversão de energia solar em elétrica ocorre por meio da sequência de reações apresentadas.\n\nA reação 3 é fundamental para o contínuo funcionamento da célula solar, pois",
+      "textos_de_apoio": [
+        "Esquema de célula solar sensibilizada por corante e reações (1), (2), (3) e (4)."
+      ],
+      "midia": [
+        "Página 8: Esquema ilustrativo da célula solar sensibilizada por corante com eletrodos de TiO₂ e Pt."
+      ],
+      "alternativas": {
+        "a": "reduz íons I⁻ a I₃⁻.",
+        "b": "regenera o corante.",
+        "c": "garante que a reação 4 ocorra.",
+        "d": "promove a oxidação do corante.",
+        "e": "transfere elétrons para o eletrodo de TiO₂."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Eletroquímica: reações de oxirredução, números de oxidação (NOX) e agentes oxidantes/redutores"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 8
+    },
+    {
+      "numero": 114,
+      "tipo": "objetiva",
+      "enunciado": "O nível metabólico de uma célula pode ser determinado pela taxa de síntese de RNAs e proteínas, processos dependentes de energia. Essa diferença na taxa de síntese de biomoléculas é refletida na abundância e características morfológicas dos componentes celulares. Em uma empresa de produção de hormônios proteicos a partir do cultivo de células animais, um pesquisador deseja selecionar uma linhagem com o metabolismo de síntese mais elevado, dentre as cinco esquematizadas na figura.\n\nQual linhagem deve ser escolhida pelo pesquisador?",
+      "textos_de_apoio": [
+        "Cinco esquemas de células (Linhagens I, II, III, IV, V) com destaque para organelas e núcleo."
+      ],
+      "midia": [
+        "Página 8: Cinco ilustrações de células (I a V) mostrando detalhes do núcleo, nucléolo, mitocôndrias e retículo endoplasmático rugoso."
+      ],
+      "alternativas": {
+        "a": "I",
+        "b": "II",
+        "c": "III",
+        "d": "IV",
+        "e": "V"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Organelas citoplasmáticas e suas funções"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 8
+    },
+    {
+      "numero": 115,
+      "tipo": "objetiva",
+      "enunciado": "O deserto é um bioma que se localiza em regiões de pouca umidade. A fauna é, predominantemente, composta por animais roedores, aves, répteis e artrópodes.\nUma adaptação, associada a esse bioma, presente nos seres vivos dos grupos citados é o(a)",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "existência de numerosas glândulas sudoríparas na epiderme.",
+        "b": "eliminação de excretas nitrogenadas de forma concentrada.",
+        "c": "desenvolvimento do embrião no interior de ovo com casca.",
+        "d": "capacidade de controlar a temperatura corporal.",
+        "e": "respiração realizada por pulmões foliáceos."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Fisiologia dos sistemas humanos: digestório, cardiovascular, respiratório, excretor, nervoso, endócrino, locomotor e reprodutor",
+            "Biomas brasileiros e ecossistemas aquáticos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 9
+    },
+    {
+      "numero": 116,
+      "tipo": "objetiva",
+      "enunciado": "O sulfeto de mercúrio(II) foi usado como pigmento vermelho para pinturas de quadros e murais. Esse pigmento, conhecido como vermilion, escurece com o passar dos anos, fenômeno cuja origem é alvo de pesquisas. Aventou-se a hipótese de que o vermilion seja decomposto sob a ação da luz, produzindo uma fina camada de mercúrio metálico na superfície. Essa reação seria catalisada por íon cloreto presente na umidade do ar.\n\nWOGAN, T. Mercury's Dark Influence on Art. Disponível em: www.chemistryworld.com. Acesso em: 26 abr. 2018 (adaptado).\n\nSegundo a hipótese proposta, o íon cloreto atua na decomposição fotoquímica do vermilion",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "reagindo como agente oxidante.",
+        "b": "deslocando o equilíbrio químico.",
+        "c": "diminuindo a energia de ativação.",
+        "d": "precipitando cloreto de mercúrio.",
+        "e": "absorvendo a energia da luz visível."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Cinética Química: rapidez de reação, teoria das colisões e energia de ativação",
+            "Fatores que alteram a velocidade da reação (concentração, temperatura, catalisador)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 9
+    },
+    {
+      "numero": 117,
+      "tipo": "objetiva",
+      "enunciado": "O sonorizador é um dispositivo físico implantado sobre a superfície de uma rodovia de modo que provoque uma trepidação e ruído quando da passagem de um veículo sobre ele, alertando para uma situação atípica à frente, como obras, pedágios ou travessia de pedestres. Ao passar sobre os sonorizadores, a suspensão do veículo sofre vibrações que produzem ondas sonoras, resultando em um barulho peculiar. Considere um veículo que passe com velocidade constante igual a 108 km/h sobre um sonorizador cujas faixas são separadas por uma distância de 8 cm.\n\nDisponível em: www.denatran.gov.br. Acesso em: 2 set. 2015 (adaptado).\n\nA frequência da vibração do automóvel percebida pelo condutor durante a passagem nesse sonorizador é mais próxima de",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "8,6 hertz.",
+        "b": "13,5 hertz.",
+        "c": "375 hertz.",
+        "d": "1 350 hertz.",
+        "e": "4 860 hertz."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Ondulatória: características das ondas e Equação Fundamental da Ondulatória (v = λ * f)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 9
+    },
+    {
+      "numero": 118,
+      "tipo": "objetiva",
+      "enunciado": "As pessoas que utilizam objetos cujo princípio de funcionamento é o mesmo do das alavancas aplicam uma força, chamada de força potente, em um dado ponto da barra, para superar ou equilibrar uma segunda força, chamada de resistente, em outro ponto da barra. Por causa das diferentes distâncias entre os pontos de aplicação das forças, potente e resistente, os seus efeitos também são diferentes. A figura mostra alguns exemplos desses objetos.\n\nEm qual dos objetos a força potente é maior que a força resistente?",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 9: Imagens ilustrando objetos de uso cotidiano: pinça, alicate, quebra-nozes, carrinho de mão e abridor de garrafa."
+      ],
+      "alternativas": {
+        "a": "Pinça.",
+        "b": "Alicate.",
+        "c": "Quebra-nozes.",
+        "d": "Carrinho de mão.",
+        "e": "Abridor de garrafa."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Equilíbrio do ponto material e do corpo extenso (Momento ou Torque)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 9
+    },
+    {
+      "numero": 119,
+      "tipo": "objetiva",
+      "enunciado": "Na mitologia grega, NíobgetRSPVHUD¿OKDGH7kQWDOR GRLV SHUVRQDJHQVFRQKHFLGRVSHloro sofrimento. O elemento químico de número atômico Z = 41 é igual a 41 tem propriedades químicas e físicas tão parecidas com as do elemento de número atômico 73 que chegaram a ser confundidos. Por isso, em homenagem a esses dois personagens da mitologia grega, foi conferido a esses elementos os nomes de nióbio (Z = 41) e tântalo (Z = 73). Esses dois elementos químicos adquiriram grande importância econômica na metalurgia, na produção de supercondutores e em outras aplicações na indústria de ponta, exatamente pelas propriedades químicas e físicas comuns aos dois.\n\nKEAN, S. A colher que desaparece: e outras histórias reais de loucura, amor e morte a partir dos elementos químicos. Rio de Janeiro: Zahar, 2011 (adaptado).\n\nA importância econômica e tecnológica desses elementos, pela similaridade de suas propriedades químicas e físicas, deve-se a",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "terem elétrons no subnível f.",
+        "b": "serem elementos de transição interna.",
+        "c": "pertencerem ao mesmo grupo na tabela periódica.",
+        "d": "terem seus elétrons mais externos nos níveis 4 e 5, respectivamente.",
+        "e": "estarem localizados na família dos alcalinos terrosos e alcalinos, respectivamente."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Tabela Periódica: organização, famílias, períodos e propriedades periódicas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 9
+    },
+    {
+      "numero": 120,
+      "tipo": "objetiva",
+      "enunciado": "O processo de formação de novas espécies é lento e repleto de nuances e estágios intermediários, havendo uma diminuição da viabilidade entre cruzamentos. Assim, plantas originalmente de uma mesma espécie que não cruzam mais entre si podem ser consideradas como uma espécie se diferenciando. Um pesquisador realizou cruzamentos entre nove populações — denominadas de acordo com a localização onde são encontradas — de uma espécie de orquídea (Epidendrum denticulatum). No diagrama estão os resultados dos cruzamentos entre as populações. Considere que o doador fornece o pólen para o receptor.\n\nEm populações de quais localidades se observa um processo de especiação evidente?",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 10: Diagrama de cruzamentos entre nove populações de orquídeas indicando polinização induzida bem-sucedida ou inviável/nula."
+      ],
+      "alternativas": {
+        "a": "Bertioga e Marambaia; Alcobaça e Olivença.",
+        "b": "Itirapina e Itapeva; Marambaia e Massambaba.",
+        "c": "Itirapina e Marambaia; Alcobaça e Itirapina.",
+        "d": "Itirapina e Peti; Alcobaça e Marambaia.",
+        "e": "Itirapina e Olivença; Marambaia e Peti."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Evidências da evolução e especiação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 10
+    },
+    {
+      "numero": 122,
+      "tipo": "objetiva",
+      "enunciado": "Alguns materiais sólidos são compostos por átomos que interagem entre si formando ligações que podem ser covalentes, iônicas ou metálicas. A figura apresenta a energia potencial de ligação em função da distância interatômica em um sólido cristalino. Analisando essa figura, observa-se que, na temperatura de zero kelvin, a distância de equilíbrio da ligação entre os átomos (R0) corresponde ao valor mínimo de energia potencial. Acima dessa temperatura, a energia térmica fornecida aos átomos aumenta sua energia cinética e faz com que eles oscilem em torno de uma posição de equilíbrio média (círculos cheios), que é diferente para cada temperatura. A distância de ligação pode variar sobre toda a extensão das linhas horizontais, identificadas com o valor da temperatura, de T1 a T4 (temperaturas crescentes).",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 11: Gráfico da energia de ligação em função da distância interatômica, mostrando curvas de potencial e níveis de temperatura T0 a T4."
+      ],
+      "alternativas": {
+        "a": "ionização.",
+        "b": "dilatação.",
+        "c": "dissociação.",
+        "d": "quebra de ligações covalentes.",
+        "e": "formação de ligações metálicas."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Dilatação térmica de sólidos (linear, superficial, volumétrica) e líquidos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 11
+    },
+    {
+      "numero": 123,
+      "tipo": "objetiva",
+      "enunciado": "A utilização de extratos de origem natural tem recebido a atenção de pesquisadores em todo o mundo, principalmente nos países em desenvolvimento que são altamente acometidos por doenças infecciosas e parasitárias. Um bom exemplo dessa utilização são os produtos de origem botânica que combatem insetos.\nO uso desses produtos pode auxiliar no controle da",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "esquistossomose.",
+        "b": "leptospirose.",
+        "c": "leishmaniose.",
+        "d": "hanseníase.",
+        "e": "aids."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Saúde e Parasitologia: bacterioses, protozooses (malária, Chagas, leishmaniose) e verminoses (teníase, esquistossomose, ascaridíase)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 11
+    },
+    {
+      "numero": 124,
+      "tipo": "objetiva",
+      "enunciado": "Nos manuais de instalação de equipamentos de som há o alerta aos usuários para que observem a correta polaridade dos fios ao realizarem as conexões das caixas de som. As figuras ilustram o esquema de conexão das caixas de som de um equipamento de som mono, no qual os alto-falantes emitem as mesmas ondas. No primeiro caso, a ligação obedece às especificações do fabricante e no segundo mostra uma ligação na qual a polaridade está invertida.\n\nO que ocorre com os alto-falantes E e D se forem conectados de acordo com o segundo esquema?",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 11: Esquemas de ligação de caixas de som com polaridade correta e invertida."
+      ],
+      "alternativas": {
+        "a": "O alto-falante E funciona normalmente e o D entra em curto-circuito e não emite som.",
+        "b": "O alto-falante E emite ondas sonoras com frequências ligeiramente diferentes do alto-falante D, provocando o fenômeno de batimento.",
+        "c": "O alto-falante E emite ondas sonoras com frequências e fases diferentes do alto-falante D, provocando o fenômeno conhecido como ruído.",
+        "d": "O alto-falante E emite ondas sonoras que apresentam um lapso de tempo em relação às emitidas pelo alto-falante D, provocando o fenômeno de reverberação.",
+        "e": "O alto-falante E emite ondas sonoras em oposição de fase às emitidas pelo alto-falante D, provocando o fenômeno de interferência destrutiva nos pontos equidistantes aos alto-falantes."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Fenômenos ondulatórios: reflexão, refração, difração, interferência, polarização e ressonância"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 11
+    },
+    {
+      "numero": 139,
+      "tipo": "objetiva",
+      "enunciado": "O remo de assento deslizante é um esporte que faz uso de um barco e dois remos do mesmo tamanho.\nA figura mostra uma das posições de uma técnica chamada afastamento.\nNessa posição, os dois remos se encontram no ponto A e suas outras extremidades estão indicadas pelos pontos B e C. Esses três pontos formam um triângulo ABC cujo ângulo BÂC tem medida de 170°.\nO tipo de triângulo com vértices nos pontos A, B e C, no momento em que o remador está nessa posição, é",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 17: Imagem ilustrando o remador na posição de afastamento com os remos formando o triângulo ABC."
+      ],
+      "alternativas": {
+        "a": "retângulo escaleno.",
+        "b": "acutângulo escaleno.",
+        "c": "acutângulo isósceles.",
+        "d": "obtusângulo escaleno.",
+        "e": "obtusângulo isósceles."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Geometria Plana: ponto, reta, plano, segmentos e ângulos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 17
+    },
+    {
+      "numero": 140,
+      "tipo": "objetiva",
+      "enunciado": "Um rapaz estuda em uma escola que fica longe de sua casa, e por isso precisa utilizar o transporte público. Como é muito observador, todos os dias he anota a hora exata (sem considerar os segundos) em que o ônibus passa pelo ponto de espera. Também notou que nunca consegue chegar ao ponto de ônibus antes de 6 h 15 min da manhã. Analisando os dados coletados durante o mês de fevereiro, o qual teve 21 dias letivos, ele concluiu que 6 h 21 min foi o que mais se repetiu, e a mediana do conjunto de dados é 6 h 22 min.\nA probabilidade de que, em algum dos dias letivos de fevereiro, esse rapaz tenha apanhado o ônibus antes de 6 h 21 min da manhã é, no máximo,",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "4/21",
+        "b": "5/21",
+        "c": "6/21",
+        "d": "7/21",
+        "e": "8/21"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Espaço amostral (discreto e contínuo) e conceito de probabilidade",
+            "Estatística: medidas de tendência central (média, moda e mediana)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 17
+    },
+    {
+      "numero": 141,
+      "tipo": "objetiva",
+      "enunciado": "Um mapa é a representação reduzida e simplificada de uma localidade. Essa redução, que é feita com o uso de uma escala, mantém a proporção do espaço representado em relação ao espaço real.\nCerto mapa tem escala 1 : 58 000 000.\nConsidere que, nesse mapa, o segmento de reta que liga o navio à marca do tesouro mede 7,6 cm.\nA medida real, em quilômetro, desse segmento de reta é",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 17: Ilustração de um mapa com bússola, navio e a marca do tesouro."
+      ],
+      "alternativas": {
+        "a": "4 408.",
+        "b": "7 632.",
+        "c": "44 080.",
+        "d": "76 316.",
+        "e": "440 800."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Escala cartográfica numérica e gráfica (cálculo de distâncias)",
+            "Sistema Internacional de Medidas (conversões e unidades de informática)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 17
+    },
+    {
+      "numero": 142,
+      "tipo": "objetiva",
+      "enunciado": "Um produtor de milho utiliza uma área de 160 hectares para as suas atividades agrícolas. Essa área é dividida em duas partes: uma de 40 hectares, com maior produtividade, e outra, de 120 hectares, com menor produtividade. A produtividade é dada pela razão entre a produção, em tonelada, e a área cultivada. Sabe-se que a área de 40 hectares tem produtividade igual a 2,5 vezes à da outra. Esse fazendeiro pretende aumentar sua produção total em 15%, aumentando o tamanho da sua propriedade. Para tanto, pretende comprar uma parte de uma fazenda vizinha, que possui a mesma produtividade da parte de 40 hectares de suas terras.\nQual é a área mínima, em hectare, que o produtor precisará comprar?",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "36",
+        "b": "33",
+        "c": "27",
+        "d": "24",
+        "e": "21"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Razões e proporções diretas e inversas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 17
+    },
+    {
+      "numero": 143,
+      "tipo": "objetiva",
+      "enunciado": "A raiva é uma doença viral e infecciosa, transmitida por mamíferos. A campanha nacional de vacinação antirrábica tem o objetivo de controlar a circulação do vírus da raiva canina e felina, prevenindo a raiva humana. O gráfico mostra a cobertura (porcentagem de vacinados) da campanha, em cães, nos anos de 2013, 2015 e 2017, no município de Belo Horizonte, em Minas Gerais. Os valores das coberturas dos anos de 2014 e 2016 não estão informados no gráfico e deseja-se estimá-los. Para tal, levou-se em consideração que a variação na cobertura de vacinação da campanha antirrábica, nos períodos de 2013 a 2015 e de 2015 a 2017, deu-se de forma linear.\nQual teria sido a cobertura dessa campanha no ano de 2014?",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 18: Gráfico de linha mostrando a cobertura vacinal em percentual nos anos de 2013 (67%), 2014 (não informado), 2015 (59%), 2016 (não informado) e 2017 (61%)."
+      ],
+      "alternativas": {
+        "a": "62,3%",
+        "b": "63,0%",
+        "c": "63,5%",
+        "d": "64,0%",
+        "e": "65,5%"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Função polinomial do 1º grau e função constante"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 18
+    },
+    {
+      "numero": 144,
+      "tipo": "objetiva",
+      "enunciado": "Uma empresa de comunicação tem a tarefa de elaborar um material publicitário de um estaleiro para divulgar um novo navio, equipado com um guindaste de 15 m de altura e uma esteira de 90 m de comprimento. No desenho desse navio, a representação do guindaste deve ter sua altura entre 0,5 cm e 1 cm, enquanto a esteira deve apresentar comprimento superior a 4 cm. Todo o desenho deverá ser feito em uma escala 1 : X.\nOs valores possíveis para X são, apenas,",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "X > 1 500.",
+        "b": "X < 3 000.",
+        "c": "1 500 < X < 2 250.",
+        "d": "1 500 < X < 3 000.",
+        "e": "2 250 < X < 3 000."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Escala cartográfica numérica e gráfica (cálculo de distâncias)",
+            "Equações e inequações lineares, quadráticas, exponenciais, logarítmicas e modulares"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 18
+    },
+    {
+      "numero": 145,
+      "tipo": "objetiva",
+      "enunciado": "Em 2014 foi inaugurada a maior roda-gigante do mundo, a High Roller, situada em Las Vegas. A figura representa um esboço dessa roda-gigante, no qual o ponto A representa uma de suas cadeiras:\nA partir da posição indicada, em que o segmento OA se encontra paralelo ao plano do solo, rotaciona-se a High Roller no sentido anti-horário, em torno do ponto O. Sejam t o ângulo determinado pelo segmento OA em relação à sua posição inicial, e f a função que descreve a altura do ponto A, em relação ao solo, em função de t.\nApós duas voltas completas, f tem o seguinte gráfico:\nA expressão da função altura é dada por",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 18: Esboço circular da roda-gigante High Roller e gráfico da função altura em função do ângulo t."
+      ],
+      "alternativas": {
+        "a": "f(t) = 80sen(t) + 88",
+        "b": "f(t) = 80cos(t) + 88",
+        "c": "f(t) = 88cos(t) + 168",
+        "d": "f(t) = 168sen(t) + 88cos(t)",
+        "e": "f(t) = 88sen(t) + 168cos(t)"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Círculo trigonométrico e funções periódicas (seno e cosseno)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 18
+    },
+    {
+      "numero": 146,
+      "tipo": "objetiva",
+      "enunciado": "Minecraft é um jogo virtual que pode auxiliar no desenvolvimento de conhecimentos relacionados a espaço e forma. É possível criar casas, edifícios, monumentos e até naves espaciais, tudo em escala real, através do empilhamento de cubinhos.\nUm jogador deseja construir um cubo com dimensões 4 x 4 x 4. Ele já empilhou alguns dos cubinhos necessários, conforme a figura.\nOs cubinhos que ainda faltam empilhar para finalizar a construção do cubo, juntos, formam uma peça única, capaz de completar a tarefa.\nO formato da peça capaz de completar o cubo 4 x 4 x 4 é",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 19: Imagens com etapas de empilhamento de cubos e cinco opções de peças (A, B, C, D, E)."
+      ],
+      "alternativas": {
+        "a": "A",
+        "b": "B",
+        "c": "C",
+        "d": "D",
+        "e": "E"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Geometria Espacial: vistas ortogonais e planificação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 19
+    },
+    {
+      "numero": 147,
+      "tipo": "objetiva",
+      "enunciado": "De acordo com um relatório recente da Agência Internacional de Energia (AIE), o mercado de veículos elétricos atingiu um novo marco em 2016, quando foram vendidos mais de 750 mil automóveis da categoria. Com isso, o total de carros elétricos vendidos no mundo alcançou a marca de 2 milhões de unidades desde que os primeiros modelos começaram a ser comercializados em 2011.\nNo Brasil, a expansão das vendas também se verifica. A marca A, por exemplo, expandiu suas vendas no ano de 2016, superando em 360 unidades as vendas de 2015, conforme representado no gráfico.\nA média anual do número de carros vendidos pela marca A, nos anos representados no gráfico, foi de",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 20: Gráfico ilustrativo com carrinhos representando as vendas nos anos 2014, 2015 e 2016."
+      ],
+      "alternativas": {
+        "a": "192.",
+        "b": "240.",
+        "c": "252.",
+        "d": "320.",
+        "e": "420."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Estatística: medidas de tendência central (média, moda e mediana)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 20
+    },
+    {
+      "numero": 148,
+      "tipo": "objetiva",
+      "enunciado": "Para apagar os focos A e B de um incêndio, que estavam a uma distância de 30 m um do outro, os bombeiros de um quartel decidiram se posicionar de modo que a distância de um bombeiro ao foco A, de temperatura mais elevada, fosse sempre o dobro da distância desse bombeiro ao foco B, de temperatura menos elevada.\nNestas condições, a maior distância, em metro, que dois bombeiros poderiam ter entre eles é",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "30.",
+        "b": "40.",
+        "c": "45.",
+        "d": "60.",
+        "e": "68."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Geometria Analítica Básica: coordenadas, plano cartesiano, distância e ponto médio"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 20
+    },
+    {
+      "numero": 149,
+      "tipo": "objetiva",
+      "enunciado": "Torneios de tênis, em geral, são disputados em sistema de eliminatória simples. Nesse sistema, são disputadas partidas entre dois competidores, com a eliminação do perdedor e promoção do vencedor para a fase seguinte. Dessa forma, se na 1ª fase o torneio conta com n competidores, então na 2ª fase restarão n/2 competidores, e assim sucessivamente até a partida final.\nEm um torneio de tênis, disputado nesse sistema, participam 128 tenistas.\nPara se definir o campeão desse torneio, o número de partidas necessárias é dado por",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "2 × 128",
+        "b": "64 + 32 + 16 + 8 + 4 + 2",
+        "c": "128 + 64 + 32 + 16 + 8 + 4 + 2 + 1",
+        "d": "128 + 64 + 32 + 16 + 8 + 4 + 2",
+        "e": "64 + 32 + 16 + 8 + 4 + 2 + 1"
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Progressão Geométrica (PG) - termo geral e soma dos termos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 20
+    },
+    {
+      "numero": 150,
+      "tipo": "objetiva",
+      "enunciado": "O artigo 33 da lei brasileira sobre drogas prevê a pena de reclusão de 5 a 15 anos para qualquer pessoa que seja condenada por tráfico ilícito ou produção não autorizada de drogas. Entretanto, caso o condenado seja réu primário, com bons antecedentes criminais, essa pena pode sofrer uma redução de um sexto a dois terços.\nSuponha que um réu primário, com bons antecedentes criminais, foi condenado pelo artigo 33 da lei brasileira sobre drogas.\nApós o benefício da redução de pena, sua pena poderá variar de",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "1 ano e 8 meses a 12 anos e 6 meses.",
+        "b": "1 ano e 8 meses a 5 anos.",
+        "c": "3 anos e 4 meses a 10 anos.",
+        "d": "4 anos e 2 meses a 5 anos.",
+        "e": "4 anos e 2 meses a 12 anos e 6 meses."
+      },
+      "gabarito": null,
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Operações fundamentais com números inteiros e decimais",
+            "Operações com frações e simplificação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": true,
+      "pagina": 20
+    },
+    {
+      "numero": 151,
+      "tipo": "objetiva",
+      "enunciado": "De acordo com a Lei Universal da Gravitação, proposta por Isaac Newton, a intensidade da força gravitacional F que a Terra exerce sobre um satélite em órbita circular é proporcional à massa m do satélite e inversamente proporcional ao quadrado do raio r da órbita, ou seja, F = (km)/r²\nNo plano cartesiano, três satélites, A, B e C, estão representados, cada um, por um ponto (m ; r) cujas coordenadas são, respectivamente, a massa do satélite e o raio da sua órbita em torno da Terra.\nCom base nas posições relativas dos pontos no gráfico, deseja-se comparar as intensidades FA, FB e FC da força gravitacional que a Terra exerce sobre os satélites A, B e C, respectivamente.\nAs intensidades FA, FB e FC expressas no gráfico satisfazem a relação",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 21: Gráfico no plano cartesiano eixo y (Raio r) versus eixo x (Massa m) com os pontos A, B e C."
+      ],
+      "alternativas": {
+        "a": "FC < FA < FB",
+        "b": "FA = FB < FC",
+        "c": "FA < FB < FC",
+        "d": "FA < FC < FB",
+        "e": "FC < FA < FB"
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Conceito de função e relações entre grandezas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 21
+    },
+    {
+      "numero": 152,
+      "tipo": "objetiva",
+      "enunciado": "Os tipos de prata normalmente vendidos são 975, 950 e 925. Essa classificação é feita de acordo com a sua pureza. Por exemplo, a prata 975 é a substância constituída de 975 partes de prata pura e 25 partes de cobre em 1 000 partes da substância. Já a prata 950 é constituída de 950 partes de prata pura e 50 de cobre em 1 000; e a prata 925 é constituída de 925 partes de prata pura e 75 partes de cobre em 1 000. Um ourives possui 10 gramas de prata 925 e deseja obter 40 gramas de prata 950 para a produção de uma joia.\n\nNessas condições, quantos gramas de prata e de cobre, respectivamente, devem ser fundidos com os 10 gramas de prata 925?",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "29,25 e 0,75",
+        "b": "28,75 e 1,25",
+        "c": "28,50 e 1,50",
+        "d": "27,75 e 2,25",
+        "e": "25,00 e 5,00"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Razões e proporções diretas e inversas",
+            "Operações fundamentais com números inteiros e decimais"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 21
+    },
+    {
+      "numero": 153,
+      "tipo": "objetiva",
+      "enunciado": "Em um aeroporto, os passageiros devem submeter suas bagagens a uma das cinco máquinas de raio-X disponíveis ao adentrarem a sala de embarque. Num dado instante, o tempo gasto por essas máquinas para escanear a bagagem de cada passageiro e o número de pessoas presentes em cada fila estão apresentados em um painel, como mostrado na figura.\nUm passageiro, ao chegar à sala de embarque desse aeroporto no instante indicado, visando esperar o menor tempo possível, deverá se dirigir à máquina",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 21: Painel indicando tempos e números de pessoas para cinco máquinas de raio-X (Máquina 1: 35s, 5 pessoas; Máquina 2: 25s, 6 pessoas; Máquina 3: 22s, 7 pessoas; Máquina 4: 40s, 4 pessoas; Máquina 5: 20s, 8 pessoas)."
+      ],
+      "alternativas": {
+        "a": "1.",
+        "b": "2.",
+        "c": "3.",
+        "d": "4.",
+        "e": "5."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Operações fundamentais com números inteiros e decimais"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 21
+    },
+    {
+      "numero": 154,
+      "tipo": "objetiva",
+      "enunciado": "A Comissão Interna de Prevenção de Acidentes (CIPA) de uma empresa, observando os altos custos com os frequentes acidentes de trabalho ocorridos, fez, a pedido da diretoria, uma pesquisa do número de acidentes sofridos por funcionários. Essa pesquisa, realizada com uma amostra de 100 funcionários, norteará as ações da empresa na política de segurança no trabalho.\nOs resultados obtidos estão no quadro.\nA média do número de acidentes por funcionário na amostra que a CIPA apresentará à diretoria da empresa é",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 21: Tabela contendo o número de acidentes sofridos (0 a 5) e o respectivo número de trabalhadores (50, 17, 15, 10, 6, 2)."
+      ],
+      "alternativas": {
+        "a": "0,15.",
+        "b": "0,30.",
+        "c": "0,50.",
+        "d": "1,11.",
+        "e": "2,22."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Estatística: medidas de tendência central (média, moda e mediana)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 21
+    },
+    {
+      "numero": 155,
+      "tipo": "objetiva",
+      "enunciado": "A rosa dos ventos é uma figura que representa oito sentidos, que dividem o círculo em partes iguais.\nUma câmera de vigilância está fixada no teto de um shopping e sua lente pode ser direcionada remotamente, através de um controlador, para qualquer sentido. A lente da câmera está apontada inicialmente no sentido Oeste e o seu controlador efetua três mudanças consecutivas, a saber:\n• 1ª mudança: 135° no sentido anti-horário;\n• 2ª mudança: 60° no sentido horário;\n• 3ª mudança: 45° no sentido anti-horário.\nApós a 3ª mudança, ele é orientado a reposicionar a câmera, com a menor amplitude possível, no sentido Noroeste (NO) devido a um movimento suspeito de um cliente.\nQual mudança de sentido o controlador deve efetuar para reposicionar a câmera?",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 22: Ilustração de uma rosa dos ventos com os pontos cardeais e colaterais."
+      ],
+      "alternativas": {
+        "a": "75° no sentido horário.",
+        "b": "105° no sentido anti-horário.",
+        "c": "120° no sentido anti-horário.",
+        "d": "135° no sentido anti-horário.",
+        "e": "165° no sentido horário."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Arcos e ângulos: medidas (graus e radianos) e relações entre arcos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 22
+    },
+    {
+      "numero": 156,
+      "tipo": "objetiva",
+      "enunciado": "Na teoria das eleições, o Método de Borda sugere que, em vez de escolher um candidato, cada juiz deve criar um ranking de sua preferência para os concorrentes (isto é, criar uma lista com a ordem de classificação dos concorrentes). A este ranking é associada uma pontuação: um ponto para o último colocado no ranking, dois pontos para o penúltimo, três para o antepenúltimo, e assim sucessivamente. Ao final, soma-se a pontuação atribuída a cada concorrente por cada um dos juízes.\nEm uma escola houve um concurso de poesia no qual cinco alunos concorreram a um prêmio, sendo julgados por 25 juízes. Para a escolha da poesia vencedora foi utilizado o Método de Borda. Nos quadros, estão apresentados os rankings dos juízes e a frequência de cada ranking.\nA poesia vencedora foi a de",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 22: Tabelas com os rankings de poesia (I, II, III, IV) e suas respectivas frequências."
+      ],
+      "alternativas": {
+        "a": "Edu.",
+        "b": "Dani.",
+        "c": "Caio.",
+        "d": "Bia.",
+        "e": "Ana."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Operações fundamentais com números inteiros e decimais"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 22
+    },
+    {
+      "numero": 157,
+      "tipo": "objetiva",
+      "enunciado": "Sobre um sistema cartesiano considera-se uma malha formada por circunferências de raios com medidas dadas por números naturais e por 12 semirretas com extremidades na origem, separadas por ângulos de π/6 rad, conforme a figura.\nSuponha que os objetos se desloquem apenas pelas semirretas e pelas circunferências dessa malha, não podendo passar pela origem (0 ; 0).\nConsidere o valor de π com aproximação de, pelo menos, uma casa decimal.\nPara realizar o percurso mais curto possível ao longo da malha, do ponto B até o ponto A, um objeto deve percorrer uma distância igual a",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 23: Gráfico com sistema de coordenadas polares/cartesianas exibindo circunferências concêntricas, semirretas e os pontos A e B."
+      ],
+      "alternativas": {
+        "a": "(2·π·1)/3 + 8",
+        "b": "(2·π·2)/3 + 6",
+        "c": "(2·π·3)/3 + 4",
+        "d": "(2·π·4)/3 + 2",
+        "e": "(2·π·5)/3 + 2"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Arcos e ângulos: medidas (graus e radianos) e relações entre arcos",
+            "Cálculo de áreas (polígonos, círculos, coroas e setores circulares)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 23
+    },
+    {
+      "numero": 158,
+      "tipo": "objetiva",
+      "enunciado": "Um artesão possui potes cilíndricos de tinta cujas medidas externas são 4 cm de diâmetro e 6 cm de altura. Ele pretende adquirir caixas organizadoras para armazenar seus potes de tinta, empilhados verticalmente com tampas voltadas para cima, de forma que as caixas possam ser fechadas.\nNo mercado, existem cinco opções de caixas organizadoras, com tampa, em formato de paralelepípedo reto retângulo, vendidas pelo mesmo preço, possuindo as seguintes dimensões internas:\nQual desses modelos o artesão deve adquirir para conseguir armazenar o maior número de potes por caixa?",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 23: Tabela com modelos de caixas (I, II, III, IV, V) e suas dimensões de comprimento, largura e altura."
+      ],
+      "alternativas": {
+        "a": "I",
+        "b": "II",
+        "c": "III",
+        "d": "IV",
+        "e": "V"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Geometria Espacial: vistas ortogonais e planificação",
+            "Poliedros, corpos redondos, prismas, pirâmides e troncos (área e volume)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 23
+    },
+    {
+      "numero": 159,
+      "tipo": "objetiva",
+      "enunciado": "A prefeitura de um pequeno município do interior decide colocar postes para iluminação ao longo de uma estrada retilínea, que inicia em uma praça central e termina numa fazenda na zona rural. Como a praça já possui iluminação, o primeiro poste será colocado a 80 metros da praça, o segundo, a 100 metros, o terceiro, a 120 metros, e assim sucessivamente, mantendo-se sempre uma distância de vinte metros entre os postes, até que o último poste seja colocado a uma distância de 1 380 metros da praça.\nSe a prefeitura pode pagar, no máximo, R$ 8 000,00 por poste colocado, o maior valor que poderá gastar com a colocação desses postes é",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "R$ 512 000,00.",
+        "b": "R$ 520 000,00.",
+        "c": "R$ 528 000,00.",
+        "d": "R$ 552 000,00.",
+        "e": "R$ 584 000,00."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Progressão Aritmética (PA) - termo geral e soma dos termos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 23
+    },
+    {
+      "numero": 160,
+      "tipo": "objetiva",
+      "enunciado": "Um edifício tem a numeração dos andares iniciando no térreo (T), e continuando com primeiro, segundo, terceiro, ..., até o último andar. Uma criança entrou no elevador e, tocando no painel, seguiu uma sequência de andares, parando, abrindo e fechando a porta em diversos andares. A partir de onde entrou a criança, o elevador subiu sete andares, em seguida desceu dez, desceu mais treze, subiu nove, desceu quatro e parou no quinto andar, finalizando a sequência. Considera-se que, no trajeto seguido pela criança, o elevador parou uma vez no último andar do edifício.\nDe acordo com as informações dadas, o último andar do edifício é o",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "16º",
+        "b": "22º",
+        "c": "23º",
+        "d": "25º",
+        "e": "32º"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Conjuntos numéricos (Naturais, Inteiros, Racionais e Reais)",
+            "Ordem na reta numérica e resolução de problemas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 24
+    },
+    {
+      "numero": 161,
+      "tipo": "objetiva",
+      "enunciado": "O Salão do Automóvel de São Paulo é um evento no qual vários fabricantes expõem seus modelos mais recentes de veículos, mostrando, principalmente, suas inovações em design e tecnologia.\nUma montadora pretende participar desse evento com dois estandes, um na entrada e outro na região central do salão, expondo em cada um deles, um carro compacto e uma caminhonete.\nPara compor os estandes, foram disponibilizados pela montadora quatro carros compactos, de modelos distintos, e seis caminhonetes de diferentes cores para serem escolhidos aqueles que serão expostos. A posição dos carros dentro de cada estande é irrelevante.\nUma expressão que fornece a quantidade de maneiras diferentes que os estandes podem ser compostos é",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "A(10, 4)",
+        "b": "C(10, 4)",
+        "c": "C(4, 2) · C(6, 2) · 2 · 2",
+        "d": "A(4, 2) · A(6, 2) · 2 · 2",
+        "e": "C(4, 2) · C(6, 2) · 2"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Princípios multiplicativo e aditivo da contagem",
+            "Arranjos, permutações e combinações simples"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 24
+    },
+    {
+      "numero": 162,
+      "tipo": "objetiva",
+      "enunciado": "Os alunos da disciplina de estatística, em um curso universitário, realizam quatro avaliações por semestre com os pesos de 20%, 10%, 30% e 40%, respectivamente. No final do semestre, precisam obter uma média nas quatro avaliações de, no mínimo, 60 pontos para serem aprovados. Um estudante dessa disciplina obteve os seguintes pontos nas três primeiras avaliações: 46, 60 e 50, respectivamente.\nO mínimo de pontos que esse estudante precisa obter na quarta avaliação para ser aprovado é",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "29,8.",
+        "b": "71,0.",
+        "c": "74,5.",
+        "d": "75,5.",
+        "e": "84,0."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Estatística: medidas de tendência central (média, moda e mediana)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 24
+    },
+    {
+      "numero": 163,
+      "tipo": "objetiva",
+      "enunciado": "O gerente do setor de recursos humanos de uma empresa está organizando uma avaliação em que uma das etapas é um jogo de perguntas e respostas. Para essa etapa, ele classificou as perguntas, pelo nível de dificuldade, em fácil, médio e difícil, e escreveu cada pergunta em cartões para colocação em uma urna.\nContudo, após depositar vinte perguntas de diferentes níveis na urna, ele observou que 4 delas eram de nível fácil. Querendo que as perguntas de nível fácil sejam a maioria, o gerente decidiu acrescentar mais perguntas de nível fácil à urna, de modo que a probabilidade de o primeiro participante retirar, aleatoriamente, uma pergunta de nível fácil seja de $\\frac{3}{4}$.\nCom essas informações, a quantidade de perguntas de nível fácil que o gerente deve acrescentar à urna é igual a",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "10.",
+        "b": "15.",
+        "c": "35.",
+        "d": "40.",
+        "e": "45."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Espaço amostral (discreto e contínuo) e conceito de probabilidade",
+            "Razões e proporções diretas e inversas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 24
+    },
+    {
+      "numero": 164,
+      "tipo": "objetiva",
+      "enunciado": "A Transferência Eletrônica Disponível (TED) é uma transação financeira de valores entre diferentes bancos. Um economista decide analisar os valores enviados por meio de TEDs entre cinco bancos (1, 2, 3, 4 e 5) durante um mês. Para isso, ele dispõe esses valores em uma matriz $A = [a_{ij}]$, em que $1 \\le i \\le 5$ e $1 \\le j \\le 5$, e o elemento $a_{ij}$ corresponde ao total proveniente das operações feitas via TED, em milhão de real, transferidos do banco $i$ para o banco $j$ durante o mês. Observe que os elementos $a_{ii} = 0$, uma vez que TED é uma transferência entre bancos distintos. Esta é a matriz obtida para essa análise:\n$$A = \\begin{pmatrix} 0 & 2 & 0 & 2 & 2 \\\\ 0 & 0 & 2 & 1 & 0 \\\\ 1 & 2 & 0 & 1 & 1 \\\\ 0 & 2 & 2 & 0 & 0 \\\\ 3 & 0 & 1 & 1 & 0 \\end{pmatrix}$$\nCom base nessas informações, o banco que transferiu a maior quantia via TED é o banco",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "1.",
+        "b": "2.",
+        "c": "3.",
+        "d": "4.",
+        "e": "5."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Operações fundamentais com números inteiros e decimais"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 25
+    },
+    {
+      "numero": 165,
+      "tipo": "objetiva",
+      "enunciado": "Um contrato de empréstimo prevê que quando uma parcela é paga de forma antecipada, conceder-se-á uma redução de juros de acordo com o período de antecipação. Nesse caso, paga-se o valor presente, que é o valor, naquele momento, de uma quantia que deveria ser paga em uma data futura. Um valor presente $P$ submetido a juros compostos com taxa $i$, por um período de tempo $n$, produz um valor futuro $V$ determinado pela fórmula\n$$V = P \\cdot (1 + i)^n$$\nEm um contrato de empréstimo com sessenta parcelas fixas mensais, de R$ 820,00, a uma taxa de juros de 1,32% ao mês, junto com a trigésima parcela será paga antecipadamente uma outra parcela, desde que o desconto seja superior a 25% do valor da parcela.\nUtilize 0,2877 como aproximação para $\\ln\\left(\\frac{4}{3}\\right)$ e 0,0131 como aproximação para $\\ln(1,0132)$.\nA primeira das parcelas que poderá ser antecipada junto com a 30ª é a",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "56ª",
+        "b": "55ª",
+        "c": "52ª",
+        "d": "51ª",
+        "e": "45ª"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Matemática Financeira: porcentagem, juros simples, juros compostos, taxas e índices",
+            "Teoria dos logaritmos, propriedades e função logarítmica"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 25
+    },
+    {
+      "numero": 166,
+      "tipo": "objetiva",
+      "enunciado": "Um jogo pedagógico utiliza-se de uma interface algébrico-geométrica do seguinte modo: os alunos devem eliminar os pontos do plano cartesiano dando “tiros”, seguindo trajetórias que devem passar pelos pontos escolhidos. Para dar os tiros, o aluno deve escrever em uma janela do programa a equação cartesiana de uma reta ou de uma circunferência que passa pelos pontos e pela origem do sistema de coordenadas. Se o tiro for dado por meio da equação da circunferência, cada ponto diferente da origem que for atingido vale 2 pontos. Se o tiro for dado por meio da equação de uma reta, cada ponto diferente da origem que for atingido vale 1 ponto. Em uma situação de jogo, ainda restam os seguintes pontos para serem eliminados: A(0 ; 4), B(4 ; 4), C(4 ; 0), D(2 ; 2) e E(0 ; 2).\nPassando pelo ponto A, qual equação forneceria a maior pontuação?",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 25: Plano cartesiano indicando a posição dos pontos A, B, C, D e E."
+      ],
+      "alternativas": {
+        "a": "x = 0",
+        "b": "y = 0",
+        "c": "x² + y² = 16",
+        "d": "x² + (y - 2)² = 4",
+        "e": "(x - 2)² + (y - 2)² = 8"
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Geometria Analítica Básica: coordenadas, plano cartesiano, distância e ponto médio",
+            "Equação da reta: forma reduzida, coeficientes angular/linear e intersecção"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 25
+    },
+    {
+      "numero": 167,
+      "tipo": "objetiva",
+      "enunciado": "Devido ao não cumprimento das metas definidas para a campanha de vacinação contra a gripe comum e o vírus H1N1 em um ano, o Ministério da Saúde anunciou a prorrogação da campanha por mais uma semana. A tabela apresenta as quantidades de pessoas vacinadas dentre os cinco grupos de risco até a data de início da prorrogação da campanha.\n\nBalanço parcial nacional da vacinação contra a gripe\nGrupo de risco | População (milhão) | População já vacinada (milhão) | (%)\nCrianças | 4,5 | 0,9 | 20\nProfissionais de saúde | 2,0 | 1,0 | 50\nGestantes | 2,5 | 1,5 | 60\nIndígenas | 0,5 | 0,4 | 80\nIdosos | 20,5 | 8,2 | 40\n\nQual é a porcentagem do total de pessoas desses grupos de risco já vacinadas?",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "12",
+        "b": "18",
+        "c": "30",
+        "d": "40",
+        "e": "50"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Razões e proporções diretas e inversas",
+            "Matemática Financeira: porcentagem, juros simples, juros compostos, taxas e índices"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 26
+    },
+    {
+      "numero": 168,
+      "tipo": "objetiva",
+      "enunciado": "Durante uma festa de colégio, um grupo de alunos organizou uma rifa. Oitenta alunos faltaram à festa e não participaram da rifa. Entre os que compareceram, alguns compraram três bilhetes, 45 compraram 2 bilhetes, e muitos compraram apenas um. O total de alunos que comprou um único bilhete era 20% do número total de bilhetes vendidos, e o total de bilhetes vendidos excedeu em 33 o número total de alunos do colégio.\n\nQuantos alunos compraram somente um bilhete?",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "34",
+        "b": "42",
+        "c": "47",
+        "d": "48",
+        "e": "79"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Sistemas lineares: métodos de resolução algébrica",
+            "Operações fundamentais com números inteiros e decimais"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 26
+    },
+    {
+      "numero": 169,
+      "tipo": "objetiva",
+      "enunciado": "Um quebra-cabeça consiste em recobrir um quadrado com triângulos retângulos isósceles, como ilustra a figura.\n\nUma artesã confecciona um quebra-cabeça como o descrito, de tal modo que a menor das peças é um triângulo retângulo isósceles cujos catetos medem 2 cm. O quebra-cabeça, quando montado, resultará em um quadrado cuja medida do lado, em centímetro, é",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 26: Figura mostrando um quadrado dividido em triângulos retângulos isósceles de diferentes tamanhos."
+      ],
+      "alternativas": {
+        "a": "14",
+        "b": "12",
+        "c": "7√2",
+        "d": "6 + 4√2",
+        "e": "6 + 2√2"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Geometria Plana: ponto, reta, plano, segmentos e ângulos",
+            "Relações métricas no triângulo retângulo, polígonos regulares e círculos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 26
+    },
+    {
+      "numero": 170,
+      "tipo": "objetiva",
+      "enunciado": "Para decorar um cilindro circular reto será usada uma faixa retangular de papel transparente, na qual está desenhada em negrito uma diagonal que forma 30° com a borda inferior. O raio da base do cilindro mede 6/π cm, e ao enrolar a faixa obtém-se uma linha em formato de hélice, como na figura.\n\nO valor da medida da altura do cilindro, em centímetro, é",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 26: Desenho esquemático de um cilindro e uma faixa retangular enrolada formando uma hélice com inclinação de 30°."
+      ],
+      "alternativas": {
+        "a": "36√3",
+        "b": "24√3",
+        "c": "4√3",
+        "d": "36",
+        "e": "72"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Geometria Espacial: vistas ortogonais e planificação",
+            "Cilindro, cone e esfera (área, volume e capacidade)",
+            "Trigonometria no triângulo retângulo (seno, cosseno e tangente)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 26
+    },
+    {
+      "numero": 171,
+      "tipo": "objetiva",
+      "enunciado": "Com o avanço em ciência da computação, estamos próximos do momento em que o número de transistores no processador de um computador pessoal será da mesma ordem de grandeza que o número de neurônios em um cérebro humano, que é da ordem de 100 bilhões.\nUma das grandezas determinantes para o desempenho de um processador é a densidade de transistores, que é o número de transistores por centímetro quadrado. Em 1986, uma empresa fabricava um processador contendo 100 000 transistores distribuídos em $0,25\\text{ cm}^2$ de área. Desde então, o número de transistores por centímetro quadrado que se pode colocar em um processador dobra a cada dois anos (Lei de Moore).\nConsidere $0,30$ como aproximação para $\\log_{10}2$.\nEm que ano a empresa atingiu ou atingirá a densidade de 100 bilhões de transistores?",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "1999",
+        "b": "2002",
+        "c": "2022",
+        "d": "2026",
+        "e": "2146"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Teoria dos logaritmos, propriedades e função logarítmica",
+            "Função exponencial e propriedades"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 27
+    },
+    {
+      "numero": 172,
+      "tipo": "objetiva",
+      "enunciado": "Uma loja vende automóveis em $N$ parcelas iguais sem juros. No momento de contratar o financiamento, caso o cliente queira aumentar o prazo, acrescentando mais 5 parcelas, o valor de cada uma das parcelas diminui R$ 200,00, ou se ele quiser diminuir o prazo, com 4 parcelas a menos, o valor de cada uma das parcelas sobe R$ 232,00. Considere ainda que, nas três possibilidades de pagamento, o valor do automóvel é o mesmo, todas são sem juros e não é dado desconto em nenhuma das situações.\nNessas condições, qual é a quantidade $N$ de parcelas a serem pagas de acordo com a proposta inicial da loja?",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "20",
+        "b": "24",
+        "c": "29",
+        "d": "40",
+        "e": "58"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Equações e inequações lineares, quadráticas, exponenciais, logarítmicas e modulares",
+            "Razões e proporções diretas e inversas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 27
+    },
+    {
+      "numero": 173,
+      "tipo": "objetiva",
+      "enunciado": "O salto ornamental é um esporte em que cada competidor realiza seis saltos. A nota em cada salto é calculada pela soma das notas dos juízes, multiplicada pela nota de partida (o grau de dificuldade de cada salto). Fica em primeiro lugar o atleta que obtiver a maior soma das seis notas recebidas.\n\nO atleta 10 irá realizar o último salto da final. Ele observa no Quadro 1, antes de executar o salto, o recorte do quadro parcial de notas com a sua classificação e a dos três primeiros lugares até aquele momento.\n\nQuadro 1\nClassificação | Atleta | 6º Salto | Total\n1º | 3 | 135,0 | 829,0\n2º | 4 | 140,0 | 825,2\n3º | 8 | 140,4 | 824,2\n6º | 10 | | 687,5\n\nEle precisa decidir com seu treinador qual salto deverá realizar. Os dados dos possíveis tipos de salto estão no Quadro 2.\n\nQuadro 2\nTipo de salto | Nota de partida | Estimativa da soma das notas dos juízes | Probabilidade de obter a nota\nT1 | 2,2 | 57 | 89,76%\nT2 | 2,4 | 58 | 93,74%\nT3 | 2,6 | 55 | 91,88%\nT4 | 2,8 | 50 | 95,38%\nT5 | 3,0 | 53 | 87,34%\n\nO atleta optará pelo salto com a maior probabilidade de obter a nota estimada, de maneira que lhe permita alcançar o primeiro lugar.\n\nConsiderando essas condições, o salto que o atleta deverá escolher é o de tipo",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 27: Quadros 1 e 2 contendo dados de classificação de atletas e pontuações de saltos ornamentais."
+      ],
+      "alternativas": {
+        "a": "T1.",
+        "b": "T2.",
+        "c": "T3.",
+        "d": "T4.",
+        "e": "T5."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Operações fundamentais com números inteiros e decimais",
+            "Espaço amostral (discreto e contínuo) e conceito de probabilidade"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 27
+    },
+    {
+      "numero": 174,
+      "tipo": "objetiva",
+      "enunciado": "Os guindastes são fundamentais em canteiros de obras, no manejo de materiais pesados como vigas de aço. A figura ilustra uma sequência de estágios em que um guindaste içar uma viga de aço que se encontra inicialmente no solo.\nNa figura, o ponto $O$ representa a projeção ortogonal do cabo de aço sobre o plano do chão e este se mantém na vertical durante todo o movimento de içamento da viga, que se inicia no tempo $t = 0$ (estágio 1) e finaliza no tempo $t_f$ (estágio 3). Uma das extremidades da viga é içada verticalmente a partir do ponto $O$, enquanto que a outra extremidade desliza sobre o solo em direção ao ponto $O$. Considere que o cabo de aço utilizado pelo guindaste para içar a viga fique sempre na posição vertical. Na figura, o ponto $M$ representa o ponto médio do segmento que representa a viga.\nO gráfico que descreve a distância do ponto $M$ ao ponto $O$, em função do tempo, entre $t = 0$ e $t_f$, é",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 28: Ilustração de três estágios de um guindaste içando uma viga, com o cabo de aço, pontos M e O."
+      ],
+      "alternativas": {
+        "a": "Gráfico horizontal constante até $t_f$.",
+        "b": "Gráfico decrescente linear até $t_f$.",
+        "c": "Gráfico decrescente curvado.",
+        "d": "Gráfico parabólico com concavidade para baixo.",
+        "e": "Gráfico decrescente seguido de crescimento."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Conceito de função e relações entre grandezas",
+            "Gráficos de funções por uma ou várias sentenças"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 28
+    },
+    {
+      "numero": 175,
+      "tipo": "objetiva",
+      "enunciado": "A inclinação de uma rampa é calculada da seguinte maneira: para cada metro medido na horizontal, mede-se $x$ centímetros na vertical. Diz-se, nesse caso, que a rampa tem inclinação de $x\\%$, como no exemplo da figura:\nA figura apresenta um projeto de uma rampa de acesso a uma garagem residencial cuja base, situada 2 metros abaixo do nível da rua, tem 8 metros de comprimento.\nDepois de projetada a rampa, o responsável pela obra foi informado de que as normas técnicas do município onde ela está localizada exigem que a inclinação máxima de uma rampa de acesso a uma garagem residencial seja de $20\\%$.\nSe a rampa projetada tiver inclinação superior a $20\\%$, o nível da garagem deverá ser alterado para diminuir o percentual de inclinação, mantendo o comprimento da base da rampa.\nPara atender às normas técnicas do município, o nível da garagem deverá ser",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 29: Esquema de uma rampa com indicação de 20% de inclinação e desenho do projeto da rampa da garagem com desnível de 2 m e base de 8 m."
+      ],
+      "alternativas": {
+        "a": "elevado em 40 cm.",
+        "b": "elevado em 50 cm.",
+        "c": "mantido no mesmo nível.",
+        "d": "rebaixado em 40 cm.",
+        "e": "rebaixado em 50 cm."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Razões e proporções diretas e inversas",
+            "Trigonometria no triângulo retângulo (seno, cosseno e tangente)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 29
+    },
+    {
+      "numero": 176,
+      "tipo": "objetiva",
+      "enunciado": "Para ganhar um prêmio, uma pessoa deverá retirar, sucessivamente e sem reposição, duas bolas pretas de uma mesma urna.\nInicialmente, as quantidades e cores das bolas são como descritas a seguir:\n• Urna A – Possui três bolas brancas, duas bolas pretas e uma bola verde;\n• Urna B – Possui seis bolas brancas, três bolas pretas e uma bola verde;\n• Urna C – Possui duas bolas pretas e duas bolas verdes;\n• Urna D – Possui três bolas brancas e três bolas pretas.\n\nA pessoa deve escolher uma entre as cinco opções apresentadas:\n• Opção 1 – Retirar, aleatoriamente, duas bolas da urna A;\n• Opção 2 – Retirar, aleatoriamente, duas bolas da urna B;\n• Opção 3 – Passar, aleatoriamente, uma bola da urna C para a urna A; após isso, retirar, aleatoriamente, duas bolas da urna A;\n• Opção 4 – Passar, aleatoriamente, uma bola da urna D para a urna C; após isso, retirar, aleatoriamente, duas bolas da urna C;\n• Opção 5 – Passar, aleatoriamente, uma bola da urna C para a urna D; após isso, retirar, aleatoriamente, duas bolas da urna D.\n\nCom o objetivo de obter a maior probabilidade possível de ganhar o prêmio, a pessoa deve escolher a opção",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "1.",
+        "b": "2.",
+        "c": "3.",
+        "d": "4.",
+        "e": "5."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Espaço amostral (discreto e contínuo) e conceito de probabilidade",
+            "Probabilidade condicional e eventos independentes"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 30
+    },
+    {
+      "numero": 177,
+      "tipo": "objetiva",
+      "enunciado": "A Ecofont possui design baseado na velha fonte Vera Sans. Porém, ela tem um diferencial: pequenos buraquinhos circulares congruentes, e em todo o seu corpo, presentes em cada símbolo. Esses furos proporcionam um gasto de tinta menor na hora da impressão.\nSuponha que a palavra ECO esteja escrita nessa fonte, com tamanho 192, e que seja composta por letras formadas por quadrados de lados $x$ com furos circulares de raio $r = \\frac{x}{3}$. Para que a área a ser pintada seja reduzida a $\\frac{1}{16}$ da área inicial, pretende-se reduzir o tamanho da fonte. Sabe-se que, ao alterar o tamanho da fonte, o tamanho da letra é alterado na mesma proporção.\nNessas condições, o tamanho adequado da fonte será",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 30: Imagem ilustrativa da palavra ECO na Ecofont e detalhe esquemático dos furos circulares nos quadrados de lado x."
+      ],
+      "alternativas": {
+        "a": "64.",
+        "b": "48.",
+        "c": "24.",
+        "d": "21.",
+        "e": "12."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Cálculo de áreas (polígonos, círculos, coroas e setores circulares)",
+            "Razões e proporções diretas e inversas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 30
+    },
+    {
+      "numero": 178,
+      "tipo": "objetiva",
+      "enunciado": "Para criar um logotipo, um profissional da área de design gráfico deseja construí-lo utilizando o conjunto de pontos do plano na forma de um triângulo, exatamente como mostra a imagem.\n\nPara construir tal imagem utilizando uma ferramenta gráfica, será necessário escrever algebricamente o conjunto que representa os pontos desse gráfico.\n\nEsse conjunto é dado pelos pares ordenados (x; y) ∈ ℕ × ℕ, tais que",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 30: Gráfico cartesiano mostrando uma região triangular pontilhada no primeiro quadrante."
+      ],
+      "alternativas": {
+        "a": "0 ≤ x ≤ y ≤ 10",
+        "b": "0 ≤ y ≤ x ≤ 10",
+        "c": "0 ≤ x ≤ 10, 0 ≤ y ≤ 10",
+        "d": "0 ≤ x + y ≤ 10",
+        "e": "0 ≤ x + y ≤ 20"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Geometria Analítica Básica: coordenadas, plano cartesiano, distância e ponto médio",
+            "Equações e inequações lineares, quadráticas, exponenciais, logarítmicas e modulares"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 30
+    },
+    {
+      "numero": 179,
+      "tipo": "objetiva",
+      "enunciado": "A figura mostra uma praça circular que contém um chafariz em seu centro e, em seu entorno, um passeio. Os círculos que definem a praça e o chafariz são concêntricos.\nO passeio terá seu piso revestido com ladrilhos. Sem condições de calcular os raios, pois o chafariz está cheio, um engenheiro fez a seguinte medição: esticou uma trena tangente ao chafariz, medindo a distância entre dois pontos $A$ e $B$, conforme a figura. Com isso, obteve a medida do segmento de reta $AB$: $16\\text{ m}$.\nDispondo apenas dessa medida, o engenheiro calculou corretamente a medida da área do passeio, em metro quadrado.\nA medida encontrada pelo engenheiro foi",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 31: Figura de uma praça circular com chafariz concêntrico e o segmento AB tangente ao chafariz medindo 16 m."
+      ],
+      "alternativas": {
+        "a": "$4\\pi$",
+        "b": "$8\\pi$",
+        "c": "$48\\pi$",
+        "d": "$64\\pi$",
+        "e": "$192\\pi$"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Cálculo de áreas (polígonos, círculos, coroas e setores circulares)",
+            "Relações métricas no triângulo retângulo, polígonos regulares e círculos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 31
+    },
+    {
+      "numero": 180,
+      "tipo": "objetiva",
+      "enunciado": "Um designer de jogos planeja um jogo que faz uso de um tabuleiro de dimensão $n \\times n$, com $n \\ge 2$, no qual cada jogador, na sua vez, coloca uma peça sobre uma das casas vazias do tabuleiro. Quando uma peça é posicionada, a região formada pelas casas que estão na mesma linha ou coluna dessa peça é chamada de zona de combate dessa peça. Na figura está ilustrada a zona de combate de uma peça colocada em uma das casas de um tabuleiro de dimensão $8 \\times 8$.\nO tabuleiro deve ser dimensionado de forma que a probabilidade de se posicionar a segunda peça aleatoriamente, seguindo a regra do jogo, e esta ficar sobre a zona de combate da primeira, seja inferior à $\\frac{1}{5}$.\nA dimensão mínima que o designer deve adotar para esse tabuleiro é",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 31: Tabuleiro $8 \\times 8$ com uma peça posicionada e sua respectiva zona de combate destacada em linha e coluna."
+      ],
+      "alternativas": {
+        "a": "$4 \\times 4$.",
+        "b": "$6 \\times 6$.",
+        "c": "$9 \\times 9$.",
+        "d": "$10 \\times 10$.",
+        "e": "$11 \\times 11$."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Espaço amostral (discreto e contínuo) e conceito de probabilidade",
+            "Princípios multiplicativo e aditivo da contagem"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 31
+    },
+    {
+      "numero": 181,
+      "tipo": "redacao",
+      "enunciado": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Manipulação do comportamento do usuário pelo controle de dados na internet\", apresentando proposta de intervenção, que respeite os direitos humanos. Selecione, relacione, organize e interprete informações, fatos, opiniões e argumentos em defesa de seu ponto de vista.",
+      "textos_de_apoio": [
+        "TEXTO I\nDisponível em: https://www.theguardian.com. Acesso em: 23 maio 2018 (adaptado).\n\nTEXTO II\nDisponível em: https://www.nexojornal.com.br. Acesso em: 23 maio 2018 (adaptado).\n\nTEXTO III\nDisponível em: http://www.abert.org.br. Acesso em: 23 maio 2018 (adaptado)."
+      ],
+      "midia": [],
+      "areas": [
+        {
+          "area": "Redação",
+          "assuntos": [
+            "Gênero dissertativo-argumentativo: impessoalidade (3ª pessoa) e defesa de ponto de vista claro",
+            "Macroestrutura padrão em 4 parágrafos (Introdução com tese, D1, D2 e Conclusão reflexiva)",
+            "Critério A: Atendimento integral à frase temática e leitura crítica dos textos motivadores",
+            "Eixo Temático 1: Tecnologia, privacidade e transformações nas relações humanas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": true,
+      "anulada": false,
+      "pagina": 31
+    }
+  ]
+}

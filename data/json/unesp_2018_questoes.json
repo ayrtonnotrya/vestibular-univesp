@@ -1,0 +1,2582 @@
+{
+  "exame": "unesp_2018_questoes",
+  "ano": 2018,
+  "semestre": null,
+  "fonte_questoes": "data/unesp_2018_questoes.pdf",
+  "fonte_gabarito": "data/unesp_2018_gabarito.pdf",
+  "total_questoes": 90,
+  "questoes": [
+    {
+      "numero": 1,
+      "tipo": "objetiva",
+      "enunciado": "Examine a tira Hagar, o Horrível do cartunista americano Dik Browne (1917-1989).\n\nO ensinamento ministrado por Hagar a seu filho poderia ser expresso do seguinte modo:",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 3: Tira em quadrinhos mostrando Hagar explicando algo ao filho com a legenda 'Vou ensinar-lhe algo sobre a vida!' e uma aranha na parede."
+      ],
+      "alternativas": {
+        "a": "“A fome é a companheira do homem ocioso.”",
+        "b": "“O estômago que raramente está vazio despreza alimentos vulgares.”",
+        "c": "“Nada é mais útil ao homem do que uma sábia desconfiança.”",
+        "d": "“Muitos homens querem uma coisa, mas não suas consequências.”",
+        "e": "“É impossível para um homem ser enganado por outra pessoa que não seja ele mesmo.”"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação",
+            "Tipologias textuais (narração, descrição, dissertação) e gêneros textuais variados",
+            "Intertextualidade, interdiscursividade e análise de textos verbais e não verbais (charges, cartuns)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 3
+    },
+    {
+      "numero": 2,
+      "tipo": "objetiva",
+      "enunciado": "No primeiro parágrafo, Antônio Vieira caracteriza a resposta do pirata a Alexandre Magno como",
+      "textos_de_apoio": [
+        "Navegava Alexandre [Magno] em uma poderosa armada pelo Mar Eritreu a conquistar a Índia; e como fosse trazido à sua presença um pirata, que por ali andava roubando os pescadores, repreendeu-o muito Alexandre de andar em tão mau ofício; porém ele, que não era medroso nem lerdo, respondeu assim: “Basta, Senhor, que eu, porque roubo em uma barca, sou ladrão, e vós, porque roubais em uma armada, sois imperador?”. Assim é. O roubar pouco é culpa, o roubar muito é grandeza: o roubar com pouco poder faz os piratas, o roubar com muito, os Alexandres. Mas Sêneca, que sabia bem distinguir as qualidades, e interpretar as significações, a uns e outros, definiu com o mesmo nome: [...] Se o rei de Macedônia, ou qualquer outro, fizer o que faz o ladrão e o pirata; o ladrão, o pirata e o rei, todos têm o mesmo lugar, e merecem o mesmo nome.\n\nQuando li isto em Sêneca, não me admirei tanto de que um filósofo estoico se atrevesse a escrever uma tal sentença em Roma, reinando nela Nero; o que mais me admirou, e quase envergonhou, foi que os nossos oradores evangélicos em tempo de príncipes católicos, ou para a emenda, ou para a cautela, não preguem a mesma doutrina. Saibam estes eloquentes mudos que mais ofendem os reis com o que calam que com o que disserem; porque a confiança com que isto se diz é sinal que lhes não toca, e que se não podem ofender; e a cautela com que se cala é argumento de que se ofenderão, porque lhes pode tocar. [...]\n\nSuponho, finalmente, que os ladrões de que falo não são aqueles miseráveis, a quem a pobreza e vileza de sua fortuna condenou a este gênero de vida, porque a mesma sua miséria ou escusa ou alivia o seu pecado [...]. O ladrão que furta para comer não vai nem leva ao Inferno: os que não só vão, mas levam, de que eu trato, são os ladrões de maior calibre e de mais alta esfera [...]. Não são só ladrões, diz o santo [São Basílio Magno], os que cortam bolsas, ou espreitam os que se vão banhar, para lhes colher a roupa; os ladrões que mais própria e dignamente merecem este título são aqueles a quem os reis encomendam os exércitos e legiões, ou o governo das províncias, ou a administração das cidades, os quais já com manha, já com força, roubam e despojam os povos. Os outros ladrões roubam um homem, estes roubam cidades e reinos: os outros furtam debaixo do seu risco, estes sem temor, nem perigo: os outros, se furtam, são enforcados: estes furtam e enforcam."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "dissimulada.",
+        "b": "ousada.",
+        "c": "enigmática.",
+        "d": "servil.",
+        "e": "hesitante."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação",
+            "Mecanismos de coesão textual (lexical, referencial, anafórica) e coerência",
+            "Literatura Brasileira: Quinhentismo, Barroco (Gregório de Matos), Arcadismo, Romantismo, Realismo/Naturalismo (Machado de Assis), Parnasianismo e Simbolismo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 3
+    },
+    {
+      "numero": 3,
+      "tipo": "objetiva",
+      "enunciado": "“Se o rei de Macedônia, ou qualquer outro, fizer o que faz o ladrão e o pirata; o ladrão, o pirata e o rei, todos têm o mesmo lugar, e merecem o mesmo nome.” (1º parágrafo)\n\nEm relação ao trecho que o sucede, o trecho destacado tem sentido de",
+      "textos_de_apoio": [
+        "Navegava Alexandre [Magno] em uma poderosa armada pelo Mar Eritreu a conquistar a Índia; e como fosse trazido à sua presença um pirata, que por ali andava roubando os pescadores, repreendeu-o muito Alexandre de andar em tão mau ofício; porém ele, que não era medroso nem lerdo, respondeu assim: “Basta, Senhor, que eu, porque roubo em uma barca, sou ladrão, e vós, porque roubais em uma armada, sois imperador?”. Assim é. O roubar pouco é culpa, o roubar muito é grandeza: o roubar com pouco poder faz os piratas, o roubar com muito, os Alexandres. Mas Sêneca, que sabia bem distinguir as qualidades, e interpretar as significações, a uns e outros, definiu com o mesmo nome: [...] Se o rei de Macedônia, ou qualquer outro, fizer o que faz o ladrão e o pirata; o ladrão, o pirata e o rei, todos têm o mesmo lugar, e merecem o mesmo nome.\n\nQuando li isto em Sêneca, não me admirei tanto de que um filósofo estoico se atrevesse a escrever uma tal sentença em Roma, reinando nela Nero; o que mais me admirou, e quase envergonhou, foi que os nossos oradores evangélicos em tempo de príncipes católicos, ou para a emenda, ou para a cautela, não preguem a mesma doutrina. Saibam estes eloquentes mudos que mais ofendem os reis com o que calam que com o que disserem; porque a confiança com que isto se diz é sinal que lhes não toca, e que se não podem ofender; e a cautela com que se cala é argumento de que se ofenderão, porque lhes pode tocar. [...]\n\nSuponho, finalmente, que os ladrões de que falo não são aqueles miseráveis, a quem a pobreza e vileza de sua fortuna condenou a este gênero de vida, porque a mesma sua miséria ou escusa ou alivia o seu pecado [...]. O ladrão que furta para comer não vai nem leva ao Inferno: os que não só vão, mas levam, de que eu trato, são os ladrões de maior calibre e de mais alta esfera [...]. Não são só ladrões, diz o santo [São Basílio Magno], os que cortam bolsas, ou espreitam os que se vão banhar, para lhes colher a roupa; os ladrões que mais própria e dignamente merecem este título são aqueles a quem os reis encomendam os exércitos e legiões, ou o governo das províncias, ou a administração das cidades, os quais já com manha, já com força, roubam e despojam os povos. Os outros ladrões roubam um homem, estes roubam cidades e reinos: os outros furtam debaixo do seu risco, estes sem temor, nem perigo: os outros, se furtam, são enforcados: estes furtam e enforcam."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "condição.",
+        "b": "proporção.",
+        "c": "finalidade.",
+        "d": "causa.",
+        "e": "consequência."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Sintaxe do período composto (coordenação e subordinação)",
+            "Mecanismos de coesão textual (lexical, referencial, anafórica) e coerência"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 3
+    },
+    {
+      "numero": 4,
+      "tipo": "objetiva",
+      "enunciado": "No segundo parágrafo, Antônio Vieira torna explícito seu descontentamento com",
+      "textos_de_apoio": [
+        "Navegava Alexandre [Magno] em uma poderosa armada pelo Mar Eritreu a conquistar a Índia; e como fosse trazido à sua presença um pirata, que por ali andava roubando os pescadores, repreendeu-o muito Alexandre de andar em tão mau ofício; porém ele, que não era medroso nem lerdo, respondeu assim: “Basta, Senhor, que eu, porque roubo em uma barca, sou ladrão, e vós, porque roubais em uma armada, sois imperador?”. Assim é. O roubar pouco é culpa, o roubar muito é grandeza: o roubar com pouco poder faz os piratas, o roubar com muito, os Alexandres. Mas Sêneca, que sabia bem distinguir as qualidades, e interpretar as significações, a uns e outros, definiu com o mesmo nome: [...] Se o rei de Macedônia, ou qualquer outro, fizer o que faz o ladrão e o pirata; o ladrão, o pirata e o rei, todos têm o mesmo lugar, e merecem o mesmo nome.\n\nQuando li isto em Sêneca, não me admirei tanto de que um filósofo estoico se atrevesse a escrever uma tal sentença em Roma, reinando nela Nero; o que mais me admirou, e quase envergonhou, foi que os nossos oradores evangélicos em tempo de príncipes católicos, ou para a emenda, ou para a cautela, não preguem a mesma doutrina. Saibam estes eloquentes mudos que mais ofendem os reis com o que calam que com o que disserem; porque a confiança com que isto se diz é sinal que lhes não toca, e que se não podem ofender; e a cautela com que se cala é argumento de que se ofenderão, porque lhes pode tocar. [...]\n\nSuponho, finalmente, que os ladrões de que falo não são aqueles miseráveis, a quem a pobreza e vileza de sua fortuna condenou a este gênero de vida, porque a mesma sua miséria ou escusa ou alivia o seu pecado [...]. O ladrão que furta para comer não vai nem leva ao Inferno: os que não só vão, mas levam, de que eu trato, são os ladrões de maior calibre e de mais alta esfera [...]. Não são só ladrões, diz o santo [São Basílio Magno], os que cortam bolsas, ou espreitam os que se vão banhar, para lhes colher a roupa; os ladrões que mais própria e dignamente merecem este título são aqueles a quem os reis encomendam os exércitos e legiões, ou o governo das províncias, ou a administração das cidades, os quais já com manha, já com força, roubam e despojam os povos. Os outros ladrões roubam um homem, estes roubam cidades e reinos: os outros furtam debaixo do seu risco, estes sem temor, nem perigo: os outros, se furtam, são enforcados: estes furtam e enforcam."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "o filósofo Sêneca.",
+        "b": "os príncipes católicos.",
+        "c": "o imperador Nero.",
+        "d": "a doutrina estoica.",
+        "e": "os oradores evangélicos."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação",
+            "Mecanismos de coesão textual (lexical, referencial, anafórica) e coerência"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 4
+    },
+    {
+      "numero": 5,
+      "tipo": "objetiva",
+      "enunciado": "Verifica-se o emprego de vírgula para indicar a elipse (supressão) do verbo em:",
+      "textos_de_apoio": [
+        "Navegava Alexandre [Magno] em uma poderosa armada pelo Mar Eritreu a conquistar a Índia; e como fosse trazido à sua presença um pirata, que por ali andava roubando os pescadores, repreendeu-o muito Alexandre de andar em tão mau ofício; porém ele, que não era medroso nem lerdo, respondeu assim: “Basta, Senhor, que eu, porque roubo em uma barca, sou ladrão, e vós, porque roubais em uma armada, sois imperador?”. Assim é. O roubar pouco é culpa, o roubar muito é grandeza: o roubar com pouco poder faz os piratas, o roubar com muito, os Alexandres. Mas Sêneca, que sabia bem distinguir as qualidades, e interpretar as significações, a uns e outros, definiu com o mesmo nome: [...] Se o rei de Macedônia, ou qualquer outro, fizer o que faz o ladrão e o pirata; o ladrão, o pirata e o rei, todos têm o mesmo lugar, e merecem o mesmo nome.\n\nQuando li isto em Sêneca, não me admirei tanto de que um filósofo estoico se atrevesse a escrever uma tal sentença em Roma, reinando nela Nero; o que mais me admirou, e quase envergonhou, foi que os nossos oradores evangélicos em tempo de príncipes católicos, ou para a emenda, ou para a cautela, não preguem a mesma doutrina. Saibam estes eloquentes mudos que mais ofendem os reis com o que calam que com o que disserem; porque a confiança com que isto se diz é sinal que lhes não toca, e que se não podem ofender; e a cautela com que se cala é argumento de que se ofenderão, porque lhes pode tocar. [...]\n\nSuponho, finalmente, que os ladrões de que falo não são aqueles miseráveis, a quem a pobreza e vileza de sua fortuna condenou a este gênero de vida, porque a mesma sua miséria ou escusa ou alivia o seu pecado [...]. O ladrão que furta para comer não vai nem leva ao Inferno: os que não só vão, mas levam, de que eu trato, são os ladrões de maior calibre e de mais alta esfera [...]. Não são só ladrões, diz o santo [São Basílio Magno], os que cortam bolsas, ou espreitam os que se vão banhar, para lhes colher a roupa; os ladrões que mais própria e dignamente merecem este título são aqueles a quem os reis encomendam os exércitos e legiões, ou o governo das províncias, ou a administração das cidades, os quais já com manha, já com força, roubam e despojam os povos. Os outros ladrões roubam um homem, estes roubam cidades e reinos: os outros furtam debaixo do seu risco, estes sem temor, nem perigo: os outros, se furtam, são enforcados: estes furtam e enforcam."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "“Basta, Senhor, que eu, porque roubo em uma barca, sou ladrão, e vós, porque roubais em uma armada, sois imperador?” (1º parágrafo)",
+        "b": "“O ladrão que furta para comer não vai nem leva ao Inferno: os que não só vão, mas levam, de que eu trato, são os ladrões de maior calibre e de mais alta esfera [...].” (3º parágrafo)",
+        "c": "“O roubar pouco é culpa, o roubar muito é grandeza: o roubar com pouco poder faz os piratas, o roubar com muito, os Alexandres.” (1º parágrafo)",
+        "d": "“Se o rei de Macedônia, ou qualquer outro, fizer o que faz o ladrão e o pirata; o ladrão, o pirata e o rei, todos têm o mesmo lugar, e merecem o mesmo nome.” (1º parágrafo)",
+        "e": "“Os outros ladrões roubam um homem, estes roubam cidades e reinos: os outros furtam debaixo do seu risco, estes sem temor, nem perigo: os outros, se furtam, são enforcados: estes furtam e enforcam.” (3º parágrafo)"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Sintaxe do período simples (termos essenciais, integrantes e acessórios da oração)",
+            "Mecanismos de coesão textual (lexical, referencial, anafórica) e coerência"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 4
+    },
+    {
+      "numero": 6,
+      "tipo": "objetiva",
+      "enunciado": "Em um trecho do “Sermão da Sexagésima”, Antônio Vieira critica o chamado estilo cultista de alguns oradores sacros de sua época nos seguintes termos: “Basta que não havemos de ver num sermão duas palavras em paz? Todas hão de estar sempre em fronteira com o seu contrário?”\n\nPalavras “em fronteira com o seu contrário”, contudo, também foram empregadas por Vieira, conforme se verifica na expressão destacada em:",
+      "textos_de_apoio": [
+        "Navegava Alexandre [Magno] em uma poderosa armada pelo Mar Eritreu a conquistar a Índia; e como fosse trazido à sua presença um pirata, que por ali andava roubando os pescadores, repreendeu-o muito Alexandre de andar em tão mau ofício; porém ele, que não era medroso nem lerdo, respondeu assim: “Basta, Senhor, que eu, porque roubo em uma barca, sou ladrão, e vós, porque roubais em uma armada, sois imperador?”. Assim é. O roubar pouco é culpa, o roubar muito é grandeza: o roubar com pouco poder faz os piratas, o roubar com muito, os Alexandres. Mas Sêneca, que sabia bem distinguir as qualidades, e interpretar as significações, a uns e outros, definiu com o mesmo nome: [...] Se o rei de Macedônia, ou qualquer outro, fizer o que faz o ladrão e o pirata; o ladrão, o pirata e o rei, todos têm o mesmo lugar, e merecem o mesmo nome.\n\nQuando li isto em Sêneca, não me admirei tanto de que um filósofo estoico se atrevesse a escrever uma tal sentença em Roma, reinando nela Nero; o que mais me admirou, e quase envergonhou, foi que os nossos oradores evangélicos em tempo de príncipes católicos, ou para a emenda, ou para a cautela, não preguem a mesma doutrina. Saibam estes eloquentes mudos que mais ofendem os reis com o que calam que com o que disserem; porque a confiança com que isto se diz é sinal que lhes não toca, e que se não podem ofender; e a cautela com que se cala é argumento de que se ofenderão, porque lhes pode tocar. [...]\n\nSuponho, finalmente, que os ladrões de que falo não são aqueles miseráveis, a quem a pobreza e vileza de sua fortuna condenou a este gênero de vida, porque a mesma sua miséria ou escusa ou alivia o seu pecado [...]. O ladrão que furta para comer não vai nem leva ao Inferno: os que não só vão, mas levam, de que eu trato, são os ladrões de maior calibre e de mais alta esfera [...]. Não são só ladrões, diz o santo [São Basílio Magno], os que cortam bolsas, ou espreitam os que se vão banhar, para lhes colher a roupa; os ladrões que mais própria e dignamente merecem este título são aqueles a quem os reis encomendam os exércitos e legiões, ou o governo das províncias, ou a administração das cidades, os quais já com manha, já com força, roubam e despojam os povos. Os outros ladrões roubam um homem, estes roubam cidades e reinos: os outros furtam debaixo do seu risco, estes sem temor, nem perigo: os outros, se furtam, são enforcados: estes furtam e enforcam."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "“Navegava Alexandre [Magno] em uma poderosa armada pelo Mar Eritreu a conquistar a Índia” (1º parágrafo)",
+        "b": "“O ladrão que furta para comer não vai nem leva ao Inferno: os que não só vão, mas levam, de que eu trato, são os ladrões de maior calibre e de mais alta esfera” (3º parágrafo)",
+        "c": "“Saibam estes eloquentes mudos que mais ofendem os reis com o que calam que com o que disserem” (2º parágrafo)",
+        "d": "“Quando li isto em Sêneca, não me admirei tanto de que um filósofo estoico se atrevesse a escrever uma tal sentença em Roma, reinando nela Nero” (2º parágrafo)",
+        "e": "“Os outros ladrões roubam um homem, estes roubam cidades e reinos” (3º parágrafo)"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Figuras de linguagem (metáfora, metonímia, antítese, paradoxo, hipérbole, ironia)",
+            "Significação explícita e implícita, denotação e conotação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 4
+    },
+    {
+      "numero": 7,
+      "tipo": "objetiva",
+      "enunciado": "Assinale a alternativa cuja citação se aproxima tematicamente do “Sermão do bom ladrão” de Antônio Vieira.",
+      "textos_de_apoio": [
+        "Navegava Alexandre [Magno] em uma poderosa armada pelo Mar Eritreu a conquistar a Índia; e como fosse trazido à sua presença um pirata, que por ali andava roubando os pescadores, repreendeu-o muito Alexandre de andar em tão mau ofício; porém ele, que não era medroso nem lerdo, respondeu assim: “Basta, Senhor, que eu, porque roubo em uma barca, sou ladrão, e vós, porque roubais em uma armada, sois imperador?”. Assim é. O roubar pouco é culpa, o roubar muito é grandeza: o roubar com pouco poder faz os piratas, o roubar com muito, os Alexandres. Mas Sêneca, que sabia bem distinguir as qualidades, e interpretar as significações, a uns e outros, definiu com o mesmo nome: [...] Se o rei de Macedônia, ou qualquer outro, fizer o que faz o ladrão e o pirata; o ladrão, o pirata e o rei, todos têm o mesmo lugar, e merecem o mesmo nome.\n\nQuando li isto em Sêneca, não me admirei tanto de que um filósofo estoico se atrevesse a escrever uma tal sentença em Roma, reinando nela Nero; o que mais me admirou, e quase envergonhou, foi que os nossos oradores evangélicos em tempo de príncipes católicos, ou para a emenda, ou para a cautela, não preguem a mesma doutrina. Saibam estes eloquentes mudos que mais ofendem os reis com o que calam que com o que disserem; porque a confiança com que isto se diz é sinal que lhes não toca, e que se não podem ofender; e a cautela com que se cala é argumento de que se ofenderão, porque lhes pode tocar. [...]\n\nSuponho, finalmente, que os ladrões de que falo não são aqueles miseráveis, a quem a pobreza e vileza de sua fortuna condenou a este gênero de vida, porque a mesma sua miséria ou escusa ou alivia o seu pecado [...]. O ladrão que furta para comer não vai nem leva ao Inferno: os que não só vão, mas levam, de que eu trato, são os ladrões de maior calibre e de mais alta esfera [...]. Não são só ladrões, diz o santo [São Basílio Magno], os que cortam bolsas, ou espreitam os que se vão banhar, para lhes colher a roupa; os ladrões que mais própria e dignamente merecem este título são aqueles a quem os reis encomendam os exércitos e legiões, ou o governo das províncias, ou a administração das cidades, os quais já com manha, já com força, roubam e despojam os povos. Os outros ladrões roubam um homem, estes roubam cidades e reinos: os outros furtam debaixo do seu risco, estes sem temor, nem perigo: os outros, se furtam, são enforcados: estes furtam e enforcam."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "“Rouba um prego, e serás enforcado como um malfeitor; rouba um reino, e tornar-te-ás duque.” (Chuang-Tzu, filósofo chinês, 369-286 a.C.)",
+        "b": "“Para quem vive segundo os verdadeiros princípios, a grande riqueza seria viver serenamente com pouco: o que é pouco nunca é escasso.” (Lucrécio, poeta latino, 98-55 a.C.)",
+        "c": "“O dinheiro que se possui é o instrumento da liberdade; aquele que se persegue é o instrumento da escravidão.” (Rousseau, filósofo francês, 1712-1778)",
+        "d": "“Que o ladrão e a ladra tenham a mão cortada; esta será a recompensa pelo que fizeram e a punição da parte de Deus; pois Deus é poderoso e sábio.” (Alcorão, livro sagrado islâmico, século VII)",
+        "e": "“Dizem que tudo o que é roubado tem mais valor.” (Tirso de Molina, dramaturgo espanhol, 1584-1648)"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Intertextualidade, interdiscursividade e análise de textos verbais e não verbais (charges, cartuns)",
+            "Significação explícita e implícita, denotação e conotação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 4
+    },
+    {
+      "numero": 8,
+      "tipo": "objetiva",
+      "enunciado": "“[...] os ladrões de que falo não são aqueles miseráveis, a quem a pobreza e vileza de sua fortuna condenou a este gênero de vida [...]” (3º parágrafo)\n\nOs termos destacados constituem, respectivamente,",
+      "textos_de_apoio": [
+        "Navegava Alexandre [Magno] em uma poderosa armada pelo Mar Eritreu a conquistar a Índia; e como fosse trazido à sua presença um pirata, que por ali andava roubando os pescadores, repreendeu-o muito Alexandre de andar em tão mau ofício; porém ele, que não era medroso nem lerdo, respondeu assim: “Basta, Senhor, que eu, porque roubo em uma barca, sou ladrão, e vós, porque roubais em uma armada, sois imperador?”. Assim é. O roubar pouco é culpa, o roubar muito é grandeza: o roubar com pouco poder faz os piratas, o roubar com muito, os Alexandres. Mas Sêneca, que sabia bem distinguir as qualidades, e interpretar as significações, a uns e outros, definiu com o mesmo nome: [...] Se o rei de Macedônia, ou qualquer outro, fizer o que faz o ladrão e o pirata; o ladrão, o pirata e o rei, todos têm o mesmo lugar, e merecem o mesmo nome.\n\nQuando li isto em Sêneca, não me admirei tanto de que um filósofo estoico se atrevesse a escrever uma tal sentença em Roma, reinando nela Nero; o que mais me admirou, e quase envergonhou, foi que os nossos oradores evangélicos em tempo de príncipes católicos, ou para a emenda, ou para a cautela, não preguem a mesma doutrina. Saibam estes eloquentes mudos que mais ofendem os reis com o que calam que com o que disserem; porque a confiança com que isto se diz é sinal que lhes não toca, e que se não podem ofender; e a cautela com que se cala é argumento de que se ofenderão, porque lhes pode tocar. [...]\n\nSuponho, finalmente, que os ladrões de que falo não são aqueles miseráveis, a quem a pobreza e vileza de sua fortuna condenou a este gênero de vida, porque a mesma sua miséria ou escusa ou alivia o seu pecado [...]. O ladrão que furta para comer não vai nem leva ao Inferno: os que não só vão, mas levam, de que eu trato, são os ladrões de maior calibre e de mais alta esfera [...]. Não são só ladrões, diz o santo [São Basílio Magno], os que cortam bolsas, ou espreitam os que se vão banhar, para lhes colher a roupa; os ladrões que mais própria e dignamente merecem este título são aqueles a quem os reis encomendam os exércitos e legiões, ou o governo das províncias, ou a administração das cidades, os quais já com manha, já com força, roubam e despojam os povos. Os outros ladrões roubam um homem, estes roubam cidades e reinos: os outros furtam debaixo do seu risco, estes sem temor, nem perigo: os outros, se furtam, são enforcados: estes furtam e enforcam."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "um artigo, uma preposição e uma preposição.",
+        "b": "uma preposição, um artigo e uma preposição.",
+        "c": "um artigo, um pronome e um pronome.",
+        "d": "um pronome, uma preposição e um artigo.",
+        "e": "uma preposição, um artigo e um pronome."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Classes gramaticais: substantivo, adjetivo, artigo, numeral, pronome, verbo, advérbio, preposição, conjunção e interjeição"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 3
+    },
+    {
+      "numero": 9,
+      "tipo": "objetiva",
+      "enunciado": "A poesia dos antigos era a da posse, a dos novos é a da saudade (e anseio); aquela se ergue, firme, no chão do presente; esta oscila entre recordação e pressentimento. O ideal grego era a concórdia e o equilíbrio perfeitos de todas as forças; a harmonia natural. Os novos, porém, adquiriram a consciência da fragmentação interna que torna impossível este ideal; por isso, a sua poesia aspira a reconciliar os dois mundos em que se sentem divididos, o espiritual e o sensível, fundindo-os de um modo indissolúvel. Os antigos solucionam a sua tarefa, chegando à perfeição; os novos só pela aproximação podem satisfazer o seu anseio do infinito.\n(August Schlegel apud Anatol Rosenfeld. Texto/Contexto I, 1996. Adaptado.)\n\nOs “novos” a que se refere o escritor alemão August Schlegel são os poetas",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "românticos.",
+        "b": "modernistas.",
+        "c": "árcades.",
+        "d": "clássicos.",
+        "e": "naturalistas."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Literatura Brasileira: Quinhentismo, Barroco (Gregório de Matos), Arcadismo, Romantismo, Realismo/Naturalismo (Machado de Assis), Parnasianismo e Simbolismo",
+            "Intertextualidade, interdiscursividade e análise de textos verbais e não verbais (charges, cartuns)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 5
+    },
+    {
+      "numero": 10,
+      "tipo": "objetiva",
+      "enunciado": "A perspectiva do narrador diante das situações e dos fatos relacionados à escravidão é marcada, sobretudo,",
+      "textos_de_apoio": [
+        "A escravidão levou consigo ofícios e aparelhos, como terá sucedido a outras instituições sociais. Não cito alguns aparelhos senão por se ligarem a certo ofício. Um deles era o ferro ao pescoço, outro o ferro ao pé; havia também a máscara de folha de flandres. A máscara fazia perder o vício da embriaguez aos escravos, por lhes tapar a boca. Tinha só três buracos, dois para ver, um para respirar, e era fechada atrás da cabeça por um cadeado. Com o vício de beber, perdiam a tentação de furtar, porque geralmente era dos vinténs do senhor que eles tiravam com que matar a sede, e aí ficavam dois pecados extintos, e a sobriedade e a honestidade certas. Era grotesca tal máscara, mas a ordem social e humana nem sempre se alcança sem o grotesco, e alguma vez o cruel. Os funileiros as tinham penduradas, à venda, na porta das lojas. Mas não cuidemos de máscaras.\n\nO ferro ao pescoço era aplicado aos escravos fujões. Imaginai uma coleira grossa, com a haste grossa também, à direita ou à esquerda, até ao alto da cabeça e fechada atrás com chave. Pesava, naturalmente, mas era menos castigo que sinal. Escravo que fugia assim, onde quer que andasse, mostrava um reincidente, e com pouco era pego.\n\nHá meio século, os escravos fugiam com frequência. Eram muitos, e nem todos gostavam da escravidão. Sucedia ocasionalmente apanharem pancada, e nem todos gostavam de apanhar pancada. Grande parte era apenas repreendida; havia alguém de casa que servia de padrinho, e o mesmo dono não era mau; além disso, o sentimento da propriedade moderava a ação, porque dinheiro também dói. A fuga repetia-se, entretanto. Casos houve, ainda que raros, em que o escravo de contrabando, apenas comprado no Valongo, deitava a correr, sem conhecer as ruas da cidade. Dos que seguiam para casa, não raro, apenas ladinos, pediam ao senhor que lhes marcasse aluguel, e iam ganhá-lo fora, quitandando.\n\nQuem perdia um escravo por fuga dava algum dinheiro a quem lho levasse. Punha anúncios nas folhas públicas, com os sinais do fugido, o nome, a roupa, o defeito físico, se o tinha, o bairro por onde andava e a quantia de gratificação. Quando não vinha a quantia, vinha promessa: “gratificar-se-á generosamente” – ou “receberá uma boa gratificação”. Muita vez o anúncio trazia em cima ou ao lado uma vinheta, figura de preto, descalço, correndo, vara ao ombro, e na ponta uma trouxa. Protestava-se com todo o rigor da lei contra quem o acoitasse.\n\nOra, pegar escravos fugidios era um ofício do tempo. Não seria nobre, mas por ser instrumento da força com que se mantêm a lei e a propriedade, trazia esta outra nobreza implícita das ações reivindicadoras. Ninguém se metia em tal ofício por desfastio ou estudo; a pobreza, a necessidade de uma achega, a inaptidão para outros trabalhos, o acaso, e alguma vez o gosto de servir também, ainda que por outra via, davam o impulso ao homem que se sentia bastante rijo para pôr ordem à desordem."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "pelo saudosismo.",
+        "b": "pela indiferença.",
+        "c": "pela indignação.",
+        "d": "pelo entusiasmo.",
+        "e": "pela ironia."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Literatura Brasileira: Quinhentismo, Barroco (Gregório de Matos), Arcadismo, Romantismo, Realismo/Naturalismo (Machado de Assis), Parnasianismo e Simbolismo",
+            "Figuras de linguagem (metáfora, metonímia, antítese, paradoxo, hipérbole, ironia)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 6
+    },
+    {
+      "numero": 11,
+      "tipo": "objetiva",
+      "enunciado": "O leitor é figura recorrente e fundamental na prosa machadiana. Verifica-se a inclusão do leitor na narrativa no seguinte trecho:",
+      "textos_de_apoio": [
+        "A escravidão levou consigo ofícios e aparelhos, como terá sucedido a outras instituições sociais. Não cito alguns aparelhos senão por se ligarem a certo ofício. Um deles era o ferro ao pescoço, outro o ferro ao pé; havia também a máscara de folha de flandres. A máscara fazia perder o vício da embriaguez aos escravos, por lhes tapar a boca. Tinha só três buracos, dois para ver, um para respirar, e era fechada atrás da cabeça por um cadeado. Com o vício de beber, perdiam a tentação de furtar, porque geralmente era dos vinténs do senhor que eles tiravam com que matar a sede, e aí ficavam dois pecados extintos, e a sobriedade e a honestidade certas. Era grotesca tal máscara, mas a ordem social e humana nem sempre se alcança sem o grotesco, e alguma vez o cruel. Os funileiros as tinham penduradas, à venda, na porta das lojas. Mas não cuidemos de máscaras.\n\nO ferro ao pescoço era aplicado aos escravos fujões. Imaginai uma coleira grossa, com a haste grossa também, à direita ou à esquerda, até ao alto da cabeça e fechada atrás com chave. Pesava, naturalmente, mas era menos castigo que sinal. Escravo que fugia assim, onde quer que andasse, mostrava um reincidente, e com pouco era pego.\n\nHá meio século, os escravos fugiam com frequência. Eram muitos, e nem todos gostavam da escravidão. Sucedia ocasionalmente apanharem pancada, e nem todos gostavam de apanhar pancada. Grande parte era apenas repreendida; havia alguém de casa que servia de padrinho, e o mesmo dono não era mau; além disso, o sentimento da propriedade moderava a ação, porque dinheiro também dói. A fuga repetia-se, entretanto. Casos houve, ainda que raros, em que o escravo de contrabando, apenas comprado no Valongo, deitava a correr, sem conhecer as ruas da cidade. Dos que seguiam para casa, não raro, apenas ladinos, pediam ao senhor que lhes marcasse aluguel, e iam ganhá-lo fora, quitandando.\n\nQuem perdia um escravo por fuga dava algum dinheiro a quem lho levasse. Punha anúncios nas folhas públicas, com os sinais do fugido, o nome, a roupa, o defeito físico, se o tinha, o bairro por onde andava e a quantia de gratificação. Quando não vinha a quantia, vinha promessa: “gratificar-se-á generosamente” – ou “receberá uma boa gratificação”. Muita vez o anúncio trazia em cima ou ao lado uma vinheta, figura de preto, descalço, correndo, vara ao ombro, e na ponta uma trouxa. Protestava-se com todo o rigor da lei contra quem o acoitasse.\n\nOra, pegar escravos fugidios era um ofício do tempo. Não seria nobre, mas por ser instrumento da força com que se mantêm a lei e a propriedade, trazia esta outra nobreza implícita das ações reivindicadoras. Ninguém se metia em tal ofício por desfastio ou estudo; a pobreza, a necessidade de uma achega, a inaptidão para outros trabalhos, o acaso, e alguma vez o gosto de servir também, ainda que por outra via, davam o impulso ao homem que se sentia bastante rijo para pôr ordem à desordem."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "“A fuga repetia-se, entretanto. Casos houve, ainda que raros, em que o escravo de contrabando, apenas comprado no Valongo, deitava a correr, sem conhecer as ruas da cidade.” (3º parágrafo)",
+        "b": "“Quando não vinha a quantia, vinha promessa: ‘gratificar-se-á generosamente’ – ou ‘receberá uma boa gratificação’. Muita vez o anúncio trazia em cima ou ao lado uma vinheta, figura de preto, descalço, correndo, vara ao ombro, e na ponta uma trouxa.” (4º parágrafo)",
+        "c": "“Não cito alguns aparelhos senão por se ligarem a certo ofício. Um deles era o ferro ao pescoço, outro o ferro ao pé; havia também a máscara de folha de flandres.” (1º parágrafo)",
+        "d": "“O ferro ao pescoço era aplicado aos escravos fujões. Imaginai uma coleira grossa, com a haste grossa também, à direita ou à esquerda, até ao alto da cabeça e fechada atrás com chave.” (2º parágrafo)",
+        "e": "“Era grotesca tal máscara, mas a ordem social e humana nem sempre se alcança sem o grotesco, e alguma vez o cruel. Os funileiros as tinham penduradas, à venda, na porta das lojas.” (1º parágrafo)"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Literatura Brasileira: Quinhentismo, Barroco (Gregório de Matos), Arcadismo, Romantismo, Realismo/Naturalismo (Machado de Assis), Parnasianismo e Simbolismo",
+            "Flexão nominal e flexão verbal (tempos, modos, vozes e correlação verbal)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 6
+    },
+    {
+      "numero": 12,
+      "tipo": "objetiva",
+      "enunciado": "Em “o sentimento da propriedade moderava a ação, porque dinheiro também dói.” (3º parágrafo), a “ação” a que se refere o narrador diz respeito",
+      "textos_de_apoio": [
+        "A escravidão levou consigo ofícios e aparelhos, como terá sucedido a outras instituições sociais. Não cito alguns aparelhos senão por se ligarem a certo ofício. Um deles era o ferro ao pescoço, outro o ferro ao pé; havia também a máscara de folha de flandres. A máscara fazia perder o vício da embriaguez aos escravos, por lhes tapar a boca. Tinha só três buracos, dois para ver, um para respirar, e era fechada atrás da cabeça por um cadeado. Com o vício de beber, perdiam a tentação de furtar, porque geralmente era dos vinténs do senhor que eles tiravam com que matar a sede, e aí ficavam dois pecados extintos, e a sobriedade e a honestidade certas. Era grotesca tal máscara, mas a ordem social e humana nem sempre se alcança sem o grotesco, e alguma vez o cruel. Os funileiros as tinham penduradas, à venda, na porta das lojas. Mas não cuidemos de máscaras.\n\nO ferro ao pescoço era aplicado aos escravos fujões. Imaginai uma coleira grossa, com a haste grossa também, à direita ou à esquerda, até ao alto da cabeça e fechada atrás com chave. Pesava, naturalmente, mas era menos castigo que sinal. Escravo que fugia assim, onde quer que andasse, mostrava um reincidente, e com pouco era pego.\n\nHá meio século, os escravos fugiam com frequência. Eram muitos, e nem todos gostavam da escravidão. Sucedia ocasionalmente apanharem pancada, e nem todos gostavam de apanhar pancada. Grande parte era apenas repreendida; havia alguém de casa que servia de padrinho, e o mesmo dono não era mau; além disso, o sentimento da propriedade moderava a ação, porque dinheiro também dói. A fuga repetia-se, entretanto. Casos houve, ainda que raros, em que o escravo de contrabando, apenas comprado no Valongo, deitava a correr, sem conhecer as ruas da cidade. Dos que seguiam para casa, não raro, apenas ladinos, pediam ao senhor que lhes marcasse aluguel, e iam ganhá-lo fora, quitandando.\n\nQuem perdia um escravo por fuga dava algum dinheiro a quem lho levasse. Punha anúncios nas folhas públicas, com os sinais do fugido, o nome, a roupa, o defeito físico, se o tinha, o bairro por onde andava e a quantia de gratificação. Quando não vinha a quantia, vinha promessa: “gratificar-se-á generosamente” – ou “receberá uma boa gratificação”. Muita vez o anúncio trazia em cima ou ao lado uma vinheta, figura de preto, descalço, correndo, vara ao ombro, e na ponta uma trouxa. Protestava-se com todo o rigor da lei contra quem o acoitasse.\n\nOra, pegar escravos fugidios era um ofício do tempo. Não seria nobre, mas por ser instrumento da força com que se mantêm a lei e a propriedade, trazia esta outra nobreza implícita das ações reivindicadoras. Ninguém se metia em tal ofício por desfastio ou estudo; a pobreza, a necessidade de uma achega, a inaptidão para outros trabalhos, o acaso, e alguma vez o gosto de servir também, ainda que por outra via, davam o impulso ao homem que se sentia bastante rijo para pôr ordem à desordem."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "à fuga dos escravos.",
+        "b": "ao contrabando de escravos.",
+        "c": "aos castigos físicos aplicados aos escravos.",
+        "d": "às repreensões verbais feitas aos escravos.",
+        "e": "à emancipação dos escravos."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação",
+            "Mecanismos de coesão textual (lexical, referencial, anafórica) e coerência"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 6
+    },
+    {
+      "numero": 13,
+      "tipo": "objetiva",
+      "enunciado": "Embora não participe da ação, o narrador intromete-se de forma explícita na narrativa em:",
+      "textos_de_apoio": [
+        "A escravidão levou consigo ofícios e aparelhos, como terá sucedido a outras instituições sociais. Não cito alguns aparelhos senão por se ligarem a certo ofício. Um deles era o ferro ao pescoço, outro o ferro ao pé; havia também a máscara de folha de flandres. A máscara fazia perder o vício da embriaguez aos escravos, por lhes tapar a boca. Tinha só três buracos, dois para ver, um para respirar, e era fechada atrás da cabeça por um cadeado. Com o vício de beber, perdiam a tentação de furtar, porque geralmente era dos vinténs do senhor que eles tiravam com que matar a sede, e aí ficavam dois pecados extintos, e a sobriedade e a honestidade certas. Era grotesca tal máscara, mas a ordem social e humana nem sempre se alcança sem o grotesco, e alguma vez o cruel. Os funileiros as tinham penduradas, à venda, na porta das lojas. Mas não cuidemos de máscaras.\n\nO ferro ao pescoço era aplicado aos escravos fujões. Imaginai uma coleira grossa, com a haste grossa também, à direita ou à esquerda, até ao alto da cabeça e fechada atrás com chave. Pesava, naturalmente, mas era menos castigo que sinal. Escravo que fugia assim, onde quer que andasse, mostrava um reincidente, e com pouco era pego.\n\nHá meio século, os escravos fugiam com frequência. Eram muitos, e nem todos gostavam da escravidão. Sucedia ocasionalmente apanharem pancada, e nem todos gostavam de apanhar pancada. Grande parte era apenas repreendida; havia alguém de casa que servia de padrinho, e o mesmo dono não era mau; além disso, o sentimento da propriedade moderava a ação, porque dinheiro também dói. A fuga repetia-se, entretanto. Casos houve, ainda que raros, em que o escravo de contrabando, apenas comprado no Valongo, deitava a correr, sem conhecer as ruas da cidade. Dos que seguiam para casa, não raro, apenas ladinos, pediam ao senhor que lhes marcasse aluguel, e iam ganhá-lo fora, quitandando.\n\nQuem perdia um escravo por fuga dava algum dinheiro a quem lho levasse. Punha anúncios nas folhas públicas, com os sinais do fugido, o nome, a roupa, o defeito físico, se o tinha, o bairro por onde andava e a quantia de gratificação. Quando não vinha a quantia, vinha promessa: “gratificar-se-á generosamente” – ou “receberá uma boa gratificação”. Muita vez o anúncio trazia em cima ou ao lado uma vinheta, figura de preto, descalço, correndo, vara ao ombro, e na ponta uma trouxa. Protestava-se com todo o rigor da lei contra quem o acoitasse.\n\nOra, pegar escravos fugidios era um ofício do tempo. Não seria nobre, mas por ser instrumento da força com que se mantêm a lei e a propriedade, trazia esta outra nobreza implícita das ações reivindicadoras. Ninguém se metia em tal ofício por desfastio ou estudo; a pobreza, a necessidade de uma achega, a inaptidão para outros trabalhos, o acaso, e alguma vez o gosto de servir também, ainda que por outra via, davam o impulso ao homem que se sentia bastante rijo para pôr ordem à desordem."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "“Há meio século, os escravos fugiam com frequência.” (3º parágrafo)",
+        "b": "“O ferro ao pescoço era aplicado aos escravos fujões.” (2º parágrafo)",
+        "c": "“A máscara fazia perder o vício da embriaguez aos escravos, por lhes tapar a boca.” (1º parágrafo)",
+        "d": "“Mas não cuidemos de máscaras.” (1º parágrafo)",
+        "e": "“Eram muitos, e nem todos gostavam da escravidão.” (3º parágrafo)"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Tipologias textuais (narração, descrição, dissertação) e gêneros textuais variados",
+            "Discurso direto, indireto e indireto livre"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 6
+    },
+    {
+      "numero": 14,
+      "tipo": "objetiva",
+      "enunciado": "“Quem perdia um escravo por fuga dava algum dinheiro a quem lho levasse.” (4º parágrafo)\n\nNa oração em que está inserido, o termo destacado é um verbo que pede",
+      "textos_de_apoio": [
+        "A escravidão levou consigo ofícios e aparelhos, como terá sucedido a outras instituições sociais. Não cito alguns aparelhos senão por se ligarem a certo ofício. Um deles era o ferro ao pescoço, outro o ferro ao pé; havia também a máscara de folha de flandres. A máscara fazia perder o vício da embriaguez aos escravos, por lhes tapar a boca. Tinha só três buracos, dois para ver, um para respirar, e era fechada atrás da cabeça por um cadeado. Com o vício de beber, perdiam a tentação de furtar, porque geralmente era dos vinténs do senhor que eles tiravam com que matar a sede, e aí ficavam dois pecados extintos, e a sobriedade e a honestidade certas. Era grotesca tal máscara, mas a ordem social e humana nem sempre se alcança sem o grotesco, e alguma vez o cruel. Os funileiros as tinham penduradas, à venda, na porta das lojas. Mas não cuidemos de máscaras.\n\nO ferro ao pescoço era aplicado aos escravos fujões. Imaginai uma coleira grossa, com a haste grossa também, à direita ou à esquerda, até ao alto da cabeça e fechada atrás com chave. Pesava, naturalmente, mas era menos castigo que sinal. Escravo que fugia assim, onde quer que andasse, mostrava um reincidente, e com pouco era pego.\n\nHá meio século, os escravos fugiam com frequência. Eram muitos, e nem todos gostavam da escravidão. Sucedia ocasionalmente apanharem pancada, e nem todos gostavam de apanhar pancada. Grande parte era apenas repreendida; havia alguém de casa que servia de padrinho, e o mesmo dono não era mau; além disso, o sentimento da propriedade moderava a ação, porque dinheiro também dói. A fuga repetia-se, entretanto. Casos houve, ainda que raros, em que o escravo de contrabando, apenas comprado no Valongo, deitava a correr, sem conhecer as ruas da cidade. Dos que seguiam para casa, não raro, apenas ladinos, pediam ao senhor que lhes marcasse aluguel, e iam ganhá-lo fora, quitandando.\n\nQuem perdia um escravo por fuga dava algum dinheiro a quem lho levasse. Punha anúncios nas folhas públicas, com os sinais do fugido, o nome, a roupa, o defeito físico, se o tinha, o bairro por onde andava e a quantia de gratificação. Quando não vinha a quantia, vinha promessa: “gratificar-se-á generosamente” – ou “receberá uma boa gratificação”. Muita vez o anúncio trazia em cima ou ao lado uma vinheta, figura de preto, descalço, correndo, vara ao ombro, e na ponta uma trouxa. Protestava-se com todo o rigor da lei contra quem o acoitasse.\n\nOra, pegar escravos fugidios era um ofício do tempo. Não seria nobre, mas por ser instrumento da força com que se mantêm a lei e a propriedade, trazia esta outra nobreza implícita das ações reivindicadoras. Ninguém se metia em tal ofício por desfastio ou estudo; a pobreza, a necessidade de uma achega, a inaptidão para outros trabalhos, o acaso, e alguma vez o gosto de servir também, ainda que por outra via, davam o impulso ao homem que se sentia bastante rijo para pôr ordem à desordem."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "apenas objeto direto, representado pelo vocábulo “lho”.",
+        "b": "objeto direto e objeto indireto, ambos representados pelo vocábulo “lho”.",
+        "c": "objeto direto, representado pelo vocábulo “dinheiro”, e objeto indireto, representado pelo vocábulo “lho”.",
+        "d": "apenas objeto indireto, representado pelo vocábulo “quem”.",
+        "e": "objeto direto, representado pelo vocábulo “dinheiro”, e objeto indireto, representado pelo vocábulo “quem”."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Regência verbal e nominal (emprego do sinal indicativo de crase)",
+            "Sintaxe do período simples (termos essenciais, integrantes e acessórios da oração)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 5
+    },
+    {
+      "numero": 15,
+      "tipo": "objetiva",
+      "enunciado": "Em “Protestava-se com todo o rigor da lei contra quem o acoitasse.” (4º parágrafo), o termo destacado pode ser substituído, sem prejuízo de sentido para o texto, por:",
+      "textos_de_apoio": [
+        "A escravidão levou consigo ofícios e aparelhos, como terá sucedido a outras instituições sociais. Não cito alguns aparelhos senão por se ligarem a certo ofício. Um deles era o ferro ao pescoço, outro o ferro ao pé; havia também a máscara de folha de flandres. A máscara fazia perder o vício da embriaguez aos escravos, por lhes tapar a boca. Tinha só três buracos, dois para ver, um para respirar, e era fechada atrás da cabeça por um cadeado. Com o vício de beber, perdiam a tentação de furtar, porque geralmente era dos vinténs do senhor que eles tiravam com que matar a sede, e aí ficavam dois pecados extintos, e a sobriedade e a honestidade certas. Era grotesca tal máscara, mas a ordem social e humana nem sempre se alcança sem o grotesco, e alguma vez o cruel. Os funileiros as tinham penduradas, à venda, na porta das lojas. Mas não cuidemos de máscaras.\n\nO ferro ao pescoço era aplicado aos escravos fujões. Imaginai uma coleira grossa, com a haste grossa também, à direita ou à esquerda, até ao alto da cabeça e fechada atrás com chave. Pesava, naturalmente, mas era menos castigo que sinal. Escravo que fugia assim, onde quer que andasse, mostrava um reincidente, e com pouco era pego.\n\nHá meio século, os escravos fugiam com frequência. Eram muitos, e nem todos gostavam da escravidão. Sucedia ocasionalmente apanharem pancada, e nem todos gostavam de apanhar pancada. Grande parte era apenas repreendida; havia alguém de casa que servia de padrinho, e o mesmo dono não era mau; além disso, o sentimento da propriedade moderava a ação, porque dinheiro também dói. A fuga repetia-se, entretanto. Casos houve, ainda que raros, em que o escravo de contrabando, apenas comprado no Valongo, deitava a correr, sem conhecer as ruas da cidade. Dos que seguiam para casa, não raro, apenas ladinos, pediam ao senhor que lhes marcasse aluguel, e iam ganhá-lo fora, quitandando.\n\nQuem perdia um escravo por fuga dava algum dinheiro a quem lho levasse. Punha anúncios nas folhas públicas, com os sinais do fugido, o nome, a roupa, o defeito físico, se o tinha, o bairro por onde andava e a quantia de gratificação. Quando não vinha a quantia, vinha promessa: “gratificar-se-á generosamente” – ou “receberá uma boa gratificação”. Muita vez o anúncio trazia em cima ou ao lado uma vinheta, figura de preto, descalço, correndo, vara ao ombro, e na ponta uma trouxa. Protestava-se com todo o rigor da lei contra quem o acoitasse.\n\nOra, pegar escravos fugidios era um ofício do tempo. Não seria nobre, mas por ser instrumento da força com que se mantêm a lei e a propriedade, trazia esta outra nobreza implícita das ações reivindicadoras. Ninguém se metia em tal ofício por desfastio ou estudo; a pobreza, a necessidade de uma achega, a inaptidão para outros trabalhos, o acaso, e alguma vez o gosto de servir também, ainda que por outra via, davam o impulso ao homem que se sentia bastante rijo para pôr ordem à desordem."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "escondesse.",
+        "b": "denunciasse.",
+        "c": "agredisse.",
+        "d": "incentivasse.",
+        "e": "ignorasse."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 6
+    },
+    {
+      "numero": 16,
+      "tipo": "objetiva",
+      "enunciado": "No último parágrafo, “pôr ordem à desordem” significa",
+      "textos_de_apoio": [
+        "A escravidão levou consigo ofícios e aparelhos, como terá sucedido a outras instituições sociais. Não cito alguns aparelhos senão por se ligarem a certo ofício. Um deles era o ferro ao pescoço, outro o ferro ao pé; havia também a máscara de folha de flandres. A máscara fazia perder o vício da embriaguez aos escravos, por lhes tapar a boca. Tinha só três buracos, dois para ver, um para respirar, e era fechada atrás da cabeça por um cadeado. Com o vício de beber, perdiam a tentação de furtar, porque geralmente era dos vinténs do senhor que eles tiravam com que matar a sede, e aí ficavam dois pecados extintos, e a sobriedade e a honestidade certas. Era grotesca tal máscara, mas a ordem social e humana nem sempre se alcança sem o grotesco, e alguma vez o cruel. Os funileiros as tinham penduradas, à venda, na porta das lojas. Mas não cuidemos de máscaras.\n\nO ferro ao pescoço era aplicado aos escravos fujões. Imaginai uma coleira grossa, com a haste grossa também, à direita ou à esquerda, até ao alto da cabeça e fechada atrás com chave. Pesava, naturalmente, mas era menos castigo que sinal. Escravo que fugia assim, onde quer que andasse, mostrava um reincidente, e com pouco era pego.\n\nHá meio século, os escravos fugiam com frequência. Eram muitos, e nem todos gostavam da escravidão. Sucedia ocasionalmente apanharem pancada, e nem todos gostavam de apanhar pancada. Grande parte era apenas repreendida; havia alguém de casa que servia de padrinho, e o mesmo dono não era mau; além disso, o sentimento da propriedade moderava a ação, porque dinheiro também dói. A fuga repetia-se, entretanto. Casos houve, ainda que raros, em que o escravo de contrabando, apenas comprado no Valongo, deitava a correr, sem conhecer as ruas da cidade. Dos que seguiam para casa, não raro, apenas ladinos, pediam ao senhor que lhes marcasse aluguel, e iam ganhá-lo fora, quitandando.\n\nQuem perdia um escravo por fuga dava algum dinheiro a quem lho levasse. Punha anúncios nas folhas públicas, com os sinais do fugido, o nome, a roupa, o defeito físico, se o tinha, o bairro por onde andava e a quantia de gratificação. Quando não vinha a quantia, vinha promessa: “gratificar-se-á generosamente” – ou “receberá uma boa gratificação”. Muita vez o anúncio trazia em cima ou ao lado uma vinheta, figura de preto, descalço, correndo, vara ao ombro, e na ponta uma trouxa. Protestava-se com todo o rigor da lei contra quem o acoitasse.\n\nOra, pegar escravos fugidios era um ofício do tempo. Não seria nobre, mas por ser instrumento da força com que se mantêm a lei e a propriedade, trazia esta outra nobreza implícita das ações reivindicadoras. Ninguém se metia em tal ofício por desfastio ou estudo; a pobreza, a necessidade de uma achega, a inaptidão para outros trabalhos, o acaso, e alguma vez o gosto de servir também, ainda que por outra via, davam o impulso ao homem que se sentia bastante rijo para pôr ordem à desordem."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "estimular os proprietários a tratarem seus escravos com menos rigor.",
+        "b": "conceder a liberdade aos escravos fugidos.",
+        "c": "conceder aos proprietários de escravos fugidos alguma compensação.",
+        "d": "abolir a tortura imposta aos escravos fugidos.",
+        "e": "restituir os escravos fugidos a seus proprietários."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 7
+    },
+    {
+      "numero": 17,
+      "tipo": "objetiva",
+      "enunciado": "De fato, este romance constitui um dos poucos romances cômicos do romantismo nacional, afastando-se dos traços idealizantes que caracterizam boa parte das obras “sérias” dos autores de então. O modo pelo qual este romance pinta a sociedade, representado-a a partir de um ângulo abertamente cômico e satírico, também era relativamente novo nas letras brasileiras do século XIX.\n(Mamede Mustafa Jarouche. “Galhofa sem melancolia”, 2003. Adaptado.)\n\nO comentário refere-se ao romance",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "O cortiço, de Aluísio Azevedo.",
+        "b": "Memórias póstumas de Brás Cubas, de Machado de Assis.",
+        "c": "Memórias de um sargento de milícias, de Manuel Antônio de Almeida.",
+        "d": "Iracema, de José de Alencar.",
+        "e": "Macunaíma, de Mário de Andrade."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Literatura Brasileira: Quinhentismo, Barroco (Gregório de Matos), Arcadismo, Romantismo, Realismo/Naturalismo (Machado de Assis), Parnasianismo e Simbolismo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 7
+    },
+    {
+      "numero": 18,
+      "tipo": "objetiva",
+      "enunciado": "A “introdução da referência ao código, como um de seus elementos, na própria mensagem codificada” constitui um exemplo de",
+      "textos_de_apoio": [
+        "Numa antiga anedota que circulava na hoje falecida República Democrática Alemã, um operário alemão consegue um emprego na Sibéria; sabendo que toda correspondência será lida pelos censores, ele combina com os amigos: “Vamos combinar um código: se uma carta estiver escrita em tinta azul, o que ela diz é verdade; se estiver escrita em tinta vermelha, tudo é mentira.” Um mês depois, os amigos recebem uma carta escrita em tinta azul: “Tudo aqui é maravilhoso: as lojas vivem cheias, a comida é abundante, os apartamentos são grandes e bem aquecidos, os cinemas exibem filmes do Ocidente, há muitas garotas, sempre prontas para um programa – o único senão é que não se consegue encontrar tinta vermelha.” Neste caso, a estrutura é mais refinada do que indicam as aparências: apesar de não ter como usar o código combinado para indicar que tudo o que está dito é mentira, mesmo assim ele consegue passar a mensagem. Como? Pela introdução da referência ao código, como um de seus elementos, na própria mensagem codificada."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "eufemismo.",
+        "b": "metalinguagem.",
+        "c": "intertextualidade.",
+        "d": "hipérbole.",
+        "e": "pleonasmo."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Tipologias textuais (narração, descrição, dissertação) e gêneros textuais variados",
+            "Figuras de linguagem (metáfora, metonímia, antítese, paradoxo, hipérbole, ironia)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 7
+    },
+    {
+      "numero": 19,
+      "tipo": "objetiva",
+      "enunciado": "“Um mês depois, os amigos recebem uma carta escrita em tinta azul [...]”\n\nAssinale a alternativa que expressa, na voz passiva, o conteúdo dessa oração.",
+      "textos_de_apoio": [
+        "Numa antiga anedota que circulava na hoje falecida República Democrática Alemã, um operário alemão consegue um emprego na Sibéria; sabendo que toda correspondência será lida pelos censores, ele combina com os amigos: “Vamos combinar um código: se uma carta estiver escrita em tinta azul, o que ela diz é verdade; se estiver escrita em tinta vermelha, tudo é mentira.” Um mês depois, os amigos recebem uma carta escrita em tinta azul: “Tudo aqui é maravilhoso: as lojas vivem cheias, a comida é abundante, os apartamentos são grandes e bem aquecidos, os cinemas exibem filmes do Ocidente, há muitas garotas, sempre prontas para um programa – o único senão é que não se consegue encontrar tinta vermelha.” Neste caso, a estrutura é mais refinada do que indicam as aparências: apesar de não ter como usar o código combinado para indicar que tudo o que está dito é mentira, mesmo assim ele consegue passar a mensagem. Como? Pela introdução da referência ao código, como um de seus elementos, na própria mensagem codificada."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "Um mês depois, uma carta escrita em tinta azul seria recebida pelos amigos.",
+        "b": "Os amigos deveriam ter recebido, um mês depois, uma carta escrita em tinta azul.",
+        "c": "Um mês depois, uma carta escrita em tinta azul foi recebida pelos amigos.",
+        "d": "Um mês depois, uma carta escrita em tinta azul é recebida pelos amigos.",
+        "e": "Os amigos receberiam, um mês depois, uma carta escrita em tinta azul."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Flexão nominal e flexão verbal (tempos, modos, vozes e correlação verbal)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 7
+    },
+    {
+      "numero": 20,
+      "tipo": "objetiva",
+      "enunciado": "Na Europa, os artistas continuam a explorar caminhos traçados pelos primeiros pintores abstratos. Mas a abstração desses artistas não é geométrica: sua pintura não representa nenhuma realidade, tampouco procura reproduzir formas precisas. Cada artista inventa sua própria linguagem. Cores, formas e luz são exploradas, desenvolvidas e invadem as telas. Traços vivos e dinâmicos... Para cada um, uma abstração, um lirismo.\n(Christian Demilly. Arte em movimentos e outras correntes do século XX, 2016. Adaptado.)\n\nO comentário do historiador Christian Demilly aplica-se à obra reproduzida em:",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 8: Reprodução da obra de Tom Wesselmann (Natureza-morta, 1962).",
+        "Página 8: Reprodução da obra de Franz Marc (Cavalo numa paisagem, 1910).",
+        "Página 8: Reprodução da obra de Kazimir Malevich (Quadrado negro, 1923).",
+        "Página 8: Reprodução da obra de Joan Miró (Azul II, 1961).",
+        "Página 8: Reprodução da obra de Sonia Delaunay (Ritmo, 1938)."
+      ],
+      "alternativas": {
+        "a": "(Tom Wesselmann. Natureza-morta, 1962.)",
+        "b": "(Franz Marc. Cavalo numa paisagem, 1910.)",
+        "c": "(Kazimir Malevich. Quadrado negro, 1923.)",
+        "d": "(Joan Miró. Azul II, 1961.)",
+        "e": "(Sonia Delaunay. Ritmo, 1938.)"
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Filosofia e Sociologia",
+          "assuntos": [
+            "Estética: conceitos de arte, natureza e Indústria Cultural no mundo contemporâneo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 8
+    },
+    {
+      "numero": 21,
+      "tipo": "objetiva",
+      "enunciado": "According to the cartoon, Shep",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 9: Tira em quadrinhos em inglês mostrando um cão (Shep) conversando com um humano."
+      ],
+      "alternativas": {
+        "a": "considers his friend boring.",
+        "b": "thinks that humans are dumb.",
+        "c": "believes animals are inarticulate.",
+        "d": "agrees with what his friend said about animals.",
+        "e": "feels insulted because he thinks he is a human."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 9
+    },
+    {
+      "numero": 22,
+      "tipo": "objetiva",
+      "enunciado": "Assinale a alternativa que completa a lacuna da tira.",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 9: Tira em quadrinhos em inglês mostrando um cão (Shep) conversando com um humano."
+      ],
+      "alternativas": {
+        "a": "must",
+        "b": "am going to",
+        "c": "can",
+        "d": "have been",
+        "e": "would"
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Verbos modais e seus valores semânticos (can, could, should, must, may, might)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 9
+    },
+    {
+      "numero": 23,
+      "tipo": "objetiva",
+      "enunciado": "No trecho do terceiro quadrinho “We’re not that dumb!”, o termo em destaque pode ser substituído, sem alteração de sentido, por",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 9: Tira em quadrinhos em inglês mostrando um cão (Shep) conversando com um humano."
+      ],
+      "alternativas": {
+        "a": "so.",
+        "b": "which.",
+        "c": "over.",
+        "d": "more.",
+        "e": "quite."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 9
+    },
+    {
+      "numero": 24,
+      "tipo": "objetiva",
+      "enunciado": "According to the first and second paragraphs, the brain performance peaks in late morning because",
+      "textos_de_apoio": [
+        "When does the brain work best? The peak times and ages for learning\n\nWhat’s your ideal time of the day for brain performance? Surprisingly, the answer to this isn’t as simple as being a morning or a night person. New research has shown that certain times of the day are best for completing specific tasks, and listening to your body’s natural clock may help you to accomplish more in 24 hours.\n\nScience suggests that the best time for our natural peak productivity is late morning. Our body temperatures start to rise just before we wake up in the morning and continue to increase through midday, Steve Kay, a professor of molecular and computational biology at the University of Southern California told The Wall Street Journal. This gradual increase in body temperature means that our working memory, alertness, and concentration also gradually improve, peaking at about mid morning. Our alertness tends to dip after this point, but one study suggested that midday fatigue may actually boost our creative abilities. For a 2011 study, 428 students were asked to solve a series of two types of problems, requiring either analytical or novel thinking. Results showed that their performance on the second type was best at non-peak times of day when they were tired.\n\nAs for the age where our brains are at peak condition, science has long held that fluid intelligence, or the ability to think quickly and recall information, peaks at around age 20. However, a 2015 study revealed that peak brain age is far more complicated than previously believed and concluded that there are about 30 subsets of intelligence, all of which peak at different ages for different people. For example, the study found that raw speed in processing information appears to peak around age 18 or 19, then immediately starts to decline, but short-term memory continues to improve until around age 25, and then begins to drop around age 35, Medical Xpress reported. The ability to evaluate other people’s emotional states peaked much later, in the 40s or 50s. In addition, the study suggested that out our vocabulary may peak as late as our 60s’s or 70’s.\n\nStill, while working according to your body’s natural clock may sound helpful, it’s important to remember that these times may differ from person to person. On average, people can be divided into two distinct groups: morning people tend to wake up and go to sleep earlier and to be most productive early in the day. Evening people tend to wake up later, start more slowly and peak in the evening. If being a morning or evening person has been working for you the majority of your life, it may be best to not fix what’s not broken."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "body temperature gets higher at this time of the day.",
+        "b": "specific tasks stimulate the brain.",
+        "c": "most people wake up quite early.",
+        "d": "it’s easier to solve problems in the morning than at midday.",
+        "e": "human natural rhythm reaches a steady level."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 10
+    },
+    {
+      "numero": 25,
+      "tipo": "objetiva",
+      "enunciado": "According to the second paragraph, the 2011 study showed that",
+      "textos_de_apoio": [
+        "When does the brain work best? The peak times and ages for learning\n\nWhat’s your ideal time of the day for brain performance? Surprisingly, the answer to this isn’t as simple as being a morning or a night person. New research has shown that certain times of the day are best for completing specific tasks, and listening to your body’s natural clock may help you to accomplish more in 24 hours.\n\nScience suggests that the best time for our natural peak productivity is late morning. Our body temperatures start to rise just before we wake up in the morning and continue to increase through midday, Steve Kay, a professor of molecular and computational biology at the University of Southern California told The Wall Street Journal. This gradual increase in body temperature means that our working memory, alertness, and concentration also gradually improve, peaking at about mid morning. Our alertness tends to dip after this point, but one study suggested that midday fatigue may actually boost our creative abilities. For a 2011 study, 428 students were asked to solve a series of two types of problems, requiring either analytical or novel thinking. Results showed that their performance on the second type was best at non-peak times of day when they were tired.\n\nAs for the age where our brains are at peak condition, science has long held that fluid intelligence, or the ability to think quickly and recall information, peaks at around age 20. However, a 2015 study revealed that peak brain age is far more complicated than previously believed and concluded that there are about 30 subsets of intelligence, all of which peak at different ages for different people. For example, the study found that raw speed in processing information appears to peak around age 18 or 19, then immediately starts to decline, but short-term memory continues to improve until around age 25, and then begins to drop around age 35, Medical Xpress reported. The ability to evaluate other people’s emotional states peaked much later, in the 40s or 50s. In addition, the study suggested that out our vocabulary may peak as late as our 60s’s or 70’s.\n\nStill, while working according to your body’s natural clock may sound helpful, it’s important to remember that these times may differ from person to person. On average, people can be divided into two distinct groups: morning people tend to wake up and go to sleep earlier and to be most productive early in the day. Evening people tend to wake up later, start more slowly and peak in the evening. If being a morning or evening person has been working for you the majority of your life, it may be best to not fix what’s not broken."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "both analytical and novel thinking were better accomplished before midday.",
+        "b": "most people feel a midday fatigue.",
+        "c": "alertness quickly decreases after the brain peaks.",
+        "d": "most of the 428 students felt tired early in the morning.",
+        "e": "novel thinking was better when the brain was at non-peak times."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 10
+    },
+    {
+      "numero": 26,
+      "tipo": "objetiva",
+      "enunciado": "De acordo com o terceiro parágrafo, o estudo de 2015",
+      "textos_de_apoio": [
+        "When does the brain work best? The peak times and ages for learning\n\nWhat’s your ideal time of the day for brain performance? Surprisingly, the answer to this isn’t as simple as being a morning or a night person. New research has shown that certain times of the day are best for completing specific tasks, and listening to your body’s natural clock may help you to accomplish more in 24 hours.\n\nScience suggests that the best time for our natural peak productivity is late morning. Our body temperatures start to rise just before we wake up in the morning and continue to increase through midday, Steve Kay, a professor of molecular and computational biology at the University of Southern California told The Wall Street Journal. This gradual increase in body temperature means that our working memory, alertness, and concentration also gradually improve, peaking at about mid morning. Our alertness tends to dip after this point, but one study suggested that midday fatigue may actually boost our creative abilities. For a 2011 study, 428 students were asked to solve a series of two types of problems, requiring either analytical or novel thinking. Results showed that their performance on the second type was best at non-peak times of day when they were tired.\n\nAs for the age where our brains are at peak condition, science has long held that fluid intelligence, or the ability to think quickly and recall information, peaks at around age 20. However, a 2015 study revealed that peak brain age is far more complicated than previously believed and concluded that there are about 30 subsets of intelligence, all of which peak at different ages for different people. For example, the study found that raw speed in processing information appears to peak around age 18 or 19, then immediately starts to decline, but short-term memory continues to improve until around age 25, and then begins to drop around age 35, Medical Xpress reported. The ability to evaluate other people’s emotional states peaked much later, in the 40s or 50s. In addition, the study suggested that out our vocabulary may peak as late as our 60s’s or 70’s.\n\nStill, while working according to your body’s natural clock may sound helpful, it’s important to remember that these times may differ from person to person. On average, people can be divided into two distinct groups: morning people tend to wake up and go to sleep earlier and to be most productive early in the day. Evening people tend to wake up later, start more slowly and peak in the evening. If being a morning or evening person has been working for you the majority of your life, it may be best to not fix what’s not broken."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "confirma que o vocabulário das pessoas se desenvolve até cerca dos 60 anos de idade.",
+        "b": "infere que o processo de elaboração da inteligência emocional dura a vida toda.",
+        "c": "contradiz a ideia de que a inteligência fluida atinge o ápice por volta dos 20 anos de idade.",
+        "d": "mostra que a velocidade de processamento de informações no cérebro atinge o máximo dos 25 aos 35 anos.",
+        "e": "demonstra que vários tipos de inteligência se desenvolvem aos 30 anos de idade."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 10
+    },
+    {
+      "numero": 27,
+      "tipo": "objetiva",
+      "enunciado": "No trecho do terceiro parágrafo “However, a 2015 study revealed”, o termo em destaque pode ser substituído, sem alteração de sentido, por",
+      "textos_de_apoio": [
+        "When does the brain work best? The peak times and ages for learning\n\nWhat’s your ideal time of the day for brain performance? Surprisingly, the answer to this isn’t as simple as being a morning or a night person. New research has shown that certain times of the day are best for completing specific tasks, and listening to your body’s natural clock may help you to accomplish more in 24 hours.\n\nScience suggests that the best time for our natural peak productivity is late morning. Our body temperatures start to rise just before we wake up in the morning and continue to increase through midday, Steve Kay, a professor of molecular and computational biology at the University of Southern California told The Wall Street Journal. This gradual increase in body temperature means that our working memory, alertness, and concentration also gradually improve, peaking at about mid morning. Our alertness tends to dip after this point, but one study suggested that midday fatigue may actually boost our creative abilities. For a 2011 study, 428 students were asked to solve a series of two types of problems, requiring either analytical or novel thinking. Results showed that their performance on the second type was best at non-peak times of day when they were tired.\n\nAs for the age where our brains are at peak condition, science has long held that fluid intelligence, or the ability to think quickly and recall information, peaks at around age 20. However, a 2015 study revealed that peak brain age is far more complicated than previously believed and concluded that there are about 30 subsets of intelligence, all of which peak at different ages for different people. For example, the study found that raw speed in processing information appears to peak around age 18 or 19, then immediately starts to decline, but short-term memory continues to improve until around age 25, and then begins to drop around age 35, Medical Xpress reported. The ability to evaluate other people’s emotional states peaked much later, in the 40s or 50s. In addition, the study suggested that out our vocabulary may peak as late as our 60s’s or 70’s.\n\nStill, while working according to your body’s natural clock may sound helpful, it’s important to remember that these times may differ from person to person. On average, people can be divided into two distinct groups: morning people tend to wake up and go to sleep earlier and to be most productive early in the day. Evening people tend to wake up later, start more slowly and peak in the evening. If being a morning or evening person has been working for you the majority of your life, it may be best to not fix what’s not broken."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "although.",
+        "b": "nevertheless.",
+        "c": "inasmuch.",
+        "d": "meanwhile.",
+        "e": "whatever."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Marcadores discursivos e conectivos (conjunções de adição, contraste, causa, consequência e condição)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 10
+    },
+    {
+      "numero": 28,
+      "tipo": "objetiva",
+      "enunciado": "As informações apresentadas no quarto parágrafo",
+      "textos_de_apoio": [
+        "When does the brain work best? The peak times and ages for learning\n\nWhat’s your ideal time of the day for brain performance? Surprisingly, the answer to this isn’t as simple as being a morning or a night person. New research has shown that certain times of the day are best for completing specific tasks, and listening to your body’s natural clock may help you to accomplish more in 24 hours.\n\nScience suggests that the best time for our natural peak productivity is late morning. Our body temperatures start to rise just before we wake up in the morning and continue to increase through midday, Steve Kay, a professor of molecular and computational biology at the University of Southern California told The Wall Street Journal. This gradual increase in body temperature means that our working memory, alertness, and concentration also gradually improve, peaking at about mid morning. Our alertness tends to dip after this point, but one study suggested that midday fatigue may actually boost our creative abilities. For a 2011 study, 428 students were asked to solve a series of two types of problems, requiring either analytical or novel thinking. Results showed that their performance on the second type was best at non-peak times of day when they were tired.\n\nAs for the age where our brains are at peak condition, science has long held that fluid intelligence, or the ability to think quickly and recall information, peaks at around age 20. However, a 2015 study revealed that peak brain age is far more complicated than previously believed and concluded that there are about 30 subsets of intelligence, all of which peak at different ages for different people. For example, the study found that raw speed in processing information appears to peak around age 18 or 19, then immediately starts to decline, but short-term memory continues to improve until around age 25, and then begins to drop around age 35, Medical Xpress reported. The ability to evaluate other people’s emotional states peaked much later, in the 40s or 50s. In addition, the study suggested that out our vocabulary may peak as late as our 60s’s or 70’s.\n\nStill, while working according to your body’s natural clock may sound helpful, it’s important to remember that these times may differ from person to person. On average, people can be divided into two distinct groups: morning people tend to wake up and go to sleep earlier and to be most productive early in the day. Evening people tend to wake up later, start more slowly and peak in the evening. If being a morning or evening person has been working for you the majority of your life, it may be best to not fix what’s not broken."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "indicam que o grupo das pessoas que acordam cedo tem melhor desempenho no trabalho.",
+        "b": "alertam que as pessoas com hábitos noturnos podem ter dificuldades de adaptação às atividades criativas.",
+        "c": "afirmam que quem acorda tarde, geralmente, tem raciocínio lento.",
+        "d": "relativizam o estudo que afirma que o final da manhã é o melhor período para a atividade cerebral.",
+        "e": "revelam que, mesmo considerando as diferenças individuais, há dois tipos de raciocínio analítico."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 11
+    },
+    {
+      "numero": 29,
+      "tipo": "objetiva",
+      "enunciado": "No trecho do quarto parágrafo “while working according to your body’s natural clock”, o termo em destaque tem sentido, em português, de",
+      "textos_de_apoio": [
+        "When does the brain work best? The peak times and ages for learning\n\nWhat’s your ideal time of the day for brain performance? Surprisingly, the answer to this isn’t as simple as being a morning or a night person. New research has shown that certain times of the day are best for completing specific tasks, and listening to your body’s natural clock may help you to accomplish more in 24 hours.\n\nScience suggests that the best time for our natural peak productivity is late morning. Our body temperatures start to rise just before we wake up in the morning and continue to increase through midday, Steve Kay, a professor of molecular and computational biology at the University of Southern California told The Wall Street Journal. This gradual increase in body temperature means that our working memory, alertness, and concentration also gradually improve, peaking at about mid morning. Our alertness tends to dip after this point, but one study suggested that midday fatigue may actually boost our creative abilities. For a 2011 study, 428 students were asked to solve a series of two types of problems, requiring either analytical or novel thinking. Results showed that their performance on the second type was best at non-peak times of day when they were tired.\n\nAs for the age where our brains are at peak condition, science has long held that fluid intelligence, or the ability to think quickly and recall information, peaks at around age 20. However, a 2015 study revealed that peak brain age is far more complicated than previously believed and concluded that there are about 30 subsets of intelligence, all of which peak at different ages for different people. For example, the study found that raw speed in processing information appears to peak around age 18 or 19, then immediately starts to decline, but short-term memory continues to improve until around age 25, and then begins to drop around age 35, Medical Xpress reported. The ability to evaluate other people’s emotional states peaked much later, in the 40s or 50s. In addition, the study suggested that out our vocabulary may peak as late as our 60s’s or 70’s.\n\nStill, while working according to your body’s natural clock may sound helpful, it’s important to remember that these times may differ from person to person. On average, people can be divided into two distinct groups: morning people tend to wake up and go to sleep earlier and to be most productive early in the day. Evening people tend to wake up later, start more slowly and peak in the evening. If being a morning or evening person has been working for you the majority of your life, it may be best to not fix what’s not broken."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "quando.",
+        "b": "durante.",
+        "c": "sobretudo.",
+        "d": "mesmo que.",
+        "e": "devido a."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Marcadores discursivos e conectivos (conjunções de adição, contraste, causa, consequência e condição)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 11
+    },
+    {
+      "numero": 30,
+      "tipo": "objetiva",
+      "enunciado": "O trecho do quarto parágrafo “it may be best to not fix what’s not broken” equivale, em português, à seguinte ideia:",
+      "textos_de_apoio": [
+        "When does the brain work best? The peak times and ages for learning\n\nWhat’s your ideal time of the day for brain performance? Surprisingly, the answer to this isn’t as simple as being a morning or a night person. New research has shown that certain times of the day are best for completing specific tasks, and listening to your body’s natural clock may help you to accomplish more in 24 hours.\n\nScience suggests that the best time for our natural peak productivity is late morning. Our body temperatures start to rise just before we wake up in the morning and continue to increase through midday, Steve Kay, a professor of molecular and computational biology at the University of Southern California told The Wall Street Journal. This gradual increase in body temperature means that our working memory, alertness, and concentration also gradually improve, peaking at about mid morning. Our alertness tends to dip after this point, but one study suggested that midday fatigue may actually boost our creative abilities. For a 2011 study, 428 students were asked to solve a series of two types of problems, requiring either analytical or novel thinking. Results showed that their performance on the second type was best at non-peak times of day when they were tired.\n\nAs for the age where our brains are at peak condition, science has long held that fluid intelligence, or the ability to think quickly and recall information, peaks at around age 20. However, a 2015 study revealed that peak brain age is far more complicated than previously believed and concluded that there are about 30 subsets of intelligence, all of which peak at different ages for different people. For example, the study found that raw speed in processing information appears to peak around age 18 or 19, then immediately starts to decline, but short-term memory continues to improve until around age 25, and then begins to drop around age 35, Medical Xpress reported. The ability to evaluate other people’s emotional states peaked much later, in the 40s or 50s. In addition, the study suggested that out our vocabulary may peak as late as our 60s’s or 70’s.\n\nStill, while working according to your body’s natural clock may sound helpful, it’s important to remember that these times may differ from person to person. On average, people can be divided into two distinct groups: morning people tend to wake up and go to sleep earlier and to be most productive early in the day. Evening people tend to wake up later, start more slowly and peak in the evening. If being a morning or evening person has been working for you the majority of your life, it may be best to not fix what’s not broken."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "é melhor prevenir do que remediar.",
+        "b": "vaso ruim não quebra.",
+        "c": "uma vez quebrado, não adianta consertar.",
+        "d": "se não tem solução, solucionado está.",
+        "e": "não se mexe em time que está ganhando."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 11
+    },
+    {
+      "numero": 31,
+      "tipo": "objetiva",
+      "enunciado": "O mapa do Império Romano na época de Augusto (27 a.C.–14 d.C.) demonstra",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 11: Mapa do Império Romano na época de Augusto."
+      ],
+      "alternativas": {
+        "a": "a dificuldade das tropas romanas de avançar sobre territórios da África e a concentração dos domínios imperiais no continente europeu.",
+        "b": "a resistência do Egito e de Cartago, que conseguiram impedir o avanço romano sobre seus territórios.",
+        "c": "a conformação do maior império da Antiguidade e a imposição do poder romano sobre os chineses e indianos.",
+        "d": "a iminência de conflitos religiosos, resultantes da tensão provocada pela conquista de Jerusalém pelos cristãos.",
+        "e": "a importância do Mar Mediterrâneo para a expansão imperial e para a circulação entre as áreas de hegemonia romana."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Antiguidade Clássica: democracia ateniense, República/Império Romano e escravismo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 11
+    },
+    {
+      "numero": 32,
+      "tipo": "objetiva",
+      "enunciado": "A migração de Maomé e seus seguidores, em 622, de Meca para Medina permitiu a consolidação da religião muçulmana que incluía, entre outros princípios,",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "a recomendação de que os muçulmanos não escravizassem ou atacassem outros muçulmanos, pois eles pertencem à mesma irmandade de fé.",
+        "b": "a proibição de que os muçulmanos exercessem atividades comerciais, pois o manejo cotidiano de riquezas era considerado impuro.",
+        "c": "a proibição de que os muçulmanos visitassem Meca, pois o solo puro e sagrado dessa cidade deveria permanecer intocado.",
+        "d": "a recomendação de que os muçulmanos não limitassem seu culto a um só Deus, pois o criador multiplica-se em diversas formas e faces.",
+        "e": "a proibição de que os muçulmanos saíssem da Península Arábica, pois eles sofriam perseguições em outros territórios."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Período Medieval: feudalismo, diversidade religiosa (cristianismo, islamismo, judaísmo) e vida cultural no Medievo europeu e africano"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 11
+    },
+    {
+      "numero": 33,
+      "tipo": "objetiva",
+      "enunciado": "A afirmação de que os primeiros traços da presença europeia na América foram “o prelúdio da ocidentalização” e “uma das primeiras etapas da globalização” é correta porque a conquista do continente americano representou",
+      "textos_de_apoio": [
+        "Em 1500, fazia oito anos que havia presença europeia no Caribe: uma primeira tentativa de colonização que ninguém na época podia imaginar que seria o prelúdio da conquista e da ocidentalização de todo um continente e até, na realidade, uma das primeiras etapas da globalização.\n\nA aventura das ilhas foi exemplar para toda a América, espanhola, inglesa ou portuguesa, pois ali se desenvolveu um roteiro que se reproduziu em várias outras regiões do continente americano: caos e esbanjamento, incompetência e desperdício, indiferença, massacres e epidemias. A experiência serviu pelo menos de lição à coroa espanhola, que tentou praticar no resto de suas possessões americanas uma política mais racional de dominação e de exploração dos vencidos: a instalação de uma Igreja poderosa, dominadora e próxima dos autóctones, assim como a instalação de uma rede administrativa densa e o envio de funcionários zelosos, que evitaram a repetição da catástrofe antilhana."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "a definição da superioridade militar e religiosa do Ocidente cristão e o início da perseguição sistemática a judeus e muçulmanos.",
+        "b": "a demonstração da teoria de Cristóvão Colombo sobre a esfericidade da Terra e o fracasso dos novos instrumentos de navegação.",
+        "c": "o encerramento das relações comerciais da Europa com o Oriente e o imediato declínio da venda das especiarias produzidas na Índia.",
+        "d": "o encontro e o choque entre culturas e o gradual deslocamento do eixo do comércio mundial para o Oceano Atlântico.",
+        "e": "o avanço da monetarização da economia e o lançamento de projetos de regulação e controle centralizado do comércio internacional."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Grandes Navegações, espaço atlântico, reinos africanos e tráfico de escravizados"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 12
+    },
+    {
+      "numero": 34,
+      "tipo": "objetiva",
+      "enunciado": "Os problemas ocorridos na colonização das ilhas do Caribe podem ser considerados “exemplares para toda a América”, pois geraram",
+      "textos_de_apoio": [
+        "Em 1500, fazia oito anos que havia presença europeia no Caribe: uma primeira tentativa de colonização que ninguém na época podia imaginar que seria o prelúdio da conquista e da ocidentalização de todo um continente e até, na realidade, uma das primeiras etapas da globalização.\n\nA aventura das ilhas foi exemplar para toda a América, espanhola, inglesa ou portuguesa, pois ali se desenvolveu um roteiro que se reproduziu em várias outras regiões do continente americano: caos e esbanjamento, incompetência e desperdício, indiferença, massacres e epidemias. A experiência serviu pelo menos de lição à coroa espanhola, que tentou praticar no resto de suas possessões americanas uma política mais racional de dominação e de exploração dos vencidos: a instalação de uma Igreja poderosa, dominadora e próxima dos autóctones, assim como a instalação de uma rede administrativa densa e o envio de funcionários zelosos, que evitaram a repetição da catástrofe antilhana."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "a identificação de uma grande oportunidade, para nativos e europeus, de conviver com outros povos e desenvolver a tolerância e o respeito a valores morais e culturais diferentes.",
+        "b": "o temor, nos indígenas, diante da ambição europeia e a percepção, pelos europeus, da dificuldade de estruturar o empreendimento colonial e manter o controle de terras e povos tão distantes.",
+        "c": "o início de um longo conflito entre os europeus e as populações nativas, que provocou perdas humanas e financeiras nos dois lados, inviabilizando a exploração comercial da América.",
+        "d": "a formação de uma elite colonial que recusava submeter-se às ordens das coroas europeias e dispunha de plena autonomia na produção e comercialização das mercadorias.",
+        "e": "o reconhecimento, pelos europeus, da necessidade de instalação de feitorias no litoral para a segurança dos viajantes e a aceitação, pelos nativos, da hegemonia dos conquistadores."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Grandes Navegações, espaço atlântico, reinos africanos e tráfico de escravizados",
+            "Colonização espanhola, inglesa, francesa e holandesa na América"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 12
+    },
+    {
+      "numero": 35,
+      "tipo": "objetiva",
+      "enunciado": "As epidemias provocadas pelos contatos entre europeus e povos autóctones da América",
+      "textos_de_apoio": [
+        "Em 1500, fazia oito anos que havia presença europeia no Caribe: uma primeira tentativa de colonização que ninguém na época podia imaginar que seria o prelúdio da conquista e da ocidentalização de todo um continente e até, na realidade, uma das primeiras etapas da globalização.\n\nA aventura das ilhas foi exemplar para toda a América, espanhola, inglesa ou portuguesa, pois ali se desenvolveu um roteiro que se reproduziu em várias outras regiões do continente americano: caos e esbanjamento, incompetência e desperdício, indiferença, massacres e epidemias. A experiência serviu pelo menos de lição à coroa espanhola, que tentou praticar no resto de suas possessões americanas uma política mais racional de dominação e de exploração dos vencidos: a instalação de uma Igreja poderosa, dominadora e próxima dos autóctones, assim como a instalação de uma rede administrativa densa e o envio de funcionários zelosos, que evitaram a repetição da catástrofe antilhana."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "demonstraram o risco da expansão territorial para áreas distantes e determinaram o imediato desenvolvimento de vacinas.",
+        "b": "representaram uma espécie de guerra biológica que afetou, ainda que de forma desigual, conquistadores e conquistados.",
+        "c": "provocaram a interdição, pelas cortes europeias, da circulação de mulheres grávidas entre os dois continentes.",
+        "d": "foram utilizadas pelos nativos para impedir o avanço dos europeus, que contraíram doenças tropicais, como a febre amarela e a malária.",
+        "e": "levaram à proibição, pelas cortes europeias, do contato sexual entre europeus e nativos, para impedir a propagação da sífilis."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Grandes Navegações, espaço atlântico, reinos africanos e tráfico de escravizados"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 12
+    },
+    {
+      "numero": 36,
+      "tipo": "objetiva",
+      "enunciado": "“A instalação de uma Igreja poderosa, dominadora e próxima dos autóctones” contribuiu para a dominação espanhola e portuguesa da América, uma vez que os religiosos",
+      "textos_de_apoio": [
+        "Em 1500, fazia oito anos que havia presença europeia no Caribe: uma primeira tentativa de colonização que ninguém na época podia imaginar que seria o prelúdio da conquista e da ocidentalização de todo um continente e até, na realidade, uma das primeiras etapas da globalização.\n\nA aventura das ilhas foi exemplar para toda a América, espanhola, inglesa ou portuguesa, pois ali se desenvolveu um roteiro que se reproduziu em várias outras regiões do continente americano: caos e esbanjamento, incompetência e desperdício, indiferença, massacres e epidemias. A experiência serviu pelo menos de lição à coroa espanhola, que tentou praticar no resto de suas possessões americanas uma política mais racional de dominação e de exploração dos vencidos: a instalação de uma Igreja poderosa, dominadora e próxima dos autóctones, assim como a instalação de uma rede administrativa densa e o envio de funcionários zelosos, que evitaram a repetição da catástrofe antilhana."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "mediaram os conflitos entre grupos indígenas rivais e asseguraram o estabelecimento de relações amistosas destes com os colonizadores.",
+        "b": "aceitaram a imposição de tributos às comunidades indígenas, mas impediram a utilização de nativos na agricultura e na mineração.",
+        "c": "toleraram as religiosidades dos povos nativos e assim conseguiram convencê-los a colaborar com o avanço da colonização.",
+        "d": "rejeitaram os regimes de trabalho compulsório, mas estimularam o emprego de mão de obra indígena em obras públicas.",
+        "e": "desenvolveram missões de cristianização dos nativos e facilitaram o emprego de mão de obra indígena na empresa colonial."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Brasil Colônia: primeiros habitantes indígenas, ocupação territorial, ciclos econômicos (açúcar e ouro) e escravidão",
+            "Colonização espanhola, inglesa, francesa e holandesa na América"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 12
+    },
+    {
+      "numero": 37,
+      "tipo": "objetiva",
+      "enunciado": "É correto interpretar a charge, que representa D. Pedro II e foi publicada em 1887, como uma",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 13: Charge de Agostini (05.02.1887) representando D. Pedro II."
+      ],
+      "alternativas": {
+        "a": "demonstração da exaustão provocada pela diversidade de atividades exercidas pelo imperador.",
+        "b": "valorização do esforço do imperador em manter-se atualizado em relação ao que acontecia no país.",
+        "c": "crítica à passividade e à inoperância do imperador em meio a um período de dificuldades no país.",
+        "d": "denúncia da baixa qualidade da imprensa monárquica e de suas insistentes críticas ao imperador.",
+        "e": "celebração da serenidade e harmonia das relações sociais no país durante o Império."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Brasil Imperial: Independência, Primeiro Reinado, Período Regencial e Segundo Reinado"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 13
+    },
+    {
+      "numero": 38,
+      "tipo": "objetiva",
+      "enunciado": "Entre as manifestações místicas presentes no Nordeste brasileiro no final do Império e nas primeiras décadas da República, identificam-se",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "as pregações do Padre Ibiapina, relacionadas à defesa do protestantismo calvinista, e a literatura de cordel, que cantava os mitos e as lendas da região.",
+        "b": "o cangaço, que realizava saques a armazéns para roubar alimentos e distribuí-los aos famintos, e o coronelismo, com suas práticas assistencialistas.",
+        "c": "a liderança do Padre Cícero, vinculada à dinâmica política tradicional da região, e o movimento de Canudos, com características de contestação social.",
+        "d": "a peregrinação de multidões a Juazeiro do Norte, para pedir graças aos padres milagreiros, e a liderança messiânica do fazendeiro pernambucano Delmiro Gouveia.",
+        "e": "a ação catequizadora de padres e bispos ligados à Igreja católica e a atuação do líder José Maria, que comandou a resistência na região do Contestado."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Brasil República: República Velha (oligarquias), Era Vargas (1930-1945), Período Democrático (1945-1964) e Ditadura Civil-Militar (1964-1985)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 13
+    },
+    {
+      "numero": 39,
+      "tipo": "objetiva",
+      "enunciado": "O artigo 27 da Constituição elaborada ao final da Revolução Mexicana dispõe sobre a propriedade de terra e",
+      "textos_de_apoio": [
+        "A Nação terá em qualquer tempo o direito de impor à propriedade privada as modalidades ditadas pelo interesse público [...]. Com esse objetivo serão determinadas as medidas necessárias ao fracionamento dos latifúndios [...]. Os povoados, vilarejos e comunidades que careçam de terras e águas ou não as tenham em quantidades suficientes para as necessidades de sua população terão direito a elas, tomando-as das propriedades vizinhas, porém respeitando, sempre, a pequena propriedade.\n(Artigo 27 da Constituição mexicana de 1917. Apud Héctor H. Bruit. Revoluções na América Latina, 1988.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "contempla parcialmente as reivindicações dos movimentos camponeses e indígenas, por distribuição de terras.",
+        "b": "representa a vitória dos projetos defendidos pelos setores operários e camponeses vinculados a grupos socialistas e anarquistas.",
+        "c": "expõe o avanço do projeto liberal burguês e de sua concepção de desenvolvimento de uma agricultura integralmente voltada à exportação.",
+        "d": "restabelece a hegemonia sociopolítica dos grandes proprietários rurais e da Igreja católica, que havia sido abalada nos anos de luta.",
+        "e": "corresponde aos interesses dos grandes conglomerados norte-americanos, que se instalaram no país durante o período do porfirismo."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "EUA e América Latina: Doutrina Monroe, Big Stick, Revolução Mexicana e regimes civil-militares"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 14
+    },
+    {
+      "numero": 40,
+      "tipo": "objetiva",
+      "enunciado": "O texto apresenta características do movimento",
+      "textos_de_apoio": [
+        "A corporação tem como objetivo aumentar sempre o poder global da Nação em vista de sua extensão no mundo. É justo afirmar o valor internacional da nossa organização, pois é no campo internacional somente que serão avaliadas as raças e as nações, quando a Europa, daqui a alguns tempos, apesar do nosso firme e sincero desejo de colaboração e de paz, tiver novamente chegado a outra encruzilhada dos destinos.\n(Apud Katia M. de Queirós Mattoso. Textos e documentos para o estudo da história contemporânea: 1789-1963, 1977.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "modernista.",
+        "b": "socialista.",
+        "c": "positivista.",
+        "d": "fascista.",
+        "e": "liberal."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Revolução Russa, Crise de 1929 e ascensão do Nazifascismo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 14
+    },
+    {
+      "numero": 41,
+      "tipo": "objetiva",
+      "enunciado": "A participação norte-americana na Guerra do Vietnã, entre 1961 e 1973, pode ser interpretada como",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "uma ação relacionada à defesa da liberdade, num contexto de expansão do anarquismo nos continentes asiático e africano.",
+        "b": "um recuo na política de boa vizinhança que caracterizou a ação diplomática e comercial dos Estados Unidos após a Segunda Guerra.",
+        "c": "a busca de recursos naturais e fontes de energia que ampliariam a capacidade de produção de armamentos nos Estados Unidos.",
+        "d": "o esforço de contenção da influência soviética sobre a China, o Japão e os países do Sul e Sudeste asiático.",
+        "e": "um movimento dentro da lógica da Guerra Fria, voltado ao fortalecimento da posição geoestratégica dos Estados Unidos."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Guerra Fria, corrida armamentista e descolonização da África e Ásia"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 14
+    },
+    {
+      "numero": 42,
+      "tipo": "objetiva",
+      "enunciado": "As condições externas que embasaram o sucesso econômico do regime militar e as alterações que sofreram em meados da década de 1970 podem ser exemplificadas, respectivamente,",
+      "textos_de_apoio": [
+        "Em meados da década de 1970, as condições externas que haviam sustentado o sucesso econômico do regime militar sofreram alterações profundas.\n(Tania Regina de Luca. Indústria e trabalho na história do Brasil, 2001.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "pelos investimentos oriundos dos países do Leste europeu e pelo aumento gradual dos preços em dólar das mercadorias importadas.",
+        "b": "pela ampla disponibilidade de capitais para empréstimos a juros baixos e pelo aumento súbito do custo de importação do petróleo.",
+        "c": "pelos esforços norte-americanos de ampliar sua intervenção econômica na América Latina e pela redução acelerada da dívida externa brasileira.",
+        "d": "pela ampliação da capacidade industrial dos demais países latino-americanos e pelo crescimento das taxas internacionais de juros.",
+        "e": "pela exportação de tecnologia brasileira de informática e pela recessão econômica enfrentada pelas principais potências do Ocidente."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Brasil República: República Velha (oligarquias), Era Vargas (1930-1945), Período Democrático (1945-1964) e Ditadura Civil-Militar (1964-1985)"
+          ]
+        },
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Globalização, comércio internacional, blocos econômicos e a posição do Brasil no comércio global"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 15
+    },
+    {
+      "numero": 43,
+      "tipo": "objetiva",
+      "enunciado": "As lacunas do excerto devem ser preenchidas por",
+      "textos_de_apoio": [
+        "Em 03.04.2017, o jornal El País publicou matéria que pode ser assim resumida:\n\nOs países ____________ não têm poder político sobre os demais Estados Partes, mas possuem ferramentas para tentar reconduzir a situação de um membro, caso esse se afaste dos princípios do Tratado de Assunção, assinado em 1991. Nessa perspectiva, insere-se a aplicação da cláusula democrática do bloco sobre a ____________, em função da crise política, institucional, social, de abastecimento e econômica que atravessa o país."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "do Nafta – Argentina.",
+        "b": "do Mercosul – Bolívia.",
+        "c": "da ALADI – Venezuela.",
+        "d": "da ALADI – Bolívia.",
+        "e": "do Mercosul – Venezuela."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Globalização, comércio internacional, blocos econômicos e a posição do Brasil no comércio global"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 15
+    },
+    {
+      "numero": 44,
+      "tipo": "objetiva",
+      "enunciado": "Examine a tira Armandinho, do cartunista Alexandre Beck.\n\nA situação enfrentada pelo personagem faz alusão",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 15: Tira de Armandinho com três quadrinhos sobre batata-inglesa, veneno e agricultores."
+      ],
+      "alternativas": {
+        "a": "ao uso indiscriminado de agrotóxicos no processo tradicional de produção agrícola.",
+        "b": "ao precário monitoramento de resíduos de agrotóxicos em alimentos nos EUA e na União Europeia.",
+        "c": "ao protecionismo dos países centrais em relação aos produtos cultivados nos países periféricos.",
+        "d": "aos limites técnicos da agricultura familiar na produção de alimentos in natura.",
+        "e": "ao descumprimento das normas de cultivo orgânico propostas pela Revolução Verde."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Espaço Rural: sistemas agrícolas, modernização do campo e estrutura agrária brasileira",
+            "Impactos ambientais: mudanças climáticas, efeito estufa, desmatamento, degradação de solos e conferências internacionais do clima"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 15
+    },
+    {
+      "numero": 45,
+      "tipo": "objetiva",
+      "enunciado": "O excerto refere-se à produção do espaço brasileiro relacionada ao ciclo econômico\n\n(Jurandyr L. S. Ross. Ecogeografia do Brasil, 2009. Adaptado.)",
+      "textos_de_apoio": [
+        "Esse produto percorreu ampla região, desde o Morro da Tijuca, no Rio de Janeiro, no primeiro quartel do século XIX, até o norte do Paraná, onde praticamente cessou sua marcha na década de 1970. Nesse período, seu percurso deixou marcas significativas na paisagem: vasta rede urbana e densa malha ferroviária, solos empobrecidos pela erosão, florestas dizimadas e extensivas pastagens, quase sempre de baixa produtividade."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "da borracha.",
+        "b": "da cana-de-açúcar.",
+        "c": "do café.",
+        "d": "do ouro.",
+        "e": "do algodão."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Espaço Rural: sistemas agrícolas, modernização do campo e estrutura agrária brasileira"
+          ]
+        },
+        {
+          "area": "História",
+          "assuntos": [
+            "Brasil Imperial: Independência, Primeiro Reinado, Período Regencial e Segundo Reinado",
+            "Economia cafeeira, Guerra do Paraguai, imigração e abolição da escravidão no Brasil"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 15
+    },
+    {
+      "numero": 46,
+      "tipo": "objetiva",
+      "enunciado": "A quarta estrofe da canção faz alusão ao processo tectônico denominado",
+      "textos_de_apoio": [
+        "Chão chega perto do céu,\nQuando você levanta a cabeça e tira o chapéu.\n\nChão cabe na minha mão,\nO pequeno latifúndio do seu coração.\n\nChão quando quer descer,\nFaz uma ladeira.\nChão quando quer crescer,\nVira cordilheira.\n\nChão segue debaixo do mar,\nO assoalho do planeta e do terceiro andar.\n\nChão onde a vista alcançar,\nTodo e qualquer caminho pra percorrer e chegar.\n\nChão quando quer sumir,\nSe esconde num buraco.\n\nChão se quer sacudir,\nVira um terremoto.\n\nO chão quando foge dos pés,\nTudo perde a gravidade,\nEntão ficaremos só nós,\nA um palmo do chão da cidade.\n(www.lenine.com.br. Adaptado.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "assoreamento.",
+        "b": "orogênese.",
+        "c": "diagênese.",
+        "d": "ablação.",
+        "e": "lixiviação."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Estrutura geológica da Terra, tectonismo, vulcanismo e eras geológicas",
+            "Classificação das rochas, formação de solos e relevo (agentes internos e externos/intemperismo)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 16
+    },
+    {
+      "numero": 47,
+      "tipo": "objetiva",
+      "enunciado": "O termo “terremoto”, presente na oitava estrofe da canção, é definido como",
+      "textos_de_apoio": [
+        "Chão chega perto do céu,\nQuando você levanta a cabeça e tira o chapéu.\n\nChão cabe na minha mão,\nO pequeno latifúndio do seu coração.\n\nChão quando quer descer,\nFaz uma ladeira.\nChão quando quer crescer,\nVira cordilheira.\n\nChão segue debaixo do mar,\nO assoalho do planeta e do terceiro andar.\n\nChão onde a vista alcançar,\nTodo e qualquer caminho pra percorrer e chegar.\n\nChão quando quer sumir,\nSe esconde num buraco.\n\nChão se quer sacudir,\nVira um terremoto.\n\nO chão quando foge dos pés,\nTudo perde a gravidade,\nEntão ficaremos só nós,\nA um palmo do chão da cidade.\n(www.lenine.com.br. Adaptado.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "liberação de energia na crosta produzida pelo atrito entre placas tectônicas identificadas em margens continentais passivas.",
+        "b": "efusão de material magmático na crosta ejetado de conduto cilíndrico identificado em faixas de estabilidade tectônica.",
+        "c": "acumulação de tensões na crosta derivadas do desgaste mecânico de rochas sob a ação de forças exógenas.",
+        "d": "propagação de ondas mecânicas na crosta derivadas da ruptura de rochas submetidas a esforços tectônicos.",
+        "e": "geração de vibrações sísmicas na crosta produzidas pelo mergulho de placa continental sob a placa oceânica ao longo do plano de subducção."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Estrutura geológica da Terra, tectonismo, vulcanismo e eras geológicas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 16
+    },
+    {
+      "numero": 48,
+      "tipo": "objetiva",
+      "enunciado": "O cerrado brasileiro é conhecido como o “berço das águas” da América do Sul, pois abastece as grandes bacias hidrográficas e reservatórios de água doce do continente.\n(http://semcerrado.org.br. Adaptado.)\n\nConsiderando o conhecimento sobre as águas subterrâneas, a área destacada na figura corresponde ao Sistema Aquífero",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 17: Mapa do Brasil destacando a área do Aquífero Guarani."
+      ],
+      "alternativas": {
+        "a": "Urucuia, associado às rochas sedimentares do Escudo das Guianas.",
+        "b": "Guarani, constituído por rochas metamorfizadas do Escudo Atlântico.",
+        "c": "Guarani, formado por rochas permeáveis da Bacia Sedimentar do Paraná.",
+        "d": "Urucuia, formado por rochas basálticas do Cráton do São Francisco.",
+        "e": "Cabeças, constituído por rochas ígneas da Bacia Sedimentar do Parnaíba."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Hidrografia: bacias hidrográficas mundiais e brasileiras e geopolítica da água",
+            "Estrutura geológica da Terra, tectonismo, vulcanismo e eras geológicas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 17
+    },
+    {
+      "numero": 49,
+      "tipo": "objetiva",
+      "enunciado": "O bioma mencionado no fragmento está representado no mapa pelo número",
+      "textos_de_apoio": [
+        "Apesar dos avisos e até das ameaças do conselho, no verão de 1908 meus irmãos e centenas de outros membros dessa facção renegada, todos traidores, viajaram para a tundra siberiana para levar a cabo seu experimento odioso. Escolheram uma velha fenda sem nome, que estava havia séculos sem uso.\n(O orfanato da srta. Peregrine para crianças peculiares, 2015. Adaptado.)"
+      ],
+      "midia": [
+        "Página 17: Planisfério com biomas numerados de 1 a 5."
+      ],
+      "alternativas": {
+        "a": "1.",
+        "b": "4.",
+        "c": "2.",
+        "d": "5.",
+        "e": "3."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Domínios morfoclimáticos e biomas mundiais e brasileiros"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 17
+    },
+    {
+      "numero": 50,
+      "tipo": "objetiva",
+      "enunciado": "As lacunas do texto devem ser preenchidas por",
+      "textos_de_apoio": [
+        "A figura ilustra a alteração na distribuição das ____________ como resultado de três décadas de desmatamento em certo setor da Floresta Amazônica. O “deslocamento” desse tipo de precipitação é um efeito das variações horizontais da rugosidade da superfície, que promovem a concentração da pluviosidade nas bordas das áreas desmatadas. Essa mudança na circulação atmosférica pode ter como consequência ____________ na região.\n(Jaya Khanna et al. “Regional dry-season climate changes due to three decades of Amazonian deforestation”. Nature Climate Change, março de 2017. Adaptado.)"
+      ],
+      "midia": [
+        "Página 18: Figura comparativa da distribuição de chuvas nos anos de 1980 e 2000 na Amazônia."
+      ],
+      "alternativas": {
+        "a": "chuvas convectivas – a manutenção dos serviços ecológicos.",
+        "b": "chuvas frontais – a diminuição da evapotranspiração.",
+        "c": "chuvas convectivas – a redução da produtividade agrícola.",
+        "d": "chuvas orográficas – o empobrecimento do solo.",
+        "e": "chuvas frontais – o aumento na frequência de incêndios."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Climatologia: fatores/elementos do clima, dinâmica das massas de ar e climas do Brasil e do mundo",
+            "Impactos ambientais: mudanças climáticas, efeito estufa, desmatamento, degradação de solos e conferências internacionais do clima"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 18
+    },
+    {
+      "numero": 51,
+      "tipo": "objetiva",
+      "enunciado": "As perspectivas expressas nos textos 1 e 2 podem ser associadas, respectivamente, aos seguintes impactos ambientais provenientes da transposição das águas do Rio São Francisco:",
+      "textos_de_apoio": [
+        "TEXTO 1\nA água sai de Cabrobó\nParnamirim, Salgueiro\nAté Jati\nDeixe o rio desaguar doutor\nPra acabar\nCom o sofrimento daqui\n\nO São Francisco\nCom sua transposição\nNo meu Nordeste\nO progresso vai chegar\n[...]\n\nNa contramão\nO meu sertão não vai ficar\n(Aracílio Araújo. “Deixe o rio desaguar”. www.letras.mus.br.)\n\nTEXTO 2\nOs vazanteiros, que fazem horticultura no leito dos rios que perdem fluxo durante o ano, serão os primeiros a serem totalmente prejudicados. Mas os técnicos insensíveis dirão com enfado: “a cultura de vazante já era”, postergando a realocação dos heróis que abastecem as feiras dos sertões. A eles se deve conceder a prioridade em relação aos espaços irrigáveis a serem implantados com a transposição. De imediato, porém, serão os proprietários absenteístas1 da beira alta e colinas sertanejas que terão água disponível para o gado, o que agregará ainda mais valor às suas terras.\n(Aziz N. Ab’Sáber. “A quem serve a transposição das águas do São Francisco?”. CartaCapital, 22.03.2011. Adaptado.)\n\n1 absenteísmo: sistema de exploração da terra em que o proprietário confia sua administração a intermediários, empreiteiros, rendeiros ou feitores."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "dinamização da economia regional e especulação imobiliária em áreas agricultáveis.",
+        "b": "aumento da demanda por serviços de saúde e valorização de sítios arqueológicos.",
+        "c": "diminuição da recarga dos aquíferos e decréscimo da emigração da região.",
+        "d": "desmobilização da mão de obra e degradação de terras potencialmente férteis.",
+        "e": "redução da oferta hídrica e aumento do potencial energético na hidrelétrica de Xingó."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Hidrografia: bacias hidrográficas mundiais e brasileiras e geopolítica da água",
+            "Impactos ambientais: mudanças climáticas, efeito estufa, desmatamento, degradação de solos e conferências internacionais do clima"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 18
+    },
+    {
+      "numero": 52,
+      "tipo": "objetiva",
+      "enunciado": "Chancelado na cidade de mesmo nome no Canadá em 1987, o Protocolo de Montreal completa 30 anos em 2017. Esse tratado é considerado um dos mais bem sucedidos da história, prescrevendo obrigações aos 197 países signatários em conformidade com o princípio das responsabilidades comuns, porém diferenciadas à luz das diversas circunstâncias nacionais.\n(https://nacoesunidas.org. Adaptado.)\nO protocolo evidenciado no excerto estabelece metas para",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "eliminação das substâncias prejudiciais à camada de ozônio, a qual funciona como um filtro ao redor do planeta, que protege os seres vivos dos raios ultravioleta.",
+        "b": "contenção dos fatores que contribuem para o processo de desertificação, o qual é derivado do manejo inadequado dos recursos naturais nos espaços subtropicais úmidos.",
+        "c": "proteção no campo da transferência, da manipulação e do uso seguros dos organismos vivos modificados, resultantes da biotecnologia moderna.",
+        "d": "redução das emissões de gases de efeito estufa mediante o incentivo de atividades do 2º setor que promovam a degradação florestal.",
+        "e": "erradicação do conhecimento das comunidades locais e populações indígenas sobre a utilização sustentável da diversidade biológica."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Impactos ambientais: mudanças climáticas, efeito estufa, desmatamento, degradação de solos e conferências internacionais do clima"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 19
+    },
+    {
+      "numero": 53,
+      "tipo": "objetiva",
+      "enunciado": "No encerramento da temporada regular 2015-2016 da liga americana de basquete, o ídolo do Los Angeles Lakers, Kobe Bryant, despediu-se das quadras numa partida diante do Utah Jazz. O jogo foi realizado na Califórnia, que fica no fuso horário 120º oeste, no dia 13.04.2016 às 19h30 (horário local).\n(http://sportv.globo.com. Adaptado.)\nCiente de que os EUA utilizavam o horário de verão, a última atuação do atleta foi transmitida ao vivo às",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "22h30 do dia 13.04.2016 para o estado do Acre.",
+        "b": "21h30 do dia 13.04.2016 para a capital do Amazonas.",
+        "c": "00h30 do dia 14.04.2016 para o Distrito Federal.",
+        "d": "23h30 do dia 13.04.2016 para a cidade de São Paulo.",
+        "e": "01h30 do dia 14.04.2016 para o arquipélago Fernando de Noronha."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Coordenadas geográficas, localização, fusos horários e projeções cartográficas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 19
+    },
+    {
+      "numero": 54,
+      "tipo": "objetiva",
+      "enunciado": "Hajime Narukawa, arquiteto japonês, desenvolveu uma projeção cartográfica mediante a modelagem de poliedros. Denominada de Authagraph, a sua proposta permite a representação da superfície terrestre em um plano retangular sem lacunas, mantendo de modo substancial a área e a forma de todos os oceanos e continentes, incluindo a Antártida, que foi negligenciada em muitos mapas.\n(www.authagraph.com. Adaptado.)\nConsiderando conhecimentos sobre cartografia, assinale a alternativa que apresenta o planisfério elaborado com base na projeção descrita no excerto.",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 20: Imagem (A) Planisfério em projeção tradicional ovalada.",
+        "Página 20: Imagem (B) Planisfério em projeção cilíndrica.",
+        "Página 20: Imagem (C) Planisfério Authagraph, em formato retangular modular com recortes triangulares.",
+        "Página 20: Imagem (D) Planisfério centrado na Antártida.",
+        "Página 20: Imagem (E) Planisfério em projeção de Mercator."
+      ],
+      "alternativas": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": "",
+        "e": ""
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Coordenadas geográficas, localização, fusos horários e projeções cartográficas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 20
+    },
+    {
+      "numero": 55,
+      "tipo": "objetiva",
+      "enunciado": "Sou imperfeito, logo existo. Sustento que o ser ou é carência ou não é nada. Sustento que uma pessoa com deficiência intelectual é um ser com carências e imperfeições. Sustento que eu, você e ele somos seres com carências e imperfeições. Portanto, concluo que nós, os seres humanos, pelo fato de existir, somos – TODOS – incapazes e capazes intelectualmente. A diferença entre um autista severo e eu é o grau de carência, não a diferença entre o que somos. A \"razão alterada\" é um tipo de racionalidade diferenciada que considera as pessoas como seres únicos e não categorizados em padrões sociais que agrupam as pessoas por níveis, índices ou coeficientes.\n(Chema Sánchez Alcón. \"Crítica de la razón alterada\". http://losojosdehipatia.com.es, 30.10.2016. Adaptado.)\nDe acordo com o texto, \"razão alterada\" é",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "uma racionalidade tradicional voltada à pesquisa filosófica do ser como entidade metafísica.",
+        "b": "um conceito científico empregado para legitimar padrões de normalidade com base na biologia.",
+        "c": "um conceito filosófico destinado a criticar a valorização da diferença no campo intelectual.",
+        "d": "uma metodologia científica que expressa a diferença entre seres humanos com base no coeficiente intelectual.",
+        "e": "um tipo de racionalidade contestadora de padrões sociais e dotada de pretensões universalistas."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Filosofia e Sociologia",
+          "assuntos": [
+            "Conceito antropológico de cultura, etnocentrismo e relativismo cultural",
+            "Questões éticas contemporâneas: Bioética, relações de gênero e novas identidades"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 21
+    },
+    {
+      "numero": 56,
+      "tipo": "objetiva",
+      "enunciado": "De um lado, dizem os materialistas, a mente é um processo material ou físico, um produto do funcionamento cerebral. De outro lado, de acordo com as visões não materialistas, a mente é algo diferente do cérebro, podendo existir além dele. Ambas as posições estão enraizadas em uma longa tradição filosófica, que remonta pelo menos à Grécia Antiga. Assim, enquanto Demócrito defendia a ideia de que tudo é composto de átomos e todo pensamento é causado por seus movimentos físicos, Platão insistia que o intelecto humano é imaterial e que a alma sobrevive à morte do corpo.\n(Alexander Moreira-Almeida e Saulo de F. Araujo. \"O cérebro produz a mente?: um levantamento da opinião de psiquiatras\". www.archivespsy.com, 2015.)\nA partir das informações e das relações presentes no texto, conclui-se que",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "a hipótese da independência da mente em relação ao cérebro teve origem no método científico.",
+        "b": "a dualidade entre mente e cérebro foi conceituada por Descartes como separação entre pensamento e extensão.",
+        "c": "o pensamento de Santo Agostinho se baseou em hipóteses empiristas análogas às do materialismo.",
+        "d": "os argumentos materialistas resgatam a metafísica platônica, favorecendo hipóteses de natureza espiritualista.",
+        "e": "o progresso da neurociência estabeleceu provas objetivas para resolver um debate originalmente filosófico."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Filosofia e Sociologia",
+          "assuntos": [
+            "Filosofia Antiga: Sócrates, Platão e Aristóteles",
+            "Epistemologia: Racionalismo (Descartes) vs. Empirismo (Locke, Hume) e Crítica Kantiana"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 21
+    },
+    {
+      "numero": 57,
+      "tipo": "objetiva",
+      "enunciado": "TEXTO 1\nVictor Frankl descrevia o fanático por dois traços essenciais: a absorção da própria individualidade na ideologia coletiva e o desprezo pela individualidade alheia. \"Individualidade\" é a combinação singular de fatores que faz de cada ser humano um exemplar único e insubstituível. O que o fanático nega aos demais seres humanos é o direito de definir-se nos seus próprios termos. Só valem os termos dele. Para ele, em suma, você não existe como indivíduo real e independente. Só existe como tipo: \"amigo\" ou \"inimigo\". Uma vez definido como \"inimigo\", você se torna, para todos os fins, idêntico e indiscernível de todos os demais \"inimigos\", por mais estranhos e repelentes que você próprio os julgue.\n(Olavo de Carvalho. O mínimo que você precisa saber para não ser um idiota, 2013. Adaptado.)\nTEXTO 2\nÉ necessário questionar a função de amparo identitário de todas as formas de organização de massas – partidos, igrejas, sindicatos – independente de seu objetivo político manifesto, de esquerda ou de direita. Não é descabido supor que qualquer organização de massas tenha o potencial de favorecer em seus membros a adesão à identidade de vítimas, sendo um sério obstáculo à luta pela autonomia e pela liberdade de seus membros.\n(Maria Rita Kehl. Ressentimento, 2015. Adaptado.)\nOs dois textos",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "apresentam argumentos favoráveis a ideias e comportamentos totalitários no campo da política.",
+        "b": "defendem a importância de diferenças claras entre amigos e inimigos no campo da política.",
+        "c": "sustentam que a união dos oprimidos em organizações de massa é mais importante que a individualidade.",
+        "d": "utilizam os conceitos de fanatismo e de identidade coletiva para questionar o irracionalismo.",
+        "e": "concordam que o pertencimento ideológico de direita é critério exclusivo para definir o fanatismo político."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Filosofia e Sociologia",
+          "assuntos": [
+            "Estado, representação política, partidos e movimentos sociais",
+            "Indivíduo e sociedade: instituições sociais, socialização e construção de identidades"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 22
+    },
+    {
+      "numero": 58,
+      "tipo": "objetiva",
+      "enunciado": "A mídia é estética porque o seu poder de convencimento, a sua força de verdade e autoridade, passa por categorias do entendimento humano que estão pautadas na sensibilidade, e não na racionalidade. A mídia nos influencia por imagens, e não por argumentos. Se a propaganda de um carro nos promete o dom da liberdade absoluta e não o entrega, a propaganda política não vai ser mais cuidadosa na entrega de suas promessas simbólicas, mesmo porque ela se alimenta das mesmas categorias de discurso messiânico que a religião, outra grande área de venda de castelos no ar.\n(Francisco Fianco. \"O desespero de pensar a política na sociedade do espetáculo\". http://revistacult.uol.com.br, 11.01.2017. Adaptado.)\nConsiderando o texto, a integração entre os meios de comunicação de massa e o universo da política apresenta como implicação",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "a redução da discussão política aos padrões da propaganda e do marketing.",
+        "b": "a ampliação concreta dos horizontes de liberdade na sociedade de massas.",
+        "c": "o fortalecimento das instituições democráticas e dos direitos de cidadania.",
+        "d": "o apelo a recursos intelectuais superiores de interpretação da realidade.",
+        "e": "a mobilização de recursos simbólicos ampliadores da racionalidade."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Filosofia e Sociologia",
+          "assuntos": [
+            "Consumismo, Indústria Cultural e manipulação da informação",
+            "Estética: conceitos de arte, natureza e Indústria Cultural no mundo contemporâneo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 22
+    },
+    {
+      "numero": 59,
+      "tipo": "objetiva",
+      "enunciado": "Os homens, diz antigo ditado grego, atormentam-se com a ideia que têm das coisas e não com as coisas em si. Seria grande passo, em alívio da nossa miserável condição, se se provasse que isso é uma verdade absoluta. Pois se o mal só tem acesso em nós porque julgamos que o seja, parece que estaria em nosso poder não o levarmos a sério ou o colocarmos a nosso serviço. Por que atribuir à doença, à indigência, ao desprezo um gosto ácido e mau se o podemos modificar? Pois o destino apenas suscita o incidente; a nós é que cabe determinar a qualidade de seus efeitos.\n(Michel de Montaigne. Ensaios, 2000. Adaptado.)\nDe acordo com o filósofo, a diferença entre o bem e o mal",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "representa uma oposição de natureza metafísica, que não está sujeita a relativismos existenciais.",
+        "b": "relaciona-se com uma esfera sagrada cujo conhecimento é autorizado somente a sacerdotes religiosos.",
+        "c": "resulta da queda humana de um estado original de bem-aventurança e harmonia geral do Universo.",
+        "d": "depende do conhecimento do mundo como realidade em si mesma, independente dos julgamentos humanos.",
+        "e": "depende sobretudo da qualidade valorativa estabelecida por cada indivíduo diante de sua vida."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Filosofia e Sociologia",
+          "assuntos": [
+            "Concepções sobre a ação ética: liberdade, determinismo e compatibilismo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 22
+    },
+    {
+      "numero": 60,
+      "tipo": "objetiva",
+      "enunciado": "Posto que as qualidades que impressionam nossos sentidos estão nas próprias coisas, é claro que as ideias produzidas na mente entram pelos sentidos. O entendimento não tem o poder de inventar ou formar uma única ideia simples na mente que não tenha sido recebida pelos sentidos. Gostaria que alguém tentasse imaginar um gosto que jamais impressionou seu paladar, ou tentasse formar a ideia de um aroma que nunca cheirou. Quando puder fazer isso, concluirei também que um cego tem ideias das cores, e um surdo, noções reais dos diversos sons.\n(John Locke. Ensaio acerca do entendimento humano, 1991. Adaptado.)\nDe acordo com o filósofo, todo conhecimento origina-se",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "da reminiscência de ideias originalmente transcendentes.",
+        "b": "da combinação de ideias metafísicas e empíricas.",
+        "c": "de categorias a priori existentes na mente humana.",
+        "d": "da experiência com os objetos reais e empíricos.",
+        "e": "de uma relação dialética do espírito humano com o mundo."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Filosofia e Sociologia",
+          "assuntos": [
+            "Epistemologia: Racionalismo (Descartes) vs. Empirismo (Locke, Hume) e Crítica Kantiana"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 23
+    },
+    {
+      "numero": 61,
+      "tipo": "objetiva",
+      "enunciado": "Considere a notícia sobre o controle biológico de pragas adotado pela prefeitura de Paris e as pirâmides ecológicas apresentadas logo a seguir.\nPara combater parasitas que têm consumido a vegetação de Paris, a prefeitura distribuiu aos moradores 40000 larvas de joaninhas, predador natural desses organismos e que pode substituir pesticidas.\n(Veja, 05.04.2017. Adaptado.)\nA pirâmide de biomassa, a pirâmide de energia e a barra que representa as joaninhas são:",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 23: Três pirâmides ecológicas (I, II e III) com divisões numeradas de 1 a 3."
+      ],
+      "alternativas": {
+        "a": "I, II e 3.",
+        "b": "II, II e 3.",
+        "c": "I, II e 2.",
+        "d": "II, III e 1.",
+        "e": "III, III e 2."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Cadeias e teias alimentares, níveis tróficos, pirâmides ecológicas e fluxo de energia"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 23
+    },
+    {
+      "numero": 62,
+      "tipo": "objetiva",
+      "enunciado": "Marina não menstruou na data prevista e então comprou um teste para gravidez. A figura ilustra a realização do teste, que indicou que Marina estaria grávida.\n(www.mdsaude.com)\nNo mesmo dia, Marina procurou um laboratório especializado para realizar o exame sanguíneo de gravidez, que confirmou o resultado do teste anterior.\nConsidere o hormônio que evidenciou a gravidez nos dois testes realizados. O resultado positivo indica que a concentração de",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 23: Ilustração esquemática de um teste de gravidez com tiras reagentes e tubo com urina."
+      ],
+      "alternativas": {
+        "a": "gonadotrofina coriônica humana (HCG) era baixa na urina e alta no sangue circulante.",
+        "b": "progesterona era baixa na urina e baixa no sangue circulante.",
+        "c": "hormônio folículo estimulante (FSH) era alta na urina e alta no sangue circulante.",
+        "d": "progesterona era alta na urina e baixa no sangue circulante.",
+        "e": "gonadotrofina coriônica humana (HCG) era alta na urina e alta no sangue circulante."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Fisiologia dos sistemas humanos: digestório, cardiovascular, respiratório, excretor, nervoso, endócrino, locomotor e reprodutor",
+            "Embriologia humana e reprodução (gametogênese, fecundação, anexos embrionários, métodos contraceptivos e ISTs)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 23
+    },
+    {
+      "numero": 63,
+      "tipo": "objetiva",
+      "enunciado": "Em uma aula de campo, os alunos encontraram, crescendo sobre um tronco caído na mata, organismos conhecidos como orelhas-de-pau. O fato que chamou a atenção dos alunos foi que alguns desses organismos eram de cor verde, como mostra a figura.\nPaula afirmou que o organismo observado era um fungo fotossintetizante e portanto autótrofo.\nGilberto concordou que seria um fungo fotossintetizante, mas, por estar crescendo em um tronco em decomposição, seria heterótrofo necessariamente.\nRicardo sugeriu que o organismo observado, na verdade, eram dois organismos, um autótrofo e outro heterótrofo.\nTiago complementou a ideia de Ricardo, afirmando tratar-se de um musgo, que é uma associação entre um fungo e uma alga.\nFernanda discordou de Tiago, afirmando tratar-se de um líquen, no qual o fungo fornece os carboidratos necessários para o crescimento da alga.\nA explicação correta para o fato foi dada por",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 24: Fotografia de organismos conhecidos como orelhas-de-pau crescendo em um tronco, com áreas esverdeadas."
+      ],
+      "alternativas": {
+        "a": "Fernanda.",
+        "b": "Gilberto.",
+        "c": "Ricardo.",
+        "d": "Paula.",
+        "e": "Tiago."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Reinos Monera, Protista e Fungi: características e importância ecológica/econômica",
+            "Dinâmica de populações e relações ecológicas (intraespecíficas e interespecíficas)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 24
+    },
+    {
+      "numero": 64,
+      "tipo": "objetiva",
+      "enunciado": "Analise as imagens de uma mesma planta sob as mesmas condições de luminosidade e sob condições hídricas distintas.\nOs estômatos desta planta estão",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 24: Imagem da condição 1 (planta sob restrição hídrica) e imagem da condição 2 (planta irrigada)."
+      ],
+      "alternativas": {
+        "a": "abertos na condição 1, pois há intenso bombeamento de íons K+ das células-guarda para as células acessórias, resultando na perda de água e flacidez destas últimas.",
+        "b": "fechados na condição 2, pois há redução na troca de íons K+ entre as células acessórias e as células-guarda, mantendo a turgidez de ambas.",
+        "c": "abertos na condição 2, pois há intenso bombeamento de íons K+ das células-guarda para as células acessórias, resultando na perda de água e flacidez destas últimas.",
+        "d": "fechados na condição 1, pois há intenso bombeamento de íons K+ das células acessórias para o interior das células-guarda, resultando na perda de água e flacidez destas últimas.",
+        "e": "abertos na condição 2, pois há intenso bombeamento de íons K+ das células acessórias para o interior das células-guarda, resultando na turgidez destas últimas."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Anatomia e fisiologia vegetal: tecidos, condução de seivas, transpiração e fitormônios/tropismos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 24
+    },
+    {
+      "numero": 65,
+      "tipo": "objetiva",
+      "enunciado": "Os gráficos apresentam as taxas de respiração e de fotossíntese de uma planta em função da intensidade luminosa a que é submetida.\nDe acordo com os gráficos e os fenômenos que representam,",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 25: Gráfico cartesiano com as curvas de taxa de fotossíntese e respiração em função da intensidade luminosa (pontos A, B, C e linhas 1 e 2)."
+      ],
+      "alternativas": {
+        "a": "no intervalo A-B a planta consome mais matéria orgânica que aquela que sintetiza e, a partir do ponto B, ocorre aumento da biomassa vegetal.",
+        "b": "no intervalo A-C a planta apenas consome as reservas energéticas da semente e, a partir do ponto C, passa a armazenar energia através da fotossíntese.",
+        "c": "a linha 1 representa a taxa de respiração, enquanto a linha 2 representa a taxa de fotossíntese.",
+        "d": "no intervalo A-C a planta se apresenta em processo de crescimento e, a partir do ponto C, há apenas a manutenção da biomassa vegetal.",
+        "e": "no intervalo A-B a variação na intensidade luminosa afeta as taxas de respiração e de fotossíntese e, a partir do ponto C, essas taxas se mantêm constantes."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Metabolismo energético: fotossíntese, quimiossíntese, respiração aeróbia e fermentação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 25
+    },
+    {
+      "numero": 66,
+      "tipo": "objetiva",
+      "enunciado": "Ao longo da evolução dos vertebrados, alguns grupos passaram a explorar o ambiente terrestre, o que demandou adaptações que permitissem o desenvolvimento do embrião nesse novo ambiente. A mais emblemática dessas adaptações talvez seja o âmnio, razão pela qual os répteis (incluindo as aves) e os mamíferos são chamados de amniotas.\nA importância do âmnio está em",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "armazenar o vitelo, que será consumido pelo embrião durante seu desenvolvimento.",
+        "b": "armazenar os resíduos metabólicos tóxicos que seriam lançados diretamente na água.",
+        "c": "permitir que ocorram trocas gasosas que garantam a respiração do embrião.",
+        "d": "permitir que o embrião se desenvolva protegido de choques mecânicos e dessecação.",
+        "e": "desenvolver uma rede de vasos que transportem nutrientes para o embrião."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Craniados e vertebrados: adaptações morfológicas",
+            "Embriologia humana e reprodução (gametogênese, fecundação, anexos embrionários, métodos contraceptivos e ISTs)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 25
+    },
+    {
+      "numero": 67,
+      "tipo": "objetiva",
+      "enunciado": "Uma professora explicava a seus alunos que a transpiração contribui para o controle da temperatura corporal e que os desodorantes antitranspirantes apresentam em sua composição sal de alumínio, o qual obstrui os ductos sudoríparos, impedindo a saída do suor.\nUm dos alunos perguntou à professora o que aconteceria se uma generosa dose de desodorante antitranspirante fosse borrifada no corpo de uma barata e no corpo de uma lagartixa.\nA professora desaconselhou o experimento em razão dos maus tratos aos animais e explicou que, caso fosse realizado, considerando os sistemas respiratórios desses animais, provavelmente",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "a lagartixa e a barata morreriam por aumento da temperatura corporal.",
+        "b": "a lagartixa e a barata morreriam por falta de oxigênio em suas células.",
+        "c": "a barata sobreviveria e a lagartixa morreria por aumento da temperatura corporal.",
+        "d": "a lagartixa sobreviveria e a barata morreria por falta de oxigênio em suas células.",
+        "e": "a barata e a lagartixa sobreviveriam."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Craniados e vertebrados: adaptações morfológicas",
+            "Reino Animalia: características evolutivas dos principais filos (simetria, folhetos embrionários, celoma)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 25
+    },
+    {
+      "numero": 68,
+      "tipo": "objetiva",
+      "enunciado": "Tendo por base a formaçãode gametas nessas espécies, e sem que se considere a permutação (crossing-over), constata-se a Primeira Lei de Mendel",
+      "textos_de_apoio": [
+        "As figuras representam células de duas espécies animais, 1 e 2. Na célula da espécie 1, dois genes, que determinam duas diferentes características, estão presentes no mesmo cromossomo. Na célula da espécie 2, esses dois genes estão presentes em cromossomos diferentes."
+      ],
+      "midia": [
+        "Página 26: Ilustrações de células das espécies 1 e 2 com cromossomos e genes."
+      ],
+      "alternativas": {
+        "a": "tanto na espécie 1 quanto na espécie 2, mas a Segunda Lei de Mendel se constata apenas na espécie 1.",
+        "b": "apenas na espécie 1, enquanto a Segunda Lei de Mendel se constata apenas na espécie 2.",
+        "c": "apenas na espécie 2, enquanto a Segunda Lei de Mendel se constata apenas na espécie 1.",
+        "d": "apenas na espécie 2, enquanto a Segunda Lei de Mendel se constata tanto na espécie 1 quanto na espécie 2.",
+        "e": "tanto na espécie 1 quanto na espécie 2, mas a Segunda Lei de Mendel se constata apenas na espécie 2."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "1ª e 2ª Leis de Mendel e correlação com a meiose",
+            "Ligação gênica (linkage) e herança ligada ao sexo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 26
+    },
+    {
+      "numero": 69,
+      "tipo": "objetiva",
+      "enunciado": "Considere os elementos K, Co, As e Br, todos localizados no quarto período da Classificação Periódica. O elemento de maior densidade e o elemento mais eletronegativo são, respectivamente,",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "K e As.",
+        "b": "Co e Br.",
+        "c": "K e Br.",
+        "d": "Co e As.",
+        "e": "Co e K."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Tabela Periódica: organização, famílias, períodos e propriedades periódicas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 26
+    },
+    {
+      "numero": 70,
+      "tipo": "objetiva",
+      "enunciado": "Os dados do gráfico permitem concluir que as massas de carbonato de sódio e bicarbonato de sódio nessa reação estão relacionadas pela equação mNa₂CO₃ = k · mNaHCO₃, e que o valor aproximado de k é\n\n(www.mdsaude.com)",
+      "textos_de_apoio": [
+        "Bicarbonato de sódio sólido aquecido se decompõe, produzindo carbonato de sódio sólido, além de água e dióxido de carbono gasosos. O gráfico mostra os resultados de um experimento em que foram determinadas as massas de carbonato de sódio obtidas pela decomposição de diferentes massas de bicarbonato de sódio."
+      ],
+      "midia": [
+        "Página 26: Gráfico da massa de carbonato de sódio versus massa de bicarbonato de sódio."
+      ],
+      "alternativas": {
+        "a": "0,3.",
+        "b": "1,0.",
+        "c": "0,2.",
+        "d": "0,7.",
+        "e": "1,2."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Cálculos estequiométricos: relações de massa, volume, mols e pureza/rendimento",
+            "Evidências macroscópicas de transformações químicas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 26
+    },
+    {
+      "numero": 71,
+      "tipo": "objetiva",
+      "enunciado": "De acordo com o Relatório Anual de 2016 da Qualidade da Água, publicado pela Sabesp, a concentração de cloro na água potável da rede de distribuição deve estar entre 0,2 mg/L, limite mínimo, e 5,0 mg/L, limite máximo. Considerando que a densidade da água potável seja igual à da água pura, calcula-se que o valor médio desses limites, expresso em partes por milhão, seja",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "5,2 ppm.",
+        "b": "18 ppm.",
+        "c": "2,6 ppm.",
+        "d": "26 ppm.",
+        "e": "1,8 ppm."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Água e soluções aquosas: solubilidade, tipos de concentração (g/L, mol/L, ppm) e diluição"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 26
+    },
+    {
+      "numero": 72,
+      "tipo": "objetiva",
+      "enunciado": "As lacunas do texto devem ser preenchidas, respectivamente, por:\n\nNaCl (s) ⇌ Na⁺ (aq) + Cl⁻ (aq)",
+      "textos_de_apoio": [
+        "Sob temperatura constante, acrescentou-se cloreto de sódio em água até sobrar sal sem se dissolver, como corpo de fundo. Estabeleceu-se assim o seguinte equilíbrio:\n\nMantendo a temperatura constante, foi acrescentada mais uma porção de NaCl (s). Com disso, observa-se que a condutibilidade elétrica da solução sobrenadante ____________, a quantidade de corpo de fundo ____________ e a concentração de íons em solução ____________."
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "não se altera – aumenta – aumenta",
+        "b": "não se altera – não se altera – não se altera",
+        "c": "não se altera – aumenta – não se altera",
+        "d": "aumenta – diminui – aumenta",
+        "e": "diminui – aumenta – aumenta"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Equilíbrio Químico: constante Kc e Kp, Princípio de Le Chatelier"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 18
+    },
+    {
+      "numero": 73,
+      "tipo": "objetiva",
+      "enunciado": "O ΔH da combustão completa de 1 mol de acetileno, C₂H₂ (g), produzindo CO₂ (g) e H₂O (ℓ) é",
+      "textos_de_apoio": [
+        "Analise os três diagramas de entalpia."
+      ],
+      "midia": [
+        "Página 27: Três diagramas de entalpia para cálculos termoquímicos."
+      ],
+      "alternativas": {
+        "a": "+ 1140 kJ.",
+        "b": "+ 820 kJ.",
+        "c": "– 1299 kJ.",
+        "d": "– 510 kJ.",
+        "e": "– 635 kJ."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Termoquímica: reações exotérmicas e endotérmicas, entalpia e equações termoquímicas",
+            "Lei de Hess e entalpia de ligação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 27
+    },
+    {
+      "numero": 74,
+      "tipo": "objetiva",
+      "enunciado": "Na produção de sulfeto de hidrogênio por esses processos nos manguezais, o número de oxidação do elemento enxofre\n\n(Gilda Schmidt. Manguezal de Cananeia, 1989. Adaptado.)",
+      "textos_de_apoio": [
+        "O ciclo do enxofre é fundamental para os solos dos manguezais. Na fase anaeróbica, bactérias reduzem o sulfato para produzir o gás sulfeto de hidrogênio. Os processos que ocorrem são os seguintes:\n\nSO₄²⁻ (aq) → [ação bacteriana] → S²⁻ (aq)\nS²⁻ (aq) → [meio ácido] → H₂S (g)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "diminui 8 unidades.",
+        "b": "mantém-se o mesmo.",
+        "c": "aumenta 4 unidades.",
+        "d": "aumenta 8 unidades.",
+        "e": "diminui 4 unidades."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Eletroquímica: reações de oxirredução, números de oxidação (NOX) e agentes oxidantes/redutores"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 27
+    },
+    {
+      "numero": 75,
+      "tipo": "objetiva",
+      "enunciado": "Examine as estruturas do ortocresol e do álcool benzílico.\n\nO ortocresol e o álcool benzílico",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 27: Fórmulas estruturais do ortocresol e do álcool benzílico."
+      ],
+      "alternativas": {
+        "a": "apresentam a mesma função orgânica.",
+        "b": "são isômeros.",
+        "c": "são compostos alifáticos.",
+        "d": "apresentam heteroátomo.",
+        "e": "apresentam carbono quiral."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Isomeria plana e espacial",
+            "Principais funções orgânicas: hidrocarbonetos, álcoois, fenóis, éteres, ésteres, aldeídos, cetonas, ácidos carboxílicos, aminas e amidas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 27
+    },
+    {
+      "numero": 76,
+      "tipo": "objetiva",
+      "enunciado": "Juliana pratica corridas e consegue correr 5,0 km em meia hora. Seu próximo desafio é participar da corrida de São Silvestre, cujo percurso é de 15 km. Como é uma distância maior do que a que está acostumada a correr, seu instrutor orientou que diminuísse sua velocidade média habitual em 40% durante a nova prova. Se seguir a orientação de seu instrutor, Juliana completará a corrida de São Silvestre em",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "2h40min.",
+        "b": "3h00min.",
+        "c": "2h15min.",
+        "d": "2h30min.",
+        "e": "1h52min."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Razões e proporções diretas e inversas"
+          ]
+        },
+        {
+          "area": "Física",
+          "assuntos": [
+            "Cinemática escalar: velocidade e aceleração escalar média e instantânea",
+            "Movimento Uniforme (MU) e Movimento Uniformemente Variado (MUV)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 28
+    },
+    {
+      "numero": 77,
+      "tipo": "objetiva",
+      "enunciado": "Uma minicama elástica é constituída por uma superfície elástica presa a um aro lateral por 32 molas idênticas, como mostra a figura. Quando uma pessoa salta sobre esta minicama, transfere para ela uma quantidade de energia que é absorvida pela superfície elástica e pelas molas.\n\nConsidere que, ao saltar sobre uma dessas minicamas, uma pessoa transfira para ela uma quantidade de energia igual a 160 J, que 45% dessa energia seja distribuída igualmente entre as 32 molas e que cada uma delas se distenda 3,0 mm. Nessa situação, a constante elástica de cada mola, em N/m, vale",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 28: Ilustração de uma pessoa saltando sobre uma minicama elástica."
+      ],
+      "alternativas": {
+        "a": "5,0 × 10⁵.",
+        "b": "1,6 × 10¹.",
+        "c": "3,2 × 10³.",
+        "d": "5,0 × 10³.",
+        "e": "3,2 × 10⁰."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Energia cinética, energia potencial (gravitacional e elástica) e conservação da energia mecânica"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 28
+    },
+    {
+      "numero": 78,
+      "tipo": "objetiva",
+      "enunciado": "A figura mostra a trajetória de um projétil lançado obliquamente e cinco pontos equidistantes entre si e localizados sobre o solo horizontal. Os pontos e a trajetória do projétil estão em um mesmo plano vertical.\n\nNo instante em que atingiu o ponto mais alto da trajetória, o projétil explodiu, dividindo-se em dois fragmentos, A e B, de massas M_A e M_B, respectivamente, tal que M_A = 2M_B. Desprezando a resistência do ar e considerando que a velocidade do projétil imediatamente antes da explosão era V_H e que, imediatamente após a explosão, o fragmento B adquiriu velocidade V_B = 5V_H, com mesma direção e sentido de V_H, o fragmento A atingiu o solo no ponto",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 28: Gráfico ilustrando a trajetória parabólica de um projétil lançado obliquamente e dividido em fragmentos sobre um eixo horizontal com pontos I, II, III, IV e V."
+      ],
+      "alternativas": {
+        "a": "IV.",
+        "b": "III.",
+        "c": "V.",
+        "d": "I.",
+        "e": "II."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Impulso, quantidade de movimento e conservação da quantidade de movimento (colisões)",
+            "Vetores na cinemática e lançamentos bidimensionais (horizontal e oblíquo)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 28
+    },
+    {
+      "numero": 79,
+      "tipo": "objetiva",
+      "enunciado": "O gráfico mostra o fluxo térmico do ser humano em função da temperatura ambiente em um experimento no qual o metabolismo basal foi mantido constante. A linha azul representa o calor trocado com o meio por evaporação (E) e a linha vermelha, o calor trocado com o meio por radiação e convecção (RC).\n\nSabendo que os valores positivos indicam calor recebido pelo corpo e os valores negativos indicam o calor perdido pelo corpo, conclui-se que:",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 29: Gráfico de fluxo térmico humano em função da temperatura ambiente."
+      ],
+      "alternativas": {
+        "a": "em temperaturas entre 36 ºC e 40 ºC, o corpo recebe mais calor do ambiente do que perde.",
+        "b": "à temperatura de 20 ºC, a perda de calor por evaporação é maior que por radiação e convecção.",
+        "c": "a maior perda de calor ocorre à temperatura de 32 ºC.",
+        "d": "a perda de calor por evaporação se aproxima de zero para temperaturas inferiores a 20 ºC.",
+        "e": "à temperatura de 36 ºC, não há fluxo de calor entre o corpo e o meio."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Processos de propagação de calor (condução, convecção e irradiação)",
+            "Interpretação de gráficos físicos (área sob a curva e inclinação da reta)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 29
+    },
+    {
+      "numero": 80,
+      "tipo": "objetiva",
+      "enunciado": "Um dos fatores que contribuíram para a aceitação do modelo atômico proposto por Niels Bohr em 1913 foi a explicação dos espectros da luz emitida por átomos de gases aquecidos, que podem ser observados por meio de um aparelho chamado espectroscópio, cujo esquema está representado na figura. Nesse equipamento, a luz emitida por um gás atravessa uma fenda em um anteparo opaco, forma um estreito feixe que incide em um elemento óptico, no qual sofre dispersão. Essa luz dispersada incide em um detector, onde é realizado o registro do espectro.\n\nO elemento óptico desse espectroscópio pode ser",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 29: Esquema de um espectroscópio com fonte, fenda, feixe de luz, elemento óptico e detector."
+      ],
+      "alternativas": {
+        "a": "um espelho convexo.",
+        "b": "um prisma.",
+        "c": "uma lente divergente.",
+        "d": "uma lente convergente.",
+        "e": "um espelho plano."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Refração luminosa: Lei de Snell-Descartes, ângulo limite, reflexão total e dioptro plano"
+          ]
+        },
+        {
+          "area": "Química",
+          "assuntos": [
+            "Evolução dos modelos atômicos (Dalton, Thomson, Rutherford, Bohr)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 29
+    },
+    {
+      "numero": 81,
+      "tipo": "objetiva",
+      "enunciado": "Define-se a intensidade de uma onda (I) como potência transmitida por unidade de área disposta perpendicularmente à direção de propagação da onda. Porém, essa definição não é adequada para medir nossa percepção de sons, pois nosso sistema auditivo não responde de forma linear à intensidade das ondas incidentes, mas de forma logarítmica. Define-se, então, nível sonoro (β) como β = 10 log(I / I₀), sendo β dado em decibels (dB) e I₀ = 10⁻¹² W/m².\n\nSupondo que uma pessoa, posicionada de forma que a área de 6,0 × 10⁻⁵ m² de um de seus tímpanos esteja perpendicular à direção de propagação da onda, ouça um som contínuo de nível sonoro igual a 60 dB durante 5,0 s, a quantidade de energia que atingiu seu tímpano nesse intervalo de tempo foi",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "1,8 × 10⁻⁸ J.",
+        "b": "3,0 × 10⁻¹² J.",
+        "c": "3,0 × 10⁻¹⁰ J.",
+        "d": "1,8 × 10⁻¹⁴ J.",
+        "e": "6,0 × 10⁻⁹ J."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Ondulatória: características das ondas e Equação Fundamental da Ondulatória (v = λ * f)",
+            "Potência mecânica e rendimento"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 30
+    },
+    {
+      "numero": 82,
+      "tipo": "objetiva",
+      "enunciado": "Para obter experimentalmente a curva da diferença de potencial U em função da intensidade da corrente elétrica i para uma lâmpada, um aluno montou o circuito a seguir. Colocando entre os pontos A e B resistores com diversos valores de resistência, ele obteve diferentes valores de U e de i para a lâmpada.\n\nConsiderando que a bateria de 9,0 V, os aparelhos de medida e os fios de ligação sejam ideais, quando o aluno obteve as medidas U = 5,70 V e i = 0,15 A, a resistência do resistor colocado entre os pontos A e B era de",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 30: Esquema de circuito elétrico contendo bateria, lâmpada, multímetros e terminais A e B."
+      ],
+      "alternativas": {
+        "a": "100 Ω.",
+        "b": "33 Ω.",
+        "c": "56 Ω.",
+        "d": "68 Ω.",
+        "e": "22 Ω."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Eletrodinâmica: corrente elétrica, ddp, Leis de Ohm, resistividade e potência elétrica (kWh)",
+            "Associação de resistores, geradores, receptores e circuitos elétricos (Leis de Kirchhoff)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 30
+    },
+    {
+      "numero": 83,
+      "tipo": "objetiva",
+      "enunciado": "O ibuprofeno é uma medicação prescrita para dor e febre, com meia-vida de aproximadamente 2 horas. Isso significa que, por exemplo, depois de 2 horas da ingestão de 200 mg de ibuprofeno, permanecerão na corrente sanguínea do paciente apenas 100 mg da medicação. Após mais 2 horas (4 horas no total), apenas 50 mg permanecerão na corrente sanguínea e, assim, sucessivamente.\n\nSe um paciente recebe 800 mg de ibuprofeno a cada 6 horas, a quantidade dessa medicação que permanecerá na corrente sanguínea na 14ª hora após a ingestão da primeira dose será",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "12,50 mg.",
+        "b": "456,25 mg.",
+        "c": "114,28 mg.",
+        "d": "6,25 mg.",
+        "e": "537,50 mg."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Progressão Geométrica (PG) - termo geral e soma dos termos",
+            "Noção de sequência e lei de formação/recorrência"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 31
+    },
+    {
+      "numero": 84,
+      "tipo": "objetiva",
+      "enunciado": "A figura indica um trapézio ABCD no plano cartesiano.\n\nA área desse trapézio, na unidade quadrada definida pelos eixos coordenados, é igual a",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 31: Gráfico do plano cartesiano mostrando o trapézio ABCD com vértices nos eixos e coordenadas específicas."
+      ],
+      "alternativas": {
+        "a": "160.",
+        "b": "175.",
+        "c": "180.",
+        "d": "170.",
+        "e": "155."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Cálculo de áreas (polígonos, círculos, coroas e setores circulares)",
+            "Geometria Analítica Básica: coordenadas, plano cartesiano, distância e ponto médio"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 31
+    },
+    {
+      "numero": 85,
+      "tipo": "objetiva",
+      "enunciado": "Os estudantes 1, 2 e 3 concorreram a um mesmo cargo da diretoria do grêmio de uma faculdade da UNESP, sendo que 1 obteve 6,25% do total de votos que os três receberam para esse cargo. Na figura, a área de cada um dos três retângulos representa a porcentagem de votos obtidos pelo candidato correspondente. Juntos, os retângulos compõem um quadrado, cuja área representa o total dos votos recebidos pelos três candidatos.\n\nDo total de votos recebidos pelos três candidatos, o candidato 2 obteve",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 31: Ilustração de um quadrado subdividido em três retângulos rotulados como candidato 1, 2 e 3."
+      ],
+      "alternativas": {
+        "a": "61,75%.",
+        "b": "62,75%.",
+        "c": "62,50%.",
+        "d": "62,00%.",
+        "e": "62,25%."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Matemática Financeira: porcentagem, juros simples, juros compostos, taxas e índices",
+            "Cálculo de áreas (polígonos, círculos, coroas e setores circulares)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 31
+    },
+    {
+      "numero": 86,
+      "tipo": "objetiva",
+      "enunciado": "Dois dos materiais mais utilizados para fazer pistas de rodagem de veículos são o concreto e o asfalto. Uma pista nova de concreto reflete mais os raios solares do que uma pista nova de asfalto; porém, com os anos de uso, ambas tendem a refletir a mesma porcentagem de raios solares, conforme mostram os segmentos de retas nos gráficos.\n\nMantidas as relações lineares expressas nos gráficos ao longo dos anos de uso, duas pistas novas, uma de concreto e outra de asfalto, atingirão pela primeira vez a mesma porcentagem de reflexão dos raios solares após",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 32: Gráfico de reflexão solar em função dos anos de uso para pistas de concreto e asfalto."
+      ],
+      "alternativas": {
+        "a": "8,225 anos.",
+        "b": "9,375 anos.",
+        "c": "10,025 anos.",
+        "d": "10,175 anos.",
+        "e": "9,625 anos."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Função polinomial do 1º grau e função constante",
+            "Equação da reta: forma reduzida, coeficientes angular/linear e intersecção"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 32
+    },
+    {
+      "numero": 87,
+      "tipo": "objetiva",
+      "enunciado": "A sequência de figuras, desenhadas em uma malha quadriculada, indica as três primeiras etapas de formação de um fractal. Cada quadradinho dessa malha tem área de 1 cm².\n\nDado que as áreas das figuras, seguindo o padrão descrito por esse fractal, formam uma progressão geométrica, a área da figura 5, em cm², será igual a",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 32: Figuras 1, 2 e 3 representando etapas de formação de um fractal em malha quadriculada."
+      ],
+      "alternativas": {
+        "a": "\\frac{625}{81}",
+        "b": "\\frac{640}{81}",
+        "c": "\\frac{125}{27}",
+        "d": "\\frac{605}{81}",
+        "e": "\\frac{215}{27}"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Progressão Geométrica (PG) - termo geral e soma dos termos",
+            "Cálculo de áreas (polígonos, círculos, coroas e setores circulares)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 32
+    },
+    {
+      "numero": 88,
+      "tipo": "objetiva",
+      "enunciado": "Os pontos P e Q(3, 3) pertencem a uma circunferência centrada na origem do plano cartesiano. P também é ponto de intersecção da circunferência com o eixo y.\n\nConsidere o ponto R, do gráfico de y = √x, que possui ordenada y igual à do ponto P. A abscissa x de R é igual a",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 33: Plano cartesiano com representação de uma circunferência, pontos P, Q e a curva y = √x."
+      ],
+      "alternativas": {
+        "a": "9.",
+        "b": "16.",
+        "c": "15.",
+        "d": "12.",
+        "e": "18."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Geometria Analítica Básica: coordenadas, plano cartesiano, distância e ponto médio",
+            "Função exponencial e propriedades"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 33
+    },
+    {
+      "numero": 89,
+      "tipo": "objetiva",
+      "enunciado": "A figura indica os gráficos das funções I, II e III. Os pontos A(72º, 0,309), B(x_B, –0,309) e C(x_C, 0,309) são alguns dos pontos de intersecção dos gráficos.\n\nNas condições dadas, x_B + x_C é igual a",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 33: Gráficos de funções trigonométricas no plano cartesiano indicando os pontos A, B e C."
+      ],
+      "alternativas": {
+        "a": "538º",
+        "b": "488º",
+        "c": "540º",
+        "d": "432º",
+        "e": "460º"
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Círculo trigonométrico e funções periódicas (seno e cosseno)",
+            "Arcos e ângulos: medidas (graus e radianos) e relações entre arcos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 33
+    },
+    {
+      "numero": 90,
+      "tipo": "objetiva",
+      "enunciado": "Renata escolhe aleatoriamente um número real de – 4 a 2 e diferente de zero, denotando-o por x. Na reta real, o intervalo numérico que necessariamente contém o número \\(\\frac{2 - x}{x}\\) é",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 33: Retas reais com intervalos numéricos indicados nas alternativas A, B, C, D e E."
+      ],
+      "alternativas": {
+        "a": "(A)",
+        "b": "(B)",
+        "c": "(C)",
+        "d": "(D)",
+        "e": "(E)"
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Conjuntos numéricos (Naturais, Inteiros, Racionais e Reais)",
+            "Ordem na reta numérica e resolução de problemas",
+            "Equações e inequações lineares, quadráticas, exponenciais, logarítmicas e modulares"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 33
+    }
+  ]
+}

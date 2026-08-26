@@ -1,0 +1,590 @@
+{
+  "exame": "enem_2022_2dia",
+  "figuras_coordenadas": {
+    "93": [
+      {
+        "pagina": 2,
+        "tipo": "figura",
+        "elemento": "Estruturas químicas da penicilamina e opções de resposta",
+        "bbox": [
+          110,
+          500,
+          960,
+          990
+        ]
+      }
+    ],
+    "95": [
+      {
+        "pagina": 3,
+        "tipo": "figura",
+        "elemento": "Esquema do experimento no barco e gráficos de sinal sonoro",
+        "bbox": [
+          610,
+          50,
+          860,
+          490
+        ]
+      }
+    ],
+    "96": [
+      {
+        "pagina": 3,
+        "tipo": "imagem",
+        "elemento": "Fotografia da luz engarrafada em uma residência",
+        "bbox": [
+          450,
+          510,
+          840,
+          940
+        ]
+      }
+    ],
+    "99": [
+      {
+        "pagina": 4,
+        "tipo": "tabela",
+        "elemento": "Tabela de rotas, d.d.p. e corrente",
+        "bbox": [
+          740,
+          110,
+          830,
+          410
+        ]
+      }
+    ],
+    "100": [
+      {
+        "pagina": 4,
+        "tipo": "figura",
+        "elemento": "Esquema ilustrativo do ciclo do nitrogênio",
+        "bbox": [
+          230,
+          500,
+          490,
+          940
+        ]
+      }
+    ],
+    "102": [
+      {
+        "pagina": 5,
+        "tipo": "figura",
+        "elemento": "Estruturas químicas dos compostos aromáticos citados",
+        "bbox": [
+          200,
+          120,
+          490,
+          890
+        ]
+      }
+    ],
+    "106": [
+      {
+        "pagina": 6,
+        "tipo": "tabela",
+        "elemento": "Quadro com dados de concentração de sacarose e microrganismos por amostra",
+        "bbox": [
+          290,
+          500,
+          390,
+          900
+        ]
+      }
+    ],
+    "108": [
+      {
+        "pagina": 7,
+        "tipo": "figura",
+        "elemento": "Diagramas de forças na muleta",
+        "bbox": [
+          110,
+          490,
+          900,
+          830
+        ]
+      }
+    ],
+    "109": [
+      {
+        "pagina": 8,
+        "tipo": "figura",
+        "elemento": "Mecanismo reacional da biomassa celulósica",
+        "bbox": [
+          150,
+          180,
+          550,
+          830
+        ]
+      }
+    ],
+    "110": [
+      {
+        "pagina": 8,
+        "tipo": "figura",
+        "elemento": "Equação de titulação do ácido tartárico",
+        "bbox": [
+          710,
+          130,
+          830,
+          720
+        ]
+      }
+    ],
+    "111": [
+      {
+        "pagina": 9,
+        "tipo": "tabela",
+        "elemento": "Tabela de vazão e variação de temperatura da ducha",
+        "bbox": [
+          180,
+          50,
+          280,
+          440
+        ]
+      }
+    ],
+    "112": [
+      {
+        "pagina": 9,
+        "tipo": "figura",
+        "elemento": "Desenho esquemático do experimento de reação entre mármore e ácido",
+        "bbox": [
+          710,
+          150,
+          880,
+          410
+        ]
+      }
+    ],
+    "113": [
+      {
+        "pagina": 9,
+        "tipo": "grafico",
+        "elemento": "Gráfico de concentração hormonal em sapos",
+        "bbox": [
+          310,
+          540,
+          530,
+          900
+        ]
+      }
+    ],
+    "117": [
+      {
+        "pagina": 10,
+        "tipo": "figura",
+        "elemento": "Esquema ilustrativo de mosaicismo e inativação do cromossomo X",
+        "bbox": [
+          210,
+          120,
+          720,
+          900
+        ]
+      }
+    ],
+    "118": [
+      {
+        "pagina": 11,
+        "tipo": "figura",
+        "elemento": "Esquema de Oersted com fio e bússolas e alternativas",
+        "bbox": [
+          180,
+          40,
+          930,
+          960
+        ]
+      }
+    ],
+    "119": [
+      {
+        "pagina": 12,
+        "tipo": "figura",
+        "elemento": "Tabela de efeitos da corrente e diagramas de associação de baterias",
+        "bbox": [
+          160,
+          40,
+          900,
+          950
+        ]
+      }
+    ],
+    "122": [
+      {
+        "pagina": 13,
+        "tipo": "figura",
+        "elemento": "Esquema do processo de remediação do solo",
+        "bbox": [
+          110,
+          120,
+          490,
+          890
+        ]
+      }
+    ],
+    "125": [
+      {
+        "pagina": 13,
+        "tipo": "tabela",
+        "elemento": "Quadro de substâncias incompatíveis e riscos",
+        "bbox": [
+          570,
+          500,
+          750,
+          930
+        ]
+      }
+    ],
+    "129": [
+      {
+        "pagina": 14,
+        "tipo": "tabela",
+        "elemento": "Tabela de densidade e calor específico de água e concreto",
+        "bbox": [
+          710,
+          500,
+          790,
+          890
+        ]
+      }
+    ],
+    "130": [
+      {
+        "pagina": 15,
+        "tipo": "tabela",
+        "elemento": "Tabela de monitoramento da massa residual de iodo-131",
+        "bbox": [
+          250,
+          180,
+          380,
+          470
+        ]
+      }
+    ],
+    "132": [
+      {
+        "pagina": 15,
+        "tipo": "figura",
+        "elemento": "Esquema da Terra no solstício e gráfico de produção de energia",
+        "bbox": [
+          180,
+          490,
+          750,
+          930
+        ]
+      }
+    ],
+    "134": [
+      {
+        "pagina": 16,
+        "tipo": "tabela",
+        "elemento": "Quadro de resultados de ensaios com catalase",
+        "bbox": [
+          360,
+          190,
+          460,
+          490
+        ]
+      }
+    ],
+    "135": [
+      {
+        "pagina": 16,
+        "tipo": "tabela",
+        "elemento": "Tabela de antimicrobianos hipotéticos e efeitos",
+        "bbox": [
+          620,
+          50,
+          740,
+          930
+        ]
+      }
+    ],
+    "139": [
+      {
+        "pagina": 17,
+        "tipo": "grafico",
+        "elemento": "Gráfico de distância versus tempo da competição automobilística",
+        "bbox": [
+          210,
+          500,
+          460,
+          920
+        ]
+      }
+    ],
+    "141": [
+      {
+        "pagina": 18,
+        "tipo": "figura",
+        "elemento": "Mapa de ruas indicando o trajeto entre P e Q",
+        "bbox": [
+          110,
+          120,
+          410,
+          400
+        ]
+      }
+    ],
+    "143": [
+      {
+        "pagina": 18,
+        "tipo": "grafico",
+        "elemento": "Gráficos de aluguel e valor de mercado dos imóveis",
+        "bbox": [
+          360,
+          530,
+          720,
+          920
+        ]
+      }
+    ],
+    "145": [
+      {
+        "pagina": 19,
+        "tipo": "figura",
+        "elemento": "Gráfico de coordenadas geográficas das cidades e rodovias",
+        "bbox": [
+          230,
+          50,
+          490,
+          490
+        ]
+      }
+    ],
+    "146": [
+      {
+        "pagina": 19,
+        "tipo": "tabela",
+        "elemento": "Quadro de custos e tempos dos operários",
+        "bbox": [
+          250,
+          500,
+          380,
+          930
+        ]
+      }
+    ],
+    "148": [
+      {
+        "pagina": 20,
+        "tipo": "figura",
+        "elemento": "Ilustração de cone com dimensões",
+        "bbox": [
+          180,
+          120,
+          400,
+          450
+        ]
+      }
+    ],
+    "151": [
+      {
+        "pagina": 21,
+        "tipo": "grafico",
+        "elemento": "Gráfico de temperatura em função do tempo",
+        "bbox": [
+          270,
+          50,
+          440,
+          480
+        ]
+      }
+    ],
+    "153": [
+      {
+        "pagina": 21,
+        "tipo": "grafico",
+        "elemento": "Gráfico de barras de receitas e despesas mensais",
+        "bbox": [
+          200,
+          500,
+          440,
+          920
+        ]
+      }
+    ],
+    "158": [
+      {
+        "pagina": 23,
+        "tipo": "figura",
+        "elemento": "Figuras 1 e 2 do cubo e planificações A a E",
+        "bbox": [
+          110,
+          160,
+          550,
+          910
+        ]
+      }
+    ],
+    "162": [
+      {
+        "pagina": 24,
+        "tipo": "figura",
+        "elemento": "Ilustração dos tipos de preenchimento de bingo e cartão de Pedro",
+        "bbox": [
+          310,
+          500,
+          650,
+          910
+        ]
+      }
+    ],
+    "163": [
+      {
+        "pagina": 25,
+        "tipo": "figura",
+        "elemento": "Sequência de figuras de dobramento, recorte e alternativas",
+        "bbox": [
+          110,
+          50,
+          910,
+          930
+        ]
+      }
+    ],
+    "164": [
+      {
+        "pagina": 26,
+        "tipo": "grafico",
+        "elemento": "Gráfico de esperança de vida ao nascer",
+        "bbox": [
+          210,
+          40,
+          470,
+          490
+        ]
+      }
+    ],
+    "165": [
+      {
+        "pagina": 26,
+        "tipo": "figura",
+        "elemento": "Esquema do globo terrestre e projeções ortogonais",
+        "bbox": [
+          180,
+          500,
+          910,
+          930
+        ]
+      }
+    ],
+    "166": [
+      {
+        "pagina": 27,
+        "tipo": "tabela",
+        "elemento": "Quadro de pontuação de jogadores de basquete",
+        "bbox": [
+          220,
+          50,
+          340,
+          490
+        ]
+      }
+    ],
+    "168": [
+      {
+        "pagina": 27,
+        "tipo": "tabela",
+        "elemento": "Tabela de vagas oferecidas e candidatos por vaga",
+        "bbox": [
+          180,
+          500,
+          460,
+          930
+        ]
+      }
+    ],
+    "171": [
+      {
+        "pagina": 28,
+        "tipo": "figura",
+        "elemento": "Esquema de disposição das fileiras na sala de cinema",
+        "bbox": [
+          520,
+          50,
+          810,
+          930
+        ]
+      }
+    ],
+    "173": [
+      {
+        "pagina": 29,
+        "tipo": "tabela",
+        "elemento": "Tabela de frequências do número de crianças por família",
+        "bbox": [
+          650,
+          50,
+          810,
+          440
+        ]
+      }
+    ],
+    "174": [
+      {
+        "pagina": 29,
+        "tipo": "figura",
+        "elemento": "Esquema da trajetória do saque no voleibol",
+        "bbox": [
+          310,
+          500,
+          530,
+          900
+        ]
+      }
+    ],
+    "177": [
+      {
+        "pagina": 30,
+        "tipo": "tabela",
+        "elemento": "Tabela da sequência de treinos por dia da semana",
+        "bbox": [
+          760,
+          50,
+          830,
+          880
+        ]
+      }
+    ],
+    "178": [
+      {
+        "pagina": 31,
+        "tipo": "figura",
+        "elemento": "Esquema do cubo com trajeto do robô e opções de projeção",
+        "bbox": [
+          110,
+          50,
+          600,
+          490
+        ]
+      }
+    ],
+    "179": [
+      {
+        "pagina": 31,
+        "tipo": "figura",
+        "elemento": "Planta baixa da residência",
+        "bbox": [
+          110,
+          500,
+          420,
+          930
+        ]
+      }
+    ],
+    "180": [
+      {
+        "pagina": 31,
+        "tipo": "grafico",
+        "elemento": "Gráfico linear de vendas por setores",
+        "bbox": [
+          510,
+          500,
+          870,
+          920
+        ]
+      }
+    ]
+  }
+}

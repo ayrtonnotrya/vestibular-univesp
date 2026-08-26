@@ -58,13 +58,52 @@ EXPLICIT = {
         "Arcos e ângulos: medidas (graus e radianos) e relações entre arcos",
     "Arranjos, permutações e combinações simples":
         "Arranjos, permutações e combinações simples",
+    "Literatura Brasileira: Modernismo Brasileiro":
+        "Modernismo Brasileiro: 1ª Fase (1922), 2ª Fase (Geração de 30 - romance regionalista e poesia de 30) e 3ª Fase (Geração de 45/Pós-Modernismo)",
+    "Matriz e determinantes":
+        "Matrizes e determinantes",
     "Literatura Brasileira: Modernismo Brasileiro: 1ª Fase (1922)":
         "Modernismo Brasileiro: 1ª Fase (1922), 2ª Fase (Geração de 30 - romance regionalista e poesia de 30) e 3ª Fase (Geração de 45/Pós-Modernismo)",
     "Literatura Brasileira: Modernismo Brasileiro: 2ª Fase (Geração de 30 - romance regionalista e poesia de 30)":
         "Modernismo Brasileiro: 1ª Fase (1922), 2ª Fase (Geração de 30 - romance regionalista e poesia de 30) e 3ª Fase (Geração de 45/Pós-Modernismo)",
     "Literatura Brasileira: Modernismo Brasileiro: 3ª Fase (Geração de 45/Pós-Modernismo)":
         "Modernismo Brasileiro: 1ª Fase (1922), 2ª Fase (Geração de 30 - romance regionalista e poesia de 30) e 3ª Fase (Geração de 45/Pós-Modernismo)",
+    "Literatura Brasileira: Romantismo":
+        "Literatura Brasileira: Quinhentismo, Barroco (Gregório de Matos), Arcadismo, Romantismo, Realismo/Naturalismo (Machado de Assis), Parnasianismo e Simbolismo",
+    "Literatura Brasileira: Parnasianismo e Simbolismo":
+        "Literatura Brasileira: Quinhentismo, Barroco (Gregório de Matos), Arcadismo, Romantismo, Realismo/Naturalismo (Machado de Assis), Parnasianismo e Simbolismo",
+    "Literatura Brasileira: Quinhentismo, Barroco (Gregório de Matos), Arcadismo":
+        "Literatura Brasileira: Quinhentismo, Barroco (Gregório de Matos), Arcadismo, Romantismo, Realismo/Naturalismo (Machado de Assis), Parnasianismo e Simbolismo",
+    "Literatura Brasileira: Quinhentismo, Barroco (Gregório de Matos)":
+        "Literatura Brasileira: Quinhentismo, Barroco (Gregório de Matos), Arcadismo, Romantismo, Realismo/Naturalismo (Machado de Assis), Parnasianismo e Simbolismo",
+    "Impactos ambientais: poluição, desmatamento, degradação de solos e conferências internacionais do clima":
+        "Impactos ambientais: mudanças climáticas, efeito estufa, desmatamento, degradação de solos e conferências internacionais do clima",
 }
+
+LABELS = [f"univesp_{y}" for y in ("2017_2s", "2018_1s", "2018_2s", "2019_2")]
+LABELS += [f"univesp_{ano}" for ano in range(2020, 2027)]
+LABELS += [f"fuvest_{ano}" for ano in range(2010, 2027)]
+LABELS += ["enem_2011_2dia"]
+LABELS += [f"enem_{ano}_{dia}" for ano in range(2012, 2026) for dia in ("1dia", "2dia")]
+LABELS += ["fatec_2010_1S", "fatec_2010_2S", "fatec_2011_2S"]
+LABELS += [f"fatec_{ano}_{dia}" for ano in range(2012, 2021) for dia in ("1S", "2S")]
+LABELS += ["fatec_2020_1S", "fatec_2023_1S", "fatec_2023_2S"]
+LABELS += [f"unesp_{ano}" for ano in range(2010, 2021)]
+LABELS += [f"unesp_{ano}_{dia}" for ano in (2021, 2022) for dia in ("1dia", "2dia")]
+LABELS += [f"unesp_{ano}" for ano in range(2023, 2027)]
+
+
+def load_catalog_areas():
+    with open(CATALOG, encoding="utf-8") as f:
+        cat = json.load(f)
+    areas = set()
+    area_of = {}
+    for d in cat["plano_de_estudos_vestibular"]["disciplinas"]:
+        areas.add(d["area"])
+        for mod in d["modulos"]:
+            for a in mod["assuntos"]:
+                area_of.setdefault(a, set()).add(d["area"])
+    return areas, area_of
 
 
 def best_match(target, exact):
@@ -84,6 +123,7 @@ def best_match(target, exact):
 
 def main():
     exact = load_catalog_strings()
+    areas, area_of = load_catalog_areas()
     total_fixed = 0
     total_unmatched = []
     for label in LABELS:
@@ -95,6 +135,15 @@ def main():
         fixed = 0
         for q in j["questoes"]:
             for a in q.get("areas", []):
+                if a["area"] not in areas:
+                    cands = set()
+                    for s in a["assuntos"]:
+                        cands |= area_of.get(s, set())
+                    if cands:
+                        a["area"] = sorted(cands)[0]
+                        fixed += 1
+                    else:
+                        total_unmatched.append((label, q["numero"], f"area>{a['area']}"))
                 new_list = []
                 for s in a["assuntos"]:
                     if s in EXPLICIT:

@@ -1,0 +1,421 @@
+{
+  "exame": "unesp_2021_2dia",
+  "figuras_coordenadas": {
+    "1": [
+      {
+        "pagina": 3,
+        "tipo": "cartum",
+        "elemento": "Tira de quadrinhos de Alex Culang e Raynato Castro",
+        "bbox": [
+          71,
+          97,
+          345,
+          495
+        ]
+      }
+    ],
+    "6": [
+      {
+        "pagina": 4,
+        "tipo": "imagem",
+        "elemento": "Anedota em inglês sobre H2O e H2O2",
+        "bbox": [
+          420,
+          509,
+          571,
+          875
+        ]
+      }
+    ],
+    "11": [
+      {
+        "pagina": 5,
+        "tipo": "cartum",
+        "elemento": "Cartum de Sofia Warren com um cão no computador",
+        "bbox": [
+          560,
+          512,
+          670,
+          786
+        ]
+      }
+    ],
+    "20": [
+      {
+        "pagina": 7,
+        "tipo": "imagem",
+        "elemento": "Pintura Prisão de Tiradentes de Antônio Parreiras",
+        "bbox": [
+          613,
+          512,
+          786,
+          787
+        ]
+      }
+    ],
+    "24": [
+      {
+        "pagina": 9,
+        "tipo": "cartum",
+        "elemento": "Cartum sobre o aquecimento global e termômetro",
+        "bbox": [
+          90,
+          110,
+          242,
+          475
+        ]
+      }
+    ],
+    "25": [
+      {
+        "pagina": 9,
+        "tipo": "cartum",
+        "elemento": "Cartum de menina abraçando árvore e operador com motosserra",
+        "bbox": [
+          528,
+          81,
+          725,
+          478
+        ]
+      }
+    ],
+    "26": [
+      {
+        "pagina": 9,
+        "tipo": "mapa",
+        "elemento": "Mapa da floresta amazônica e detalhe do padrão de desmatamento",
+        "bbox": [
+          76,
+          510,
+          484,
+          915
+        ]
+      }
+    ],
+    "27": [
+      {
+        "pagina": 9,
+        "tipo": "mapa",
+        "elemento": "Mapa da floresta amazônica na América do Sul",
+        "bbox": [
+          76,
+          510,
+          484,
+          915
+        ]
+      }
+    ],
+    "28": [
+      {
+        "pagina": 9,
+        "tipo": "mapa",
+        "elemento": "Detalhe de mapa com texto explicativo",
+        "bbox": [
+          76,
+          510,
+          200,
+          915
+        ]
+      }
+    ],
+    "30": [
+      {
+        "pagina": 10,
+        "tipo": "grafico",
+        "elemento": "Gráfico de índice do planeta vivo (Living Planet Index)",
+        "bbox": [
+          290,
+          96,
+          534,
+          428
+        ]
+      }
+    ],
+    "36": [
+      {
+        "pagina": 12,
+        "tipo": "gravura",
+        "elemento": "Gravura da Abertura dos Estados Gerais em Versalhes",
+        "bbox": [
+          365,
+          10,
+          553,
+          484
+        ]
+      }
+    ],
+    "46": [
+      {
+        "pagina": 15,
+        "tipo": "mapa",
+        "elemento": "Mapa de casos de COVID-19 no estado de São Paulo",
+        "bbox": [
+          181,
+          512,
+          335,
+          750
+        ]
+      }
+    ],
+    "49": [
+      {
+        "pagina": 16,
+        "tipo": "figura",
+        "elemento": "Desenhos esquemáticos de espécies de antas do gênero Tapirus",
+        "bbox": [
+          520,
+          120,
+          683,
+          475
+        ]
+      }
+    ],
+    "50": [
+      {
+        "pagina": 16,
+        "tipo": "esquema",
+        "elemento": "Esquema dos efeitos de erupções vulcânicas na atmosfera",
+        "bbox": [
+          76,
+          508,
+          300,
+          915
+        ]
+      }
+    ],
+    "51": [
+      {
+        "pagina": 17,
+        "tipo": "infografico",
+        "elemento": "Infográfico com 8 dicas de arquitetura sustentável",
+        "bbox": [
+          76,
+          110,
+          360,
+          484
+        ]
+      }
+    ],
+    "52": [
+      {
+        "pagina": 17,
+        "tipo": "grafico",
+        "elemento": "Gráfico da oferta interna de energia no Brasil (1940-2012)",
+        "bbox": [
+          76,
+          510,
+          275,
+          915
+        ]
+      }
+    ],
+    "54": [
+      {
+        "pagina": 18,
+        "tipo": "figura",
+        "elemento": "Esquema cartográfico com coordenadas geográficas e ponto X",
+        "bbox": [
+          311,
+          55,
+          605,
+          484
+        ]
+      }
+    ],
+    "67": [
+      {
+        "pagina": 21,
+        "tipo": "figura",
+        "elemento": "Desenhos anatômicos de Leonardo da Vinci",
+        "bbox": [
+          368,
+          68,
+          610,
+          475
+        ]
+      }
+    ],
+    "69": [
+      {
+        "pagina": 22,
+        "tipo": "figura",
+        "elemento": "Fórmula estrutural do gás mostarda",
+        "bbox": [
+          110,
+          150,
+          165,
+          415
+        ]
+      }
+    ],
+    "75": [
+      {
+        "pagina": 24,
+        "tipo": "grafico",
+        "elemento": "Diagrama de fases da água",
+        "bbox": [
+          80,
+          120,
+          272,
+          475
+        ]
+      }
+    ],
+    "76": [
+      {
+        "pagina": 24,
+        "tipo": "grafico",
+        "elemento": "Gráfico de velocidade versus tempo dos veículos I e II",
+        "bbox": [
+          156,
+          512,
+          285,
+          875
+        ]
+      }
+    ],
+    "77": [
+      {
+        "pagina": 25,
+        "tipo": "figura",
+        "elemento": "Ilustração e diagrama de forças da escada",
+        "bbox": [
+          218,
+          68,
+          475,
+          484
+        ]
+      }
+    ],
+    "78": [
+      {
+        "pagina": 25,
+        "tipo": "figura",
+        "elemento": "Esquema da reação de obtenção de hidrogênio em laboratório",
+        "bbox": [
+          135,
+          602,
+          311,
+          810
+        ]
+      }
+    ],
+    "79": [
+      {
+        "pagina": 26,
+        "tipo": "figura",
+        "elemento": "Esquema de refração de luz em lâmina de faces paralelas e alternativas",
+        "bbox": [
+          120,
+          68,
+          865,
+          484
+        ]
+      }
+    ],
+    "80": [
+      {
+        "pagina": 26,
+        "tipo": "figura",
+        "elemento": "Esquema ilustrativo de continentalidade e maritimidade",
+        "bbox": [
+          187,
+          510,
+          345,
+          915
+        ]
+      }
+    ],
+    "81": [
+      {
+        "pagina": 27,
+        "tipo": "grafico",
+        "elemento": "Gráfico de força versus distância",
+        "bbox": [
+          171,
+          130,
+          278,
+          415
+        ]
+      }
+    ],
+    "82": [
+      {
+        "pagina": 27,
+        "tipo": "figura",
+        "elemento": "Ilustração de medidores de energia elétrica com leituras",
+        "bbox": [
+          202,
+          560,
+          311,
+          865
+        ]
+      }
+    ],
+    "83": [
+      {
+        "pagina": 28,
+        "tipo": "grafico",
+        "elemento": "Gráfico de IMC por idade (escore-z para meninos)",
+        "bbox": [
+          171,
+          245,
+          444,
+          786
+        ]
+      }
+    ],
+    "86": [
+      {
+        "pagina": 29,
+        "tipo": "grafico",
+        "elemento": "Gráficos das alternativas relacionando pressão dinâmica e velocidade",
+        "bbox": [
+          181,
+          512,
+          880,
+          875
+        ]
+      }
+    ],
+    "88": [
+      {
+        "pagina": 30,
+        "tipo": "figura",
+        "elemento": "Esquema da biruta e tabela de dimensões",
+        "bbox": [
+          181,
+          512,
+          420,
+          875
+        ]
+      }
+    ],
+    "89": [
+      {
+        "pagina": 31,
+        "tipo": "grafico",
+        "elemento": "Gráfico de dispersão e linha de tendência (desmatamento vs homicídios)",
+        "bbox": [
+          181,
+          110,
+          418,
+          484
+        ]
+      }
+    ],
+    "90": [
+      {
+        "pagina": 31,
+        "tipo": "grafico",
+        "elemento": "Gráfico de proporção de mulheres por homem em publicações científicas",
+        "bbox": [
+          181,
+          512,
+          335,
+          880
+        ]
+      }
+    ]
+  }
+}

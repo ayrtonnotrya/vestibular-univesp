@@ -1,0 +1,1576 @@
+{
+  "exame": "univesp_2026_questoes",
+  "ano": 2026,
+  "semestre": null,
+  "fonte_questoes": "data/univesp_2026_questoes.pdf",
+  "fonte_gabarito": "data/univesp_2026_gabarito.pdf",
+  "total_questoes": 57,
+  "questoes": [
+    {
+      "numero": 1,
+      "tipo": "objetiva",
+      "enunciado": "Uma artesã adquiriu 20 rolos de barbante de 100 m e de 80 m, totalizando 1840 m de barbante. A diferença entre as quantidades de rolos de 100 m e de 80 m é igual a",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "2.",
+        "b": "3.",
+        "c": "4.",
+        "d": "5.",
+        "e": "6."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Sistemas lineares: métodos de resolução algébrica",
+            "Razões e proporções diretas e inversas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 3
+    },
+    {
+      "numero": 2,
+      "tipo": "objetiva",
+      "enunciado": "André e Beto se prepararam para participar de uma corrida. Para isso, realizaram 6 dias de treinamento. No primeiro dia de treino, André correu 6 km e, em cada dia subsequente, correu 2 km a mais do que no dia anterior. Beto correu 1 km no primeiro dia de treino e, em cada dia subsequente, percorreu o dobro da distância percorrida no dia anterior. Ao término dos 6 primeiros dias de preparação, considerando a distância total percorrida por cada um,",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "Beto correu 6 km a mais que André.",
+        "b": "Beto correu 6 km a menos que André.",
+        "c": "Beto e André correram a mesma distância.",
+        "d": "Beto correu 3 km a mais que André.",
+        "e": "Beto correu 3 km a menos que André."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Noção de sequência e lei de formação/recorrência",
+            "Progressão Aritmética (PA) - termo geral e soma dos termos",
+            "Progressão Geométrica (PG) - termo geral e soma dos termos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 3
+    },
+    {
+      "numero": 3,
+      "tipo": "objetiva",
+      "enunciado": "Heloisa deseja criar uma senha com 5 caracteres distintos, utilizando todas as 4 vogais de seu nome e um único algarismo. Desse modo, a senha deverá conter necessariamente as vogais {a, e, i, o}, além de terminar com um algarismo do conjunto {0, 1, ..., 9}. Nessas condições, o número de senhas distintas possíveis é",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "240.",
+        "b": "216.",
+        "c": "180.",
+        "d": "150.",
+        "e": "120."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Princípios multiplicativo e aditivo da contagem",
+            "Arranjos, permutações e combinações simples"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 3
+    },
+    {
+      "numero": 4,
+      "tipo": "objetiva",
+      "enunciado": "Um dado honesto possui 6 faces e três delas estão numeradas com os algarismos 2, 3 e 5, conforme mostra a figura. Nesse dado, sabe-se que a soma dos dois números de faces opostas é sempre igual a 10.\nNessas condições, no lançamento desse dado, a probabilidade de a face sorteada ter um número maior que 5 é:",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 3: Ilustração de um dado com as faces numeradas com 2, 3 e 5 visíveis."
+      ],
+      "alternativas": {
+        "a": "1/6",
+        "b": "1/3",
+        "c": "1/2",
+        "d": "2/3",
+        "e": "5/6"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Espaço amostral (discreto e contínuo) e conceito de probabilidade"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 3
+    },
+    {
+      "numero": 5,
+      "tipo": "objetiva",
+      "enunciado": "Em certa empresa, o custo da produção de x bonés, em reais, pode ser expresso pela lei C(x) = 25x. Se cada boné for vendido por essa empresa pelo valor de R$ 45,00, ela terá como lucro, por boné, o valor de",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "R$ 30,00.",
+        "b": "R$ 25,00.",
+        "c": "R$ 20,00.",
+        "d": "R$ 15,00.",
+        "e": "R$ 10,00."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Função polinomial do 1º grau e função constante",
+            "Conceito de função e relações entre grandezas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 3
+    },
+    {
+      "numero": 6,
+      "tipo": "objetiva",
+      "enunciado": "Os pontos A(√3, 1), B(3√3, 1) e C(2√3, 2) são vértices de um triângulo ABC no plano cartesiano. O maior lado desse triângulo ABC mede:",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "2",
+        "b": "2√3",
+        "c": "√3",
+        "d": "1",
+        "e": "3"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Geometria Analítica Básica: coordenadas, plano cartesiano, distância e ponto médio"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 4
+    },
+    {
+      "numero": 7,
+      "tipo": "objetiva",
+      "enunciado": "Os triângulos ABD e CDB são retângulos, respectivamente, em B e D, e possuem o lado BD em comum, conforme mostra a figura.\nSabendo que AB = 16 cm, AD = 20 cm e BC = 13 cm, a área do trapézio ABCD é",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 4: Desenho geométrico de um trapézio ABCD com diagonais/lados internos formando triângulos retângulos em B e D, indicando medidas."
+      ],
+      "alternativas": {
+        "a": "126 cm².",
+        "b": "116 cm².",
+        "c": "112 cm².",
+        "d": "108 cm².",
+        "e": "104 cm²."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Relações métricas no triângulo retângulo, polígonos regulares e círculos",
+            "Cálculo de áreas (polígonos, círculos, coroas e setores circulares)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 4
+    },
+    {
+      "numero": 8,
+      "tipo": "objetiva",
+      "enunciado": "Um recipiente fechado, na forma de um prisma reto de base quadrada, de 10 cm de lado e 20 cm de altura, contém certa quantidade de água que atinge 16 cm de altura do recipiente, conforme mostra a figura 1.\nSe esse recipiente for virado e apoiado na base de lados 20 cm e 10 cm, como mostra a figura 2, a água contida no recipiente atingirá a altura de",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 4: Figura 1 mostra um prisma reto com água até 16 cm. Figura 2 mostra o prisma deitado com altura h de água."
+      ],
+      "alternativas": {
+        "a": "6,0 cm.",
+        "b": "6,5 cm.",
+        "c": "7,0 cm.",
+        "d": "8,0 cm.",
+        "e": "8,5 cm."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Geometria Espacial: vistas ortogonais e planificação",
+            "Poliedros, corpos redondos, prismas, pirâmides e troncos (área e volume)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 4
+    },
+    {
+      "numero": 9,
+      "tipo": "objetiva",
+      "enunciado": "Um professor de matemática realizou uma pesquisa para determinar o número de alunos destros e o número de alunos canhotos nas 5 salas em que leciona. O gráfico mostra os resultados obtidos pela pesquisa:\nSabe-se que nenhum aluno é ambidestro. Nessas condições, entre as cinco salas, a com maior percentual de alunos canhotos é a sala",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 5: Gráfico de colunas indicando o número de alunos destros e canhotos por sala (Sala 1 a Sala 5)."
+      ],
+      "alternativas": {
+        "a": "1.",
+        "b": "2.",
+        "c": "3.",
+        "d": "4.",
+        "e": "5."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Interpretação de gráficos (barras, setores, histogramas, box-plot, ramos e folhas)",
+            "Razões e proporções diretas e inversas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 5
+    },
+    {
+      "numero": 10,
+      "tipo": "objetiva",
+      "enunciado": "Em uma festa de formatura foram disponibilizadas 30 mesas com 4 lugares cada uma e 20 mesas com 6 lugares cada uma. Sabe-se que as mesas com 4 e 6 lugares custam, respectivamente, R$ 600,00 e R$ 780,00. Se todas as 50 mesas foram vendidas e todos os lugares foram ocupados, o preço médio pago por pessoa nessa festa foi de",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "R$ 150,00.",
+        "b": "R$ 147,50.",
+        "c": "R$ 145,00.",
+        "d": "R$ 142,50.",
+        "e": "R$ 140,00."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Matemática",
+          "assuntos": [
+            "Estatística: medidas de tendência central (média, moda e mediana)",
+            "Matemática Financeira: porcentagem, juros simples, juros compostos, taxas e índices"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 5
+    },
+    {
+      "numero": 11,
+      "tipo": "objetiva",
+      "enunciado": "O texto destaca o fato de a IA ser usada para",
+      "textos_de_apoio": [
+        "IA permite viajar sem sair do sofá e ainda matar amigos de inveja\n\nBasta rolar o feed por alguns minutos. Nas redes sociais, surgem fotos de amigos ou influenciadores em cenários típicos de férias perfeitas: alguém aos pés da Torre Eiffel, em Paris, outro numa praia de águas azuis do Caribe ou de algum paraíso nordestino, sem falar no semblante de encantamento diante do castelo da Disney, nos Estados Unidos da América (EUA). Na era da tecnologia, não é preciso ser nenhum privilegiado para compartilhar frequentemente fotos assim nas redes. Aplicativos de inteligência artificial (IA) fazem sucesso produzindo imagens de pessoas em cenários nos quais elas nunca pisaram, confundindo muita gente.\n\nA primeira febre de manipulação de fotos com IA foi a aplicação de filtros no estilo de animação, seguida de retratos de infância recriados em novos cenários. Agora, a onda é compartilhar imagens simulando cenas de turismo, muitas vezes sem qualquer indicação de que foram geradas artificialmente. Os recursos estão em aplicativos que também usam a IA para simular ensaios fotográficos de aniversário nunca comemorados ou fotos em ambiente corporativo (geralmente com aquele figurino de executivo e cara de conteúdo) para compor perfis profissionais nas redes.\n\nPara o antropólogo David Nemer, o uso de IA com esse objetivo diz muito mais sobre a cultura digital contemporânea no mundo do que sobre “falsidade”. Ele recorre ao conceito atual de economia da performance, em que a visibilidade digital funciona como capital simbólico. A imagem atrai, mas não é registro: vira status e narrativa pessoal, numa lógica que já existia com filtros e programas de edição de fotos.\n\n“O valor não está no que você viveu, mas no que você consegue mostrar”, diz o antropólogo. “E ainda reforça desigualdades, porque quem já tem mais repertório digital, literacia tecnológica e familiaridade com IA consegue manipular melhor essas ferramentas e construir imagens mais ‘críveis’, enquanto outros ficam excluídos ou vulneráveis a julgamentos morais”.\n(Carolina Nalin. O Globo, 07.12.2025. Adaptado.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "promover viagens a localidades distantes.",
+        "b": "ampliar as chances de conquistar um bom emprego.",
+        "c": "produzir imagens de situações que nunca ocorreram.",
+        "d": "eliminar diferenças sociais, econômicas e culturais.",
+        "e": "tornar conhecidos lugares pouco visitados."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação",
+            "Tipologias textuais (narração, descrição, dissertação) e gêneros textuais variados"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 5
+    },
+    {
+      "numero": 12,
+      "tipo": "objetiva",
+      "enunciado": "De acordo com o antropólogo David Nemer, a geração de imagens por meio de IA reforça desigualdades porque, entre outras razões,",
+      "textos_de_apoio": [
+        "IA permite viajar sem sair do sofá e ainda matar amigos de inveja\n\nBasta rolar o feed por alguns minutos. Nas redes sociais, surgem fotos de amigos ou influenciadores em cenários típicos de férias perfeitas: alguém aos pés da Torre Eiffel, em Paris, outro numa praia de águas azuis do Caribe ou de algum paraíso nordestino, sem falar no semblante de encantamento diante do castelo da Disney, nos Estados Unidos da América (EUA). Na era da tecnologia, não é preciso ser nenhum privilegiado para compartilhar frequentemente fotos assim nas redes. Aplicativos de inteligência artificial (IA) fazem sucesso produzindo imagens de pessoas em cenários nos quais elas nunca pisaram, confundindo muita gente.\n\nA primeira febre de manipulação de fotos com IA foi a aplicação de filtros no estilo de animação, seguida de retratos de infância recriados em novos cenários. Agora, a onda é compartilhar imagens simulando cenas de turismo, muitas vezes sem qualquer indicação de que foram geradas artificialmente. Os recursos estão em aplicativos que também usam a IA para simular ensaios fotográficos de aniversário nunca comemorados ou fotos em ambiente corporativo (geralmente com aquele figurino de executivo e cara de conteúdo) para compor perfis profissionais nas redes.\n\nPara o antropólogo David Nemer, o uso de IA com esse objetivo diz muito mais sobre a cultura digital contemporânea no mundo do que sobre “falsidade”. Ele recorre ao conceito atual de economia da performance, em que a visibilidade digital funciona como capital simbólico. A imagem atrai, mas não é registro: vira status e narrativa pessoal, numa lógica que já existia com filtros e programas de edição de fotos.\n\n“O valor não está no que você viveu, mas no que você consegue mostrar”, diz o antropólogo. “E ainda reforça desigualdades, porque quem já tem mais repertório digital, literacia tecnológica e familiaridade com IA consegue manipular melhor essas ferramentas e construir imagens mais ‘críveis’, enquanto outros ficam excluídos ou vulneráveis a julgamentos morais”.\n(Carolina Nalin. O Globo, 07.12.2025. Adaptado.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "a cultura digital contemporânea produz narrativas falsas.",
+        "b": "a visibilidade digital é um capital simbólico irrelevante.",
+        "c": "algumas pessoas têm mais repertório digital do que outras.",
+        "d": "qualquer pessoa é capaz de lidar bem com as ferramentas digitais.",
+        "e": "aplicativos com filtros e de edição de fotos são recursos digitais de uso restrito."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 6
+    },
+    {
+      "numero": 13,
+      "tipo": "objetiva",
+      "enunciado": "No título do texto, o verbo “matar” é empregado com sentido",
+      "textos_de_apoio": [
+        "IA permite viajar sem sair do sofá e ainda matar amigos de inveja\n\nBasta rolar o feed por alguns minutos. Nas redes sociais, surgem fotos de amigos ou influenciadores em cenários típicos de férias perfeitas: alguém aos pés da Torre Eiffel, em Paris, outro numa praia de águas azuis do Caribe ou de algum paraíso nordestino, sem falar no semblante de encantamento diante do castelo da Disney, nos Estados Unidos da América (EUA). Na era da tecnologia, não é preciso ser nenhum privilegiado para compartilhar frequentemente fotos assim nas redes. Aplicativos de inteligência artificial (IA) fazem sucesso produzindo imagens de pessoas em cenários nos quais elas nunca pisaram, confundindo muita gente.\n\nA primeira febre de manipulação de fotos com IA foi a aplicação de filtros no estilo de animação, seguida de retratos de infância recriados em novos cenários. Agora, a onda é compartilhar imagens simulando cenas de turismo, muitas vezes sem qualquer indicação de que foram geradas artificialmente. Os recursos estão em aplicativos que também usam a IA para simular ensaios fotográficos de aniversário nunca comemorados ou fotos em ambiente corporativo (geralmente com aquele figurino de executivo e cara de conteúdo) para compor perfis profissionais nas redes.\n\nPara o antropólogo David Nemer, o uso de IA com esse objetivo diz muito mais sobre a cultura digital contemporânea no mundo do que sobre “falsidade”. Ele recorre ao conceito atual de economia da performance, em que a visibilidade digital funciona como capital simbólico. A imagem atrai, mas não é registro: vira status e narrativa pessoal, numa lógica que já existia com filtros e programas de edição de fotos.\n\n“O valor não está no que você viveu, mas no que você consegue mostrar”, diz o antropólogo. “E ainda reforça desigualdades, porque quem já tem mais repertório digital, literacia tecnológica e familiaridade com IA consegue manipular melhor essas ferramentas e construir imagens mais ‘críveis’, enquanto outros ficam excluídos ou vulneráveis a julgamentos morais”.\n(Carolina Nalin. O Globo, 07.12.2025. Adaptado.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "literal.",
+        "b": "metafórico.",
+        "c": "denotativo.",
+        "d": "irônico.",
+        "e": "pejorativo."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação",
+            "Figuras de linguagem (metáfora, metonímia, antítese, paradoxo, hipérbole, ironia)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 6
+    },
+    {
+      "numero": 14,
+      "tipo": "objetiva",
+      "enunciado": "No primeiro parágrafo, o termo “feed” está destacado em itálico por se tratar de uma palavra",
+      "textos_de_apoio": [
+        "IA permite viajar sem sair do sofá e ainda matar amigos de inveja\n\nBasta rolar o feed por alguns minutos. Nas redes sociais, surgem fotos de amigos ou influenciadores em cenários típicos de férias perfeitas: alguém aos pés da Torre Eiffel, em Paris, outro numa praia de águas azuis do Caribe ou de algum paraíso nordestino, sem falar no semblante de encantamento diante do castelo da Disney, nos Estados Unidos da América (EUA). Na era da tecnologia, não é preciso ser nenhum privilegiado para compartilhar frequentemente fotos assim nas redes. Aplicativos de inteligência artificial (IA) fazem sucesso produzindo imagens de pessoas em cenários nos quais elas nunca pisaram, confundindo muita gente.\n\nA primeira febre de manipulação de fotos com IA foi a aplicação de filtros no estilo de animação, seguida de retratos de infância recriados em novos cenários. Agora, a onda é compartilhar imagens simulando cenas de turismo, muitas vezes sem qualquer indicação de que foram geradas artificialmente. Os recursos estão em aplicativos que também usam a IA para simular ensaios fotográficos de aniversário nunca comemorados ou fotos em ambiente corporativo (geralmente com aquele figurino de executivo e cara de conteúdo) para compor perfis profissionais nas redes.\n\nPara o antropólogo David Nemer, o uso de IA com esse objetivo diz muito mais sobre a cultura digital contemporânea no mundo do que sobre “falsidade”. Ele recorre ao conceito atual de economia da performance, em que a visibilidade digital funciona como capital simbólico. A imagem atrai, mas não é registro: vira status e narrativa pessoal, numa lógica que já existia com filtros e programas de edição de fotos.\n\n“O valor não está no que você viveu, mas no que você consegue mostrar”, diz o antropólogo. “E ainda reforça desigualdades, porque quem já tem mais repertório digital, literacia tecnológica e familiaridade com IA consegue manipular melhor essas ferramentas e construir imagens mais ‘críveis’, enquanto outros ficam excluídos ou vulneráveis a julgamentos morais”.\n(Carolina Nalin. O Globo, 07.12.2025. Adaptado.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "emprestada de outra língua.",
+        "b": "inventada pelo autor do texto.",
+        "c": "utilizada em mídias digitais.",
+        "d": "desprovida de significado.",
+        "e": "popularizada pelo uso de IA."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Variações linguísticas e níveis de formalidade/informalidade"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 6
+    },
+    {
+      "numero": 15,
+      "tipo": "objetiva",
+      "enunciado": "Na tira, as férias se apresentam como",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 6: Tirinha de José Aguiar com quatro quadrinhos mostrando placas ou balões com os dizeres: 'QUERO FÉRIAS', 'PRECISO DE FÉRIAS', 'ADORARIA FÉRIAS' e 'O QUE SÃO FÉRIAS?'."
+      ],
+      "alternativas": {
+        "a": "uma necessidade fácil de satisfazer.",
+        "b": "um pedido que foi atendido.",
+        "c": "uma experiência negativa.",
+        "d": "uma possibilidade garantida de descanso.",
+        "e": "um desejo não realizado."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Intertextualidade, interdiscursividade e análise de textos verbais e não verbais (charges, cartuns)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 6
+    },
+    {
+      "numero": 16,
+      "tipo": "objetiva",
+      "enunciado": "O trecho do texto se caracteriza como",
+      "textos_de_apoio": [
+        "Quando me vieram chamar, nem acreditei:\n— É Zuzézinho! Está caindo do prédio.\nE as gentes, em volta, se depressavam para o sucedido. Me juntei às correrias, a pergunta zaranzeando: o homem estava caindo? Aquele gerúndio era um desmando nas graves leis da gravidade: quem cai, já caiu.\nEnquanto corria, meu coração se constringia. Antevia meu velho amigo estatelado na calçada. [...]\nMe aproximava do prédio e já me aranhava na multidão. Coisa de inacreditar: olhavam todos para cima. Quando fitei os céus, ainda mais me perturbei: lá estava, pairando como águia real, o Zuzé Neto. O próprio José Antunes Marques Neto, em artes de aero-anjo. Estava caindo? Se sim, vinha mais lento que o planar do planeta pelos céus.\n(Mia Couto. O fio das missangas, 2004.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "narrativo.",
+        "b": "dissertativo.",
+        "c": "argumentativo.",
+        "d": "científico.",
+        "e": "jornalístico."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Tipologias textuais (narração, descrição, dissertação) e gêneros textuais variados"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 7
+    },
+    {
+      "numero": 17,
+      "tipo": "objetiva",
+      "enunciado": "O verbo “inacreditar” (5º parágrafo) apresenta um prefixo indicativo de negação, assim como a palavra",
+      "textos_de_apoio": [
+        "Quando me vieram chamar, nem acreditei:\n— É Zuzézinho! Está caindo do prédio.\nE as gentes, em volta, se depressavam para o sucedido. Me juntei às correrias, a pergunta zaranzeando: o homem estava caindo? Aquele gerúndio era um desmando nas graves leis da gravidade: quem cai, já caiu.\nEnquanto corria, meu coração se constringia. Antevia meu velho amigo estatelado na calçada. [...]\nMe aproximava do prédio e já me aranhava na multidão. Coisa de inacreditar: olhavam todos para cima. Quando fitei os céus, ainda mais me perturbei: lá estava, pairando como águia real, o Zuzé Neto. O próprio José Antunes Marques Neto, em artes de aero-anjo. Estava caindo? Se sim, vinha mais lento que o planar do planeta pelos céus.\n(Mia Couto. O fio das missangas, 2004.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "“zaranzeando” (3º parágrafo).",
+        "b": "“desmando” (3º parágrafo).",
+        "c": "“gravidade” (3º parágrafo).",
+        "d": "“Antevia” (4º parágrafo).",
+        "e": "“aero-anjo” (5º parágrafo)."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Estrutura e processos de formação de palavras (derivação e composição)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 7
+    },
+    {
+      "numero": 18,
+      "tipo": "objetiva",
+      "enunciado": "Sobre o uso do gerúndio na frase “Está caindo do prédio” (2º parágrafo), o narrador do texto manifesta",
+      "textos_de_apoio": [
+        "Quando me vieram chamar, nem acreditei:\n— É Zuzézinho! Está caindo do prédio.\nE as gentes, em volta, se depressavam para o sucedido. Me juntei às correrias, a pergunta zaranzeando: o homem estava caindo? Aquele gerúndio era um desmando nas graves leis da gravidade: quem cai, já caiu.\nEnquanto corria, meu coração se constringia. Antevia meu velho amigo estatelado na calçada. [...]\nMe aproximava do prédio e já me aranhava na multidão. Coisa de inacreditar: olhavam todos para cima. Quando fitei os céus, ainda mais me perturbei: lá estava, pairando como águia real, o Zuzé Neto. O próprio José Antunes Marques Neto, em artes de aero-anjo. Estava caindo? Se sim, vinha mais lento que o planar do planeta pelos céus.\n(Mia Couto. O fio das missangas, 2004.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "tédio.",
+        "b": "euforia.",
+        "c": "medo.",
+        "d": "estranhamento.",
+        "e": "resignação."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Significação explícita e implícita, denotação e conotação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 7
+    },
+    {
+      "numero": 19,
+      "tipo": "objetiva",
+      "enunciado": "“Quando fitei os céus, ainda mais me perturbei: lá estava, pairando como águia real, o Zuzé Neto.” (5º parágrafo)\nNesse trecho, o uso dos dois-pontos serve para introduzir uma",
+      "textos_de_apoio": [
+        "Quando me vieram chamar, nem acreditei:\n— É Zuzézinho! Está caindo do prédio.\nE as gentes, em volta, se depressavam para o sucedido. Me juntei às correrias, a pergunta zaranzeando: o homem estava caindo? Aquele gerúndio era um desmando nas graves leis da gravidade: quem cai, já caiu.\nEnquanto corria, meu coração se constringia. Antevia meu velho amigo estatelado na calçada. [...]\nMe aproximava do prédio e já me aranhava na multidão. Coisa de inacreditar: olhavam todos para cima. Quando fitei os céus, ainda mais me perturbei: lá estava, pairando como águia real, o Zuzé Neto. O próprio José Antunes Marques Neto, em artes de aero-anjo. Estava caindo? Se sim, vinha mais lento que o planar do planeta pelos céus.\n(Mia Couto. O fio das missangas, 2004.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "consequência.",
+        "b": "dúvida.",
+        "c": "comparação.",
+        "d": "condição.",
+        "e": "explicação."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Mecanismos de coesão textual (lexical, referencial, anafórica) e coerência"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 7
+    },
+    {
+      "numero": 20,
+      "tipo": "objetiva",
+      "enunciado": "Uma característica das obras de Mia Couto é a presença de marcas do português popular de Moçambique, que se distanciam, por vezes, da norma padrão da língua portuguesa. Exemplifica essa característica a posição do pronome sublinhado na seguinte frase:",
+      "textos_de_apoio": [
+        "Quando me vieram chamar, nem acreditei:\n— É Zuzézinho! Está caindo do prédio.\nE as gentes, em volta, se depressavam para o sucedido. Me juntei às correrias, a pergunta zaranzeando: o homem estava caindo? Aquele gerúndio era um desmando nas graves leis da gravidade: quem cai, já caiu.\nEnquanto corria, meu coração se constringia. Antevia meu velho amigo estatelado na calçada. [...]\nMe aproximava do prédio e já me aranhava na multidão. Coisa de inacreditar: olhavam todos para cima. Quando fitei os céus, ainda mais me perturbei: lá estava, pairando como águia real, o Zuzé Neto. O próprio José Antunes Marques Neto, em artes de aero-anjo. Estava caindo? Se sim, vinha mais lento que o planar do planeta pelos céus.\n(Mia Couto. O fio das missangas, 2004.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "“quem cai, já caiu” (3º parágrafo).",
+        "b": "“Me juntei às correrias” (3º parágrafo).",
+        "c": "“Aquele gerúndio era um desmando” (3º parágrafo).",
+        "d": "“Antevia meu velho amigo estatelado na calçada” (4º parágrafo).",
+        "e": "“olhavam todos para cima” (5º parágrafo)."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Variações linguísticas e níveis de formalidade/informalidade",
+            "Sintaxe do período simples (termos essenciais, integrantes e acessórios da oração)"
+          ]
+        },
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Literaturas Africanas em Língua Portuguesa: autores Mia Couto, Paulina Chiziane, Luandino Vieira, Pepetela, Ana Paula Tavares e Ondjaki"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 7
+    },
+    {
+      "numero": 21,
+      "tipo": "objetiva",
+      "enunciado": "According to the text, autonomous vehicles",
+      "textos_de_apoio": [
+        "Autonomous vehicles — also known as self-driving cars or self-driving vehicles — are vehicles that can navigate and operate safely with little or no human input or intervention. Autonomous vehicles are equipped with autonomous driving systems that use a combination of sensors, computing, and software to safely perceive their environment and execute driving tasks.\n\nAutonomous driving offers a range of benefits. One of the most significant advantages is the potential to improve road safety by reducing vehicle collisions, many of which are caused by human error. Autonomous vehicles are designed to follow traffic laws, monitor blind spots, and detect dangers faster than human drivers.\n\nAutonomous vehicles also have the potential to deliver freedom of mobility for people who are unable to drive by expanding access to transportation options. They can navigate traffic jams and complex urban environments efficiently, which can help reduce traffic congestion and lower emissions — particularly as the transportation industry moves away from internal combustion engines and toward electric vehicles.\n(www.nvidia.com. Adaptado.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "provide little support to individuals with limited mobility.",
+        "b": "are unable to handle heavy traffic in urban areas.",
+        "c": "depend primarily on external operators to make driving decisions.",
+        "d": "integrate different technologies to perform driving functions.",
+        "e": "are likely to intensify pollution as technology advances."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 8
+    },
+    {
+      "numero": 22,
+      "tipo": "objetiva",
+      "enunciado": "No excerto do primeiro parágrafo “Autonomous vehicles — also known as self-driving cars or self-driving vehicles”, o trecho sublinhado apresenta",
+      "textos_de_apoio": [
+        "Autonomous vehicles — also known as self-driving cars or self-driving vehicles — are vehicles that can navigate and operate safely with little or no human input or intervention. Autonomous vehicles are equipped with autonomous driving systems that use a combination of sensors, computing, and software to safely perceive their environment and execute driving tasks.\n\nAutonomous driving offers a range of benefits. One of the most significant advantages is the potential to improve road safety by reducing vehicle collisions, many of which are caused by human error. Autonomous vehicles are designed to follow traffic laws, monitor blind spots, and detect dangers faster than human drivers.\n\nAutonomous vehicles also have the potential to deliver freedom of mobility for people who are unable to drive by expanding access to transportation options. They can navigate traffic jams and complex urban environments efficiently, which can help reduce traffic congestion and lower emissions — particularly as the transportation industry moves away from internal combustion engines and toward electric vehicles.\n(www.nvidia.com. Adaptado.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "um argumento.",
+        "b": "uma explicação.",
+        "c": "uma conclusão.",
+        "d": "um conselho.",
+        "e": "uma opinião."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Identificação do gênero textual, propósito comunicativo e público-alvo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 8
+    },
+    {
+      "numero": 23,
+      "tipo": "objetiva",
+      "enunciado": "No trecho do primeiro parágrafo “vehicles that can navigate and operate safely”, o termo sublinhado expressa",
+      "textos_de_apoio": [
+        "Autonomous vehicles — also known as self-driving cars or self-driving vehicles — are vehicles that can navigate and operate safely with little or no human input or intervention. Autonomous vehicles are equipped with autonomous driving systems that use a combination of sensors, computing, and software to safely perceive their environment and execute driving tasks.\n\nAutonomous driving offers a range of benefits. One of the most significant advantages is the potential to improve road safety by reducing vehicle collisions, many of which are caused by human error. Autonomous vehicles are designed to follow traffic laws, monitor blind spots, and detect dangers faster than human drivers.\n\nAutonomous vehicles also have the potential to deliver freedom of mobility for people who are unable to drive by expanding access to transportation options. They can navigate traffic jams and complex urban environments efficiently, which can help reduce traffic congestion and lower emissions — particularly as the transportation industry moves away from internal combustion engines and toward electric vehicles.\n(www.nvidia.com. Adaptado.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "permissão.",
+        "b": "necessidade.",
+        "c": "capacidade.",
+        "d": "dedução.",
+        "e": "recomendação."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Verbos modais e seus valores semânticos (can, could, should, must, may, might)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 8
+    },
+    {
+      "numero": 24,
+      "tipo": "objetiva",
+      "enunciado": "De acordo com o segundo parágrafo, os veículos autônomos tendem a melhorar a segurança nas estradas pois",
+      "textos_de_apoio": [
+        "Autonomous vehicles — also known as self-driving cars or self-driving vehicles — are vehicles that can navigate and operate safely with little or no human input or intervention. Autonomous vehicles are equipped with autonomous driving systems that use a combination of sensors, computing, and software to safely perceive their environment and execute driving tasks.\n\nAutonomous driving offers a range of benefits. One of the most significant advantages is the potential to improve road safety by reducing vehicle collisions, many of which are caused by human error. Autonomous vehicles are designed to follow traffic laws, monitor blind spots, and detect dangers faster than human drivers.\n\nAutonomous vehicles also have the potential to deliver freedom of mobility for people who are unable to drive by expanding access to transportation options. They can navigate traffic jams and complex urban environments efficiently, which can help reduce traffic congestion and lower emissions — particularly as the transportation industry moves away from internal combustion engines and toward electric vehicles.\n(www.nvidia.com. Adaptado.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "dispensam o uso de sensores complexos para o mapeamento de obstáculos.",
+        "b": "minimizam a ocorrência de acidentes ao detectarem perigos com maior agilidade.",
+        "c": "ampliam a autonomia de decisão do motorista em cenários de alto risco.",
+        "d": "estabelecem um limite fixo e reduzido para a velocidade média em rodovias.",
+        "e": "tornam desnecessários os sistemas atuais de monitoramento de pontos cegos."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Localização de informações explícitas e inferência de sentidos implícitos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 8
+    },
+    {
+      "numero": 25,
+      "tipo": "objetiva",
+      "enunciado": "No trecho do terceiro parágrafo “as the transportation industry moves away from internal combustion engines and toward electric vehicles”, o termo sublinhado pode ser substituído, sem prejuízo de sentido para a oração, por:",
+      "textos_de_apoio": [
+        "Autonomous vehicles — also known as self-driving cars or self-driving vehicles — are vehicles that can navigate and operate safely with little or no human input or intervention. Autonomous vehicles are equipped with autonomous driving systems that use a combination of sensors, computing, and software to safely perceive their environment and execute driving tasks.\n\nAutonomous driving offers a range of benefits. One of the most significant advantages is the potential to improve road safety by reducing vehicle collisions, many of which are caused by human error. Autonomous vehicles are designed to follow traffic laws, monitor blind spots, and detect dangers faster than human drivers.\n\nAutonomous vehicles also have the potential to deliver freedom of mobility for people who are unable to drive by expanding access to transportation options. They can navigate traffic jams and complex urban environments efficiently, which can help reduce traffic congestion and lower emissions — particularly as the transportation industry moves away from internal combustion engines and toward electric vehicles.\n(www.nvidia.com. Adaptado.)"
+      ],
+      "midia": [],
+      "alternativas": {
+        "a": "in replacement of.",
+        "b": "in the mode of.",
+        "c": "in addition to.",
+        "d": "in opposition to.",
+        "e": "in the direction of."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Língua Inglesa",
+          "assuntos": [
+            "Marcadores discursivos e conectivos (conjunções de adição, contraste, causa, consequência e condição)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 8
+    },
+    {
+      "numero": 26,
+      "tipo": "objetiva",
+      "enunciado": "Leia a tirinha do cartunista Brian Crane.\nO efeito de humor da tirinha decorre, sobretudo, do fato de as mulheres",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 9: Tirinha de Brian Crane ('Still Pickled After All These Years', 2004) mostrando um homem procurando seus óculos com a ajuda de outras pessoas, e a nota de um dólar oferecida."
+      ],
+      "alternativas": {
+        "a": "acreditarem que a recompensa não vale o esforço.",
+        "b": "esconderem do homem o valor real da nota oferecida.",
+        "c": "comentarem que a busca pelos óculos será muito demorada.",
+        "d": "observarem como o homem está sendo generoso.",
+        "e": "pensarem que o homem está apenas fazendo uma brincadeira."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Língua Portuguesa e Literaturas",
+          "assuntos": [
+            "Intertextualidade, interdiscursividade e análise de textos verbais e não verbais (charges, cartuns)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 9
+    },
+    {
+      "numero": 27,
+      "tipo": "objetiva",
+      "enunciado": "O modelo democrático de Atenas na Antiguidade",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "garantia a escolha de representantes pelo povo.",
+        "b": "opunha-se à exploração do trabalho escravo.",
+        "c": "restringia-se à camada militar da população.",
+        "d": "baseava-se na participação direta dos cidadãos.",
+        "e": "permitia o acesso de mulheres e estrangeiros."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Antiguidade Clássica: democracia ateniense, República/Império Romano e escravismo"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 9
+    },
+    {
+      "numero": 28,
+      "tipo": "objetiva",
+      "enunciado": "Criada pelos humanistas italianos [...], a noção de uma ressurreição das letras e das artes graças ao reencontro com a Antiguidade foi, seguramente, fecunda como fecundos são todos os manifestos lançados em todos os séculos por novas gerações conquistadoras. Essa noção significa juventude, dinamismo, vontade de renovação. Teve em si a inevitável injustiça das abruptas declarações de adolescentes, que rompem ou creem romper com os gostos e as categorias mentais dos seus antecessores.\n(Jean Delumeau. A civilização do Renascimento, vol. I, 1994.)\nA “injustiça” a que se refere o historiador está relacionada à ideia de que essa “ressureição” cultural, conhecida como Renascimento, contribuiu para a",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "produção de elementos culturais nacionalistas nos países europeus.",
+        "b": "elaboração de um sentimento de ruptura com a Antiguidade.",
+        "c": "geração de um progresso material ilimitado na Europa.",
+        "d": "incompreensão da estética criada no mundo greco-romano.",
+        "e": "rejeição das expressões artísticas elaboradas na Idade Média."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Renascimento Cultural, Reformas Religiosas e formação dos Estados Nacionais"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 9
+    },
+    {
+      "numero": 29,
+      "tipo": "objetiva",
+      "enunciado": "A quantidade de africanos escravizados que desembarcaram no Brasil colônia, nos períodos apresentados no gráfico, está relacionada",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 10: Gráfico de colunas indicando a quantidade de africanos escravizados desembarcados no Brasil Colônia de 1560 a 1629 (www.slavevoyages.org)."
+      ],
+      "alternativas": {
+        "a": "ao avanço da produção açucareira nos engenhos coloniais.",
+        "b": "à pressão inglesa contra a escravização de africanos.",
+        "c": "à expansão da atividade pecuária no sertão da colônia.",
+        "d": "ao respeito dos colonos às leis contra a escravização indígena.",
+        "e": "à constituição de um modelo econômico alternativo à plantation."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Brasil Colônia: primeiros habitantes indígenas, ocupação territorial, ciclos econômicos (açúcar e ouro) e escravidão"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 10
+    },
+    {
+      "numero": 30,
+      "tipo": "objetiva",
+      "enunciado": "Vergueiro ofereceu aos imigrantes alemães um acordo. Eles receberiam seus próprios lotes de pés de café adultos e, apesar de receberem certa supervisão, seriam mais ou menos responsáveis pelo cuidado e pela apanha. Segundo o contrato assinado por eles em Hamburgo antes de embarcar, levariam os frutos até os terreiros e contribuiriam proporcionalmente ao beneficiamento. Receberiam cotas em pagamento, correspondentes à metade dos rendimentos da venda da safra, após dedução dos custos de transporte, impostos e comissão.\n(Warren Dean. Rio Claro: um sistema brasileiro de grande lavoura, 1820-1920, 1977. Adaptado.)\nTendo em vista que Vergueiro também custeou as passagens desses trabalhadores com a garantia de ser ressarcido por eles, o excerto descreve",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "o sucesso na substituição da mão de obra escrava.",
+        "b": "o sistema de parceria na lavoura cafeeira.",
+        "c": "a repressão aos refugiados vindos da Europa.",
+        "d": "o regime do colonato nas regiões litorâneas.",
+        "e": "a intervenção do Estado nas relações de trabalho."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Economia cafeeira, Guerra do Paraguai, imigração e abolição da escravidão no Brasil"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 10
+    },
+    {
+      "numero": 31,
+      "tipo": "objetiva",
+      "enunciado": "É desnecessário ressaltar o imenso significado da imigração no surgimento de ideologias negadoras do sistema vigente no país e na adoção de modelos organizatórios pela classe operária. A crítica a posteriori às concepções anarquistas, predominantes entre os trabalhadores organizados nos primeiros vinte anos do século XX, não pode obscurecer sua importância na aparição de novas formas de luta e de uma visão crítica radical da sociedade.\n(Boris Fausto. Trabalho urbano e conflito social: 1890-1920, 2016.)\nAo se referir à realidade da Primeira República brasileira, o excerto destaca",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "a importância dos imigrantes no crescimento do mercado consumidor nacional.",
+        "b": "a ausência de operários brasileiros nos movimentos trabalhistas nacionais.",
+        "c": "a correlação entre a presença de imigrantes e a constituição do movimento operário.",
+        "d": "a concordância entre os imigrantes e o Estado brasileiro sobre os direitos trabalhistas.",
+        "e": "o corporativismo imigrante como forma de resistência ao nacionalismo brasileiro."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Brasil República: República Velha (oligarquias), Era Vargas (1930-1945), Período Democrático (1945-1964) e Ditadura Civil-Militar (1964-1985)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 10
+    },
+    {
+      "numero": 32,
+      "tipo": "objetiva",
+      "enunciado": "Certo dia, o presidente Roosevelt disse-me que estava pedindo sugestões, publicamente, sobre como se deveria chamar esta guerra. Retruquei de pronto: “a Guerra Desnecessária”. Nunca houve guerra mais fácil de impedir do que esta que acaba de destroçar o que restava do mundo após o conflito anterior. A tragédia humana atinge seu clímax no fato de que, após todos os esforços e sacrifícios de centenas de milhões de pessoas, e após as vitórias da Boa Causa, ainda não encontramos Paz ou Segurança e estamos sujeitos a perigos ainda maiores do que aqueles que superamos.\n(Winston S. Churchill. Memórias da Segunda Guerra Mundial, 2017.)\nEscrito em 1948 por Winston Churchill, ministro britânico durante a Segunda Guerra Mundial, o excerto mostra",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "o ceticismo sobre a derrota dos exércitos nazistas.",
+        "b": "o pessimismo em relação à resolução dos conflitos europeus.",
+        "c": "a incredulidade acerca da força do militarismo soviético.",
+        "d": "a descrença na capacidade humana de realizar guerras.",
+        "e": "a esperança no papel da diplomacia para evitar guerras na Europa."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "História",
+          "assuntos": [
+            "Segunda Guerra Mundial e criação da Declaração Universal dos Direitos Humanos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 10
+    },
+    {
+      "numero": 33,
+      "tipo": "objetiva",
+      "enunciado": "O mercado mundial depende da Organização dos Países Exportadores de Petróleo (OPEP) e de fatores políticos que determinaram grandes crises. A OPEP foi fundada em setembro de 1960, como resposta direta ao desafio feito pelas empresas multinacionais de petróleo ao reduzirem arbitrária e unilateralmente os preços do petróleo cru em fevereiro de 1959 e em agosto de 1960.\n(M. F. Thompson Motta. “A origem da OPEP”. Revista Conjuntura Econômica, 2005. Adaptado.)\nConsiderando o excerto, entre os principais objetivos da OPEP está",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "substituir as empresas multinacionais do setor petrolífero.",
+        "b": "ampliar o consumo interno de petróleo nos países membros.",
+        "c": "promover a redução contínua do preço do petróleo.",
+        "d": "coordenar a política de produção de petróleo entre os países membros.",
+        "e": "garantir o monopólio militar da produção de petróleo pelos países membros."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Matrizes energéticas mundiais e do Brasil (fontes renováveis e não renováveis)",
+            "Globalização, comércio internacional, blocos econômicos e a posição do Brasil no comércio global"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 11
+    },
+    {
+      "numero": 34,
+      "tipo": "objetiva",
+      "enunciado": "O gráfico mostra que, entre 2010 e 2022,",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 11: Gráfico de barras horizontais indicando a taxa de alfabetização das pessoas de 15 anos ou mais, no Brasil (%), por grandes regiões, em 2010 e 2022 (IBGE)."
+      ],
+      "alternativas": {
+        "a": "o Nordeste apresentou o maior crescimento da taxa de alfabetização nesse período.",
+        "b": "o Sul apresentou o maior crescimento da taxa de alfabetização nesse período.",
+        "c": "todas as regiões apresentaram uma taxa de alfabetização superior à média nacional.",
+        "d": "o Centro-Oeste apresentou uma queda na taxa de alfabetização ao longo do período.",
+        "e": "o Sudeste apresentou a maior ampliação da taxa de alfabetização nesse período."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Demografia: conceitos populacionais, transição demográfica, pirâmides etárias e fluxos migratórios",
+            "Divisão regional do Brasil (IBGE e complexos geoeconômicos)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 11
+    },
+    {
+      "numero": 35,
+      "tipo": "objetiva",
+      "enunciado": "Este é um tratado internacional que busca estabilizar as concentrações de gases de efeito estufa na atmosfera a um nível que não inviabilize a vida na Terra. Esse tratado foi adotado na Cúpula da Terra (Eco-92), encontro sobre meio ambiente que ocorreu no Rio de Janeiro em 1992. A partir dela, surgiram as Conferências das Nações Unidas sobre Mudanças Climáticas (COPs).\n(Mariana Vick. www.nexojornal.com.br, 04.11.2025. Adaptado.)\nO tratado mencionado no excerto é denominado",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "Protocolo de Kyoto.",
+        "b": "Agenda 21.",
+        "c": "Convenção do Clima.",
+        "d": "Acordo de Paris.",
+        "e": "Acordo de Escazú."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Impactos ambientais: mudanças climáticas, efeito estufa, desmatamento, degradação de solos e conferências internacionais do clima"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 11
+    },
+    {
+      "numero": 36,
+      "tipo": "objetiva",
+      "enunciado": "Observe as transformações sofridas em um trecho do rio Madeira em Porto Velho (RO).\nConsiderando as transformações apresentadas nas imagens, um dos motivos pelos quais houve consolidação dos bancos de areia no rio Madeira foi",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 11: Quatro mapas/imagens de satélite mostrando o trecho do rio Madeira em 1991, 2001, 2011 e 2018 com legenda indicando área antropizada, bancos de areia e área de floresta."
+      ],
+      "alternativas": {
+        "a": "o aumento da velocidade da corrente fluvial.",
+        "b": "a ocorrência de chuvas intensas no período.",
+        "c": "a ação do intemperismo químico nas margens.",
+        "d": "a diminuição da intervenção antrópica no rio.",
+        "e": "a redução da velocidade do fluxo da água."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Hidrografia: bacias hidrográficas mundiais e brasileiras e geopolítica da água",
+            "Classificação das rochas, formação de solos e relevo (agentes internos e externos/intemperismo)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 11
+    },
+    {
+      "numero": 37,
+      "tipo": "objetiva",
+      "enunciado": "O oceanógrafo e geógrafo paulista Marcus Polette tem avaliado como os efeitos danosos do turismo ocorrem na costa brasileira desde os anos 1950. Daquela década para cá, o turismo de sol e praia passou a se desenvolver a partir de uma estrutura baseada em calçadão, avenida beira-mar e prédios. “No país, os calçadões foram construídos muitas vezes em cima das praias, e várias avenidas beira-mar cobriram a vegetação de restinga”. Quanto aos prédios, nem o céu parece ser o limite. Balneário Camboriú (SC), objeto de estudo de Polette, é uma cidade famosa por seus vários edifícios na faixa dos 200 metros de altura e um com mais de 550 metros em construção, previsto para ser o maior do mundo.\n(Mônica Manir. www.revistapesquisa.fapesp.br, 2025. Adaptado.)\nConsiderando o modelo de turismo mencionado no excerto, um dos efeitos danosos desse modelo no clima da costa brasileira é",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "a permanência da inversão térmica durante todo o ano.",
+        "b": "o aumento da temperatura média nas áreas litorâneas.",
+        "c": "o enfraquecimento das correntes marítimas.",
+        "d": "a retração dos eventos climáticos extremos.",
+        "e": "a diminuição da amplitude térmica diária nas cidades."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Climatologia: fatores/elementos do clima, dinâmica das massas de ar e climas do Brasil e do mundo",
+            "Geografia Urbana: industrialização, urbanização, metropolização, conurbação, megalópoles e segregação socioespacial"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 12
+    },
+    {
+      "numero": 38,
+      "tipo": "objetiva",
+      "enunciado": "Um projeto de pesquisa da Universidade de Campinas (Unicamp) realizou um estudo piloto sobre o centro histórico do município de Amparo (SP), com o objetivo de desenvolver novas metodologias de preservação e atualização de dados sobre conjuntos urbanos tombados no estado de São Paulo. Durante o trabalho de campo, realizado entre 20 e 24 de setembro de 2025, pesquisadores da Unicamp e da Universidade de Ferrara atuaram em conjunto no registro e na medição de imóveis que compõem o patrimônio histórico de Amparo. As equipes utilizaram tecnologias de ponta para identificar as dimensões dos edifícios e do espaço urbano, integrando quatro tipos principais de levantamento: escaneamento a laser, fotogrametria, sobrevoos com drone e levantamentos topográficos com estação total.\n(Valério Paiva. www.ifch.unicamp.br, 07.10.2025. Adaptado.)\nConsiderando o objetivo da pesquisa e os principais tipos de levantamento mencionados no excerto, o projeto se baseia no uso",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "da cartografia tradicional.",
+        "b": "de anamorfoses.",
+        "c": "do sensoriamento remoto.",
+        "d": "de mapas de isotermas.",
+        "e": "de projeções cônicas."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Geografia",
+          "assuntos": [
+            "Tecnologias: fotografias aéreas, imagens de satélite, GPS e Sensoriamento Remoto/SIG"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 12
+    },
+    {
+      "numero": 39,
+      "tipo": "objetiva",
+      "enunciado": "A energia de ativação é a quantidade mínima de energia para que uma reação química ocorra, ou seja, é a quantidade mínima de energia de que as moléculas precisam para que os choques efetivos ocorram, transformando os reagentes em produtos. A modificação no sistema reacional que permite a diminuição da energia de ativação é a",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "adição de um dos reagentes.",
+        "b": "adição de um dos produtos.",
+        "c": "adição de um catalisador.",
+        "d": "retirada de um dos produtos.",
+        "e": "diminuição da temperatura."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Cinética Química: rapidez de reação, teoria das colisões e energia de ativação",
+            "Fatores que alteram a velocidade da reação (concentração, temperatura, catalisador)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 12
+    },
+    {
+      "numero": 40,
+      "tipo": "objetiva",
+      "enunciado": "A vitamina B3, também chamada de niacina, é uma substância que pode auxiliar no controle do colesterol, diminuindo o colesterol ruim e aumentando o colesterol bom. A fórmula estrutural da niacina está representada na figura.\nA função oxigenada presente na estrutura da niacina é:",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 12: Fórmula estrutural da niacina (ácido nicotínico) mostrando um anel piridínico ligado a um grupo ácido carboxílico."
+      ],
+      "alternativas": {
+        "a": "éster.",
+        "b": "ácido carboxílico.",
+        "c": "éter.",
+        "d": "álcool.",
+        "e": "amida."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Principais funções orgânicas: hidrocarbonetos, álcoois, fenóis, éteres, ésteres, aldeídos, cetonas, ácidos carboxílicos, aminas e amidas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 12
+    },
+    {
+      "numero": 41,
+      "tipo": "objetiva",
+      "enunciado": "A mistura de bicarbonato de sódio (NaHCO₃) com ácido clorídrico (HCℓ) libera gás carbônico (CO₂). Quando esse gás entra em contato com uma solução de hidróxido de sódio (NaOH), ocorre uma reação química que recebe o nome de neutralização. Essa reação ocorre porque o gás carbônico é um",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "óxido ácido.",
+        "b": "peróxido.",
+        "c": "sal ácido.",
+        "d": "óxido básico.",
+        "e": "sal neutro."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Funções inorgânicas: ácidos, bases, sais e óxidos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 13
+    },
+    {
+      "numero": 42,
+      "tipo": "objetiva",
+      "enunciado": "Ao planejar uma aula de química, um professor precisava determinar a substância X que usaria para preparar uma solução. O professor pesou uma amostra de 30,4 g de determinada substância, acrescentou água até o volume de 0,5 L e, sabendo que a concentração molar dessa solução preparada era igual a 0,4 mol/L, ele conseguiu determinar a substância X. A tabela apresenta algumas substâncias que poderiam ter sido utilizadas pelo professor e suas respectivas massas molares:\nSubstância | Massa molar (g/mol)\nNa₂SO₄ | 142,0\nFeSO₄ | 152,0\nCuSO₄ | 159,5\nZnSO₄ | 161,0\nK₂SO₄ | 174,0\nApós realizar os cálculos necessários e consultar a tabela, o professor determinou que a substância X tem a fórmula química:",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 13: Tabela contendo cinco substâncias inorgânicas e suas respectivas massas molares em g/mol."
+      ],
+      "alternativas": {
+        "a": "Na₂SO₄",
+        "b": "FeSO₄",
+        "c": "CuSO₄",
+        "d": "ZnSO₄",
+        "e": "K₂SO₄"
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Água e soluções aquosas: solubilidade, tipos de concentração (g/L, mol/L, ppm) e diluição"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 13
+    },
+    {
+      "numero": 43,
+      "tipo": "objetiva",
+      "enunciado": "A reação de dupla troca de iodeto de potássio (KI) com nitrato de chumbo(II) [Pb(NO₃)₂] é curiosa, pois ambas as substâncias se apresentam em soluções aquosas incolores e, quando misturadas, formam um sólido amarelo, que é o iodeto de chumbo(II) (PbI₂), conforme a equação não balanceada:\nKI (aq) + Pb(NO₃)₂ (aq) → PbI₂ (s) + KNO₃ (aq)\nO resultado da soma dos menores coeficientes inteiros que completam o balanceamento da equação e a função inorgânica à qual pertence o sólido amarelo formado são, respectivamente,",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "4 e sal.",
+        "b": "6 e óxido.",
+        "c": "4 e base.",
+        "d": "6 e sal.",
+        "e": "4 e óxido."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Equações químicas e métodos de balanceamento",
+            "Funções inorgânicas: ácidos, bases, sais e óxidos"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 13
+    },
+    {
+      "numero": 44,
+      "tipo": "objetiva",
+      "enunciado": "Em um béquer, foram adicionados 45 g de determinado material no estado líquido, que ocupou o volume de 50 mL. A tabela apresenta os valores aproximados da densidade (d) de cinco materiais no estado líquido, medidos a 25 ºC.\nMaterial | d (g/mL)\nGasolina | 0,70\nÁlcool etílico | 0,79\nÓleo de cozinha | 0,90\nVinagre | 1,01\nGlicerina | 1,26\nO material adicionado ao béquer foi",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 13: Tabela com a densidade de cinco materiais líquidos."
+      ],
+      "alternativas": {
+        "a": "gasolina.",
+        "b": "álcool etílico.",
+        "c": "óleo de cozinha.",
+        "d": "vinagre.",
+        "e": "glicerina."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Química",
+          "assuntos": [
+            "Propriedades gerais e específicas dos materiais"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 13
+    },
+    {
+      "numero": 45,
+      "tipo": "objetiva",
+      "enunciado": "Atualmente, o buraco na camada de ozônio ainda existe. Ele se forma todos os anos sobre a Antártida, durante a primavera, e se fecha novamente no verão, quando o ar estratosférico das latitudes mais baixas se mistura, permanecendo assim até a primavera seguinte, quando o ciclo recomeça. Mas existem evidências de que o buraco está começando a desaparecer, recuperando-se mais ou menos conforme o esperado, segundo Solomon. Avaliações científicas indicam que a camada de ozônio deve retornar aos níveis anteriores a 1980 em meados do século 21.\n(www.bbc.com, 16.05.2022. Adaptado.)\nA camada de ozônio da estratosfera, mencionada no excerto, filtra a radiação ultravioleta emitida pelo Sol. A destruição dessa camada relaciona-se diretamente",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "ao aumento da formação de chuvas ácidas.",
+        "b": "à redução da alcalinização dos oceanos.",
+        "c": "ao aumento de alguns tipos de câncer de pele humana.",
+        "d": "ao aumento de problemas respiratórios nos animais.",
+        "e": "à redução na formação dos rios voadores."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Impactos antrópicos: poluição, bioacumulação trófica, espécies exóticas, pegada ecológica e unidades de conservação"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 14
+    },
+    {
+      "numero": 46,
+      "tipo": "objetiva",
+      "enunciado": "A palavra “asfixia” vem do grego e significa “interrupção do pulso”. De acordo com essa tradução, toda morte seria uma asfixia, o que é verdade, pois o óbito se caracteriza por uma parada prolongada do coração que leva à morte das células cerebrais por falta de gás         , seguida de um edema no cérebro que, mesmo se o coração voltasse a funcionar, impediria que o sangue circulasse na cavidade craniana e irrigasse o cérebro devido ao espaço significativo então ocupado por este.\n(Philippe Boxho. Os mortos também falam, 2025. Adaptado.)\nA lacuna do texto é preenchida por:",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "oxigênio.",
+        "b": "carbônico.",
+        "c": "nitrogênio.",
+        "d": "hélio.",
+        "e": "sulfídrico."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Fisiologia dos sistemas humanos: digestório, cardiovascular, respiratório, excretor, nervoso, endócrino, locomotor e reprodutor"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 14
+    },
+    {
+      "numero": 47,
+      "tipo": "objetiva",
+      "enunciado": "A salga de alguns tipos de carne é uma prática humana antiga, ainda utilizada em determinadas comunidades onde há ausência ou limitação de refrigeradores. O sal atua na conservação do alimento porque cria um ambiente desfavorável ao desenvolvimento de organismos decompositores, que não conseguem sobreviver ou se multiplicar nessas condições, retardando o processo de deterioração da carne. Esse ambiente é desfavorável porque faz com que esses organismos",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "ganhem água por osmose.",
+        "b": "percam água por osmose.",
+        "c": "percam sais por osmose.",
+        "d": "ganhem sais por fagocitose.",
+        "e": "ganhem água por pinocitose."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Membrana plasmática e mecanismos de transporte (passivo, ativo, endocitose)",
+            "Componentes químicos celulares: água, sais minerais, carboidratos, lipídios, proteínas e vitaminas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 14
+    },
+    {
+      "numero": 48,
+      "tipo": "objetiva",
+      "enunciado": "As angiospermas constituem o único grupo de plantas capaz de produzir frutos, que são estruturas representativas de um importante sucesso evolutivo. Os frutos se desenvolvem a partir do ovário e contribuem para a dispersão da espécie no ambiente, aumentando suas chances de sobrevivência e propagação. Além disso, a existência de frutos também possibilitou a",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "redução da variabilidade genética.",
+        "b": "independência de água para a fecundação.",
+        "c": "redução na produção de grãos de pólen.",
+        "d": "formação de clones.",
+        "e": "proteção das sementes."
+      },
+      "gabarito": "e",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Reino Plantae: características e ciclos de vida de briófitas, pteridófitas, gimnospermas e angiospermas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 14
+    },
+    {
+      "numero": 49,
+      "tipo": "objetiva",
+      "enunciado": "A figura mostra um dos organismos mais estudados pela microbiologia. Ele possui uma estrutura complexa, semelhante a uma “nave espacial” ou a um “robô”, composta por uma cabeça icosaédrica e uma cauda contrátil com fibras para fixação.\n(https://ukhsa.blog.gov.uk)\nEsse tipo de microrganismo",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 15: Ilustração de um bacteriófago (vírus)."
+      ],
+      "alternativas": {
+        "a": "possui mitocôndrias.",
+        "b": "é acelular.",
+        "c": "é isento de proteínas.",
+        "d": "possui metabolismo próprio.",
+        "e": "é unicelular."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Vírus: estrutura, replicação e principais viroses humanas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 15
+    },
+    {
+      "numero": 50,
+      "tipo": "objetiva",
+      "enunciado": "O dimorfismo sexual corresponde às diferenças físicas entre machos e fêmeas de uma mesma espécie. Tais diferenças manifestam-se na coloração, no tamanho e na forma do corpo ou, ainda, na presença de estruturas específicas em apenas um dos sexos. Um grupo de animais em que machos apresentam características ornamentais visíveis, acentuando a diferença entre machos e fêmeas, é o grupo",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "das focas.",
+        "b": "dos pinguins.",
+        "c": "dos papagaios.",
+        "d": "dos pavões.",
+        "e": "dos morcegos."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Biologia",
+          "assuntos": [
+            "Teorias evolutivas: fixismo, lamarckismo, darwinismo e teoria sintética da evolução (neodarwinismo)",
+            "Craniados e vertebrados: adaptações morfológicas"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 15
+    },
+    {
+      "numero": 51,
+      "tipo": "objetiva",
+      "enunciado": "Um rapaz corre com velocidade constante de 2 m/s. Ao longo de 10 minutos, a distância percorrida por ele será de",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "0,8 km.",
+        "b": "1,0 km.",
+        "c": "1,2 km.",
+        "d": "1,5 km.",
+        "e": "1,8 km."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Cinemática escalar: velocidade e aceleração escalar média e instantânea",
+            "Movimento Uniforme (MU) e Movimento Uniformemente Variado (MUV)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 15
+    },
+    {
+      "numero": 52,
+      "tipo": "objetiva",
+      "enunciado": "Quando um corpo está a determinada altura do chão, devido ao campo gravitacional gerado pelo planeta Terra, ele acumula a energia potencial gravitacional de 100 J. Se esse corpo tiver sua altura duplicada, essa energia terá o valor de",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "25 J.",
+        "b": "50 J.",
+        "c": "100 J.",
+        "d": "200 J.",
+        "e": "400 J."
+      },
+      "gabarito": "d",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Energia cinética, energia potencial (gravitacional e elástica) e conservação da energia mecânica"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 15
+    },
+    {
+      "numero": 53,
+      "tipo": "objetiva",
+      "enunciado": "Um sistema de vasos comunicantes apresenta-se, inicialmente, sem líquido em seu interior, como mostra a figura.\nPromove-se a entrada de líquido pela abertura existente no sistema. Após o líquido tomar completamente a câmara que une os vasos e preencher parte de cada um desses vasos, o fluxo é interrompido e a abertura é tampada. Quando o sistema entrar em equilíbrio, a disposição do líquido nos vasos corresponderá a:",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 16: Esquema de um sistema de vasos comunicantes com várias opções de distribuição de líquido."
+      ],
+      "alternativas": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": "",
+        "e": ""
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Massa específica e densidade",
+            "Pressão e pressão hidrostática (Teorema de Stevin e experiência de Torricelli)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 16
+    },
+    {
+      "numero": 54,
+      "tipo": "objetiva",
+      "enunciado": "Ao nível do mar, o calor latente de vaporização da água é igual a 540 cal/g. Isso significa que 1 g de água líquida, na temperatura de ebulição, transforma-se em vapor de água nessa mesma temperatura ao absorver uma quantidade de calor igual a 540 cal. Nessas condições, para que 250 g de água líquida sejam transformados em vapor de água, são necessárias",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "135 kcal.",
+        "b": "170 kcal.",
+        "c": "200 kcal.",
+        "d": "250 kcal.",
+        "e": "540 kcal."
+      },
+      "gabarito": "a",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Calorimetria: calor sensível, capacidade térmica, calor latente e trocas de calor"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 16
+    },
+    {
+      "numero": 55,
+      "tipo": "objetiva",
+      "enunciado": "A figura mostra um palito de fósforo paralelo à superfície refletora de um espelho plano e a 8 cm dessa superfície.\nA partir dessa posição, foram realizados dois experimentos, nos quais o espelho permaneceu fixo. No experimento 1, o palito de fósforo foi afastado do espelho em 2 cm e mantido paralelo à superfície refletora do espelho. Nessa situação, determinou-se a distância da imagem do palito ao espelho. No experimento 2, partindo da disposição original mostrada na figura, o palito de fósforo foi aproximado em 1 cm e mantido paralelo à superfície refletora do espelho. Novamente, determinou-se a distância da imagem do palito ao espelho. A distância entre a posição da imagem obtida no experimento 1 e a posição da imagem obtida no experimento 2, é, em módulo, igual a",
+      "textos_de_apoio": [],
+      "midia": [
+        "Página 16: Representação de um palito de fósforo diante de um espelho plano a uma distância de 8 cm."
+      ],
+      "alternativas": {
+        "a": "1 cm.",
+        "b": "2 cm.",
+        "c": "3 cm.",
+        "d": "4 cm.",
+        "e": "6 cm."
+      },
+      "gabarito": "c",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Reflexão da luz: espelhos planos e espelhos esféricos (construção gráfica e estudo analítico)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 16
+    },
+    {
+      "numero": 56,
+      "tipo": "objetiva",
+      "enunciado": "Um resistor ôhmico é submetido a uma diferença de potencial de 4 V. Isso faz com que o resistor seja percorrido por uma corrente de 10 A. Para que a corrente elétrica conduzida por esse resistor aumente em 50%, a diferença de potencial deverá",
+      "textos_de_apoio": [],
+      "midia": [],
+      "alternativas": {
+        "a": "aumentar para 5 V.",
+        "b": "aumentar para 6 V.",
+        "c": "diminuir para 3 V.",
+        "d": "diminuir para 2 V.",
+        "e": "diminuir para 1 V."
+      },
+      "gabarito": "b",
+      "areas": [
+        {
+          "area": "Física",
+          "assuntos": [
+            "Eletrodinâmica: corrente elétrica, ddp, Leis de Ohm, resistividade e potência elétrica (kWh)"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 16
+    },
+    {
+      "numero": 57,
+      "tipo": "redacao",
+      "enunciado": "Com base nos textos apresentados e em seus próprios conhecimentos, escreva um texto dissertativo-argumentativo, empregando a norma-padrão da língua portuguesa, sobre o tema:\n\nA falta de saneamento básico e seus impactos sobre a cidadania no Brasil",
+      "textos_de_apoio": [
+        "Texto 1\nEntre os muitos problemas que atravancam o desenvolvimento do Brasil, poucos são tão fundamentais, e ao mesmo tempo tão negligenciados, quanto o saneamento básico. Em pleno ano de 2025, 16,9% da população brasileira ainda não tem acesso à água potável e quase metade da população (44,8%) vive sem coleta de esgoto. Os dados, extraídos do recém-lançado Ranking do Saneamento 2025, elaborado pelo Instituto Trata Brasil, revelam uma realidade que deveria causar indignação coletiva. Os impactos dessa negligência ultrapassam o campo da infraestrutura. Falta de água tratada e de um sistema adequado de esgoto traduz-se em doenças evitáveis, internações hospitalares, evasão escolar, queda de produtividade no trabalho e desvalorização imobiliária. Em última instância, compromete o próprio conceito de cidadania, perpetuando desigualdades históricas e inviabilizando o pleno exercício de direitos básicos.\nÉ impossível falar em saúde, educação, habitação ou mobilidade com esgoto correndo a céu aberto. O tempo da omissão já se esgotou. O Brasil precisa superar a invisibilidade da falta de saneamento e reconhecê-lo, de uma vez por todas, como prioridade nacional. O que está em jogo não é apenas o cumprimento de metas legais, mas o futuro de um país que só poderá ser verdadeiramente justo e desenvolvido quando garantir, a todos os seus cidadãos, o direito básico de viver com dignidade.\n(Dimas Ramalho. “A Infraestrutura da Desigualdade”. https://tce.sp.gov.br, 20.08.2025. Adaptado.)",
+        "Texto 2\n[Charge de Brum Chargista retratando diálogo sobre saneamento básico]\n(Brum Chargista. www.facebook.com, 11.12.2019.)",
+        "Texto 3\nFoi sancionada a Lei nº 15276/2025, que assegura o acesso à água potável em todas as instituições de ensino do país. A nova lei tem o potencial de transformar a vida de milhões de estudantes, especialmente nas regiões mais vulneráveis, onde persistem desigualdades profundas no acesso a serviços de água, saneamento e higiene. “A aprovação desta lei é um marco para o Brasil. Ela direciona atenção e recursos para um problema que há anos afeta milhares de pessoas. Garantir água potável nas escolas é garantir saúde, dignidade e condições mínimas de aprendizagem”, afirma Joaquin Gonzalez-Aleman, representante do Fundo das Nações Unidas para a Infância (Unicef) no Brasil. A nova legislação chega em um contexto ainda marcado por desigualdades persistentes. Dados do Censo Escolar 2024 mostram que:\n• Mais de 8 mil escolas públicas municipais, em 1185 municípios, não têm acesso à água por meio de fontes adequadas, afetando diretamente mais de 500 mil crianças.\n• Dessas, mais de 2 mil escolas, em 399 municípios, não possuem qualquer acesso à água.\n• Mais de 3200 escolas não possuem banheiro, impactando mais de 420 mil estudantes em 439 municípios.\nO Unicef reforça que a implementação da Lei nº 15276/2025 representa uma oportunidade de enfrentar essas desigualdades de forma estrutural, garantindo que nenhuma criança ou adolescente frequente uma escola sem acesso à água potável e instalações sanitárias adequadas.\n(“Unicef celebra sanção de Lei que garante acesso à água potável em escolas e reforça necessidade de implementação urgente”. www.unicef.org, 10.12.2025. Adaptado.)"
+      ],
+      "midia": [
+        "Página 18: Charge de Brum Chargista (Texto 2) sobre saneamento básico."
+      ],
+      "areas": [
+        {
+          "area": "Redação",
+          "assuntos": [
+            "Eixo Temático 3: Cidadania, saúde pública, educação e desigualdades no Brasil"
+          ]
+        }
+      ],
+      "extraida_parcialmente": false,
+      "anulada": false,
+      "pagina": 18
+    }
+  ]
+}

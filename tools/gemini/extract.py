@@ -8,11 +8,46 @@ import requests
 from google import genai
 
 REST = "https://generativelanguage.googleapis.com/v1beta"
-KEY = os.environ["API_KEY"]
 MODELFALL = [os.environ.get("MODEL", "gemini-3.5-flash-lite"), "gemini-2.5-flash", "gemini-2.5-flash-lite"]
 DATA = "/work/data"
 OUT = "/work/data/json"
 CATALOG = os.path.join(DATA, "assuntos.json")
+
+
+def _load_keys():
+    env_keys = [k.strip() for k in os.environ.get("GEMINI_KEYS", "").split(",") if k.strip()]
+    if not env_keys:
+        try:
+            for line in open("/work/.env", encoding="utf-8"):
+                line = line.strip()
+                if line.startswith("GEMINI_KEYS="):
+                    env_keys = [k.strip() for k in line.split("=", 1)[1].split(",") if k.strip()]
+                    break
+        except OSError:
+            pass
+    if not env_keys:
+        env_keys = [os.environ["API_KEY"] if os.environ.get("API_KEY") else ""]
+    global KEYS
+    KEYS = [k for k in env_keys if k]
+    return KEYS
+
+
+KEYS = _load_keys()
+_key_idx = os.getpid() % len(KEYS) if KEYS else 0
+
+
+def next_key():
+    global _key_idx
+    k = KEYS[_key_idx % len(KEYS)]
+    _key_idx += 1
+    return k
+
+
+def key_idx_of(key):
+    try:
+        return KEYS.index(key) + 1
+    except ValueError:
+        return 0
 
 PAGE_COUNTS = {
     "univesp_2017_2s": 24, "univesp_2018_1s": 28, "univesp_2018_2s": 24,
@@ -30,7 +65,8 @@ FUVEST_PAGES = {
 
 
 def vestibular_context(label):
-    if label.startswith("fuvest"):
+    low = label.lower()
+    if low.startswith("fuvest"):
         ano = int(re.search(r"(\d{4})", label).group(1))
         versao = "V1" if ano >= 2025 else "V"
         colunas = ("PROVA V1/PROVA V2/PROVA V3/PROVA V4" if ano >= 2025
@@ -42,13 +78,48 @@ def vestibular_context(label):
             "versao": versao,
             "colunas_gabarito": colunas,
         }
+    if low.startswith("enem"):
+        dia = 2 if low.endswith("2dia") else 1
+        return {
+            "banca": "do ENEM (INEP)",
+            "n_questoes": f"o caderno do {dia}º dia contém 45 questões objetivas, cada uma com 5 alternativas (a–e)",
+            "redacao": "No caderno do 2º dia há também a proposta de redação (tema + coletânea): transcreva-a como questão com "
+                        "\"tipo\": \"redacao\", SEM \"gabarito\" e SEM \"alternativas\" (deixe ambos ausentes do JSON), numerada logo após as objetivas." if dia == 2
+                        else "Nesta prova não há redação; transcreva apenas as questões objetivas.",
+            "versao": None,
+            "colunas_gabarito": None,
+        }
+    if low.startswith("fatec"):
+        return {
+            "banca": "da FATEC (Centro Paula Souza)",
+            "n_questoes": "o caderno contém 54 questões objetivas (30 de Conhecimentos Gerais com 5 alternativas a–e e as demais com 4 alternativas a–d) e uma proposta de redação; transcreva a redação como \"tipo\": \"redacao\".",
+            "redacao": "Transcreva também a proposta de redação (tema + coletânea/instruções), com \"tipo\": \"redacao\", SEM \"gabarito\" e SEM \"alternativas\" (deixe ambos ausentes do JSON).",
+            "versao": None,
+            "colunas_gabarito": None,
+        }
+    if low.startswith("unesp"):
+        return {
+            "banca": "da UNESP (banca VUNESP)",
+            "n_questoes": "o caderno contém 90 questões objetivas, cada uma com 5 alternativas (a–e), ou 45 em cada dia quando a prova é aplicada em dois dias (1dia/2dia)",
+            "redacao": "A redação é aplicada apenas na 2ª fase (ou em dia específico); se o tema/coletânea aparecer nas páginas, transcreva-a como \"tipo\": \"redacao\", SEM \"gabarito\" e SEM \"alternativas\".",
+            "versao": None,
+            "colunas_gabarito": None,
+        }
     return {
         "banca": "da UNIVESP (banca VUNESP)",
         "n_questoes": "",
-        "redacao": "A redação (se o tema/coletânea aparecer nas páginas do intervalo) também deve ser transcrita, com \"tipo\": \"redacao\".",
+        "redacao": "A redação (se o tema/coletânea aparecer nas páginas do intervalo) também deve ser transcrita, com \"tipo\": \"redacao\", SEM \"gabarito\" e SEM \"alternativas\".",
         "versao": None,
         "colunas_gabarito": None,
     }
+
+
+def pdf_pages(path):
+    try:
+        from pypdf import PdfReader
+        return len(PdfReader(path).pages)
+    except Exception:
+        return None
 
 
 def page_count(label):
@@ -69,13 +140,23 @@ def catalog_text():
     return "\n".join(lines)
 
 
-def upload(path):
-    client = genai.Client(api_key=KEY)
+def pdf_path(label, kind):
+    for base in (DATA, os.environ.get("PDF_DIR", ""), "/work/tmp/bkp_pdfs"):
+        if not base:
+            continue
+        p = os.path.join(base, f"{label}_{kind}.pdf")
+        if os.path.exists(p):
+            return p
+    return None
+
+
+def upload(path, key):
+    client = genai.Client(api_key=key)
     f = client.files.upload(file=path)
     return f.uri, f.name
 
 
-def gen(model, parts, timeout=420):
+def gen(model, parts, key, timeout=420):
     payload = {
         "contents": [{"role": "user", "parts": parts}],
         "generationConfig": {"responseMimeType": "application/json", "temperature": 0},
@@ -84,32 +165,33 @@ def gen(model, parts, timeout=420):
     for i in range(7):
         try:
             r = requests.post(f"{REST}/models/{model}:generateContent",
-                              headers={"x-goog-api-key": KEY, "Content-Type": "application/json"},
+                              headers={"x-goog-api-key": key, "Content-Type": "application/json"},
                               json=payload, timeout=timeout)
             if r.status_code == 200:
                 return r.json()
             last = r.status_code
             if r.status_code in (429, 500, 503):
                 s = 5 + 5 * i
-                print(f"      retry {i} [{model}] after {s}s ({r.status_code})", flush=True)
+                print(f"      retry {i} [{model}] chave{key_idx_of(key)} after {s}s ({r.status_code})", flush=True)
                 time.sleep(s)
             else:
                 raise RuntimeError(f"HTTP {r.status_code} {r.text[:200]}")
         except requests.Timeout:
             last = "timeout"
             s = 5 + 5 * i
-            print(f"      retry {i} [{model}] after {s}s (timeout)", flush=True)
+            print(f"      retry {i} [{model}] chave{key_idx_of(key)} after {s}s (timeout)", flush=True)
             time.sleep(s)
     raise RuntimeError(f"{model} exhausted retries (last={last})")
 
 
-def call_with_fallback(parts, label):
+def call_with_fallback(parts, label, key):
     errs = []
     for model in MODELFALL:
         try:
-            out = gen(model, parts)
+            out = gen(model, parts, key)
             cand = out["candidates"][0]
-            text = "".join(p.get("text", "") for p in cand["content"]["parts"])
+            resp_parts = (cand.get("content") or {}).get("parts", []) or []
+            text = "".join(p.get("text", "") for p in resp_parts)
             return model, text
         except Exception as e:
             errs.append(str(e)[:120])
@@ -133,6 +215,7 @@ SCOPE: transcreva as questões do caderno localizadas nas PÁGINAS {lo} a {hi} d
 REGRAS DE TRANSCRIÇÃO (rigorosas — NUNCA invente conteúdo):
 - Transcrição INTEGRAL e fiel dos enunciados, sem resumir, corrigir ou adaptar. Fórmulas em unicode (x², √2, π, Δ, 10⁻³, frações a/b).
 - Textos de apoio/motivadores/citações/coletâneas: transcreva-os ÍNTEGROS no campo "textos_de_apoio".
+- TEXTO COMUM A VÁRIAS QUESTÕES (regra CRÍTICA): quando um mesmo texto/figura/tabela/instrução/coletânea servir de base para DUAS OU MAIS questões (ex.: "Leia o texto a seguir para responder às questões de 1 a 3"), transcreva esse material INTEGRALMENTE no campo "textos_de_apoio" de CADA UMA das questões que dele dependem. O texto comum DEVE aparecer repetido em todas as questões do grupo — nunca omita, não divida entre as questões, não deixe só na primeira.
 - Figuras/gráficos/tabelas/imagens/cartuns: registre em "midia" uma lista com descrição objetiva do que está representado (inclua dados extraíveis), cada item precedido de "Página N: ...", onde N é a página do PDF.
 - Alternativas transcritas na ordem (a, b, c, d, e), sem alterar texto.
 - Trecho ilegível → "[ilegivel]" no lugar exato e "extraida_parcialmente": true.
@@ -142,8 +225,12 @@ CLASSIFICAÇÃO:
 - Áreas: nomes canônicos do catálogo. Liste TODAS as áreas efetivamente cobradas para RESOLVER a questão (interdisciplinaridade), não áreas só citadas. Padrão: interpretação de texto sem outra área → "Língua Portuguesa e Literaturas"; questão de língua estrangeira → "Língua Inglesa".
 - Assuntos: 1–3 por área, por proximidade SEMÂNTICA/temática, copiando o string EXATAMENTE do catálogo.
 
-COORDENADAS DE FIGURAS:
-- Para cada figura/gráfico/tabela/imagem/cartum da questão, adicione em "figuras_coordenadas": {{"pagina": <N>, "tipo": "figura|grafico|tabela|imagem|cartum", "elemento": "<curta descrição>", "bbox": [x0, y0, x1, y1]}} com coordenadas em percentual da largura/altura da página (0–100), origem canto superior esquerdo (aproxime pela inspeção visual).
+COORDENADAS DE FIGURAS (bbox da QUESTÃO INTEIRA):
+- Para cada questão que contenha figura/gráfico/tabela/imagem/cartum, adicione UM item em "figuras_coordenadas" cujo bbox cubra o BLOCO INTEIRO da questão na página em que ela COMEÇA — do topo do enunciado (incluindo os textos de apoio comuns e a própria figura) até a base da última alternativa — gerado com FOLGA, NUNCA apenas a imagem.
+- Se a questão se estender por mais de uma página, registre o bbox da página inicial cobrindo todo o conteúdo da questão exibido nela (do topo do texto até a última alternativa ou fim do bloco que pertença à questão).
+- Formato do item: {{"pagina": <N>, "tipo": "figura|grafico|tabela|imagem|cartum", "elemento": "<curta descrição>", "bbox": [y0, x0, y1, x1]}}.
+- Coordenadas em PERMIL (0–1000) da largura/altura da página, origem no canto SUPERIOR ESQUERDO: y0 = topo do bloco, x0 = borda esquerda, y1 = base do bloco, x1 = borda direita.
+- Questão sem nenhuma imagem/figura → "figuras_coordenadas": [].
 
 CATÁLOGO (strings exatas):
 {catalog}
@@ -155,14 +242,14 @@ SCHEMA (responda SOMENTE com JSON válido, sem markdown):
       "numero": 1,
       "tipo": "objetiva",
       "enunciado": "...",
-      "textos_de_apoio": ["..."],
+      "textos_de_apoio": ["... (se o texto for comum a outras questões, repita-o INTEGRAL aqui em cada questão envolvida)"],
       "midia": ["Página N: descrição objetiva."],
       "alternativas": {{"a": "...", "b": "...", "c": "...", "d": "...", "e": "..."}},
       "gabarito": "c",
       "areas": [{{"area": "Física", "assuntos": ["...", "..."]}}],
       "extraida_parcialmente": false,
       "anulada": false,
-      "figuras_coordenadas": []
+      "figuras_coordenadas": [{{"pagina": 3, "tipo": "figura", "elemento": "...", "bbox": [y0, x0, y1, x1]}}]
     }}
   ],
   "semestre_no_cabecalho": null
@@ -175,10 +262,11 @@ SCHEMA (responda SOMENTE com JSON válido, sem markdown):
 def parse_label(label):
     ano = int(re.search(r"(\d{4})", label).group(1))
     sem = None
-    if label.endswith("_2s") or (re.search(r"_\d$", label) and label.endswith("2")):
-        sem = 2
-    elif label.endswith("_1s"):
+    if label.endswith("_1s") or label.endswith("_1S") or label.endswith("_1dia"):
         sem = 1
+    elif (label.endswith("_2s") or label.endswith("_2S") or label.endswith("_2dia")
+          or (re.search(r"_\d$", label) and label.endswith("2"))):
+        sem = 2
     return ano, sem
 
 
@@ -198,6 +286,36 @@ def merge_chunks(chunks, label, ano, sem):
     return nums, [seen[n] for n in nums]
 
 
+def extract_range(label, cat, ctx, qu, gu, lo, hi, total, key, depth=0):
+    """Tenta transcrever as páginas lo..hi em UMA chamada; em falha/JSON vazio,
+    divide o intervalo ao meio (até depth=2) e tenta as metades."""
+    parts = [
+        {"text": build_instruction(label, cat, lo, hi, total, ctx)},
+        {"file_data": {"file_uri": qu, "mime_type": "application/pdf"}},
+        {"file_data": {"file_uri": gu, "mime_type": "application/pdf"}},
+    ]
+    t0 = time.time()
+    text = ""
+    try:
+        model, text = call_with_fallback(parts, label, key)
+        data = json.loads(text[text.index("{"): text.rindex("}") + 1])
+        qs = data["questoes"] or []
+        nums = sorted(q["numero"] for q in qs)
+        print(f"[{label}] paginas {lo}-{hi} [{model} {time.time()-t0:.0f}s]: "
+              f"{len(qs)} questoes {nums[0] if nums else '-'}..{nums[-1] if nums else '-'}", flush=True)
+        if qs:
+            return [data]
+        print(f"[{label}] paginas {lo}-{hi}: SEM QUESTOES", flush=True)
+    except Exception as e:
+        print(f"[{label}] CHUNK {lo}-{hi} INVALIDO: {e} | head: {text[:200]}", flush=True)
+    if depth >= 2 or hi <= lo:
+        return []
+    mid = (lo + hi) // 2
+    out = extract_range(label, cat, ctx, qu, gu, lo, mid, total, key, depth + 1)
+    out += extract_range(label, cat, ctx, qu, gu, mid + 1, hi, total, key, depth + 1)
+    return out
+
+
 def main():
     label = sys.argv[1]
     if label.endswith("_questoes"):
@@ -207,39 +325,29 @@ def main():
     cat = catalog_text()
 
     print(f"[{label}] uploading...", flush=True)
-    qu, _ = upload(f"{DATA}/{label}_questoes.pdf")
-    gu, _ = upload(f"{DATA}/{label}_gabarito.pdf")
+    qpath = pdf_path(label, "questoes")
+    gpath = pdf_path(label, "gabarito")
+    if not qpath or not gpath:
+        raise SystemExit(f"[{label}] PDFs não encontrados: {qpath} / {gpath}")
+    key = next_key()
+    print(f"[{label}] chave{key_idx_of(key)}/{len(KEYS)}", flush=True)
+    qu, _ = upload(qpath, key)
+    gu, _ = upload(gpath, key)
     print(f"[{label}] uploaded.", flush=True)
 
-    total_pages = page_count(label)
-    default_step = max(1, (total_pages + 1) // 2) if label.startswith("fuvest") else total_pages
-    step = int(os.environ.get("STEP", default_step))
+    total_pages = pdf_pages(qpath) or page_count(label)
+    step = int(os.environ.get("STEP", total_pages))
     ctx = vestibular_context(label)
-    print(f"[{label}] modos: step={step} modelo={MODELFALL[0]} versao={ctx['versao']}", flush=True)
+    print(f"[{label}] modos: step={step}/{total_pages} paginas modelo={MODELFALL[0]} versao={ctx['versao']}", flush=True)
     chunks = []
     sem_node = None
     for lo in range(1, total_pages + 1, step):
         hi = min(lo + step - 1, total_pages)
-        parts = [
-            {"text": build_instruction(label, cat, lo, hi, total_pages, ctx)},
-            {"file_data": {"file_uri": qu, "mime_type": "application/pdf"}},
-            {"file_data": {"file_uri": gu, "mime_type": "application/pdf"}},
-        ]
-        t0 = time.time()
-        model, text = call_with_fallback(parts, label)
-        try:
-            data = json.loads(text[text.index("{"): text.rindex("}") + 1])
-            qs = data["questoes"]
-            if "semestre_no_cabecalho" in data and data["semestre_no_cabecalho"]:
-                sem_node = data["semestre_no_cabecalho"] if sem_node is None else sem_node
-            if not qs:
-                print(f"[{label}] pages {lo}-{hi}: SEM QUESTOES (model {model})", flush=True)
-                continue
-            nums = [q["numero"] for q in qs]
-            print(f"[{label}] pages {lo}-{hi} [{model} {time.time()-t0:.0f}s]: {len(qs)} questões {min(nums)}..{max(nums)}", flush=True)
-            chunks.append(data)
-        except Exception as e:
-            print(f"[{label}] CHUNK {lo}-{hi} INVALIDO ({model}): {e} | text head: {text[:200]}", flush=True)
+        got = extract_range(label, cat, ctx, qu, gu, lo, hi, total_pages, key)
+        chunks.extend(got)
+    for data in chunks:
+        if "semestre_no_cabecalho" in data and data["semestre_no_cabecalho"]:
+            sem_node = data["semestre_no_cabecalho"] if sem_node is None else sem_node
 
     nums, ordered = merge_chunks(chunks, label, ano, sem_label)
     if not ordered:
@@ -248,7 +356,9 @@ def main():
     if missing:
         print(f"[{label}] AVISO: questão(ns) ausente(s): {missing}", flush=True)
 
-    sem = sem_node or sem_label
+    sem = sem_node if sem_node in (1, 2) else sem_label
+    if sem_node not in (1, 2) and sem_node:
+        print(f"[{label}] semestre_no_cabecalho ignorado: {sem_node!r}", flush=True)
     out = {
         "exame": f"{label}_questoes",
         "ano": ano,

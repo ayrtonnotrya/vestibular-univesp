@@ -1,0 +1,473 @@
+{
+  "exame": "unesp_2019",
+  "figuras_coordenadas": {
+    "1": [
+      {
+        "pagina": 3,
+        "tipo": "cartum",
+        "elemento": "Tira em quadrinhos de Níquel Náusea",
+        "bbox": [
+          35,
+          135,
+          335,
+          448
+        ]
+      }
+    ],
+    "8": [
+      {
+        "pagina": 5,
+        "tipo": "cartum",
+        "elemento": "Cartum de duas nuvens com eletricidade estática",
+        "bbox": [
+          115,
+          128,
+          335,
+          442
+        ]
+      }
+    ],
+    "10": [
+      {
+        "pagina": 6,
+        "tipo": "cartum",
+        "elemento": "Charge de Angeli sobre política e manifestações",
+        "bbox": [
+          76,
+          117,
+          345,
+          471
+        ]
+      }
+    ],
+    "19": [
+      {
+        "pagina": 8,
+        "tipo": "imagem",
+        "elemento": "Pintura de Tarsila do Amaral (Sono / A Cuca)",
+        "bbox": [
+          305,
+          510,
+          640,
+          915
+        ]
+      }
+    ],
+    "22": [
+      {
+        "pagina": 10,
+        "tipo": "imagem",
+        "elemento": "Pintura Antropofagia de Tarsila do Amaral",
+        "bbox": [
+          78,
+          512,
+          335,
+          875
+        ]
+      }
+    ],
+    "23": [
+      {
+        "pagina": 10,
+        "tipo": "mapa",
+        "elemento": "Mapa do comércio atlântico de escravizados (1731-1775)",
+        "bbox": [
+          356,
+          512,
+          622,
+          935
+        ]
+      }
+    ],
+    "35": [
+      {
+        "pagina": 13,
+        "tipo": "imagem",
+        "elemento": "Pintura Marat assassinado de Jacques-Louis David",
+        "bbox": [
+          80,
+          583,
+          335,
+          915
+        ]
+      }
+    ],
+    "38": [
+      {
+        "pagina": 15,
+        "tipo": "mapa",
+        "elemento": "Mapa da divisão da África no final do século XIX",
+        "bbox": [
+          75,
+          165,
+          245,
+          445
+        ]
+      }
+    ],
+    "40": [
+      {
+        "pagina": 16,
+        "tipo": "grafico",
+        "elemento": "Gráficos e tabela de expansão das redes ferroviária e rodoviária no Brasil",
+        "bbox": [
+          65,
+          128,
+          500,
+          475
+        ]
+      }
+    ],
+    "46": [
+      {
+        "pagina": 18,
+        "tipo": "grafico",
+        "elemento": "Gráfico de Imigração no Brasil",
+        "bbox": [
+          78,
+          117,
+          310,
+          462
+        ]
+      }
+    ],
+    "47": [
+      {
+        "pagina": 18,
+        "tipo": "mapa",
+        "elemento": "Mapa do Brasil com áreas urbanas destacadas",
+        "bbox": [
+          78,
+          530,
+          335,
+          915
+        ]
+      }
+    ],
+    "49": [
+      {
+        "pagina": 19,
+        "tipo": "esquema",
+        "elemento": "Esquema comparativo entre solo neutro e solo ácido",
+        "bbox": [
+          75,
+          117,
+          335,
+          485
+        ]
+      }
+    ],
+    "51": [
+      {
+        "pagina": 20,
+        "tipo": "esquema",
+        "elemento": "Esquema de bioma e vegetação",
+        "bbox": [
+          76,
+          117,
+          275,
+          485
+        ]
+      }
+    ],
+    "52": [
+      {
+        "pagina": 20,
+        "tipo": "mapa",
+        "elemento": "Mapa mundial de hotspots",
+        "bbox": [
+          310,
+          117,
+          600,
+          485
+        ]
+      }
+    ],
+    "53": [
+      {
+        "pagina": 20,
+        "tipo": "imagem",
+        "elemento": "Foto da estrutura do Synlight",
+        "bbox": [
+          78,
+          512,
+          335,
+          915
+        ]
+      }
+    ],
+    "54": [
+      {
+        "pagina": 21,
+        "tipo": "esquema",
+        "elemento": "Esquemas de processos de generalização cartográfica",
+        "bbox": [
+          115,
+          117,
+          335,
+          485
+        ]
+      }
+    ],
+    "63": [
+      {
+        "pagina": 24,
+        "tipo": "figura",
+        "elemento": "Fórmulas estruturais de aminoácidos e esquema de proteína transmembrana",
+        "bbox": [
+          76,
+          117,
+          385,
+          485
+        ]
+      }
+    ],
+    "64": [
+      {
+        "pagina": 24,
+        "tipo": "figura",
+        "elemento": "Modelo físico de Ernst Münch",
+        "bbox": [
+          405,
+          512,
+          622,
+          915
+        ]
+      }
+    ],
+    "66": [
+      {
+        "pagina": 25,
+        "tipo": "figura",
+        "elemento": "Diagrama do sistema circulatório humano",
+        "bbox": [
+          76,
+          117,
+          485,
+          485
+        ]
+      }
+    ],
+    "70": [
+      {
+        "pagina": 26,
+        "tipo": "figura",
+        "elemento": "Fórmulas estruturais de bases nitrogenadas",
+        "bbox": [
+          76,
+          117,
+          335,
+          485
+        ]
+      }
+    ],
+    "71": [
+      {
+        "pagina": 26,
+        "tipo": "figura",
+        "elemento": "Estrutura da hipoxantina e bases nitrogenadas",
+        "bbox": [
+          76,
+          117,
+          335,
+          485
+        ]
+      }
+    ],
+    "72": [
+      {
+        "pagina": 27,
+        "tipo": "grafico",
+        "elemento": "Gráfico de altitude e tempo de voo do Boeing 737-800",
+        "bbox": [
+          115,
+          512,
+          415,
+          915
+        ]
+      }
+    ],
+    "75": [
+      {
+        "pagina": 28,
+        "tipo": "figura",
+        "elemento": "Fórmula estrutural do ácido ascórbico",
+        "bbox": [
+          78,
+          512,
+          205,
+          835
+        ]
+      }
+    ],
+    "76": [
+      {
+        "pagina": 29,
+        "tipo": "figura",
+        "elemento": "Esquema de forças sobre a agulha na superfície da água",
+        "bbox": [
+          420,
+          117,
+          745,
+          485
+        ]
+      }
+    ],
+    "77": [
+      {
+        "pagina": 29,
+        "tipo": "figura",
+        "elemento": "Esquema da barra e caixas em equilíbrio",
+        "bbox": [
+          145,
+          512,
+          335,
+          915
+        ]
+      }
+    ],
+    "78": [
+      {
+        "pagina": 30,
+        "tipo": "figura",
+        "elemento": "Ilustrações de crescimento de plantas (opções A a E)",
+        "bbox": [
+          50,
+          512,
+          640,
+          695
+        ]
+      }
+    ],
+    "79": [
+      {
+        "pagina": 31,
+        "tipo": "figura",
+        "elemento": "Esquema dos Modelos atômicos 1 e 2",
+        "bbox": [
+          275,
+          128,
+          385,
+          485
+        ]
+      }
+    ],
+    "80": [
+      {
+        "pagina": 31,
+        "tipo": "grafico",
+        "elemento": "Gráfico de meia-vida térmica",
+        "bbox": [
+          75,
+          512,
+          275,
+          915
+        ]
+      }
+    ],
+    "81": [
+      {
+        "pagina": 32,
+        "tipo": "figura",
+        "elemento": "Esquemas de miragem e refração luminosa (Figura 1 e 2)",
+        "bbox": [
+          215,
+          117,
+          585,
+          485
+        ]
+      }
+    ],
+    "82": [
+      {
+        "pagina": 32,
+        "tipo": "figura",
+        "elemento": "Figuras do campo magnético terrestre e bússola de inclinação",
+        "bbox": [
+          275,
+          512,
+          475,
+          915
+        ]
+      }
+    ],
+    "83": [
+      {
+        "pagina": 33,
+        "tipo": "grafico",
+        "elemento": "Gráficos de queima de velas e tabela associada",
+        "bbox": [
+          75,
+          117,
+          575,
+          915
+        ]
+      }
+    ],
+    "84": [
+      {
+        "pagina": 34,
+        "tipo": "fotografia",
+        "elemento": "Escultura de Amilcar de Castro e opções de planificação",
+        "bbox": [
+          76,
+          117,
+          640,
+          485
+        ]
+      }
+    ],
+    "85": [
+      {
+        "pagina": 34,
+        "tipo": "figura",
+        "elemento": "Esquema geométrico do escorregador",
+        "bbox": [
+          115,
+          512,
+          245,
+          835
+        ]
+      }
+    ],
+    "86": [
+      {
+        "pagina": 34,
+        "tipo": "tabela",
+        "elemento": "Tabela de coordenadas de P e Q",
+        "bbox": [
+          525,
+          512,
+          600,
+          835
+        ]
+      }
+    ],
+    "87": [
+      {
+        "pagina": 35,
+        "tipo": "grafico",
+        "elemento": "Plano cartesiano com a trajetória do avião",
+        "bbox": [
+          185,
+          117,
+          385,
+          485
+        ]
+      }
+    ],
+    "90": [
+      {
+        "pagina": 35,
+        "tipo": "tabela",
+        "elemento": "Tabela de índice de risco de eventos e foto de BASE jumping",
+        "bbox": [
+          356,
+          512,
+          640,
+          915
+        ]
+      }
+    ]
+  }
+}

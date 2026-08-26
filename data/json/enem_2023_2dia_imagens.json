@@ -1,0 +1,525 @@
+{
+  "exame": "enem_2023_2dia",
+  "figuras_coordenadas": {
+    "91": [
+      {
+        "pagina": 2,
+        "tipo": "cartum",
+        "elemento": "Tirinha dos personagens Cebolinha e Cascão",
+        "bbox": [
+          181,
+          51,
+          335,
+          942
+        ]
+      }
+    ],
+    "94": [
+      {
+        "pagina": 3,
+        "tipo": "figura",
+        "elemento": "Esquema da interação iônica e quadro de eletronegatividades",
+        "bbox": [
+          254,
+          191,
+          577,
+          718
+        ]
+      }
+    ],
+    "96": [
+      {
+        "pagina": 4,
+        "tipo": "tabela",
+        "elemento": "Quadro de compostos químicos e nomenclaturas",
+        "bbox": [
+          230,
+          51,
+          335,
+          495
+        ]
+      }
+    ],
+    "98": [
+      {
+        "pagina": 4,
+        "tipo": "figura",
+        "elemento": "Circuito elétrico mista com lâmpadas L1, L2, L3 e resistores R",
+        "bbox": [
+          219,
+          507,
+          427,
+          919
+        ]
+      }
+    ],
+    "102": [
+      {
+        "pagina": 5,
+        "tipo": "figura",
+        "elemento": "Esquema dos aparelhos de musculação do tipo 1 e tipo 2",
+        "bbox": [
+          577,
+          517,
+          780,
+          903
+        ]
+      }
+    ],
+    "106": [
+      {
+        "pagina": 6,
+        "tipo": "tabela",
+        "elemento": "Quadro com grandezas cinemáticas",
+        "bbox": [
+          577,
+          509,
+          727,
+          919
+        ]
+      }
+    ],
+    "112": [
+      {
+        "pagina": 8,
+        "tipo": "figura",
+        "elemento": "Estrutura química do tensoativo não biodegradável",
+        "bbox": [
+          254,
+          281,
+          462,
+          497
+        ]
+      }
+    ],
+    "114": [
+      {
+        "pagina": 8,
+        "tipo": "figura",
+        "elemento": "Esquema da prospecção de petróleo com ondas sonoras",
+        "bbox": [
+          374,
+          534,
+          727,
+          933
+        ]
+      }
+    ],
+    "116": [
+      {
+        "pagina": 9,
+        "tipo": "figura",
+        "elemento": "Fórmula estrutural do Aldrin",
+        "bbox": [
+          181,
+          167,
+          335,
+          386
+        ]
+      }
+    ],
+    "119": [
+      {
+        "pagina": 10,
+        "tipo": "grafico",
+        "elemento": "Gráficos de P x T para transformações gasosas",
+        "bbox": [
+          254,
+          51,
+          888,
+          642
+        ]
+      }
+    ],
+    "122": [
+      {
+        "pagina": 11,
+        "tipo": "figura",
+        "elemento": "Esquema de fluxo de elétrons na cadeia respiratória",
+        "bbox": [
+          718,
+          245,
+          873,
+          883
+        ]
+      }
+    ],
+    "126": [
+      {
+        "pagina": 12,
+        "tipo": "tabela",
+        "elemento": "Tabela de parâmetros medidos para controle de dureza da água",
+        "bbox": [
+          219,
+          507,
+          335,
+          759
+        ]
+      }
+    ],
+    "129": [
+      {
+        "pagina": 13,
+        "tipo": "grafico",
+        "elemento": "Gráficos de massa de Hg2Cl2 por massa de NaCl",
+        "bbox": [
+          396,
+          51,
+          919,
+          933
+        ]
+      }
+    ],
+    "130": [
+      {
+        "pagina": 14,
+        "tipo": "figura",
+        "elemento": "Ilustração do caminhão transportando carga com cordas",
+        "bbox": [
+          295,
+          51,
+          475,
+          446
+        ]
+      }
+    ],
+    "132": [
+      {
+        "pagina": 14,
+        "tipo": "figura",
+        "elemento": "Esquema do ciclo do nitrogênio",
+        "bbox": [
+          181,
+          577,
+          335,
+          838
+        ]
+      }
+    ],
+    "134": [
+      {
+        "pagina": 15,
+        "tipo": "figura",
+        "elemento": "Estruturas químicas de princípios ativos analgésicos",
+        "bbox": [
+          153,
+          245,
+          577,
+          768
+        ]
+      }
+    ],
+    "137": [
+      {
+        "pagina": 16,
+        "tipo": "figura",
+        "elemento": "Esquema do mastro com cabos de aço",
+        "bbox": [
+          656,
+          51,
+          888,
+          495
+        ]
+      }
+    ],
+    "138": [
+      {
+        "pagina": 16,
+        "tipo": "grafico",
+        "elemento": "Gráfico de altitude em função da distância",
+        "bbox": [
+          515,
+          507,
+          670,
+          919
+        ]
+      }
+    ],
+    "139": [
+      {
+        "pagina": 17,
+        "tipo": "tabela",
+        "elemento": "Quadros de horas de atividades físicas e gastos calóricos",
+        "bbox": [
+          181,
+          177,
+          440,
+          818
+        ]
+      }
+    ],
+    "142": [
+      {
+        "pagina": 18,
+        "tipo": "figura",
+        "elemento": "Esquemas de círculos e meias pizzas associados a triângulo",
+        "bbox": [
+          104,
+          507,
+          368,
+          919
+        ]
+      }
+    ],
+    "144": [
+      {
+        "pagina": 19,
+        "tipo": "tabela",
+        "elemento": "Tabela de vendas mensais dos produtos I e II",
+        "bbox": [
+          181,
+          279,
+          285,
+          718
+        ]
+      }
+    ],
+    "145": [
+      {
+        "pagina": 19,
+        "tipo": "grafico",
+        "elemento": "Gráfico de barras de viagens realizadas por motoristas",
+        "bbox": [
+          598,
+          260,
+          793,
+          670
+        ]
+      }
+    ],
+    "146": [
+      {
+        "pagina": 20,
+        "tipo": "foto",
+        "elemento": "Foto de cisterna e tabela de níveis de água",
+        "bbox": [
+          350,
+          51,
+          525,
+          495
+        ]
+      }
+    ],
+    "147": [
+      {
+        "pagina": 20,
+        "tipo": "figura",
+        "elemento": "Representação gráfica de posições de jogadores em jogo digital",
+        "bbox": [
+          48,
+          513,
+          275,
+          933
+        ]
+      }
+    ],
+    "148": [
+      {
+        "pagina": 20,
+        "tipo": "figura",
+        "elemento": "Esquema do triângulo mágico",
+        "bbox": [
+          515,
+          642,
+          656,
+          818
+        ]
+      }
+    ],
+    "152": [
+      {
+        "pagina": 22,
+        "tipo": "figura",
+        "elemento": "Desenhos de números figurados pentagonais",
+        "bbox": [
+          181,
+          90,
+          335,
+          475
+        ]
+      }
+    ],
+    "153": [
+      {
+        "pagina": 22,
+        "tipo": "figura",
+        "elemento": "Ilustração da roda-gigante e gráficos trigonométricos",
+        "bbox": [
+          181,
+          507,
+          888,
+          919
+        ]
+      }
+    ],
+    "154": [
+      {
+        "pagina": 23,
+        "tipo": "grafico",
+        "elemento": "Gráfico de dispersão de massa e altura",
+        "bbox": [
+          254,
+          142,
+          386,
+          465
+        ]
+      }
+    ],
+    "159": [
+      {
+        "pagina": 24,
+        "tipo": "figura",
+        "elemento": "Esquema de atenuação da luz na água",
+        "bbox": [
+          181,
+          51,
+          335,
+          446
+        ]
+      }
+    ],
+    "162": [
+      {
+        "pagina": 25,
+        "tipo": "grafico",
+        "elemento": "Gráfico de valores de criptomoedas A e B ao longo do tempo",
+        "bbox": [
+          515,
+          51,
+          759,
+          495
+        ]
+      }
+    ],
+    "164": [
+      {
+        "pagina": 26,
+        "tipo": "figura",
+        "elemento": "Ilustração de cone, tronco de cone e perfuração",
+        "bbox": [
+          219,
+          51,
+          487,
+          495
+        ]
+      }
+    ],
+    "165": [
+      {
+        "pagina": 26,
+        "tipo": "tabela",
+        "elemento": "Tabela de funcionários e salários por setor",
+        "bbox": [
+          181,
+          507,
+          305,
+          919
+        ]
+      }
+    ],
+    "167": [
+      {
+        "pagina": 27,
+        "tipo": "grafico",
+        "elemento": "Esboços de gráficos de volume de água por tempo",
+        "bbox": [
+          350,
+          51,
+          919,
+          507
+        ]
+      }
+    ],
+    "168": [
+      {
+        "pagina": 27,
+        "tipo": "cartum",
+        "elemento": "Quadrinho de contagem cultural",
+        "bbox": [
+          181,
+          517,
+          368,
+          919
+        ]
+      }
+    ],
+    "172": [
+      {
+        "pagina": 28,
+        "tipo": "grafico",
+        "elemento": "Gráfico de distância e esquemas de trajetória",
+        "bbox": [
+          115,
+          507,
+          818,
+          888
+        ]
+      }
+    ],
+    "175": [
+      {
+        "pagina": 29,
+        "tipo": "figura",
+        "elemento": "Planta baixa da piscina e calçada",
+        "bbox": [
+          181,
+          534,
+          386,
+          919
+        ]
+      }
+    ],
+    "176": [
+      {
+        "pagina": 29,
+        "tipo": "grafico",
+        "elemento": "Gráfico de intensidade do sinal de internet",
+        "bbox": [
+          628,
+          507,
+          818,
+          919
+        ]
+      }
+    ],
+    "177": [
+      {
+        "pagina": 30,
+        "tipo": "grafico",
+        "elemento": "Gráfico de barras horizontais da campanha contra gripe A-H1N1",
+        "bbox": [
+          181,
+          167,
+          335,
+          868
+        ]
+      }
+    ],
+    "178": [
+      {
+        "pagina": 30,
+        "tipo": "figura",
+        "elemento": "Representação 3D de escada de concreto",
+        "bbox": [
+          546,
+          245,
+          818,
+          681
+        ]
+      }
+    ],
+    "179": [
+      {
+        "pagina": 31,
+        "tipo": "figura",
+        "elemento": "Mapa de assentos do cinema",
+        "bbox": [
+          181,
+          132,
+          507,
+          838
+        ]
+      }
+    ]
+  }
+}

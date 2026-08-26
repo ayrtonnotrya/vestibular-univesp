@@ -29,6 +29,9 @@ data/paginas/*/*
 .vscode/
 *.swp
 
+# Kilo (config/sessões locais do agente)
+.kilo/
+
 # Sistema
 .DS_Store
 Thumbs.db
