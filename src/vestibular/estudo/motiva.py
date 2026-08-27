@@ -31,6 +31,20 @@ PESO_EXPLORACAO = 0.2
 # Score neutro (1 - score = 0.5) para temas sem tentativas do usuário.
 SCORE_NEUTRO = 0.5
 
+# Caderno de erros: valores possíveis e rótulos de exibição.
+GRAUS_CERTEZA = ("conviccao", "duvida", "chute")
+CAUSAS_ERRO = ("teoria", "pegadinha", "atencao")
+GRAU_CERTEZA_LABEL = {
+    "conviccao": "🟢 Convicção",
+    "duvida": "🟡 Dúvida",
+    "chute": "🔴 Chute",
+}
+CAUSA_ERRO_LABEL = {
+    "teoria": "🧠 Lacuna Teórica",
+    "pegadinha": "🎯 Pegadinha de Banca",
+    "atencao": "🔍 Atenção/Cálculo",
+}
+
 
 def _area_do_tema(con: sqlite3.Connection, tema_id: int) -> int:
     return con.execute("SELECT area_id FROM temas WHERE id = ?", (tema_id,)).fetchone()[
@@ -183,9 +197,23 @@ def responder(
     resposta: str,
     agora: dt.datetime | None = None,
     detalhe: str | None = None,
+    grau_certeza: str | None = None,
+    causa_erro: str | None = None,
+    sintese_ativa: str | None = None,
 ) -> dict:
-    """Registra a resposta e atualiza o estado (FSRS, Rasch, item)."""
+    """Registra a resposta e atualiza o estado (FSRS, Rasch, item).
+
+    `grau_certeza`/`causa_erro`/`sintese_ativa` (caderno de erros) são
+    opcionais: acertos convictos e tentativas antigas ficam com NULL."""
     agora = agora or dt.datetime.now(dt.UTC)
+    if grau_certeza is not None and grau_certeza not in GRAUS_CERTEZA:
+        raise ValueError(
+            f"grau_certeza inválido: {grau_certeza!r} (use {', '.join(GRAUS_CERTEZA)})"
+        )
+    if causa_erro is not None and causa_erro not in CAUSAS_ERRO:
+        raise ValueError(
+            f"causa_erro inválido: {causa_erro!r} (use {', '.join(CAUSAS_ERRO)})"
+        )
     q = con.execute(
         "SELECT gabarito, anulada FROM questoes WHERE id = ?", (questao_id,)
     ).fetchone()
@@ -197,11 +225,25 @@ def responder(
     else:
         correta = (resposta or "").strip().lower() == q["gabarito"].strip().lower()
 
-    con.execute(
-        "INSERT INTO tentativas(usuario, questao_id, resposta, correta, data, detalhe) VALUES (?, ?, ?, ?, ?, ?)",
-        (usuario, questao_id, resposta, correta, agora.isoformat(), detalhe),
+    cur = con.execute(
+        """INSERT INTO tentativas
+           (usuario, questao_id, resposta, correta, data, detalhe,
+            grau_certeza, causa_erro, sintese_ativa)
+           VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+        (
+            usuario,
+            questao_id,
+            resposta,
+            correta,
+            agora.isoformat(),
+            detalhe,
+            grau_certeza,
+            causa_erro,
+            sintese_ativa,
+        ),
     )
     con.commit()
+    tentativa_id = cur.lastrowid
 
     # FSRS por tema + nível por tema + Rasch por área + b do item
     temas = _temas_da_questao(con, questao_id)
@@ -226,13 +268,44 @@ def responder(
         rasch_mod.atualiza_item_b(con, questao_id)
 
     return {
+        "tentativa_id": tentativa_id,
         "questao_id": questao_id,
         "resposta": resposta,
         "gabarito": q["gabarito"],
         "correta": correta,
+        "grau_certeza": grau_certeza,
+        "causa_erro": causa_erro,
+        "sintese_ativa": sintese_ativa,
         "temas": atualizacoes_fsrs,
         "niveis": atuais_niveis,
     }
+
+
+def anotar_erro(
+    con: sqlite3.Connection,
+    tentativa_id: int,
+    causa_erro: str | None = None,
+    sintese_ativa: str | None = None,
+) -> bool:
+    """Preenche o caderno de erros de uma tentativa já registrada (causa +
+    síntese ativa, capturadas após a conferência do gabarito).
+
+    Retorna True se a tentativa existe e foi atualizada; False se o id não
+    existe (ex.: questão nunca importada no banco)."""
+    if causa_erro is not None and causa_erro not in CAUSAS_ERRO:
+        raise ValueError(
+            f"causa_erro inválido: {causa_erro!r} (use {', '.join(CAUSAS_ERRO)})"
+        )
+    cur = con.execute(
+        "UPDATE tentativas SET causa_erro = ?, sintese_ativa = ? WHERE id = ?",
+        (
+            causa_erro,
+            (sintese_ativa or "").strip() or None,
+            tentativa_id,
+        ),
+    )
+    con.commit()
+    return cur.rowcount > 0
 
 
 def niveis_por_tema(con: sqlite3.Connection, usuario: str) -> list[dict]:

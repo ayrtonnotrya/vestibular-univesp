@@ -11,6 +11,8 @@ from collections import defaultdict
 
 from fsrs import Card, Scheduler
 
+from vestibular.estudo.motiva import CAUSA_ERRO_LABEL, GRAU_CERTEZA_LABEL
+
 _scheduler = Scheduler()
 
 
@@ -391,7 +393,8 @@ def historico(
     out = []
     for r in con.execute(
         f"""SELECT t.id, t.data, t.questao_id, q.exame_label, q.numero, t.resposta,
-                  q.gabarito, q.anulada, t.correta
+                  q.gabarito, q.anulada, t.correta, t.grau_certeza, t.causa_erro,
+                  t.sintese_ativa
            FROM tentativas t JOIN questoes q ON q.id = t.questao_id
            WHERE t.usuario = ?{cond} ORDER BY t.data, t.id""",
         params,
@@ -413,6 +416,9 @@ def historico(
                 "gabarito": (r["gabarito"] or "").upper() if r["gabarito"] else "—",
                 "resultado": {1: "✅", 0: "❌", None: "—"}.get(r["correta"]),
                 "anulada": bool(r["anulada"]),
+                "certeza": GRAU_CERTEZA_LABEL.get(r["grau_certeza"], "—"),
+                "causa_erro": CAUSA_ERRO_LABEL.get(r["causa_erro"], "—"),
+                "sintese_ativa": r["sintese_ativa"] or "—",
                 "areas": ", ".join(sorted(areas)),
                 "temas": ", ".join(sorted(temas)),
             }

@@ -107,13 +107,16 @@ CREATE TABLE IF NOT EXISTS niveis_usuarios (
 );
 
 CREATE TABLE IF NOT EXISTS tentativas (
-    id        INTEGER PRIMARY KEY,
-    usuario   TEXT NOT NULL,
-    questao_id INTEGER NOT NULL REFERENCES questoes(id),
-    resposta  TEXT,
-    correta   INTEGER,                            -- 0/1 | null se anulada
-    data      TEXT NOT NULL,
-    detalhe   TEXT                                -- JSON (feedback IA)
+    id           INTEGER PRIMARY KEY,
+    usuario      TEXT NOT NULL,
+    questao_id   INTEGER NOT NULL REFERENCES questoes(id),
+    resposta     TEXT,
+    correta      INTEGER,                         -- 0/1 | null se anulada
+    data         TEXT NOT NULL,
+    detalhe      TEXT,                            -- JSON (feedback IA)
+    grau_certeza TEXT,                            -- conviccao|duvida|chute | null (caderno de erros)
+    causa_erro   TEXT,                            -- teoria|pegadinha|atencao | null
+    sintese_ativa TEXT                            -- frase de 1-2 sentenças | null
 );
 """
 
@@ -136,6 +139,17 @@ def _migrar_fase_temas(con: sqlite3.Connection) -> None:
     preencher_fase(con)
 
 
+def _migrar_tentativas(con: sqlite3.Connection) -> None:
+    """Adiciona as colunas do caderno de erros na tabela `tentativas`.
+
+    `ALTER TABLE ... ADD COLUMN` em colunas nullable é seguro para bancos já
+    existentes: registros antigos (e acertos convictos) ficam com NULL."""
+    cols = {r[1] for r in con.execute("PRAGMA table_info(tentativas)")}
+    for nome in ("grau_certeza", "causa_erro", "sintese_ativa"):
+        if nome not in cols:
+            con.execute(f"ALTER TABLE tentativas ADD COLUMN {nome} TEXT")
+
+
 def connect(db_path: str | Path | None = None) -> sqlite3.Connection:
     path = Path(db_path) if db_path else DB_PATH
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -144,5 +158,6 @@ def connect(db_path: str | Path | None = None) -> sqlite3.Connection:
     con.executescript(SCHEMA)
     _migrar_questoes(con)
     _migrar_fase_temas(con)
+    _migrar_tentativas(con)
     con.commit()
     return con

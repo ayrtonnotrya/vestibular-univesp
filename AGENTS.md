@@ -216,7 +216,12 @@ scripts/           # CLI (click): ingest, classify, score (esqueleto)
 Tabelas implementadas no motor: `vestibulares`, `questoes`, `classificacoes`,
 `dificuldades` (score IA — ainda sem seed), `item_params` (b Rasch),
 `fsrs_estados`, `habilidades` (θ MAP por área), `niveis_usuarios` (score/racha/
-contagem por `(usuario, tema)`) e `tentativas`. Pendente do plano original:
+contagem por `(usuario, tema)`) e `tentativas` (caderno de erros: colunas
+nullable `grau_certeza` `conviccao|duvida|chute`, `causa_erro`
+`teoria|pegadinha|atencao` e `sintese_ativa`, preenchidas via `motiva.responder`
+(certeza) + `motiva.anotar_erro`/MCP `anotar_erro` (causa/síntese pós-conferência);
+acertos convictos e registros antigos ficam com NULL, sem afetar TRI/FSRS).
+Pendente do plano original:
 `ia/dificuldade` (score), `ia/classificar`, `ia/feedback`.
 
 ## Como rodar / verificar

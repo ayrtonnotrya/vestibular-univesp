@@ -278,12 +278,15 @@ def _render_questao(
     feedback=None,
     questao_id: int | None = None,
     usuario: str = "eu",
+    on_avancar=None,
 ):
     """Renderiza questão (em cima) + página pan/zoom (embaixo).
 
     `feedback` (callable ou None) renderiza o resultado da resposta entre a
     questão e a página, se fornecido. `questao_id` (opcional) habilita a lista
-    completa de temas da questão."""
+    completa de temas da questão. `on_avancar` (opcional) é chamado por
+    "Salvar e Avançar" do caderno de erros para ir à próxima questão.
+    """
     numero, enunciado = q["numero"], q["enunciado"]
     has_midia = bool(q.get("midia") or q.get("_midia"))
     midia = q.get("_midia", [])
@@ -322,18 +325,41 @@ def _render_questao(
             key = f"resp_{key_suffix}"
             if key not in st.session_state:
                 st.session_state[key] = None
+            resp = st.session_state.get(key)
             opcoes = {f"{k.upper()}) {v}": k for k, v in alt.items()}
             picked = st.radio(
-                "Responda:", list(opcoes), index=None, key=f"radio_{key_suffix}"
+                "Responda:",
+                list(opcoes),
+                index=None,
+                key=f"radio_{key_suffix}",
+                disabled=resp is not None,
             )
-            if st.button("Responder", key=f"btn_{key_suffix}"):
+            st.radio(
+                "Grau de certeza:",
+                list(motiva.GRAUS_CERTEZA),
+                index=0,
+                horizontal=True,
+                key=f"certeza_{key_suffix}",
+                format_func=motiva.GRAU_CERTEZA_LABEL.get,
+                disabled=resp is not None,
+                help="Sua autoconfiança antes de conferir o gabarito.",
+            )
+            if resp is None and st.button("Responder", key=f"btn_{key_suffix}"):
                 if picked is None:
                     st.warning("Escolha uma alternativa.")
                 else:
                     st.session_state[key] = opcoes[picked]
+                    st.session_state[f"certeza_usada_{key_suffix}"] = (
+                        st.session_state.get(f"certeza_{key_suffix}", "conviccao")
+                    )
                     if on_responder is not None:
-                        on_responder(numero, opcoes[picked])
-            resp = st.session_state.get(key)
+                        r = on_responder(
+                            numero,
+                            opcoes[picked],
+                            st.session_state[f"certeza_usada_{key_suffix}"],
+                        )
+                        if r is not None:
+                            st.session_state[f"res_{key_suffix}"] = r
             if resp is not None and on_responder is None:
                 gab = q.get("gabarito")
                 st.success(
@@ -349,6 +375,8 @@ def _render_questao(
 
     if feedback is not None:
         feedback()
+
+    _passo_b_caderno_erros(key_suffix, on_responder, on_avancar)
 
     pagina_padrao, bbox_padrao = _page_info(label, numero)
     pkey = f"pag_{key_suffix}"
@@ -399,6 +427,75 @@ def _render_questao(
             view_page(label, pagina, [0, 0, 1000, 1000], height=680)
 
 
+def _passo_b_caderno_erros(key_suffix: str, on_responder, on_avancar):
+    """Caderno de erros (Passo B): popover não-bloqueante de causa do erro +
+    síntese ativa, exibido após a conferência do gabarito quando a questão foi
+    errada ou o usuário não estava convicto (dúvida/chute).
+
+    Acertos convictos seguem o fluxo normal, sem interrupção. `Enter` no campo
+    de texto envia a síntese e avança (form do Streamlit)."""
+    resp = st.session_state.get(f"resp_{key_suffix}")
+    r = st.session_state.get(f"res_{key_suffix}")
+    if resp is None or on_responder is None or r is None:
+        return
+    status = st.session_state.get(f"anotado_{key_suffix}")
+    if status:
+        if status == "salvo":
+            st.success("✅ Causa + síntese salvas no caderno de erros.")
+        return
+    certeza = st.session_state.get(f"certeza_usada_{key_suffix}", "conviccao")
+    precisa = r.get("correta") is False or certeza in ("duvida", "chute")
+    if not precisa:
+        return
+    tid = r.get("tentativa_id")
+    if not tid:
+        st.caption("Questão ainda não importada no banco — anotação não é persistida.")
+        return
+
+    def salvar(causa, sintese):
+        with connect() as con:
+            motiva.anotar_erro(con, tid, causa, sintese)
+        st.session_state[f"anotado_{key_suffix}"] = "salvo"
+        st.toast("✅ Caderno de erros atualizado.", icon="🗒️")
+        try:
+            if on_avancar is not None:
+                on_avancar()
+        except Exception:  # noqa: BLE001 — o avanço não deve ocultar a confirmação da gravação
+            st.toast("Anotação salva, mas não foi possível avançar.", icon="⚠️")
+
+    def ignorar():
+        st.session_state[f"anotado_{key_suffix}"] = True
+
+    with st.popover("🗒️ Anotar este erro/dúvida", use_container_width=True):
+        st.markdown(
+            "**Caderno de erros** — 1-2 frases do que você aprendeu ajudam na revisão."
+        )
+        causa = st.radio(
+            "Causa do erro/dúvida",
+            list(motiva.CAUSAS_ERRO),
+            index=0,
+            horizontal=True,
+            key=f"causa_{key_suffix}",
+            format_func=motiva.CAUSA_ERRO_LABEL.get,
+        )
+        with st.form(f"sintese_{key_suffix}"):
+            sintese = st.text_input(
+                "Síntese ativa (1-2 frases)",
+                placeholder="O que você aprendeu com este erro/dúvida?",
+                key=f"sintese_{key_suffix}",
+            )
+            enviar = st.form_submit_button(
+                "💾 Salvar e Avançar", use_container_width=True
+            )
+        if enviar:
+            salvar(causa, sintese.strip() or None)
+        st.button(
+            "Ignorar / Salvar sem síntese",
+            key=f"ign_{key_suffix}",
+            on_click=ignorar,
+        )
+
+
 def _questao_json(label: str, numero: int) -> dict | None:
     jq = JSON_DIR / f"{label}_questoes.json"
     if not jq.exists():
@@ -427,6 +524,15 @@ def modo_explorar():
     questoes = load_questoes(str(jq))["questoes"]
 
     qs = [q["numero"] for q in questoes]
+    if st.session_state.get("explo_proxima"):
+        atual = st.session_state.get("explo_cur")
+        try:
+            idx = qs.index(atual)
+        except ValueError:
+            idx = len(qs)
+        if idx + 1 < len(qs):
+            st.session_state["explo_cur"] = qs[idx + 1]
+        st.session_state.pop("explo_proxima", None)
     if st.session_state.get("explo_cur") not in qs:
         st.session_state.pop("explo_cur", None)
     cur = sidebar.selectbox(
@@ -456,10 +562,12 @@ def modo_explorar():
         )
     fb_key = f"explo_fb_{label}_{cur}"
 
-    def on_responder(numero, resp):
+    def on_responder(numero, resp, grau_certeza):
         if questao_id is not None:
             with connect() as con:
-                r = motiva.responder(con, usuario, questao_id, resp)
+                r = motiva.responder(
+                    con, usuario, questao_id, resp, grau_certeza=grau_certeza
+                )
             correta, gabarito = r["correta"], r["gabarito"]
         else:
             gabarito = q.get("gabarito")
@@ -468,12 +576,17 @@ def modo_explorar():
                 if not gabarito
                 else resp.strip().lower() == gabarito.strip().lower()
             )
+            r = {"correta": correta, "gabarito": gabarito, "tentativa_id": None}
         fb = {
             None: "⚠️ Anulada/sem gabarito oficial",
             True: "✅ Correta!",
             False: "❌ Errada.",
         }[correta]
         st.session_state[fb_key] = (fb, gabarito)
+        return r
+
+    def avancar_explorar():
+        st.session_state["explo_proxima"] = True
 
     def render_feedback():
         fb = st.session_state.get(fb_key)
@@ -491,6 +604,7 @@ def modo_explorar():
         feedback=render_feedback,
         questao_id=questao_id,
         usuario=usuario,
+        on_avancar=avancar_explorar,
     )
 
     _mostrar_progresso(usuario)
@@ -621,23 +735,26 @@ def modo_estudar():
     )
     tema_id = objs_tema.get(tema, (None, None))[0]
 
-    if sidebar.button("▶ Próxima questão"):
+    def proxima():
         with connect() as con:
-            q = motiva.proxima_questao(
+            q2 = motiva.proxima_questao(
                 con, usuario, area_id=area_id, tema_id=tema_id, fase=fase_id
             )
-        st.session_state["estudar_q"] = q
+        st.session_state["estudar_q"] = q2
         st.session_state["estudar_aviso"] = None
         st.session_state.pop("estudar_fb", None)
-        st.session_state["params_qid"] = str(q["questao_id"]) if q else ""
+        st.session_state["params_qid"] = str(q2["questao_id"]) if q2 else ""
         st.session_state.pop("params_fb", None)
-        if q is None:
+        if q2 is None:
             filtrado = area_id is not None or tema_id is not None or fase_id is not None
             st.session_state["estudar_aviso"] = (
                 "Nada vencido para estudar no filtro selecionado."
                 if filtrado
                 else "Nada vencido para estudar. Responda antes de pedir outra."
             )
+
+    if sidebar.button("▶ Próxima questão"):
+        proxima()
 
     aviso = st.session_state.get("estudar_aviso")
     if aviso:
@@ -660,9 +777,11 @@ def modo_estudar():
             "questao_id": q["questao_id"],
         }
 
-        def on_responder(numero, resp):
+        def on_responder(numero, resp, grau_certeza):
             with connect() as con:
-                r = motiva.responder(con, usuario, q["questao_id"], resp)
+                r = motiva.responder(
+                    con, usuario, q["questao_id"], resp, grau_certeza=grau_certeza
+                )
             fb = {
                 None: "⚠️ Anulada/sem gabarito oficial",
                 True: "✅ Correta!",
@@ -674,6 +793,7 @@ def modo_estudar():
                 st.session_state.setdefault("estudar_fsrs", []).append(
                     f"{q['tema_nome']} → vencimento {t['vencimento'].isoformat()} ({t['estado']})"
                 )
+            return r
 
         def render_feedback():
             fb = st.session_state.get("estudar_fb")
@@ -692,6 +812,7 @@ def modo_estudar():
             feedback=render_feedback,
             questao_id=q["questao_id"],
             usuario=usuario,
+            on_avancar=proxima,
         )
 
         with st.expander("Próximos vencimentos"):
@@ -1041,7 +1162,17 @@ def modo_estatisticas():
 
     with st.expander("Histórico detalhado"):
         df_hist = _df(hist)
-        hist_cols = ["data", "exame", "questao", "resposta", "gabarito", "resultado"]
+        hist_cols = [
+            "data",
+            "exame",
+            "questao",
+            "resposta",
+            "gabarito",
+            "resultado",
+            "certeza",
+            "causa_erro",
+            "sintese_ativa",
+        ]
         if sel == "Todas as áreas":
             hist_cols += ["areas", "temas"]
         else:
@@ -1050,6 +1181,11 @@ def modo_estatisticas():
             df_hist[[c for c in hist_cols if c in df_hist.columns]],
             hide_index=True,
             use_container_width=True,
+            column_config={
+                "sintese_ativa": st.column_config.TextColumn(
+                    "Síntese ativa", width="large"
+                ),
+            },
         )
 
 

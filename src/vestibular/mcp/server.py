@@ -16,7 +16,8 @@ listas como blocos separados, o que quebra o parse no cliente.
 
 import datetime as dt
 import json
-from typing import Any, Callable
+from collections.abc import Callable
+from typing import Any
 
 from mcp.server.fastmcp import FastMCP
 from pydantic import BaseModel, Field
@@ -67,10 +68,19 @@ def proxima_questao(usuario: str = "eu") -> str:
 
 
 @mcp.tool()
-def responder(usuario: str, questao_id: int, alternativa: str) -> str:
+def responder(
+    usuario: str,
+    questao_id: int,
+    alternativa: str,
+    grau_certeza: str | None = None,
+    causa_erro: str | None = None,
+    sintese_ativa: str | None = None,
+) -> str:
     """Registra a alternativa do aluno e recalibra FSRS/θ/nível por tema/b.
-    Retorna JSON com o veredito (correta), o gabarito oficial e os novos níveis
-    por tema. `alternativa` é a letra escolhida (a, b, c, d, e)."""
+    Retorna JSON com o veredito (correta), o gabarito oficial, os novos níveis
+    por tema e o id da tentativa. `alternativa` é a letra escolhida (a..e).
+    Opcionais do caderno de erros: `grau_certeza` ('conviccao'|'duvida'|'chute'),
+    `causa_erro` ('teoria'|'pegadinha'|'atencao') e `sintese_ativa` (1-2 frases)."""
     alt = (alternativa or "").strip().lower()
     if not alt:
         raise ValueError("informe a alternativa respondida (letra, ex.: 'a')")
@@ -85,7 +95,32 @@ def responder(usuario: str, questao_id: int, alternativa: str) -> str:
             raise ValueError(
                 f"alternativa '{alt}' inválida; opções: {', '.join(sorted(opcoes))}"
             )
-        return _json(motiva.responder(con, usuario, questao_id, alt))
+        return _json(
+            motiva.responder(
+                con,
+                usuario,
+                questao_id,
+                alt,
+                grau_certeza=grau_certeza,
+                causa_erro=causa_erro,
+                sintese_ativa=sintese_ativa,
+            )
+        )
+
+
+@mcp.tool()
+def anotar_erro(
+    tentativa_id: int,
+    causa_erro: str | None = None,
+    sintese_ativa: str | None = None,
+) -> str:
+    """Preenche o caderno de erros de uma tentativa já respondida (útil quando o
+    aluno responde primeiro e anota depois): `causa_erro`
+    ('teoria'|'pegadinha'|'atencao') e `sintese_ativa` (1-2 frases). Retorna
+    JSON com 'atualizado': true/false (false = tentativa inexistente)."""
+    with connect() as con:
+        atualizado = motiva.anotar_erro(con, tentativa_id, causa_erro, sintese_ativa)
+    return _json({"tentativa_id": tentativa_id, "atualizado": atualizado})
 
 
 @mcp.tool()
@@ -107,12 +142,15 @@ def niveis_por_tema(usuario: str = "eu") -> str:
 @mcp.tool()
 def questoes_respondidas(usuario: str = "eu") -> str:
     """Histórico de respostas do usuário: cada tentativa com exame, número,
-    resposta dada, se o gabarito é null (anulada) e o acerto (0/1 | null se
-    anulada), data e detalhe (JSON). Retorna JSON (array por tentativa)."""
+    resposta dada, se o gabarito é null (anulada), o acerto (0/1 | null se
+    anulada), data, detalhe (JSON) e o caderno de erros (grau_certeza,
+    causa_erro, sintese_ativa — null se não preenchidos). Retorna JSON (array
+    por tentativa)."""
     with connect() as con:
         rows = con.execute(
             """SELECT t.id, t.questao_id, q.exame_label, q.numero, q.enunciado,
-                      t.resposta, q.gabarito, q.anulada, t.correta, t.data, t.detalhe
+                      t.resposta, q.gabarito, q.anulada, t.correta, t.data, t.detalhe,
+                      t.grau_certeza, t.causa_erro, t.sintese_ativa
                FROM tentativas t
                JOIN questoes q ON q.id = t.questao_id
                WHERE t.usuario = ?
@@ -245,6 +283,7 @@ class ConsultarRequest(BaseModel):
 TOOLS: dict[str, Callable[..., str]] = {
     "proxima_questao": proxima_questao,
     "responder": responder,
+    "anotar_erro": anotar_erro,
     "progresso": progresso,
     "niveis_por_tema": niveis_por_tema,
     "questoes_respondidas": questoes_respondidas,
