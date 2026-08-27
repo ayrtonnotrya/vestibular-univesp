@@ -212,6 +212,18 @@
         "acertos": 10,
         "tentativas": 10,
         "score": 1.0
+      },
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 3,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 2,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:20.520539+00:00"
       }
     },
     {
@@ -388,6 +400,18 @@
         "acertos": 0,
         "tentativas": 10,
         "score": 0.0
+      },
+      "features_ia": {
+        "bloom_level": 3,
+        "logic_steps": 4,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": true,
+        "prior_knowledge_dependency": 3,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:20.520564+00:00"
       }
     },
     {
@@ -540,6 +564,18 @@
         "acertos": 10,
         "tentativas": 10,
         "score": 1.0
+      },
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 2,
+        "interdisciplinary": true,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 2,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:20.520570+00:00"
       }
     },
     {
@@ -653,6 +689,18 @@
         "acertos": 4,
         "tentativas": 10,
         "score": 0.4
+      },
+      "features_ia": {
+        "bloom_level": 4,
+        "logic_steps": 5,
+        "interdisciplinary": false,
+        "distractor_plausibility": 3,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": true,
+        "prior_knowledge_dependency": 3,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:20.520575+00:00"
       }
     },
     {
@@ -797,6 +845,18 @@
         "acertos": 5,
         "tentativas": 10,
         "score": 0.5
+      },
+      "features_ia": {
+        "bloom_level": 3,
+        "logic_steps": 2,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 1,
+        "requires_formula_recall": true,
+        "prior_knowledge_dependency": 2,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:20.520579+00:00"
       }
     },
     {
@@ -941,6 +1001,18 @@
         "acertos": 5,
         "tentativas": 10,
         "score": 0.5
+      },
+      "features_ia": {
+        "bloom_level": 3,
+        "logic_steps": 3,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": true,
+        "prior_knowledge_dependency": 3,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:20.520583+00:00"
       }
     },
     {
@@ -1124,6 +1196,18 @@
         "acertos": 3,
         "tentativas": 10,
         "score": 0.3
+      },
+      "features_ia": {
+        "bloom_level": 3,
+        "logic_steps": 4,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 2,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:20.520587+00:00"
       }
     },
     {
@@ -1207,6 +1291,18 @@
         "acertos": 6,
         "tentativas": 10,
         "score": 0.6
+      },
+      "features_ia": {
+        "bloom_level": 3,
+        "logic_steps": 3,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": true,
+        "prior_knowledge_dependency": 2,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:20.520592+00:00"
       }
     },
     {
@@ -1291,6 +1387,18 @@
         "acertos": 7,
         "tentativas": 10,
         "score": 0.7
+      },
+      "features_ia": {
+        "bloom_level": 4,
+        "logic_steps": 3,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": true,
+        "prior_knowledge_dependency": 3,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:20.520596+00:00"
       }
     },
     {
@@ -1375,6 +1483,18 @@
         "acertos": 10,
         "tentativas": 10,
         "score": 1.0
+      },
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 3,
+        "interdisciplinary": false,
+        "distractor_plausibility": 3,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 2,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:20.520601+00:00"
       }
     },
     {
@@ -1459,6 +1579,18 @@
         "acertos": 0,
         "tentativas": 10,
         "score": 0.0
+      },
+      "features_ia": {
+        "bloom_level": 4,
+        "logic_steps": 4,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": true,
+        "prior_knowledge_dependency": 3,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:19.331237+00:00"
       }
     },
     {
@@ -1543,6 +1675,18 @@
         "acertos": 5,
         "tentativas": 10,
         "score": 0.5
+      },
+      "features_ia": {
+        "bloom_level": 3,
+        "logic_steps": 4,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": true,
+        "prior_knowledge_dependency": 2,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:19.331248+00:00"
       }
     },
     {
@@ -1719,6 +1863,18 @@
         "acertos": 9,
         "tentativas": 10,
         "score": 0.9
+      },
+      "features_ia": {
+        "bloom_level": 3,
+        "logic_steps": 2,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": true,
+        "prior_knowledge_dependency": 2,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:19.331250+00:00"
       }
     },
     {
@@ -1926,6 +2082,18 @@
         "acertos": 0,
         "tentativas": 10,
         "score": 0.0
+      },
+      "features_ia": {
+        "bloom_level": 4,
+        "logic_steps": 3,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 3,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 3,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:19.331252+00:00"
       }
     },
     {
@@ -2043,6 +2211,18 @@
         "acertos": 10,
         "tentativas": 10,
         "score": 1.0
+      },
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 2,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 3,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:19.331253+00:00"
       }
     },
     {
@@ -2187,6 +2367,18 @@
         "acertos": 5,
         "tentativas": 10,
         "score": 0.5
+      },
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 2,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 3,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:19.331254+00:00"
       }
     },
     {
@@ -2303,6 +2495,18 @@
         "acertos": 7,
         "tentativas": 10,
         "score": 0.7
+      },
+      "features_ia": {
+        "bloom_level": 4,
+        "logic_steps": 2,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 2,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:19.331256+00:00"
       }
     },
     {
@@ -2386,6 +2590,18 @@
         "acertos": 10,
         "tentativas": 10,
         "score": 1.0
+      },
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 1,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 1,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 3,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:19.331258+00:00"
       }
     },
     {
@@ -2472,6 +2688,18 @@
         "acertos": 10,
         "tentativas": 10,
         "score": 1.0
+      },
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 2,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 2,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:19.331259+00:00"
       }
     },
     {
@@ -2557,6 +2785,18 @@
         "acertos": 10,
         "tentativas": 10,
         "score": 1.0
+      },
+      "features_ia": {
+        "bloom_level": 4,
+        "logic_steps": 2,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 2,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:19.331261+00:00"
       }
     },
     {
@@ -2643,6 +2883,18 @@
         "acertos": 10,
         "tentativas": 10,
         "score": 1.0
+      },
+      "features_ia": {
+        "bloom_level": 4,
+        "logic_steps": 2,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 3,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:20.312255+00:00"
       }
     },
     {
@@ -2728,6 +2980,18 @@
         "acertos": 10,
         "tentativas": 10,
         "score": 1.0
+      },
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 2,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 2,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:20.312266+00:00"
       }
     },
     {
@@ -2811,6 +3075,18 @@
         "acertos": 10,
         "tentativas": 10,
         "score": 1.0
+      },
+      "features_ia": {
+        "bloom_level": 1,
+        "logic_steps": 1,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 1,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 2,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:20.312269+00:00"
       }
     },
     {
@@ -2902,6 +3178,18 @@
         "acertos": 10,
         "tentativas": 10,
         "score": 1.0
+      },
+      "features_ia": {
+        "bloom_level": 4,
+        "logic_steps": 3,
+        "interdisciplinary": true,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 3,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:20.312270+00:00"
       }
     },
     {
@@ -2987,6 +3275,18 @@
         "acertos": 10,
         "tentativas": 10,
         "score": 1.0
+      },
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 3,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 3,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 3,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:20.312272+00:00"
       }
     },
     {
@@ -3072,6 +3372,18 @@
         "acertos": 10,
         "tentativas": 10,
         "score": 1.0
+      },
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 2,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 3,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:20.312274+00:00"
       }
     },
     {
@@ -3157,6 +3469,18 @@
         "acertos": 10,
         "tentativas": 10,
         "score": 1.0
+      },
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 2,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 2,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:20.312276+00:00"
       }
     },
     {
@@ -3243,6 +3567,18 @@
         "acertos": 10,
         "tentativas": 10,
         "score": 1.0
+      },
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 3,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 3,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 2,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:20.312277+00:00"
       }
     },
     {
@@ -3357,6 +3693,18 @@
         "acertos": 10,
         "tentativas": 10,
         "score": 1.0
+      },
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 4,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 3,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 3,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:20.312279+00:00"
       }
     },
     {
@@ -3740,6 +4088,18 @@
         "acertos": 8,
         "tentativas": 10,
         "score": 0.8
+      },
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 2,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 2,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:20.312281+00:00"
       }
     },
     {
@@ -3826,6 +4186,18 @@
         "acertos": 10,
         "tentativas": 10,
         "score": 1.0
+      },
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 2,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 2,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:19.705662+00:00"
       }
     },
     {
@@ -3912,6 +4284,18 @@
         "acertos": 8,
         "tentativas": 10,
         "score": 0.8
+      },
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 4,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 3,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 3,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:19.705687+00:00"
       }
     },
     {
@@ -3998,6 +4382,18 @@
         "acertos": 10,
         "tentativas": 10,
         "score": 1.0
+      },
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 2,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 2,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:19.705692+00:00"
       }
     },
     {
@@ -4083,6 +4479,18 @@
         "acertos": 10,
         "tentativas": 10,
         "score": 1.0
+      },
+      "features_ia": {
+        "bloom_level": 4,
+        "logic_steps": 2,
+        "interdisciplinary": false,
+        "distractor_plausibility": 3,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 2,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:19.705696+00:00"
       }
     },
     {
@@ -4169,6 +4577,18 @@
         "acertos": 8,
         "tentativas": 10,
         "score": 0.8
+      },
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 4,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 3,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 3,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:19.705700+00:00"
       }
     },
     {
@@ -4255,6 +4675,18 @@
         "acertos": 9,
         "tentativas": 10,
         "score": 0.9
+      },
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 2,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 3,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:19.705705+00:00"
       }
     },
     {
@@ -4341,6 +4773,18 @@
         "acertos": 9,
         "tentativas": 10,
         "score": 0.9
+      },
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 3,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 3,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 3,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:19.705709+00:00"
       }
     },
     {
@@ -4426,6 +4870,18 @@
         "acertos": 10,
         "tentativas": 10,
         "score": 1.0
+      },
+      "features_ia": {
+        "bloom_level": 4,
+        "logic_steps": 3,
+        "interdisciplinary": false,
+        "distractor_plausibility": 3,
+        "inversion_command": false,
+        "reading_load": 3,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 3,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:19.705714+00:00"
       }
     },
     {
@@ -4512,6 +4968,18 @@
         "acertos": 10,
         "tentativas": 10,
         "score": 1.0
+      },
+      "features_ia": {
+        "bloom_level": 4,
+        "logic_steps": 3,
+        "interdisciplinary": true,
+        "distractor_plausibility": 3,
+        "inversion_command": false,
+        "reading_load": 3,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 3,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:19.705718+00:00"
       }
     },
     {
@@ -4595,6 +5063,18 @@
         "acertos": 5,
         "tentativas": 10,
         "score": 0.5
+      },
+      "features_ia": {
+        "bloom_level": 4,
+        "logic_steps": 3,
+        "interdisciplinary": false,
+        "distractor_plausibility": 3,
+        "inversion_command": false,
+        "reading_load": 3,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 3,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:19.705722+00:00"
       }
     },
     {
@@ -4680,6 +5160,18 @@
         "acertos": 0,
         "tentativas": 10,
         "score": 0.0
+      },
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 2,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 3,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 2,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:19.206015+00:00"
       }
     },
     {
@@ -4765,6 +5257,18 @@
         "acertos": 0,
         "tentativas": 10,
         "score": 0.0
+      },
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 2,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 3,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 2,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:19.206038+00:00"
       }
     },
     {
@@ -4848,6 +5352,18 @@
         "acertos": 8,
         "tentativas": 10,
         "score": 0.8
+      },
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 2,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 3,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:19.206043+00:00"
       }
     },
     {
@@ -4931,6 +5447,18 @@
         "acertos": 10,
         "tentativas": 10,
         "score": 1.0
+      },
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 3,
+        "interdisciplinary": false,
+        "distractor_plausibility": 3,
+        "inversion_command": true,
+        "reading_load": 3,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 3,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:19.206047+00:00"
       }
     },
     {
@@ -5015,6 +5543,18 @@
         "acertos": 5,
         "tentativas": 10,
         "score": 0.5
+      },
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 3,
+        "interdisciplinary": true,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 3,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 3,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:19.206051+00:00"
       }
     },
     {
@@ -5100,6 +5640,18 @@
         "acertos": 10,
         "tentativas": 10,
         "score": 1.0
+      },
+      "features_ia": {
+        "bloom_level": 4,
+        "logic_steps": 3,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 3,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 3,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:19.206055+00:00"
       }
     },
     {
@@ -5185,6 +5737,18 @@
         "acertos": 9,
         "tentativas": 10,
         "score": 0.9
+      },
+      "features_ia": {
+        "bloom_level": 4,
+        "logic_steps": 3,
+        "interdisciplinary": true,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 3,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 3,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:19.206059+00:00"
       }
     },
     {
@@ -5302,6 +5866,18 @@
         "acertos": 10,
         "tentativas": 10,
         "score": 1.0
+      },
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 1,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 2,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:19.206062+00:00"
       }
     },
     {
@@ -5387,6 +5963,18 @@
         "acertos": 10,
         "tentativas": 10,
         "score": 1.0
+      },
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 1,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 2,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:19.206066+00:00"
       }
     },
     {
@@ -5472,6 +6060,18 @@
         "acertos": 10,
         "tentativas": 10,
         "score": 1.0
+      },
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 2,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 2,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:19.206069+00:00"
       }
     },
     {
@@ -5557,6 +6157,18 @@
         "acertos": 8,
         "tentativas": 10,
         "score": 0.8
+      },
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 2,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 2,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:52:15.324412+00:00"
       }
     }
   ]

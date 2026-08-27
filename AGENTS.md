@@ -88,6 +88,17 @@ Fluxo implementado em `tools/gemini/` (Python, roda via `gemini-runner`):
      Após um deploy do zero, basta rodar `seed` — sem novas chamadas.
    - `status`/`smoke`/`qa`: cobertura por exame, teste do router e validação
      geométrica dos bbox (`--montagem` exporta os crops para conferência).
+9. **extract_features**: `extract_features.py` extrai features de complexidade
+   cognitiva (bloom_level, logic_steps, interdisciplinary,
+   distractor_plausibility, inversion_command, reading_load,
+   requires_formula_recall, prior_knowledge_dependency) via router OpenCode Go
+   (modelo `hy3`, `MODEL_FEATURES`). Envia as questões SEM imagem em lotes de
+   `--batch` (default 10) por mensagem; o modelo devolve JSON chaveado pelo
+   `numero` da questão (`{"questoes": {"<numero>": {...}}}`), o que garante o
+   mapeamento de volta. Persiste em `features_ia` (com `modelo` e `data`) nos
+   `_questoes.json` versionados; `--com-midia` inclui questões com figura
+   usando a descrição textual, `--limite N` limita (teste), `--force` refaz.
+   Comandos: `status`, `extract`.
 
 ### Particularidades FUVEST (1ª fase — 90 questões, 5 alternativas)
 

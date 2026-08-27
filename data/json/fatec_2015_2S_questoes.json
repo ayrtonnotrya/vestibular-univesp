@@ -70,7 +70,19 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 2
+      "pagina": 2,
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 2,
+        "interdisciplinary": true,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 3,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:50:18.420105+00:00"
+      }
     },
     {
       "numero": 3,
@@ -99,7 +111,19 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 2
+      "pagina": 2,
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 2,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 2,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:50:18.420135+00:00"
+      }
     },
     {
       "numero": 4,
@@ -220,7 +244,19 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 3
+      "pagina": 3,
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 3,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 2,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:50:18.420142+00:00"
+      }
     },
     {
       "numero": 8,
@@ -374,7 +410,19 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 5
+      "pagina": 5,
+      "features_ia": {
+        "bloom_level": 3,
+        "logic_steps": 4,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": true,
+        "prior_knowledge_dependency": 2,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:50:18.420148+00:00"
+      }
     },
     {
       "numero": 13,
@@ -401,7 +449,19 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 5
+      "pagina": 5,
+      "features_ia": {
+        "bloom_level": 3,
+        "logic_steps": 3,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 1,
+        "requires_formula_recall": true,
+        "prior_knowledge_dependency": 1,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:50:18.420153+00:00"
+      }
     },
     {
       "numero": 14,
@@ -457,7 +517,19 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 6
+      "pagina": 6,
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 2,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 3,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:50:18.420159+00:00"
+      }
     },
     {
       "numero": 16,
@@ -485,7 +557,19 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 7
+      "pagina": 7,
+      "features_ia": {
+        "bloom_level": 4,
+        "logic_steps": 3,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 3,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:50:18.420163+00:00"
+      }
     },
     {
       "numero": 17,
@@ -541,7 +625,19 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 8
+      "pagina": 8,
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 3,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 3,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:50:18.420168+00:00"
+      }
     },
     {
       "numero": 19,
@@ -567,7 +663,19 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 8
+      "pagina": 8,
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 2,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 1,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 3,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:50:18.420173+00:00"
+      }
     },
     {
       "numero": 20,
@@ -716,7 +824,19 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 10
+      "pagina": 10,
+      "features_ia": {
+        "bloom_level": 3,
+        "logic_steps": 2,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": true,
+        "prior_knowledge_dependency": 3,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:50:18.420178+00:00"
+      }
     },
     {
       "numero": 25,
@@ -744,7 +864,19 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 10
+      "pagina": 10,
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 2,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 2,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:50:17.492659+00:00"
+      }
     },
     {
       "numero": 26,
@@ -772,7 +904,19 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 11
+      "pagina": 11,
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 2,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 2,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:50:17.492676+00:00"
+      }
     },
     {
       "numero": 27,
@@ -800,7 +944,19 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 11
+      "pagina": 11,
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 2,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 2,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:50:17.492679+00:00"
+      }
     },
     {
       "numero": 28,
@@ -828,7 +984,19 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 11
+      "pagina": 11,
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 2,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 2,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:50:17.492681+00:00"
+      }
     },
     {
       "numero": 29,
@@ -856,7 +1024,19 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 11
+      "pagina": 11,
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 2,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 1,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 2,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:50:17.492684+00:00"
+      }
     },
     {
       "numero": 30,
@@ -947,7 +1127,19 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 12
+      "pagina": 12,
+      "features_ia": {
+        "bloom_level": 3,
+        "logic_steps": 3,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 2,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:50:17.492686+00:00"
+      }
     },
     {
       "numero": 33,
@@ -974,7 +1166,19 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 12
+      "pagina": 12,
+      "features_ia": {
+        "bloom_level": 3,
+        "logic_steps": 3,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": true,
+        "prior_knowledge_dependency": 2,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:50:17.492689+00:00"
+      }
     },
     {
       "numero": 34,
@@ -1086,7 +1290,19 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 13
+      "pagina": 13,
+      "features_ia": {
+        "bloom_level": 3,
+        "logic_steps": 3,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": true,
+        "prior_knowledge_dependency": 2,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:50:17.492691+00:00"
+      }
     },
     {
       "numero": 38,
@@ -1176,7 +1392,19 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 14
+      "pagina": 14,
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 2,
+        "interdisciplinary": true,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 3,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:50:17.492693+00:00"
+      }
     },
     {
       "numero": 41,
@@ -1202,7 +1430,19 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 14
+      "pagina": 14,
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 2,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 3,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:50:17.492696+00:00"
+      }
     },
     {
       "numero": 42,
@@ -1234,7 +1474,19 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 15
+      "pagina": 15,
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 2,
+        "interdisciplinary": true,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 3,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:50:18.783627+00:00"
+      }
     },
     {
       "numero": 43,
@@ -1261,7 +1513,19 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 15
+      "pagina": 15,
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 2,
+        "interdisciplinary": false,
+        "distractor_plausibility": 3,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 3,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:50:18.783641+00:00"
+      }
     },
     {
       "numero": 44,
@@ -1293,7 +1557,19 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 15
+      "pagina": 15,
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 2,
+        "interdisciplinary": true,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 3,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:50:18.783644+00:00"
+      }
     },
     {
       "numero": 45,
@@ -1321,7 +1597,19 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 16
+      "pagina": 16,
+      "features_ia": {
+        "bloom_level": 4,
+        "logic_steps": 4,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 3,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:50:18.783646+00:00"
+      }
     },
     {
       "numero": 46,
@@ -1406,7 +1694,19 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 17
+      "pagina": 17,
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 2,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 2,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:50:18.783648+00:00"
+      }
     },
     {
       "numero": 49,
@@ -1465,7 +1765,19 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 20
+      "pagina": 20,
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 2,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 3,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 1,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:50:18.783651+00:00"
+      }
     },
     {
       "numero": 51,
@@ -1495,7 +1807,19 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 20
+      "pagina": 20,
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 2,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 3,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 1,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:50:18.783653+00:00"
+      }
     },
     {
       "numero": 52,
@@ -1524,7 +1848,19 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 21
+      "pagina": 21,
+      "features_ia": {
+        "bloom_level": 1,
+        "logic_steps": 1,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 3,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 1,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:50:18.783655+00:00"
+      }
     },
     {
       "numero": 53,
@@ -1555,7 +1891,19 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 21
+      "pagina": 21,
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 2,
+        "interdisciplinary": false,
+        "distractor_plausibility": 2,
+        "inversion_command": false,
+        "reading_load": 3,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 2,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:50:18.783657+00:00"
+      }
     },
     {
       "numero": 54,
@@ -1581,7 +1929,19 @@
       ],
       "extraida_parcialmente": false,
       "anulada": false,
-      "pagina": 21
+      "pagina": 21,
+      "features_ia": {
+        "bloom_level": 2,
+        "logic_steps": 2,
+        "interdisciplinary": false,
+        "distractor_plausibility": 3,
+        "inversion_command": false,
+        "reading_load": 2,
+        "requires_formula_recall": false,
+        "prior_knowledge_dependency": 3,
+        "modelo": "hy3",
+        "data": "2026-08-27T12:50:18.783659+00:00"
+      }
     },
     {
       "numero": 55,
