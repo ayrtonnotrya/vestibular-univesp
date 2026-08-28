@@ -225,12 +225,12 @@ Resultado extraído e validado (gabaritos 100% conferidos):
   ```
 - Nunca commitar segredos, PDFs ou dados brutos (`.env`, `tmp/` e quase todo
   `data/` são ignorados). Exceções versionadas: `data/assuntos.json` (catálogo
-  curado) e `data/json/*_questoes.json` + `*_imagens.json` (dados extraídos e
-  validados). De resto, só código, docs e `tools/` são versionados. As páginas
-  `data/paginas/` NÃO são versionadas (são derivadas dos PDFs, regeráveis via
-  `render_pages.py`) — nunca commitá-las.
+  curado), `data/json/*_questoes.json` + `*_imagens.json` (dados extraídos e
+  validados) e `data/paginas/*/*.jpg` (páginas renderizadas p/ o app). De
+  resto, só código, docs e `tools/` são versionados.
 - Não commitar a chave de API nem expor `figuras` recortadas de provas
-  (`data/imagens/`) fora do repo; `data/paginas/` também não vai ao git.
+  (`data/imagens/`) fora do repo; páginas completas em `data/paginas/` são
+  versionadas.
 
 ## Estrutura
 
@@ -240,8 +240,8 @@ src/               # pipeline Python puro (download, extract, parse, db, ia/, es
 app/               # Streamlit (interface de estudo) — study.py + panzoom.py
 tools/gemini/      # toolkit validado: extração via Gemini (Dockerfile, extract/validate/repair/gabfix/fix_paginas/run_all)
 data/              # QUASE NÃO VERSIONADA: pdfs, json/ e paginas/ (exceção:
-                   # assuntos.json e data/json/*_questoes.json + *_imagens.json
-                   # versionados), imagens/, vestibular.db
+                   # assuntos.json, data/json/*_questoes.json + *_imagens.json e
+                   # data/paginas/*/*.jpg versionados), imagens/, vestibular.db
 tmp/               # NÃO VERSIONADA: rascunhos/scratch (gabaritos extraídos p/ conferência)
 scripts/           # CLI (click): ingest, classify, score (esqueleto)
 ```

@@ -11,14 +11,18 @@ env/
 .ruff_cache/
 
 # Dados brutos e intermediários (nao versionados)
-# exceções: catálogo de assuntos e JSONs extraídos/validados
+# exceções: catálogo de assuntos, JSONs extraídos/validados e páginas JPEG
 data/*
 !data/assuntos.json
 !data/json/
 data/json/*
 !data/json/*_questoes.json
 !data/json/*_imagens.json
-data/paginas/
+!data/paginas/
+data/paginas/*
+!data/paginas/*/
+data/paginas/*/*
+!data/paginas/*/*.jpg
 
 # Ambientes / IDEs
 .idea/
