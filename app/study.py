@@ -1,4 +1,4 @@
-"""App de estudo: responde questões (UNIVESP e FUVEST) com a página em pan/zoom.
+"""App de estudo: responde questões com a página em pan/zoom.
 
 Três modos:
 - **Explorar**: seleção manual por exame/questão (comportamento original).
@@ -28,18 +28,24 @@ DATA = Path("/app/data")
 JSON_DIR = DATA / "json"
 PAGES_DIR = DATA / "paginas"
 
-LABELS = [
-    *[f"fuvest_{ano}" for ano in range(2026, 2009, -1)],
-    "univesp_2024",
-    "univesp_2023",
-    "univesp_2022",
-    "univesp_2021",
-    "univesp_2020",
-    "univesp_2019_2",
-    "univesp_2018_2s",
-    "univesp_2018_1s",
-    "univesp_2017_2s",
-]
+_RANK_EXAMES = {"fuvest": 1, "univesp": 2, "enem": 3, "fatec": 4, "unesp": 5}
+
+
+def _ordem_exame(label: str) -> tuple:
+    partes = label.split("_")
+    vest = partes[0]
+    ano = next((int(p) for p in partes[1:] if p.isdigit()), 0)
+    return (_RANK_EXAMES.get(vest, 9), -ano, label)
+
+
+def _exames_disponiveis():
+    return sorted(
+        (p.name[: -len("_questoes.json")] for p in JSON_DIR.glob("*_questoes.json")),
+        key=_ordem_exame,
+    )
+
+
+LABELS = _exames_disponiveis()
 
 st.set_page_config(page_title="Estudo UNIVESP", page_icon="🎓", layout="wide")
 
