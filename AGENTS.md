@@ -136,12 +136,36 @@ Resultado extraído e validado (gabaritos 100% conferidos):
 
 - `app/study.py`: interface — para cada questão, mostra **questão em cima**
   (enunciado, textos de apoio, alternativas + gabarito) e **página embaixo** no
-  viewer pan/zoom. Modos: **Estudar** (adaptativo), **Explorar** e
-  **Estatísticas** — o painel de estatísticas (`app/estatisticas.py`, SQL
-  direto no `data/vestibular.db`) mostra visão geral (aproveitamento,
-  dificuldade média b, temas vencidos), evolução por dia, desempenho por
-  área/θ, por tema (score/racha/lapses/estado FSRS), por exame, fila de
-  revisão FSRS e o histórico detalhado de tentativas.
+  viewer pan/zoom. Modos: **Estudar** (adaptativo), **Revisão** (fila de
+  pendências), **Explorar** e **Estatísticas** — o painel de estatísticas
+  (`app/estatisticas.py`, SQL direto no `data/vestibular.db`) mostra visão
+  geral (aproveitamento, dificuldade média b, temas vencidos), evolução por
+  dia, desempenho por área/θ, por tema (score/racha/lapses/estado FSRS), por
+  exame, fila de revisão FSRS e o histórico detalhado de tentativas.
+- **Modo Estudar (adaptativo):** o pool de candidatos é o **catálogo inteiro**
+  (`motiva._temas_pool`), sem portão FSRS; o sorteio é ponderado por
+  prioridade = 0,4·frequência (UNIVESP) + 0,4·fraqueza + 0,2·exploração. A
+  fraqueza usa `1 − score` do tema quando `contagem >=
+  MIN_TENTATIVAS_REVISAO` (3); abaixo do portão usa `1 − sigmoid(θ da área)`
+  (`rasch._sigmoid`). Questão do tema sorteado via `seletor.escolher_aleatoria`
+  (inéditas primeiro); `responder()` atualiza FSRS/θ/b/nível como antes.
+- **Modo Revisão:** fila dedicada via `motiva.proxima_revisao` (temas
+  **vencidos** do FSRS — só o grupo due de `fsrs.vencidos()`, fora do cap) +
+  `seletor.escolher_revisao`: questão **já vista** — pendências do caderno de
+  erros (última resposta `correta=0` ou `grau_certeza IN (duvida, chute)`)
+  primeiro, depois acertos antigos; **nunca** inéditas. Contadores
+  "X vencidos · Y pendências" via `motiva.resumo_revisao`.
+- **Política do FSRS por tema** (`src/vestibular/estudo/fsrs_config.py`):
+  tema só ganha card com `MIN_TENTATIVAS_REVISAO=3` respostas (antes é
+  "explorável", `vencimento=None`, fora das filas das Estatísticas);
+  `CAP_REVISOES_SESSAO=5` (cap do subgrupo due em `vencidos()`);
+  `desired_retention=0.87`; `learning_steps`/`relearning_steps = 1 dia`;
+  parâmetros FSRS-6 padrão. Um único `Scheduler` via `make_scheduler()`
+  compartilhado por `fsrs.py` e `app/estatisticas.py` (R consistente).
+  `revisar()` retorna `{"vencimento": None, "estado": "exploracao"}` para
+  temas sub-portão (guardar no app — `vencimento.isoformat()` estoura).
+  Colunas de `fsrs_estados`/`niveis_usuarios` são a fonte do portão (JOIN com
+  `n.contagem >= MIN` em `resumo`/`revisoes`/`retencao`).
 - `app/panzoom.py`:
   - Exibe a página via JPEG pré-renderizado
     (`data/paginas/<label>/p<NNN>.jpg`, gerado por

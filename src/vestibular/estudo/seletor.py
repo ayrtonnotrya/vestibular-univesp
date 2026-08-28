@@ -37,6 +37,28 @@ def _vistas(con: sqlite3.Connection, usuario: str, questao_ids: list[int]) -> di
     return {r["questao_id"]: r["ultima"] for r in rows}
 
 
+def _ultimas_tentativas(
+    con: sqlite3.Connection, usuario: str, questao_ids: list[int]
+) -> dict[int, dict]:
+    """Última tentativa por questão vista: {questao_id: {correta, grau_certeza, data}}."""
+    if not questao_ids:
+        return {}
+    qs = ",".join("?" * len(questao_ids))
+    rows = con.execute(
+        f"""SELECT questao_id, correta, grau_certeza, data FROM (
+                SELECT t.questao_id, t.correta, t.grau_certeza, t.data,
+                       ROW_NUMBER() OVER (
+                         PARTITION BY t.questao_id ORDER BY t.data DESC, t.id DESC
+                       ) AS rn
+                FROM tentativas t
+                WHERE t.usuario = ? AND t.questao_id IN ({qs})
+              )
+              WHERE rn = 1""",
+        [usuario, *questao_ids],
+    ).fetchall()
+    return {r["questao_id"]: dict(r) for r in rows}
+
+
 def escolher_aleatoria(
     con: sqlite3.Connection,
     usuario: str,
@@ -86,3 +108,35 @@ def escolher(
     top = pool[: min(8, len(pool))]
     escolhida = rng.choice(top)
     return dict(escolhida)
+
+
+def escolher_revisao(
+    con: sqlite3.Connection,
+    usuario: str,
+    tema_id: int,
+    rng: random.Random,
+) -> dict | None:
+    """Questão JÁ vista do tema para a fila de revisão — nunca inéditas.
+
+    Ordem determinística pela última resposta: pendências (errada OU com
+    grau_certeza 'duvida'/'chute') primeiro — a mais antiga; senão as vistas
+    corretas/'conviccao' — a mais antiga. Devolve None se o tema não tem
+    questão vista.
+    """
+    questoes = _questoes_tema(con, tema_id)
+    if not questoes:
+        return None
+    ids = [q["id"] for q in questoes]
+    ult = _ultimas_tentativas(con, usuario, ids)
+    vistas = [q for q in questoes if q["id"] in ult]
+    if not vistas:
+        return None
+
+    def pendente(q: dict) -> bool:
+        r = ult[q["id"]]
+        return r["correta"] == 0 or r["grau_certeza"] in ("duvida", "chute")
+
+    pendencias = [q for q in vistas if pendente(q)]
+    pool = pendencias or vistas
+    pool.sort(key=lambda q: (ult[q["id"]]["data"], q["id"]))
+    return dict(pool[0])

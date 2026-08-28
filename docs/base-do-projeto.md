@@ -337,16 +337,34 @@ lote quando necessário.
 
 ## 8. Interface de estudo (Streamlit)
 
-- **Estado atual (implementado):** dois modos no app (Streamlit): *Explorar*
-  (visualização a partir dos JSONs, com página em viewer pan/zoom) e *Estudar*
-  (adaptativo via `src/vestibular/estudo/` no SQLite: FSRS agenda temas, seletor
-  Rasch escolhe a questão pelo nível do usuário — por tema quando há dados,
-  senão por área — e a resposta recalibra FSRS/θ/b/nível por tema).
+- **Estado atual (implementado):** três modos no app (Streamlit):
+  - *Explorar*: visualização a partir dos JSONs, com página em viewer pan/zoom.
+  - *Estudar* (adaptativo via `src/vestibular/estudo/` no SQLite): o pool de
+    candidatos é o **catálogo inteiro** de temas (sem portão FSRS) e o sorteio é
+    ponderado por prioridade = 0,4·frequência real nas provas UNIVESP +
+    0,4·fraqueza + 0,2·exploração (inverso das observações). A fraqueza usa
+    `1 − score` por tema quando `contagem >= MIN_TENTATIVAS_REVISAO` (3); abaixo
+    do portão usa `1 − sigmoid(θ da área)` (estimativa estável, sem oscilar a
+    cada resposta). O seletor Rasch escolhe a questão pelo nível do usuário — por
+    tema quando há dados, senão por área — e a resposta recalibra FSRS/θ/b/nível
+    por tema.
+  - *Revisão*: fila dedicada dos temas **vencidos pelo FSRS** (portão de
+    contagem + cap de `CAP_REVISOES_SESSAO` por sessão) com questão **já vista**
+    — pendências do caderno de erros (última resposta errada ou dúvida/chute)
+    primeiro, depois acertos antigos; **nunca** questões inéditas.
+- **Política do FSRS por tema** (não é flashcards): tema só ganha card com
+  `MIN_TENTATIVAS_REVISAO` (3) respostas (antes permanece "explorável", com
+  `vencimento=None` e fora das filas de vencidos das Estatísticas); o passo de
+  aprendizagem é de **1 dia** (`learning_steps`/`relearning_steps`), não
+  minutos; `desired_retention=0.87`; parâmetros FSRS-6 padrão (sem calibrar).
+  Config central em `src/vestibular/estudo/fsrs_config.py` (um único
+  `Scheduler` compartilhado por `fsrs.py` e `app/estatisticas.py`).
 - **Próximo passo:**
   - `ia/dificuldade` (score low-thinking) para semear `item_params.b` dos itens
     ainda sem `b` da IA.
   - **feedback** da IA ao errar, gravado em `tentativas.detalhe`.
-  - Expor o motor via **MCP** para tutoria em assistente (AnythingLLM).
+  - Expor o motor via **MCP** para tutoria em assistente (AnythingLLM)
+    (`proxima_revisao` na família tutor).
 
 ---
 

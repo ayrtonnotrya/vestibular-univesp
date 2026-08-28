@@ -1,13 +1,19 @@
 """Orquestração do estudo: próxima questão + registro da resposta.
 
-Fluxo:
-1. FSRS responde "o que está vencido" (temas com revisão vencida ou novos);
-2. tema vencido é sorteado com peso = prioridade do tema:
-   0,4·frequência real do tema nas provas UNIVESP + 0,4·(1 − score por tema)
-   + 0,2·exploração (inverso das observações — temas pouco vistos sobem);
-3. questão do tema sorteado é sorteada uniformemente, preferindo inéditas;
-4. resposta => grava tentativa, atualiza FSRS do(s) tema(s), θ da(s) área(s),
-   nível por tema (score/racha/contagem) e o `b` da questão (calibração).
+Modo Estudar (`proxima_questao`):
+1. pool = catálogo inteiro (temas com questão disponível), sem portão FSRS;
+2. tema é sorteado com peso = prioridade do tema:
+   0,4·frequência real do tema nas provas UNIVESP + 0,4·fraqueza
+   (1 − score por tema quando contagem >= `MIN_TENTATIVAS_REVISAO`; senão
+   1 − sigmoid(θ da área)) + 0,2·exploração (inverso das observações);
+3. questão do tema sorteado é sorteada uniformemente, preferindo inéditas.
+
+Modo Revisão (`proxima_revisao`): fila dedicada dos temas **vencidos** pelo
+FSRS (portão de contagem, cap por sessão), escolhendo questões já vistas —
+pendências (erro/dúvida/chute) primeiro, depois acertos antigos.
+
+Resposta (`responder`) grava tentativa, atualiza FSRS do(s) tema(s), θ da(s)
+área(s), nível por tema (score/racha/contagem) e o `b` da questão.
 """
 
 import datetime as dt
@@ -20,6 +26,8 @@ from . import fsrs as fsrs_mod
 from . import niveis as niveis_mod
 from . import rasch as rasch_mod
 from . import seletor as seletor_mod
+from .fsrs_config import MIN_TENTATIVAS_REVISAO
+from .rasch import _sigmoid
 
 # Pesos da prioridade do tema no sorteio da próxima questão: frequência real
 # do tema nas provas UNIVESP, fraqueza do usuário (1 - score por tema) e
@@ -71,6 +79,54 @@ def _json_lista(texto: str | None) -> list:
         return []
 
 
+def _forma_questao(t: dict, q: dict, theta: float, nivel: dict) -> dict:
+    """Dict de retorno comum de `proxima_questao`/`proxima_revisao`."""
+    return {
+        "questao_id": q["id"],
+        "exame_label": q["exame_label"],
+        "numero": q["numero"],
+        "enunciado": q["enunciado"],
+        "textos_de_apoio": _json_lista(q["textos_de_apoio"]),
+        "midia": _json_lista(q["midia"]),
+        "alternativas": json.loads(q["alternativas"]) if q["alternativas"] else None,
+        "gabarito": q["gabarito"],
+        "tema_id": t["tema_id"],
+        "tema_nome": t["nome"],
+        "area_id": t["area_id"],
+        "theta": theta,
+        "nivel_base": nivel["base"],
+        "nivel_tema": nivel["score"],
+        "nivel_contagem": nivel["contagem"],
+    }
+
+
+def _temas_pool(
+    con: sqlite3.Connection,
+    area_id: int | None = None,
+    tema_id: int | None = None,
+    fase: int | None = None,
+) -> list[dict]:
+    """Todos os temas do catálogo (restritos por área/tema/fase), sem portão
+    FSRS: no modo Estudar o pool é o catálogo inteiro e a prioridade
+    (frequência + fraqueza + exploração) decide o sorteio."""
+    conds, params = [], []
+    if area_id is not None:
+        conds.append("t.area_id = ?")
+        params.append(area_id)
+    if tema_id is not None:
+        conds.append("t.id = ?")
+        params.append(tema_id)
+    if fase is not None:
+        conds.append("t.fase = ?")
+        params.append(fase)
+    where = f"WHERE {' AND '.join(conds)}" if conds else ""
+    rows = con.execute(
+        f"SELECT t.id AS tema_id, t.area_id, t.nome FROM temas t {where} ORDER BY t.id",
+        params,
+    ).fetchall()
+    return [dict(r) for r in rows]
+
+
 def proxima_questao(
     con: sqlite3.Connection,
     usuario: str,
@@ -86,36 +142,51 @@ def proxima_questao(
     `area_id`/`tema_id`/`fase` (opcionais) restringem os temas considerados;
     None significa "qualquer área/tema/fase". `fase` é a ordem da fase/módulo
     do catálogo (assuntos.json) dentro da área — a questão sai de um dos temas
-    da fase, mantendo as regras de sorteio (FSRS, prioridade, Rasch).
+    da fase, mantendo as regras de sorteio (prioridade, Rasch).
+
+    O pool é o catálogo inteiro: cada tema com questão disponível entra no
+    sorteio com peso = prioridade (0,4·frequência real nas provas UNIVESP +
+    0,4·fraqueza + 0,2·exploração). Temas com contagem >=
+    `MIN_TENTATIVAS_REVISAO` usam fraqueza = 1 − score por tema; abaixo do
+    portão, 1 − sigmoid(θ da área) (estimativa estável, sem oscilar a cada
+    resposta). `excluir_ids` remove questões específicas.
 
     Retorna dict com chaves: questao_id, exame_label, numero, enunciado,
     textos_de_apoio, midia, alternativas (dict), gabarito, tema_id, tema_nome,
     area_id, theta, nivel_base ("tema"|"area"), nivel_tema (score por tema ou
-    None).
+    None), nivel_contagem.
     """
     agora = agora or dt.datetime.now(dt.UTC)
     rng = random.Random(seed)
-    vencidos = fsrs_mod.vencidos(con, usuario, agora, area_id, tema_id, fase)
-    if not vencidos:
+    temas = _temas_pool(con, area_id, tema_id, fase)
+    if not temas:
         return None
 
-    # candidatos: temas vencidos com questão disponível. A prioridade do tema
-    # combina a frequência real nas provas UNIVESP (o que mais cai), a fraqueza
-    # do usuário (1 - score por tema) e a exploração (inverso das observações);
-    # o sorteio ponderado evita temas que insistem em aparecer.
+    # prioridade do tema: frequência real nas provas UNIVESP (o que mais cai),
+    # fraqueza do usuário (1 - score por tema quando há evidência; senão θ da
+    # área) e exploração (inverso das observações); o sorteio ponderado evita
+    # temas que insistem em aparecer por uma única resposta.
     prior = frequencia_mod.prior_por_tema(con)
     candidatos = []
-    for t in vencidos:
-        theta = rasch_mod.theta_area(con, usuario, t["area_id"])
+    thetas: dict[int, float] = {}
+    for t in temas:
+        aid = t["area_id"]
+        if aid not in thetas:
+            thetas[aid] = rasch_mod.theta_area(con, usuario, aid)
+        theta = thetas[aid]
         nivel = niveis_mod.habilidade_tema(con, usuario, t["tema_id"])
         q = seletor_mod.escolher_aleatoria(con, usuario, t["tema_id"], rng, excluir_ids)
         if q:
             freq = prior.get(t["tema_id"], frequencia_mod.PRIOR_FLOOR)
             score = nivel["score"] if nivel["score"] is not None else SCORE_NEUTRO
+            if nivel["contagem"] >= MIN_TENTATIVAS_REVISAO:
+                fraqueza = 1.0 - score
+            else:
+                fraqueza = 1.0 - _sigmoid(theta)
             exploracao = 1.0 / (1.0 + nivel["contagem"])
             prioridade = (
                 PESO_FREQ * freq
-                + PESO_FRAQUEZA * (1.0 - score)
+                + PESO_FRAQUEZA * fraqueza
                 + PESO_EXPLORACAO * exploracao
             )
             candidatos.append((t, q, theta, nivel, prioridade))
@@ -125,25 +196,122 @@ def proxima_questao(
     t, q, theta, nivel, _ = rng.choices(
         candidatos, weights=[c[4] for c in candidatos], k=1
     )[0]
-    return {
-        "questao_id": q["id"],
-        "exame_label": q["exame_label"],
-        "numero": q["numero"],
-        "enunciado": q["enunciado"],
-        "textos_de_apoio": _json_lista(q["textos_de_apoio"]),
-        "midia": _json_lista(q["midia"]),
-        "alternativas": json.loads(q["alternativas"])
-        if q["alternativas"]
-        else None,
-        "gabarito": q["gabarito"],
-        "tema_id": t["tema_id"],
-        "tema_nome": t["nome"],
-        "area_id": t["area_id"],
-        "theta": theta,
-        "nivel_base": nivel["base"],
-        "nivel_tema": nivel["score"],
-        "nivel_contagem": nivel["contagem"],
+    return _forma_questao(t, q, theta, nivel)
+
+
+def proxima_revisao(
+    con: sqlite3.Connection,
+    usuario: str,
+    agora: dt.datetime | None = None,
+    seed: int | None = None,
+    area_id: int | None = None,
+    tema_id: int | None = None,
+    fase: int | None = None,
+) -> dict | None:
+    """Próxima questão da fila de revisão: um tema **vencido** pelo FSRS do
+    usuário (portão de contagem, sem cap) com questão **já vista** — pendências
+    (erro/dúvida/chute) primeiro, depois acertos antigos. Nunca inéditas.
+
+    Mesmo shape de retorno de `proxima_questao`; None quando não há tema
+    vencido no escopo (o aviso padrão do app cobre).
+
+    `area_id`/`tema_id`/`fase` restringem o escopo como em `proxima_questao`.
+    """
+    agora = agora or dt.datetime.now(dt.UTC)
+    rng = random.Random(seed)
+    vencidos = fsrs_mod.vencidos(con, usuario, agora, area_id, tema_id, fase)
+    due = [t for t in vencidos if t["vencimento"] is not None]
+    if not due:
+        return None
+    # urgência determinística: vencimento mais antigo → mais lapses → pior score
+    marcas = ",".join("?" * len(due))
+    lapses = {
+        r["tema_id"]: r["lapses"]
+        for r in con.execute(
+            f"""SELECT tema_id, lapses FROM fsrs_estados
+                WHERE usuario = ? AND tema_id IN ({marcas})""",
+            [usuario, *(t["tema_id"] for t in due)],
+        )
     }
+    scores: dict[int, float] = {}
+    for t in due:
+        nivel = niveis_mod.nivel_tema(con, usuario, t["tema_id"])
+        scores[t["tema_id"]] = (
+            nivel["score"] if nivel and nivel["score"] is not None else SCORE_NEUTRO
+        )
+
+    def _chave(t: dict) -> tuple:
+        return (t["vencimento"], -lapses.get(t["tema_id"], 0), scores[t["tema_id"]])
+
+    due.sort(key=_chave)
+    for t in due:
+        theta = rasch_mod.theta_area(con, usuario, t["area_id"])
+        nivel = niveis_mod.habilidade_tema(con, usuario, t["tema_id"])
+        q = seletor_mod.escolher_revisao(con, usuario, t["tema_id"], rng)
+        if q:
+            return _forma_questao(t, q, theta, nivel)
+    return None
+
+
+def resumo_revisao(
+    con: sqlite3.Connection,
+    usuario: str,
+    agora: dt.datetime | None = None,
+    area_id: int | None = None,
+    tema_id: int | None = None,
+    fase: int | None = None,
+) -> dict:
+    """Contadores do modo Revisão no escopo (área/tema/fase): temas com
+    revisão vencida no FSRS (todos, sem o cap da sessão) e nº de pendências
+    distintas (última tentativa errada ou com dúvida/chute)."""
+    agora = agora or dt.datetime.now(dt.UTC)
+    cond, params = (
+        "f.usuario = ? AND f.vencimento IS NOT NULL AND f.vencimento <= ?",
+        [usuario, agora.isoformat()],
+    )
+    if area_id is not None:
+        cond += " AND t.area_id = ?"
+        params.append(area_id)
+    if tema_id is not None:
+        cond += " AND t.id = ?"
+        params.append(tema_id)
+    if fase is not None:
+        cond += " AND t.fase = ?"
+        params.append(fase)
+    vencidos = con.execute(
+        f"""SELECT COUNT(*) FROM fsrs_estados f
+            JOIN temas t ON t.id = f.tema_id
+            JOIN niveis_usuarios n ON n.tema_id = f.tema_id AND n.usuario = f.usuario
+            WHERE {cond} AND n.contagem >= ?""",
+        [*params, MIN_TENTATIVAS_REVISAO],
+    ).fetchone()[0]
+
+    pcond, pparams = "t.usuario = ?", [usuario]
+    if area_id is not None:
+        pcond += " AND tm.area_id = ?"
+        pparams.append(area_id)
+    if tema_id is not None:
+        pcond += " AND tm.id = ?"
+        pparams.append(tema_id)
+    if fase is not None:
+        pcond += " AND tm.fase = ?"
+        pparams.append(fase)
+    pendencias = con.execute(
+        f"""SELECT COUNT(DISTINCT questao_id) FROM (
+              SELECT t.questao_id,
+                     ROW_NUMBER() OVER (
+                       PARTITION BY t.questao_id ORDER BY t.data DESC, t.id DESC
+                     ) AS rn,
+                     t.correta, t.grau_certeza
+              FROM tentativas t
+              JOIN classificacoes c ON c.questao_id = t.questao_id
+              JOIN temas tm ON tm.id = c.tema_id
+              WHERE {pcond}
+            )
+            WHERE rn = 1 AND (correta = 0 OR grau_certeza IN ('duvida', 'chute'))""",
+        pparams,
+    ).fetchone()[0]
+    return {"vencidos": vencidos or 0, "pendencias": pendencias or 0}
 
 
 def questao_por_id(

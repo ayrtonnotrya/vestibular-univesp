@@ -9,11 +9,15 @@ import datetime as dt
 import sqlite3
 from collections import defaultdict
 
-from fsrs import Card, Scheduler
+from fsrs import Card
 
+from vestibular.estudo.fsrs_config import (
+    MIN_TENTATIVAS_REVISAO,
+    make_scheduler,
+)
 from vestibular.estudo.motiva import CAUSA_ERRO_LABEL, GRAU_CERTEZA_LABEL
 
-_scheduler = Scheduler()
+_scheduler = make_scheduler()
 
 
 def _de_faixa(dia_iso: str) -> str:
@@ -65,10 +69,12 @@ def resumo(
             deltas.append((r["b"], int(r["correta"])))
     b_medio = sum(b for b, _ in deltas) / len(deltas) if deltas else None
     vencidas = con.execute(
-        """SELECT COUNT(*) FROM fsrs_estados f JOIN temas t ON t.id = f.tema_id
+        """SELECT COUNT(*) FROM fsrs_estados f
+           JOIN temas t ON t.id = f.tema_id
+           JOIN niveis_usuarios n ON n.tema_id = f.tema_id AND n.usuario = f.usuario
            WHERE f.usuario = ? AND f.vencimento IS NOT NULL
-             AND f.vencimento <= ?""",
-        (usuario, agora.isoformat()),
+             AND f.vencimento <= ? AND n.contagem >= ?""",
+        (usuario, agora.isoformat(), MIN_TENTATIVAS_REVISAO),
     ).fetchone()[0]
     return {
         "total": total,
@@ -338,11 +344,15 @@ def revisoes(
     con: sqlite3.Connection, usuario: str, agora: dt.datetime | None = None,
     area_id: int | None = None,
 ) -> list[dict]:
-    """Fila de revisão FSRS: temas com estado, ordenados por status e data."""
+    """Fila de revisão FSRS: temas com estado (e contagem >= portão),
+    ordenados por status e data."""
     agora = agora or dt.datetime.now(dt.UTC)
-    cond, params = "", [usuario]
+    cond, params = (
+        "f.usuario = ? AND f.vencimento IS NOT NULL AND n.contagem >= ?",
+        [usuario, MIN_TENTATIVAS_REVISAO],
+    )
     if area_id is not None:
-        cond = " AND t.area_id = ?"
+        cond = f"{cond} AND t.area_id = ?"
         params.append(area_id)
     out = []
     for r in con.execute(
@@ -351,7 +361,8 @@ def revisoes(
            FROM fsrs_estados f
            JOIN temas t ON t.id = f.tema_id
            JOIN areas a ON a.id = t.area_id
-           WHERE f.usuario = ? AND f.vencimento IS NOT NULL{cond}""",
+           JOIN niveis_usuarios n ON n.tema_id = f.tema_id AND n.usuario = f.usuario
+           WHERE {cond}""",
         params,
     ):
         out.append(
@@ -560,11 +571,15 @@ def retencao(
     area_id: int | None = None,
 ) -> list[dict]:
     """Retrievability (R) atual de cada tema pelo FSRS, do mais esquecido ao
-    mais fresco."""
+    mais fresco. Só temas com contagem >= portão (os exploráveis não têm card
+    de agendamento)."""
     agora = agora or dt.datetime.now(dt.UTC)
-    cond, params = "", [usuario]
+    cond, params = (
+        "f.usuario = ? AND f.card_json IS NOT NULL AND n.contagem >= ?",
+        [usuario, MIN_TENTATIVAS_REVISAO],
+    )
     if area_id is not None:
-        cond = " AND t.area_id = ?"
+        cond = f"{cond} AND t.area_id = ?"
         params.append(area_id)
     out = []
     for r in con.execute(
@@ -573,7 +588,8 @@ def retencao(
            FROM fsrs_estados f
            JOIN temas t ON t.id = f.tema_id
            JOIN areas a ON a.id = t.area_id
-           WHERE f.usuario = ? AND f.card_json IS NOT NULL{cond}""",
+           JOIN niveis_usuarios n ON n.tema_id = f.tema_id AND n.usuario = f.usuario
+           WHERE {cond}""",
         params,
     ).fetchall():
         try:

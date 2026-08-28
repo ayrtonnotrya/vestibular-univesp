@@ -1,9 +1,12 @@
 """App de estudo: responde questões (UNIVESP e FUVEST) com a página em pan/zoom.
 
-Dois modos:
+Três modos:
 - **Explorar**: seleção manual por exame/questão (comportamento original).
-- **Estudar** (adaptativo): FSRS agenda temas; seletor Rasch escolhe a questão;
-  resposta atualiza FSRS, habilidade por área e a dificuldade empírica (b).
+- **Estudar** (adaptativo): sorteio ponderado sobre o catálogo inteiro
+  (frequência + fraqueza + exploração); resposta atualiza FSRS, habilidade por
+  área e a dificuldade empírica (b).
+- **Revisão**: fila dedicada dos temas vencidos pelo FSRS com questão já vista
+  (pendências do caderno de erros primeiro; nunca inéditas).
 
 Roda no docker-compose:  docker compose up vestibular-app (porta 8501).
 """
@@ -19,6 +22,7 @@ from panzoom import view_page
 
 from vestibular.estudo import motiva
 from vestibular.estudo.db import connect
+from vestibular.estudo.fsrs_config import MIN_TENTATIVAS_REVISAO
 
 DATA = Path("/app/data")
 JSON_DIR = DATA / "json"
@@ -190,8 +194,8 @@ def _fb_encode(correta, gabarito) -> str:
     return f"{marc}:{gabarito or ''}"
 
 
-def _restaurar_estudar(usuario: str):
-    """Restaura a questão em aberto (modo Estudar) a partir de `?qid=`."""
+def _restaurar_questao(prefix: str, usuario: str):
+    """Restaura a questão em aberto (Estudar/Revisão) a partir de `?qid=`."""
     qid = _param("qid")
     if not qid:
         return
@@ -202,12 +206,12 @@ def _restaurar_estudar(usuario: str):
     with connect() as con:
         resto = motiva.questao_por_id(con, usuario, qid)
     if resto:
-        st.session_state["estudar_q"] = resto
+        st.session_state[f"{prefix}_q"] = resto
         st.session_state["params_qid"] = str(qid)
 
 
-def _restaurar_fb():
-    """Restaura o feedback da última resposta (modo Estudar) a partir de `?fb=`."""
+def _restaurar_fb(prefix: str):
+    """Restaura o feedback da última resposta (Estudar/Revisão) de `?fb=`."""
     raw = _param("fb") or ""
     st.session_state["params_fb"] = raw
     if ":" not in raw:
@@ -219,7 +223,7 @@ def _restaurar_fb():
         "e": "❌ Errada.",
     }.get(marc)
     if texto:
-        st.session_state["estudar_fb"] = (texto, {"gabarito": gab})
+        st.session_state[f"{prefix}_fb"] = (texto, {"gabarito": gab})
 
 
 def _restaurar_do_url():
@@ -229,12 +233,13 @@ def _restaurar_do_url():
         return
     st.session_state.setdefault("usuario", _param("usuario") or "eu")
     modo = _param("modo") or "Estudar"
-    if modo not in ("Estudar", "Explorar", "Estatísticas"):
+    if modo not in ("Estudar", "Revisão", "Explorar", "Estatísticas"):
         modo = "Estudar"
     st.session_state["modo"] = modo
-    if modo == "Estudar":
-        _restaurar_estudar("eu")
-        _restaurar_fb()
+    if modo in ("Estudar", "Revisão"):
+        prefix = "estudar" if modo == "Estudar" else "revisao"
+        _restaurar_questao(prefix, "eu")
+        _restaurar_fb(prefix)
     elif modo == "Explorar":
         if _param("label") in LABELS:
             st.session_state["explo_label"] = _param("label")
@@ -515,7 +520,7 @@ def _questao_db_id(label: str, numero: int) -> int | None:
 
 def modo_explorar():
     sidebar = st.sidebar
-    usuario = sidebar.text_input("Usuário", key="usuario") or "eu"
+    usuario = "eu"
     label = sidebar.selectbox("Exame", LABELS, key="explo_label")
     jq = JSON_DIR / f"{label}_questoes.json"
     if not jq.exists():
@@ -638,12 +643,19 @@ def _fases_catalogo():
 
 
 def _reset_filtro():
-    st.session_state.pop("estudar_q", None)
-    st.session_state.pop("estudar_fb", None)
-    st.session_state.pop("estudar_aviso", None)
+    for k in (
+        "estudar_q",
+        "estudar_fb",
+        "estudar_aviso",
+        "revisao_q",
+        "revisao_fb",
+        "revisao_aviso",
+    ):
+        st.session_state.pop(k, None)
     st.session_state.pop("params_qid", None)
     st.session_state.pop("params_fb", None)
     st.session_state["estudar_fsrs"] = []
+    st.session_state["revisao_fsrs"] = []
 
 
 def _muda_area():
@@ -790,9 +802,17 @@ def modo_estudar():
             st.session_state["estudar_fb"] = (fb, r)
             st.session_state["params_fb"] = _fb_encode(r["correta"], r["gabarito"])
             for t in r["temas"]:
-                st.session_state.setdefault("estudar_fsrs", []).append(
-                    f"{q['tema_nome']} → vencimento {t['vencimento'].isoformat()} ({t['estado']})"
-                )
+                if t["vencimento"] is not None:
+                    linha = (
+                        f"{q['tema_nome']} → vencimento "
+                        f"{t['vencimento'].isoformat()} ({t['estado']})"
+                    )
+                else:
+                    linha = (
+                        f"{q['tema_nome']} → em exploração "
+                        f"(agendamento em {MIN_TENTATIVAS_REVISAO} respostas)"
+                    )
+                st.session_state.setdefault("estudar_fsrs", []).append(linha)
             return r
 
         def render_feedback():
@@ -817,6 +837,190 @@ def modo_estudar():
 
         with st.expander("Próximos vencimentos"):
             for linha in st.session_state.get("estudar_fsrs", [])[-20:]:
+                st.write(linha)
+
+    _mostrar_progresso(usuario)
+
+
+def _pendencias_tema(usuario: str, tema_id: int):
+    """Pendências (erro/dúvida/chute) do tema — última tentativa por questão."""
+    with connect() as con:
+        rows = con.execute(
+            """SELECT questao_id, correta, grau_certeza, data, exame_label, numero
+               FROM (
+                 SELECT t.questao_id, t.correta, t.grau_certeza, t.data,
+                        q.exame_label, q.numero,
+                        ROW_NUMBER() OVER (
+                          PARTITION BY t.questao_id ORDER BY t.data DESC, t.id DESC
+                        ) AS rn
+                 FROM tentativas t
+                 JOIN classificacoes c ON c.questao_id = t.questao_id
+                 JOIN questoes q ON q.id = t.questao_id
+                 WHERE t.usuario = ? AND c.tema_id = ?
+               )
+               WHERE rn = 1 AND (correta = 0 OR grau_certeza IN ('duvida', 'chute'))
+               ORDER BY data, questao_id""",
+            (usuario, tema_id),
+        ).fetchall()
+    if not rows:
+        st.caption("Sem pendências neste tema — só acertos recentes.")
+        return
+    for r in rows:
+        marc = "❌" if r["correta"] == 0 else "⚠️"
+        certeza = motiva.GRAU_CERTEZA_LABEL.get(r["grau_certeza"], "")
+        st.markdown(
+            f"{marc} **{_nome_vestibular(r['exame_label'])}** Q{r['numero']} · "
+            f"{certeza} · {(r['data'] or '')[:10]}"
+        )
+
+
+def modo_revisao():
+    """Fila de revisão: temas vencidos pelo FSRS (portão de contagem + cap por
+    sessão) com questão JÁ vista — pendências (erro/dúvida/chute) primeiro,
+    depois acertos antigos. Nunca questões inéditas."""
+    sidebar = st.sidebar
+    usuario = "eu"
+
+    areas, temas = _catalogo()
+    objs_area = {nome: id_ for id_, nome in areas}
+    objs_tema = {nome: (id_, area_id) for id_, area_id, nome, _ in temas}
+    area_labels = ["Todas as áreas", *[nome for _, nome in areas]]
+    area = sidebar.selectbox(
+        "Área (opcional)",
+        area_labels,
+        index=0,
+        key="filtro_area",
+        on_change=_muda_area,
+    )
+    area_id = objs_area.get(area)
+
+    fases_area = sorted(_fases_catalogo().get(area, {}).items())
+    fase_map = {f"Fase {o} · {n}": o for o, n in fases_area}
+    fase = sidebar.selectbox(
+        "Fase (opcional)",
+        ["Todas as fases", *fase_map],
+        index=0,
+        key="filtro_fase",
+        disabled=area_id is None or not fases_area,
+        on_change=_muda_fase,
+    )
+    fase_id = fase_map.get(fase)
+
+    temas_area = [
+        nome
+        for id_, aid, nome, tf in temas
+        if (area_id is None or aid == area_id) and (fase_id is None or tf == fase_id)
+    ]
+    tema = sidebar.selectbox(
+        "Tema (opcional)",
+        ["Todos os temas", *temas_area],
+        index=0,
+        key="filtro_tema",
+        on_change=_reset_filtro,
+    )
+    tema_id = objs_tema.get(tema, (None, None))[0]
+
+    with connect() as con:
+        resumo = motiva.resumo_revisao(
+            con, usuario, area_id=area_id, tema_id=tema_id, fase=fase_id
+        )
+    st.caption(
+        f"**{resumo['vencidos']} temas vencidos** no agendamento · "
+        f"**{resumo['pendencias']} pendências** no caderno de erros do escopo."
+    )
+
+    def proxima():
+        with connect() as con:
+            q2 = motiva.proxima_revisao(
+                con, usuario, area_id=area_id, tema_id=tema_id, fase=fase_id
+            )
+        st.session_state["revisao_q"] = q2
+        st.session_state["revisao_aviso"] = None
+        st.session_state.pop("revisao_fb", None)
+        st.session_state["params_qid"] = str(q2["questao_id"]) if q2 else ""
+        st.session_state.pop("params_fb", None)
+        if q2 is None:
+            filtrado = area_id is not None or tema_id is not None or fase_id is not None
+            st.session_state["revisao_aviso"] = (
+                "Nada vencido para revisar no filtro selecionado."
+                if filtrado
+                else "Nada vencido para revisar. Temas entram na fila após "
+                f"{MIN_TENTATIVAS_REVISAO} respostas."
+            )
+
+    if sidebar.button("▶ Próxima (revisão)"):
+        proxima()
+
+    aviso = st.session_state.get("revisao_aviso")
+    if aviso:
+        st.info(aviso)
+
+    q = st.session_state.get("revisao_q")
+    if q is None:
+        st.write("Clique em **Próxima (revisão)** para começar a fila de revisão.")
+    else:
+        extra = _questao_json(q["exame_label"], q["numero"]) or {}
+        full = {
+            "numero": q["numero"],
+            "tipo": "objetiva",
+            "enunciado": q["enunciado"],
+            "alternativas": q["alternativas"],
+            "gabarito": q["gabarito"],
+            "midia": extra.get("midia", []),
+            "_midia": extra.get("midia", []),
+            "_textos_de_apoio": extra.get("textos_de_apoio", []),
+            "questao_id": q["questao_id"],
+        }
+
+        def on_responder(numero, resp, grau_certeza):
+            with connect() as con:
+                r = motiva.responder(
+                    con, usuario, q["questao_id"], resp, grau_certeza=grau_certeza
+                )
+            fb = {
+                None: "⚠️ Anulada/sem gabarito oficial",
+                True: "✅ Correta!",
+                False: "❌ Errada.",
+            }[r["correta"]]
+            st.session_state["revisao_fb"] = (fb, r)
+            st.session_state["params_fb"] = _fb_encode(r["correta"], r["gabarito"])
+            for t in r["temas"]:
+                if t["vencimento"] is not None:
+                    linha = (
+                        f"{q['tema_nome']} → vencimento "
+                        f"{t['vencimento'].isoformat()} ({t['estado']})"
+                    )
+                else:
+                    linha = (
+                        f"{q['tema_nome']} → em exploração "
+                        f"(agendamento em {MIN_TENTATIVAS_REVISAO} respostas)"
+                    )
+                st.session_state.setdefault("revisao_fsrs", []).append(linha)
+            return r
+
+        def render_feedback():
+            fb = st.session_state.get("revisao_fb")
+            if fb:
+                texto, r = fb
+                st.markdown(f"### {texto}")
+                st.caption(f"Gabarito oficial: {r['gabarito']}" if r["gabarito"] else "")
+
+        _render_questao(
+            full,
+            q["exame_label"],
+            f"revisao_{q['questao_id']}",
+            on_responder=on_responder,
+            feedback=render_feedback,
+            questao_id=q["questao_id"],
+            usuario=usuario,
+            on_avancar=proxima,
+        )
+
+        with st.expander(f"🗒️ Pendências de {q['tema_nome']}"):
+            _pendencias_tema(usuario, q["tema_id"])
+
+        with st.expander("Próximos vencimentos"):
+            for linha in st.session_state.get("revisao_fsrs", [])[-20:]:
                 st.write(linha)
 
     _mostrar_progresso(usuario)
@@ -1192,7 +1396,9 @@ def modo_estatisticas():
 def main():
     st.title("🎓 Estudo Vestibular")
     _restaurar_do_url()
-    modo = st.sidebar.radio("Modo", ["Estudar", "Explorar", "Estatísticas"], key="modo")
+    modo = st.sidebar.radio(
+        "Modo", ["Estudar", "Revisão", "Explorar", "Estatísticas"], key="modo"
+    )
     params = {
         "modo": modo,
         "usuario": st.session_state.get("usuario", "eu"),
@@ -1201,8 +1407,11 @@ def main():
         "qid": "",
         "fb": "",
     }
-    if modo == "Estudar":
-        modo_estudar()
+    if modo in ("Estudar", "Revisão"):
+        if modo == "Estudar":
+            modo_estudar()
+        else:
+            modo_revisao()
         params["qid"] = st.session_state.get("params_qid", "")
         params["fb"] = st.session_state.get("params_fb", "")
     elif modo == "Explorar":

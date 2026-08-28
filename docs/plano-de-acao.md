@@ -94,6 +94,11 @@ acurácia de extração/classificação.
       nível por tema (`niveis_usuarios`) quando há ≥2 tentativas, senão θ da
       área (Rasch MAP)
 - [x] Evitar questões já respondidas (ou circular)
+- [x] **Reforma do FSRS por tema** (`fsrs_config.py`): portão de contagem
+      (`MIN_TENTATIVAS_REVISAO=3`), passo de aprendizagem em dias,
+      `desired_retention=0.87`, cap da fila de vencidos por sessão; pool do
+      modo Estudar = catálogo inteiro com sorteio ponderado (frequência +
+      fraqueza + exploração; fraqueza com `1−sigmoid(θ)` abaixo do portão)
 
 ### 2.3 Feedback ao errar
 - [ ] Chamada IA (function calling/texto) gerando explicação didática
@@ -103,7 +108,15 @@ acurácia de extração/classificação.
 - [x] Atualizar `niveis_usuarios` (score, racha, contagem) por tema
 - [x] Tela de progresso por área/tema (θ por área + nível por tema)
 
-### 2.5 Validação da Fase 2
+### 2.5 Revisão e caderno de erros
+- [x] Caderno de erros (Passo B): causa do erro + síntese ativa em `tentativas`
+      (`causa_erro`/`sintese_ativa`, grau de certeza)
+- [x] **Modo Revisão** no app: fila dos temas vencidos pelo FSRS com questão já
+      vista (`motiva.proxima_revisao` + `seletor.escolher_revisao`) — pendências
+      (erro/dúvida/chute) primeiro, depois acertos antigos; nunca inéditas
+- [ ] Expor `proxima_revisao` na família **tutor** do MCP
+
+### 2.6 Validação da Fase 2
 - [ ] Usar de ponta a ponta com as questões da Fase 1
 - [ ] Ajustar seleção/feedback conforme uso real
 
