@@ -225,12 +225,12 @@ Resultado extraído e validado (gabaritos 100% conferidos):
   ```
 - Nunca commitar segredos, PDFs ou dados brutos (`.env`, `tmp/` e quase todo
   `data/` são ignorados). Exceções versionadas: `data/assuntos.json` (catálogo
-  curado), `data/json/*_questoes.json` + `*_imagens.json` (dados extraídos e
-  validados) e `data/paginas/*/*.jpg` (páginas renderizadas p/ o app). De
-  resto, só código, docs e `tools/` são versionados.
+  curado) e `data/json/*_questoes.json` + `*_imagens.json` (dados extraídos e
+  validados). De resto, só código, docs e `tools/` são versionados. As páginas
+  `data/paginas/` NÃO são versionadas (são derivadas dos PDFs, regeráveis via
+  `render_pages.py`) — nunca commitá-las.
 - Não commitar a chave de API nem expor `figuras` recortadas de provas
-  (`data/imagens/`) fora do repo; páginas completas em `data/paginas/` são
-  versionadas.
+  (`data/imagens/`) fora do repo; `data/paginas/` também não vai ao git.
 
 ## Estrutura
 
@@ -240,8 +240,8 @@ src/               # pipeline Python puro (download, extract, parse, db, ia/, es
 app/               # Streamlit (interface de estudo) — study.py + panzoom.py
 tools/gemini/      # toolkit validado: extração via Gemini (Dockerfile, extract/validate/repair/gabfix/fix_paginas/run_all)
 data/              # QUASE NÃO VERSIONADA: pdfs, json/ e paginas/ (exceção:
-                   # assuntos.json, data/json/*_questoes.json + *_imagens.json e
-                   # data/paginas/*/*.jpg versionados), imagens/, vestibular.db
+                   # assuntos.json e data/json/*_questoes.json + *_imagens.json
+                   # versionados), imagens/, vestibular.db
 tmp/               # NÃO VERSIONADA: rascunhos/scratch (gabaritos extraídos p/ conferência)
 scripts/           # CLI (click): ingest, classify, score (esqueleto)
 ```
@@ -296,6 +296,17 @@ Pendente do plano original:
   Sem `--dry-run` aplica; `--check` valida (exit 0 se consistente).
 - Auto-recorte de figuras (opcional): `tools/gemini/extract_images.py <labels...>`
   → `data/imagens/` (não é usado pelo app).
+- Limpar círculos verdes de "provas resolvidas" (fonte Curso Objetivo — ENEM
+  2011–2014 tinham o círculo marcando a alternativa correta; inviabilizava o
+  estudo): `tools/gemini/limpar_circulos.py [labels...]` remove só o traço
+  verde ao nível vetorial (Forms XObject esvaziados em 2012–2014; ops de traço
+  removidas do conteúdo das páginas em 2011). Verifica 0 círculos/pixels verdes
+  residuais e texto idêntico antes/depois. `--check` reporta sem escrever;
+  `--out DIR` grava em outro diretório; `--render` re-renderiza
+  `data/paginas/<label>/`. Padrão: limpa no lugar com backup em
+  `tmp/bkp_pdfs/`. Rodar com a imagem do app:
+  `docker run --rm -v "$PWD":/work -w /work vestibular-app:latest \
+  python tools/gemini/limpar_circulos.py enem_2013_1dia enem_2013_2dia`
 - Lint/format (quando adicionado): `ruff check .` e `ruff format .`.
 
 ## Convenções
