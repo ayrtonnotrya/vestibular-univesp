@@ -13,6 +13,7 @@ Roda no docker-compose:  docker compose up vestibular-app (porta 8501).
 
 import json
 import re
+from datetime import date
 from pathlib import Path
 
 import estatisticas
@@ -1050,6 +1051,15 @@ def _df(rows: list[dict]) -> pd.DataFrame:
     return df if not df.empty else pd.DataFrame([{"aviso": "Sem dados"}])
 
 
+def _ordem_dia(df: pd.DataFrame) -> list[str]:
+    """Rótulos `dia` (dd/mm) na ordem cronológica original (ISO em `data`).
+
+    `pivot`/índices de strings reordenam alfabeticamente ("01/09" antes de
+    "31/08"); aqui restaura-se a sequência do ISO sem mudar o rótulo."""
+    rotulo = {data: dia for data, dia in zip(df["data"], df["dia"])}
+    return [rotulo[o] for o in dict.fromkeys(df["data"])]
+
+
 def modo_estatisticas():
     """Painel de estatísticas: visão geral, evolução, áreas, temas, exames,
     fila de revisão FSRS e histórico. Com área escolhida, tudo é filtrado ao
@@ -1161,6 +1171,7 @@ def modo_estatisticas():
         )
         if "aviso" not in df_ev.columns:
             piv = df_ev.pivot(index="dia", columns="Fase", values="pct").fillna(0)
+            piv = piv.loc[[d for d in _ordem_dia(df_ev) if d in piv.index]]
             st.line_chart(piv, y_label="Aproveitamento (%)")
             st.dataframe(
                 df_ev[["dia", "Fase", "acertos", "tentativas", "pct"]],
@@ -1256,8 +1267,15 @@ def modo_estatisticas():
 
     st.subheader("Evolução")
     df_dias = _df(dias)
+    if "dia" in df_dias.columns:
+        df_dias["dia"] = pd.Categorical(
+            df_dias["dia"], categories=[d["dia"] for d in dias], ordered=True
+        )
     col_a, col_b = st.columns([2, 1])
-    col_a.line_chart(df_dias.set_index("dia")["pct"], y_label="Aproveitamento (%)")
+    col_a.line_chart(
+        df_dias.sort_values("dia").set_index("dia")["pct"],
+        y_label="Aproveitamento (%)",
+    )
     col_b.dataframe(
         df_dias[["dia", "tentativas", "acertos", "pct"]],
         hide_index=True,
@@ -1405,9 +1423,49 @@ def modo_estatisticas():
         )
 
 
+def _vencidos_hoje(usuario: str) -> list[dict]:
+    """Temas do FSRS do usuário vencidos hoje ou atrasados (contagem >= portão)."""
+    with connect() as con:
+        rows = con.execute(
+            """SELECT a.nome AS area, t.nome AS tema, f.vencimento AS venc
+               FROM fsrs_estados f
+               JOIN temas t ON t.id = f.tema_id
+               JOIN areas a ON a.id = t.area_id
+               JOIN niveis_usuarios n
+                 ON n.tema_id = f.tema_id AND n.usuario = f.usuario
+               WHERE f.usuario = ? AND date(f.vencimento) <= date(?)
+                 AND n.contagem >= ?
+               ORDER BY f.vencimento, a.nome, t.nome""",
+            (usuario, date.today().isoformat(), MIN_TENTATIVAS_REVISAO),
+        ).fetchall()
+    return [dict(r) for r in rows]
+
+
+def _aviso_vencidos(usuario: str):
+    """Aviso no topo de todas as páginas quando há temas FSRS vencidos para hoje."""
+    venc = _vencidos_hoje(usuario)
+    if not venc:
+        return
+    hoje = date.today().isoformat()
+    n_atras = sum(1 for v in venc if (v["venc"] or "")[:10] < hoje)
+    n_hoje = len(venc) - n_atras
+    partes = [f"{n_hoje} para hoje"]
+    if n_atras:
+        partes.append(f"{n_atras} atrasado(s)")
+    lista = " · ".join(f"{v['area']} → {v['tema']}" for v in venc)
+    st.warning(
+        f"🔔 **Revisão FSRS:** {len(venc)} tema(s) vencido(s) ({', '.join(partes)}). "
+        f"{lista}."
+    )
+    if st.button("Ir para a Revisão", key="btn_ir_revisao"):
+        st.session_state["modo"] = "Revisão"
+        st.rerun()
+
+
 def main():
     st.title("🎓 Estudo Vestibular")
     _restaurar_do_url()
+    _aviso_vencidos(st.session_state.get("usuario", "eu"))
     modo = st.sidebar.radio(
         "Modo", ["Estudar", "Revisão", "Explorar", "Estatísticas"], key="modo"
     )
