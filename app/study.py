@@ -325,7 +325,7 @@ def _render_questao(
 
     with st.container(border=True):
         for apoio in leituras:
-            st.markdown(apoio)
+            st.markdown(apoio.replace("\n", "  \n"))
         st.markdown(f"**{enunciado}**")
         if obs:
             st.markdown("---")
@@ -811,7 +811,7 @@ def modo_estudar():
                 if t["vencimento"] is not None:
                     linha = (
                         f"{q['tema_nome']} → vencimento "
-                        f"{t['vencimento'].isoformat()} ({t['estado']})"
+                        f"{t['vencimento'].isoformat()[:10]} ({t['estado']})"
                     )
                 else:
                     linha = (
@@ -947,12 +947,18 @@ def modo_revisao():
         st.session_state.pop("params_fb", None)
         if q2 is None:
             filtrado = area_id is not None or tema_id is not None or fase_id is not None
-            st.session_state["revisao_aviso"] = (
-                "Nada vencido para revisar no filtro selecionado."
-                if filtrado
-                else "Nada vencido para revisar. Temas entram na fila após "
-                f"{MIN_TENTATIVAS_REVISAO} respostas."
-            )
+            if resumo["vencidos"] and not resumo["pendencias"]:
+                st.session_state["revisao_aviso"] = (
+                    "Temas vencidos, mas sem pendências no caderno de erros. "
+                    "A revisão mostra só questões erradas ou com dúvida/chute."
+                )
+            else:
+                st.session_state["revisao_aviso"] = (
+                    "Nada vencido para revisar no filtro selecionado."
+                    if filtrado
+                    else "Nada vencido para revisar. Temas entram na fila após "
+                    f"{MIN_TENTATIVAS_REVISAO} respostas."
+                )
 
     if sidebar.button("▶ Próxima (revisão)"):
         proxima()
@@ -994,7 +1000,7 @@ def modo_revisao():
                 if t["vencimento"] is not None:
                     linha = (
                         f"{q['tema_nome']} → vencimento "
-                        f"{t['vencimento'].isoformat()} ({t['estado']})"
+                        f"{t['vencimento'].isoformat()[:10]} ({t['estado']})"
                     )
                 else:
                     linha = (

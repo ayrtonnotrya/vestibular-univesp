@@ -73,7 +73,7 @@ def resumo(
            JOIN temas t ON t.id = f.tema_id
            JOIN niveis_usuarios n ON n.tema_id = f.tema_id AND n.usuario = f.usuario
            WHERE f.usuario = ? AND f.vencimento IS NOT NULL
-             AND f.vencimento <= ? AND n.contagem >= ?""",
+             AND date(f.vencimento) <= date(?) AND n.contagem >= ?""",
         (usuario, agora.isoformat(), MIN_TENTATIVAS_REVISAO),
     ).fetchone()[0]
     return {
@@ -176,7 +176,7 @@ def _status_vencimento(venc_iso: str | None, agora: dt.datetime) -> str:
         return "sem revisão"
     try:
         venc = dt.datetime.fromisoformat(venc_iso)
-        dias = (agora - venc).days
+        dias = (agora.date() - venc.date()).days
     except ValueError:
         return "sem revisão"
     if dias > 0:

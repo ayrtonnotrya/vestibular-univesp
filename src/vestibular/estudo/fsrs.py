@@ -65,6 +65,9 @@ def revisar(
     card = _card(con, usuario, tema_id)
     rating = Rating.Good if correta else Rating.Again
     novo, _log = _scheduler.review_card(card, rating, agora)
+    # Vencimento no dia (zero hora): vale em qualquer momento do dia do
+    # vencimento, não num horário exato (dia + hora + minuto).
+    novo.due = novo.due.replace(hour=0, minute=0, second=0, microsecond=0)
     estado = _ESTADO_MAPA.get(int(novo.state.value), "learning")
     repos, lapses = 1, 0
     if not correta:
@@ -126,7 +129,8 @@ def vencidos(
 
     Separa o catálogo em **exploráveis** (sem card OU contagem <
     `MIN_TENTATIVAS_REVISAO`; `vencimento=None`/`r=None`) e **vencidos** (card
-    existe, contagem >= portão, `vencimento <= agora`). O subgrupo vencido é
+    existe, contagem >= portão, vencimento no dia de hoje ou antes — comparado
+    por data: `date(vencimento) <= date(agora)`). O subgrupo vencido é
     limitado por urgência (dias de atraso + 2·lapses) a
     `CAP_REVISOES_SESSAO`; os exploráveis vão ao fim (nunca contam como
     vencidos, mas seguem no retorno para quem quiser o catálogo inteiro).
@@ -137,7 +141,7 @@ def vencidos(
     Retorna: [{tema_id, area_id, nome, vencimento, r}].
     """
     agora = agora or dt.datetime.now(dt.UTC)
-    conds = "(f.vencimento IS NULL OR f.vencimento <= ?)"
+    conds = "(f.vencimento IS NULL OR date(f.vencimento) <= date(?))"
     params: list = [usuario, usuario, _iso(agora)]
     if area_id is not None:
         conds += " AND t.area_id = ?"

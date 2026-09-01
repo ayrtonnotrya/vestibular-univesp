@@ -116,12 +116,12 @@ def escolher_revisao(
     tema_id: int,
     rng: random.Random,
 ) -> dict | None:
-    """Questão JÁ vista do tema para a fila de revisão — nunca inéditas.
+    """Questão JÁ vista do tema para a fila de revisão — nunca inéditas e nunca
+    questões já respondidas corretamente (mesmo sem certeza registrada).
 
     Ordem determinística pela última resposta: pendências (errada OU com
-    grau_certeza 'duvida'/'chute') primeiro — a mais antiga; senão as vistas
-    corretas/'conviccao' — a mais antiga. Devolve None se o tema não tem
-    questão vista.
+    grau_certeza 'duvida'/'chute') — a mais antiga. Devolve None se o tema não
+    tem pendência.
     """
     questoes = _questoes_tema(con, tema_id)
     if not questoes:
@@ -137,6 +137,7 @@ def escolher_revisao(
         return r["correta"] == 0 or r["grau_certeza"] in ("duvida", "chute")
 
     pendencias = [q for q in vistas if pendente(q)]
-    pool = pendencias or vistas
-    pool.sort(key=lambda q: (ult[q["id"]]["data"], q["id"]))
-    return dict(pool[0])
+    if not pendencias:
+        return None
+    pendencias.sort(key=lambda q: (ult[q["id"]]["data"], q["id"]))
+    return dict(pendencias[0])

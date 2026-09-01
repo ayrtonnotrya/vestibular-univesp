@@ -2,10 +2,14 @@
 
 Modo Estudar (`proxima_questao`):
 1. pool = catálogo inteiro (temas com questão disponível), sem portão FSRS;
-2. tema é sorteado com peso = prioridade do tema:
-   0,4·frequência real do tema nas provas UNIVESP + 0,4·fraqueza
+2. sorteio em **dois estágios**: a área é sorteada com peso =
+   0,4·frequência agregada da área (Σ dos priors dos temas) +
+   0,4·fraqueza (1 − sigmoid(θ da área)) + 0,2·exploração (inverso das
+   observações de `habilidades`); dentro da área, o tema com peso =
+   prioridade do tema: 0,4·frequência real nas provas UNIVESP + 0,4·fraqueza
    (1 − score por tema quando contagem >= `MIN_TENTATIVAS_REVISAO`; senão
-   1 − sigmoid(θ da área)) + 0,2·exploração (inverso das observações);
+   1 − sigmoid(θ da área)) + 0,2·exploração (inverso das observações do
+   tema). O nº de temas do catálogo fica neutro para a fatia da área;
 3. questão do tema sorteado é sorteada uniformemente, preferindo inéditas.
 
 Modo Revisão (`proxima_revisao`): fila dedicada dos temas **vencidos** pelo
@@ -144,12 +148,16 @@ def proxima_questao(
     do catálogo (assuntos.json) dentro da área — a questão sai de um dos temas
     da fase, mantendo as regras de sorteio (prioridade, Rasch).
 
-    O pool é o catálogo inteiro: cada tema com questão disponível entra no
-    sorteio com peso = prioridade (0,4·frequência real nas provas UNIVESP +
+    O pool é o catálogo inteiro, com sorteio em **dois estágios**. Estágio 1:
+    a área é sorteada com peso 0,4·freq_area (soma dos priors dos temas da
+    área, normalizada sobre as áreas com questão) + 0,4·(1 − sigmoid(θ da
+    área)) + 0,2·(1 / (1 + n_obs da área)). Estágio 2: dentro da área, o tema
+    com peso = prioridade (0,4·frequência real nas provas UNIVESP +
     0,4·fraqueza + 0,2·exploração). Temas com contagem >=
     `MIN_TENTATIVAS_REVISAO` usam fraqueza = 1 − score por tema; abaixo do
     portão, 1 − sigmoid(θ da área) (estimativa estável, sem oscilar a cada
-    resposta). `excluir_ids` remove questões específicas.
+    resposta). Havendo uma única área entre os candidatos (ex.: `tema_id`
+    fixo), o estágio 1 é pulado. `excluir_ids` remove questões específicas.
 
     Retorna dict com chaves: questao_id, exame_label, numero, enunciado,
     textos_de_apoio, midia, alternativas (dict), gabarito, tema_id, tema_nome,
@@ -189,12 +197,49 @@ def proxima_questao(
                 + PESO_FRAQUEZA * fraqueza
                 + PESO_EXPLORACAO * exploracao
             )
-            candidatos.append((t, q, theta, nivel, prioridade))
+            candidatos.append((t, q, theta, nivel, prioridade, freq))
     if not candidatos:
         return None
 
-    t, q, theta, nivel, _ = rng.choices(
-        candidatos, weights=[c[4] for c in candidatos], k=1
+    # Sorteio em dois estágios (ver docstring): área primeiro, tema depois.
+    # Com uma única área distinta (escopo restrito por tema_id/fase), o
+    # estágio 1 não tem efeito e o tema é sorteado direto pelas prioridades.
+    candidatos_por_area: dict[int, list] = {}
+    for c in candidatos:
+        candidatos_por_area.setdefault(c[0]["area_id"], []).append(c)
+    if len(candidatos_por_area) == 1:
+        t, q, theta, nivel, _, _ = rng.choices(
+            candidatos, weights=[c[4] for c in candidatos], k=1
+        )[0]
+        return _forma_questao(t, q, theta, nivel)
+
+    n_obs_area = {
+        r["area_id"]: r["n_obs"]
+        for r in con.execute(
+            "SELECT area_id, n_obs FROM habilidades WHERE usuario = ?", (usuario,)
+        )
+    }
+    soma_freq: dict[int, float] = {}
+    for c in candidatos:
+        soma_freq[c[0]["area_id"]] = soma_freq.get(c[0]["area_id"], 0.0) + c[5]
+    total_freq = sum(soma_freq.values()) or 1.0
+    prioridade_area: dict[int, float] = {}
+    for aid, cs in candidatos_por_area.items():
+        freq_area = soma_freq[aid] / total_freq
+        fraqueza_area = 1.0 - _sigmoid(thetas[aid])
+        exploracao_area = 1.0 / (1.0 + n_obs_area.get(aid, 0))
+        prioridade_area[aid] = (
+            PESO_FREQ * freq_area
+            + PESO_FRAQUEZA * fraqueza_area
+            + PESO_EXPLORACAO * exploracao_area
+        )
+    area = rng.choices(
+        list(candidatos_por_area),
+        weights=[prioridade_area[a] for a in candidatos_por_area],
+        k=1,
+    )[0]
+    t, q, theta, nivel, _, _ = rng.choices(
+        candidatos_por_area[area], weights=[c[4] for c in candidatos_por_area[area]], k=1
     )[0]
     return _forma_questao(t, q, theta, nivel)
 
@@ -209,8 +254,9 @@ def proxima_revisao(
     fase: int | None = None,
 ) -> dict | None:
     """Próxima questão da fila de revisão: um tema **vencido** pelo FSRS do
-    usuário (portão de contagem, sem cap) com questão **já vista** — pendências
-    (erro/dúvida/chute) primeiro, depois acertos antigos. Nunca inéditas.
+    usuário (portão de contagem, sem cap) com questão **pendente** (última
+    resposta errada/dúvida/chute). Acertos antigos ficam de fora — nunca
+    inéditas nem questões já respondidas corretamente.
 
     Mesmo shape de retorno de `proxima_questao`; None quando não há tema
     vencido no escopo (o aviso padrão do app cobre).
@@ -266,7 +312,7 @@ def resumo_revisao(
     distintas (última tentativa errada ou com dúvida/chute)."""
     agora = agora or dt.datetime.now(dt.UTC)
     cond, params = (
-        "f.usuario = ? AND f.vencimento IS NOT NULL AND f.vencimento <= ?",
+        "f.usuario = ? AND f.vencimento IS NOT NULL AND date(f.vencimento) <= date(?)",
         [usuario, agora.isoformat()],
     )
     if area_id is not None:
@@ -494,7 +540,7 @@ def progresso(con: sqlite3.Connection, usuario: str) -> list[dict]:
                   (SELECT COUNT(*) FROM fsrs_estados f
                     JOIN temas t ON t.id = f.tema_id
                     WHERE f.usuario = ? AND t.area_id = a.id
-                      AND (f.vencimento <= ? OR f.vencimento IS NULL)) AS temas_vencidos
+                      AND (date(f.vencimento) <= date(?) OR f.vencimento IS NULL)) AS temas_vencidos
            FROM areas a
            LEFT JOIN habilidades h ON h.area_id = a.id AND h.usuario = ?
            ORDER BY a.nome""",

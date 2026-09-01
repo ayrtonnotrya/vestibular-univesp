@@ -4,8 +4,7 @@ services:
     image: vestibular-app:latest
     container_name: vestibular-app
     command: ["streamlit", "run", "app/study.py", "--server.address", "0.0.0.0", "--server.port", "8501", "--server.headless", "true"]
-    ports:
-      - "8501:8501"
+    # sem ports: só rede interna web (acesso via nginx-proxy-manager)
     volumes:
       - ./data:/app/data
       - ./app:/app/app
