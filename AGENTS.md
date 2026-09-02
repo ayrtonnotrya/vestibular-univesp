@@ -264,11 +264,17 @@ scripts/           # CLI (click): ingest, classify, score (esqueleto)
 Tabelas implementadas no motor: `vestibulares`, `questoes`, `classificacoes`,
 `dificuldades` (score IA — ainda sem seed), `item_params` (b Rasch),
 `fsrs_estados`, `habilidades` (θ MAP por área), `niveis_usuarios` (score/racha/
-contagem por `(usuario, tema)`) e `tentativas` (caderno de erros: colunas
+contagem por `(usuario, tema)`), `tentativas` (caderno de erros: colunas
 nullable `grau_certeza` `conviccao|duvida|chute`, `causa_erro`
 `teoria|pegadinha|atencao` e `sintese_ativa`, preenchidas via `motiva.responder`
 (certeza) + `motiva.anotar_erro`/MCP `anotar_erro` (causa/síntese pós-conferência);
-acertos convictos e registros antigos ficam com NULL, sem afetar TRI/FSRS).
+acertos convictos e registros antigos ficam com NULL, sem afetar TRI/FSRS) e
+`sessoes` (sessão atual do usuário: um registro por `usuario` com `modo`
+`estudar|revisao`, `questao_id` (null até a 1ª "Próxima") e `atualizado_em` —
+gravado por `motiva.marcar_sessao` a cada avance/prévia de modo; o
+`_restaurar_do_url` do app usa (modo, questão) desse registro para reabrir a
+MESMA questão após refresh, mesmo sem `?qid=` na URL; filtros mudados
+(`_reset_filtro`) apagam a sessão via `motiva.apagar_sessao`).
 Pendente do plano original:
 `ia/dificuldade` (score), `ia/classificar`, `ia/feedback`.
 

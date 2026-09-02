@@ -118,6 +118,13 @@ CREATE TABLE IF NOT EXISTS tentativas (
     causa_erro   TEXT,                            -- teoria|pegadinha|atencao | null
     sintese_ativa TEXT                            -- frase de 1-2 sentenças | null
 );
+
+CREATE TABLE IF NOT EXISTS sessoes (
+    usuario       TEXT NOT NULL PRIMARY KEY,
+    modo          TEXT NOT NULL,                  -- estudar | revisao | explorar
+    questao_id    INTEGER REFERENCES questoes(id), -- null até a 1ª "Próxima"
+    atualizado_em TEXT NOT NULL                    -- ISO 8601
+);
 """
 
 
@@ -150,6 +157,26 @@ def _migrar_tentativas(con: sqlite3.Connection) -> None:
             con.execute(f"ALTER TABLE tentativas ADD COLUMN {nome} TEXT")
 
 
+def _migrar_sessoes(con: sqlite3.Connection) -> None:
+    """Recria `sessoes` no formato atual (PK só em `usuario`).
+
+    Um formato intermediário com PK composto (usuario, modo) foi criado durante
+    o desenvolvimento; bancos com esse formato são recriados."""
+    cols = con.execute("PRAGMA table_info(sessoes)").fetchall()
+    if not cols:
+        return
+    if len([r for r in cols if r[5]]) != 1 or cols[0][1] != "usuario":
+        con.execute("DROP TABLE sessoes")
+        con.execute(
+            """CREATE TABLE sessoes (
+                usuario       TEXT NOT NULL PRIMARY KEY,
+                modo          TEXT NOT NULL,
+                questao_id    INTEGER REFERENCES questoes(id),
+                atualizado_em TEXT NOT NULL
+            )"""
+        )
+
+
 def connect(db_path: str | Path | None = None) -> sqlite3.Connection:
     path = Path(db_path) if db_path else DB_PATH
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -159,5 +186,6 @@ def connect(db_path: str | Path | None = None) -> sqlite3.Connection:
     _migrar_questoes(con)
     _migrar_fase_temas(con)
     _migrar_tentativas(con)
+    _migrar_sessoes(con)
     con.commit()
     return con

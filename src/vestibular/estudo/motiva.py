@@ -361,6 +361,58 @@ def resumo_revisao(
     return {"vencidos": vencidos or 0, "pendencias": pendencias or 0}
 
 
+def marcar_sessao(
+    con: sqlite3.Connection,
+    usuario: str,
+    modo: str,
+    questao_id: int | None = None,
+    agora: dt.datetime | None = None,
+) -> None:
+    """Persiste o modo ativo do usuário (e, opcionalmente, a questão em aberto).
+
+    Sobrevive a refresh/nova sessão do app: `_restaurar_do_url` reabre o MESMO
+    modo + questão, independente de query params na URL. `questao_id=None`
+    atualiza só o modo (a questão aberta anterior é preservada)."""
+    agora_iso = _naive_iso(agora or _agora())
+    if questao_id is None:
+        con.execute(
+            """INSERT INTO sessoes (usuario, modo, questao_id, atualizado_em)
+               VALUES (?, ?, NULL, ?)
+               ON CONFLICT (usuario) DO UPDATE SET
+                   modo = excluded.modo,
+                   atualizado_em = excluded.atualizado_em""",
+            (usuario, modo, agora_iso),
+        )
+    else:
+        con.execute(
+            """INSERT INTO sessoes (usuario, modo, questao_id, atualizado_em)
+               VALUES (?, ?, ?, ?)
+               ON CONFLICT (usuario) DO UPDATE SET
+                   modo = excluded.modo,
+                   questao_id = excluded.questao_id,
+                   atualizado_em = excluded.atualizado_em""",
+            (usuario, modo, questao_id, agora_iso),
+        )
+    con.commit()
+
+
+def sessao_atual(
+    con: sqlite3.Connection,
+    usuario: str,
+) -> tuple[str | None, int | None]:
+    """Sessão persistida do usuário: (modo, questao_id); (None, None) sem registro."""
+    row = con.execute(
+        "SELECT modo, questao_id FROM sessoes WHERE usuario = ?", (usuario,)
+    ).fetchone()
+    return (row["modo"], row["questao_id"]) if row else (None, None)
+
+
+def apagar_sessao(con: sqlite3.Connection, usuario: str) -> None:
+    """Remove a sessão persistida (ex.: filtros mudaram → recomeçar)."""
+    con.execute("DELETE FROM sessoes WHERE usuario = ?", (usuario,))
+    con.commit()
+
+
 def questao_por_id(
     con: sqlite3.Connection,
     usuario: str,

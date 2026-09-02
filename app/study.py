@@ -202,16 +202,19 @@ def _fb_encode(correta, gabarito) -> str:
 
 
 def _restaurar_questao(prefix: str, usuario: str):
-    """Restaura a questão em aberto (Estudar/Revisão) a partir de `?qid=`."""
-    qid = _param("qid")
-    if not qid:
-        return
-    try:
-        qid = int(qid)
-    except ValueError:
-        return
+    """Restaura a questão em aberto (Estudar/Revisão).
+
+    Preferência: a questão persistida em `sessoes` (sobrevive a refresh mesmo
+    sem `?qid=`); senão o `?qid=` da URL."""
     with connect() as con:
-        resto = motiva.questao_por_id(con, usuario, qid)
+        _, qid = motiva.sessao_atual(con, usuario)
+        if qid is None:
+            raw = _param("qid")
+            try:
+                qid = int(raw) if raw else None
+            except ValueError:
+                qid = None
+        resto = motiva.questao_por_id(con, usuario, qid) if qid else None
     if resto:
         st.session_state[f"{prefix}_q"] = resto
         st.session_state["params_qid"] = str(qid)
@@ -233,13 +236,26 @@ def _restaurar_fb(prefix: str):
         st.session_state[f"{prefix}_fb"] = (texto, {"gabarito": gab})
 
 
+_MODO_LABEL = {
+    "estudar": "Estudar",
+    "revisao": "Revisão",
+    "explorar": "Explorar",
+    "estatisticas": "Estatísticas",
+}
+
+
 def _restaurar_do_url():
     """Na primeira execução após um load (ex.: refresh no celular), restaura os
-    widgets a partir da URL: modo, usuário e a questão em aberto."""
+    widgets a partir da URL e/ou da sessão persistida no banco: modo, usuário e
+    a questão em aberto."""
     if st.session_state.get("_carregado"):
         return
     st.session_state.setdefault("usuario", _param("usuario") or "eu")
-    modo = _param("modo") or "Estudar"
+    modo = _param("modo")
+    if modo is None:
+        with connect() as con:
+            modo, _ = motiva.sessao_atual(con, "eu")
+        modo = _MODO_LABEL.get(modo or "") or "Estudar"
     if modo not in ("Estudar", "Revisão", "Explorar", "Estatísticas"):
         modo = "Estudar"
     st.session_state["modo"] = modo
@@ -444,8 +460,8 @@ def _passo_b_caderno_erros(key_suffix: str, on_responder, on_avancar):
     síntese ativa, exibido após a conferência do gabarito quando a questão foi
     errada ou o usuário não estava convicto (dúvida/chute).
 
-    Acertos convictos seguem o fluxo normal, sem interrupção. `Enter` no campo
-    de texto envia a síntese e avança (form do Streamlit)."""
+    Acertos convictos seguem o fluxo normal, sem interrupção. O botão de salvar
+    só fica habilitado com texto preenchido (evita submeter sem síntese)."""
     resp = st.session_state.get(f"resp_{key_suffix}")
     r = st.session_state.get(f"res_{key_suffix}")
     if resp is None or on_responder is None or r is None:
@@ -490,17 +506,20 @@ def _passo_b_caderno_erros(key_suffix: str, on_responder, on_avancar):
             key=f"causa_{key_suffix}",
             format_func=motiva.CAUSA_ERRO_LABEL.get,
         )
-        with st.form(f"sintese_{key_suffix}"):
-            sintese = st.text_input(
-                "Síntese ativa (1-2 frases)",
-                placeholder="O que você aprendeu com este erro/dúvida?",
-                key=f"sintese_{key_suffix}",
-            )
-            enviar = st.form_submit_button(
-                "💾 Salvar e Avançar", use_container_width=True
-            )
-        if enviar:
-            salvar(causa, sintese.strip() or None)
+        sintese = st.text_input(
+            "Síntese ativa (1-2 frases)",
+            placeholder="O que você aprendeu com este erro/dúvida?",
+            key=f"sintese_{key_suffix}",
+        )
+        tem_texto = bool((sintese or "").strip())
+        if st.button(
+            "💾 Salvar e Avançar",
+            use_container_width=True,
+            type="primary",
+            disabled=not tem_texto,
+            key=f"save_{key_suffix}",
+        ):
+            salvar(causa, (sintese or "").strip())
         st.button(
             "Ignorar / Salvar sem síntese",
             key=f"ign_{key_suffix}",
@@ -663,6 +682,8 @@ def _reset_filtro():
     st.session_state.pop("params_fb", None)
     st.session_state["estudar_fsrs"] = []
     st.session_state["revisao_fsrs"] = []
+    with connect() as con:
+        motiva.apagar_sessao(con, "eu")
 
 
 def _muda_area():
@@ -715,6 +736,9 @@ def modo_estudar():
     sidebar = st.sidebar
     usuario = "eu"
 
+    with connect() as con:
+        motiva.marcar_sessao(con, usuario, "estudar")
+
     areas, temas = _catalogo()
     objs_area = {nome: id_ for id_, nome in areas}
     objs_tema = {nome: (id_, area_id) for id_, area_id, nome, _ in temas}
@@ -758,6 +782,9 @@ def modo_estudar():
         with connect() as con:
             q2 = motiva.proxima_questao(
                 con, usuario, area_id=area_id, tema_id=tema_id, fase=fase_id
+            )
+            motiva.marcar_sessao(
+                con, usuario, "estudar", q2["questao_id"] if q2 else None
             )
         st.session_state["estudar_q"] = q2
         st.session_state["estudar_aviso"] = None
@@ -888,6 +915,9 @@ def modo_revisao():
     sidebar = st.sidebar
     usuario = "eu"
 
+    with connect() as con:
+        motiva.marcar_sessao(con, usuario, "revisao")
+
     areas, temas = _catalogo()
     objs_area = {nome: id_ for id_, nome in areas}
     objs_tema = {nome: (id_, area_id) for id_, area_id, nome, _ in temas}
@@ -940,6 +970,9 @@ def modo_revisao():
         with connect() as con:
             q2 = motiva.proxima_revisao(
                 con, usuario, area_id=area_id, tema_id=tema_id, fase=fase_id
+            )
+            motiva.marcar_sessao(
+                con, usuario, "revisao", q2["questao_id"] if q2 else None
             )
         st.session_state["revisao_q"] = q2
         st.session_state["revisao_aviso"] = None
