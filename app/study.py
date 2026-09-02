@@ -16,6 +16,7 @@ import re
 from pathlib import Path
 
 import estatisticas
+import estilo
 import pandas as pd
 import streamlit as st
 from panzoom import view_page
@@ -136,6 +137,14 @@ def _nome_vestibular(label: str) -> str:
     return nome + (f" {ano}" if ano else "") + (f"/{sem}" if sem else "")
 
 
+def _ano_do_label(label: str) -> str:
+    """Ano extraído do label (fuvest_2024 → '2024')."""
+    for p in label.split("_"):
+        if p.isdigit() and len(p) == 4:
+            return p
+    return ""
+
+
 @st.cache_data(show_spinner=False)
 def _max_pagina(label: str) -> int:
     """Maior número de página renderizada (JPEG) disponível para o exame."""
@@ -227,13 +236,9 @@ def _restaurar_fb(prefix: str):
     if ":" not in raw:
         return
     marc, gab = raw.split(":", 1)
-    texto = {
-        "a": "⚠️ Anulada/sem gabarito oficial",
-        "c": "✅ Correta!",
-        "e": "❌ Errada.",
-    }.get(marc)
-    if texto:
-        st.session_state[f"{prefix}_fb"] = (texto, {"gabarito": gab})
+    correta = {"a": None, "c": True, "e": False}.get(marc)
+    if marc in ("a", "c", "e"):
+        st.session_state[f"{prefix}_fb"] = (correta, gab)
 
 
 _MODO_LABEL = {
@@ -321,86 +326,101 @@ def _render_questao(
     leituras, obs = _separar_observacoes(q.get("_textos_de_apoio", []))
 
     # identificação: vestibular, número, tipo e todos os temas
-    info = f"**{_nome_vestibular(label)}** · Questão {numero} · {q['tipo']}"
-    info += (
-        f" · {len(midia)} figura(s)" if has_midia else " · sem mídia"
-    )
-    st.markdown(info)
+    nome = _nome_vestibular(label)
+    ano = _ano_do_label(label)
     dados = _dados_temas(questao_id, usuario)
     if dados:
-        st.markdown("**Temas:**")
-        for t in dados:
-            sc = f"{t['score']:.2f}" if t["score"] is not None else "—"
-            th = f"{t['theta']:.2f}" if t["theta"] is not None else "—"
-            st.markdown(
-                f"- **{t['area']} → {t['tema']}** · "
-                f"θ área: {th} · score: {sc} ({t['contagem']} tentativa(s))"
-            )
-    elif q.get("areas"):
-        st.markdown("**Áreas:**")
-        st.markdown("\n".join(f"- **{a['area']}**" for a in q["areas"]))
+        temas = [f"{t['area']} → {t['tema']}" for t in dados]
+    else:
+        temas = [f"{a['area']} → {a['tema']}" for a in (q.get("areas") or [])]
+    st.markdown(
+        estilo.header_html(
+            numero,
+            [nome, f"{ano}" if ano else "" , *temas[:3]],
+        ),
+        unsafe_allow_html=True,
+    )
+    st.markdown(
+        estilo.info_html(
+            [
+                ("Vestibular", nome),
+                ("Ano", ano or "—"),
+                ("Questão", str(numero)),
+                ("Tipo", q["tipo"]),
+                ("Figuras", str(len(midia)) if has_midia else "—"),
+            ]
+        ),
+        unsafe_allow_html=True,
+    )
+    partes_apoio = "".join(f"<p>{estilo.esc(a)}</p>" for a in leituras)
+    par_p = "<p>" + estilo.esc(enunciado).replace("\n", "</p><p>")
+    st.markdown(
+        f"<div class='q-enun'><div class='q-leituras'>{partes_apoio}</div>{par_p}</div>",
+        unsafe_allow_html=True,
+    )
+    if obs:
+        st.markdown("---")
+        for a in obs:
+            st.markdown(f"> {a}")
 
-    with st.container(border=True):
-        for apoio in leituras:
-            st.markdown(apoio.replace("\n", "  \n"))
-        enun = enunciado.replace("\n", "  \n")
-        st.markdown(f"**{enun}**")
-        if obs:
-            st.markdown("---")
-            for a in obs:
-                st.markdown(f"> {a}")
-        alt = q.get("alternativas")
-        if alt:
-            key = f"resp_{key_suffix}"
-            if key not in st.session_state:
-                st.session_state[key] = None
-            resp = st.session_state.get(key)
-            opcoes = {f"{k.upper()}) {v}": k for k, v in alt.items()}
-            picked = st.radio(
-                "Responda:",
-                list(opcoes),
-                index=None,
-                key=f"radio_{key_suffix}",
-                disabled=resp is not None,
+    alt = q.get("alternativas")
+    if alt:
+        key = f"resp_{key_suffix}"
+        if key not in st.session_state:
+            st.session_state[key] = None
+        resp = st.session_state.get(key)
+        letras = sorted(alt)
+        choice = st.radio(
+            "Responda:",
+            letras,
+            format_func=lambda k: alt[k],
+            index=None,
+            key=f"radio_{key_suffix}",
+            disabled=resp is not None,
+        )
+        st.pills(
+            "Grau de certeza:",
+            list(motiva.GRAUS_CERTEZA),
+            selection_mode="single",
+            default="conviccao",
+            key=f"certeza_{key_suffix}",
+            format_func=motiva.GRAU_CERTEZA_LABEL.get,
+            disabled=resp is not None,
+            help="Sua autoconfiança antes de conferir o gabarito.",
+        )
+        if resp is None and st.button(
+            "Responder", key=f"btn_{key_suffix}", type="primary"
+        ):
+            if choice is None:
+                st.warning("Escolha uma alternativa.")
+            else:
+                letra = choice
+                st.session_state[key] = letra
+            st.session_state[f"certeza_usada_{key_suffix}"] = (
+                str(st.session_state.get(f"certeza_{key_suffix}", "conviccao"))
             )
-            st.radio(
-                "Grau de certeza:",
-                list(motiva.GRAUS_CERTEZA),
-                index=0,
-                horizontal=True,
-                key=f"certeza_{key_suffix}",
-                format_func=motiva.GRAU_CERTEZA_LABEL.get,
-                disabled=resp is not None,
-                help="Sua autoconfiança antes de conferir o gabarito.",
-            )
-            if resp is None and st.button("Responder", key=f"btn_{key_suffix}"):
-                if picked is None:
-                    st.warning("Escolha uma alternativa.")
-                else:
-                    st.session_state[key] = opcoes[picked]
-                    st.session_state[f"certeza_usada_{key_suffix}"] = (
-                        st.session_state.get(f"certeza_{key_suffix}", "conviccao")
-                    )
-                    if on_responder is not None:
-                        r = on_responder(
-                            numero,
-                            opcoes[picked],
-                            st.session_state[f"certeza_usada_{key_suffix}"],
-                        )
-                        if r is not None:
-                            st.session_state[f"res_{key_suffix}"] = r
-            if resp is not None and on_responder is None:
-                gab = q.get("gabarito")
-                st.success(
-                    f"Você marcou {resp.upper()}."
-                    + (f" Gabarito: {gab.upper()}." if gab else "")
+            if on_responder is not None:
+                r = on_responder(
+                    numero,
+                    letra,
+                    st.session_state[f"certeza_usada_{key_suffix}"],
                 )
-        else:
-            st.info(
-                "Redação — dissertação."
-                if q["tipo"] == "redacao"
-                else "Sem alternativas."
+                if r is not None:
+                    st.session_state[f"res_{key_suffix}"] = r
+        if resp is not None and on_responder is None:
+            gab = q.get("gabarito")
+            correta = (
+                None
+                if not gab
+                else resp.strip().lower() == gab.strip().lower()
             )
+            st.markdown(estilo.banda_html(correta, gab), unsafe_allow_html=True)
+    else:
+        st.info(
+            "Redação — dissertação."
+            if q["tipo"] == "redacao"
+            else "Sem alternativas."
+        )
 
     if feedback is not None:
         feedback()
@@ -499,11 +519,11 @@ def _passo_b_caderno_erros(key_suffix: str, on_responder, on_avancar):
         st.markdown(
             "**Caderno de erros** — 1-2 frases do que você aprendeu ajudam na revisão."
         )
-        causa = st.radio(
+        causa = st.pills(
             "Causa do erro/dúvida",
             list(motiva.CAUSAS_ERRO),
-            index=0,
-            horizontal=True,
+            selection_mode="single",
+            default=next(iter(motiva.CAUSAS_ERRO)),
             key=f"causa_{key_suffix}",
             format_func=motiva.CAUSA_ERRO_LABEL.get,
         )
@@ -610,9 +630,9 @@ def modo_explorar():
             )
             r = {"correta": correta, "gabarito": gabarito, "tentativa_id": None}
         fb = {
-            None: "⚠️ Anulada/sem gabarito oficial",
-            True: "✅ Correta!",
-            False: "❌ Errada.",
+            None: "anulada",
+            True: "correta",
+            False: "errada",
         }[correta]
         st.session_state[fb_key] = (fb, gabarito)
         return r
@@ -623,10 +643,14 @@ def modo_explorar():
     def render_feedback():
         fb = st.session_state.get(fb_key)
         if fb:
-            texto, gabarito = fb
-            st.markdown(f"### {texto}")
-            if gabarito:
-                st.caption(f"Gabarito oficial: {gabarito.upper()}")
+            status, gabarito = fb
+            st.markdown(
+                estilo.banda_html(
+                    {"correta": True, "errada": False, "anulada": None}[status],
+                    gabarito,
+                ),
+                unsafe_allow_html=True,
+            )
 
     _render_questao(
         q,
@@ -829,12 +853,7 @@ def modo_estudar():
                 r = motiva.responder(
                     con, usuario, q["questao_id"], resp, grau_certeza=grau_certeza
                 )
-            fb = {
-                None: "⚠️ Anulada/sem gabarito oficial",
-                True: "✅ Correta!",
-                False: "❌ Errada.",
-            }[r["correta"]]
-            st.session_state["estudar_fb"] = (fb, r)
+            st.session_state["estudar_fb"] = (r["correta"], r["gabarito"])
             st.session_state["params_fb"] = _fb_encode(r["correta"], r["gabarito"])
             for t in r["temas"]:
                 if t["vencimento"] is not None:
@@ -853,10 +872,10 @@ def modo_estudar():
         def render_feedback():
             fb = st.session_state.get("estudar_fb")
             if fb:
-                texto, r = fb
-                st.markdown(f"### {texto}")
-                st.caption(
-                    f"Gabarito oficial: {r['gabarito']}" if r["gabarito"] else ""
+                correta, gabarito = fb
+                st.markdown(
+                    estilo.banda_html(correta, gabarito),
+                    unsafe_allow_html=True,
                 )
 
         _render_questao(
@@ -1024,12 +1043,7 @@ def modo_revisao():
                 r = motiva.responder(
                     con, usuario, q["questao_id"], resp, grau_certeza=grau_certeza
                 )
-            fb = {
-                None: "⚠️ Anulada/sem gabarito oficial",
-                True: "✅ Correta!",
-                False: "❌ Errada.",
-            }[r["correta"]]
-            st.session_state["revisao_fb"] = (fb, r)
+            st.session_state["revisao_fb"] = (r["correta"], r["gabarito"])
             st.session_state["params_fb"] = _fb_encode(r["correta"], r["gabarito"])
             for t in r["temas"]:
                 if t["vencimento"] is not None:
@@ -1048,9 +1062,11 @@ def modo_revisao():
         def render_feedback():
             fb = st.session_state.get("revisao_fb")
             if fb:
-                texto, r = fb
-                st.markdown(f"### {texto}")
-                st.caption(f"Gabarito oficial: {r['gabarito']}" if r["gabarito"] else "")
+                correta, gabarito = fb
+                st.markdown(
+                    estilo.banda_html(correta, gabarito),
+                    unsafe_allow_html=True,
+                )
 
         _render_questao(
             full,
@@ -1497,11 +1513,24 @@ def _aviso_vencidos(usuario: str):
 
 
 def main():
-    st.title("🎓 Estudo Vestibular")
+    estilo.injetar()
+    st.markdown(
+        estilo.topbar_html(
+            "Estudo Vestibular", "FUVEST · UNIVESP · ENEM · FATEC · UNESP"
+        ),
+        unsafe_allow_html=True,
+    )
     _restaurar_do_url()
     _aviso_vencidos(st.session_state.get("usuario", "eu"))
-    modo = st.sidebar.radio(
-        "Modo", ["Estudar", "Revisão", "Explorar", "Estatísticas"], key="modo"
+    kwargs = {}
+    if "modo" not in st.session_state:
+        kwargs["default"] = "Estudar"
+    modo = st.sidebar.pills(
+        "Modo",
+        ["Estudar", "Revisão", "Explorar", "Estatísticas"],
+        selection_mode="single",
+        key="modo",
+        **kwargs,
     )
     params = {
         "modo": modo,

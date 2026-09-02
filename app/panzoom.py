@@ -154,6 +154,8 @@ def _page_image(label: str, page_num: int):
 
 
 def panzoom_component(label: str, page_num: int, bbox_percent, height=720):
+    from estilo import paleta
+
     rendered = _page_image(label, page_num)
     if rendered is None:
         st.error(f"Página não encontrada: {PAGES_DIR / (label + f'/p{page_num:03d}.jpg')} "
@@ -164,23 +166,48 @@ def panzoom_component(label: str, page_num: int, bbox_percent, height=720):
     bbox = _normalize_bbox(bbox_percent) or [0, 0, 1000, 1000]
     bbox = [b / 1000 for b in bbox]
 
-    bstyle = ("padding:2px 10px;border:1px solid #ccc;background:#fff;border-radius:6px;"
-              "cursor:pointer;font-size:14px")
-    html = """<div style="font-family:sans-serif">
-  <div style="display:flex;gap:6px;margin-bottom:6px;align-items:center;flex-wrap:wrap">
-    <button onclick="__pz.zoomOut()" style="%(b)s">&#8722;</button>
-    <button onclick="__pz.zoomIn()" style="%(b)s">&#43;</button>
-    <button onclick="__pz.fit()" style="%(b)s">Página inteira</button>
-    <button onclick="__pz.focus()" style="%(b)s">Enquadrar questão</button>
-    <small style="color:#666">arraste p/ mover &middot; roda ou 2 cliques p/ zoom</small>
-  </div>
-  <div id="pz" style="position:relative;width:100%%;height:%(h)dpx;overflow:hidden;
-       border:1px solid #ddd;background:#8a8a8a;touch-action:none;user-select:none;-webkit-user-select:none">
+    pp = paleta()
+    prim, borda, texto_suave, texto = (
+        pp["primaria"],
+        pp["borda"],
+        pp["texto_suave"],
+        pp["texto"],
+    )
+    fundo = pp["branco"]
+
+    css = f"""
+    <style>
+      * {{ box-sizing: border-box; }}
+      body {{ font-family: "Open Sans", "Inter", sans-serif; background: {fundo}; margin: 0; padding: 4px; }}
+      .pz-toolbar {{ display: flex; gap: 6px; margin-bottom: 6px; align-items: center; flex-wrap: wrap; }}
+      .pz-toolbar button {{
+        border: 1px solid {borda};
+        background: {fundo};
+        color: {texto};
+        border-radius: 8px;
+        padding: 6px 12px;
+        font-size: 13px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background-color .12s ease, color .12s ease, border-color .12s ease;
+      }}
+      .pz-toolbar button:hover {{ background: {prim}; border-color: {prim}; color: #fff; }}
+      .pz-toolbar small {{ color: {texto_suave}; margin-left: 4px; }}
+    </style>
+    """
+    html = '<div><div class="pz-toolbar">'
+    html += '<button onclick="__pz.zoomOut()">&#8722;</button>'
+    html += '<button onclick="__pz.zoomIn()">&#43;</button>'
+    html += '<button onclick="__pz.fit()">Página inteira</button>'
+    html += '<button onclick="__pz.focus()">Enquadrar questão</button>'
+    html += '<small>arraste p/ mover &middot; roda ou 2 cliques p/ zoom</small></div>'
+    html += f"""<div id="pz" style="position:relative;width:100%%;height:%(h)dpx;overflow:hidden;
+       border:1px solid {borda};background:#8a8a8a;touch-action:none;user-select:none;-webkit-user-select:none">
     <img id="pz-img" src="%(src)s" draggable="false"
          style="position:absolute;top:0;left:0;transform-origin:0 0;max-width:none;will-change:transform;
                 user-drag:none;-webkit-user-drag:none;pointer-events:none" />
-  </div>
-</div>""" % {"b": bstyle, "h": height, "src": src}
+  </div></div>""" % {"h": height, "src": src}
+    html = css + html
     html += _JS % (naturalW, naturalH, bbox)
     st.iframe(html, height=height + 60, width="stretch")
 
