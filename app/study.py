@@ -343,7 +343,8 @@ def _render_questao(
     with st.container(border=True):
         for apoio in leituras:
             st.markdown(apoio.replace("\n", "  \n"))
-        st.markdown(f"**{enunciado}**")
+        enun = enunciado.replace("\n", "  \n")
+        st.markdown(f"**{enun}**")
         if obs:
             st.markdown("---")
             for a in obs:
