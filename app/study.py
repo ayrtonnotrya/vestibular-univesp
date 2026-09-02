@@ -13,7 +13,6 @@ Roda no docker-compose:  docker compose up vestibular-app (porta 8501).
 
 import json
 import re
-from datetime import date
 from pathlib import Path
 
 import estatisticas
@@ -24,6 +23,7 @@ from panzoom import view_page
 from vestibular.estudo import motiva
 from vestibular.estudo.db import connect
 from vestibular.estudo.fsrs_config import MIN_TENTATIVAS_REVISAO
+from vestibular.estudo.fuso import hoje as fuso_hoje
 
 DATA = Path("/app/data")
 JSON_DIR = DATA / "json"
@@ -1366,7 +1366,7 @@ def modo_estatisticas():
     else:
         df_rev = _df(rev)
         df_rev["venc"] = pd.to_datetime(
-            df_rev["vencimento"], errors="coerce"
+            df_rev["vencimento"], format="ISO8601", errors="coerce"
         ).dt.strftime("%d/%m %H:%M")
         badge = {"atrasada": "🟠", "hoje": "🟡", "próxima": "🟢"}
         df_rev["status"] = (
@@ -1436,7 +1436,7 @@ def _vencidos_hoje(usuario: str) -> list[dict]:
                WHERE f.usuario = ? AND date(f.vencimento) <= date(?)
                  AND n.contagem >= ?
                ORDER BY f.vencimento, a.nome, t.nome""",
-            (usuario, date.today().isoformat(), MIN_TENTATIVAS_REVISAO),
+            (usuario, fuso_hoje().isoformat(), MIN_TENTATIVAS_REVISAO),
         ).fetchall()
     return [dict(r) for r in rows]
 
@@ -1446,7 +1446,7 @@ def _aviso_vencidos(usuario: str):
     venc = _vencidos_hoje(usuario)
     if not venc:
         return
-    hoje = date.today().isoformat()
+    hoje = fuso_hoje().isoformat()
     n_atras = sum(1 for v in venc if (v["venc"] or "")[:10] < hoje)
     n_hoje = len(venc) - n_atras
     partes = [f"{n_hoje} para hoje"]

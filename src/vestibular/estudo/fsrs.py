@@ -18,14 +18,11 @@ import sqlite3
 from fsrs import Card, Rating
 
 from .fsrs_config import CAP_REVISOES_SESSAO, MIN_TENTATIVAS_REVISAO, make_scheduler
+from .fuso import FUSO_BR, agora as _agora, naive_iso as _naive_iso
 
 _scheduler = make_scheduler()
 
 _ESTADO_MAPA = {0: "new", 1: "learning", 2: "review", 3: "relearning"}
-
-
-def _iso(d: dt.datetime) -> str:
-    return d.isoformat()
 
 
 def _card(con: sqlite3.Connection, usuario: str, tema_id: int) -> Card:
@@ -58,20 +55,27 @@ def revisar(
     Temas abaixo do portão de evidência (`contagem + 1 <
     MIN_TENTATIVAS_REVISAO`) não ganham card: retornam
     `{"vencimento": None, "estado": "exploracao"}` sem tocar em `fsrs_estados`.
+
+    O agendamento interno roda em UTC (exigência do py-fsrs), mas o
+    `vencimento` gravado marca o dia no fuso local (`FUSO_BR`, zero hora):
+    a virada do dia acontece à meia-noite de São Paulo, não às 21h (00h UTC).
     """
-    agora = agora or dt.datetime.now(dt.UTC)
+    agora = agora or _agora()
     if _contagem(con, usuario, tema_id) + 1 < MIN_TENTATIVAS_REVISAO:
         return {"tema_id": tema_id, "vencimento": None, "estado": "exploracao"}
     card = _card(con, usuario, tema_id)
     rating = Rating.Good if correta else Rating.Again
-    novo, _log = _scheduler.review_card(card, rating, agora)
-    # Vencimento no dia (zero hora): vale em qualquer momento do dia do
-    # vencimento, não num horário exato (dia + hora + minuto).
-    novo.due = novo.due.replace(hour=0, minute=0, second=0, microsecond=0)
+    novo, _log = _scheduler.review_card(card, rating, agora.astimezone(dt.UTC))
     estado = _ESTADO_MAPA.get(int(novo.state.value), "learning")
     repos, lapses = 1, 0
     if not correta:
         lapses = 1
+    # Vencimento no dia (zero hora do fuso local): vale em qualquer momento do
+    # dia do vencimento, não num horário exato. O card (card_json) fica em UTC
+    # para a retrievability do py-fsrs; só o `vencimento` segue o fuso local.
+    venc_br = novo.due.astimezone(FUSO_BR).replace(
+        hour=0, minute=0, second=0, microsecond=0
+    )
     con.execute(
         """INSERT INTO fsrs_estados
              (usuario, tema_id, card_json, estado, vencimento, ultima_revisao, repos, lapses)
@@ -88,14 +92,14 @@ def revisar(
             tema_id,
             novo.to_json(),
             estado,
-            _iso(novo.due),
-            _iso(agora),
+            _naive_iso(venc_br),
+            _naive_iso(agora),
             repos,
             lapses,
         ),
     )
     con.commit()
-    return {"tema_id": tema_id, "vencimento": novo.due, "estado": estado}
+    return {"tema_id": tema_id, "vencimento": venc_br, "estado": estado}
 
 
 def _retrievability(con: sqlite3.Connection, usuario: str, tema_id: int, agora) -> float | None:
@@ -140,9 +144,9 @@ def vencidos(
 
     Retorna: [{tema_id, area_id, nome, vencimento, r}].
     """
-    agora = agora or dt.datetime.now(dt.UTC)
+    agora = agora or _agora()
     conds = "(f.vencimento IS NULL OR date(f.vencimento) <= date(?))"
-    params: list = [usuario, usuario, _iso(agora)]
+    params: list = [usuario, usuario, _naive_iso(agora)]
     if area_id is not None:
         conds += " AND t.area_id = ?"
         params.append(area_id)
@@ -194,7 +198,9 @@ def vencidos(
                 "nome": r["nome"],
                 "vencimento": r["venc"],
                 "r": r_,
-                "_urg": (agora - dt.datetime.fromisoformat(r["venc"])).days
+                "_urg": (
+                    agora - dt.datetime.fromisoformat(r["venc"]).replace(tzinfo=FUSO_BR)
+                ).days
                 + 2 * (r["lapses"] or 0),
             }
         )

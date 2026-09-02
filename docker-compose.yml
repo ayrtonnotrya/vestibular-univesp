@@ -11,6 +11,8 @@ services:
       - ./src:/app/src
     env_file:
       - .env
+    environment:
+      TZ: America/Sao_Paulo
     networks:
       - web
 
@@ -22,6 +24,8 @@ services:
     volumes:
       - ./data:/app/data
       - ./src:/app/src
+    environment:
+      TZ: America/Sao_Paulo
     networks:
       - web
     # sem ports: só rede interna; NÃO expor no host

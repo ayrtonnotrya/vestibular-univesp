@@ -10,6 +10,7 @@ progresso e feedback ("você está fraco em Funções").
 import datetime as dt
 import sqlite3
 
+from .fuso import agora as _agora
 from .rasch import _logit
 
 MIN_TENTATIVAS_TEMA = 2  # mínimo de tentativas para o nível por tema guiar a seleção
@@ -43,7 +44,7 @@ def atualiza(
     """Atualiza score/racha/contagem por tema da questão. Retorna os níveis novos."""
     if correta is None:
         return []
-    agora = agora or dt.datetime.now(dt.UTC)
+    agora = agora or _agora()
     resultado = []
     for tema_id in _temas_da_questao(con, questao_id):
         nivel = nivel_tema(con, usuario, tema_id)

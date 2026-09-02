@@ -31,6 +31,7 @@ from . import niveis as niveis_mod
 from . import rasch as rasch_mod
 from . import seletor as seletor_mod
 from .fsrs_config import MIN_TENTATIVAS_REVISAO
+from .fuso import agora as _agora, naive_iso as _naive_iso
 from .rasch import _sigmoid
 
 # Pesos da prioridade do tema no sorteio da próxima questão: frequência real
@@ -164,7 +165,7 @@ def proxima_questao(
     area_id, theta, nivel_base ("tema"|"area"), nivel_tema (score por tema ou
     None), nivel_contagem.
     """
-    agora = agora or dt.datetime.now(dt.UTC)
+    agora = agora or _agora()
     rng = random.Random(seed)
     temas = _temas_pool(con, area_id, tema_id, fase)
     if not temas:
@@ -263,7 +264,7 @@ def proxima_revisao(
 
     `area_id`/`tema_id`/`fase` restringem o escopo como em `proxima_questao`.
     """
-    agora = agora or dt.datetime.now(dt.UTC)
+    agora = agora or _agora()
     rng = random.Random(seed)
     vencidos = fsrs_mod.vencidos(con, usuario, agora, area_id, tema_id, fase)
     due = [t for t in vencidos if t["vencimento"] is not None]
@@ -310,10 +311,10 @@ def resumo_revisao(
     """Contadores do modo Revisão no escopo (área/tema/fase): temas com
     revisão vencida no FSRS (todos, sem o cap da sessão) e nº de pendências
     distintas (última tentativa errada ou com dúvida/chute)."""
-    agora = agora or dt.datetime.now(dt.UTC)
+    agora = agora or _agora()
     cond, params = (
         "f.usuario = ? AND f.vencimento IS NOT NULL AND date(f.vencimento) <= date(?)",
-        [usuario, agora.isoformat()],
+        [usuario, _naive_iso(agora)],
     )
     if area_id is not None:
         cond += " AND t.area_id = ?"
@@ -419,7 +420,7 @@ def responder(
 
     `grau_certeza`/`causa_erro`/`sintese_ativa` (caderno de erros) são
     opcionais: acertos convictos e tentativas antigas ficam com NULL."""
-    agora = agora or dt.datetime.now(dt.UTC)
+    agora = agora or _agora()
     if grau_certeza is not None and grau_certeza not in GRAUS_CERTEZA:
         raise ValueError(
             f"grau_certeza inválido: {grau_certeza!r} (use {', '.join(GRAUS_CERTEZA)})"
@@ -546,7 +547,7 @@ def progresso(con: sqlite3.Connection, usuario: str) -> list[dict]:
            ORDER BY a.nome""",
         (
             usuario,
-            dt.datetime.now(dt.UTC).isoformat(),
+            _naive_iso(_agora()),
             usuario,
         ),
     ).fetchall()

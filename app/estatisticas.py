@@ -15,6 +15,7 @@ from vestibular.estudo.fsrs_config import (
     MIN_TENTATIVAS_REVISAO,
     make_scheduler,
 )
+from vestibular.estudo.fuso import FUSO_BR, agora as fuso_agora
 from vestibular.estudo.motiva import CAUSA_ERRO_LABEL, GRAU_CERTEZA_LABEL
 
 _scheduler = make_scheduler()
@@ -40,11 +41,29 @@ def _temas_areas(con: sqlite3.Connection) -> dict[int, dict]:
     }
 
 
+def _naive_local_iso(agora_: dt.datetime) -> str:
+    """ISO local SEM offset de um datetime — para comparar por dia no SQL."""
+    return agora_.astimezone(FUSO_BR).replace(tzinfo=None).isoformat()
+
+
+def _iso_local(s: str) -> str:
+    """ISO de `fsrs_estados.vencimento` -> ISO local SEM offset (dia BR).
+
+    O banco tem valores legados com `+00:00` (UTC) e novos sem offset (já
+    locais); normalizar para local sem offset evita `Mixed timezones` no
+    pandas e alinha a virada do dia à meia-noite de São Paulo."""
+    try:
+        d = dt.datetime.fromisoformat(s)
+    except ValueError:
+        return s
+    return d.astimezone(FUSO_BR).replace(tzinfo=None).isoformat()
+
+
 def resumo(
     con: sqlite3.Connection, usuario: str, agora: dt.datetime | None = None
 ) -> dict:
     """Métricas gerais do usuário: totais, aproveitamento, período e revisões."""
-    agora = agora or dt.datetime.now(dt.UTC)
+    agora = agora or fuso_agora()
     row = con.execute(
         """SELECT COUNT(*) AS total,
                   SUM(CASE WHEN correta = 1 THEN 1 ELSE 0 END) AS acertos,
@@ -74,7 +93,7 @@ def resumo(
            JOIN niveis_usuarios n ON n.tema_id = f.tema_id AND n.usuario = f.usuario
            WHERE f.usuario = ? AND f.vencimento IS NOT NULL
              AND date(f.vencimento) <= date(?) AND n.contagem >= ?""",
-        (usuario, agora.isoformat(), MIN_TENTATIVAS_REVISAO),
+        (usuario, _naive_local_iso(agora), MIN_TENTATIVAS_REVISAO),
     ).fetchone()[0]
     return {
         "total": total,
@@ -190,7 +209,7 @@ def por_tema(
     con: sqlite3.Connection, usuario: str, agora: dt.datetime | None = None
 ) -> list[dict]:
     """Por tema com tentativas: score, racha, contagem e estado FSRS."""
-    agora = agora or dt.datetime.now(dt.UTC)
+    agora = agora or fuso_agora()
     fsrs = {
         r["tema_id"]: r
         for r in con.execute(
@@ -346,7 +365,7 @@ def revisoes(
 ) -> list[dict]:
     """Fila de revisão FSRS: temas com estado (e contagem >= portão),
     ordenados por status e data."""
-    agora = agora or dt.datetime.now(dt.UTC)
+    agora = agora or fuso_agora()
     cond, params = (
         "f.usuario = ? AND f.vencimento IS NOT NULL AND n.contagem >= ?",
         [usuario, MIN_TENTATIVAS_REVISAO],
@@ -372,7 +391,7 @@ def revisoes(
                 "estado": r["estado"],
                 "repos": r["repos"],
                 "lapses": r["lapses"],
-                "vencimento": r["vencimento"],
+                "vencimento": _iso_local(r["vencimento"]),
                 "status": _status_vencimento(r["vencimento"], agora),
             }
         )
@@ -573,7 +592,7 @@ def retencao(
     """Retrievability (R) atual de cada tema pelo FSRS, do mais esquecido ao
     mais fresco. Só temas com contagem >= portão (os exploráveis não têm card
     de agendamento)."""
-    agora = agora or dt.datetime.now(dt.UTC)
+    agora = agora or fuso_agora()
     cond, params = (
         "f.usuario = ? AND f.card_json IS NOT NULL AND n.contagem >= ?",
         [usuario, MIN_TENTATIVAS_REVISAO],
