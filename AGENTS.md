@@ -62,6 +62,13 @@ Fluxo implementado em `tools/gemini/` (Python, roda via `gemini-runner`):
    dos JSONs a partir do **texto oficial** do gabarito (`tmp/gabaritos/<label>_gabarito.txt`,
    gerado com `pdftotext -layout`), imprimindo as divergências para conferência.
    Usar depois do `extract` e antes/junto do `repair`.
+6b. **dedupe_apoios**: `dedupe_apoios.py [labels...] [--check]` remove de
+   `textos_de_apoio` itens já contidos INTEGRALMENTE no `enunciado` (conferência
+   verbatim após colapsar espaços/minúsculas — paráfrases não são removidas).
+   Gap do prompt: sem regra separando comando de motivador, o modelo gravou o
+   bloco inteiro no `enunciado` E repetiu o motivador em `textos_de_apoio`
+   (1086 casos, sobretudo ENEM/FATEC). Já aplicado em todos os exames; --check
+   confere sem escrever.
 7. **fix_paginas**: `fix_paginas.py [labels...]` grava `pagina` (1-indexada,
    pág. 1 = capa) em cada questão do `_questoes.json` e corrige `pagina` inválida
    no `_imagens.json`. Fontes: página do bbox (figuras) → localização pelo texto
