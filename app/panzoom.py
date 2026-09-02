@@ -38,6 +38,26 @@ def _page_image(label: str, page_num: int):
     return _page_jpeg(label, page_num)
 
 
+def _normalize_bbox(bbox):
+    """Normaliza bbox dos JSONs para [y0,x0,y1,x1] em permil.
+
+    Alguns JSONs gravaram bbox aninhado — [[y0,x0,y1,x1]] — em vez do vetor
+    plano; desfaz o aninhamento único para não quebrar a divisão por 1000.
+    """
+    if not isinstance(bbox, list) or not bbox:
+        return None
+    plano = len(bbox) == 4 and all(isinstance(v, (int, float)) for v in bbox)
+    if plano:
+        return bbox
+    if (
+        len(bbox) == 1
+        and isinstance(bbox[0], list)
+        and all(isinstance(v, (int, float)) for v in bbox[0])
+    ):
+        return bbox[0]
+    return None
+
+
 _JS = r"""
 <script>
 (function() {
@@ -140,8 +160,9 @@ def panzoom_component(label: str, page_num: int, bbox_percent, height=720):
                  f"— rode tools/gemini/render_pages.py para gerá-la.")
         return
     b64, naturalW, naturalH = rendered
-    src = "data:image/png;base64," + b64
-    bbox = [b / 1000 for b in bbox_percent]
+    src = "data:image/jpeg;base64," + b64
+    bbox = _normalize_bbox(bbox_percent) or [0, 0, 1000, 1000]
+    bbox = [b / 1000 for b in bbox]
 
     bstyle = ("padding:2px 10px;border:1px solid #ccc;background:#fff;border-radius:6px;"
               "cursor:pointer;font-size:14px")
