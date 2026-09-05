@@ -311,14 +311,12 @@ def _render_questao(
     feedback=None,
     questao_id: int | None = None,
     usuario: str = "eu",
-    on_avancar=None,
 ):
     """Renderiza questão (em cima) + página pan/zoom (embaixo).
 
     `feedback` (callable ou None) renderiza o resultado da resposta entre a
     questão e a página, se fornecido. `questao_id` (opcional) habilita a lista
-    completa de temas da questão. `on_avancar` (opcional) é chamado por
-    "Salvar e Avançar" do caderno de erros para ir à próxima questão.
+    completa de temas da questão.
     """
     numero, enunciado = q["numero"], q["enunciado"]
     has_midia = bool(q.get("midia") or q.get("_midia"))
@@ -425,7 +423,7 @@ def _render_questao(
     if feedback is not None:
         feedback()
 
-    _passo_b_caderno_erros(key_suffix, on_responder, on_avancar)
+    _passo_b_caderno_erros(key_suffix, on_responder)
 
     pagina_padrao, bbox_padrao = _page_info(label, numero)
     pkey = f"pag_{key_suffix}"
@@ -476,13 +474,13 @@ def _render_questao(
             view_page(label, pagina, [0, 0, 1000, 1000], height=680)
 
 
-def _passo_b_caderno_erros(key_suffix: str, on_responder, on_avancar):
-    """Caderno de erros (Passo B): popover não-bloqueante de causa do erro +
-    síntese ativa, exibido após a conferência do gabarito quando a questão foi
-    errada ou o usuário não estava convicto (dúvida/chute).
+def _passo_b_caderno_erros(key_suffix: str, on_responder):
+    """Caderno de erros (Passo B): bloco inline (sem popover) de causa do erro
+    + síntese ativa, exibido assim que o gabarito é conferido quando a questão
+    foi errada ou o usuário não estava convicto (dúvida/chute).
 
     Acertos convictos seguem o fluxo normal, sem interrupção. O botão de salvar
-    só fica habilitado com texto preenchido (evita submeter sem síntese)."""
+    só grava com texto preenchido; vazio não envia (e não avança)."""
     resp = st.session_state.get(f"resp_{key_suffix}")
     r = st.session_state.get(f"res_{key_suffix}")
     if resp is None or on_responder is None or r is None:
@@ -493,37 +491,33 @@ def _passo_b_caderno_erros(key_suffix: str, on_responder, on_avancar):
             st.success("✅ Causa + síntese salvas no caderno de erros.")
         return
     certeza = st.session_state.get(f"certeza_usada_{key_suffix}", "conviccao")
-    precisa = r.get("correta") is False or certeza in ("duvida", "chute")
-    if not precisa:
+    if r.get("correta") is not False and certeza not in ("duvida", "chute"):
         return
     tid = r.get("tentativa_id")
     if not tid:
-        st.caption("Questão ainda não importada no banco — anotação não é persistida.")
+        st.info("Responda pelo modo Estudar/Revisão para registrar no caderno de erros.")
         return
 
     def salvar(causa, sintese):
-        with connect() as con:
-            motiva.anotar_erro(con, tid, causa, sintese)
-        st.session_state[f"anotado_{key_suffix}"] = "salvo"
-        st.toast("✅ Caderno de erros atualizado.", icon="🗒️")
-        try:
-            if on_avancar is not None:
-                on_avancar()
-        except Exception:  # noqa: BLE001 — o avanço não deve ocultar a confirmação da gravação
-            st.toast("Anotação salva, mas não foi possível avançar.", icon="⚠️")
+        if not (sintese or "").strip():
+            st.session_state[f"anotado_{key_suffix}"] = True
+            st.toast("Sem síntese — anotação não foi salva.", icon="🗒️")
+        else:
+            with connect() as con:
+                motiva.anotar_erro(con, tid, causa, sintese)
+            st.session_state[f"anotado_{key_suffix}"] = "salvo"
+            st.toast("✅ Caderno de erros atualizado.", icon="🗒️")
 
     def ignorar():
         st.session_state[f"anotado_{key_suffix}"] = True
 
-    with st.popover("🗒️ Anotar este erro/dúvida", use_container_width=True):
-        st.markdown(
-            "**Caderno de erros** — 1-2 frases do que você aprendeu ajudam na revisão."
-        )
-        causa = st.pills(
+    with st.container(border=True):
+        st.markdown("**🗒️ Caderno de erros** — registre o que você aprendeu:")
+        causa = st.radio(
             "Causa do erro/dúvida",
             list(motiva.CAUSAS_ERRO),
-            selection_mode="single",
-            default=next(iter(motiva.CAUSAS_ERRO)),
+            horizontal=True,
+            index=0,
             key=f"causa_{key_suffix}",
             format_func=motiva.CAUSA_ERRO_LABEL.get,
         )
@@ -532,20 +526,53 @@ def _passo_b_caderno_erros(key_suffix: str, on_responder, on_avancar):
             placeholder="O que você aprendeu com este erro/dúvida?",
             key=f"sintese_{key_suffix}",
         )
-        tem_texto = bool((sintese or "").strip())
-        if st.button(
-            "💾 Salvar e Avançar",
-            use_container_width=True,
-            type="primary",
-            disabled=not tem_texto,
-            key=f"save_{key_suffix}",
-        ):
-            salvar(causa, (sintese or "").strip())
-        st.button(
-            "Ignorar / Salvar sem síntese",
-            key=f"ign_{key_suffix}",
-            on_click=ignorar,
-        )
+        c1, c2 = st.columns(2)
+        with c1:
+            st.button(
+                "💾 Salvar",
+                type="primary",
+                use_container_width=True,
+                key=f"save_{key_suffix}",
+            ) and salvar(causa, (sintese or "").strip())
+        with c2:
+            st.button(
+                "Ignorar",
+                use_container_width=True,
+                key=f"ign_{key_suffix}",
+                on_click=ignorar,
+            )
+
+
+def _anotar_pendente(prefix: str, usuario: str) -> None:
+    """Salva a anotação já digitada antes de avançar, para nada se perder.
+
+    Só escreve quando a questão em aberto foi respondida com erro/dúvida/chute,
+    ainda não anotada/ignorada e a síntese ativa tem texto — campo vazio não
+    envia (regra do usuário). Idempotente: o botão "Salvar" já marca
+    `anotado_*`, então este passo não duplica. O botão Salvar nunca avança."""
+    q = st.session_state.get(f"{prefix}_q")
+    if not q:
+        return
+    key = f"{prefix}_{q['questao_id']}"
+    resp = st.session_state.get(f"resp_{key}")
+    r = st.session_state.get(f"res_{key}")
+    if resp is None or r is None:
+        return
+    if st.session_state.get(f"anotado_{key}"):
+        return
+    certeza = st.session_state.get(f"certeza_usada_{key}", "conviccao")
+    if r.get("correta") is not False and certeza not in ("duvida", "chute"):
+        return
+    tid = r.get("tentativa_id")
+    if not tid:
+        return
+    sintese = (st.session_state.get(f"sintese_{key}") or "").strip()
+    if not sintese:
+        return
+    causa = st.session_state.get(f"causa_{key}") or motiva.CAUSAS_ERRO[0]
+    with connect() as con:
+        motiva.anotar_erro(con, tid, causa, sintese)
+    st.session_state[f"anotado_{key}"] = "salvo"
 
 
 def _questao_json(label: str, numero: int) -> dict | None:
@@ -637,9 +664,6 @@ def modo_explorar():
         st.session_state[fb_key] = (fb, gabarito)
         return r
 
-    def avancar_explorar():
-        st.session_state["explo_proxima"] = True
-
     def render_feedback():
         fb = st.session_state.get(fb_key)
         if fb:
@@ -660,7 +684,6 @@ def modo_explorar():
         feedback=render_feedback,
         questao_id=questao_id,
         usuario=usuario,
-        on_avancar=avancar_explorar,
     )
 
     _mostrar_progresso(usuario)
@@ -804,6 +827,7 @@ def modo_estudar():
     tema_id = objs_tema.get(tema, (None, None))[0]
 
     def proxima():
+        _anotar_pendente("estudar", usuario)
         with connect() as con:
             q2 = motiva.proxima_questao(
                 con, usuario, area_id=area_id, tema_id=tema_id, fase=fase_id
@@ -886,7 +910,6 @@ def modo_estudar():
             feedback=render_feedback,
             questao_id=q["questao_id"],
             usuario=usuario,
-            on_avancar=proxima,
         )
 
         with st.expander("Próximos vencimentos"):
@@ -987,6 +1010,7 @@ def modo_revisao():
     )
 
     def proxima():
+        _anotar_pendente("revisao", usuario)
         with connect() as con:
             q2 = motiva.proxima_revisao(
                 con, usuario, area_id=area_id, tema_id=tema_id, fase=fase_id
@@ -1001,10 +1025,12 @@ def modo_revisao():
         st.session_state.pop("params_fb", None)
         if q2 is None:
             filtrado = area_id is not None or tema_id is not None or fase_id is not None
-            if resumo["vencidos"] and not resumo["pendencias"]:
+            if resumo["vencidos"]:
                 st.session_state["revisao_aviso"] = (
-                    "Temas vencidos, mas sem pendências no caderno de erros. "
-                    "A revisão mostra só questões erradas ou com dúvida/chute."
+                    "Temas vencidos, mas sem questões disponíveis: sem "
+                    "pendências no caderno de erros e sem inéditas no tema."
+                    if not filtrado
+                    else "Temas vencidos no filtro, mas sem questões disponíveis."
                 )
             else:
                 st.session_state["revisao_aviso"] = (
@@ -1076,7 +1102,6 @@ def modo_revisao():
             feedback=render_feedback,
             questao_id=q["questao_id"],
             usuario=usuario,
-            on_avancar=proxima,
         )
 
         with st.expander(f"🗒️ Pendências de {q['tema_nome']}"):

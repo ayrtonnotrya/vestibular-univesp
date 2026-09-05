@@ -13,8 +13,8 @@ Modo Estudar (`proxima_questao`):
 3. questão do tema sorteado é sorteada uniformemente, preferindo inéditas.
 
 Modo Revisão (`proxima_revisao`): fila dedicada dos temas **vencidos** pelo
-FSRS (portão de contagem, cap por sessão), escolhendo questões já vistas —
-pendências (erro/dúvida/chute) primeiro, depois acertos antigos.
+FSRS (portão de contagem, cap por sessão) — pendências (erro/dúvida/chute)
+primeiro e, se o tema não tem pendência, questão **inédita** do tema.
 
 Resposta (`responder`) grava tentativa, atualiza FSRS do(s) tema(s), θ da(s)
 área(s), nível por tema (score/racha/contagem) e o `b` da questão.
@@ -255,12 +255,12 @@ def proxima_revisao(
     fase: int | None = None,
 ) -> dict | None:
     """Próxima questão da fila de revisão: um tema **vencido** pelo FSRS do
-    usuário (portão de contagem, sem cap) com questão **pendente** (última
-    resposta errada/dúvida/chute). Acertos antigos ficam de fora — nunca
-    inéditas nem questões já respondidas corretamente.
+    usuário (portão de contagem, sem cap). Dentro do tema, a questão vem das
+    **pendências** (última resposta errada/dúvida/chute) ou, na ausência,
+    de uma **inédita** — nunca questões já respondidas corretamente.
 
-    Mesmo shape de retorno de `proxima_questao`; None quando não há tema
-    vencido no escopo (o aviso padrão do app cobre).
+    Mesmo shape de retorno de `proxima_questao`; None quando nenhum tema
+    vencido do escopo tem pendência ou inédita (o aviso padrão do app cobre).
 
     `area_id`/`tema_id`/`fase` restringem o escopo como em `proxima_questao`.
     """

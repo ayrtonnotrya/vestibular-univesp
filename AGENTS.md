@@ -164,9 +164,10 @@ Resultado extraído e validado (gabaritos 100% conferidos):
   FSRS/θ/b/nível como antes.
 - **Modo Revisão:** fila dedicada via `motiva.proxima_revisao` (temas
   **vencidos** do FSRS — só o grupo due de `fsrs.vencidos()`, fora do cap) +
-  `seletor.escolher_revisao`: questão **já vista** — pendências do caderno de
-  erros (última resposta `correta=0` ou `grau_certeza IN (duvida, chute)`)
-  primeiro, depois acertos antigos; **nunca** inéditas. Contadores
+  `seletor.escolher_revisao`: pendências do caderno de erros (última resposta
+  `correta=0` ou `grau_certeza IN (duvida, chute)`) primeiro; se o tema venceu
+  mas não tem pendência, cai numa questão **inédita** do tema (fallback);
+  nunca acertos antigos. Contadores
   "X vencidos · Y pendências" via `motiva.resumo_revisao`.
 - **Política do FSRS por tema** (`src/vestibular/estudo/fsrs_config.py`):
   tema só ganha card com `MIN_TENTATIVAS_REVISAO=3` respostas (antes é

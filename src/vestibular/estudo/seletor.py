@@ -116,12 +116,13 @@ def escolher_revisao(
     tema_id: int,
     rng: random.Random,
 ) -> dict | None:
-    """Questão JÁ vista do tema para a fila de revisão — nunca inéditas e nunca
-    questões já respondidas corretamente (mesmo sem certeza registrada).
+    """Questão do tema para a fila de revisão.
 
-    Ordem determinística pela última resposta: pendências (errada OU com
-    grau_certeza 'duvida'/'chute') — a mais antiga. Devolve None se o tema não
-    tem pendência.
+    Preferência pela última resposta: pendências (errada OU com grau_certeza
+    'duvida'/'chute') — a mais antiga; se o tema venceu mas não tem pendência,
+    cai em questão **inédita** (sorteada) para reforçar o tema. Não devolve
+    questões já respondidas corretamente. None se o tema não tem pendência nem
+    inédita.
     """
     questoes = _questoes_tema(con, tema_id)
     if not questoes:
@@ -130,14 +131,17 @@ def escolher_revisao(
     ult = _ultimas_tentativas(con, usuario, ids)
     vistas = [q for q in questoes if q["id"] in ult]
     if not vistas:
-        return None
+        return dict(rng.choice(questoes))
 
     def pendente(q: dict) -> bool:
         r = ult[q["id"]]
         return r["correta"] == 0 or r["grau_certeza"] in ("duvida", "chute")
 
     pendencias = [q for q in vistas if pendente(q)]
-    if not pendencias:
+    if pendencias:
+        pendencias.sort(key=lambda q: (ult[q["id"]]["data"], q["id"]))
+        return dict(pendencias[0])
+    ineditas = [q for q in questoes if q["id"] not in ult]
+    if not ineditas:
         return None
-    pendencias.sort(key=lambda q: (ult[q["id"]]["data"], q["id"]))
-    return dict(pendencias[0])
+    return dict(rng.choice(ineditas))
