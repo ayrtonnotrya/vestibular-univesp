@@ -1247,9 +1247,9 @@ def modo_estatisticas():
         if "aviso" not in df_ev.columns:
             piv = df_ev.pivot(index="dia", columns="Fase", values="pct").fillna(0)
             piv = piv.loc[[d for d in _ordem_dia(df_ev) if d in piv.index]]
-            st.line_chart(piv, y_label="Aproveitamento (%)")
+            st.line_chart(piv, y_label="Aproveitamento (%, suavizado)")
             st.dataframe(
-                df_ev[["dia", "Fase", "acertos", "tentativas", "pct"]],
+                df_ev[["dia", "Fase", "acertos", "tentativas", "pct", "pct_bruto"]],
                 hide_index=True,
                 use_container_width=True,
             )
@@ -1349,12 +1349,18 @@ def modo_estatisticas():
     col_a, col_b = st.columns([2, 1])
     col_a.line_chart(
         df_dias.sort_values("dia").set_index("dia")["pct"],
-        y_label="Aproveitamento (%)",
+        y_label="Aproveitamento (%, suavizado)",
     )
     col_b.dataframe(
-        df_dias[["dia", "tentativas", "acertos", "pct"]],
+        df_dias[["dia", "tentativas", "acertos", "pct", "pct_bruto"]],
         hide_index=True,
         use_container_width=True,
+    )
+    st.caption(
+        "Aproveitamento suavizado por amostragem (Beta-Binomial: κ=4 "
+        "tentativas fictícias a 50%, mesmo κ do b do Rasch). Dias com poucas "
+        "questões tendem a 50% em vez de 0/100%; `pct_bruto` ao lado para "
+        "conferência."
     )
 
     if sel == "Todas as áreas":

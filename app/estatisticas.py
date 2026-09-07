@@ -17,8 +17,16 @@ from vestibular.estudo.fsrs_config import (
 )
 from vestibular.estudo.fuso import FUSO_BR, agora as fuso_agora
 from vestibular.estudo.motiva import CAUSA_ERRO_LABEL, GRAU_CERTEZA_LABEL
+from vestibular.estudo.rasch import KAPPA
 
 _scheduler = make_scheduler()
+
+
+def _pct_suave(acertos: int, total: int) -> float:
+    """Aproveitamento suavizado (Beta-Binomial, prior com média 0.5 e κ
+    pseudo-observações): com poucas tentativas converge para 50% em vez de
+    0/100%; com muita amostra, ~o % bruto."""
+    return 100.0 * (acertos + KAPPA / 2) / (total + KAPPA)
 
 
 def _de_faixa(dia_iso: str) -> str:
@@ -110,7 +118,8 @@ def resumo(
 
 
 def por_dia(con: sqlite3.Connection, usuario: str, area_id: int | None = None) -> list[dict]:
-    """Aproveitamento por dia: dia, tentativas, acertos, % (de uma área se dada)."""
+    """Aproveitamento por dia: dia, tentativas, acertos e % SUAVIZADO
+    (_pct_suave; de uma área se dada). `pct_bruto` acompanha para conferência."""
     cond, params = "", [usuario]
     if area_id is not None:
         cond = (
@@ -134,7 +143,8 @@ def por_dia(con: sqlite3.Connection, usuario: str, area_id: int | None = None) -
                 "dia": _de_faixa(dia),
                 "tentativas": tot,
                 "acertos": ac,
-                "pct": round(100 * ac / tot, 1) if tot else 0.0,
+                "pct": round(_pct_suave(ac, tot), 1),
+                "pct_bruto": round(100 * ac / tot, 1) if tot else None,
             }
         )
     return out
@@ -292,7 +302,8 @@ def por_fase(
 def evolucao_por_fase(
     con: sqlite3.Connection, usuario: str, area_id: int | None = None
 ) -> list[dict]:
-    """Aproveitamento por dia por fase (tentativas reais, em ordem cronológica)."""
+    """Aproveitamento por dia por fase (tentativas reais, em ordem cronológica),
+    com `pct` SUAVIZADO (_pct_suave) e `pct_bruto` para conferência."""
     conds = ["t.usuario = ?", "t.correta IS NOT NULL", "tm.fase IS NOT NULL"]
     params: list = [usuario]
     if area_id is not None:
@@ -322,7 +333,8 @@ def evolucao_por_fase(
                 "dia": _de_faixa(dia),
                 "acertos": ac,
                 "tentativas": tot,
-                "pct": round(100 * ac / tot, 1) if tot else 0.0,
+                "pct": round(_pct_suave(ac, tot), 1),
+                "pct_bruto": round(100 * ac / tot, 1) if tot else None,
             }
         )
     out.sort(key=lambda x: (x["data"], x["fase"]))
