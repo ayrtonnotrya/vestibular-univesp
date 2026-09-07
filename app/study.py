@@ -1,16 +1,21 @@
 """App de estudo: responde questões com a página em pan/zoom.
 
-Três modos:
+Cinco modos operacionais:
 - **Explorar**: seleção manual por exame/questão (comportamento original).
 - **Estudar** (adaptativo): sorteio ponderado sobre o catálogo inteiro
   (frequência + fraqueza + exploração); resposta atualiza FSRS, habilidade por
   área e a dificuldade empírica (b).
 - **Revisão**: fila dedicada dos temas vencidos pelo FSRS com questão já vista
   (pendências do caderno de erros primeiro; nunca inéditas).
+- **Estatísticas**: dashboards SQL direto no `data/vestibular.db`.
+- **Redação**: envia a redação para correção IA em fila assíncrona (worker no
+  próprio processo; fechar o navegador não interrompe) — nota por critério +
+  aula do tutor.
 
 Roda no docker-compose:  docker compose up vestibular-app (porta 8501).
 """
 
+import datetime as dt
 import json
 import re
 from pathlib import Path
@@ -25,6 +30,9 @@ from vestibular.estudo import motiva
 from vestibular.estudo.db import connect
 from vestibular.estudo.fsrs_config import MIN_TENTATIVAS_REVISAO
 from vestibular.estudo.fuso import hoje as fuso_hoje
+from vestibular.redacao import criterios as red_criterios
+from vestibular.redacao import servico as red_servico
+from vestibular.redacao import worker as red_worker
 
 DATA = Path("/app/data")
 JSON_DIR = DATA / "json"
@@ -246,7 +254,17 @@ _MODO_LABEL = {
     "revisao": "Revisão",
     "explorar": "Explorar",
     "estatisticas": "Estatísticas",
+    "redacao": "Redação",
 }
+
+
+def _fmt_data(iso: str | None) -> str:
+    if not iso:
+        return "—"
+    try:
+        return dt.datetime.fromisoformat(iso).strftime("%d/%m %H:%M")
+    except (ValueError, TypeError):
+        return iso[:16]
 
 
 def _restaurar_do_url():
@@ -261,7 +279,7 @@ def _restaurar_do_url():
         with connect() as con:
             modo, _ = motiva.sessao_atual(con, "eu")
         modo = _MODO_LABEL.get(modo or "") or "Estudar"
-    if modo not in ("Estudar", "Revisão", "Explorar", "Estatísticas"):
+    if modo not in ("Estudar", "Revisão", "Explorar", "Estatísticas", "Redação"):
         modo = "Estudar"
     st.session_state["modo"] = modo
     if modo in ("Estudar", "Revisão"):
@@ -1504,6 +1522,310 @@ def modo_estatisticas():
         )
 
 
+@st.cache_resource(show_spinner=False)
+def _iniciar_worker_redacao():
+    """Singleton da daemon-thread da fila de redação (1× por processo/container)."""
+    return red_worker.guardar()
+
+
+_ETAPAS = ["fila", "corrigindo", "aulando", "concluido"]
+_ETAPA_LABEL = {
+    "fila": "🕐 fila",
+    "corrigindo": "✍️ corrigindo",
+    "aulando": "🎓 aulando",
+    "concluido": "✅ concluído",
+    "erro": "⚠️ erro",
+    "cancelado": "🚫 cancelado",
+}
+
+
+def _pipeline_html(status: str) -> str:
+    if status == "erro":
+        return "🕐 fila → ✍️ corrigindo → 🎓 aulando → <b>⚠️ erro</b>"
+    if status == "cancelado":
+        return "🕐 <b>fila → 🚫 cancelado</b>"
+    atual = _ETAPAS.index(status)
+    partes = []
+    for i, et in enumerate(_ETAPAS):
+        chip = _ETAPA_LABEL[et]
+        if i < atual:
+            partes.append(chip)
+        elif i == atual:
+            partes.append(f"<b>{chip}</b>")
+        else:
+            partes.append(f"<span style='opacity:.35'>{chip}</span>")
+    return " → ".join(partes)
+
+
+def _render_resultado(job: dict):
+    """Render 100% do banco: notas por critério, anulação, comentário e aula."""
+    corr = job.get("correcao")
+    aula = job.get("aula")
+    if corr:
+        if corr.get("anulado"):
+            st.error(
+                "🚫 **REDAÇÃO ANULADA — nota 0.** Regra: "
+                + str(corr.get("motivo_anulacao") or "não informada")
+                + (" — " + corr["justificativa_anulacao"] if corr.get("justificativa_anulacao") else "")
+            )
+        m1, m2 = st.columns(2)
+        nota = job.get("nota_total")
+        m1.metric("Nota total", f"{nota:g} / 100" if nota is not None else "—")
+        m2.metric("Extensão", f"{job['palavras']} palavras")
+        for comp in corr["competencias"]:
+            fr = 0.0 if not comp["maximo"] else max(0.0, min(1.0, comp["nota"] / comp["maximo"]))
+            st.progress(fr, text=f"Critério {comp['id']} · {comp['nome']}: {comp['nota']}/{comp['maximo']}")
+            if comp.get("resumo"):
+                st.caption(comp["resumo"][:400])
+            if comp.get("evidencias") or comp.get("fragilidades"):
+                with st.expander(f"🔎 Evidências e fragilidades — critério {comp['id']}"):
+                    for e in comp.get("evidencias") or []:
+                        st.markdown(f"- “{e}”")
+                    for f_ in comp.get("fragilidades") or []:
+                        st.markdown(f"- ⚠️ {f_}")
+        if corr.get("comentario_geral"):
+            with st.expander("💬 Comentário geral da banca"):
+                st.markdown(corr["comentario_geral"])
+        st.caption(
+            "Modelos: "
+            + " + ".join(x for x in (job.get("modelo_correcao"), job.get("modelo_tutor")) if x)
+        )
+    if aula:
+        st.divider()
+        st.markdown("#### 🎓 Aula do tutor")
+        st.markdown(aula.get("aula_md") or "_(aula vazia)_")
+        if aula.get("conceitos_estudar"):
+            st.markdown("**Conceitos para estudar:**")
+            st.markdown(" · ".join(f"`{c}`" for c in aula["conceitos_estudar"]))
+        if aula.get("reescritura_sugerida"):
+            with st.expander("✏️ Exemplos de reescrita"):
+                for par in aula["reescritura_sugerida"]:
+                    st.markdown(par)
+
+
+def _render_envio(job: dict):
+    """Painel de um envio: datas + pipeline + controles de fila + resultado (DB only)."""
+    tema = job.get("tema") or {}
+    st.caption(
+        f"**{job['status']}** · {_nome_vestibular(tema.get('exame_label', ''))} · "
+        f"Redação Q{tema.get('numero', '—')} · enviado {_fmt_data(job['criado_em'])} · "
+        f"atualizado {_fmt_data(job['atualizado_em'])}"
+    )
+    st.markdown(_pipeline_html(job["status"]), unsafe_allow_html=True)
+    status = job["status"]
+    if status == "fila":
+        st.info("⏳ Na fila — **pode fechar a página** quando quiser: o processamento continua no servidor.")
+        if st.button("🚫 Cancelar envio", key=f"red_cancel_{job['id']}"):
+            with connect() as con:
+                ok = red_servico.cancelar(con, job["id"])
+            st.toast(
+                "Cancelado." if ok else "O worker já começou este job — não dá mais para cancelar.",
+                icon="🚫" if ok else "⏱️",
+            )
+            st.rerun(scope="app")
+    elif status == "corrigindo":
+        st.warning("✍️ Rodada 1: a banca está corrigindo seu texto (até ~2 min). Pode fechar a página.")
+    elif status == "erro":
+        st.error(
+            f"⚠️ Falhou na fase **{job['fase_erro'] or 'preparação'}** "
+            f"(tentativa {job['tentativas']}): {job['erro'] or 'sem mensagem'}"
+        )
+        if st.button("🔁 Tentar de novo", key=f"red_retry_{job['id']}", type="primary"):
+            with connect() as con:
+                red_servico.tentar(con, job["id"])
+            st.rerun(scope="app")
+    if job.get("correcao"):
+        if status == "aulando" and not job.get("aula"):
+            st.info("📝 Notas já disponíveis! 🎓 O tutor ainda está escrevendo a aula — pode fechar e voltar depois.")
+        _render_resultado(job)
+    elif status == "erro" and not job.get("correcao"):
+        st.caption("A correção ainda não foi concluída nenhuma vez para este envio.")
+
+
+def _painel_redacao(usuario: str, envio_id: int | None):
+    if envio_id is None:
+        st.caption("Nenhum envio em andamento. Escreva uma redação e clique em **Enviar** para acompanhar aqui.")
+        return
+    with connect() as con:
+        job = red_servico.detalhe(con, envio_id)
+    if job is None:
+        st.caption("Envio não encontrado.")
+        return
+    _render_envio(job)
+
+
+@st.fragment(run_every=5)
+def _painel_redacao_ativo(usuario: str, envio_id: int):
+    """Auto-refresh (5 s) só enquanto há job não-terminal em exibição."""
+    with connect() as con:
+        job = red_servico.detalhe(con, envio_id)
+    if job is None or job["status"] not in red_servico.STATUS_ATIVOS:
+        st.rerun(scope="app")
+        return
+    _render_envio(job)
+
+
+def modo_redacao():
+    _iniciar_worker_redacao()
+    usuario = st.session_state.get("usuario", "eu")
+    try:
+        criterios = red_criterios.carregar()
+    except Exception as e:
+        st.error(f"⚠️ Critérios de correção indisponíveis — {e}")
+        return
+
+    with connect() as con:
+        temas = red_servico.listar_temas(con)
+        ativos = red_servico.jobs_ativos(con, usuario)
+    if not temas:
+        st.warning("Nenhuma questão de redação no banco (rode a importação de questões).")
+        return
+
+    na_fila = [a for a in ativos if a["status"] == "fila"]
+    if len(na_fila) >= 2:
+        st.warning(f"⚠️ {len(na_fila)} envios na fila — serão processados em sequência (um por vez).")
+
+    col_esq, col_dir = st.columns([1, 2], gap="large")
+
+    with col_esq:
+        st.subheader("1 · Escolha o tema")
+        st.caption(
+            "Correção com os critérios **UNIVESP/VUNESP 2026** (Manual do Candidato revisado; "
+            "nota máxima 100). Temas de outros exames também podem ser corrigidos com esta rubrica — "
+            "decisão sua."
+        )
+        sel = st.selectbox(
+            "Tema",
+            range(len(temas)),
+            format_func=lambda i: (
+                f"{_nome_vestibular(temas[i]['exame_label'])} · Q{temas[i]['numero']} — "
+                + (temas[i]["enunciado"] or "")[:60].replace("\n", " ")
+            ),
+            key="red_tema",
+            on_change=lambda: st.session_state.pop("red_painel_id", None),
+        )
+        tema = temas[sel]
+        with connect() as con:
+            ficha = red_servico.montar_tema(con, tema["id"])
+        if ficha is None:
+            st.error("Tema sumiu do banco.")
+            return
+
+        with st.container(border=True):
+            if ficha["temas"]:
+                for t in ficha["temas"]:
+                    st.caption(f"🏷️ {t['area']} → {t['tema']}")
+            for par in (ficha["enunciado"] or "").splitlines():
+                if par.strip():
+                    st.markdown(estilo.esc(par))
+            if ficha["textos_de_apoio"]:
+                with st.expander(f"📚 Textos de apoio (coletânea — {len(ficha['textos_de_apoio'])})"):
+                    for i, ap in enumerate(ficha["textos_de_apoio"], 1):
+                        st.markdown(f"**[{i}]** " + estilo.esc(ap))
+                    for md in ficha["midia"] or []:
+                        st.caption(f"Figura: {md}")
+            pagina, bbox = _page_info(ficha["exame_label"], ficha["numero"])
+            if (PAGES_DIR / ficha["exame_label"]).exists():
+                with st.expander("📄 Página da prova (pan/zoom)"):
+                    st.caption("Arraste para mover · roda/2 cliques para zoom · botões para enquadrar.")
+                    view_page(ficha["exame_label"], pagina, bbox or [0, 0, 1000, 1000], height=520)
+
+        st.subheader("2 · Escreva e envie")
+        texto = st.text_area(
+            "Sua redação",
+            key=f"red_texto_{tema['id']}",
+            height=340,
+            placeholder="Escreva/cole aqui seu texto dissertativo-argumentativo (mínimo de 8 linhas autorais)…",
+        )
+        palavras = len((texto or "").split())
+        linhas = max(0, (palavras + 7) // 8)
+        cont = f"📝 **{palavras} palavra(s)** ≈ **{linhas} linhas** de folha oficial (~8 palavras/linha)."
+        if palavras and linhas <= 7:
+            cont += "  ⚠️ Menos de 8 linhas **anula** (regra H do manual)."
+        st.markdown(cont)
+        with st.popover("⚖️ Regras que zeram a redação (UNIVESP 2026)"):
+            st.markdown("\n".join(f"- {r}" for r in criterios["regras_anulacao"]))
+
+        fila_mesmo_tema = any(a["questao_id"] == tema["id"] for a in na_fila)
+        pode_enviar = bool((texto or "").strip()) and not fila_mesmo_tema
+        if st.button(
+            "📨 Enviar para correção",
+            type="primary",
+            disabled=not pode_enviar,
+            use_container_width=True,
+            help="Pode fechar a página quando quiser: a correção roda no servidor e o resultado fica no histórico.",
+        ):
+            with connect() as con:
+                envio_id = red_servico.enqueue(con, usuario, tema["id"], texto.strip())
+            st.session_state["red_painel_id"] = envio_id
+            st.toast("Na fila! Acompanhe no painel ao lado.", icon="📨")
+            st.rerun(scope="app")
+        if fila_mesmo_tema:
+            st.caption("Já existe um envio deste tema na fila — aguarde ou cancele-o no painel.")
+
+    with col_dir:
+        st.subheader("3 · Status e resultado")
+        alvo_id = st.session_state.get("red_painel_id")
+        if alvo_id is None and ativos:
+            alvo_id = ativos[0]["id"]
+            st.session_state["red_painel_id"] = alvo_id
+        alvo_ativo = alvo_id in {a["id"] for a in ativos} if alvo_id else False
+        if alvo_ativo:
+            _painel_redacao_ativo(usuario, alvo_id)
+        else:
+            _painel_redacao(usuario, alvo_id)
+
+        with st.expander("🗂️ Histórico de envios"):
+            with connect() as con:
+                hist = red_servico.historico(con, usuario)
+            if not hist:
+                st.write("Nenhum envio ainda.")
+            else:
+                def _rotulo(h: dict) -> str:
+                    nota = "—" if h["nota_total"] is None else f"{h['nota_total']:g}"
+                    flag = " 🚫" if h["anulado"] else ""
+                    return (
+                        f"{_fmt_data(h['criado_em'])} · {_nome_vestibular(h['exame_label'])} Q{h['numero']}"
+                        f" · {h['status']}{flag} · nota {nota} · id #{h['id']}"
+                    )
+
+                if "red_hist" in st.session_state and st.session_state["red_hist"] >= len(hist):
+                    st.session_state["red_hist"] = 0
+                esq = st.selectbox("Envio", range(len(hist)), format_func=lambda i: _rotulo(hist[i]), key="red_hist")
+                reg = hist[esq]
+                with connect() as con:
+                    job = red_servico.detalhe(con, reg["id"])
+                if job:
+                    st.text_area(
+                        "Texto enviado", value=job["texto"], height=160, key=f"red_hist_txt_{reg['id']}", disabled=True
+                    )
+                    b1, b2 = st.columns(2)
+                    if b1.button("👁️ Abrir no painel", key=f"red_hist_ver_{reg['id']}"):
+                        st.session_state["red_painel_id"] = reg["id"]
+                        st.rerun(scope="app")
+
+                    def _usar_base(eid: int):
+                        """Callback (executa antes do rerun — pode escrever chaves
+                        de widgets já instanciados nesta página)."""
+                        with connect() as con:
+                            jb = red_servico.detalhe(con, eid)
+                        if not jb:
+                            return
+                        st.session_state[f"red_texto_{jb['questao_id']}"] = jb["texto"]
+                        for i, t in enumerate(temas):
+                            if t["id"] == jb["questao_id"]:
+                                st.session_state["red_tema"] = i
+                        st.session_state.pop("red_painel_id", None)
+                        st.toast("Texto copiado para o editor.", icon="✏️")
+
+                    b2.button(
+                        "✏️ Usar como base",
+                        key=f"red_hist_usar_{reg['id']}",
+                        on_click=_usar_base,
+                        args=(reg["id"],),
+                    )
+
+
 def _vencidos_hoje(usuario: str) -> list[dict]:
     """Temas do FSRS do usuário vencidos hoje ou atrasados (contagem >= portão)."""
     with connect() as con:
@@ -1545,6 +1867,7 @@ def _aviso_vencidos(usuario: str):
 
 def main():
     estilo.injetar()
+    _iniciar_worker_redacao()
     st.markdown(
         estilo.topbar_html(
             "Estudo Vestibular", "FUVEST · UNIVESP · ENEM · FATEC · UNESP"
@@ -1558,7 +1881,7 @@ def main():
         kwargs["default"] = "Estudar"
     modo = st.sidebar.pills(
         "Modo",
-        ["Estudar", "Revisão", "Explorar", "Estatísticas"],
+        ["Estudar", "Revisão", "Explorar", "Estatísticas", "Redação"],
         selection_mode="single",
         key="modo",
         **kwargs,
@@ -1582,6 +1905,8 @@ def main():
         modo_explorar()
         params["label"] = st.session_state.get("params_label", "")
         params["numero"] = st.session_state.get("params_numero", "")
+    elif modo == "Redação":
+        modo_redacao()
     else:
         modo_estatisticas()
     _sync_params(**params)

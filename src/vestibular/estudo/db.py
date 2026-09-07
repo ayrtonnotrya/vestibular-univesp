@@ -125,6 +125,28 @@ CREATE TABLE IF NOT EXISTS sessoes (
     questao_id    INTEGER REFERENCES questoes(id), -- null até a 1ª "Próxima"
     atualizado_em TEXT NOT NULL                    -- ISO 8601
 );
+
+CREATE TABLE IF NOT EXISTS redacao_envios (
+    id              INTEGER PRIMARY KEY,
+    usuario         TEXT NOT NULL,
+    questao_id      INTEGER NOT NULL REFERENCES questoes(id),
+    texto           TEXT NOT NULL,
+    palavras        INTEGER NOT NULL,
+    status          TEXT NOT NULL DEFAULT 'fila',   -- fila|corrigindo|aulando|concluido|erro|cancelado
+    fase_erro       TEXT,                           -- correcao|tutor (apenas com status=erro)
+    erro            TEXT,                           -- msg curta da última falha
+    tentativas      INTEGER NOT NULL DEFAULT 0,
+    nota_total      REAL,                           -- NULL até a rodada 1; 0 se anulado
+    anulado         INTEGER NOT NULL DEFAULT 0,
+    motivo_anulacao TEXT,
+    correcao_json   TEXT,                           -- payload da rodada 1 (entrega progressiva)
+    aula_json       TEXT,                           -- payload da rodada 2 (aula + conceitos)
+    modelo_correcao TEXT,
+    modelo_tutor    TEXT,
+    criado_em       TEXT NOT NULL,
+    atualizado_em   TEXT NOT NULL                   -- ISO em cada transição de status
+);
+CREATE INDEX IF NOT EXISTS idx_redacao_status ON redacao_envios(status, id);
 """
 
 

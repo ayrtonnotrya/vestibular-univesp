@@ -144,7 +144,8 @@ Resultado extraído e validado (gabaritos 100% conferidos):
 - `app/study.py`: interface — para cada questão, mostra **questão em cima**
   (enunciado, textos de apoio, alternativas + gabarito) e **página embaixo** no
   viewer pan/zoom. Modos: **Estudar** (adaptativo), **Revisão** (fila de
-  pendências), **Explorar** e **Estatísticas** — o painel de estatísticas
+  pendências), **Explorar**, **Estatísticas** e **Redação** (ver seção própria)
+  — o painel de estatísticas
   (`app/estatisticas.py`, SQL direto no `data/vestibular.db`) mostra visão
   geral (aproveitamento, dificuldade média b, temas vencidos), evolução por
   dia, desempenho por área/θ, por tema (score/racha/lapses/estado FSRS), por
@@ -193,6 +194,57 @@ Resultado extraído e validado (gabaritos 100% conferidos):
 - **Como rodar:** `docker compose up vestibular-app` → porta `8501` (na rede
   `web` do nginx-proxy-manager). O serviço usa `app/study.py` como comando.
 
+## Módulo de redação (correção por LLM + aula do tutor — assíncrono)
+
+- 5ª aba **Redação** no app + pacote `src/vestibular/redacao/`: o aluno escolhe
+  um tema (`questoes.tipo='redacao'` — 43 no acervo, UNIVESP primeiro), cola a
+  redação e **Envia** — o clique só insere o job em `redacao_envios` (SQLite);
+  uma **daemon-thread no processo do app** (`worker.guardar`, singleton
+  `@st.cache_resource`, 1 por container) roda a fila com 2 rodadas: **1)
+  correção** pela rubrica oficial (`MODEL_CORRECAO`, default
+  `deepseek-v4-pro`) → grava `correcao_json` e vira `aulando` (notas já
+  aparecem — entrega progressiva); **2) aula do tutor** (`MODEL_TUTOR`,
+  default `kimi-k3`) → `aula_json`, `concluido`. Fechar o navegador não
+  interrompe nada; o painel (fragmento, refresh 5 s só com job ativo) mostra
+  `fila → corrigindo → aulando → concluido`.
+- **Estados/retomada:** erro com `fase_erro` + `tentativas`; worker tenta
+  sozinho até `RED_MAX_TENTATIVAS` (3, pausa `RED_PAUSA_RETRY`=15 s), depois é
+  "Tentar de novo" manual — e **nunca repaga a rodada 1** (roda `correcao` só
+  se `correcao_json IS NULL`; órfãos `corrigindo|aulando` voltam para `fila`
+  na subida do worker). Cancelar só em `fila` (claim atômico).
+- **Critérios:** rubrica curada versionada em
+  `data/criterios/redacao_univesp_2026.json` (Manual do Candidato UNIVESP 2026
+  revisado — 4 critérios A Tema / B Estrutura / C Língua / D Coesão, soma 100,
+  11 regras de anulação + penalidades de extensão; o app NÃO lê o PDF em
+  runtime). A redação é enviada ao modelo entre cercas com instrução
+  anti-injection; a resposta é normalizada contra o dicionário (nota ≤ nível
+  mais próximo; regra de anulação inválida não anula; `nota_total`
+  recomputada). V1 sem FSRS/θ/TRI/Estatísticas e sem tool MCP.
+- **Router:** mesmo OpenCode Go do `score_dificuldade` (`OPENCODE_BASE_URL`,
+  httpx). **OBRIGATÓRIO o header `x-opencode-session`** no
+  `/chat/completions` (sem ele o gateway responde 400 `MissingSessionID`;
+  env `OPENCODE_SESSION`, default `vestibular-redacao`).
+- **Rede:** verificado — o container do app (bridge `web`, sem `--network
+  host`) alcança o router Tailscale; jobs completos dentro do container.
+- **Validar sem UI (imagem `vestibular-app`; o `enviar` chama IA de verdade,
+  ~1–3 min, gasta chamadas):**
+  ```bash
+  docker run --rm --network host --env-file .env -e PYTHONPATH=/work/src \
+    -v "$PWD":/work -w /work vestibular-app:latest \
+    python -m vestibular.redacao.smoke criterios          # valida o JSON curado
+  docker compose exec -T vestibular-app python -m vestibular.redacao.smoke temas
+  docker run --rm --network host --env-file .env -e PYTHONPATH=/work/src \
+    -v "$PWD":/work -w /work vestibular-app:latest \
+    python -m vestibular.redacao.smoke enviar univesp_2026 57 --arquivo tmp/red.txt
+  # --so-correcao: para após a rodada 1 (deixa em `aulando`); --esperar 0: só enqueue
+  docker compose exec -T vestibular-app python -m vestibular.redacao.worker --once
+  ```
+  O `smoke enviar` usa `usuario='smoke'` no DB real (linhas em
+  `redacao_envios`; invisíveis no histórico do app, que filtra por usuário).
+- **Cuidado:** subir um 2º `vestibular-app` (ou CLI `--loop` junto com o app)
+  multiplica a fila sem trava externa — o singleton cobre só 1 processo
+  (claim atômico impede processar 2× o mesmo job, mas não coordenaria threads).
+
 ## Servidor MCP (tutor + acervo para o AnythingLLM)
 
 - `src/vestibular/mcp/server.py` expõe o motor de estudo e o acervo como
@@ -240,7 +292,8 @@ Resultado extraído e validado (gabaritos 100% conferidos):
 - Nunca commitar segredos, PDFs ou dados brutos (`.env`, `tmp/` e quase todo
   `data/` são ignorados). Exceções versionadas: `data/assuntos.json` (catálogo
   curado), `data/json/*_questoes.json` + `*_imagens.json` (dados extraídos e
-  validados) e `data/paginas/*/*.jpg` (páginas renderizadas p/ o app). De
+  validados), `data/criterios/*.json` (rubrica de redação curada) e
+  `data/paginas/*/*.jpg` (páginas renderizadas p/ o app). De
   resto, só código, docs e `tools/` são versionados.
 - Não commitar a chave de API nem expor `figuras` recortadas de provas
   (`data/imagens/`) fora do repo; páginas completas em `data/paginas/` são
@@ -275,7 +328,11 @@ acertos convictos e registros antigos ficam com NULL, sem afetar TRI/FSRS) e
 gravado por `motiva.marcar_sessao` a cada avance/prévia de modo; o
 `_restaurar_do_url` do app usa (modo, questão) desse registro para reabrir a
 MESMA questão após refresh, mesmo sem `?qid=` na URL; filtros mudados
-(`_reset_filtro`) apagam a sessão via `motiva.apagar_sessao`).
+(`_reset_filtro`) apagam a sessão via `motiva.apagar_sessao`) e
+`redacao_envios` (fila da redação: job por envio com `status`
+`fila|corrigindo|aulando|concluido|erro|cancelado`, `fase_erro`,
+`tentativas`, payloads `correcao_json`/`aula_json`, `nota_total`, `anulado` —
+ver seção "Módulo de redação"; criada pela `SCHEMA` na 1ª conexão).
 Pendente do plano original:
 `ia/dificuldade` (score), `ia/classificar`, `ia/feedback`.
 

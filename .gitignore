@@ -23,6 +23,9 @@ data/paginas/*
 !data/paginas/*/
 data/paginas/*/*
 !data/paginas/*/*.jpg
+!data/criterios/
+data/criterios/*
+!data/criterios/*.json
 
 # Ambientes / IDEs
 .idea/

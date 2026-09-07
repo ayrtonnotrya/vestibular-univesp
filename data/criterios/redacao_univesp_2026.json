@@ -1,0 +1,75 @@
+{
+  "fonte": "Manual do Candidato — Processo Seletivo Vestibular 2026 (UNIVESP/VUNESP), revisado",
+  "url": "https://univesp.br/sites/58f6506869226e9479d38201/assets/6980a7f07c1bd10b5b8dcd7d/Manual_do_Candidato__-_Processo_Seletivo_Vestibular_2026_REVISADO.pdf",
+  "tipo_texto": "dissertativo-argumentativo",
+  "nota_maxima": 100,
+  "competencias": [
+    {
+      "id": 1,
+      "nome": "Tema",
+      "maximo": 25,
+      "níveis": [
+        {"pontos": 25, "descricao": "Texto atende plenamente ao tema proposto, sem fuga."},
+        {"pontos": 18, "descricao": "Texto atende ao tema com pequenos desvios ou tangenciamentos."},
+        {"pontos": 10, "descricao": "Texto tangencia o tema, com abordagem parcial ou periférica."},
+        {"pontos": 0, "descricao": "Fuga completa ao tema proposto (anula a redação)."}
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Estrutura (gênero/tipo de texto e coerência)",
+      "maximo": 25,
+      "níveis": [
+        {"pontos": 25, "descricao": "Texto dissertativo-argumentativo com macroestrutura completa (introdução, desenvolvimento, conclusão), tese clara defendida, argumentos pertinentes e desenvolvidos, autonomia do texto e interlocução objetiva."},
+        {"pontos": 18, "descricao": "Gênero correta com alguma fragilidade na estrutura macro (desenvolvimento parcial), posicionamento presente mas pouco sustentado."},
+        {"pontos": 10, "descricao": "Gênero comprometido: falhas na macroestrutura, tese frágil, argumentos pouco desenvolvidos ou contradições."},
+        {"pontos": 0, "descricao": "Fuga completa ao gênero/tipo de texto (anula a redação)."}
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Língua (modalidade e registro)",
+      "maximo": 25,
+      "níveis": [
+        {"pontos": 25, "descricao": "Adequação à modalidade escrita e ao registro formal; correção gramatical e de convenção da escrita, precisão vocabular e formalidade."},
+        {"pontos": 18, "descricao": "Registro formal mantido com poucos lapsos gramaticais ou de convenção."},
+        {"pontos": 10, "descricao": "Desvios frequentes de norma-padrão, escolha lexical imprecisa ou oscilação de registro."},
+        {"pontos": 0, "descricao": "Escrita em outra língua, ilegibilidade predominante ou níveis de registro incompatíveis."}
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Coesão",
+      "maximo": 25,
+      "níveis": [
+        {"pontos": 25, "descricao": "Emprego adequado e variado de recursos coesivos; parágrafos bem dosados; clara e precisa relação entre palavras, orações, períodos e parágrafos."},
+        {"pontos": 18, "descricao": "Boa coesão com pequeno deslize no emprego de conectivos."},
+        {"pontos": 10, "descricao": "Conectivos inadequados ou ausentes, parágrafos desequilibrados, quebras indevidas ou repetições."},
+        {"pontos": 0, "descricao": "Texto não articulado verbalmente (apenas desenhos, números e/ou palavras soltas)."}
+      ]
+    }
+  ],
+  "regras_anulacao": [
+    "Fugir ao tema e/ou gênero propostos.",
+    "Apresentar nome, rubrica, assinatura, sinal, iniciais ou marcas que permitam a identificação do candidato.",
+    "Estiver em branco.",
+    "Apresentar textos sob forma não articulada verbalmente (apenas com desenhos, números e/ou palavras soltas).",
+    "For escrita em outra língua que não a portuguesa.",
+    "Estiver predominantemente ilegível e/ou com letra incompreensível.",
+    "Apresentar o texto definitivo fora do espaço reservado para tal.",
+    "Apresentar 7 (sete) linhas ou menos (sem contar o título).",
+    "Apresentar menos de 8 (oito) linhas AUTORAIS (não copiadas da prova, dos textos de apoio, de modelos prontos de redação ou de outras fontes) contínuas e/ou for composta PREDOMINANTEMENTE por cópia de trechos da coletânea ou de quaisquer outras partes da prova e/ou por reproduções (plágio) de textos divulgados em mídias digitais (sobretudo internet) ou impressas.",
+    "For idêntica ou muito semelhante a outra(s) redação(ões) deste processo seletivo ou de outro(s).",
+    "Apresentar formas propositais de anulação, como impropérios, trechos jocosos ou a recusa explícita em cumprir o tema proposto."
+  ],
+  "penalidades_importantes": [
+    "Redações com 20 (vinte) linhas ou menos não poderão alcançar a nota máxima nos critérios C e D (Língua e Coesão).",
+    "Textos muito curtos, com 15 (quinze) linhas ou menos, perderão um ponto nos critérios C e D.",
+    "Será reduzida a nota, no critério C, de redações que contenham palavras escritas com letra incompreensível.",
+    "Redações compostas predominantemente por cópia dos textos motivadores receberão nota zero.",
+    "Redações em que sejam identificados trechos de cópia da coletânea (sem predominância) ou predominância de paráfrase dos textos motivadores terão a nota final diminuída drasticamente, com atribuição de pontuação mínima aos critérios B, C e D.",
+    "Serão anuladas as redações em que seja identificada predominância de reprodução de modelos prontos de redação disponibilizados na internet ou em outras fontes."
+  ],
+  "instrucoes": "Escrever um texto dissertativo-argumentativo (em prosa), coerente, coeso (bem articulado) e de acordo com a norma-padrão da língua portuguesa, a partir da leitura e compreensão dos textos auxiliares (coletânea), que servem de referencial para ampliar os argumentos produzidos pelo próprio candidato. Não é necessário conclusão com proposta de intervenção. Reprodução da frase temática fora do corpo do texto é considerada título e não é avaliada. Cópia predominante da coletânea ou reprodução de modelos prontos anula ou penaliza fortemente.",
+  "extrato_manual": "REDAÇÃO\nNa prova de redação, espera-se que o candidato produza um texto dissertativo-argumentativo (em prosa), coerente, coeso (bem articulado) e de acordo com a norma-padrão da língua portuguesa, a partir da leitura e compreensão de textos auxiliares, que servem como um referencial para ampliar os argumentos produzidos pelo próprio candidato.\n\nA prova de redação será avaliada conforme os critérios a seguir:\nA) Tema: avalia-se, neste critério, se o texto do candidato atende ao tema proposto. A fuga completa ao tema proposto é motivo suficiente para que a redação não seja corrigida em qualquer outro de seus aspectos, recebendo nota 0 (zero) total.\n\nB) Estrutura (gênero/tipo de texto e coerência): consideram-se aqui, conjuntamente, os aspectos referentes ao gênero/tipo de texto proposto e à coerência das ideias. A fuga completa ao gênero/tipo de texto é motivo suficiente para que a redação não seja corrigida em qualquer outro de seus aspectos, recebendo nota 0 (zero) total. Na avaliação do gênero/tipo de texto, observa-se como o candidato sustenta a sua tese, em termos argumentativos, e como essa argumentação está organizada, considerando-se a macroestrutura do texto dissertativo (introdução, desenvolvimento e conclusão). Sabe-se que é comum, em textos dissertativos, a exposição de fatos e opiniões, mas é imprescindível que haja um posicionamento por parte do autor da redação, a partir da defesa (clara) de um ponto de vista. No gênero/tipo de texto, avalia-se também o tipo de interlocução construída: por se tratar de uma dissertação-argumentativa, deve-se prezar pela objetividade. Sendo assim, o uso de primeira pessoa do singular e de segunda pessoa (singular e plural) poderá ser penalizado. Além disso, também poderá ser penalizada a referência direta à situação imediata de produção textual (ex.: como afirma o autor do primeiro texto/da coletânea/do texto I; como solicitado nesta prova/proposta de redação), porque é importante que o texto escrito pelo candidato tenha autonomia, isto é, não dependa da consulta (por parte do leitor) da proposta de redação (textos de apoio e frase temática) para ser amplamente compreendido. Na coerência, serão observados o nível de compreensão (por parte do candidato) dos textos de apoio da proposta, o conhecimento de mundo (repertório) do candidato, a pertinência dos argumentos mobilizados para a defesa do ponto de vista adotado e a capacidade do candidato para desenvolver, relacionar e encadear satisfatoriamente as informações e ideias abordadas no texto. Assim, na avaliação deste critério, serão consideradas aspectos negativos: a falta de partes da macroestrutura dissertativa, a falta de um posicionamento (por parte do autor da redação) na defesa de um determinado ponto de vista, a falta de autonomia do texto, a presença de contradição entre as ideias, a falta de desenvolvimento dos argumentos e a presença de conclusões não decorrentes do que foi previamente exposto.\n\nC) Língua (modalidade e registro): avalia-se, neste critério, a adequação do texto à modalidade escrita e ao registro formal da língua portuguesa. Serão examinados, neste item, aspectos gramaticais e de convenção da escrita, tais como concordância (verbal e nominal), regência, ortografia, acentuação, pontuação etc., bem como a escolha lexical (precisão vocabular) e o grau de formalidade/informalidade expresso em palavras e expressões.\n\nD) Coesão: avalia-se, neste item, o emprego dos recursos coesivos da língua (anáforas, catáforas, substituições, conjunções etc.), responsáveis por tornar mais clara e precisa a relação entre palavras, orações, períodos e parágrafos do texto. Serão considerados aspectos negativos o emprego inadequado ou ausência de conectivos, a falta de divisão do texto em parágrafos (redações em forma de monobloco), as quebras indevidas entre frases ou parágrafos, a repetição excessiva de um mesmo recurso coesivo e a predominância de parágrafos muito curtos ou muito longos, constituídos de apenas um período.\n\nSerá atribuída nota zero à redação que:\nA) fugir ao tema e/ou gênero propostos;\nB) apresentar nome, rubrica, assinatura, sinal, iniciais ou marcas que permitam a identificação do candidato;\nC) estiver em branco;\nD) apresentar textos sob forma não articulada verbalmente (apenas com desenhos, números e/ou palavras soltas);\nE) for escrita em outra língua que não a portuguesa;\nF) estiver predominantemente ilegível e/ou com letra incompreensível;\nG) apresentar o texto definitivo fora do espaço reservado para tal;\nH) apresentar 7 (sete) linhas ou menos (sem contar o título);\nI) apresentar menos de 8 (oito) linhas AUTORAIS (não copiadas da prova, dos textos de apoio, de modelos prontos de redação ou de outras fontes) contínuas e/ou for composta PREDOMINANTEMENTE por cópia de trechos da coletânea ou de quaisquer outras partes da prova e/ou por reproduções (plágio) de textos divulgados em mídias digitais (sobretudo internet) ou impressas;\nJ) for idêntica ou muito semelhante a outra(s) redação(ões) deste processo seletivo ou de outro(s);\nK) apresentar formas propositais de anulação, como impropérios, trechos jocosos ou a recusa explícita em cumprir o tema proposto.\n\nObservações importantes:\n• Cada redação é avaliada por dois examinadores independentes e, quando há discrepância na atribuição das notas, o texto é reavaliado por um terceiro examinador independente.\n• O espaço para rascunho no caderno de questões é de preenchimento facultativo. Em hipótese alguma, o rascunho será considerado na correção.\n• Em hipótese alguma o título da redação será considerado na avaliação do texto.\n• Redações com 20 (vinte) linhas ou menos não poderão alcançar a nota máxima nos critérios C e D. Além disso, textos muito curtos, com 15 (quinze) linhas ou menos, perderão um ponto nos critérios C e D.\n• Será reduzida a nota, no critério C, de redações que contenham palavras escritas com letra incompreensível. A redação será anulada (nota 0), se estiver predominantemente ilegível.\n• Não é necessário elaborar conclusões com proposta de intervenção.\n• A banca leva em consideração, na avaliação do critério B, o conhecimento de mundo dos candidatos, desde que o repertório estabeleça relação consistente com o tema e contribua para a defesa da tese.\n• As propostas de redação apresentam uma coletânea de textos motivadores que servem como ponto de partida para a reflexão sobre o tema. Redações compostas predominantemente por cópia desses textos motivadores receberão nota zero; redações com trechos de cópia (sem predominância) ou predominância de paráfrase terão a nota final diminuída drasticamente, com pontuação mínima aos critérios B, C e D.\n• Serão anuladas as redações em que seja identificada predominância de reprodução de modelos prontos de redação disponibilizados na internet ou em outras fontes."
+}
