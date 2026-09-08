@@ -20,6 +20,7 @@ import json
 import re
 from pathlib import Path
 
+import altair as alt
 import estatisticas
 import estilo
 import pandas as pd
@@ -1153,6 +1154,63 @@ def _ordem_dia(df: pd.DataFrame) -> list[str]:
     return [rotulo[o] for o in dict.fromkeys(df["data"])]
 
 
+def _reta_tendencia(pcts: list[float]) -> tuple[float, float] | None:
+    """Coeficientes `(a, b)` da regressão linear `y = a + b*x` (mínimos
+    quadrados) sobre índices `x = 0..n-1`. `None` se não há variância."""
+    n = len(pcts)
+    if n < 2:
+        return None
+    x = list(range(n))
+    mx = sum(x) / n
+    my = sum(pcts) / n
+    den = sum((xi - mx) ** 2 for xi in x)
+    if den == 0:
+        return None
+    b = sum((xi - mx) * (y - my) for xi, y in zip(x, pcts)) / den
+    return my - b * mx, b
+
+
+def _chart_evolucao_tendencia(df_dias: pd.DataFrame) -> alt.Chart:
+    """Série suavizada de aproveitamento + reta tracejada de regressão linear,
+    dando a sensação geral de melhora/piora ao longo do tempo."""
+    ord_df = df_dias.sort_values("dia").reset_index(drop=True)
+    pcts = ord_df["pct"].astype(float).tolist()
+    ordem = ord_df["dia"].tolist()
+    base = (
+        alt.Chart(ord_df)
+        .mark_line(point=True)
+        .encode(
+            x=alt.X(
+                "dia:N",
+                title=None,
+                axis=alt.Axis(labelAngle=-45),
+                sort=ordem,
+            ),
+            y=alt.Y(
+                "pct:Q",
+                title="Aproveitamento (%, suavizado)",
+                scale=alt.Scale(zero=False),
+            ),
+        )
+    )
+    reg = _reta_tendencia(pcts)
+    if reg is None:
+        return base
+    a, b = reg
+    trend = ord_df.assign(
+        tendencia=[a + b * i for i in range(len(ord_df))]
+    )
+    linha = (
+        alt.Chart(trend)
+        .mark_line(strokeDash=[6, 4], color="#e4572e")
+        .encode(
+            x=alt.X("dia:N", sort=ordem),
+            y=alt.Y("tendencia:Q", scale=alt.Scale(zero=False)),
+        )
+    )
+    return base + linha
+
+
 def modo_estatisticas():
     """Painel de estatísticas: visão geral, evolução, áreas, temas, exames,
     fila de revisão FSRS e histórico. Com área escolhida, tudo é filtrado ao
@@ -1365,9 +1423,8 @@ def modo_estatisticas():
             df_dias["dia"], categories=[d["dia"] for d in dias], ordered=True
         )
     col_a, col_b = st.columns([2, 1])
-    col_a.line_chart(
-        df_dias.sort_values("dia").set_index("dia")["pct"],
-        y_label="Aproveitamento (%, suavizado)",
+    col_a.altair_chart(
+        _chart_evolucao_tendencia(df_dias), use_container_width=True
     )
     col_b.dataframe(
         df_dias[["dia", "tentativas", "acertos", "pct", "pct_bruto"]],
@@ -1378,7 +1435,8 @@ def modo_estatisticas():
         "Aproveitamento suavizado por amostragem (Beta-Binomial: κ=4 "
         "tentativas fictícias a 50%, mesmo κ do b do Rasch). Dias com poucas "
         "questões tendem a 50% em vez de 0/100%; `pct_bruto` ao lado para "
-        "conferência."
+        "conferência. A reta tracejada é a regressão linear da série — inclinada "
+        "para cima indica melhora geral, para baixo, piora."
     )
 
     if sel == "Todas as áreas":
