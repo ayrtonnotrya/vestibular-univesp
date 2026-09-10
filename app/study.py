@@ -1768,7 +1768,8 @@ def modo_redacao():
     if len(na_fila) >= 2:
         st.warning(f"⚠️ {len(na_fila)} envios na fila — serão processados em sequência (um por vez).")
 
-    col_esq, col_dir = st.columns([1, 2], gap="large")
+    col_esq = st.container()
+    col_dir = st.container()
 
     with col_esq:
         st.subheader("1 · Escolha o tema")
@@ -1841,7 +1842,7 @@ def modo_redacao():
             with connect() as con:
                 envio_id = red_servico.enqueue(con, usuario, tema["id"], texto.strip())
             st.session_state["red_painel_id"] = envio_id
-            st.toast("Na fila! Acompanhe no painel ao lado.", icon="📨")
+            st.toast("Na fila! Acompanhe o status abaixo.", icon="📨")
             st.rerun(scope="app")
         if fila_mesmo_tema:
             st.caption("Já existe um envio deste tema na fila — aguarde ou cancele-o no painel.")
