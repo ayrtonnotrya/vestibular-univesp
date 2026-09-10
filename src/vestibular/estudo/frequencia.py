@@ -16,13 +16,17 @@ import sqlite3
 # relatório de frequência próprio.
 VESTIBULARES = ("univesp",)
 
-# Suavização de Laplace: garante prior > 0 a temas raríssimos/ausentes, para que
-# nenhum tema do catálogo fique inalcançável por completo no frio do contágio.
-ALFA_SMOOTH = 1.0
-
-# Piso do prior para temas que não aparecem no escopo (nunca caíram no exame):
-# mantém uma chance mínima, evitando zero absoluto.
-PRIOR_FLOOR = 0.01
+# Suavização de Laplace sobre TODO o catálogo: cada tema (inclusive os que
+# nunca caíram no escopo) recebe +ALFA_SMOOTH no numerador, e o denominador é
+# total + ALFA_SMOOTH·n_temas_catalogo. O piso dos temas ausentes fica assim
+# RELATIVO — sempre menor que o prior de qualquer tema observado (um tema que
+# caiu 1 vez vale (1+ALFA)/(denom) vs ALFA/(denom) dos nunca caídos).
+# α=0,1: mantém a área proporcional ao que cai de verdade no exame (com α=1 as
+# pseudocontagens por tema distorciam as áreas — inflavam as pequenas de muitos
+# temas, ex.: Filosofia e Sociologia 0,9%→2,5%, e diluíam as concentradas, ex.:
+# Português 19,7%→16,7%); o piso segue > 0 (nada inalcançável no frio do
+# contágio), ~10× abaixo do prior de um tema que caiu uma única vez.
+ALFA_SMOOTH = 0.1
 
 
 # Escopos aceitos pelo relatório; "todos" não filtra vestibular.
@@ -158,17 +162,25 @@ def relatorio(
     return out
 
 
+def _n_temas_catalogo(con: sqlite3.Connection) -> int:
+    return con.execute("SELECT COUNT(*) FROM temas").fetchone()[0]
+
+
 def prior_por_tema(
     con: sqlite3.Connection, vestibulares: tuple[str, ...] = VESTIBULARES
 ) -> dict[int, float]:
-    """Probabilidade a priori suavizada (Laplace) de cada tema cair numa prova.
+    """Probabilidade a priori suavizada (Laplace em TODO o catálogo) de cada
+    tema cair numa prova do escopo.
 
-    Devolve {tema_id: prob} em (0, 1]; temas ausentes do escopo ficam de fora.
+    Devolve {tema_id: prob} para todos os temas do catálogo (a soma vale ~1):
+    temas que nunca caíram no escopo entram com o piso relativo
+    ALFA_SMOOTH/(total + ALFA_SMOOTH·n_catalogo), sempre menor que o prior de
+    qualquer tema observado.
     """
     ocorr = _ocorrencias_por_tema(con, vestibulares)
     total = sum(ocorr.values())
-    n_temas = len(ocorr)
     if not ocorr or total == 0:
         return {}
-    denom = total + ALFA_SMOOTH * n_temas
-    return {tid: (n + ALFA_SMOOTH) / denom for tid, n in ocorr.items()}
+    denom = total + ALFA_SMOOTH * _n_temas_catalogo(con)
+    rows = con.execute("SELECT id FROM temas")
+    return {r["id"]: (ocorr.get(r["id"], 0) + ALFA_SMOOTH) / denom for r in rows}

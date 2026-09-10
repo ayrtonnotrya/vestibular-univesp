@@ -340,20 +340,31 @@ lote quando necessário.
 - **Estado atual (implementado):** cinco modos no app (Streamlit):
   - *Explorar*: visualização a partir dos JSONs, com página em viewer pan/zoom.
   - *Estudar* (adaptativo via `src/vestibular/estudo/` no SQLite): o pool de
-    candidatos é o **catálogo inteiro** de temas (sem portão FSRS) e o sorteio é
-    em **dois estágios**: a **área** é sorteada com peso = 0,7·freq_area
-     (soma dos priors dos temas da área, normalizada sobre as áreas com
-     questão) + 0,2·fraqueza (`1 − sigmoid(θ da área)`) + 0,1·exploração
-     (`1/(1 + n_obs)` de `habilidades`); dentro da área, o **tema** com peso =
-     0,7·frequência real nas provas UNIVESP + 0,2·fraqueza + 0,1·exploração
-    (inverso das observações). O nº de temas do catálogo fica neutro para a
-    fatia da área. A fraqueza usa `1 − score` por tema quando
-    `contagem >= MIN_TENTATIVAS_REVISAO` (3); abaixo do portão usa
-    `1 − sigmoid(θ da área)` (estimativa estável, sem oscilar a cada resposta).
-    Com uma única área entre os candidatos (ex.: `tema_id` fixo), o estágio de
-    área é pulado. O seletor Rasch escolhe a questão pelo nível do usuário — por
-    tema quando há dados, senão por área — e a resposta recalibra FSRS/θ/b/nível
-    por tema.
+     candidatos é o **catálogo inteiro** de temas (sem portão FSRS) e o sorteio é
+     em **dois estágios por mistura de 3 componentes** (`motiva._pesos_mistura`):
+     frequência das provas (prior UNIVESP), fraqueza e exploração. Em cada
+     estágio, cada componente é **normalizado como distribuição sobre os
+     candidatos** e combinado nas fatias `ALVO_*` = **70/15/15** — os alvos são
+     a participação efetiva exata de cada origem no sorteio do estágio (não
+     multiplicadores brutos: no modelo anterior, "0,2 de fraqueza" valia ~37%
+     do sorteio porque as escalas cruas divergem: Σfreq=1, Σfraqueza≈2,
+     Σexploração≪1). Estágio 1 sorteia a **área** (f = Σ dos priors dos temas
+     da área; a = `1 − sigmoid(θ da área)`; e = `1/(1 + n_obs)` de
+     `habilidades`); estágio 2 sorteia o **tema** dentro da área (f = prior do
+     tema; a = `1 − score` quando `contagem >= MIN_TENTATIVAS_REVISAO` (3),
+     abaixo do portão `1 − sigmoid(θ da área)` — estimativa estável, sem
+     oscilar a cada resposta; e = `1/(1 + contagem)`). O nº de temas do
+     catálogo fica neutro para a fatia da área: o prior por tema é suavizado
+     por Laplace sobre TODO o catálogo (`frequencia.prior_por_tema`,
+     α=`ALFA_SMOOTH`=0,1), então temas que nunca caíram no UNIVESP entram com
+     um piso RELATIVO `α/(total + α·n_catalogo)` — sempre abaixo do prior de
+     qualquer tema observado e pequeno a ponto de não mover as áreas (um piso
+     absoluto, ou α grande, infla áreas com muitos temas fora do escopo, ex.:
+     Filosofia e Sociologia).
+     Com uma única área entre os candidatos (ex.: `tema_id` fixo), o estágio de
+     área é pulado. A questão do tema sorteado vem de
+     `seletor.escolher_aleatoria` (inéditas primeiro, uniforme) e a resposta
+     recalibra FSRS/θ/b/nível por tema.
   - *Revisão*: fila dedicada dos temas **vencidos pelo FSRS** (portão de
     contagem + cap de `CAP_REVISOES_SESSAO` por sessão) com questão **já vista**
     — pendências do caderno de erros (última resposta errada ou dúvida/chute)

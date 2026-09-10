@@ -151,18 +151,22 @@ Resultado extraído e validado (gabaritos 100% conferidos):
   dia, desempenho por área/θ, por tema (score/racha/lapses/estado FSRS), por
   exame, fila de revisão FSRS e o histórico detalhado de tentativas.
 - **Modo Estudar (adaptativo):** o pool de candidatos é o **catálogo inteiro**
-  (`motiva._temas_pool`), sem portão FSRS; o sorteio é em **dois estágios**
-  (`motiva.proxima_questao`): (1) a **área** é sorteada com peso =
-  0,7·freq_area (Σ dos priors dos temas, normalizada sobre as áreas com
-  questão) + 0,2·fraqueza (`1 − sigmoid(θ da área)`) + 0,1·exploração
-  (`1/(1 + n_obs)` de `habilidades`); (2) dentro da área, o **tema** com peso =
-  prioridade = 0,7·frequência (UNIVESP) + 0,2·fraqueza + 0,1·exploração. A
-  fraqueza usa `1 − score` do tema quando `contagem >=
-  MIN_TENTATIVAS_REVISAO` (3); abaixo do portão usa `1 − sigmoid(θ da área)`
-  (`rasch._sigmoid`). Com uma única área entre os candidatos (ex.: `tema_id`
-  fixo), o estágio 1 é pulado. Questão do tema sorteado via
-  `seletor.escolher_aleatoria` (inéditas primeiro); `responder()` atualiza
-  FSRS/θ/b/nível como antes.
+  (`motiva._temas_pool`), sem portão FSRS; o sorteio é em **dois estágios por
+  mistura de 3 componentes** (`motiva.proxima_questao` + `motiva._pesos_mistura`):
+  frequência das provas (prior UNIVESP), fraqueza e exploração. Em cada estágio
+  cada componente é NORMALIZADO como distribuição sobre os candidatos e
+  combinado nas fatias `ALVO_*` = **70/15/15** — os alvos são a participação
+  efetiva exata de cada origem no sorteio (não multiplicadores brutos: no
+  modelo antigo "0,2 de fraqueza" valia ~37% do sorteio). Estágio 1 sorteia a
+  **área** (f = Σ priors dos temas; a = `1 − sigmoid(θ da área)`; e =
+  `1/(1 + n_obs)` de `habilidades`); estágio 2 sorteia o **tema** dentro da
+  área (f = prior do tema; a = `1 − score` quando `contagem >=
+  MIN_TENTATIVAS_REVISAO` (3), abaixo do portão `1 − sigmoid(θ da área)`
+  (`rasch._sigmoid`); e = `1/(1 + contagem)`). Com uma única área entre os
+  candidatos (ex.: `tema_id` fixo), o estágio 1 é pulado. Questão do tema
+  sorteado via `seletor.escolher_aleatoria` (inéditas primeiro); `responder()`
+  atualiza FSRS/θ/b/nível como antes. (~35% dos sorteios caem em temas nunca
+  respondidos com o usuário ainda frio — efeito dos 15% de exploração.)
 - **Modo Revisão:** fila dedicada via `motiva.proxima_revisao` (temas
   **vencidos** do FSRS — só o grupo due de `fsrs.vencidos()`, fora do cap) +
   `seletor.escolher_revisao`: pendências do caderno de erros (última resposta
