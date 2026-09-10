@@ -337,7 +337,7 @@ lote quando necessário.
 
  ## 8. Interface de estudo (Streamlit)
 
-- **Estado atual (implementado):** cinco modos no app (Streamlit):
+- **Estado atual (implementado):** seis modos no app (Streamlit):
   - *Explorar*: visualização a partir dos JSONs, com página em viewer pan/zoom.
   - *Estudar* (adaptativo via `src/vestibular/estudo/` no SQLite): o pool de
      candidatos é o **catálogo inteiro** de temas (sem portão FSRS) e o sorteio é
@@ -368,7 +368,16 @@ lote quando necessário.
   - *Revisão*: fila dedicada dos temas **vencidos pelo FSRS** (portão de
     contagem + cap de `CAP_REVISOES_SESSAO` por sessão) com questão **já vista**
     — pendências do caderno de erros (última resposta errada ou dúvida/chute)
-    primeiro, depois acertos antigos; **nunca** questões inéditas.
+     primeiro, depois acertos antigos; **nunca** questões inéditas.
+   - *Relatório* (`modo_relatorio`): relatório consolidado em **Markdown**
+     (`app/relatorio.py`, gerado a partir do SQLite via `app/estatisticas.py` +
+     consultas diretas ao caderno de erros) — visão geral, evolução por dia,
+     desempenho por vestibular/exame, θ por área, níveis por tema, b vs θ,
+     análise do caderno de erros (repetidos, causa, certeza, convicção), fila
+     FSRS/retenção, lacunas UNIVESP, cobertura por fase e síntese com
+     recomendações; com botão de download do `.md`. Renderizado via
+     `st.markdown` (regenera a cada rerun; o CLI `tmp/analise_caderno.py` é só
+     um cliente do mesmo módulo).
 - **Política do FSRS por tema** (não é flashcards): tema só ganha card com
   `MIN_TENTATIVAS_REVISAO` (3) respostas (antes permanece "explorável", com
   `vencimento=None` e fora das filas de vencidos das Estatísticas); o passo de

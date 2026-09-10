@@ -1,6 +1,6 @@
 """App de estudo: responde questões com a página em pan/zoom.
 
-Cinco modos operacionais:
+Seis modos operacionais:
 - **Explorar**: seleção manual por exame/questão (comportamento original).
 - **Estudar** (adaptativo): sorteio ponderado sobre o catálogo inteiro
   (frequência + fraqueza + exploração); resposta atualiza FSRS, habilidade por
@@ -8,6 +8,9 @@ Cinco modos operacionais:
 - **Revisão**: fila dedicada dos temas vencidos pelo FSRS com questão já vista
   (pendências do caderno de erros primeiro; nunca inéditas).
 - **Estatísticas**: dashboards SQL direto no `data/vestibular.db`.
+- **Relatório**: relatório consolidado em Markdown (`app/relatorio.py`) —
+  visão geral, caderno de erros, fila FSRS, lacunas e recomendações; com
+  download do `.md`.
 - **Redação**: envia a redação para correção IA em fila assíncrona (worker no
   próprio processo; fechar o navegador não interrompe) — nota por critério +
   aula do tutor.
@@ -24,6 +27,7 @@ import altair as alt
 import estatisticas
 import estilo
 import pandas as pd
+import relatorio
 import streamlit as st
 from panzoom import view_page
 
@@ -280,7 +284,7 @@ def _restaurar_do_url():
         with connect() as con:
             modo, _ = motiva.sessao_atual(con, "eu")
         modo = _MODO_LABEL.get(modo or "") or "Estudar"
-    if modo not in ("Estudar", "Revisão", "Explorar", "Estatísticas", "Redação"):
+    if modo not in ("Estudar", "Revisão", "Explorar", "Estatísticas", "Redação", "Relatório"):
         modo = "Estudar"
     st.session_state["modo"] = modo
     if modo in ("Estudar", "Revisão"):
@@ -1723,6 +1727,27 @@ def _painel_redacao_ativo(usuario: str, envio_id: int):
     _render_envio(job)
 
 
+def modo_relatorio():
+    """Relatório consolidado em Markdown: visão geral, caderno de erros, fila
+    FSRS, lacunas UNIVESP e recomendações (`app/relatorio.py`)."""
+    usuario = st.session_state.get("usuario", "eu")
+    with connect() as con:
+        if estatisticas.resumo(con, usuario)["total"] == 0:
+            st.info(
+                "Sem dados de tentativas para este usuário. Responda questões no "
+                "modo **Estudar** ou **Explorar** para alimentar o relatório."
+            )
+            return
+        texto = relatorio.gerar_markdown(con, usuario)
+    st.download_button(
+        "⬇️ Baixar relatório (.md)",
+        texto.encode("utf-8"),
+        file_name=f"relatorio_estudo_{fuso_hoje().isoformat()}.md",
+        mime="text/markdown",
+    )
+    st.markdown(texto)
+
+
 def modo_redacao():
     _iniciar_worker_redacao()
     usuario = st.session_state.get("usuario", "eu")
@@ -1939,7 +1964,7 @@ def main():
         kwargs["default"] = "Estudar"
     modo = st.sidebar.pills(
         "Modo",
-        ["Estudar", "Revisão", "Explorar", "Estatísticas", "Redação"],
+        ["Estudar", "Revisão", "Explorar", "Estatísticas", "Relatório", "Redação"],
         selection_mode="single",
         key="modo",
         **kwargs,
@@ -1965,6 +1990,8 @@ def main():
         params["numero"] = st.session_state.get("params_numero", "")
     elif modo == "Redação":
         modo_redacao()
+    elif modo == "Relatório":
+        modo_relatorio()
     else:
         modo_estatisticas()
     _sync_params(**params)

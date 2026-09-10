@@ -144,7 +144,9 @@ Resultado extraído e validado (gabaritos 100% conferidos):
 - `app/study.py`: interface — para cada questão, mostra **questão em cima**
   (enunciado, textos de apoio, alternativas + gabarito) e **página embaixo** no
   viewer pan/zoom. Modos: **Estudar** (adaptativo), **Revisão** (fila de
-  pendências), **Explorar**, **Estatísticas** e **Redação** (ver seção própria)
+  pendências), **Explorar**, **Estatísticas**, **Relatório** (relatório
+  consolidado em Markdown, `app/relatorio.py` — visão geral, caderno de erros,
+  fila FSRS, lacunas e recomendações, com download do `.md`) e **Redação** (ver seção própria)
   — o painel de estatísticas
   (`app/estatisticas.py`, SQL direto no `data/vestibular.db`) mostra visão
   geral (aproveitamento, dificuldade média b, temas vencidos), evolução por
@@ -309,6 +311,7 @@ Resultado extraído e validado (gabaritos 100% conferidos):
 docs/              # base do projeto + plano de ação
 src/               # pipeline Python puro (download, extract, parse, db, ia/, estudo)
 app/               # Streamlit (interface de estudo) — study.py + panzoom.py
+                   # + estatisticas.py + relatorio.py (Markdown do modo Relatório)
 tools/gemini/      # toolkit validado: extração via Gemini (Dockerfile, extract/validate/repair/gabfix/fix_paginas/run_all)
 data/              # QUASE NÃO VERSIONADA: pdfs, json/ e paginas/ (exceção:
                    # assuntos.json, data/json/*_questoes.json + *_imagens.json e
