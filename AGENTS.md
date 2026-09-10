@@ -153,10 +153,10 @@ Resultado extraído e validado (gabaritos 100% conferidos):
 - **Modo Estudar (adaptativo):** o pool de candidatos é o **catálogo inteiro**
   (`motiva._temas_pool`), sem portão FSRS; o sorteio é em **dois estágios**
   (`motiva.proxima_questao`): (1) a **área** é sorteada com peso =
-  0,4·freq_area (Σ dos priors dos temas, normalizada sobre as áreas com
-  questão) + 0,4·fraqueza (`1 − sigmoid(θ da área)`) + 0,2·exploração
+  0,7·freq_area (Σ dos priors dos temas, normalizada sobre as áreas com
+  questão) + 0,2·fraqueza (`1 − sigmoid(θ da área)`) + 0,1·exploração
   (`1/(1 + n_obs)` de `habilidades`); (2) dentro da área, o **tema** com peso =
-  prioridade = 0,4·frequência (UNIVESP) + 0,4·fraqueza + 0,2·exploração. A
+  prioridade = 0,7·frequência (UNIVESP) + 0,2·fraqueza + 0,1·exploração. A
   fraqueza usa `1 − score` do tema quando `contagem >=
   MIN_TENTATIVAS_REVISAO` (3); abaixo do portão usa `1 − sigmoid(θ da área)`
   (`rasch._sigmoid`). Com uma única área entre os candidatos (ex.: `tema_id`

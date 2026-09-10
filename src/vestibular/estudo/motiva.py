@@ -3,13 +3,13 @@
 Modo Estudar (`proxima_questao`):
 1. pool = catálogo inteiro (temas com questão disponível), sem portão FSRS;
 2. sorteio em **dois estágios**: a área é sorteada com peso =
-   0,4·frequência agregada da área (Σ dos priors dos temas) +
-   0,4·fraqueza (1 − sigmoid(θ da área)) + 0,2·exploração (inverso das
+   0,7·frequência agregada da área (Σ dos priors dos temas) +
+   0,2·fraqueza (1 − sigmoid(θ da área)) + 0,1·exploração (inverso das
    observações de `habilidades`); dentro da área, o tema com peso =
-   prioridade do tema: 0,4·frequência real nas provas UNIVESP + 0,4·fraqueza
-   (1 − score por tema quando contagem >= `MIN_TENTATIVAS_REVISAO`; senão
-   1 − sigmoid(θ da área)) + 0,2·exploração (inverso das observações do
-   tema). O nº de temas do catálogo fica neutro para a fatia da área;
+   prioridade do tema: 0,7·frequência real nas provas UNIVESP + 0,2·fraqueza
+    (1 − score por tema quando contagem >= `MIN_TENTATIVAS_REVISAO`; senão
+    1 − sigmoid(θ da área)) + 0,1·exploração (inverso das observações do
+    tema). O nº de temas do catálogo fica neutro para a fatia da área;
 3. questão do tema sorteado é sorteada uniformemente, preferindo inéditas.
 
 Modo Revisão (`proxima_revisao`): fila dedicada dos temas **vencidos** pelo
@@ -37,9 +37,9 @@ from .rasch import _sigmoid
 # Pesos da prioridade do tema no sorteio da próxima questão: frequência real
 # do tema nas provas UNIVESP, fraqueza do usuário (1 - score por tema) e
 # exploração (inverso do nº de observações).
-PESO_FREQ = 0.4
-PESO_FRAQUEZA = 0.4
-PESO_EXPLORACAO = 0.2
+PESO_FREQ = 0.7
+PESO_FRAQUEZA = 0.2
+PESO_EXPLORACAO = 0.1
 
 # Score neutro (1 - score = 0.5) para temas sem tentativas do usuário.
 SCORE_NEUTRO = 0.5
@@ -150,11 +150,11 @@ def proxima_questao(
     da fase, mantendo as regras de sorteio (prioridade, Rasch).
 
     O pool é o catálogo inteiro, com sorteio em **dois estágios**. Estágio 1:
-    a área é sorteada com peso 0,4·freq_area (soma dos priors dos temas da
-    área, normalizada sobre as áreas com questão) + 0,4·(1 − sigmoid(θ da
-    área)) + 0,2·(1 / (1 + n_obs da área)). Estágio 2: dentro da área, o tema
-    com peso = prioridade (0,4·frequência real nas provas UNIVESP +
-    0,4·fraqueza + 0,2·exploração). Temas com contagem >=
+    a área é sorteada com peso 0,7·freq_area (soma dos priors dos temas da
+    área, normalizada sobre as áreas com questão) + 0,2·(1 − sigmoid(θ da
+    área)) + 0,1·(1 / (1 + n_obs da área)). Estágio 2: dentro da área, o tema
+    com peso = prioridade (0,7·frequência real nas provas UNIVESP +
+    0,2·fraqueza + 0,1·exploração). Temas com contagem >=
     `MIN_TENTATIVAS_REVISAO` usam fraqueza = 1 − score por tema; abaixo do
     portão, 1 − sigmoid(θ da área) (estimativa estável, sem oscilar a cada
     resposta). Havendo uma única área entre os candidatos (ex.: `tema_id`

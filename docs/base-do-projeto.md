@@ -341,11 +341,11 @@ lote quando necessário.
   - *Explorar*: visualização a partir dos JSONs, com página em viewer pan/zoom.
   - *Estudar* (adaptativo via `src/vestibular/estudo/` no SQLite): o pool de
     candidatos é o **catálogo inteiro** de temas (sem portão FSRS) e o sorteio é
-    em **dois estágios**: a **área** é sorteada com peso = 0,4·freq_area
-    (soma dos priors dos temas da área, normalizada sobre as áreas com
-    questão) + 0,4·fraqueza (`1 − sigmoid(θ da área)`) + 0,2·exploração
-    (`1/(1 + n_obs)` de `habilidades`); dentro da área, o **tema** com peso =
-    0,4·frequência real nas provas UNIVESP + 0,4·fraqueza + 0,2·exploração
+    em **dois estágios**: a **área** é sorteada com peso = 0,7·freq_area
+     (soma dos priors dos temas da área, normalizada sobre as áreas com
+     questão) + 0,2·fraqueza (`1 − sigmoid(θ da área)`) + 0,1·exploração
+     (`1/(1 + n_obs)` de `habilidades`); dentro da área, o **tema** com peso =
+     0,7·frequência real nas provas UNIVESP + 0,2·fraqueza + 0,1·exploração
     (inverso das observações). O nº de temas do catálogo fica neutro para a
     fatia da área. A fraqueza usa `1 − score` por tema quando
     `contagem >= MIN_TENTATIVAS_REVISAO` (3); abaixo do portão usa
