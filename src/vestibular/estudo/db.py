@@ -3,7 +3,8 @@
 Banco único (SQLite, por padrão `data/vestibular.db`, configurável via
 `DB_PATH`) com as tabelas do motor: catálogo, questões, classificações,
 dificuldades, itens (parâmetros Rasch), estados FSRS por tema, habilidades
-por área e tentativas.
+por área, tentativas e as contas/sessões de autenticação do app (`usuarios`,
+`auth_sessoes`).
 """
 
 import os
@@ -147,6 +148,19 @@ CREATE TABLE IF NOT EXISTS redacao_envios (
     atualizado_em   TEXT NOT NULL                   -- ISO em cada transição de status
 );
 CREATE INDEX IF NOT EXISTS idx_redacao_status ON redacao_envios(status, id);
+
+CREATE TABLE IF NOT EXISTS usuarios (
+    nome       TEXT PRIMARY KEY,          -- minúsculas, ^[a-z0-9_.-]{2,30}$
+    hash_senha TEXT NOT NULL,             -- pbkdf2_sha256$iter$salt$hash (auth.py)
+    criado_em  TEXT NOT NULL              -- ISO 8601 local
+);
+
+CREATE TABLE IF NOT EXISTS auth_sessoes (
+    token     TEXT PRIMARY KEY,           -- secrets.token_urlsafe(32) (sid na URL)
+    usuario   TEXT NOT NULL REFERENCES usuarios(nome),
+    criado_em TEXT NOT NULL,              -- ISO 8601 local
+    expira_em TEXT NOT NULL               -- ISO 8601 local (sessão de 30 dias)
+);
 """
 
 
