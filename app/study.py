@@ -21,6 +21,7 @@ Roda no docker-compose:  docker compose up vestibular-app (porta 8501).
 import datetime as dt
 import json
 import re
+import time
 from pathlib import Path
 
 import altair as alt
@@ -31,6 +32,7 @@ import relatorio
 import streamlit as st
 from panzoom import view_page
 
+from vestibular.estudo import auth
 from vestibular.estudo import motiva
 from vestibular.estudo.db import connect
 from vestibular.estudo.fsrs_config import MIN_TENTATIVAS_REVISAO
@@ -218,6 +220,143 @@ def _sync_params(**params):
         st.query_params.update(diff)
 
 
+_MAX_TENTATIVAS_LOGIN = 5
+
+
+def _usuario_logado() -> str:
+    """Usuário da sessão autenticada (garantido pelo `_gate_login`)."""
+    usuario = st.session_state.get("usuario")
+    if not usuario:
+        raise RuntimeError("tentativa de uso do app sem sessão autenticada")
+    return usuario
+
+
+def _login_bem_sucedido(usuario: str, token: str):
+    """Grava a sessão, limpa params órfãos da URL e recarrega o app."""
+    st.session_state["usuario"] = usuario
+    st.session_state["auth_token"] = token
+    st.query_params.clear()
+    st.query_params["sid"] = token
+    st.rerun()
+
+
+def _gate_login():
+    """Bloqueia o app até haver sessão válida (primeiro passo de `main()`).
+
+    Sem login, só a tela de autenticação é renderizada (`st.stop`). O token
+    opaco `sid` vive na URL porque o Streamlit perde `session_state` em
+    refresh e não grava cookies sem JS; `usuario` nunca vem de query param
+    (seria falsificável)."""
+    if st.session_state.get("usuario"):
+        return
+    sid = _param("sid")
+    if sid:
+        with connect() as con:
+            usuario = auth.usuario_autenticado(con, sid)
+        if usuario:
+            st.session_state["usuario"] = usuario
+            st.session_state["auth_token"] = sid
+            return
+        for chave in ("sid", "usuario"):
+            try:
+                del st.query_params[chave]
+            except KeyError:
+                pass
+    with connect() as con:
+        tem_contas = con.execute("SELECT 1 FROM usuarios LIMIT 1").fetchone()
+    st.markdown("## 🔒 Acesso ao estudo")
+    if not tem_contas:
+        st.error(
+            "Nenhum usuário cadastrado. No servidor, rode:\n\n"
+            "`docker compose exec -T vestibular-app "
+            "python -m vestibular.estudo.usuarios criar eu`"
+        )
+        st.stop()
+    if st.session_state.get("_login_tentativas", 0) >= _MAX_TENTATIVAS_LOGIN:
+        st.warning(
+            "Muitas tentativas incorretas. Recarregue a página "
+            "(ou entre com um novo `?sid=`) para tentar de novo."
+        )
+        st.stop()
+    with st.form("login_form"):
+        nome = st.text_input("Usuário", key="login_nome")
+        senha = st.text_input("Senha", type="password", key="login_senha")
+        entrar = st.form_submit_button("Entrar", type="primary")
+    if entrar:
+        with connect() as con:
+            token = auth.login(con, nome or "", senha or "")
+        if token:
+            _login_bem_sucedido(auth.normalizar_nome(nome), token)
+        st.session_state["_login_tentativas"] = (
+            st.session_state.get("_login_tentativas", 0) + 1
+        )
+        time.sleep(0.5)
+        st.error("Usuário ou senha inválidos")
+    st.stop()
+
+
+_ESTADO_EXPLICITO = (
+    "modo", "usuario", "auth_token", "_carregado", "_login_tentativas",
+    "params_qid", "params_fb", "params_label", "params_numero",
+    "estudar_q", "estudar_fb", "estudar_aviso", "estudar_fsrs",
+    "revisao_q", "revisao_fb", "revisao_aviso", "revisao_fsrs",
+    "explo_label", "explo_cur", "explo_proxima",
+    "stats_area", "filtro_area", "filtro_fase", "filtro_tema",
+    "red_painel_id", "red_hist", "red_tema",
+)
+_ESTADO_PREFIXOS = (
+    "resp_", "res_", "radio_", "certeza_", "certeza_usada_", "causa_",
+    "sintese_", "anotado_", "pag_", "btn_", "ant_", "prox_", "save_", "ign_",
+    "explo_fb_", "red_cancel_", "red_retry_", "red_texto_", "red_hist_",
+)
+
+
+def _logout():
+    """Encerra o token corrente e volta para a tela de login.
+
+    `st.rerun()` é obrigatório: o botão devolve True na MESMA execução em que
+    limpa o estado — sem ele, o script continuaria chamando `_usuario_logado()`
+    já sem sessão."""
+    with connect() as con:
+        auth.revogar_token(con, st.session_state.get("auth_token", ""))
+    for chave in _ESTADO_EXPLICITO:
+        st.session_state.pop(chave, None)
+    for chave in list(st.session_state.keys()):
+        if isinstance(chave, str) and chave.startswith(_ESTADO_PREFIXOS):
+            st.session_state.pop(chave, None)
+    st.query_params.clear()
+    st.rerun()
+
+
+def _form_trocar_senha():
+    """Troca a senha da conta conectada: mantém esta sessão e derruba as outras."""
+    with st.form("troca_senha_form"):
+        atual = st.text_input("Senha atual", type="password", key="ts_atual")
+        nova = st.text_input("Senha nova", type="password", key="ts_nova")
+        repetir = st.text_input("Repita a nova senha", type="password", key="ts_rep")
+        salvar = st.form_submit_button("Salvar", type="primary")
+    if not salvar:
+        return
+    if len(nova) < auth.SENHA_MINIMA:
+        st.error(f"A nova senha precisa de pelo menos {auth.SENHA_MINIMA} caracteres.")
+        return
+    if nova != repetir:
+        st.error("A nova senha e a repetição não conferem.")
+        return
+    with connect() as con:
+        ok = auth.trocar_senha(
+            con,
+            _usuario_logado(),
+            atual,
+            nova,
+            st.session_state.get("auth_token"),
+        )
+    if ok:
+        st.toast("Senha trocada — as outras sessões foram encerradas.", icon="✅")
+    else:
+        st.error("Senha atual incorreta.")
+
+
 def _fb_encode(correta, gabarito) -> str:
     marc = {None: "a", True: "c", False: "e"}.get(correta, "a")
     return f"{marc}:{gabarito or ''}"
@@ -274,22 +413,22 @@ def _fmt_data(iso: str | None) -> str:
 
 def _restaurar_do_url():
     """Na primeira execução após um load (ex.: refresh no celular), restaura os
-    widgets a partir da URL e/ou da sessão persistida no banco: modo, usuário e
-    a questão em aberto."""
+    widgets a partir da URL e/ou da sessão persistida no banco: modo e a
+    questão em aberto (o usuário já vem do gate de login)."""
     if st.session_state.get("_carregado"):
         return
-    st.session_state.setdefault("usuario", _param("usuario") or "eu")
+    usuario = _usuario_logado()
     modo = _param("modo")
     if modo is None:
         with connect() as con:
-            modo, _ = motiva.sessao_atual(con, "eu")
+            modo, _ = motiva.sessao_atual(con, usuario)
         modo = _MODO_LABEL.get(modo or "") or "Estudar"
     if modo not in ("Estudar", "Revisão", "Explorar", "Estatísticas", "Redação", "Relatório"):
         modo = "Estudar"
     st.session_state["modo"] = modo
     if modo in ("Estudar", "Revisão"):
         prefix = "estudar" if modo == "Estudar" else "revisao"
-        _restaurar_questao(prefix, "eu")
+        _restaurar_questao(prefix, usuario)
         _restaurar_fb(prefix)
     elif modo == "Explorar":
         if _param("label") in LABELS:
@@ -333,7 +472,7 @@ def _render_questao(
     on_responder=None,
     feedback=None,
     questao_id: int | None = None,
-    usuario: str = "eu",
+    usuario: str = "",
 ):
     """Renderiza questão (em cima) + página pan/zoom (embaixo).
 
@@ -617,7 +756,7 @@ def _questao_db_id(label: str, numero: int) -> int | None:
 
 def modo_explorar():
     sidebar = st.sidebar
-    usuario = "eu"
+    usuario = _usuario_logado()
     label = sidebar.selectbox("Exame", LABELS, key="explo_label")
     jq = JSON_DIR / f"{label}_questoes.json"
     if not jq.exists():
@@ -739,7 +878,7 @@ def _fases_catalogo():
     }
 
 
-def _reset_filtro():
+def _reset_filtro(usuario: str):
     for k in (
         "estudar_q",
         "estudar_fb",
@@ -754,18 +893,18 @@ def _reset_filtro():
     st.session_state["estudar_fsrs"] = []
     st.session_state["revisao_fsrs"] = []
     with connect() as con:
-        motiva.apagar_sessao(con, "eu")
+        motiva.apagar_sessao(con, usuario)
 
 
 def _muda_area():
     st.session_state["filtro_fase"] = 0
     st.session_state["filtro_tema"] = 0
-    _reset_filtro()
+    _reset_filtro(_usuario_logado())
 
 
 def _muda_fase():
     st.session_state["filtro_tema"] = 0
-    _reset_filtro()
+    _reset_filtro(_usuario_logado())
 
 
 def _mostrar_progresso(usuario: str):
@@ -805,7 +944,7 @@ def _mostrar_progresso(usuario: str):
 
 def modo_estudar():
     sidebar = st.sidebar
-    usuario = "eu"
+    usuario = _usuario_logado()
 
     with connect() as con:
         motiva.marcar_sessao(con, usuario, "estudar")
@@ -845,7 +984,7 @@ def modo_estudar():
         ["Todos os temas", *temas_area],
         index=0,
         key="filtro_tema",
-        on_change=_reset_filtro,
+        on_change=lambda: _reset_filtro(_usuario_logado()),
     )
     tema_id = objs_tema.get(tema, (None, None))[0]
 
@@ -979,7 +1118,7 @@ def modo_revisao():
     sessão) com questão JÁ vista — pendências (erro/dúvida/chute) primeiro,
     depois acertos antigos. Nunca questões inéditas."""
     sidebar = st.sidebar
-    usuario = "eu"
+    usuario = _usuario_logado()
 
     with connect() as con:
         motiva.marcar_sessao(con, usuario, "revisao")
@@ -1019,7 +1158,7 @@ def modo_revisao():
         ["Todos os temas", *temas_area],
         index=0,
         key="filtro_tema",
-        on_change=_reset_filtro,
+        on_change=lambda: _reset_filtro(_usuario_logado()),
     )
     tema_id = objs_tema.get(tema, (None, None))[0]
 
@@ -1220,7 +1359,7 @@ def modo_estatisticas():
     fila de revisão FSRS e histórico. Com área escolhida, tudo é filtrado ao
     contexto da área (desempenho/evolução por fase, temas, exames, revisões e
     histórico sem referências a outras áreas)."""
-    usuario = st.session_state.get("usuario", "eu")
+    usuario = _usuario_logado()
 
     with connect() as con:
         r = estatisticas.resumo(con, usuario)
@@ -1730,7 +1869,7 @@ def _painel_redacao_ativo(usuario: str, envio_id: int):
 def modo_relatorio():
     """Relatório consolidado em Markdown: visão geral, caderno de erros, fila
     FSRS, lacunas UNIVESP e recomendações (`app/relatorio.py`)."""
-    usuario = st.session_state.get("usuario", "eu")
+    usuario = _usuario_logado()
     with connect() as con:
         if estatisticas.resumo(con, usuario)["total"] == 0:
             st.info(
@@ -1750,7 +1889,7 @@ def modo_relatorio():
 
 def modo_redacao():
     _iniciar_worker_redacao()
-    usuario = st.session_state.get("usuario", "eu")
+    usuario = _usuario_logado()
     try:
         criterios = red_criterios.carregar()
     except Exception as e:
@@ -1952,6 +2091,7 @@ def _aviso_vencidos(usuario: str):
 def main():
     estilo.injetar()
     _iniciar_worker_redacao()
+    _gate_login()
     st.markdown(
         estilo.topbar_html(
             "Estudo Vestibular", "FUVEST · UNIVESP · ENEM · FATEC · UNESP"
@@ -1959,7 +2099,7 @@ def main():
         unsafe_allow_html=True,
     )
     _restaurar_do_url()
-    _aviso_vencidos(st.session_state.get("usuario", "eu"))
+    _aviso_vencidos(_usuario_logado())
     kwargs = {}
     if "modo" not in st.session_state:
         kwargs["default"] = "Estudar"
@@ -1970,9 +2110,15 @@ def main():
         key="modo",
         **kwargs,
     )
+    with st.sidebar:
+        st.caption(f"Conectado como `{_usuario_logado()}`")
+        if st.button("Sair", key="btn_sair", use_container_width=True):
+            _logout()
+        with st.expander("🔑 Trocar minha senha"):
+            _form_trocar_senha()
     params = {
         "modo": modo,
-        "usuario": st.session_state.get("usuario", "eu"),
+        "sid": st.session_state.get("auth_token", ""),
         "label": "",
         "numero": "",
         "qid": "",
