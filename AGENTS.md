@@ -200,6 +200,38 @@ Resultado extraído e validado (gabaritos 100% conferidos):
 - **Como rodar:** `docker compose up vestibular-app` → porta `8501` (na rede
   `web` do nginx-proxy-manager). O serviço usa `app/study.py` como comando.
 
+## Login e multiusuário (app Streamlit)
+
+- O app exige senha: `_gate_login()` é o primeiro passo do `main()` e, sem
+  sessão válida, renderiza **só** a tela de login (`st.stop`); todo o resto do
+  app usa `_usuario_logado()` (não há mais `"eu"` hardcoded — o progresso
+  legado está em `usuario='eu'`, basta criar a conta `eu` e logar; sem
+  migração de dados). Contas em `usuarios` (nome minúsculo `^[a-z0-9_.-]{2,30}$`,
+  hash PBKDF2-HMAC-SHA256 600k iterações — stdlib só, em
+  `src/vestibular/estudo/auth.py`); sessão em `auth_sessoes` como token opaco
+  transportado no query param **`?sid=`** da URL (Streamlit perde
+  `session_state` em refresh e não grava cookies sem JS), expira em 30 dias e
+  é revogável. Login de conta inexistente verifica hash-dummy (tempo
+  equivalente — sem enumeração); 5 falhas na janela travam o form até
+  recarregar. No app: **"Sair"** revoga o sid atual e **"Trocar minha senha"**
+  mantém a sessão corrente derrubando as outras.
+- **Cadastro só via CLI do admin** (`src/vestibular/estudo/usuarios.py`):
+  ```bash
+  docker compose exec -T vestibular-app python -m vestibular.estudo.usuarios \
+    criar eu            # senha via getpass 2× (ou --senha p/ não interativo)
+  ```
+  Subcomandos: `criar` | `senha <nome>` (admin: derruba TODAS as sessões) |
+  `listar` | `excluir <nome>` (apaga conta+tokens; **não** apaga progresso) |
+  `revogar-sessoes [<nome>]`. **Na 1ª subida em produção o app mostra a tela
+  de bootstrap pedindo `criar eu`** — rodar antes do próximo acesso do dono.
+- **MCP e smoke fora do login (decisão):** `vestibular-mcp` continua sem
+  autenticação (rede interna `web`, `usuario` é parâmetro livre nas tools);
+  o `redacao.smoke enviar` grava como `usuario='smoke'` — invisível no app sem
+  login numa conta `smoke`.
+- **Sessões são por usuário, não por dispositivo:** `sessoes` (questão/modo em
+  aberto) tem PK só em `usuario`; duas janelas da mesma conta se sobrescrevem
+  na restauração pós-refresh.
+
 ## Módulo de redação (correção por LLM + aula do tutor — assíncrono)
 
 - 5ª aba **Redação** no app + pacote `src/vestibular/redacao/`: o aluno escolhe
@@ -246,7 +278,8 @@ Resultado extraído e validado (gabaritos 100% conferidos):
   docker compose exec -T vestibular-app python -m vestibular.redacao.worker --once
   ```
   O `smoke enviar` usa `usuario='smoke'` no DB real (linhas em
-  `redacao_envios`; invisíveis no histórico do app, que filtra por usuário).
+  `redacao_envios`; invisíveis no histórico do app, que filtra por usuário —
+  só apareceriam logando numa conta `smoke`).
 - **Cuidado:** subir um 2º `vestibular-app` (ou CLI `--loop` junto com o app)
   multiplica a fila sem trava externa — o singleton cobre só 1 processo
   (claim atômico impede processar 2× o mesmo job, mas não coordenaria threads).
@@ -265,6 +298,8 @@ Resultado extraído e validado (gabaritos 100% conferidos):
 - **Como rodar:** `docker compose up -d vestibular-mcp` → serviço interno na
   rede `web`, URL `http://vestibular-mcp:8891/sse`, **sem porta publicada no
   host** (AnythingLLM alcança só pela rede).
+- **Sem autenticação (decisão):** o login protege **só** o app Streamlit; o
+  `usuario` nas tools MCP é parâmetro livre — segurança pela rede interna.
 - **Interface REST (FastAPI):** o `main()` envolve o transport SSE do FastMCP
   numa app FastAPI — `/sse` e `/messages/` intactos p/ clientes MCP nativos;
   acrescenta `/openapi.json`, `/docs`, `/.well-known/mcp.json`,
@@ -339,7 +374,10 @@ MESMA questão após refresh, mesmo sem `?qid=` na URL; filtros mudados
 `redacao_envios` (fila da redação: job por envio com `status`
 `fila|corrigindo|aulando|concluido|erro|cancelado`, `fase_erro`,
 `tentativas`, payloads `correcao_json`/`aula_json`, `nota_total`, `anulado` —
-ver seção "Módulo de redação"; criada pela `SCHEMA` na 1ª conexão).
+ver seção "Módulo de redação"; criada pela `SCHEMA` na 1ª conexão), mais as
+tabelas do login: `usuarios` (conta: `nome` + `hash_senha` PBKDF2 +
+`criado_em`) e `auth_sessoes` (tokens opacos `?sid=` da URL, com `expira_em`
+de 30 dias — ver seção "Login e multiusuário").
 Pendente do plano original:
 `ia/dificuldade` (score), `ia/classificar`, `ia/feedback`.
 

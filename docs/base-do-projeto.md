@@ -31,8 +31,9 @@ Construir um pipeline que:
 - **Pipeline em Python puro** (CLI + SQLite), independente de qualquer
   framework web.
 - **Interface de estudo em Streamlit** (Python puro, renderiza imagens com
-  alta qualidade no navegador). Migrar para Django só se virar multi-usuário /
-  produto web.
+  alta qualidade no navegador). Migrar para Django só se virar produto web —
+  multiusuário foi resolvido no próprio Streamlit com login por senha +
+  sessão `sid` na URL (§8.2).
 - **Extração (VALIDADO):** IA multimodal (Gemini) lê os PDFs nativamente e
   retorna o JSON das questões estruturado (substitui OCR/PyMuPDF-parser na
   prática atual — ver §6). `PyMuPDF`/`PaddleOCR` ficam como plano B para
@@ -481,6 +482,44 @@ criado_em, atualizado_em ISO` + índice `(status, id)`. Fora da v1: FSRS/θ/nív
 **Rede (verificado):** o container do app (bridge `web`, sem host) alcança o
 router Tailscale (`GET /v1/models` 200 e job completo dentro do container via
 `docker compose exec`) — **não** foi preciso `network_mode: host`.
+
+### 8.2. Login com senha e sessões multiusuário — implementado
+
+O app de estudo exige autenticação: `_gate_login()` (primeiro passo do
+`main()` em `app/study.py`) renderiza **somente** a tela de login enquanto não
+houver sessão válida; todo o resto do app recebe o usuário de
+`_usuario_logado()` (o `"eu"` hardcoded foi eliminado — o progresso legado do
+banco está integramente em `usuario='eu'`; basta criar a conta `eu` e logar).
+
+- **Contas:** tabela `usuarios` (PK `nome` minúsculo, casado em
+  `^[a-z0-9_.-]{2,30}$` — mínimo 2 para permitir a conta `eu`) com senha em
+  PBKDF2-HMAC-SHA256 (600k iterações, salt 16 B; formato
+  `pbkdf2_sha256$<it>$<salt>$<hash>`) — stdlib pura, sem dependência nova.
+  **Cadastro exclusivamente pelo CLI do admin**
+  (`python -m vestibular.estudo.usuarios criar|senha|listar|excluir|revogar-sessoes`);
+  sem registro aberto no app.
+- **Sessão que sobrevive a refresh:** token opaco `secrets.token_urlsafe(32)`
+  na tabela `auth_sessoes` (expira em 30 dias; expirados são purgados a cada
+  login) transportado no query param **`?sid=`** da URL — integra-se ao
+  mecanismo `_param`/`_sync_params`/`_restaurar_do_url` já existente, porque o
+  Streamlit perde `session_state` em refresh e não grava cookies sem JS.
+  Riscos aceitos: o sid aparece em histórico/sharing de URL — mitigado por ser
+  opaco, revogável (botão "Sair"/CLI) e temporário, com o app atrás do nginx
+  em LAN. Cookie foi descartado; `usuario` **nunca** vem da URL (seria
+  falsificável — só o sid, conferido no banco).
+- **Senhas:** login de usuário inexistente verifica um hash-dummy com as
+  mesmas iterações (tempo de resposta equivalente → sem enumeração de contas);
+  5 falhas na mesma janela de sessão travam o formulário até recarregar.
+  No app há "Trocar minha senha" (auth.trocar_senha mantém o sid corrente e
+  derruba as outras sessões); pelo admin (`senha <nome>`) derruba todas.
+  `excluir` apaga conta+tokens mas **não** apaga progresso (reversível).
+- **Por usuário, não por dispositivo:** `sessoes` (questão/modo em aberto) tem
+  PK só em `usuario` — duas janelas logadas na mesma conta se sobrescrevem na
+  restauração pós-refresh (comportamento herdado do app de usuário único).
+- **MCP sem autenticação (decisão):** o login protege **apenas o app**; o
+  `vestibular-mcp` continua só na rede interna `web` (LAN) com `usuario`
+  parâmetro livre nas tools. O `redacao.smoke enviar` grava como
+  `usuario='smoke'` e fica invisível no app sem conta/login correspondente.
 
 ---
 
